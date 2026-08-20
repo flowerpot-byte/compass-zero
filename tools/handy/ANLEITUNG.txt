@@ -1,0 +1,159 @@
+COMPASS ZERO -- alles selbst machen, ohne Hilfe
+================================================
+
+Die drei Werkzeuge sind zum Anklicken -- Doppelklick, Fenster offen
+lassen, fertig. Sie liegen im Projekt unter tools\handy :
+
+  1 APK BAUEN.bat      Baut die App neu, mit dem NEUESTEN Inhalt
+  2 KARTE BAUEN.bat    Baut die Karte fuer ein Land deiner Wahl
+  3 AUFS HANDY.bat     Spielt App und Karten aufs Telefon
+
+Alles, was dabei entsteht, landet in work\fuers-handy :
+
+  compass-zero.apk     die App
+  *.czk                Kartendateien
+  STAND.txt            Was dort gerade liegt: Datum, Anzahl der
+                       Eintraege, Pruefsummen. Schreibt sich bei jedem
+                       Bau selbst neu.
+
+TIPP: Zieh dir von den drei Dateien eine Verknuepfung auf den Desktop,
+dann sind sie mit einem Doppelklick da.
+
+
+------------------------------------------------------------------
+1) DIE APP NEU BAUEN
+------------------------------------------------------------------
+
+Doppelklick auf "1 APK BAUEN.bat".
+
+Das Werkzeug sucht sich Java und das Android-SDK selbst. Es packt den
+aktuellen Inhalt, unterschreibt ihn, prueft die Unterschrift und baut
+daraus die APK. Am Ende liegt compass-zero.apk in diesem Ordner, und
+STAND.txt sagt, wie viele Eintraege drin sind.
+
+Dauert beim ersten Mal ein paar Minuten, danach meist unter einer Minute.
+
+GEHT ETWAS SCHIEF: Das Werkzeug sagt, an welchem Schritt. Die alte APK
+bleibt dabei unangetastet und weiter benutzbar -- du kannst also nichts
+kaputtmachen, indem du es einfach probierst.
+
+
+------------------------------------------------------------------
+2) EINE KARTE FUER EIN LAND BAUEN
+------------------------------------------------------------------
+
+Doppelklick auf "2 KARTE BAUEN.bat". Es fragt nach dem Land.
+
+  - Tippst du "Liste" ein, siehst du alle Namen, die es kennt
+    (250 Gebiete, davon 201 mit eigenem Auszug).
+  - Sonst rechnet es ZUERST aus, wie gross die Datei wird und wie lange
+    es dauert, und fragt dann, ob es losgehen soll.
+
+Richtwerte: Luxemburg rund 25 MB und 4 Minuten. Montenegro 23 MB und
+11 Minuten. Deutschland rund 2 GB und mehrere Stunden.
+
+DAS BAUEN DARF ABBRECHEN. Beim naechsten Start wird da weitergemacht, wo
+es aufgehoert hat -- fertige Zwischenschritte bleiben liegen. Der Rechner
+darf waehrenddessen normal benutzt werden.
+
+FUENF LAENDER SIND ZU GROSS fuer eine einzelne Datei (USA, Kanada,
+Frankreich, Deutschland, Russland). Die muessen in Stuecke geteilt
+werden; dafuer ist noch kein Klick-Werkzeug da.
+
+
+------------------------------------------------------------------
+3) AUFS TELEFON
+------------------------------------------------------------------
+
+MIT KABEL, der bequeme Weg:
+
+  Telefon anstecken, entsperren, dann Doppelklick auf
+  "3 AUFS HANDY.bat". Es zeigt die angeschlossenen Geraete, FRAGT NACH,
+  ob es das richtige ist, spielt dann die App auf und schiebt alle
+  Kartendateien in den Ordner "Download".
+
+  Damit das geht, muss am Telefon einmal eingeschaltet werden:
+    Einstellungen > Ueber das Telefon > siebenmal auf "Build-Nummer"
+    tippen, dann Einstellungen > System > Entwickleroptionen >
+    USB-Debugging an. Beim ersten Anstecken fragt das Telefon nach --
+    bestaetigen.
+
+OHNE KABEL, geht genauso gut:
+
+  Die Dateien einfach in den Ordner "Download" des Telefons kopieren --
+  ueber Speicherkarte, Cloud, wie du magst. Die APK dort antippen zum
+  Installieren.
+
+  NICHT von Hand nach Android/data kopieren. Das sperrt Android seit
+  Fassung 11 fuer Dateimanager. Die App holt sich die Dateien selbst.
+
+
+------------------------------------------------------------------
+4) DIE KARTEN IN DER APP EINLESEN
+------------------------------------------------------------------
+
+Kartendateien liegen nach Schritt 3 erst im Ordner "Download". Die App
+muss sie noch uebernehmen:
+
+  App oeffnen  >  Einstellungen  >  "Karte einlesen"
+  >  KARTENDATEI AUSWAEHLEN  >  Download  >  die Datei antippen
+
+Die App kopiert sie in ihren eigenen Ordner und prueft dabei die
+Unterschrift. Danach steht eine Zeile da wie:
+
+  "oesterreich-detail.czk" - 329 MB - Signatur geprueft: entwicklung
+  - Zoom 11-14 - 24 100 Kacheln
+
+Steht dort "Signierer UNBEKANNT" oder "Nicht lesbar", ist beim Kopieren
+etwas schiefgegangen: Datei noch einmal uebertragen.
+
+DANACH EINMAL DEN REITER WECHSELN. Auf etwas anderes tippen und zurueck
+auf "Karte" -- die Kartenansicht liest ihren Bestand beim Aufbau, sonst
+steht noch die alte da.
+
+PLATZ: Waehrend des Einlesens liegt jede Karte ZWEIMAL auf dem Telefon.
+Rechne mit dem Doppelten der Dateigroesse als freiem Platz. Danach
+koennen die Dateien in "Download" geloescht werden.
+
+
+------------------------------------------------------------------
+WENN DAS AUFSPIELEN SCHEITERT
+------------------------------------------------------------------
+
+"INSTALL_FAILED_UPDATE_INCOMPATIBLE ... signatures do not match"
+
+  Auf dem Telefon liegt eine aeltere Compass Zero, die mit einem anderen
+  Schluessel unterschrieben wurde. Android laesst sie dann nicht
+  ueberschreiben. Loesung: die alte App am Telefon deinstallieren, dann
+  neu aufspielen. ACHTUNG: Gemerkte Eintraege und eingelesene Karten
+  gehen dabei verloren.
+
+"Apps aus unbekannten Quellen"
+
+  Beim Antippen der APK fragt Android einmal, ob Apps aus dieser Quelle
+  installiert werden duerfen. Das muss erlaubt werden -- die App kommt
+  nicht aus dem Play Store.
+
+
+------------------------------------------------------------------
+PRUEFEN, OB EINE DATEI HEIL ANGEKOMMEN IST
+------------------------------------------------------------------
+
+In STAND.txt steht zu jeder Datei eine Pruefsumme. Nachrechnen auf dem
+Rechner, in der Eingabeaufforderung:
+
+    certutil -hashfile compass-zero.apk SHA256
+
+Kommt dieselbe Zeichenfolge heraus, ist die Datei heil.
+
+
+------------------------------------------------------------------
+WAS DIE APP OHNE ZUSATZ SCHON KANN
+------------------------------------------------------------------
+
+Die APK bringt alles Wissen mit -- alle Eintraege, alle Zeichnungen,
+einen Kartenueberblick und die Gelaendeform von Oesterreich. Die grossen
+Kartendateien sind der Ausbau, kein Muss.
+
+Kein Internet, keine Ortung, keine Datensammlung. Die App fragt nichts
+ab und schickt nichts weg.

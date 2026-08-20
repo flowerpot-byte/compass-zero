@@ -16973,6 +16973,691 @@
       "situations": [
         "lage-und-gefahr"
       ]
+    },
+    {
+      "id": "taktisch-fahrzeug-steckengeblieben",
+      "title": "Steckengeblieben: was das Fahrzeug freibekommt, was es tiefer setzt",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "festgefahren",
+        "steckengeblieben",
+        "stecken geblieben",
+        "auto steckt fest",
+        "fahrzeug steckt fest",
+        "schlamm",
+        "matsch",
+        "sand",
+        "schnee",
+        "durchdrehende räder",
+        "räder drehen durch",
+        "keine traktion",
+        "freischaufeln",
+        "fahrzeug bergen",
+        "bergung",
+        "auto sitzt fest"
+      ],
+      "body": "DER ERSTE REFLEX IST FAST IMMER FALSCH. Wer beim Steckenbleiben sofort mehr Gas gibt, gräbt sich nur tiefer ein — die durchdrehenden Räder schleudern genau das weg, was noch Halt geben würde. Für ein Fahrzeug mit Automatikgetriebe sagt es die Quelle wörtlich: nicht schaukeln, das Fahrzeug gräbt sich dadurch nur weiter ein. Sobald das Fahrzeug einsinkt, gilt zuerst: VOM GAS GEHEN, nicht weiter Kraft auf die Antriebsräder geben.\n\nIN SCHLAMM UND WEICHEM BODEN:\n— Den Gang wählen, mit dem man durchkommt, mit mäßigem, gleichmäßigem Tempo auf die weiche Stelle rollen und das Gas GLEICHMÄSSIG halten, bis wieder fester Grund da ist.\n— Türmt sich Schlamm vor den Rädern auf und das Fahrzeug bleibt stehen: sofort zurücksetzen und mit neuem Schwung noch einmal ansetzen. Sofort, denn sonst füllt sich auch die Spur hinter den Rädern mit Schlamm, und selbst das Zurücksetzen wird schwer. Dafür muss hinter dem Fahrzeug noch fester Boden erreichbar sein.\n— Bretter, Äste, Reisig oder Ähnliches unter die Räder legen erhöht die Traktion deutlich.\n\nIN SAND:\n— Reifendruck absenken vergrößert die Aufstandsfläche, das Fahrzeug trägt eher, statt einzusinken — aber nie so weit, dass der Reifen auf der Felge durchrutscht. Danach LANGSAM fahren und den Druck wieder aufpumpen, sobald fester Boden erreicht ist.\n— Ein freigeschaufelter Pfad vor den Rädern hilft, ebenso Bretter, Reisig, eine Plane oder Maschendraht unter und vor den Reifen.\n— Weite Kurven fahren. Enges Lenken auf weichem Untergrund kann das Fahrzeug zusätzlich festsetzen.\n\nIM SCHNEE UND AUF MATSCHIGEM SCHNEE: Beginnt ein Rad zu drehen, SOFORT auskuppeln, zurücksetzen und mit neuem Anlauf erneut versuchen — nicht weiterdrehen lassen. Sand, Splitt oder einfache Erde, unter die Antriebsräder gestreut, gibt nach der Quelle sogar mehr Halt als Schneeketten, weil Ketten auf Eis und festgefahrenem Schnee selbst rutschen.\n\nWENN NICHTS DAVON REICHT: Nicht mit eigener Motorkraft erzwingen — ein Fahrzeug, das unter eigener Kraft weiterarbeitet, sinkt oft nur tiefer. Dann hilft nur noch Zug von außen: ein anderes Fahrzeug, eine Seilwinde, oder als Notbehelf ein Hebel mit Muskelkraft. Wie ein Seil dabei sicher befestigt wird, steht in „Abschleppen und Anschieben: wo das Seil sicher hält“.\n\nEIN RAD IN EINEM LOCH ODER GRABEN: Mit einem Baumstamm und einer Kette lässt es sich anheben. Den Stamm ans Rad ketten und LANGSAM anfahren, damit das Rad nicht durchdreht — ein durchdrehendes Rad schleudert den Stamm gegen den Kotflügel. Sobald das Loch überwunden ist, den Stamm unter das Rad zwingen, damit es nicht zurückfällt.\n\nDIE REGEL, DIE VOR ALLEM ANDEREN STEHT, und die Quelle hebt sie eigens hervor: Zeit nehmen. Die meisten gescheiterten Bergungen liegen nicht an fehlender Kraft, sondern an Eile — ein zu schnell gewähltes Manöver, ein Seil, das unter Spannung reißt.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE — UND LEBENSWICHTIG: Läuft der Motor weiter, während das Fahrzeug feststeckt, etwa um zu heizen: erst den Auspuff freilegen und prüfen, ob er nicht von Schnee oder Schlamm verstopft ist. Ein verstopfter Auspuff drückt Kohlenmonoxid ins Wageninnere, unbemerkt und tödlich. Nie mit laufendem Motor im Fahrzeug schlafen, und beim Heizen ein Fenster einen Spalt offenlassen.",
+      "sources": [
+        {
+          "name": "US-Heer/US-Luftwaffe, FM 21-305/AFMAN 24-306 „Manual for the Wheeled Vehicle Driver“",
+          "detail": "Ausgabe 1993, Kapitel 21 „Off-Road Driving“, Abschnitte „Mud and Swamps“ und „Sand“ (Freikommen, Reifendruck, Bugsierhilfen) sowie Kapitel 22 „Vehicle Recovery“, Abschnitt „Field Expedients“ (Rad im Loch: Stamm und Kette). Volltext über archive.org, Item fm-21-305-manual-for-the-wheeled-vehicle-driver-1993, am 20.08.2026 gelesen. US-Bundeswerk, gemeinfrei."
+        },
+        {
+          "name": "US-Heer/US-Luftwaffe, FM 21-305/AFMAN 24-306 „Manual for the Wheeled Vehicle Driver“",
+          "detail": "Dieselbe Ausgabe, Kapitel 21, Abschnitt „Winter Driving“ (Schnee/Matsch: bei drehendem Rad auskuppeln und zurücksetzen; Sand/Splitt/Erde als Traktionshilfe; Warnung vor Kohlenmonoxid bei laufendem Motor). Volltext am 20.08.2026 gelesen. Der Hinweis zum verstopften Auspuff beim Steckenbleiben ist Einordnung dieses Pakets."
+        }
+      ],
+      "situations": [
+        "unterwegs",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-fahrzeug-abschleppen",
+      "title": "Abschleppen und Anschieben: wo das Seil sicher hält",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "abschleppen",
+        "abschleppseil",
+        "abschleppöse",
+        "anschieben",
+        "anschieben starten",
+        "fahrzeug ziehen",
+        "auto ziehen",
+        "abschleppstange",
+        "seil befestigen",
+        "kette",
+        "zugöse",
+        "anhängepunkt",
+        "seilwinde",
+        "winde",
+        "gurt reißt"
+      ],
+      "body": "DIE FALSCHE STELLE IST DER HÄUFIGSTE FEHLER, UND ER KOSTET TEURE TEILE ODER SCHLIMMERES. Ein Seil, eine Kette oder ein Gurt gehört NICHT an die Stoßstange, nicht an einen Kunststoffträger, nicht an ein beliebiges Rohr am Unterboden. Solche Teile sind nicht für Zuglast gebaut — sie reißen ab, mitunter mit dem halben Karosserieteil daran. Die Quelle ist eindeutig: Kette, Seil oder Kabel werden an der Anhängerkupplung des ziehenden Fahrzeugs befestigt und an den dafür vorgesehenen Hebeösen des gezogenen Fahrzeugs — nirgends sonst. An einem gewöhnlichen Auto ist das entweder eine feste Öse am Rahmen oder eine Gewindeöse, die vor der Fahrt in eine Aufnahme hinter einer Abdeckung in der Stoßstange geschraubt wird; wo sie sitzt, steht im Bordbuch.\n\nEIN STARRER ZUGBALKEN IST BESSER ALS SEIL, KETTE ODER KABEL — das nennt die Quelle als ausdrückliche Rangfolge. Grund: Ein Zugbalken hält Abstand und verhindert, dass das gezogene Fahrzeug auf das ziehende auffährt. Wird trotzdem ein Seil oder eine Kette benutzt, gehört eine zweite Sicherung dazu, falls der Zugbalken bricht oder sich löst.\n\nWIE GEZOGEN WIRD:\n— Langsam. Für Stadt- und dichten Verkehr nennt die Quelle etwa 8 bis 16 km/h — schneller schert das gezogene Fahrzeug in Kurven aus.\n— Warnblinker oder eine Warnflagge am gezogenen Fahrzeug.\n— In jedem gezogenen Fahrzeug sitzt jemand am Lenkrad, der lenkt und bremst — außer bei einem echten Abschleppwagen, der das Fahrzeug vollständig trägt.\n— Ruckartiges Anfahren und abruptes Bremsen vermeiden. Beides reißt an der Verbindung.\n\nDIE GEFAHR, DIE MAN NICHT SIEHT, BIS SIE PASSIERT: Ein Seil oder Kabel unter Zug speichert Energie wie eine gespannte Feder. Reißt es, schlägt es zurück — mit genug Wucht, um schwer zu verletzen oder zu töten. Die Quelle sagt das ausdrücklich für die Seilwinde, und dieselbe Physik gilt für jedes gespannte Zugmittel: Niemand steht in der Verlängerung der Zugrichtung, während das Seil unter Spannung steht — weder davor noch dahinter, sondern seitlich außerhalb. Beim Anfassen von Kette, Kabel oder Drahtseil schützen Handschuhe zusätzlich die Hände.\n\nANSCHIEBEN — UND WARUM DIE QUELLE DAVON ABRÄT, WENN ES UMS STARTEN DES MOTORS GEHT: Bei kaltem Wetter empfiehlt sie ausdrücklich, einen nicht anspringenden Motor ABZUSCHLEPPEN statt anzuschieben. Nur bei Schaltgetriebe funktioniert Anschieben zum Starten überhaupt, bei Automatikgetriebe nicht. Wer anschiebt, braucht vorn ein Fahrzeug oder eine Person, die lenken UND bremsen kann, sobald der Motor anspringt — sonst rollt der Wagen unkontrolliert weiter.\nWird von Hand geschoben: nur an festen Karosserieteilen anfassen, nicht an Scheiben, Spiegeln oder Kunststoffstoßfängern. Nie bergab schieben und dabei vor dem Fahrzeug stehen — es kann einen selbst überrollen.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Ein Abschleppseil aus dem Baumarkt oder ein einfacher Gurt hält oft deutlich weniger, als die Bewegungsenergie eines Fahrzeugs verlangt, besonders bei ruckartigem Anfahren. Lieber sanft anrollen lassen, bis das Seil straff ist, und erst DANN Zug aufbauen — nicht mit Schwung anfahren.",
+      "sources": [
+        {
+          "name": "US-Heer/US-Luftwaffe, FM 21-305/AFMAN 24-306 „Manual for the Wheeled Vehicle Driver“",
+          "detail": "Ausgabe 1993, Kapitel 22 „Vehicle Recovery“, Abschnitte „Towing Vehicles“ (Anhängepunkte, Zugbalken vor Seil, Tempo, Sicherung) und „Winch Recovery“/„Winch Safety“ (Seil unter Spannung, Warnung vor Peitschenschlag beim Reißen). Volltext über archive.org, Item fm-21-305-manual-for-the-wheeled-vehicle-driver-1993, am 20.08.2026 gelesen. US-Bundeswerk, gemeinfrei."
+        },
+        {
+          "name": "US-Heer/US-Luftwaffe, FM 21-305/AFMAN 24-306 „Manual for the Wheeled Vehicle Driver“",
+          "detail": "Dieselbe Ausgabe, Kapitel 21, Abschnitt „Winter Driving“ (kalter Motor: Abschleppen statt Anschieben empfohlen). Volltext am 20.08.2026 gelesen. Hinweise zur Handöse am PKW und zur Belastbarkeit von Baumarkt-Abschleppseilen sind Einordnung dieses Pakets."
+        }
+      ],
+      "situations": [
+        "unterwegs",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-furt-beurteilen",
+      "title": "Furt beurteilen, bevor man mit dem Fahrzeug hineinfährt",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "furt",
+        "furt fahren",
+        "fluss mit auto durchfahren",
+        "wasser durchfahren",
+        "durch den fluss fahren",
+        "watfähigkeit",
+        "wattiefe",
+        "strömung fahrzeug",
+        "flussdurchfahrt",
+        "bach mit auto überqueren",
+        "überschwemmte straße befahren",
+        "tiefe messen furt",
+        "fluss queren fahrzeug"
+      ],
+      "body": "WER EINE FURT BEURTEILT, PRÜFT VIER DINGE — STRÖMUNG, GRUND, UFER UND TIEFE —, UND ERST DANACH FÄHRT ER HINEIN. Die Zahlen dazu stammen aus einer Vorschrift für Militärfahrzeuge an Flüssen; sie lassen sich nicht 1:1 auf ein normales Auto übertragen, wo genau die Grenze für den eigenen Wagen liegt, steht weiter unten — aber die Reihenfolge der Prüfung gilt für jedes Fahrzeug.\n\nZUERST DIE STRÖMUNG, WEIL SIE ÜBER ALLES ANDERE ENTSCHEIDET: Als noch fahrbar gilt eine Strömung von WENIGER ALS ETWA 1,5 METERN PRO SEKUNDE — kaum schneller, als ein Mensch geht. Ein Ast oder ein Stück Holz, ins Wasser geworfen, zeigt es: Treibt es deutlich schneller als im Gehtempo, ist die Furt zu schnell, egal wie flach sie aussieht.\n\nDANN DER GRUND: Er muss FEST, GLEICHMÄSSIG und FREI VON GRÖSSEREN STEINEN sein. Ein einzelner großer Stein kann ein Rad hochdrücken; bei einem normalen Auto reicht er, um Ölwanne oder Auspuff aufzureißen. Weicher Grund unter der Wasseroberfläche ist von oben nicht zu erkennen — deshalb wird die Tiefe an mehreren Stellen quer zur Furt geprüft, am besten zu Fuß mit einem langen Stock, wie es die Anleitung „Einen Fluss durchqueren“ fürs Waten beschreibt. Sinkt der Grund unter dem eigenen Gewicht spürbar ein, sinkt er auch unter dem Fahrzeug.\n\nDIE UFER: Die Böschung darf nicht steiler als ETWA EIN DRITTEL sein, grob 18 Grad, und der Boden muss dort fest sein — sonst gräbt sich das Fahrzeug beim Ein- oder Ausfahren selbst ein. Ein Ufer, das schon einmal befahren wurde, ist danach oft aufgeweicht; die zweite oder dritte Spur findet dort unter Umständen kein festes Ufer mehr.\n\nDIE TIEFE — UND HIER WIRD ES FÜR EIN NORMALES AUTO GEFÄHRLICH: Die Quelle nennt für Radfahrzeuge eine Wattiefe von 0,75 Metern, für Kettenfahrzeuge 1,20 Meter. Das sind Werte für Militärfahrzeuge mit hoher Bodenfreiheit, abgedichteter Elektrik und teils eigens montierten Watkits. EINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Für einen gewöhnlichen PKW gelten diese Zahlen NICHT. Der Lufteinlass des Motors sitzt bei den meisten Autos sehr viel tiefer als bei einem Lastwagen, oft nur wenig über der Stoßstange. Zieht der Motor beim Ansaugen Wasser statt Luft, ist er sofort defekt — meist irreparabel —, und das kann schon bei einer Tiefe passieren, die von außen harmlos aussieht. Der Tipp „Hochwasser: fünfzehn Zentimeter reichen“ nennt sechzig Zentimeter als die Tiefe, ab der die meisten Autos aufschwimmen — das ist die äußerste Grenze für JEDES Fahrzeug, nicht der Wert, bei dem man beginnt. Ein normaler PKW kann schon deutlich darunter liegenbleiben.\n\nWAS AM HÄUFIGSTEN ÜBERSPRUNGEN WIRD: Steigt das Wasser gerade — nach Regen weiter oben im Einzugsgebiet, auch wenn es am eigenen Standort trocken aussieht —, kann eine Furt, die eben noch machbar war, es zehn Minuten später nicht mehr sein. Im Zweifel warten oder umkehren.\n\nWIE MAN DURCHFÄHRT, WENN DIE PRÜFUNG GUT AUSFÄLLT: Im niedrigen Gang, mit gleichmäßigem, langsamem Tempo und OHNE ANZUHALTEN durchfahren. Auf trockenem Grund danach die Bremsen bei langsamer Fahrt prüfen; bremsen sie nicht sauber, mit leichtem, gleichmäßigem Druck weiterfahren — die entstehende Reibungswärme trocknet sie.\n\nWENN ES SCHIEFGEHT: Bleibt das Fahrzeug mitten in der Furt stehen oder beginnt es zu treiben, gilt „Auto versinkt: das Fenster ist der Ausgang, nicht die Tür“.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Die sicherste Furt ist die, die man nicht braucht. Gibt es eine Brücke oder einen Umweg, hat er Vorrang vor jeder Durchfahrt durchs Wasser, auch wenn er länger ist.",
+      "sources": [
+        {
+          "name": "US-Heer, FM 90-13/MCWP 3-17.1 „River Crossing Operations“",
+          "detail": "Fassung vom 26.01.1998, Kapitel 7 „Crossing Sites“ (Table 7-1 Wattiefen, Abschnitte „River Conditions“ und „Banks“) sowie Kapitel 8 „Fording Vehicles“ (Strömung unter 1,5 m/s, fester hindernisfreier Grund). Volltext über archive.org, Item FM9013RiverCrossingOperations, am 20.08.2026 gelesen. US-Bundeswerk, gemeinfrei."
+        },
+        {
+          "name": "US-Heer/US-Luftwaffe, FM 21-305/AFMAN 24-306 „Manual for the Wheeled Vehicle Driver“",
+          "detail": "Ausgabe 1993, Kapitel 21 „Off-Road Driving“, Abschnitt „Streams“ (Grund vor der Furt prüfen, Einsinken gegen Wattiefenlimit rechnen, Bremsen danach trockenfahren). Volltext über archive.org, Item fm-21-305-manual-for-the-wheeled-vehicle-driver-1993, am 20.08.2026 gelesen. US-Bundeswerk, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "unterwegs",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-strasse-beschaedigt-befahren",
+      "title": "Straße beschädigt: wie man weiterkommt, ohne stehenzubleiben",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "beschädigte straße",
+        "schlagloch",
+        "ausgewaschene straße",
+        "graben überqueren",
+        "randstreifen",
+        "bankett",
+        "seitenstreifen",
+        "steile straße",
+        "steiler weg",
+        "schotterstraße",
+        "unbefestigte straße",
+        "geländefahrt straße",
+        "straße weg",
+        "abgerutschter weg",
+        "fahrbahn kaputt"
+      ],
+      "body": "GRUNDSATZ VOR ALLEM ANDEREN, UND SO STEHT ES IN DER QUELLE: Ist eine schwierige Stelle nicht sicher zu beurteilen, ANHALTEN UND ZU FUSS ANSEHEN, bevor man mit dem Fahrzeug hineinfährt. Danach den Gang wählen, mit dem man durchkommt. Fährt ein Fahrzeug voraus, warten, bis es durch ist, und bereit sein zu helfen, falls es steckenbleibt.\n\nEIN GRABEN QUER ZUR FAHRSPUR: Ist er flach, im niedrigen Gang langsam SCHRÄG hineinfahren, sodass ein Rad den Graben schon wieder verlässt, während das andere Rad auf derselben Seite noch hineinfährt — das nimmt den Stoß aus der Überfahrt. Bei einem tiefen Graben: niedrigster Gang, Allrad falls vorhanden, und am Boden angekommen genug Gas geben, um beim Hochfahren der Gegenseite nicht stehenzubleiben. Ist die Böschung sehr steil, hilft es, die Kante vorher etwas abzuflachen.\n\nEINE AUSGEWASCHENE RINNE ODER SCHLUCHT — GENAU DAS, WAS STARKREGEN AUS EINER STRASSE MACHEN KANN: Beide Böschungen ansehen, bevor man hineinfährt. Fließt dort Wasser, die Tiefe prüfen. Im niedrigen Gang im RECHTEN WINKEL zur Kante langsam annähern. Mit der Fußbremse dosieren, sodass beide Vorderräder GLEICHZEITIG unten ankommen — schräg auftreffende Räder können das Fahrzeug verwinden oder festsetzen. Sobald die Räder den Boden berühren, den Motor auf Drehzahl bringen, und sobald die Vorderräder die Gegenböschung erreichen, beschleunigen, um hochzukommen.\n\nFELSIGER UNTERGRUND: Große Steine nie überfahren, als wolle man sie überspreizen — sie beschädigen Achse und Unterboden. Langsam fahren, und liegende Steine nach Möglichkeit beiseiteräumen, statt über sie zu fahren.\n\nGERÄT DAS FAHRZEUG AUF DEN UNBEFESTIGTEN RAND, WEIL DIE FAHRBAHN AUFHÖRT ODER AUSGEBROCHEN IST: Lenkrad FEST halten und geradeaus weiterfahren, nicht sofort zurück auf die Fahrbahn reißen. Vom Gas gehen statt zu bremsen; ist Bremsen nötig, sanft dosieren. Erst wenn die Räder wieder sicher rollen: mit einer kurzen, entschlossenen Lenkbewegung zurück auf die Fahrbahn. Der Rand kann schmaler sein, als er aussieht, und unter dem Gewicht eines schweren Fahrzeugs nachgeben.\n\nBERGAB AUF EINER STEILEN ODER BESCHÄDIGTEN STRECKE: Als Faustregel im selben Gang bergab fahren, den man zum Hochfahren gebraucht hätte — auf sehr steilen oder rutschigen Stücken einen Gang niedriger und langsamer. Motor und Getriebe bremsen dann mit, die Bremsen müssen nicht die ganze Arbeit übernehmen. Was zu tun ist, wenn die Bremsen dabei ganz ausfallen, steht in „Bremsen weg: herunterschalten, Handbremse in Stößen“.\n\nUNBEFESTIGTE UND ZWEITRANGIGE STRASSEN ALLGEMEIN: Schotter und loser Belag verlängern den Bremsweg erheblich, und Kurven sind dort oft nicht überhöht — beides macht ein Ausbrechen wahrscheinlicher. Deutlich langsamer fahren, als es auf einer Hauptstraße sicher wäre.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Zeichen, dass ein ganzer Hang samt Fahrbahn in Bewegung ist — nicht nur eine einzelne beschädigte Stelle —, gehören nicht mehr hierher. Was dann zählt, steht in „Hangrutschung: Warnzeichen erkennen, seitlich weg“.",
+      "sources": [
+        {
+          "name": "US-Heer/US-Luftwaffe, FM 21-305/AFMAN 24-306 „Manual for the Wheeled Vehicle Driver“",
+          "detail": "Ausgabe 1993, Kapitel 21 „Off-Road Driving“, Abschnitte „Ditches“, „Gullies and Ravines“ und „Rocky Terrain“. Volltext über archive.org, Item fm-21-305-manual-for-the-wheeled-vehicle-driver-1993, am 20.08.2026 gelesen. US-Bundeswerk, gemeinfrei."
+        },
+        {
+          "name": "US-Heer/US-Luftwaffe, FM 21-305/AFMAN 24-306 „Manual for the Wheeled Vehicle Driver“",
+          "detail": "Dieselbe Ausgabe, Kapitel 9 „Emergencies“, Abschnitte „Running Off the Pavement“ und „Downhill Braking“, sowie Kapitel 11 „Hazards and Safety Measures“, Abschnitt „Secondary Roads“, und Kapitel 21, Abschnitt „Winter Driving“ (unsichere Stelle vorher zu Fuß prüfen). Volltext am 20.08.2026 gelesen."
+        }
+      ],
+      "situations": [
+        "unterwegs",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "wasser-bedarf-trinken-kochen-waschen",
+      "title": "Trinken, Kochen, Waschen: der Tagesbedarf einer Gruppe",
+      "category": "wasser",
+      "group": "wasser-bedarf",
+      "situations": [
+        "am-leben-bleiben"
+      ],
+      "keywords": [
+        "wasserbedarf gruppe",
+        "wieviel wasser pro tag",
+        "wasserbedarf hitze",
+        "wasserbedarf bei arbeit",
+        "wasser für mehrere personen",
+        "trinken kochen waschen",
+        "wasserplanung gruppe",
+        "wasserbedarf klima",
+        "wasser in der wüste",
+        "wasserbedarf tropen",
+        "körperpflege wasser",
+        "wasserverbrauch gruppe",
+        "wasserbedarf soldaten",
+        "wasserbedarf pro person"
+      ],
+      "body": "Die BBK-Faustregel von zwei Litern Trinkwasser pro Tag (siehe „Trinkwasser: Bedarf pro Tag“) ist ein Mindestwert zum Überleben — trinken, dazu ein wenig zum Kochen, keine Körperpflege. Wer eine Gruppe über WOCHEN versorgen muss, braucht mehr, und zwar deutlich mehr. Das amerikanische Feldhandbuch für Wasserversorgung im Militär (FM 10-52) rechnet mit mehreren Verwendungszwecken, die zusammen den wirklichen Tagesbedarf ausmachen — und mit Tabellen, wie sich dieser Bedarf mit dem Klima ändert.\n\nDIE ZWECKE, AUS DENEN SICH DER BEDARF ZUSAMMENSETZT:\n— TRINKEN. Die Menge hängt vom Klima, von der Arbeitsintensität und den Bedingungen ab — bei Hitze und Anstrengung steigt sie deutlich.\n— KÖRPERPFLEGE. Rasieren, Zähneputzen, Waschen — gemeint ist keine Dusche, sondern eine tägliche Katzenwäsche, weil eine richtige Dusche nur einmal wöchentlich vorgesehen ist.\n— KOCHEN. Wasser zum Zubereiten von Essen und zum Reinigen von Kochgeschirr.\n— WÄSCHE UND VOLLDUSCHE kommen erst hinzu, wenn genug da ist — ein Kleidungswechsel pro Woche als Grundlage, keine tägliche Notwendigkeit.\n\nDIE ZAHLEN NACH KLIMA, umgerechnet von Gallonen in Liter, für die kleinste Einsatzebene einer Gruppe (das deckt Trinken, Körperpflege und Kochen ab; in trockenen Gebieten kommt ein kleiner Zuschlag für Hitzefälle und Fahrzeugkühlung dazu). Die Quelle unterscheidet zwei Stufen: MINDESTMASS, das für bis zu einer Woche reicht, und DAUERHAFT, das für mehr als eine Woche gedacht ist — also genau der Fall, um den es in diesem Paket geht:\n\n— GEMÄSSIGTES KLIMA: rund 11 Liter (Mindestmaß) bis 15 Liter (dauerhaft) pro Person und Tag.\n— TROPEN: rund 18 bis 22 Liter.\n— ARKTIS UND KÄLTE: rund 13 bis 17 Liter.\n— TROCKENGEBIET UND WÜSTE: rund 19 bis 22 Liter — hier ist der Unterschied zwischen Mindestmaß und Dauerbetrieb am kleinsten, weil schon das Minimum hoch angesetzt ist.\n\nWARUM DAS SO VIEL MEHR IST ALS DIE ZWEI LITER OBEN, UND WARUM BEIDE ZAHLEN RICHTIG SIND: Die zwei Liter der BBK sind eine reine Überlebensration für die Vorratsplanung zu Hause — trinken und ein bisschen kochen, mehr nicht; Händewaschen und Abwasch kommen laut BBK selbst noch obendrauf. Die Zahlen oben rechnen Körperpflege und volles Kochen mit ein und sind für einen andauernden Einsatz über mehr als eine Woche gedacht. Beide Angaben widersprechen sich nicht, sie beantworten verschiedene Fragen: Die zwei Liter sagen, womit man gerade noch am Leben bleibt. Die Zahlen hier sagen, was eine Gruppe wirklich braucht, wenn sie über Wochen einigermaßen sauber bleiben und richtig kochen soll.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Die Zahlen sind für Soldaten unter freiem Himmel gerechnet, nicht eigens für Familien mit Kindern oder Kranken — der Bedarf Einzelner kann davon abweichen, siehe die Alterstabelle in „Trinkwasser: Bedarf pro Tag“. Sie sind trotzdem die beste verfügbare Planungsgrundlage für die Frage, wie viel eine Gruppe über Wochen wirklich braucht, wenn nicht nur überlebt, sondern auch vernünftig gelebt werden soll. Für die ersten Tage reichen die zwei Liter aus „Trinkwasser: Bedarf pro Tag“, für eine Planung über mehrere Wochen sind die Zahlen hier realistischer.\n\nWAS NICHT ODER NUR ZUM KLEINSTEN TEIL ENTHALTEN IST: Wäsche, volle Duschen, Krankenpflege und der Wasserbedarf für Fahrzeuge oder Baumaßnahmen sind in diesen Zahlen NICHT enthalten — sie kommen bei einem längeren Aufenthalt an einem festen Ort zusätzlich hinzu. Wer eine Gruppe über Wochen versorgen will, sollte deshalb eher mit den höheren der beiden Zahlen je Klimazone planen und Reserve einplanen, statt am unteren Rand zu rechnen.",
+      "sources": [
+        {
+          "name": "US-Heer (US Army)",
+          "detail": "FM 10-52 „Water Supply in Theaters of Operations“, Headquarters Department of the Army, Ausgabe vom 11. Juli 1990, Kapitel 3 „Water Supply Planning“: Abschnitte „Water Consumption Requirements“ und „Environment Planning Factors“ mit Tabellen 3-1 bis 3-4 (Mindestmaß/Dauerbedarf je Klimazone, Gallonen je Person und Tag). Volltext auf archive.org, Kennung ost-military-doctrine-fm10_52, gelesen am 20.08.2026. US-Bundeswerk, gemeinfrei."
+        }
+      ]
+    },
+    {
+      "id": "wasser-behaelter-reinigen-entkeimen",
+      "title": "Kanister, Fässer und Tanks: reinigen und entkeimen",
+      "category": "wasser",
+      "group": "wasser-lagern",
+      "situations": [
+        "am-leben-bleiben"
+      ],
+      "keywords": [
+        "kanister reinigen",
+        "kanister entkeimen",
+        "behälter desinfizieren",
+        "fass reinigen",
+        "tank reinigen",
+        "regenfass reinigen",
+        "neuen kanister vorbereiten",
+        "gebrauchten kanister nutzen",
+        "kanister roch nach benzin",
+        "trinkwasserbehälter sauber",
+        "wasserkanister hygiene",
+        "trinkblase reinigen",
+        "wasserfass entkeimen"
+      ],
+      "body": "Ein neuer oder wiederverwendeter Kanister ist nicht automatisch sauber genug für Trinkwasser, nur weil er leer und trocken aussieht. Das amerikanische Feldhandbuch für Sanitätskontrolle bei der Wasserversorgung im Feld (TB MED 577) beschreibt, wie Kanister, Fässer und größere Tanks vor der ersten Nutzung und danach in Abständen gereinigt und entkeimt werden — und nennt eine Grenze, die keine Ausnahme kennt.\n\nDIE GRENZE ZUERST, WEIL SIE NICHTS KOSTET UND ALLES ENTSCHEIDET: Ein Behälter, der jemals Benzin, Diesel, Pflanzenschutzmittel oder ein anderes Gift enthalten hat, wird NIEMALS für Trinkwasser benutzt — auch nicht nach gründlicher Reinigung. Rückstände in den Wänden lassen sich nicht sicher entfernen.\n\nSO WIRD EIN LEERER KANISTER ODER EIN FASS SAUBER, in dieser Reihenfolge:\n1. Außen mit Wasser und einer harten Bürste abschrubben.\n2. Eine Seifenlösung ansetzen und die Innenwände gründlich damit auswaschen — bei einem Kanister: etwas Spülmittel-Lösung einfüllen, kräftig schütteln, durch den Hahn oder die Öffnung wieder ausgießen.\n3. Mit sauberem Wasser MINDESTENS ZWEIMAL nachspülen, dabei auch Hahn oder Verschluss durchspülen, bis keine Seife mehr zu riechen ist.\n4. ERST JETZT ENTKEIMEN — vor dem Befüllen mit Trinkwasser, nicht danach.\n\nDIE ENTKEIMUNG DES BEHÄLTERS SELBST braucht eine viel stärkere Chlorlösung, als sie zum Entkeimen von Trinkwasser verwendet wird — siehe „Trinkwasser mit Chlor entkeimen“ für den Vergleich. Die Quelle nennt eine Konzentration von 100 Milligramm Chlor je Liter. Mit gewöhnlicher, unparfümierter Chlorbleiche (5 Prozent, siehe „Chlorbleiche: der Notbehelf aus dem Putzschrank“) lässt sich das nachrechnen: 2 Milliliter Bleiche auf jeden Liter Wasser, mit dem der Behälter gefüllt wird.\n\nSO WIRD ENTKEIMT:\n— Behälter randvoll mit der Lösung füllen oder, wenn Wasser oder Bleiche knapp sind, mit einer kleineren Menge Lösung alle 10 Minuten die Innenwände benetzen.\n— Die Lösung schwenken oder umrühren, damit sie jede Fläche berührt, und etwas davon durch Hahn oder Verschluss laufen lassen.\n— MINDESTENS 60 MINUTEN einwirken lassen, dabei alle Innenflächen die ganze Zeit nass halten.\n— Die Lösung danach nicht in einen Bach, Teich oder auf freies Gelände in Trinkwassernähe schütten, sondern versickern lassen, wo sie keine Quelle erreicht.\n— Den Behälter ANSCHLIESSEND MINDESTENS ZWEIMAL mit sauberem Wasser nachspülen, wieder durch Hahn oder Öffnung.\n\nDIESE STARKE LÖSUNG IST NICHT ZUM TRINKEN — sie dient allein der Reinigung des Behälters und muss vollständig ausgespült werden, bevor Trinkwasser hineinkommt.\n\nROST UND KALK: Rost in einem Metallbehälter wird mit Scheuerpulver und einer Bürste entfernt, NIEMALS mit einem Schleifgerät — das beschädigt die Oberfläche und macht das Rosten schlimmer. Kalkablagerungen am Boden werden mit Essig bedeckt, der etwa fünf Stunden einwirkt, dann wird ausgespült.\n\nTRINKBLASEN UND SCHLAUCHSYSTEME (etwa aus einem Rucksack) werden milder behandelt: mit warmem Wasser und mildem Spülmittel auswaschen, offen trocknen lassen, bei Geruch über Nacht mit etwas Natron einweichen, danach mit Wasser und ein wenig Bleiche nachspülen und gründlich trocknen. Der Trinkschlauch selbst wird mit einer langen Bürste oder einem Pfeifenreiniger von innen gesäubert.\n\nWIRD EIN GEREINIGTER BEHÄLTER LÄNGER ALS EINEN MONAT NICHT GEBRAUCHT: alle Öffnungen offen lassen und vollständig trocknen lassen, das schützt vor Rost und Schimmel. Vor der nächsten Nutzung wird noch einmal gereinigt und entkeimt, wie oben beschrieben.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Die Vorgaben stammen aus der Pflege großer Feldbehälter, gelten dem Verfahren nach aber genauso für einen einzelnen 20-Liter-Kanister im Keller. Wer nur wenig Bleiche hat, kann mit der schwächeren, aber schonenderen Alternative der Quelle arbeiten: einem Zehntel der Konzentration, dafür 24 statt 1 Stunde einwirken lassen.",
+      "sources": [
+        {
+          "name": "US-Streitkräfte (Heer, Marine, Luftwaffe)",
+          "detail": "TB MED 577/NAVMED P-5010-10/AFMAN 48-138JP „Sanitary Control and Surveillance of Field Water Supplies“, Ausgabe vom 1. Mai 2010, Kapitel 7 „Cleaning, Disinfection, and Decontamination of Field Water Equipment“, Abschnitt 7-1, samt Tabelle 2-7 für die Bleiche-Dosierung. Volltext auf archive.org, Kennung ost-military-medical-tbmed577, gelesen am 20.08.2026. US-Bundeswerk, gemeinfrei."
+        }
+      ]
+    },
+    {
+      "id": "wasser-vorrat-noch-gut",
+      "title": "Entkeimtes im Vorrat: noch gut oder nicht mehr?",
+      "category": "wasser",
+      "group": "wasser-lagern",
+      "situations": [
+        "am-leben-bleiben"
+      ],
+      "keywords": [
+        "wasser abgestanden",
+        "gechlortes wasser haltbarkeit",
+        "wie lange hält trinkwasser",
+        "gelagertes wasser trinkbar",
+        "flaschenwasser ablaufdatum",
+        "wasservorrat kontrollieren",
+        "wann wasser wegschütten",
+        "wasser trüb im vorrat",
+        "ist das wasser noch gut",
+        "mindesthaltbarkeitsdatum wasser"
+      ],
+      "body": "„Trinkwasser richtig lagern“ sagt, wie man Wasser lagert und dass es dabei sogar SCHLECHTER werden kann als das Wasser, aus dem es gemacht wurde — aber nicht, nach wie vielen Tagen ein Vorrat nicht mehr sicher ist. Für diese Frage gibt es keine feste Zahl, sondern ein Verfahren, und für abgefülltes Wasser eine handfeste Auskunft aus dem amerikanischen Feldhandbuch zur Wasserkontrolle (TB MED 577).\n\nSELBST ENTKEIMTES WASSER IM KANISTER ODER EIMER hat kein Verfallsdatum, das man errechnen könnte. Die Quelle sagt stattdessen: Das FREIE CHLOR im Wasser ist der Wächter. Solange nach dem Entkeimen noch ein Rest Chlor nachweisbar ist — wie man das misst, steht in „Freies Chlor: der Beweis, dass das Entkeimen gewirkt hat“ —, fällt es weiter alles an, was neu ins Wasser gelangt. VERSCHWINDET DIESER REST PLÖTZLICH, OBWOHL VORHER NOCH WELCHER DA WAR, IST DAS EIN WARNZEICHEN. Die Quelle sagt es wörtlich: Ein plötzliches Fehlen des sonst vorhandenen Chlors in einem Wasservorrat kann auf eine Verunreinigung hindeuten. In militärischen Feldeinheiten wird deshalb nicht abgewartet, bis das Wasser verbraucht ist — der Vorrat wird MINDESTENS ZWEIMAL TÄGLICH auf Restchlor geprüft.\n\nWAS DAS FÜR EINEN VORRAT ZU HAUSE HEISST, EINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Zweimal täglich ist für einen Wochenvorrat im Keller nicht nötig, aber die Idee bleibt: Wer Wasser über Wochen lagert, prüft es ALLE PAAR TAGE mit einem Teststreifen oder DPD-Set nach, statt sich auf den Tag des Entkeimens zu verlassen. Ist kein Restchlor mehr da, wo eigentlich noch welcher sein müsste, wird nicht einfach weitergetrunken — das Wasser wird als verdächtig behandelt und noch einmal abgekocht oder neu entkeimt, siehe „Wasser abkochen“ und „Trinkwasser mit Chlor entkeimen“.\n\nDIESELBE REGEL GILT FÜR DIE SINNE, unabhängig vom Chlorwert: Trübung, Bodensatz, ein Geruch, der nicht nach dem gewohnten leichten Chlor riecht, sondern faulig oder ungewöhnlich — jedes davon ist Grund, das Wasser vor dem Trinken erneut zu behandeln statt ihm zu vertrauen. Ein unangenehmer, aber harmloser Mineralgeschmack lässt sich dagegen mit den Griffen aus „Wasser belüften: Geschmack und Geruch“ verbessern.\n\nFABRIKVERSCHLOSSENE FLASCHEN SIND EIN ANDERER FALL, UND HIER GIBT DIE QUELLE EINE KONKRETE ZAHL: Handelsübliches Flaschenwasser trägt üblicherweise ein Mindesthaltbarkeitsdatum von einem Jahr oder länger. Die Quelle sagt ausdrücklich, dass es auch DANACH weiter benutzt werden darf, wenn es unbeschädigt und unauffällig ist — im Militär wird das durch Laboruntersuchungen bestätigt und das Datum in Schritten von 30 Tagen verlängert.\n\nOHNE LABOR ZU HAUSE gilt darum, EINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Eine unversehrte, original verschlossene Flasche über dem aufgedruckten Datum ist kein Grund zur Sorge, WENN der Verschluss unbeschädigt ist, kein Wasser ausgetreten oder verdunstet ist, der Inhalt klar bleibt und beim Öffnen nichts Auffälliges riecht. Fehlt eines davon, wird die Flasche nicht weggeschüttet, sondern wie offenes Wasser behandelt: abkochen oder entkeimen vor dem Trinken.\n\nWAS AUCH FÜR DEN VORRAT ZÄHLT, WEIL ES DIE HALTBARKEIT VERKÜRZT: Flaschen und Kanister gehören NICHT in direkte Sonne. Licht und Wärme begünstigen das Wachstum von Keimen im Wasser, selbst durch die Flasche hindurch. Ein schattiger, kühler Platz verlängert die Zeit, in der man sich auf den Vorrat verlassen kann. Und: ÄLTESTES ZUERST VERBRAUCHEN, damit kein Behälter jahrelang unbeachtet hinten im Regal steht.",
+      "sources": [
+        {
+          "name": "US-Streitkräfte (Heer, Marine, Luftwaffe)",
+          "detail": "TB MED 577/NAVMED P-5010-10/AFMAN 48-138JP „Sanitary Control and Surveillance of Field Water Supplies“, Ausgabe vom 1. Mai 2010, Abschnitt 2-5 „Bulk field water disinfection“ (Restchlor als Warnzeichen, Tabelle 2-6) und Abschnitt 6-2c „Storage and shelf life of bottled and packaged field water“. Volltext auf archive.org, Kennung ost-military-medical-tbmed577, gelesen am 20.08.2026. US-Bundeswerk, gemeinfrei."
+        }
+      ]
+    },
+    {
+      "id": "wasser-ausgabestelle-gruppe",
+      "title": "Die Ausgabestelle für eine Gruppe sauber halten",
+      "category": "wasser",
+      "group": "wasser-finden",
+      "situations": [
+        "am-leben-bleiben",
+        "lage-und-gefahr"
+      ],
+      "keywords": [
+        "wasserstelle gruppe",
+        "wasser verteilen gruppe",
+        "gemeinsamer kanister",
+        "sammelstelle wasser",
+        "wasserausgabe camp",
+        "wasserstelle sauber halten",
+        "wasserpunkt",
+        "wasser für viele personen",
+        "warteschlange wasser",
+        "verunreinigung wasserstelle",
+        "trinkwasser teilen"
+      ],
+      "body": "Wo eine einzelne Person nur sich selbst versorgt, reicht gesunder Menschenverstand. Sobald mehrere Haushalte WOCHENLANG dieselbe Wasserstelle nutzen — denselben Brunnen, dieselbe Zisterne, denselben Sammelbehälter —, wird die Stelle selbst zum Risiko, wenn niemand sie ordnet. Das amerikanische Feldhandbuch zur Sanitätskontrolle bei Feldwasserversorgung (TB MED 577) beschreibt dafür feste Regeln für die Lage und den Betrieb einer Ausgabestelle.\n\nDIE LAGE ZUERST, UND HIER GIBT ES EINEN WIDERSPRUCH ZWISCHEN ZWEI QUELLEN DIESES PAKETS, DER NICHT GEGLÄTTET WIRD: „Wasserstelle beurteilen, bevor man schöpft“ nennt für den Lagerplatz DREISSIG METER flussabwärts von einer Stelle, an der man unterwegs kurz schöpft. Diese Quelle hier, für eine WOCHENLANG genutzte Ausgabestelle an einem Brunnen oder einer Zisterne, nennt einen deutlich größeren Abstand: RUND 90 METER (100 Yards) bergab beziehungsweise flussabwärts sowohl für den Lagerplatz als auch für die Latrine, siehe „Stuhl entsorgen ohne Toilette“. Der Grund für den Unterschied liegt nicht in schlechterem Rat, sondern in der Dauer: Wer nur einmal kurz an einem Fluss schöpft, braucht weniger Sicherheitsabstand als eine Stelle, die wochenlang jeden Tag genutzt wird und bei der Sickerwasser aus Latrine und Lager Zeit hat, im Boden den Weg zum Grundwasser zu finden. FÜR EINE FESTE AUSGABESTELLE ÜBER WOCHEN gilt deshalb der größere Abstand: so viel wie das Gelände hergibt, mindestens aber deutlich mehr als dreißig Meter, und Lager wie Latrine IMMER bergab und flussabwärts, nie oberhalb.\n\nMÜLL UND ABFALL gehören mindestens 30 Meter von der Ausgabestelle weg gelagert und entsorgt — ein eigener, kleinerer Abstand als der für die Latrine, aber kein Grund, Abfall direkt neben den Kanistern zu stapeln.\n\nDIE STELLE SELBST TROCKEN UND ORDENTLICH HALTEN: Wo beim Schöpfen Wasser verschüttet wird, entsteht sonst eine Pfütze, die zur Brutstätte für Mücken wird und den Boden aufweicht. Ein kleiner Ablauf oder eine Neigung, die verschüttetes Wasser wegleitet, verhindert das. Nagetiere und Insekten werden ferngehalten, indem Essensreste und offene Behälter nicht herumstehen.\n\nREGELN, DIE JEDE HAND EINHÄLT, DIE AN DIE STELLE KOMMT:\n— Ein Schöpfgefäß, ein Schlauchende oder ein Zapfhahn berührt NIE den Boden. Wer nichts zum Aufhängen hat, hält es in der Hand oder legt es auf etwas Sauberes.\n— Vor dem Anfassen der gemeinsamen Behälter die Hände waschen — dafür gehört eine Möglichkeit zum Händewaschen mit Seife direkt an die Stelle, nicht nur ins Lager.\n— AUSGIESSEN statt schöpfen bleibt auch hier die Regel, siehe „Trinkwasser richtig lagern“.\n— Jeder Behälter wird VOR dem Befüllen von innen auf Sauberkeit geprüft, siehe „Kanister, Fässer und Tanks: reinigen und entkeimen“. Ein Behälter, der jemals Kraftstoff oder Chemikalien enthielt, kommt an dieser Stelle nicht zum Einsatz — auch nicht kurzzeitig.\n— BEHANDELTES UND UNBEHANDELTES WASSER WERDEN UNTERSCHEIDBAR GEKENNZEICHNET, zum Beispiel mit Farbe oder Klebeband am Kanister, DAMIT NIEMAND IN DER GRUPPE DIE BEHÄLTER VERWECHSELT. Bei mehreren Haushalten an einer Stelle passiert genau das leicht, wenn jeder eigene Gefäße mitbringt.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Je weniger verschiedene Hände direkt in den gemeinsamen Vorrat oder an den Hahn kommen, desto sauberer bleibt er — es hilft, eine feste Person oder einen festen Zeitplan fürs Schöpfen und Verteilen zu vereinbaren, statt dass jeder kommt, wann er will. Das ist keine Bürokratie, sondern der einfachste Schutz vor genau der schleichenden Verunreinigung, die auch das Handbuch mit seinen Abstandsregeln verhindern will.",
+      "sources": [
+        {
+          "name": "US-Streitkräfte (Heer, Marine, Luftwaffe)",
+          "detail": "TB MED 577/NAVMED P-5010-10/AFMAN 48-138JP „Sanitary Control and Surveillance of Field Water Supplies“, Ausgabe vom 1. Mai 2010, Kapitel 16 „Army Preventive Medicine Inspections and Reporting“, Abschnitte 16-3 „Site conditions for water operations“ und 16-5c „Water distribution“. Volltext auf archive.org, Kennung ost-military-medical-tbmed577, gelesen am 20.08.2026. US-Bundeswerk, gemeinfrei."
+        }
+      ]
+    },
+    {
+      "id": "taktisch-fahrzeug-abdecken",
+      "title": "Fahrzeug oder Gerät abdecken, ohne dass die Abdeckung selbst auffällt",
+      "category": "taktisch",
+      "group": "taktisch-vorher",
+      "keywords": [
+        "fahrzeug tarnen",
+        "auto tarnen",
+        "gerät tarnen",
+        "generator verstecken",
+        "fahrzeug abdecken",
+        "auto abdecken",
+        "plane über auto",
+        "tarnnetz",
+        "solarmodul verstecken",
+        "windschutzscheibe glänzt",
+        "chrom abdecken",
+        "abdeckung auffällig",
+        "gerät verstecken",
+        "wassertank verstecken",
+        "reflektiert licht",
+        "spiegelt sich"
+      ],
+      "body": "Ein Auto unter einer blauen Plane, ein Generator unter einer grauen Persenning, ein Solarmodul unter einem Tuch — das wirkt wie Tarnung, ist aber oft das Gegenteil. Eine glatte Plane, die genau die Form des Gegenstands darunter nachzeichnet, sieht aus wie das, was sie ist: etwas Rechteckiges mit geraden Kanten und einem scharfen Schatten, das absichtlich verdeckt wurde. Aus der Distanz erkennt ein Betrachter oft nicht das Fahrzeug, sondern die Abdeckung — und eine Abdeckung an einem Ort, an dem sonst nichts liegt, ist selbst ein Signal: Hier ist etwas, das jemand verstecken wollte.\n\nDIE FORM DARUNTER DARF NICHT DURCHSCHEINEN. Die Quelle beschreibt genau dieses Problem beim militärischen Tarnnetz: Liegt das Netz oder Tuch direkt auf dem Gegenstand auf, nimmt es dessen Form an und verrät genau das, was es verbergen soll. Der Rat lautet deshalb, Abstand zwischen Abdeckung und Gegenstand zu schaffen — zum Beispiel mit Ästen, Stangen oder einem groben Gestell, über das das Tuch gelegt wird. Dadurch entsteht kein Abdruck der glatten Fahrzeugform mehr, sondern eine unregelmäßige Wölbung, wie sie auch ein Busch oder ein Geröllhaufen hätte.\n\nDIE LINIEN MÜSSEN UNGERADE UND SANFT SEIN. Wo die Abdeckung zwischen Stützpunkten durchhängt, soll sie sanft und leicht gewölbt verlaufen, nicht straff gespannt mit scharfen Kanten — ein Auge erkennt eine gerade Linie oder eine scharfe Ecke in der Natur fast immer als unnatürlich. Werden mehrere Stangen zum Aufspannen benutzt, sollten sie nicht in einer geraden Reihe stehen, sondern versetzt, damit keine gerade Linie entsteht.\n\nBIS ZUM BODEN, OHNE LÜCKE. Die Abdeckung soll ringsum bis auf den Boden reichen. Bleibt darunter ein Spalt offen, entsteht ein dunkler, gleichmäßiger Schattenstreifen ringsum — und ein solcher gleichmäßiger Schatten kommt in der Natur so gut wie nie vor, er ist fast immer ein Zeichen für etwas Verstecktes darunter.\n\nGLÄNZENDE TEILE GEHÖREN EXTRA ABGEDECKT. Windschutzscheiben, Rückspiegel, Scheinwerfer, Chromteile und die Glasfläche eines Solarmoduls blitzen im Sonnenlicht, selbst wenn der Rest gut verdeckt ist — ein einziger Lichtblitz aus einer Windschutzscheibe reicht, um einen Beobachter aufmerksam zu machen. Diese Stellen werden zusätzlich und einzeln abgedeckt, notfalls mit einem eigenen Tuch, Ästen oder Erde.\n\nDIE ÜBERGÄNGE VERRATEN SONST TROTZDEM ALLES. Am Rand, wo die Abdeckung auf dem Boden aufliegt, wird sie mit Laub, Erde oder Zweigen aus der unmittelbaren Umgebung übergangslos angepasst — sonst zeichnet sich die scharfe Kante der Plane trotzdem als Linie ab, auch wenn die Fläche selbst gut getarnt ist.\n\nNICHT ÜBERTREIBEN, UND NICHT ALLES AUS EINEM BUSCH SCHNEIDEN. Die Quelle warnt ausdrücklich davor, zu viel Tarnmaterial aufzubringen — ein auffällig großer, frisch grüner Haufen mitten in trockenem Gelände fällt genauso auf wie gar keine Tarnung. Und wird das Material für die Tarnung an einer einzigen Stelle in der Nähe geschnitten, entsteht dort eine kahle, auffällige Lücke, die auf das Versteck zeigt wie ein Wegweiser — Material deshalb aus einem größeren Umkreis holen, nicht von einem einzigen Fleck.\n\nZUM SCHLUSS VON AUSSEN PRÜFEN. Nach dem Abdecken lohnt sich der Blick von der Seite, aus der jemand kommen könnte — am besten aus einiger Entfernung. Was aus der Nähe unauffällig wirkt, kann von weiter weg trotzdem als Fremdkörper auffallen.\n\nEINORDNUNG DIESES PAKETS, nicht aus der Quelle: Ein privates Fahrzeug, ein Notstromaggregat, ein Wassertank oder ein Solarmodul mitten in einer Krise auffällig glänzend und geometrisch offen stehen zu lassen, ist das Gegenteil von unauffällig — genauso wie es eine hastig übergeworfene, glatte Plane wäre. Wer so etwas verdecken muss, tut das am besten unter natürlichem Schatten (unter Bäumen, an einer Mauer, in einer Scheune) und ergänzt erst dort mit lockerem Material, statt mitten auf offener Fläche ein zweites, künstlich wirkendes Objekt zu schaffen. Wie welkendes Deck-Laub selbst zum Verräter wird und wie oft es erneuert werden muss, steht in „Tarnmaterial frisch halten: warum Welken schlimmer ist als gar nichts aufzulegen“.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "„FM 20-3 Camouflage, Concealment, and Decoys“, 30.08.1999, Kapitel 3 Nr. 3-30/3-31 (Textur, Muster) und Anhang C „Camouflage Requirements and Procedures“ (Netzabstand zum Objekt, sanfte statt scharfe Linien, Schatten bis zum Boden, Abdecken von Spiegeln/Scheiben/Lichtern, Materialentnahme aus weitem Umkreis). Am 20.08.2026 im Volltext von archive.org gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        },
+        {
+          "name": "US Army",
+          "detail": "„FM 21-75 Combat Skills of the Soldier“, 03.08.1984, Kapitel 1 „Cover, Concealment, and Camouflage“ (Glanz an Geräten und Fahrzeugen mit Farbe/Schlamm/Tarnmaterial mattieren; Warnung vor Übertarnung). Am 20.08.2026 im Volltext von archive.org gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        }
+      ],
+      "situations": [
+        "lage-und-gefahr",
+        "am-leben-bleiben"
+      ]
+    },
+    {
+      "id": "taktisch-licht-bei-nacht",
+      "title": "Licht bei Nacht: wie weit ein Lichtschein zu sehen ist",
+      "category": "taktisch",
+      "group": "taktisch-vorher",
+      "keywords": [
+        "licht bei nacht",
+        "lichtdisziplin",
+        "licht nachts vermeiden",
+        "kein licht nachts",
+        "fenster verdunkeln",
+        "fenster abdunkeln",
+        "feuer sichtbar in der nacht",
+        "lagerfeuer sichtbar",
+        "kerzenlicht nachts",
+        "handy licht nachts",
+        "leuchtet in der dunkelheit",
+        "licht verrät position",
+        "scheinwerfer nachts",
+        "zigarette nachts",
+        "sichtbar aus der ferne nachts"
+      ],
+      "body": "Wer bei Tag gut versteckt ist, kann bei Nacht durch ein einziges Licht alles wieder preisgeben. Die Quelle nennt für diese Regel einen eigenen Begriff: Lichtdisziplin. Gemeint ist die Kontrolle über jedes Licht, das nachts sichtbar wird — vom Streichholz bis zum Autoscheinwerfer.\n\nWIE WEIT LICHT TRÄGT. Die Quelle nennt konkrete Zahlen: Ein offenes Lagerfeuer ist mit bloßem Auge aus bis zu 8 Kilometern Entfernung zu erkennen, das Licht eines Fahrzeugscheinwerfers sogar aus bis zu 20 Kilometern. Das gilt bei freier Sicht und dunkler Nacht — also gerade dann, wenn ein Licht am ehesten unbeabsichtigt brennt. Tagsüber verschwindet ein Feuer schon aus wenigen hundert Metern fast im Hintergrund. Bei Nacht kehrt sich das um: je dunkler die Umgebung, desto weiter trägt jedes Licht.\n\nWAS DAZU GEHÖRT. Die Quelle zählt ausdrücklich auf: draußen rauchen, mit eingeschalteter Taschenlampe herumlaufen, Fahrzeugscheinwerfer benutzen. Jedes davon ist schon aus der Ferne ein klares Zeichen dafür, dass dort jemand ist. Ein Streichholz oder eine glimmende Zigarette wirkt für den, der sie hält, kaum wie Licht — für einen Beobachter in der Dunkelheit ist es trotzdem ein Punkt, der genau zeigt, wo jemand steht.\n\nBEWEGTES LICHT FÄLLT NOCH STÄRKER AUF ALS STEHENDES. Eine Taschenlampe, die beim Gehen hin- und herschwenkt, zieht den Blick stärker an als ein einzelnes, ruhiges Licht — Bewegung ist ohnehin das, was ein Auge in der Dunkelheit am ehesten fängt, siehe „Unbemerkt bleiben: Bewegung, Umriss, Glanz, Geräusch, Geruch“. Wer nachts wirklich Licht braucht, hält es deshalb ruhig, dicht am Boden und auf die eigenen Füße gerichtet, statt es umherschwenken zu lassen, und schaltet es aus, sobald es nicht mehr gebraucht wird.\n\nAUCH OHNE EIGENE LICHTQUELLE KANN ETWAS GLÄNZEN. Die Quelle weist darauf hin, dass Mondlicht und Sternenlicht genauso von glatten, glänzenden Flächen reflektiert werden können wie Sonnenlicht am Tag — eine Uhr, eine Brille oder ein Fenster kann also auch nachts einen kurzen Lichtblitz werfen, ganz ohne dass jemand selbst eine Lampe anhat. Was dagegen hilft, steht ebenfalls in „Unbemerkt bleiben: Bewegung, Umriss, Glanz, Geräusch, Geruch“.\n\nEINE EINSCHRÄNKUNG, DIE DIE QUELLE SELBST NENNT: Rotes Licht schont die eigenen Augen und ist für das bloße menschliche Auge tatsächlich unauffälliger als weißes Licht. Die Quelle warnt aber, dass rotes Licht für ein technisches Nachtsichtgerät nicht automatisch unauffällig ist — im Gegenteil, für ein solches Gerät kann es sogar auffälliger sein als für das bloße Auge. Das betrifft vor allem, wer mit Beobachtern rechnen muss, die technische Nachtsichthilfen benutzen könnten.\n\nEINORDNUNG DIESES PAKETS, nicht aus der Quelle: Für ein Zuhause oder ein Lager in einer Krise heißt das: Fenster werden bei Dunkelheit vollständig verdunkelt, nicht nur mit einem Vorhang, der an den Rändern Licht durchlässt — ein schmaler, heller Spalt zieht den Blick oft stärker an als ein ganz beleuchtetes Fenster, weil er in der Dunkelheit wie eine Linie hervorsticht. Kerzen und offenes Feuer gehören von außen nicht sichtbar aufgestellt, notfalls mit einer Wand oder einem Erdwall zwischen Flamme und der Richtung, aus der jemand kommen könnte. Ein Handy- oder Taschenlampendisplay auf niedrigster Helligkeit gestellt und mit der Hand oder im Ärmel abgeschirmt, statt offen getragen, macht bereits einen großen Unterschied. Wer zusätzlich die eigenen Augen an die Dunkelheit gewöhnt, sieht ohnehin mehr, auch ganz ohne Licht — wie das geht, steht in „Nachts gehen: vierzig Minuten für die Augen“.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "„FM 20-3 Camouflage, Concealment, and Decoys“, 30.08.1999, Kapitel 3 Nr. 3-42 „Light and Heat“ (Sichtweiten 8 km Lagerfeuer, 20 km Fahrzeuglicht) und Anhang D Nr. D-2/D-4 (kein offenes Feuer, nicht draußen rauchen, keine brennende Taschenlampe beim Gehen; Rotlicht bleibt für Nachtsichtgeräte erkennbar; Mond- und Sternenlicht spiegeln wie Sonnenlicht). Am 20.08.2026 im Volltext von archive.org gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        },
+        {
+          "name": "US Army",
+          "detail": "„FM 21-75 Combat Skills of the Soldier“, 03.08.1984, Kapitel 1, Abschnitt „Concealment“ (Begriffsdefinition Lichtdisziplin: nicht im Freien rauchen, nicht mit brennender Taschenlampe herumlaufen, keine Fahrzeugscheinwerfer benutzen). Am 20.08.2026 im Volltext von archive.org gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        }
+      ],
+      "situations": [
+        "lage-und-gefahr",
+        "am-leben-bleiben"
+      ]
+    },
+    {
+      "id": "taktisch-tarnmaterial-frisch-halten",
+      "title": "Tarnmaterial frisch halten: warum Welken schlimmer ist als gar nichts aufzulegen",
+      "category": "taktisch",
+      "group": "taktisch-vorher",
+      "keywords": [
+        "welkes laub",
+        "laub verfärbt sich",
+        "tarnmaterial wechseln",
+        "tarnmaterial erneuern",
+        "zweige tarnen",
+        "deckung pflegen",
+        "verwelktes deckmaterial",
+        "laub wird braun",
+        "tarnmaterial frisch halten",
+        "nadelzweige tarnen",
+        "grüne zweige welken",
+        "tarnmaterial austauschen",
+        "laub tauscht farbe",
+        "material verrät position"
+      ],
+      "body": "Frische grüne Zweige über einem Versteck oder einer Ausrüstung sehen im Moment des Auflegens gut aus — und genau das ist die Falle. Schon nach ein, zwei Tagen ändert sich die Farbe, das Laub hängt schlaff statt in seiner natürlichen Wuchsrichtung, und aus der guten Tarnung wird ein braunes, welkes Etwas mitten in grüner Umgebung. Die Quelle sagt dazu unmissverständlich: Ab diesem Punkt ist das Material kein Tarnmittel mehr, sondern selbst ein Erkennungsmerkmal — auffälliger, als wenn dort überhaupt nichts läge.\n\nWARUM WELKES MATERIAL MEHR VERRÄT ALS NICHTS. Lebende Blätter reflektieren Licht in einem bestimmten Muster, das dem umgebenden Grün entspricht. Verwelktes Laub verliert dieses Muster und dazu die grüne Farbe, während die Umgebung grün bleibt — der Kontrast zwischen dem welken Fleck und der lebendigen Umgebung ist es, der auffällt, nicht die Tarnung an sich. Die Quelle zieht daraus eine klare Konsequenz: geschnittenes Material regelmäßig austauschen, bevor es so weit ist.\n\nWELCHES MATERIAL LÄNGER FRISCH BLEIBT. Die Quelle nennt mehrere Auswahlkriterien, die den Unterschied machen: Nadelgehölz (Fichte, Tanne, Kiefer) bleibt nach dem Schneiden länger grün als Laubgehölz. Wird bei hoher Luftfeuchtigkeit geschnitten — nachts, bei Regen, bei Nebel oder starkem Tau —, welkt das Material langsamer. Blätter, die sich fest und ledrig anfühlen, und Zweige mit großen Blättern halten sich länger als zarte, dünne. Äste, die direkt in der Sonne gewachsen sind, sind widerstandsfähiger und welken langsamer als Schattenäste. Zweige ohne Krankheits- oder Schädlingsbefall welken ebenfalls langsamer.\n\nWENN DIE UMGEBUNG SELBST SCHON WELK IST, GILT DAS NICHT. Totes, trockenes Material — Heu, dürres Gras, trockene Äste — eignet sich gut zur Tarnung, wenn auch die Umgebung ringsum bereits trocken und braun ist, etwa im Spätherbst oder in sehr trockener Landschaft. Es braucht dann kaum Pflege, weil es sich nicht mehr sichtbar verändert. Entscheidend ist nicht, ob Material grün oder braun ist, sondern ob es zur Umgebung PASST.\n\nWOHER DAS MATERIAL KOMMT, IST TEIL DER TARNUNG. Wird alles Tarnmaterial an einer einzigen Stelle in der Nähe abgeschnitten, entsteht dort eine kahle Lücke, die selbst auffällt und in Richtung des Verstecks zeigt. Material deshalb aus einem größeren Umkreis holen, nicht konzentriert an einem Fleck.\n\nNICHT ÜBERTREIBEN. Zu viel aufgelegtes Material kann eine Stelle genauso verraten wie welkes — ein auffällig dicker, gleichmäßiger Haufen aus frischem Grün wirkt in vielen Umgebungen selbst wie ein Fremdkörper. Weniger, aber gut angepasstes und gepflegtes Material ist wirksamer als viel.\n\nREGELMÄSSIG VON AUSSEN PRÜFEN. Die Tarnung wird in Abständen erneut aus einiger Entfernung betrachtet, so wie ein Beobachter sie sehen würde. Sobald sie nicht mehr natürlich wirkt, wird sie erneuert — die Quelle nennt kein festes Intervall, weil es von Wetter und Material abhängt, sondern verlangt, dass regelmäßig nachgesehen wird.\n\nEINORDNUNG DIESES PAKETS, nicht aus der Quelle: Für ein Versteck, ein abgedecktes Fahrzeug oder ein Lager in einer Krise heißt das: Wer heute Zweige oder Gras zur Tarnung auflegt, sollte sich merken, das in zwei bis drei Tagen erneut zu prüfen — je nach Wetter früher. Nadelzweige sind, wo verfügbar, die bessere erste Wahl, weil sie länger halten. Wer nicht regelmäßig nachsehen kann, sollte eher weniger aufwendig tarnen, dafür aber mit Material, das zur Jahreszeit passt (im Winter mit toten, hellen Zweigen statt grünem Nadelholz), statt eine aufwendige grüne Tarnung anzulegen und sie dann tagelang verwelken zu lassen. Wie eine Abdeckung für ein Fahrzeug oder Gerät grundsätzlich aufgebaut wird, steht in „Fahrzeug oder Gerät abdecken, ohne dass die Abdeckung selbst auffällt“.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "„FM 20-3 Camouflage, Concealment, and Decoys“, 30.08.1999, Kapitel 3 Nr. 3-65 bis 3-70 (lebende/tote Vegetation, Verwelken als eigenes Erkennungsmerkmal, Auswahlkriterien für Zweige, Materialentnahme aus weitem Umkreis). Am 20.08.2026 im Volltext von archive.org gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        },
+        {
+          "name": "US Army",
+          "detail": "„FM 21-75 Combat Skills of the Soldier“, 03.08.1984, Kapitel 1 „Cover, Concealment, and Camouflage“ (Tarnung regelmäßig wechseln/verbessern, da natürliches Material abstirbt oder verblasst; Warnung vor Übertarnung; regelmäßige Kontrolle der Tarnung). Am 20.08.2026 im Volltext von archive.org gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        }
+      ],
+      "situations": [
+        "lage-und-gefahr",
+        "am-leben-bleiben"
+      ]
+    },
+    {
+      "id": "taktisch-eigener-trampelpfad",
+      "title": "Der eigene Trampelpfad: warum man nicht immer denselben Weg geht",
+      "category": "taktisch",
+      "group": "taktisch-vorher",
+      "keywords": [
+        "trampelpfad",
+        "ausgetretener weg",
+        "pfad im gras",
+        "spuren im gras",
+        "immer gleicher weg",
+        "weg zum lager",
+        "weg zur wasserstelle",
+        "weg verrät versteck",
+        "spur im gras",
+        "weg wechseln",
+        "route wechseln",
+        "sichtbarer pfad",
+        "niedergetretenes gras",
+        "gleiche strecke laufen"
+      ],
+      "body": "Ein Versteck kann perfekt getarnt sein und trotzdem verraten werden — nicht durch das Versteck selbst, sondern durch den Weg dorthin. Wer über Tage oder Wochen immer wieder denselben Pfad zur Wasserstelle, zur Latrine oder zum Beobachtungsposten geht, drückt das Gras dort jedes Mal ein kleines Stück weiter nieder. Nach einigen Tagen ist aus vielen einzelnen, für sich unauffälligen Schritten eine durchgehende, sichtbare Linie geworden — ein Trampelpfad, der sich deutlich von der ungestörten Vegetation ringsum abhebt und aus der Distanz oder von oben auffällt, selbst wenn das eigentliche Ziel des Pfades gut versteckt ist.\n\nWARUM DAS ANDERS IST ALS EINZELNE FUSSSPUREN. Wie man sich auf einem einzelnen Weg zu einem Versteck bewegt und dabei möglichst wenige Spuren hinterlässt, steht bereits in „Der Weg zum Versteck: hingehen, ohne verfolgt zu werden“. Dieser Eintrag ergänzt das um einen Punkt, den eine einzelne Wanderung noch nicht zeigt: Es ist nicht der einzelne Fußabdruck, der über Tage zum Problem wird, sondern die WIEDERHOLUNG derselben Strecke. Jeder Weg, der immer wieder genutzt wird, verändert die Oberfläche des Bodens sichtbar — die Quelle beschreibt genau diesen Effekt bei Fahrzeugspuren: Sie verändern die Struktur des Bodens so deutlich, dass sie besonders in unberührtem Gelände, etwa auf einer Wiese oder in frischem Schnee, gut erkennbar bleiben, auch wenn dort längst nichts mehr fährt oder geht.\n\nBESTEHENDE WEGE NUTZEN STATT NEUE ZU SCHAFFEN. Die Quelle rät ausdrücklich, vorhandene Straßen und Pfade so weit wie möglich zu nutzen, statt neue anzulegen. Ist ein neuer Weg unvermeidlich, soll er sich in das bestehende Muster der Umgebung einfügen, statt eine gerade, künstlich wirkende Linie zu bilden. Für ein Zuhause oder ein Lager heißt das: ein schon vorhandener Trampelpfad, ein alter Feldweg oder eine Wildwechsel-Spur fällt weniger auf als ein frisch entstandener, gerader Pfad, der sonst nirgendwo hinführt.\n\nWIE MAN DAS VERMEIDET, WENN EIN NEUER WEG NÖTIG IST. Die Strecke leicht variieren, statt jedes Mal exakt dieselben Schritte zu setzen — schon eine Handbreit Abweichung verteilt die Belastung auf eine breitere Fläche, statt eine einzelne, scharfe Linie zu erzeugen. Wo möglich auf hartem Boden, Steinen, Wurzeln oder Laubstreu gehen statt auf weichem Gras, das sich leicht eindrückt und nur langsam wieder aufrichtet. Das eigentliche Ziel — Versteck, Wasserstelle, Lager — nicht immer aus derselben Richtung anlaufen: Ein Pfad, der von zwei oder drei Seiten her benutzt wird, bildet keine einzelne Linie, die wie ein Pfeil auf einen Punkt zeigt. Entsteht trotzdem eine sichtbare Spur, hilft es, sie für einige Tage zu meiden, damit sich das Gras wieder aufrichtet, oder sie mit einem Ast aufzulockern.\n\nEINORDNUNG DIESES PAKETS, nicht aus der Quelle: Dieser Effekt betrifft nicht nur Feinde, sondern jeden Beobachter aus der Distanz — ein Trampelpfad zu einer versteckten Vorratskammer, einem Brunnen oder einem Unterschlupf verrät dessen genaue Lage auch dann, wenn niemand gezielt danach sucht, sondern nur zufällig aus der Ferne draufschaut. Wer über längere Zeit an einem Ort bleibt, sollte sich das bewusst machen: Der erste Tag hinterlässt kaum etwas, aber nach einer Woche derselben Strecke ist die Linie oft schon aus einiger Entfernung zu erkennen.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "„FM 20-3 Camouflage, Concealment, and Decoys“, 30.08.1999, Kapitel 3 Nr. 3-30 „Texture“ (Fahrzeugspuren verändern die Bodenstruktur sichtbar, besonders in unberührtem Gelände) und Nr. 3-45 „Track“ (bestehende Wege nutzen, neue Wege dem Geländemuster anpassen). Am 20.08.2026 im Volltext von archive.org gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        }
+      ],
+      "situations": [
+        "unterwegs",
+        "lage-und-gefahr",
+        "am-leben-bleiben"
+      ]
+    },
+    {
+      "id": "hygiene-lagerabstaende",
+      "title": "Latrine, Küche und Trinkstelle: wie weit auseinander sie gehören",
+      "category": "erste-hilfe",
+      "group": "eh-hygiene",
+      "keywords": [
+        "latrine",
+        "küche",
+        "trinkstelle",
+        "wasserstelle",
+        "wie viele meter",
+        "windrichtung",
+        "gefälle",
+        "lager anlegen",
+        "wie weit weg",
+        "brunnen",
+        "leewind",
+        "lagerplatz"
+      ],
+      "body": "In einem Lager ohne Kanalisation entscheidet die Lage von drei Stellen darüber, ob eine Gruppe über Wochen gesund bleibt: Latrine, Küche und die Stelle, an der getrunken wird. Wer das am ersten Tag falsch anlegt, trägt die Folgen wochenlang mit.\n\nDIE ZAHLEN AUS EINEM US-FELDHANDBUCH FÜR GENAU DIESEN FALL — eine Gruppe, die tage- oder wochenlang ohne feste Anlagen im Freien lebt: Die Latrine gehört WENIGSTENS 30 METER von jeder Trinkstelle entfernt (die Quelle nennt 100 Fuß) und WENIGSTENS 90 METER von der Küche (die Quelle nennt 100 Yards). Das ist kein Zufall gerundet: 90 Meter sind ungefähr hundert große Schritte, 30 Meter gut dreißig.\n\nWARUM ES NICHT NUR AUF DEN ABSTAND ANKOMMT: Die Latrine gehört UNTERHALB der Trinkstelle und der Küche — das Gelände muss von der Latrine WEG zur Trinkstelle hin abfallen, nie umgekehrt, damit kein Sickerwasser dorthin läuft. Und sie gehört, wo der Wind es zulässt, IN LEEWIND zur Küche — der Wind soll also von der Küche zur Latrine wehen, nicht umgekehrt. Beides steht in der neueren Fassung des Handbuchs von 2002 ausdrücklich: Die Latrine darf nie oberhalb der Küche liegen, weder im Gelände noch im Wind.\n\nWOFÜR DIE ABSTÄNDE DA SIND: Fliegen legen die Strecke zwischen Latrine und Essen mühelos zurück, und Sickerwasser aus einer Grube wandert im Boden weiter, als man glaubt. Warum das so gefährlich ist, steht in „Stuhl entsorgen ohne Toilette“ und in „Abfall im Lager: vergraben oder verbrennen“.\n\nDER WIDERSPRUCH, DER HIER OFFEN BLEIBT: Der Tipp „Stuhl entsorgen ohne Toilette“ nennt für den Abstand zur Wasserstelle, gestützt auf die Weltgesundheitsorganisation, MEHR ALS ZEHN METER. Das Feldhandbuch hier verlangt DAS DREIFACHE. Beide Zahlen sind belegt, und sie widersprechen sich, weil sie aus verschiedenen Zusammenhängen kommen — die WHO-Zahl ist ein Mindestmaß für sehr beengte Nothilfe-Lager, das Feldhandbuch rechnet mit mehr Platz. Nach der Regel dieses Pakets gilt im Zweifel der vorsichtigere Wert: WER PLATZ HAT, HÄLT 30 METER EIN. Zehn Meter sind die absolute Untergrenze, nicht das Ziel — nur dort, wo das Gelände wirklich nichts anderes hergibt.\n\nDIE 30 METER GELTEN AUCH FÜR MÜLL UND KÜCHENABFALL, nicht nur für die Latrine — eine vergrabene Müllgrube braucht denselben Abstand zur Trinkstelle. Zur Küche reicht dort weniger, weil Müll nicht in dieselbe Kategorie fällt wie Stuhl; die Quelle verlangt nur einen angemessenen Abstand, um Fliegen, Geruch und Anblick von der Küche fernzuhalten. Wird Müll verbrannt statt vergraben, gehört die Feuerstelle dafür wenigstens 50 Meter (50 Yards) in Windrichtung vom ganzen Lager weg, wegen des Geruchs.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: 30 Meter und 90 Meter lassen sich ohne Maßband abschätzen. Ein großer, normaler Erwachsenenschritt ist etwa 75 bis 80 Zentimeter lang — 90 Meter sind damit rund 110 bis 120 Schritte, 30 Meter rund 38 bis 40 Schritte. Auf einem sehr kleinen Grundstück, wo diese Strecke nicht möglich ist, gilt: erst Gefälle und Windrichtung richtig wählen, dann so viel Abstand wie irgend geht — und die Latrine öfter kontrollieren, siehe „Latrine bauen: welche Art wofür“.",
+      "sources": [
+        {
+          "name": "US-Streitkräfte (Departments of the Army and the Air Force)",
+          "detail": "„FM 21-10/AFM 161-10, Field Hygiene and Sanitation“, Fassung Juli 1970, Abschnitte 75 und 83 (Lage und Abstände von Latrinen und Müllgruben), Volltext auf archive.org, gelesen am 20.08.2026. Werk der US-Bundesregierung, gemeinfrei (§ 121 Abs. 4 UrhG, 17 U.S.C. § 105)."
+        },
+        {
+          "name": "US Army",
+          "detail": "„FM 4-25.12 (FM 21-10-1), Unit Field Sanitation Team“, Fassung 25.01.2002, Abschnitte 2-23 und 2-24 (Lage der Latrine zu Küche und Wasserstelle, Windrichtung, Gefälle, Müllgruben), Volltext auf archive.org, gelesen am 20.08.2026. Löst FM 21-10-1 von 1989 ab; Werk der US-Bundesregierung, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "krank",
+        "am-leben-bleiben"
+      ]
+    },
+    {
+      "id": "hygiene-geschirr-drei-becken",
+      "title": "Geschirr spülen ohne Spüle: drei Becken nacheinander",
+      "category": "erste-hilfe",
+      "group": "eh-hygiene",
+      "keywords": [
+        "geschirr",
+        "spülen",
+        "abwasch",
+        "abwaschen",
+        "geschirr spülen",
+        "becken",
+        "teller",
+        "besteck",
+        "entkeimen",
+        "spülbecken",
+        "camping geschirr",
+        "kochendes wasser",
+        "geschirr sauber"
+      ],
+      "body": "Kein Spülbecken, kein warmes Leitungswasser, und trotzdem muss Geschirr für mehrere Personen jeden Tag sauber werden — sonst wird jeder Teller ein Nährboden. Der Grund steht schon im Tipp „Essen sicher zubereiten“: Essensreste auf Geschirr sind eine Brutstätte für Keime. Was dort fehlt, ist das WIE. Genau dafür haben US-Feldküchen, die über Wochen für hunderte Menschen ohne Anschluss kochen mussten, ein festes Verfahren entwickelt — es funktioniert genauso gut für eine kleine Gruppe.\n\nDREI BEHÄLTER MIT WASSER, IN FESTER REIHENFOLGE, dazu ein vierter ohne Wasser für die Reste:\n\nERST ABKRATZEN. Essensreste kommen in einen eigenen Abfallbehälter — NICHT ins erste Becken. Wer das überspringt, hat nach dem dritten Teller drei Becken voller Brühe statt sauberem Wasser.\n\nBECKEN EINS: HEISSES SEIFENWASSER. So heiß, dass bloßes Hineinfassen kurz unangenehm ist — die Quelle nennt 49 bis 66 Grad. Mit einer Bürste oder einem Lappen schrubben, bis nichts mehr klebt.\n\nBECKEN ZWEI: KLARES, KOCHENDES WASSER ZUM ABSPÜLEN. Das Geschirr mehrmals eintauchen, damit die Seife wirklich abgeht. Bleiben Seifenreste am Geschirr, ist das kein Ersatz für echtes Entkeimen.\n\nBECKEN DREI: NOCH EINMAL KLARES, KOCHENDES WASSER, DIESMAL ZUM ENTKEIMEN. Das Geschirr mindestens 30 Sekunden lang vollständig eintauchen. Das ist der Schritt, den die meisten weglassen, weil er wie eine Wiederholung von Becken zwei aussieht — ist er aber nicht: Becken zwei spült ab, Becken drei tötet ab, was übrig ist.\n\nAN DER LUFT TROCKNEN LASSEN, geschützt vor Staub, Spritzwasser und Fliegen — nicht abtrocknen mit einem Tuch, das selbst schon benutzt wurde. Danach das Geschirr geschlossen aufbewahren, in einem Beutel, einer Kiste mit Deckel oder zusammengeklappt, damit kein Ungeziefer daran kommt.\n\nWENN NICHTS KOCHT: Zwei der drei Schritte gehen auch ohne Feuer — heißes Seifenwasser zum Waschen und klares Wasser zum Abspülen retten schon den größten Teil. Der dritte Schritt, das Entkeimen, lässt sich in der Quelle auch mit Chlorbleiche machen, mit einer eigenen Dosierung dafür. SIE STEHT HIER BEWUSST NICHT: Die ältere und die neuere Fassung desselben Handbuchs nennen für das nötige Chlorpulver eine um das Dreifache unterschiedliche Menge, und beide messen mit einem militärischen Feldlöffel oder Feldbecher, den ein Haushalt nicht hat. Eine falsch übertragene Zahl wäre hier gefährlicher als der ehrliche Verzicht darauf. Ist kein Feuer möglich, gilt: gründliches Waschen und Abspülen mit heißem Seifenwasser ersetzt das Entkeimen nicht vollständig, kommt aber nah heran — sauberer als gar nichts.\n\nEIN BECKEN PRO PERSON IST NICHT NÖTIG, WENN MEHRERE ESSEN — die drei Becken werden nacheinander für ALLE benutzt, nicht neu angesetzt für jeden Teller. Nur wenn das Wasser sichtbar trüb oder fettig wird, wird es gewechselt.",
+      "sources": [
+        {
+          "name": "US-Streitkräfte (Departments of the Army and the Air Force)",
+          "detail": "„FM 21-10/AFM 161-10, Field Hygiene and Sanitation“, Fassung Juli 1970, Abschnitte 65 und 69 (Reinigen von Essgeschirr, behelfsmäßige Spülstationen), Volltext auf archive.org, gelesen am 20.08.2026. Werk der US-Bundesregierung, gemeinfrei (§ 121 Abs. 4 UrhG, 17 U.S.C. § 105)."
+        },
+        {
+          "name": "US Army",
+          "detail": "„FM 4-25.12 (FM 21-10-1), Unit Field Sanitation Team“, Fassung 25.01.2002, Abschnitt 2-16 und Anhang A (Reinigen und Entkeimen von Geschirr, Vier-Behälter-Verfahren mit Temperaturangaben), Volltext auf archive.org, gelesen am 20.08.2026. Werk der US-Bundesregierung, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "krank",
+        "am-leben-bleiben"
+      ]
+    },
+    {
+      "id": "hygiene-kochverbot-krank",
+      "title": "Wer nicht kochen darf, wenn jemand krank ist",
+      "category": "erste-hilfe",
+      "group": "eh-hygiene",
+      "keywords": [
+        "kochen krank",
+        "koch krank",
+        "essen zubereiten krank",
+        "wer kocht",
+        "ansteckend kochen",
+        "küchendienst",
+        "handverletzung essen",
+        "schnitt an der hand",
+        "durchfall kochen",
+        "erbrechen kochen"
+      ],
+      "body": "Eine Person kocht für alle — das spart Feuer, Zeit und Wasser. Genau das macht sie aber auch zur einzigen Stelle, über die eine Krankheit die ganze Gruppe erreicht, mahlzeitenweise. Professionelle Feldküchen des US-Militärs, die für hunderte Menschen kochen, haben deshalb eine harte Regel: Wer krank ist, kocht nicht — unabhängig davon, wie unpraktisch das gerade ist.\n\nWER NICHT KOCHEN SOLLTE: jeder mit Fieber, Durchfall, Erbrechen, einer schweren Erkältung mit Husten, oder einer offenen, nässenden oder eiternden Wunde an der Hand. Die Quelle nennt genau diese Liste als Meldepflicht für Küchenpersonal — Halsschmerzen, Erkältung, Husten, Durchfall, Erbrechen. Wer eines davon hat, meldet sich, statt weiterzukochen.\n\nWARUM NICHT EINFACH VORSICHTIGER KOCHEN: Kochhitze tötet Keime im Essen selbst ab — aber nicht das, was danach passiert. Verteilen, Auflegen, Anrichten, Abschmecken mit dem Finger, das Berühren von Tellern und Besteck — all das kommt NACH dem Kochen, und keine Hitze wirkt dort noch nach. Eine erkrankte Person, die „nur anrichtet“ oder „nur austeilt“, ist genauso ein Risiko wie eine, die kocht.\n\nVERLETZTE HÄNDE SIND EIN EIGENER FALL: Jeder Schnitt an der Hand — ob sichtbar entzündet oder nicht — gehört verbunden UND zusätzlich mit einem Handschuh oder einem sauberen Tuch abgedeckt, bevor diese Hand wieder Essen anfasst. Das steht so ausdrücklich in der Quelle, ohne Ausnahme für kleine Schnitte.\n\nWIE LANGE DIE PAUSE DAUERT: Hier hört die Quelle auf, weiterzuhelfen — sie schreibt nur, die Person kehrt erst zurück, wenn eine ärztliche Stelle sie für tauglich erklärt hat. Für eine Gruppe ohne Arzt ist das keine Anleitung.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE, für den Fall, dass niemand diese Freigabe geben kann: Als Anhaltspunkt gilt, mindestens 24 bis 48 Stunden ohne Fieber, ohne Durchfall und ohne Erbrechen abzuwarten — aus eigener Kraft, nicht nur weil ein Mittel die Symptome unterdrückt —, bevor die Person wieder für andere kocht. Bei einer Handwunde: verbunden UND trocken, ohne Nässe oder Rötung, bevor die Hand wieder an Essen für andere darf. Diese Zahl ist eine vorsichtige Abwägung dieses Pakets, keine belegte Vorgabe aus der Quelle — wer es genauer wissen will, hält sich länger zurück, nicht kürzer.\n\nDAS IST KEIN ZUSÄTZLICHES ISOLIEREN DER KRANKEN PERSON — sie muss deshalb nicht allein essen oder außerhalb schlafen. Es geht nur um die eine Rolle: das Kochen für alle anderen. Wie eine Ansteckung sonst unterbrochen wird, steht in „Kranke absondern: die Hände zählen mehr als die Tür“. Und wer übernimmt, wäscht sich davor genauso gründlich die Hände wie im Tipp „Händewaschen, auch ohne Seife“ beschrieben.",
+      "sources": [
+        {
+          "name": "US-Streitkräfte (Departments of the Army and the Air Force)",
+          "detail": "„FM 21-10/AFM 161-10, Field Hygiene and Sanitation“, Fassung Juli 1970, Abschnitt 61 (Ausschluss kranker Küchenkräfte, tägliche Kontrolle, Meldepflicht für Symptome), Volltext auf archive.org, gelesen am 20.08.2026. Werk der US-Bundesregierung, gemeinfrei (§ 121 Abs. 4 UrhG, 17 U.S.C. § 105)."
+        },
+        {
+          "name": "US Army",
+          "detail": "„FM 4-25.12 (FM 21-10-1), Unit Field Sanitation Team“, Fassung 25.01.2002, Abschnitt 2-15 (Persönliche Hygiene von Küchenpersonal, Freigabe durch ärztliche Stelle vor Rückkehr, Umgang mit Handverletzungen), Volltext auf archive.org, gelesen am 20.08.2026. Werk der US-Bundesregierung, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "krank",
+        "am-leben-bleiben"
+      ]
+    },
+    {
+      "id": "hygiene-fliegen-bekaempfen",
+      "title": "Fliegen bekämpfen: die Brutstätte zuerst",
+      "category": "erste-hilfe",
+      "group": "eh-hygiene",
+      "keywords": [
+        "fliegen",
+        "fliegenbekämpfung",
+        "fliegen bekämpfen",
+        "brutstätte",
+        "fliegenklatsche",
+        "fliegengitter",
+        "maden",
+        "made",
+        "fliegen loswerden",
+        "ungeziefer",
+        "fliegen im lager"
+      ],
+      "body": "Fliegen beißen normalerweise nicht, deshalb nimmt man sie weniger ernst als Mücken. Das ist ein Fehler: Ausgerechnet in einem Lager ohne Kanalisation sind Fliegen einer der wichtigsten Wege, auf denen Durchfallerkrankungen von der Latrine zurück auf den Teller wandern.\n\nWIE EINE FLIEGE DAS SCHAFFT: Eine Fliege kann feste Nahrung nicht kauen. Sie erbricht einen Teil ihres Mageninhalts auf das Essen, um es aufzulösen, und saugt das Gemisch dann auf. Auf demselben Weg trägt sie mit, was sie vorher an Kot, Müll oder verrottenden Resten berührt hat — an den feinen Haaren ihrer Beine und ihres Körpers, in ihrem Erbrochenen und in ihrem eigenen Kot. Sie muss dafür nicht beißen, nur landen.\n\nWIE SCHNELL SICH FLIEGEN VERMEHREN: Ei, Made, Puppe, ausgewachsene Fliege — der ganze Kreislauf dauert unter guten Bedingungen rund 15 Tage. Eine ausgewachsene Fliege lebt etwa einen Monat, und ein Weibchen legt schon zwei Tage nach dem Schlüpfen die ersten Eier. Am liebsten vermehren sich Fliegen bei 27 bis 32 Grad in feuchtem, organischem Abfall — Kot, Mist, Müll, faulendes Obst und Gemüse. Eine übersehene Müllgrube ist damit keine einmalige Sache, sondern eine Fabrik, die etwa alle zwei Wochen eine neue Generation ausstößt.\n\nDIE REIHENFOLGE, DIE DIE QUELLE AUSDRÜCKLICH VORGIBT: Die Beseitigung der Brutstätten ist DIE WIRKSAMSTE EINZELNE MASSNAHME gegen Fliegen — wirksamer als jedes Gitter und jedes Mittel. Das heißt konkret: Küchenabfall und Stuhl so entsorgen, wie es in „Abfall im Lager: vergraben oder verbrennen“ und in „Stuhl entsorgen ohne Toilette“ beschrieben ist, und zwar sofort, nicht erst am Abend. AN ZWEITER STELLE steht das Aussperren — feine Gitter vor Essen und Vorratsräumen, siehe „Essen sicher zubereiten“, dazu Türen, die von selbst zufallen. Chemische Mittel stehen laut Quelle ausdrücklich AN LETZTER STELLE und ERSETZEN DIE ERSTEN BEIDEN SCHRITTE NICHT — wer sprüht, aber weiter Müll offen stehen lässt, kämpft gegen eine Fabrik an, die schneller nachliefert, als das Mittel wirkt.\n\nWO FLIEGEN SICH AUFHALTEN, WENN SIE NICHT FRESSEN: an senkrechten Flächen und an allem, was frei hängt — Seile, Kanten, Astwerk. Das hilft beim gezielten Draufschlagen und beim Absuchen nach Ruheplätzen.\n\nEIN EINFACHER TRICK OHNE JEDES MITTEL: Sind mehrere Fenster oder Öffnungen im Raum, alle bis auf eine abdunkeln. Die Fliegen sammeln sich am hellen Rest, wo sie leicht mit der Fliegenklatsche zu erreichen sind. In der Nähe von Essen sollte deshalb immer etwas zum Draufschlagen griffbereit liegen — ein zusammengerolltes Tuch tut es auch.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Die Quelle beschreibt auch chemische Sprühmittel für die US-Armee, die es im freien Handel so nicht gibt und die hier deshalb nicht aufgeführt sind. Wer ein Insektizid für den Hausgebrauch hat, hält sich an dessen Aufschrift — das ersetzt nichts von den ersten beiden Schritten oben.",
+      "sources": [
+        {
+          "name": "US-Streitkräfte (Departments of the Army and the Air Force)",
+          "detail": "„FM 21-10/AFM 161-10, Field Hygiene and Sanitation“, Fassung Juli 1970, Kapitel 9 „Fly-Borne Diseases and Their Control“ (Lebenszyklus, Verhalten, Rangfolge der Bekämpfung), Volltext auf archive.org, gelesen am 20.08.2026. Werk der US-Bundesregierung, gemeinfrei (§ 121 Abs. 4 UrhG, 17 U.S.C. § 105)."
+        }
+      ],
+      "situations": [
+        "krank",
+        "am-leben-bleiben"
+      ]
+    },
+    {
+      "id": "erste-hilfe-huckepack-rucksacktrage",
+      "title": "Einer traegt: Huckepack, Rucksack- und Gürtelgriff",
+      "category": "erste-hilfe",
+      "body": "„Verletzten bewegen: wann gar nicht, und wie doch“ sagt, wann überhaupt bewegt wird, und nennt zwei Schleiftechniken für kurze Strecken. Der Schultertragen dort ist als kaum durchführbar beschrieben, wenn die Person schwer oder voll bepackt ist. Hier stehen drei weitere Griffe für einen einzelnen Helfer, jeder für eine andere Entfernung, aus derselben Quellenfamilie wie die übrigen Trage-Einträge dieses Pakets.\n\nALLE DREI TEILEN SICH DEN ERSTEN SCHRITT MIT DEM SCHULTERTRAGEN: Die Person muss erst auf die Beine gebracht werden, und das ist derselbe Kraftakt, der den Schultertragen schon schwer macht. Erst danach unterscheiden sich die Griffe — und dann sind alle drei leichter zu halten als der Schultertragen selbst.\n\nHUCKEPACK (Sattelgriff), NUR BEI BEWUSSTSEIN: Die Person muss sich selbst an deinem Nacken festhalten können, deshalb geht dieser Griff ausdrücklich nicht bei Bewusstlosigkeit. Steh neben sie, leg ihren Arm um deinen Nacken, dreh dich vor sie mit dem Rücken zu ihr, lass sie beide Arme um deinen Nacken schlingen. Geh in die Hocke, hol sie auf deinen Rücken und fass, wenn möglich, deine Hände unter ihren Oberschenkeln zusammen.\n\nRUCKSACKTRAGE, AUCH OHNE BEWUSSTSEIN MÖGLICH: Das Gewicht liegt hoch auf deinem Rücken, für eine mittlere Strecke. Der Unterschied zum Huckepack: DU HÄLTST IHRE ARME SELBST, sie muss sich nicht festhalten. Fass ihr nahes Handgelenk, leg den Arm über deinen Kopf und über die Schulter, dreh dich vor sie, fass das andere Handgelenk, leg auch diesen Arm über die andere Schulter. Beug dich vor und zieh sie so hoch wie möglich auf deinen Rücken. Die Handgelenke IMMER MIT DEM HANDRÜCKEN NACH UNTEN halten, sonst verdrehen sich die Arme. Steh danach so aufrecht wie möglich, damit dein eigener Rücken nicht überlastet wird.\n\nGÜRTELTRAGE, FÜR DIE WEITE STRECKE: Am besten für alles über dreihundert Meter, weil beide Hände frei bleiben — zum Klettern über Schutt, zum Abstützen, zum Tragen von etwas anderem. Zwei Gürtel oder Riemen aneinanderhängen (die Quelle nennt ersatzweise auch einen Gewehrriemen oder zwei lange Tuchstreifen), die Schlaufe unter Oberschenkel und unteren Rücken der liegenden Person legen, sodass auf beiden Seiten eine Schlaufe übersteht. Leg dich mit dem Gesicht nach oben zwischen ihre ausgestreckten Beine, schieb die Arme durch die Schlaufen und fass ihre Hände. Roll dich zur unverletzten Seite auf den Bauch, sodass sie auf deinen Rücken kommt, richte dich über die Knie zum Stand auf — der Gürtel hält sie in Position, die Hände bleiben dir frei.\n\nFÜR DEN ENGEN SPALT: DIE GÜRTELSCHLEIFE. Wenn beide möglichst niedrig bleiben müssen — unter einem umgestürzten Fahrzeug hindurch, durch eine niedrige Röhre —, legt dieselbe Quelle zwei verbundene Gürtel als Achterschlaufe über Kopf und Brust der Person, unter den Achseln hindurch. Leg dich seitlich zu ihr, zieh dir die Schlaufe selbst über den Kopf, dreh dich auf den Bauch und kriech vorwärts — die Person kommt mit, ohne dass du sie mit den Armen halten musst. Das ist die einzige dieser vier Techniken, bei der beide fast auf dem Boden bleiben.\n\nKeiner dieser vier Griffe wird bei Verdacht auf eine Rücken- oder Nackenverletzung eingesetzt — dann gilt weiter „Verletzten bewegen: wann gar nicht, und wie doch“ und „Wirbelsäulenverletzung: nicht in die Seitenlage“. Und keiner ersetzt eine zweite Person: Ist irgendjemand sonst da, gehört „Zu zweit tragen: welcher Griff zu welcher Strecke“ vorgezogen.",
+      "keywords": [
+        "huckepack",
+        "huckepack tragen",
+        "sattelgriff",
+        "rucksacktrage",
+        "gürteltrage",
+        "guerteltrage",
+        "wie trage ich ihn allein",
+        "einen tragen",
+        "engen raum",
+        "enger raum",
+        "unter dem auto",
+        "gürtelschleife",
+        "guertelschleife"
+      ],
+      "sources": [
+        {
+          "name": "US-Heer, -Marine und -Luftwaffe (Headquarters, Departments of the Army, the Navy, and the Air Force)",
+          "detail": "FM 4-25.11 (FM 21-11) / NTRP 4-02.1 / AFMAN 44-163(I) „First Aid“, 23. Dezember 2002, Anhang B „Manual Carries“, Abschnitt B-8a (Saddleback-, Pack-Strap-, Pistol-Belt-Carry und Pistol-Belt-Drag). Werk der US-Bundesregierung, gemeinfrei. archive.org, Volltext gelesen am 20.08.2026."
+        },
+        {
+          "name": "US-Heer (Headquarters, Department of the Army)",
+          "detail": "FM 21-11 „First Aid for Soldiers“, 27. Oktober 1988, Kapitel 10 „Manual Carries“, dieselben vier Griffe inhaltlich unverändert gegenüber der Fassung 2002 — zum Abgleich der Ausgaben gelesen. archive.org, Volltext gelesen am 20.08.2026."
+        }
+      ],
+      "group": "eh-retten",
+      "situations": [
+        "jetzt-sofort",
+        "verletzt"
+      ]
+    },
+    {
+      "id": "erste-hilfe-zu-zweit-tragen",
+      "title": "Zu zweit tragen: welcher Griff zu welcher Strecke",
+      "category": "erste-hilfe",
+      "body": "Ist eine zweite Person da, wird sie ausdrücklich immer eingesetzt: Zu zweit tragen ist für die verletzte Person bequemer, verschlimmert eine Verletzung seltener und ermüdet die Tragenden weniger als jeder Ein-Personen-Griff. „Behelfstrage aus Jacken und zwei Stangen“ nennt dafür bereits den Vier-Hände-Sitz für kürzere Strecken. Hier stehen drei weitere Griffe zu zweit, wieder nach Entfernung geordnet.\n\nSTÜTZGRIFF, FÜR JEMANDEN, DER NOCH MITGEHEN KANN: Für kurze Strecken, wenn die Person auf einem Bein hüpfen oder mit Hilfe gehen kann. Beide Helfer stellen sie auf die Beine, legen je einen Arm um ihre Taille und ziehen ihre Handgelenke um den eigenen Nacken. So kann sie sich zwischen beiden fortbewegen, so weit die Kraft reicht.\n\nARMTRAGE ZU ZWEIT, FÜR DIE MITTLERE STRECKE — UND DER GRIFF, DEN MAN SICH MERKEN MUSS: Beide Helfer knien auf DERSELBEN Seite, schieben die Arme unter Rücken, Taille, Hüfte und Knie, heben die Person beim Aufrichten auf die Knie, drehen sie dann zu sich heran und richten sich zum Stand auf — getragen hoch und nah am eigenen Körper, das ermüdet am wenigsten. Dieser Griff eignet sich auch, um jemanden auf eine Trage zu heben. UND DAS IST DER SATZ, DER DIESEN EINTRAG RECHTFERTIGT: In einer äußersten Notlage, wenn keine Zeit für eine Trage bleibt, ist dies laut Quelle der SICHERSTE Griff, um jemanden mit einer vermuteten Rückenverletzung zu bewegen — also genau die Ausnahme, die „Verletzten bewegen: wann gar nicht, und wie doch“ und „Wirbelsäulenverletzung: nicht in die Seitenlage“ offenlassen, wenn unmittelbare Lebensgefahr wie Feuer oder Explosion keine andere Wahl lässt. Sind zwei weitere Helfer da, halten sie zusätzlich Kopf und Beine in einer Linie mit dem Körper, während getragen wird. Ohne diese Not gilt weiter: nicht bewegen.\n\nTRAGE VORN UND HINTEN, FÜR DIE WEITE STRECKE: Der größere der beiden Helfer geht an den Kopf. Der kleinere spreizt die Beine der Person, kniet mit dem Rücken zu ihr dazwischen und fasst hinter ihre Knie; der andere kniet am Kopf, schiebt die Hände unter ihre Arme quer über die Brust und verschränkt sie. Beide richten sich gleichzeitig auf. Drehen sich beide zur Person hin, eignet sich derselbe Griff auch zum Auflegen auf eine Trage.\n\nZWEI-HÄNDE-SITZ, WENN SIE SICH NICHT FESTHALTEN KANN: Anders als beim Vier-Hände-Sitz aus der Behelfstrage-Anleitung muss die Person hier nicht mitarbeiten — das macht ihn zur richtigen Wahl bei Bewusstlosigkeit oder einer verletzten Hand. Beide Helfer knien seitlich auf Hüfthöhe, schieben die Arme unter Oberschenkel und Rücken und fassen dabei NICHT das eigene, sondern das GEGENÜBERLIEGENDE Handgelenk des anderen Helfers. So entsteht eine Sitzfläche aus vier Armen, die von selbst hält, auch wenn niemand sich anlehnt. Er trägt für kurze Strecken und eignet sich ebenfalls zum Auflegen auf eine Trage.\n\nWie beim Griff allein gilt auch hier die Grenze zuerst: Besteht Verdacht auf eine Rücken- oder Nackenverletzung, wird nach keinem dieser vier Griffe gegriffen, außer in der einen Notlage, die oben bei der Armtrage beschrieben ist.",
+      "keywords": [
+        "zu zweit tragen",
+        "zwei helfer tragen",
+        "stützgriff",
+        "stuetzgriff",
+        "armtrage",
+        "zwei-hände-sitz",
+        "zwei haende sitz",
+        "rückenverletzung tragen",
+        "ruecken verletzung bewegen",
+        "sicherster griff rücken",
+        "trage vorn und hinten"
+      ],
+      "sources": [
+        {
+          "name": "US-Heer, -Marine und -Luftwaffe (Headquarters, Departments of the Army, the Navy, and the Air Force)",
+          "detail": "FM 4-25.11 (FM 21-11) / NTRP 4-02.1 / AFMAN 44-163(I) „First Aid“, 23. Dezember 2002, Anhang B „Manual Carries“, Abschnitt B-8b (Two-man Carries: Support, Arms, Fore-and-Aft, Two-Hand Seat), inklusive der Aussage zur sichersten Trageweise bei Rückenverletzung. Werk der US-Bundesregierung, gemeinfrei. archive.org, Volltext gelesen am 20.08.2026."
+        },
+        {
+          "name": "US-Heer (Headquarters, Department of the Army)",
+          "detail": "FM 21-11 „First Aid for Soldiers“, 27. Oktober 1988, Kapitel 10, Abschnitt zu Zwei-Mann-Griffen mit derselben Aussage zur sichersten Trageweise bei Rückenverletzung (dort b: „the safest one for transporting a soldier with a back injury“) — zum Abgleich der Ausgaben gelesen. archive.org, Volltext gelesen am 20.08.2026."
+        }
+      ],
+      "group": "eh-retten",
+      "situations": [
+        "jetzt-sofort",
+        "verletzt"
+      ]
+    },
+    {
+      "id": "erste-hilfe-bewusstlosen-tragen-sichern",
+      "title": "Ohne Bewusstsein transportieren: Kopf, Hände und Atmung sichern",
+      "category": "erste-hilfe",
+      "body": "Eine bewusstlose Person kann sich nicht festhalten, den Kopf nicht selbst stützen und nicht sagen, wenn etwas wehtut oder die Luft wegbleibt. Vier Punkte kommen deshalb beim Tragen dazu, egal welchen Griff aus „Allein tragen: Huckepack, Rucksack- und Gürtelgriff“ oder „Zu zweit tragen: welcher Griff zu welcher Strecke“ du nutzt.\n\nERSTENS: DEN RICHTIGEN GRIFF WÄHLEN. Huckepack und der Vier-Hände-Sitz aus „Behelfstrage aus Jacken und zwei Stangen“ verlangen laut Quelle ausdrücklich, dass die Person sich selbst an dir festhält — beide fallen bei Bewusstlosigkeit aus. Bei der Rucksacktrage hältst du die Handgelenke der Person dagegen selbst, sie muss nichts dafür tun. Einordnung dieses Pakets, nicht aus der Quelle: Ein sehr ähnlicher Griff mit Ausrüstungsschlaufen, der genauso auf gehaltenen statt gegriffenen Armen beruht, wird in der Quelle ausdrücklich auch für eine bewusstlose Person freigegeben — das spricht dafür, auch Rucksacktrage, Gürteltrage und Zwei-Hände-Sitz bei Bewusstlosigkeit zu nutzen, auch wenn die Quelle das für diese drei nicht wörtlich so schreibt.\n\nZWEITENS: DEN KOPF BEIM AUFRICHTEN STÜTZEN. Die Quelle warnt eigens vor einer Kopfbewegung, die beim Hochheben einer bewusstlosen Person aus dem Liegen entsteht: Der Kopf kann nach hinten durchschlagen und dabei den Nacken verletzen, wenn er nicht gestützt wird. Halt den Kopf beim Aufrichten deshalb mit einer Hand oder lass ihn eine zweite Person stützen, bis die Person aufrecht steht.\n\nDRITTENS: DIE HÄNDE SICHERN. Beim Nackenzug aus „Verletzten bewegen: wann gar nicht, und wie doch“ werden die Handgelenke der Person zusammengebunden, damit der Griff um den Nacken hält, auch wenn sie selbst nicht zupackt. Dasselbe gilt beim Tragen auf dem Rücken: Bind die Handgelenke mit einem Stoffstreifen zusammen, bevor du die Arme über deine Schultern legst — sonst rutschen sie herunter und bleiben unterwegs an Ästen, Türrahmen oder Schutt hängen.\n\nVIERTENS: DEN KOPF VOM BODEN FERNHALTEN. Bei jeder Technik, die nah am Boden bleibt — etwa der Gürtelschleife für einen engen Spalt —, verlangt die Quelle ausdrücklich, den Kopf der bewusstlosen Person vor dem Untergrund zu schützen, zum Beispiel mit der eigenen Hand, einem zusammengerollten Kleidungsstück oder indem eine zweite Person ihn trägt.\n\nEinordnung dieses Pakets, nicht aus der Quelle: Die vier Punkte oben stehen so oder sinngemäß in der Quelle; was jetzt kommt, ist eigene Einordnung. Eine bewusstlose Person kann während des Tragens nicht mehr melden, wenn die Atmung aussetzt — deshalb bei jeder Pause und an jedem Halt kurz hinsehen und -hören, ob sie weiter ausreichend atmet, siehe „Bewusstlos: atmet oder atmet nicht“. Setzt du sie ab, etwa zum Griffwechsel oder weil der Weg es verlangt, gilt dieselbe Reihenfolge wie sonst: Atmung prüfen, und bei ausreichender, ruhiger Atmung in die stabile Seitenlage bringen — siehe „Stabile Seitenlage: Handgriffe“ — außer bei Verdacht auf eine Rücken- oder Nackenverletzung, dann bleibt sie auf dem Rücken, siehe „Wirbelsäulenverletzung: nicht in die Seitenlage“. Atmet sie nicht mehr oder nur noch mit seltener, geräuschvoller Schnappatmung, wird sofort mit der Herzdruckmassage begonnen und das Tragen unterbrochen — eine wiederbelebte Person kommt ohne Herzschlag nirgendwo an.",
+      "keywords": [
+        "kopf sichern beim tragen",
+        "hände sichern beim tragen",
+        "haende sichern",
+        "handgelenke binden",
+        "kopf stützen",
+        "kopf stuetzen",
+        "ohne bewusstsein transportieren",
+        "atmung beim tragen prüfen"
+      ],
+      "sources": [
+        {
+          "name": "US-Heer, -Marine und -Luftwaffe (Headquarters, Departments of the Army, the Navy, and the Air Force)",
+          "detail": "FM 4-25.11 (FM 21-11) / NTRP 4-02.1 / AFMAN 44-163(I) „First Aid“, 23. Dezember 2002, Anhang B „Manual Carries“: B-8a(2) Warnung vor Kopfüberstreckung beim Aufrichten, B-8a(9) Handgelenke binden und Kopfschutz beim Nackenzug, B-8a(5)/(4) Bewusstsein als Voraussetzung für Sattelgriff und Vier-Hände-Sitz, B-8a(12) Ausrüstungsgriff ausdrücklich für Bewusstlose freigegeben. US-Bundesregierung, gemeinfrei. archive.org, gelesen am 20.08.2026."
+        }
+      ],
+      "group": "eh-retten",
+      "situations": [
+        "jetzt-sofort",
+        "verletzt"
+      ]
+    },
+    {
+      "id": "erste-hilfe-trage-treppe-hang",
+      "title": "Trage auf Treppen und am Hang: Kopf oder Fuß voran",
+      "category": "erste-hilfe",
+      "body": "„Behelfstrage aus Jacken und zwei Stangen“ sagt, wie eine Trage gebaut und flach getragen wird. Sobald es hoch oder runter geht — eine Treppe, ein Hang —, kommt eine Regel dazu, die für zwei genauso gilt wie für vier Tragende.\n\nDIE GRUNDREGEL: BERGAUF UND TREPPAUF DER KOPF VORAN, BERGAB UND TREPPAB DER FUSS VORAN. Das gilt, solange kein Bein gebrochen ist — bei einem Beinbruch nennt die Quelle keine eigene Regel dafür, dann zählt vor allem, das gebrochene Bein ruhig und in einer Linie mit dem restlichen Körper zu halten, notfalls mit einer zusätzlichen Hand, siehe „Knochenbruch versorgen“. Einordnung dieses Pakets, nicht aus der Quelle: Die Regel läuft darauf hinaus, dass der Kopf am Hang immer der höhere Punkt bleibt — bergauf, weil er vorausgeht, bergab, weil die Füße vorausgehen und der Kopf hinten oben liegt.\n\nDAZU ZWEI KNAPPE, ABER WICHTIGE SÄTZE AUS DERSELBEN QUELLE: Die Trage so WAAGRECHT WIE MÖGLICH halten — bei zwei Tragenden ebenso wie bei vieren, die sich an Kopf- und Fußende verteilen. Und: BEIM TRANSPORT AUF EINEM GENEIGTEN HANG BESONDERE VORSICHT, wörtlich als eigener Warnhinweis hervorgehoben. Konkret heißt das: langsamer gehen, öfter absetzen und ausruhen, und die Person, die am Hang UNTEN steht, trägt bewusst mehr vom Gewicht, damit die Trage nicht kippt.\n\nWO DAS TRAGEN VON HAND AUFHÖRT: Eine zweite Quelle zu Gebirgs-Rettungstrupps nennt eine Zahl, die sich auf eine Gruppe ohne Ausbildung übertragen lässt, auch wenn sie ursprünglich für ausgebildete Trupps mit Ausrüstung geschrieben ist: Ab einer durchschnittlichen Hangneigung von etwa zwanzig Grad reicht ein Vierer-Team nicht mehr aus, die Quelle setzt dort ein Sechser-Team voraus. Zwanzig Grad ist kein steiler Kletterhang — das ist bereits ein spürbar steiler Wander- oder Waldweg. Einordnung dieses Pakets, nicht aus der Quelle: Wer nur zwei bis vier Helfer hat und an so einen Hang kommt, ist an der Grenze dessen, was sich von Hand tragen lässt. Ab hier gehört die Last gezogen statt getragen — mit Seil, Schlitten oder Travois, siehe „Schlitten und Ziehtrage bauen: Lasten ziehen ohne Räder“, dort auch das Verfahren, eine Last an einem langen Seil einen sehr steilen Hang gerade abzulassen.\n\nUND WENN VERDACHT AUF EINE RÜCKEN- ODER NACKENVERLETZUNG BESTEHT: Auch am Hang und auf der Treppe ändert das nichts an der Grundregel — siehe „Verletzten bewegen: wann gar nicht, und wie doch“ und „Wirbelsäulenverletzung: nicht in die Seitenlage“. Eine Trage transportiert eine solche Verletzung nicht sicherer, sie verhindert nur, dass der Körper selbst durchhängt.",
+      "keywords": [
+        "trage treppe",
+        "trage hang",
+        "trage bergauf",
+        "trage bergab",
+        "trage steigung",
+        "kopf voran",
+        "fuß voran",
+        "fuss voran",
+        "trage im gelände",
+        "trage im gelaende",
+        "steiler hang tragen"
+      ],
+      "sources": [
+        {
+          "name": "US-Heer (Headquarters, Department of the Army)",
+          "detail": "FM 8-10-6 „Medical Evacuation in a Theater of Operations“, 14. April 2000, Anhang J „Basic Guides for Training Litter Bearers“, Abschnitt J-7 „Procedures for Carrying a Loaded Litter“ (Kopf voran bergauf/treppauf, Fuß voran bergab/treppab, außer bei Beinbruch) sowie Kapitel 5, Abschnitt 5-2g „Mountain Operations“ (Vierer- auf Sechser-Team ab rund 20 Grad Hangneigung). Werk der US-Bundesregierung, gemeinfrei. archive.org, Volltext gelesen am 20.08.2026."
+        },
+        {
+          "name": "US-Heer, -Marine und -Luftwaffe (Headquarters, Departments of the Army, the Navy, and the Air Force)",
+          "detail": "FM 4-25.11 (FM 21-11) „First Aid“, 23. Dezember 2002, Anhang B, Abschnitt B-9d: Trage zu zweit oder zu viert (Kopf/Fuß) heben, möglichst waagrecht halten, besondere Vorsicht bei geneigtem Gelände. Werk der US-Bundesregierung, gemeinfrei. archive.org, Volltext gelesen am 20.08.2026."
+        }
+      ],
+      "group": "eh-retten",
+      "situations": [
+        "jetzt-sofort",
+        "verletzt"
+      ]
     }
   ],
   "groups": [

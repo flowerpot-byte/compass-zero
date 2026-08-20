@@ -428,7 +428,47 @@ class EuropeDePaketTest {
         // (taktisch-klingenlaenge-und-bauart).
         // 524 -> 525 am 20.08.2026: "Spruehgeraet, Alarm und Verbotszone: was zusaetzlich gilt"
         // (taktisch-spruehgeraet-alarm-verbotszone).
-        assertEquals(525, pack.tips.size)
+        // 525 -> 526 am 20.08.2026: "Steckengeblieben: was das Fahrzeug freibekommt, was es tiefer setzt"
+        // (taktisch-fahrzeug-steckengeblieben).
+        // 526 -> 527 am 20.08.2026: "Abschleppen und Anschieben: wo das Seil sicher haelt"
+        // (taktisch-fahrzeug-abschleppen).
+        // 527 -> 528 am 20.08.2026: "Furt beurteilen, bevor man mit dem Fahrzeug hineinfaehrt"
+        // (taktisch-furt-beurteilen).
+        // 528 -> 529 am 20.08.2026: "Strasse beschaedigt: wie man weiterkommt, ohne stehenzubleiben"
+        // (taktisch-strasse-beschaedigt-befahren).
+        // 529 -> 530 am 20.08.2026: "Trinken, Kochen, Waschen: der Tagesbedarf einer Gruppe"
+        // (wasser-bedarf-trinken-kochen-waschen).
+        // 530 -> 531 am 20.08.2026: "Kanister, Faesser und Tanks: reinigen und entkeimen"
+        // (wasser-behaelter-reinigen-entkeimen).
+        // 531 -> 532 am 20.08.2026: "Entkeimtes im Vorrat: noch gut oder nicht mehr?"
+        // (wasser-vorrat-noch-gut).
+        // 532 -> 533 am 20.08.2026: "Die Ausgabestelle fuer eine Gruppe: Abstand und Sauberkeit"
+        // (wasser-ausgabestelle-gruppe).
+        // 533 -> 534 am 20.08.2026: "Fahrzeug oder Geraet abdecken, ohne dass die Abdeckung selbst auffaellt"
+        // (taktisch-fahrzeug-abdecken).
+        // 534 -> 535 am 20.08.2026: "Licht bei Nacht: wie weit ein Lichtschein zu sehen ist"
+        // (taktisch-licht-bei-nacht).
+        // 535 -> 536 am 20.08.2026: "Tarnmaterial frisch halten: warum Welken schlimmer ist als gar nichts aufzulegen"
+        // (taktisch-tarnmaterial-frisch-halten).
+        // 536 -> 537 am 20.08.2026: "Der eigene Trampelpfad: warum man nicht immer denselben Weg geht"
+        // (taktisch-eigener-trampelpfad).
+        // 537 -> 538 am 20.08.2026: "Latrine, Kueche, Trinkstelle: die Abstaende im Lager"
+        // (hygiene-lagerabstaende).
+        // 538 -> 539 am 20.08.2026: "Geschirr spuelen ohne Spuele: drei Becken nacheinander"
+        // (hygiene-geschirr-drei-becken).
+        // 539 -> 540 am 20.08.2026: "Wer nicht kochen darf, wenn jemand krank ist"
+        // (hygiene-kochverbot-krank).
+        // 540 -> 541 am 20.08.2026: "Fliegen bekaempfen: die Brutstaette zuerst"
+        // (hygiene-fliegen-bekaempfen).
+        // 541 -> 542 am 20.08.2026: "Allein tragen: Huckepack, Rucksack- und Guertelgriff"
+        // (erste-hilfe-huckepack-rucksacktrage).
+        // 542 -> 543 am 20.08.2026: "Zu zweit tragen: welcher Griff zu welcher Strecke"
+        // (erste-hilfe-zu-zweit-tragen).
+        // 543 -> 544 am 20.08.2026: "Bewusstlos tragen: Kopf, Haende und Atmung sichern"
+        // (erste-hilfe-bewusstlosen-tragen-sichern).
+        // 544 -> 545 am 20.08.2026: "Trage auf Treppen und am Hang: Kopf oder Fuss voran"
+        // (erste-hilfe-trage-treppe-hang).
+        assertEquals(545, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser
