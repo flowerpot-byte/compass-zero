@@ -422,7 +422,13 @@ class EuropeDePaketTest {
         // (taktisch-entwaffnen-letzter-ausweg).
         // 521 -> 522 am 20.08.2026: "Spaten, Riemen, Helm: Schutz aus dem, was da ist"
         // (taktisch-behelfsgegenstaende).
-        assertEquals(522, pack.tips.size)
+        // 522 -> 523 am 20.08.2026: "Besitzen oder fuehren: der Unterschied, der zaehlt"
+        // (taktisch-waffenrecht-besitz-fuehren).
+        // 523 -> 524 am 20.08.2026: "Klinge und Bauart: was du dabei haben darfst"
+        // (taktisch-klingenlaenge-und-bauart).
+        // 524 -> 525 am 20.08.2026: "Spruehgeraet, Alarm und Verbotszone: was zusaetzlich gilt"
+        // (taktisch-spruehgeraet-alarm-verbotszone).
+        assertEquals(525, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser
