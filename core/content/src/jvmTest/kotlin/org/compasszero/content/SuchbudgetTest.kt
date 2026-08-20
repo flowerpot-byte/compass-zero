@@ -36,6 +36,7 @@ class SuchbudgetTest {
     private class Zaehlung {
         var zeichen = 0L
         var wortvorkommen = 0L
+        val verschiedene = HashSet<String>()
         val proEintrag = mutableListOf<Pair<String, Long>>()
 
         fun zaehle(text: String): Long {
@@ -44,7 +45,9 @@ class SuchbudgetTest {
             if (aufbereitet == null) return 0
             var n = 0L
             for (token in Tokenizer.tokensAusSuchform(aufbereitet)) {
-                if (!Tokenizer.enthaeltOhneWortabstand(token)) n++
+                if (Tokenizer.enthaeltOhneWortabstand(token)) continue
+                n++
+                verschiedene.add(token)
             }
             wortvorkommen += n
             return n
@@ -94,13 +97,36 @@ class SuchbudgetTest {
         val frei = grenze - z.wortvorkommen
         val mittel = z.wortvorkommen / z.proEintrag.size
 
+        val grenzeWortschatz = ContentLimits.MAX_SUCHINDEX_VERSCHIEDENE_WOERTER.toLong()
+        val wortschatz = z.verschiedene.size.toLong()
+        val mittelZeichen = z.zeichen / z.proEintrag.size
+        // Wie viele neue Woerter ein Eintrag im Schnitt MITBRINGT, ist etwas
+        // anderes als seine Wortzahl: Das meiste steht schon im Verzeichnis.
+        val mittelNeueWoerter = maxOf(1L, wortschatz / z.proEintrag.size)
+
         println("Suchbudget des Basispakets (${z.proEintrag.size} Eintraege):")
         println("  Wortvorkommen  ${z.wortvorkommen} von $grenze, frei $frei")
+        println("  Wortschatz     $wortschatz von $grenzeWortschatz, frei ${grenzeWortschatz - wortschatz}")
         println("  Suchzeichen    ${z.zeichen} von ${ContentLimits.MAX_SUCHTEXT_ZEICHEN}")
-        val passenNoch = frei / mittel
+        // Es gilt die Grenze, die ZUERST greift -- eine Zahl, die nur die
+        // bequemste der drei nennt, waere eine Falle.
+        val nachVorkommen = frei / mittel
+        val nachZeichen = (ContentLimits.MAX_SUCHTEXT_ZEICHEN - z.zeichen) / mittelZeichen
+        val nachWortschatz = (grenzeWortschatz - wortschatz) / mittelNeueWoerter
+        val passenNoch = minOf(nachVorkommen, nachZeichen, nachWortschatz)
+        val engste = when (passenNoch) {
+            nachZeichen -> "Suchzeichen"
+            nachVorkommen -> "Wortvorkommen"
+            else -> "Wortschatz"
+        }
         println(
-            "  Mittel je Eintrag $mittel -- das reicht noch fuer $passenNoch " +
-                if (passenNoch == 1L) "Eintrag" else "Eintraege",
+            "  Mittel je Eintrag $mittel Woerter / $mittelZeichen Zeichen / $mittelNeueWoerter neue Woerter",
+        )
+        println(
+            "  Es reicht noch fuer $passenNoch " +
+                (if (passenNoch == 1L) "Eintrag" else "Eintraege") +
+                " -- am engsten ist $engste " +
+                "(Vorkommen $nachVorkommen, Zeichen $nachZeichen, Wortschatz $nachWortschatz)",
         )
         println("  Groesste Eintraege:")
         z.proEintrag.sortedByDescending { it.second }.take(5).forEach {
@@ -114,6 +140,12 @@ class SuchbudgetTest {
                 "der neue Eintrag. Was jetzt gilt, steht in ROADMAP.md unter \"Das Wortbudget des " +
                 "Europa-Pakets ist voll\" -- die Grenze wird nicht einfach angehoben, das ist eine " +
                 "Entwurfsentscheidung.",
+        )
+        assertTrue(
+            wortschatz <= grenzeWortschatz,
+            "Der Wortschatz ist gerissen: $wortschatz verschiedene Woerter, erlaubt sind " +
+                "$grenzeWortschatz. Das ist die Groesse, an der der Speicher wirklich haengt -- " +
+                "sie wird nicht einfach angehoben, das ist eine Entwurfsentscheidung.",
         )
         assertTrue(
             z.zeichen <= ContentLimits.MAX_SUCHTEXT_ZEICHEN,

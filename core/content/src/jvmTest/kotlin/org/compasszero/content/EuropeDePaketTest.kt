@@ -34,7 +34,7 @@ class EuropeDePaketTest {
             .toSet()
 
     @Test
-    fun basispaketDeLaedtMitDerErwartetenWortbudgetwarnung() {
+    fun basispaketDeLaedtOhneProblem() {
         val paket = File(repoRoot(), "content/europe-de/paket")
         val manifestBytes = File(paket, "manifest.json").readBytes()
         val tipsBytes = File(paket, "content/tips.json").readBytes()
@@ -52,14 +52,16 @@ class EuropeDePaketTest {
             skizzennamen(paket),
         )
 
-        // Seit dem 20.08.2026 warnt der Parser ab 90 % des Wortbudgets (siehe
-        // PackParser.pruefeSuchtextMenge und MERKZETTEL.md, "Die Wand am Ende
-        // des Wortbudgets") -- das Basispaket liegt darueber und meldet deshalb
-        // GENAU eine Warnung, aber kein Fatal. Das gehoert hierher, nicht
-        // weggemacht: Reisst der Stand die Grenze selbst, faellt SuchbudgetTest
-        // darauf an, nicht dieser Test.
+        // Das Basispaket laedt ohne jede Meldung. Bis zum 20.08.2026 stand hier
+        // eine Vorwarnung: Die damalige Grenze zaehlte die WORTVORKOMMEN, und
+        // die waren zu 96 % ausgeschoepft. Seit die Grenze die VERSCHIEDENEN
+        // Woerter zaehlt -- die Groesse, an der der Speicher wirklich haengt --
+        // liegt das Paket wieder weit im ruhigen Bereich.
+        //
+        // Diese Liste bleibt leer und wird nicht aufgeweicht: Reisst der Stand
+        // eine Grenze, faellt SuchbudgetTest darauf an, nicht dieser Test.
         assertEquals(
-            listOf("content-search-terms-near-limit"),
+            emptyList(),
             result.problems.map { it.code },
             "Unerwartete Probleme: ${result.problems}",
         )

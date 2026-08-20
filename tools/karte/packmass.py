@@ -68,6 +68,14 @@ AB_ZOOM = {
 
 KOPF = struct.Struct("<BBI")
 
+# Punktsaetze tragen seit der Erweiterung um Ortsnamen zwei Bytes Punktart und
+# Namenslaenge hinter den Koordinaten, dann den Namen. Wer die ueberliest,
+# faengt den naechsten Satz mitten im Namen an -- das Feld verschiebt sich um
+# ein paar Bytes und die Datei sieht danach aus wie Muell, ohne dass ein
+# Fehler faellt. `bauen.py` kennt diese Bytes laengst; hier fehlten sie.
+PUNKTKOPF = struct.Struct("<BH")
+PUNKT_ART = 2
+
 
 def lies(pfad):
     """Liest die Zwischendatei in flache Felder.
@@ -92,6 +100,9 @@ def lies(pfad):
         art.append(a)
         laenge.append(k)
         i += k * 8
+        if a == PUNKT_ART:
+            _, namenslaenge = PUNKTKOPF.unpack_from(roh, i)
+            i += PUNKTKOPF.size + namenslaenge
     anfang = np.concatenate([[0], np.cumsum(laenge)])[:-1]
     return (np.array(sorte, dtype=np.uint8),
             np.array(art, dtype=np.uint8),
@@ -228,6 +239,19 @@ def messe_stufe(daten, zoom, stichprobe=400):
     }
 
 
+# Sorten, die in einem gueltigen Auszug ganz fehlen duerfen. Die Pruefung
+# unten sucht abgebrochene Zwischendateien; eine leere Sorte ist dafuer nur
+# dann ein Zeichen, wenn es sie ueberall gibt.
+#   weg-fein   wird von `sorten.py` nur unter Bedingungen vergeben.
+#   gletscher  hat kein flaches Land.
+#   grenze-region gibt es nur, wo jemand die Landesgrenzen an die WEGE
+#                 geschrieben hat. Montenegro hat davon null -- gemessen am
+#                 20.08.2026 an einem vollstaendigen, gebauten und signierten
+#                 Auszug. Vorher hat diese Pruefung genau daran falschen
+#                 Alarm geschlagen und die Messung verweigert.
+DARF_LEER_SEIN = {"weg-fein", "gletscher", "grenze-region"}
+
+
 def zwischendatei_taugt(daten):
     """Sagt laut, WAS gemessen wird -- und bricht ab, wenn Sorten fehlen.
 
@@ -252,7 +276,7 @@ def zwischendatei_taugt(daten):
               % (name, f"{n:,}".replace(",", " "),
                  f"{int(laenge[treffer].sum()):,}".replace(",", " "),
                  ", ".join(arten) if arten else "--"))
-        if n == 0 and name != "weg-fein":
+        if n == 0 and name not in DARF_LEER_SEIN:
             fehlend.append(name)
     if fehlend:
         print()

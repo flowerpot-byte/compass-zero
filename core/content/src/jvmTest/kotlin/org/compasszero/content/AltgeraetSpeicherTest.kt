@@ -243,6 +243,26 @@ class AltgeraetSpeicherTest {
      * Woerter und reichen weit ueber jede Grenze hinaus, die hier je gemessen
      * wird.
      */
+    /**
+     * Kurzes Wort fuer Testpakete mit KLEINEM Wortschatz.
+     *
+     * WOZU DIE KUERZERE FORM: Um die Vorkommensgrenze zu pruefen, braucht es
+     * ueber 600 000 Woerter in einer Datei. Mit sechs Buchstaben je Wort waere
+     * die Datei groesser als MAX_JSON_BYTES, und dann meldete der Test die
+     * falsche Grenze. Vier Zeichen ergeben 17 576 verschiedene Woerter -- fuer
+     * einen absichtlich kleinen Wortschatz reicht das weit.
+     */
+    private fun wortKurz(n: Int): String {
+        val stellen = "abcdefghijklmnopqrstuvwxyz"
+        var rest = n
+        val sb = StringBuilder("w")
+        repeat(3) {
+            sb.append(stellen[rest % 26])
+            rest /= 26
+        }
+        return sb.toString()
+    }
+
     private fun wortNummer(n: Int): String {
         val stellen = "abcdefghijklmnopqrstuvwxyz"
         var rest = n
@@ -288,14 +308,24 @@ class AltgeraetSpeicherTest {
     // Baut ein agriculture-Paket aus lauter verschiedenen, kurzen Woertern — der
     // gleichzeitig schlimmste Fall fuer Vorkommen und Verschiedenheit im
     // Wortverzeichnis, siehe ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN.
-    private fun agricultureJsonMitVorkommen(woerterJeAbschnitt: Int): String {
+    private fun agricultureJsonMitVorkommen(woerterJeAbschnitt: Int, wortschatz: Int = 0): String {
         val kapitel = 200
         val abschnitte = 10
         var zaehler = 0
+        // wortschatz = 0 heisst: jedes Wort verschieden, der teuerste Fall fuer
+        // das Wortverzeichnis. Ein Wert groesser null laesst die Woerter reihum
+        // wiederkehren -- damit laesst sich die Zahl der VORKOMMEN treiben, ohne
+        // den Wortschatz mitwachsen zu lassen. Nur so ist jede der beiden
+        // Grenzen einzeln pruefbar.
+        fun naechstesWort(): String {
+            val n = if (wortschatz > 0) zaehler % wortschatz else zaehler
+            zaehler++
+            return if (wortschatz in 1..17_576) wortKurz(n) else wortNummer(n)
+        }
         fun woerter(anzahl: Int): String = buildString {
             repeat(anzahl) {
                 if (it > 0) append(' ')
-                append(wortNummer(zaehler++))
+                append(naechstesWort())
             }
         }
         return buildString {
@@ -317,9 +347,9 @@ class AltgeraetSpeicherTest {
         """{"schema":1,"id":"org.compasszero.test","version":1,"language":"de","title":"Testpaket","kinds":["agriculture"]}"""
 
     @Test
-    fun vieleVerschiedeneWortvorkommenUnterDerGrenzeLadenUndIndizieren() {
-        // 498 400 Wortvorkommen (200 * 10 * 248 plus Ueberschriften/Titel) —
-        // knapp unter ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN.
+    fun einGrosserWortschatzUnterDerGrenzeLaedtUndIndiziert() {
+        // 298 400 verschiedene Woerter (200 * 10 * 148 plus Ueberschriften/Titel)
+        // — knapp unter ContentLimits.MAX_SUCHINDEX_VERSCHIEDENE_WOERTER.
         //
         // DIESER TEST IST DIE MESSUNG SELBST, nicht ihre Wiederholung: Der
         // Testlauf haelt nur 96 MB bereit (siehe build.gradle.kts), und hier
@@ -328,10 +358,12 @@ class AltgeraetSpeicherTest {
         // kaputt — dann traegt die neue Zahl auf einem alten Geraet nicht.
         //
         // Und es ist der TEUERSTE Fall: In diesem Paket ist jedes Wort
-        // verschieden. Das echte Europa-Paket wiederholt jedes Wort im Schnitt
-        // 14,5 mal und hat damit ein rund zwanzigmal kleineres Verzeichnis.
-        // Am 17.08.2026 mit 450 000 durchgelaufen, am 20.08.2026 mit 500 000.
-        val agricultureJson = agricultureJsonMitVorkommen(248)
+        // verschieden, Wortschatz und Vorkommen sind also dieselbe Zahl. Das
+        // echte Europa-Paket wiederholt jedes Wort im Schnitt fuenfzehnmal und
+        // hat damit ein rund zwanzigmal kleineres Verzeichnis.
+        // 450 000 Vorkommen am 17.08.2026, 500 000 am 20.08.2026 -- seit dem
+        // 20.08.2026 zaehlt die Grenze die verschiedenen Woerter.
+        val agricultureJson = agricultureJsonMitVorkommen(148)
         val result = PackParser.parse(
             mapOf(
                 "manifest.json" to agricultureManifest.encodeToByteArray(),
@@ -342,7 +374,7 @@ class AltgeraetSpeicherTest {
         val pack = result.pack
         assertTrue(
             pack != null,
-            "Paket unter der Wortvorkommen-Grenze muss laden: " + result.problems.take(3).map { it.code },
+            "Paket unter der Wortschatz-Grenze muss laden: " + result.problems.take(3).map { it.code },
         )
         val index = SearchIndex.build(pack)
         assertTrue(index.search("waaaa").isNotEmpty())
@@ -407,7 +439,10 @@ class AltgeraetSpeicherTest {
     // die Grenze ohne Vorwarnung riss.
     @Test
     fun suchbudgetWarntAbNeunzigProzentOhneDasLadenZuVerhindern() {
-        val agricultureJson = agricultureJsonMitVorkommen(235) // rund 94 % der Grenze
+        // 542 400 Vorkommen bei nur rund 2 000 verschiedenen Woertern: reichlich
+        // ueber 90 % der Vorkommensgrenze und weit unter der Wortschatz-Grenze,
+        // damit wirklich die gemeinte Warnung geprueft wird.
+        val agricultureJson = agricultureJsonMitVorkommen(270, wortschatz = 2_000)
         val result = PackParser.parse(
             mapOf(
                 "manifest.json" to agricultureManifest.encodeToByteArray(),
@@ -451,19 +486,47 @@ class AltgeraetSpeicherTest {
         )
     }
 
+    // Die Grenze, die den Speicher wirklich beschreibt: zu viele VERSCHIEDENE
+    // Woerter. Ein verschiedenes Wort kostet rund das Achtfache eines weiteren
+    // Vorkommens, weil es einen eigenen Eintrag im Wortverzeichnis braucht.
+    // Hier liegt das Paket mit 304 400 verschiedenen Woertern ueber der Grenze,
+    // aber mit denselben 304 400 Vorkommen weit UNTER der Vorkommensgrenze --
+    // faellt der Test um, greift die falsche der beiden Grenzen.
+    @Test
+    fun einZuGrosserWortschatzWirdVorDemIndexbauAbgelehnt() {
+        val agricultureJson = agricultureJsonMitVorkommen(151)
+        val result = PackParser.parse(
+            mapOf(
+                "manifest.json" to agricultureManifest.encodeToByteArray(),
+                "content/agriculture.json" to agricultureJson.encodeToByteArray(),
+            ),
+            emptySet(),
+        )
+        assertNull(result.pack, "Paket ueber der Wortschatz-Grenze darf nicht geladen werden")
+        val meldungen = result.problems.map { it.code }
+        assertTrue(
+            "content-too-many-search-words" in meldungen,
+            "erwartet content-too-many-search-words, war $meldungen",
+        )
+        assertTrue(
+            "content-too-many-search-terms" !in meldungen,
+            "hier darf NICHT die Vorkommensgrenze greifen, war $meldungen",
+        )
+    }
+
     @Test
     fun zuVieleWortvorkommenWerdenVorDemIndexbauAbgelehnt() {
         // Der Fund des neunten Pruefdurchgangs: das Zeichenbudget schuetzt nicht
-        // vor kurzen, lauter verschiedenen Woertern. Ein Paket mit 462 400
-        // Wortvorkommen (200 * 10 * 230 plus Ueberschriften/Titel) liegt ueber
-        // der Grenze — und muss abgelehnt werden, bevor SearchIndex.build
+        // vor sehr vielen kurzen Woertern. Ein Paket mit 602 400 Wortvorkommen
+        // (200 * 10 * 300 plus Ueberschriften/Titel) liegt ueber der
+        // Grenze — und muss abgelehnt werden, bevor SearchIndex.build
         // ueberhaupt aufgerufen wird. Genau das war der Fehler: ein Paket, das
         // die dokumentierten Grenzen einhaelt, aber beim Indexaufbau real den
         // Speicher sprengt.
         //
         // Die Zahl haengt an ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN und muss
         // bei jeder Aenderung mitwandern, sonst prueft der Test nichts mehr.
-        val agricultureJson = agricultureJsonMitVorkommen(261)
+        val agricultureJson = agricultureJsonMitVorkommen(300, wortschatz = 2_000)
         val result = PackParser.parse(
             mapOf(
                 "manifest.json" to agricultureManifest.encodeToByteArray(),

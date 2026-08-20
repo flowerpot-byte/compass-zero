@@ -41,6 +41,17 @@ object PackParser {
         // Woerter aus Schriften ohne Wortabstand laufen nie ins Wortverzeichnis
         // (siehe SearchIndex.build) — sie zaehlen deshalb hier auch nicht mit.
         var wortvorkommen = 0L
+        // Die Groesse, an der der Speicher wirklich haengt: wie viele
+        // VERSCHIEDENE Woerter im Wortverzeichnis landen. Ein verschiedenes
+        // Wort kostet rund das Achtfache eines weiteren Vorkommens.
+        //
+        // WARUM DIE SAMMLUNG SICH SELBST DECKELT: Sie ist waehrend der Pruefung
+        // genau das, wovor sie schuetzen soll. Sobald die Grenze ueberschritten
+        // ist, steht das Ergebnis fest -- dann wird die Sammlung sofort
+        // freigegeben, statt weiter zu wachsen und das Geraet umzubringen,
+        // bevor die Meldung geschrieben ist.
+        val verschiedene = HashSet<String>()
+        var zuVieleVerschiedene = false
         // Gezaehlt wird die Fassung, die spaeter wirklich im Speicher liegt: beim
         // Vereinheitlichen kann ein Zeichen zu mehreren werden, und genau die
         // stehen im Suchindex.
@@ -49,7 +60,14 @@ object PackParser {
             zeichen += (aufbereitet?.length ?: text.length).toLong()
             if (aufbereitet == null) return
             for (token in Tokenizer.tokensAusSuchform(aufbereitet)) {
-                if (!Tokenizer.enthaeltOhneWortabstand(token)) wortvorkommen++
+                if (Tokenizer.enthaeltOhneWortabstand(token)) continue
+                wortvorkommen++
+                if (zuVieleVerschiedene) continue
+                verschiedene.add(token)
+                if (verschiedene.size > ContentLimits.MAX_SUCHINDEX_VERSCHIEDENE_WOERTER) {
+                    zuVieleVerschiedene = true
+                    verschiedene.clear()
+                }
             }
         }
         // Gezaehlt wird Feld fuer Feld, und genau so baut SearchIndex.build auch
@@ -76,6 +94,21 @@ object PackParser {
                 "content-too-large-for-search",
                 "pack",
                 "$zeichen Zeichen, erlaubt sind ${ContentLimits.MAX_SUCHTEXT_ZEICHEN}",
+            )
+        }
+        val grenzeVerschieden = ContentLimits.MAX_SUCHINDEX_VERSCHIEDENE_WOERTER
+        if (zuVieleVerschiedene) {
+            problems.fatal(
+                "content-too-many-search-words",
+                "pack",
+                "mehr als $grenzeVerschieden verschiedene Woerter, mehr traegt das Wortverzeichnis nicht",
+            )
+        } else if (verschiedene.size >= grenzeVerschieden / 10 * 9) {
+            problems.warn(
+                "content-search-words-near-limit",
+                "pack",
+                "${verschiedene.size} von $grenzeVerschieden verschiedenen Woertern erreicht (90 %), " +
+                    "noch ${grenzeVerschieden - verschiedene.size} frei",
             )
         }
         val grenzeWoerter = ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN

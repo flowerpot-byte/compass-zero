@@ -42,7 +42,12 @@ def zaehle(pfad):
             if len(obj.tags) == 0:
                 continue
             roh["knoten-mit-tags"] += 1
-            s = sorten.sorte_punkt(dict(obj.tags))
+            # sorte_punkt liefert ein Paar aus Sorte und Punktart, seit die
+            # Punkte eine Art tragen. Wer nur das Paar nimmt, zaehlt auf einen
+            # Schluessel, den keine andere Zeile kennt -- und die Ausgabe
+            # bricht spaeter beim Sortieren ab, weil Zeichenkette und Paar
+            # sich nicht vergleichen lassen.
+            s, _ = sorten.sorte_punkt(dict(obj.tags))
             if s:
                 objekte[s] += 1
                 stuetzpunkte[s] += 1

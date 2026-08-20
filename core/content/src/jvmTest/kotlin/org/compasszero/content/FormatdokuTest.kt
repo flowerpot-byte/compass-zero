@@ -77,6 +77,8 @@ class FormatdokuTest {
         val erwartet = listOf(
             Erwartung("Wortvorkommen im Suchindex", "MAX_SUCHINDEX_WORTVORKOMMEN",
                 ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN, 2),
+            Erwartung("Verschiedene Wörter im Suchindex", "MAX_SUCHINDEX_VERSCHIEDENE_WOERTER",
+                ContentLimits.MAX_SUCHINDEX_VERSCHIEDENE_WOERTER, 2),
             Erwartung("Durchsuchbarer Text je Paket", "MAX_SUCHTEXT_ZEICHEN",
                 ContentLimits.MAX_SUCHTEXT_ZEICHEN, 2),
             Erwartung("JSON-Einzelwerte je Datei", "MAX_JSON_ELEMENTS",

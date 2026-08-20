@@ -96,7 +96,34 @@ object ContentLimits {
     // Gemessen wird so: ein Paket aus lauter verschiedenen Woertern bauen, bei
     // 96 MB Heap laden UND indizieren. AltgeraetSpeicherTest tut genau das an
     // der jeweils geltenden Grenze.
-    const val MAX_SUCHINDEX_WORTVORKOMMEN = 500_000
+    const val MAX_SUCHINDEX_WORTVORKOMMEN = 600_000
+
+    // UND DIE GRENZE, DIE WIRKLICH DEN SPEICHER BESCHREIBT: wie viele
+    // VERSCHIEDENE Woerter im Wortverzeichnis stehen duerfen.
+    //
+    // Am 20.08.2026 getrennt gemessen, bei 96 MB Heap und festgehaltener
+    // jeweils anderer Groesse:
+    //   Wortschatz 100 000 -> 300 000, bei 1 000 000 Vorkommen: +25,9 MB,
+    //     also rund 130 Byte je verschiedenem Wort.
+    //   Vorkommen 500 000 -> 1 000 000, bei 30 000 verschiedenen Woertern:
+    //     +8,4 MB, also rund 17 Byte je Vorkommen.
+    // Ein verschiedenes Wort kostet damit ungefaehr das Achtfache eines
+    // weiteren Vorkommens. Die alte Grenze zaehlte die billige Groesse und
+    // bremste echten Inhalt aus, lange bevor Speichernot drohte: Das
+    // Europa-Paket hatte 485 939 Vorkommen, aber nur 32 316 verschiedene
+    // Woerter.
+    //
+    // 300 000 ist der vorsichtige Rand des gemessenen Bereichs (300 000 bis
+    // 516 675 tragen mit einem Fuenftel Abstand). Schlimmster Fall an beiden
+    // Grenzen zugleich: 300 000 * 130 Byte + 600 000 * 17 Byte = rund 49 MB
+    // von 96 MB. Fuer echten Inhalt ist das kein Zaun mehr: Bei 51,7 neuen
+    // verschiedenen Woertern je Eintrag reichte es fuer mehrere tausend
+    // weitere Eintraege -- vorher greift MAX_SUCHTEXT_ZEICHEN.
+    //
+    // WER SIE ANHEBEN WILL, misst wieder getrennt: Wortschatz und Vorkommen
+    // einzeln veraendern, bei 96 MB laden UND indizieren. AltgeraetSpeicherTest
+    // tut genau das an beiden geltenden Grenzen.
+    const val MAX_SUCHINDEX_VERSCHIEDENE_WOERTER = 300_000
     const val MAX_POIS = 10_000
     const val MAX_PHRASE_GROUPS = 40
     const val MAX_PHRASES_PER_FILE = 500
