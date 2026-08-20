@@ -378,7 +378,27 @@ class EuropeDePaketTest {
         // (taktisch-lagerplatz-waehlen).
         // 499 -> 500 am 20.08.2026: "Feuchtigkeit und Schimmel im geheizten Raum"
         // (taktisch-schimmel-geheizter-raum).
-        assertEquals(500, pack.tips.size)
+        // 500 -> 501 am 20.08.2026: "Abstand: der erste und wichtigste Schritt zurueck"
+        // (taktisch-abstand-zuerst).
+        // 501 -> 502 am 20.08.2026: "Fluchtwege vorher festlegen: wohin man laeuft"
+        // (taktisch-fluchtweg-vorher).
+        // 502 -> 503 am 20.08.2026: "Laut werden: wann es hilft, wann nicht"
+        // (taktisch-laut-werden).
+        // 503 -> 504 am 20.08.2026: "Nach der Bedrohung: was der Koerper noch tut"
+        // (taktisch-nach-bedrohung-koerper).
+        // 504 -> 505 am 20.08.2026: "Grundhaltung: Haende oben und offen"
+        // (taktisch-selbstschutz-grundhaltung).
+        // 505 -> 506 am 20.08.2026: "Gepackt, gegriffen, umklammert: sich loesen"
+        // (taktisch-griff-loesen).
+        // 506 -> 507 am 20.08.2026: "Wuergegriff loesen: vorn, hinten, am Boden"
+        // (taktisch-wuergegriff-loesen).
+        // 507 -> 508 am 20.08.2026: "Fallen ohne Verletzung, und sofort wieder hoch"
+        // (taktisch-fallen-aufstehen).
+        // 508 -> 509 am 20.08.2026: "Trefferstellen ohne Kraft: nur um Abstand zu gewinnen"
+        // (taktisch-trefferstellen-abstand).
+        // 509 -> 510 am 20.08.2026: "Notwehr: was das Gesetz erlaubt"
+        // (taktisch-notwehr-rechtslage).
+        assertEquals(510, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser
@@ -575,7 +595,17 @@ class EuropeDePaketTest {
         // (agrikultur-wurst-machen).
         // 79 -> 80 am 20.08.2026: "Talg auslassen: was aus Rinder- und Schaffett wird"
         // (agrikultur-talg-auslassen).
-        assertEquals(80, pack.agriculture.size)
+        // 80 -> 81 am 20.08.2026: "Was zuerst anbauen, wenn Flaeche und Kraft knapp sind"
+        // (agrikultur-auswahl-womit-anfangen).
+        // 81 -> 82 am 20.08.2026: "Kalorien und Eiweiss im Vergleich: was ein Kilo wirklich bringt"
+        // (agrikultur-kalorien-eiweiss-vergleich).
+        // 82 -> 83 am 20.08.2026: "Ausfallsicherheit vergleichen: was in einem schlechten Jahr noch steht"
+        // (agrikultur-ausfallsicherheit-vergleich).
+        // 83 -> 84 am 20.08.2026: "Was im ersten Jahr traegt, und was erst spaeter kommt"
+        // (agrikultur-erstes-jahr-vs-spaeter).
+        // 84 -> 85 am 20.08.2026: "Arbeit und Werkzeug: was mit der Hand zu schaffen ist"
+        // (agrikultur-werkzeug-arbeit-vergleich).
+        assertEquals(85, pack.agriculture.size)
         val ids = pack.tips.map { it.id }
         assertEquals(ids.toSet().size, ids.size, "doppelte Tipp-ID")
         val anleitungsIds = pack.guides.map { it.id }

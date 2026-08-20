@@ -16078,6 +16078,360 @@
         "am-leben-bleiben",
         "lage-und-gefahr"
       ]
+    },
+    {
+      "id": "taktisch-abstand-zuerst",
+      "title": "Der erste und wichtigste Schritt zurück",
+      "category": "taktisch",
+      "group": "taktisch-vorher",
+      "keywords": [
+        "sicherheitsabstand",
+        "angreifer",
+        "angegriffen werden",
+        "bedroht werden",
+        "auf distanz bleiben",
+        "distanz",
+        "zurückweichen",
+        "weggehen",
+        "entfernen",
+        "bauchgefühl",
+        "umgebung wahrnehmen",
+        "waffe tragen",
+        "pfefferspray",
+        "schrillalarm",
+        "taschenalarm"
+      ],
+      "body": "Bevor irgendetwas anderes hilft, hilft Abstand. Er kostet nichts, er verlangt keine Übung, und er wirkt schon, bevor überhaupt klar ist, ob wirklich Gefahr droht. Jede andere Reaktion setzt voraus, dass jemand schon nah genug ist, um zu handeln — Abstand ist der einzige Schritt, der genau das verhindert.\n\nWAS DIE POLIZEI RÄT, IST KURZ: die eigene Umgebung aufmerksam wahrnehmen und auf das eigene Bauchgefühl hören — es warnt einen instinktiv vor bedrohlichen Situationen. Und dann: Abstand halten, sich so früh wie möglich von einer bedrohlichen Situation entfernen. Konkret heißt das, einen sicheren Ort aufzusuchen — die Straßenseite wechseln, das U-Bahn-Abteil wechseln, einen Kiosk, ein Geschäft oder ein Restaurant aufsuchen, also einen Ort mit anderen Menschen und Licht.\n\nWARUM FRÜH MEHR WERT IST ALS SPÄT ENTSCHLOSSEN: Jede Technik, jedes Wort, jeder Trick setzt voraus, dass die Situation schon da ist — jemand steht schon vor dir, hat schon zugegriffen, redet schon auf dich ein. Ein Schritt zurück, bevor es so weit kommt, braucht davon nichts. Er ist keine Reaktion auf einen Angriff, sondern verhindert, dass die Frage nach der richtigen Reaktion überhaupt gestellt werden muss. Deshalb zählt jeder Meter, den du gehst, BEVOR jemand nah genug ist, um zu handeln, mehr als jede Idee, was du tun würdest, wenn er es schon ist.\n\nWORAUF MAN ACHTET, UM FRÜH GENUG ZU GEHEN, steht in „Gewalt: Anzeichen erkennen“ — geballte Fäuste, ein zusammengebissener Kiefer, jemand, der zu dicht herankommt, Unruhe in Armen und Beinen. Wer diese Zeichen sieht, hat noch die Wahl, zu gehen. Wer wartet, bis er sich sicher ist, dass wirklich etwas passiert, hat diese Wahl oft schon verloren.\n\nWAS NICHT HILFT, sagt dieselbe Quelle ausdrücklich: ein Messer, Pfefferspray oder eine andere Waffe bei sich zu tragen. Das Gefühl von Sicherheit, das eine Waffe gibt, nennt die Polizei einen Trugschluss — sie kann abgenommen und gegen einen selbst verwendet werden, sie kann die eigene Risikobereitschaft erhöhen, weil man sich fälschlich sicher fühlt, und sie führt eher zur Eskalation als zur Entschärfung. Der Rat lautet ausdrücklich, auch zu Verteidigungszwecken keine Waffe mitzuführen. Wo mehrere Menschen in der Nähe sein könnten, nennt die Quelle als Alternative einen Schrillalarm (Taschenalarm): ein lauter, schriller Ton, der Umstehende aufmerksam macht — nicht als Waffe gegen jemanden, sondern um Aufmerksamkeit zu erzeugen.\n\nWENN ABSTAND NICHT MEHR MÖGLICH IST — wenn jemand schon direkt vor dir steht und du eingeschlossen bist, in einem Gespräch oder in einer Ecke —, gilt nicht mehr dieser Text, sondern das, was in „Deeskalation: seitlich stehen, leise reden“ beschrieben ist. Die dortige Armlänge Abstand ist dann das Mindeste, was noch bleibt, kein Ersatz für den größeren Schritt, der jetzt schon versäumt ist.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Straßenseite, U-Bahn-Abteil oder Geschäft gibt es nicht überall. Der Gedanke dahinter lässt sich trotzdem übertragen — dorthin gehen, wo andere Menschen sind, nicht dorthin, wo niemand ist, und lieber der hellere, belebtere Weg als der kürzere. Auf dem Land oder unterwegs abseits von Häusern heißt das: den Weg mit Blickkontakt zu einem Hof, einer Straße oder einer Gruppe wählen, statt den einsamen Pfad, auch wenn er länger dauert.\n\nDER GRÖSSTE FEHLER IST WARTEN. Wer erst prüfen will, ob es wirklich ernst wird, hat den Moment, in dem Weggehen noch die leichteste aller Möglichkeiten war, oft schon verpasst. Ein falscher Alarm kostet ein paar Minuten Umweg. Ein zu später Rückzug kostet mehr.",
+      "sources": [
+        {
+          "name": "Programm Polizeiliche Kriminalprävention der Länder und des Bundes (ProPK)",
+          "detail": "„Wie Sie sich unterwegs vor Gewalt schützen“, polizei-beratung.de, am 20.08.2026 im Volltext gelesen: Umgebung wahrnehmen, Abstand halten, früh entfernen, sichere Orte aufsuchen, keine Waffen mitführen, Schrillalarm als Alternative."
+        }
+      ],
+      "situations": [
+        "lage-und-gefahr",
+        "unterwegs"
+      ]
+    },
+    {
+      "id": "taktisch-fluchtweg-vorher",
+      "title": "Zwei Ausgänge kennen, bevor du sie brauchst",
+      "category": "taktisch",
+      "group": "taktisch-vorher",
+      "keywords": [
+        "fluchtweg",
+        "fluchtwege",
+        "ausgang",
+        "ausgänge",
+        "notausgang",
+        "wohin laufen",
+        "zwei ausgänge",
+        "escape route",
+        "weg nach draußen"
+      ],
+      "body": "Ein Fluchtweg hilft nur, wenn er schon feststeht, bevor er gebraucht wird. Mitten in der Bedrohung zu überlegen, wo es hier eigentlich rausgeht, kostet genau die Sekunden, die dann fehlen.\n\nDIE GEWOHNHEIT, DIE SICH ÜBERALL ANWENDEN LÄSST: An jedem Ort, den du betrittst — ein Geschäft, ein Bahnsteig, eine Veranstaltung, ein fremdes Gebäude —, kurz die ZWEI nächstgelegenen Ausgänge merken, nicht nur den, durch den du hereingekommen bist. Das amerikanische Innenministerium für Heimatschutz nennt das für den Ernstfall die wichtigste einzelne Gewohnheit: sich der eigenen Umgebung und möglicher Gefahren bewusst sein und die zwei nächsten Ausgänge jedes Ortes kennen, den man besucht. Ein Fluchtweg im Kopf ist etwas anderes als ein Fluchtweg, der einem erst einfällt, wenn es losgeht.\n\nWENN ES TATSÄCHLICH SO WEIT KOMMT, nennt die Quelle eine klare Reihenfolge: Wenn ein Weg nach draußen erreichbar ist, geh. Geh, auch wenn andere um dich herum sich nicht entscheiden können oder nicht mitkommen wollen — auf niemanden warten. Lass deine Sachen liegen, eine Tasche oder eine Jacke ist es nicht wert, dass du danach zurückgreifst. Halte die Hände sichtbar, während du dich bewegst, damit klar ist, dass von dir keine Gefahr ausgeht. Hilf anderen beim Herauskommen, wenn du kannst, ohne dich selbst dabei aufzuhalten. Und geh nicht in die Richtung, aus der die Bedrohung kommt — auch nicht, um zu helfen oder nachzusehen; wer noch draußen ist, kann davon abgehalten werden, selbst hineinzugehen, aber das reicht.\n\nWOHIN MAN LÄUFT, WENN KEIN GEBÄUDE UND KEIN AUSGANG IN SICHT IST: derselbe Gedanke gilt im Freien — dorthin, wo andere Menschen, Licht und offene Türen sind, nicht in die nächstbeste Richtung. Ein belebter, beleuchteter Ort hält eine Bedrohung eher ab als eine leere Straße, und dort lässt sich auch leichter Hilfe finden.\n\nDEN NOTRUF ERST, WENN DU IN SICHERHEIT BIST. Rufen, während man noch mitten in der Bedrohung steckt, kostet Aufmerksamkeit, die gerade dem eigenen Weg nach draußen gehört. Die 112 wählt man, sobald man einen sicheren Ort erreicht hat, nicht davor.\n\nWAS DIESER TEXT NICHT WIEDERHOLT: Wie man im oder mit dem Fahrzeug aus einer gefährlichen Stelle herauskommt, steht in „Hinterhalt: die Frage vorher ist wichtiger als jede Reaktion“. Wie man sich unbemerkt zu einem Versteck im Gelände bewegt, steht in „Der Weg zum Versteck: hingehen, ohne verfolgt zu werden“. Dieser Text füllt die Lücke dazwischen — der ganz gewöhnliche Ort mit einer Tür, an dem man sich gerade befindet, ohne vorher daran gedacht zu haben.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Wer selbst schnell laufen kann, aber jemanden dabei hat, der es nicht kann — ein Kind an der Hand, eine ältere oder eine verletzte Person —, sollte diesen Gedanken schon beim Betreten eines Ortes mitdenken, nicht erst im Ernstfall: Reicht der nähere der beiden Ausgänge auch für ihn oder sie, oder ist der andere, etwas weitere, in Wirklichkeit der bessere? Wer selbst auf Hilfsmittel angewiesen ist, findet die eigene Vorsorge dazu in „Wer auf Hilfsmittel angewiesen ist: die eigene Vorsorge“.\n\nDIE GEWOHNHEIT LOHNT SICH AUCH OHNE ERNSTFALL. Die zwei nächsten Ausgänge zu kennen kostet beim Betreten eines Ortes einen einzigen Blick. Man braucht ihn fast nie. Genau deshalb wird er so leicht vergessen — und genau deshalb zählt er, wenn es einmal darauf ankommt.",
+      "sources": [
+        {
+          "name": "US-Ministerium für Heimatschutz (Department of Homeland Security, DHS)",
+          "detail": "„Active Shooter: How to Respond“, Oktober 2008, Abschnitte „Good practices“ und „Evacuate“, am 20.08.2026 im Volltext gelesen: zwei nächste Ausgänge kennen, Fluchtweg im Kopf haben, nicht auf andere warten, Sachen zurücklassen, Hände sichtbar, Notruf erst in Sicherheit. US-Bundesbehörde, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "lage-und-gefahr",
+        "unterwegs"
+      ]
+    },
+    {
+      "id": "taktisch-laut-werden",
+      "title": "Laut werden: wann es hilft, wann nicht",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "schreien",
+        "laut werden",
+        "hilferuf",
+        "aufmerksamkeit erregen",
+        "passanten ansprechen",
+        "direkt ansprechen",
+        "siezen",
+        "nicht schreien",
+        "notruf"
+      ],
+      "body": "Ob man in einem bedrohlichen Moment laut wird oder still bleibt, ist keine Frage des Mutes. Es ist eine Frage der Lage — und die Antwort ist in zwei ganz unterschiedlichen Situationen genau entgegengesetzt.\n\nWIRST DU AUF OFFENER STRASSE ANGEGRIFFEN, IST DIE ANTWORT: LAUT WERDEN. Die Polizei rät für diesen Fall ausdrücklich: sei laut, mach andere auf den Übergriff aufmerksam, bitte um Hilfe. Der Grund liegt in dem, was dabei sonst passiert — eine Menschenmenge fühlt sich für einen einzelnen Vorfall selten zuständig, wenn niemand sie direkt einbindet. Deshalb rät dieselbe Stelle für den Moment davor, in dem sich eine Lage erst zuspitzt, dazu, eine bestimmte Person direkt anzusprechen statt allgemein um Hilfe zu rufen — angesprochen an einem auffälligen Kleidungsstück, das sie von anderen unterscheidet, dann die Situation kurz beschrieben und Hilfe konkret eingefordert. Ein allgemeiner Ruf nach Hilfe verhallt oft ungehört; eine direkt angesprochene Person fühlt sich verantwortlich.\n\nWAS MAN ZUR PROVOZIERENDEN PERSON SELBST SAGT, kann dabei mithelfen: Sie zu siezen, auch wenn man sie sonst duzen würde. Der Grund, den die Polizei dafür nennt, ist nicht Höflichkeit, sondern Wirkung nach außen — es signalisiert Außenstehenden, dass hier keine private Streiterei zwischen Bekannten abläuft, sondern etwas, das sie etwas angeht.\n\nWIRST DU DAGEGEN AUSGERAUBT ODER STEHT DIR JEMAND MIT EINER FORDERUNG GEGENÜBER, GILT DAS GENAUE GEGENTEIL. Wie man sich bei einem Überfall grundsätzlich verhält, steht in „Überfallen werden: hergeben statt wehren“ — dieser Text wiederholt das nicht, sondern ergänzt eine Stelle, die dort fehlt: Für diesen Fall rät die Polizei ausdrücklich, KEINEN Widerstand zu leisten UND NICHT um Hilfe zu rufen. Der Unterschied zur Straße ist die Absicht der anderen Person: Wer eine Forderung stellt und eine Reaktion erwartet, wird durch Geschrei nicht abgeschreckt, sondern unter Umständen erst recht unter Druck gesetzt — die Lage kann kippen, wenn er sich in die Enge getrieben fühlt. Ruhig zuhören, tun was verlangt wird, das Verlangte sichtbar und ohne hastige Bewegung herausgeben: das schützt hier mehr als jeder Hilferuf.\n\nDIESELBE UMKEHRUNG GILT NOCH EIN DRITTES MAL, GANZ AM ENDE: Wenn tatsächlich Hilfe eintrifft — Polizei, Rettungskräfte, bewaffnete Einsatzkräfte —, ist erneut Zurückhaltung gefragt. Eine amerikanische Quelle zu bewaffneten Bedrohungslagen rät ausdrücklich, gegenüber ankommenden Einsatzkräften nicht mit Fingern zu zeigen und nicht zu schreien oder zu rufen — sie kennen die Lage noch nicht und müssen jede Person erst einordnen. Ruhig bleiben, Gegenstände aus den Händen legen, die Hände hochheben und die Finger spreizen, und den Anweisungen folgen: das gilt jetzt, nicht mehr das Lautwerden von vorhin.\n\nWAS DU SAGST, WENN DU LAUT WIRST: kein unbestimmter Ruf ins Leere, sondern eine bestimmte Person, benannt an etwas, das sie von anderen unterscheidet, dazu, was passiert, und was du von ihr willst. Das ist konkret genug, dass niemand sich wegducken kann hinter der Annahme, ein anderer werde schon reagieren.\n\nWANN DU SCHWEIGST: sobald jemand etwas von dir verlangt und eine Reaktion von dir erwartet — ein Überfall, eine Geiselnahme, eine Situation, in der Ruhe und Berechenbarkeit die andere Person eher beruhigen als aufbringen.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Beide Regeln stammen aus verschiedenen Quellen für verschiedene Lagen und widersprechen sich absichtlich nicht auf derselben Situation — sie beantworten zwei verschiedene Fragen. Die Kunst liegt darin, in der ersten Sekunde zu erkennen, welche der beiden Lagen gerade vorliegt: Geht es jemandem um dich als Person, oder will er etwas von dir bekommen und dann verschwinden?",
+      "sources": [
+        {
+          "name": "Programm Polizeiliche Kriminalprävention der Länder und des Bundes (ProPK)",
+          "detail": "„Auf einen Angriff reagieren“ und „Wie Sie sich unterwegs vor Gewalt schützen“, polizei-beratung.de, am 20.08.2026 im Volltext gelesen: laut werden, Hilfe einfordern, provozierende Person siezen, Passanten direkt ansprechen."
+        },
+        {
+          "name": "Programm Polizeiliche Kriminalprävention der Länder und des Bundes (ProPK)",
+          "detail": "„Raubüberfall auf Gewerbe“, polizei-beratung.de, am 20.08.2026 im Volltext gelesen: bei einem Überfall keine Gegenwehr, nicht um Hilfe rufen, ruhig und widerspruchslos Anweisungen befolgen."
+        },
+        {
+          "name": "US-Ministerium für Heimatschutz (Department of Homeland Security, DHS)",
+          "detail": "„Active Shooter: How to Respond“, Oktober 2008, Abschnitt „How to react when law enforcement arrives“, am 20.08.2026 im Volltext gelesen: nicht zeigen, nicht schreien, Hände sichtbar, Anweisungen befolgen. US-Bundesbehörde, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-nach-bedrohung-koerper",
+      "title": "Nach der Bedrohung: was der Körper noch tut",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "zittern",
+        "übelkeit",
+        "erinnerungslücken",
+        "nach dem schreck",
+        "nach der bedrohung",
+        "nach dem überfall",
+        "adrenalin",
+        "stressreaktion",
+        "kann mich nicht erinnern",
+        "kampf oder flucht"
+      ],
+      "body": "Wenn die akute Bedrohung vorbei ist, ist der Körper es oft noch nicht. Zittern, Übelkeit, ein rasendes Herz, und Lücken in der Erinnerung daran, was genau passiert ist — für viele Menschen ist genau das der eigentliche Schreck, weil sie dachten, mit der Gefahr sei auch das schon vorbei.\n\nWAS DA PASSIERT, HAT EINEN NAMEN UND EINEN GRUND: Der Körper hat sich in Sekunden auf Kampf oder Flucht vorbereitet — Stresshormone wie Adrenalin, ein rasender Puls, angespannte Muskeln, ein wacher Kopf. Das US-Nationale Institut für psychische Gesundheit beschreibt Furcht in einer solchen Lage ausdrücklich als Teil dieser Kampf-oder-Flucht-Reaktion, die dabei hilft, eine Gefahr abzuwenden oder ihr zu begegnen. Ist die Gefahr vorbei, muss dieser Zustand erst wieder abklingen — er hört nicht auf, sobald die Bedrohung aufhört.\n\nDAS US-INSTITUT FÜR ARBEITSSCHUTZFORSCHUNG (NIOSH, TEIL DER SEUCHENSCHUTZBEHÖRDE CDC) listet auf, was in dieser Phase am Körper auftreten kann: Zittern und Schlottern, Übelkeit und Erbrechen, Schwindel, starkes Schwitzen, Durst, flache oder schnelle Atmung, ein rasender oder schwacher Puls, blasse und feuchte Haut, Verwirrung. Dieselbe Quelle nennt außerdem Gedächtnisprobleme, Schwierigkeiten, sich zu konzentrieren, und Mühe, selbst vertraute Gegenstände oder Gesichter sofort wiederzuerkennen.\n\nDER UNTERSCHIED, DER ZÄHLT: Leichtes Zittern, Unwohlsein oder Verwirrung ohne eine tatsächliche Verletzung klingen bei den meisten Menschen innerhalb kurzer Zeit von selbst ab. Kommt eine echte Verletzung dazu, oder bleibt eine Person auffallend blass, kalt und schwach, wird zunehmend teilnahmslos oder verliert das Bewusstsein, gilt das nicht mehr als bloße Nachwirkung des Schrecks — dann gilt „Schock erkennen: blass, kalt, schneller Puls“, und dort wird gehandelt, nicht abgewartet.\n\nLÜCKEN IN DER ERINNERUNG SIND KEIN ZEICHEN, DASS ETWAS MIT DIR NICHT STIMMT. Unter extremer Anspannung nimmt der Kopf nicht alles gleich gut auf — manche erinnern sich an ein Gesicht, aber nicht an eine Stimme, an eine Farbe, aber nicht an eine Reihenfolge. Das ist eine bekannte, normale Folge der Anspannung selbst, keine persönliche Schwäche. Genau deshalb hilft es, das Erlebte so früh wie möglich aufzuschreiben, solange noch etwas davon klar im Kopf ist — wie es schon in „Überfallen werden: hergeben statt wehren“ für die Anzeige empfohlen wird: Zeit, Ort, was passiert ist, wie die Person aussah. Später wird die Erinnerung nicht klarer, sondern lückenhafter.\n\nWAS IN DEN NÄCHSTEN STUNDEN HILFT, wieder nach dem US-Institut für Arbeitsschutzforschung: für Wärme sorgen, etwas trinken, wenn möglich etwas essen. Nicht allein bleiben, wenn sich das vermeiden lässt. Reden, aber erst, wenn man selbst so weit ist — niemand muss sofort erzählen, was passiert ist. Keine großen Entscheidungen treffen, solange dieser Zustand noch anhält. Alkohol meiden, er verschlimmert die Lage eher, als dass er hilft. Und in den eigenen Tagesablauf zurückfinden, Schritt für Schritt, ohne sich selbst dazu zu drängen.\n\nWENN ES NICHT VON SELBST NACHLÄSST: Hält die Angst selbst an, statt langsam kleiner zu werden, hilft „Angst und Panik: drei Übungen ohne Mittel“. Bricht jemand über Tage hinweg regelrecht zusammen, hilft „Wenn jemand zusammenbricht: vier Dinge, die helfen“. Dieser Text handelt von den ersten Minuten und Stunden danach — die beiden anderen von dem, was folgt, wenn diese Zeit nicht reicht.",
+      "sources": [
+        {
+          "name": "US-Behörde für Arbeitsschutz und Gesundheit am Arbeitsplatz (NIOSH, Teil der CDC)",
+          "detail": "„Traumatic Incident Stress“, stress.cdc.gov/niosh, Stand 11.04.2024, am 20.08.2026 im Volltext gelesen (über archivierte Fassung, da die Originalseite den Abruf blockierte): Zittern, Übelkeit, Verwirrung, Gedächtnisprobleme als Stresssymptome; Wärme, Trinken, Essen, Reden nach eigenem Tempo. US-Bundesbehörde, gemeinfrei."
+        },
+        {
+          "name": "US-Nationales Institut für psychische Gesundheit (NIMH)",
+          "detail": "„Coping With Traumatic Events“, nimh.nih.gov, Stand Mai 2024, am 20.08.2026 im Volltext gelesen: Furcht als Teil der Kampf-oder-Flucht-Reaktion, rasender Puls, Schwitzen. Laut Fußzeile der Quelle gemeinfrei (US-Bundesbehörde)."
+        }
+      ],
+      "situations": [
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-selbstschutz-grundhaltung",
+      "title": "Grundhaltung: Hände oben und offen",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "grundhaltung",
+        "bereitschaftshaltung",
+        "kampfbereit",
+        "kampfstellung",
+        "hände hoch",
+        "verteidigungshaltung",
+        "angst",
+        "stress",
+        "adrenalin",
+        "grobmotorik",
+        "tunnelblick",
+        "zittern",
+        "körperlich angegriffen",
+        "sich wehren",
+        "körperliche gewalt",
+        "todesangst"
+      ],
+      "body": "Dieser Tipp und die folgenden zur körperlichen Selbstverteidigung gelten für einen einzigen, klar abgegrenzten Moment: Jemand greift dich gerade körperlich an, und Weglaufen ist keine Option mehr — der Angreifer ist zu nah, hält dich fest, oder ein Weg nach draußen fehlt. Das ist ausdrücklich NICHT dieselbe Lage wie bei einem Raub oder einer Entführung. Geht es nur um Sachen, gilt weiter „Überfallen werden: hergeben statt wehren“. Wirst du zum Mitkommen aufgefordert, gilt „Entführung: nicht fliehen, ruhig bleiben, Anweisungen befolgen“. Und wo noch Zeit für ein Gespräch bleibt, gilt „Gewalt vermeiden statt bekämpfen“ — Abstand und Deeskalation sind immer der bessere Weg, solange sie noch möglich sind. Die folgenden Tipps sind für den Moment gedacht, in dem all das schon gescheitert oder keine Zeit mehr dafür ist: Der Angriff läuft bereits.\n\nWARUM DIE HÄNDE OBEN UND OFFEN. Eine US-Heeresvorschrift zum Nahkampf beschreibt für genau diesen Moment zwei Schritte, unmittelbar hintereinander. Erster Schritt, solange eine Auseinandersetzung nur droht: dem möglichen Angreifer zugewandt bleiben und die Hände auf eine nicht-bedrohliche Art nach oben nehmen. Zweiter Schritt, sobald der Angriff tatsächlich beginnt: beide Arme weiter nach oben bringen, um die gefährlichsten möglichen Angriffslinien abzudecken, in eine breitere Standposition gehen und die Körperhöhe absenken. Die Vorschrift betont ausdrücklich: nicht raten, WELCHER Angriff kommt — deshalb kommen grundsätzlich BEIDE Arme hoch, nicht nur einer.\n\nOffene, erhobene Hände leisten in dieser ersten Sekunde mehr als geballte Fäuste: Sie sind noch nichts Bestimmtes. Aus einer offenen Hand wird in einem Wimpernschlag ein Block, ein Wegstoßen oder ein Schlag — eine Faust ist dagegen schon festgelegt. Und die erhobenen Hände schützen genau das, was am wertvollsten und am wenigsten geschützt ist: Kopf und Hals. Dieselbe Vorschrift beschreibt die Grundstellung, die daraus entsteht: Hände hoch, um Kopf und Gesicht zu schützen, Ellbogen nah am Körper, Gewicht gleichmäßig auf beiden Füßen, Knie leicht gebeugt, um sich sofort in jede Richtung bewegen zu können.\n\nWAS DER KÖRPER IN DIESEM MOMENT MACHT: Unter starker Angst verändern sich Wahrnehmung und Feinmotorik — was dabei im Einzelnen passiert und was davon normal ist, steht belegt in „Nach der Bedrohung: was der Körper noch tut“. Für die Auswahl der Technik zählt hier nur die Folge: Was feine Finger braucht, geht in diesem Moment nicht. Dieselbe US-Heeresvorschrift sagt es für den Nahkampf ausdrücklich: Unter hohem Stress muss man sich auf GROBMOTORIK verlassen — auf Bewegungen, die keine komplizierte Koordination und keine lange Übung brauchen. Ein Griff, der im ruhigen Training nach zwanzig Wiederholungen klappt, klappt im Ernstfall meistens nicht. Ein Stoß mit dem ganzen Körpergewicht, ein Tritt, ein Schlag mit der flachen Hand — das funktioniert auch mit zitternden Händen und im Tunnelblick. Deshalb bestehen die folgenden Tipps — „Gepackt, gegriffen, umklammert: sich lösen“, „Würgegriff lösen: vorn, hinten, am Boden“, „Fallen ohne Verletzung, und sofort wieder hoch“ und „Trefferstellen ohne Kraft: nur um loszukommen“ — bewusst nur aus solchen einfachen, großen Bewegungen, nicht aus feinmotorischen Kunstgriffen, die nur im ruhigen Training zuverlässig sind.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 Combatives, US-Heer, 18.01.2002, Abschnitt 5-2.a(1) „Close Range“ (Figuren 5-6/5-7, Hände nicht-bedrohlich heben, dann beide Arme hoch), Abschnitt 3-5.a „Stand Up in Base“ (Figur 3-7, Grundstellung) und Abschnitt 6-3 „Kicks“ (Grobmotorik unter Stress). Volltext gelesen am 20.08.2026, archive.org-Kennung milmanual-fm-3-25.150-combatives. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. §105)."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-griff-loesen",
+      "title": "Gepackt, gegriffen, umklammert: sich lösen",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "griff lösen",
+        "festgehalten",
+        "gepackt",
+        "handgelenk gepackt",
+        "arm gepackt",
+        "kleidung gepackt",
+        "kragen gepackt",
+        "umklammert",
+        "umarmt",
+        "umarmung von vorn",
+        "umarmung von hinten",
+        "bärenumarmung",
+        "kopfstoß",
+        "sich befreien"
+      ],
+      "body": "GEPACKT: HANDGELENK, ARM, KLEIDUNG. Egal ob am Handgelenk, am Arm oder an der Kleidung — jeder Griff einer Hand hat dieselbe schwache Stelle: die Lücke zwischen Daumen und den vier Fingern. Eine US-Heeresvorschrift nutzt genau diese Lücke bei zwei Griffen, mit demselben Grundgedanken: Der Griff wird nicht mit roher Kraft aufgebrochen, sondern zur schwachen Seite hin weggedreht.\n\nAM ARM GEPACKT: Greift jemand deinen Arm, drehst du deinen Arm so, dass deine Hand seinen Unterarm greift, während deine andere Hand gleichzeitig seine greifende Hand festhält, damit er nicht loslassen und neu greifen kann. Trittst du dabei einen Schritt auf ihn zu und hältst beide Griffe, verdreht sich sein Arm in eine Zwangslage — er kann seine Hand nicht mehr sinnvoll einsetzen. Das reicht, um dich zu lösen und einen Schritt zurückzutreten.\n\nAM HANDGELENK GEPACKT: Für diesen Fall selbst nennt die Vorschrift keine eigene Technik, aber dasselbe Prinzip trägt auch hier (Einordnung dieses Pakets, aus dem oben belegten Grundgedanken abgeleitet): Dreh dein gepacktes Handgelenk scharf in die Richtung, in der sein Daumen liegt — dorthin, wo sein Griff offen ist, nicht wo die vier Finger zudrücken —, und zieh den Arm dabei nah an deinen eigenen Körper. Ein geschlossener Griff ist an der Daumenseite immer am schwächsten.\n\nAN DER KLEIDUNG ODER AM KRAGEN GEPACKT: Greift dir jemand an den Kragen oder das Revers, greifst du mit deiner Hand nach seiner greifenden Hand, damit er sie nicht zurückziehen kann, und trittst gleichzeitig einen Schritt zurück, um ihn aus dem Gleichgewicht zu bringen. Dann schälst du seine Hand ab, indem du seinen Daumen zusammendrückst und in einer geraden Linie zur Handfläche zurückbiegst — deine eigenen Hände bleiben dabei nah am Körper, wo die Kontrolle am stärksten ist. Sobald der Griff offen ist: nicht weiterringen, sondern den entstandenen Abstand sofort nutzen und weg.\n\nUMKLAMMERT VON VORN. Am zuverlässigsten wirkt hier eine zweite US-Heeresvorschrift zufolge derselbe Handgriff, egal wie genau der Arm dabei liegt: ein Kopfstoß mit der Stirn gegen Nase oder Wange des Angreifers. Er betäubt kurz, und in diesem Moment löst sich meist auch der Griff — nutz ihn sofort für einen Tritt oder Knie in die Leiste und dann für den Weg weg. WICHTIG DABEI, nicht aus der Quelle, sondern als praktischer Hinweis: Mit dem oberen Stirnbereich beziehungsweise dem Haaransatz treffen, nicht mit der Stirnmitte oder gar der Nase — sonst verletzt man sich selbst mit. Bleibt dabei eine Hand frei, weil der Griff unter deinen Armen ansetzt, hilft zusätzlich: mit beiden Händen von unten gegen sein Kinn oder seine Nase nach oben drücken, bis der Griff nachgibt.\n\nUMKLAMMERT VON HINTEN. Auch von hinten wirkt derselbe Kopfstoß: den Kopf erst nach vorn nehmen und dann die Rückseite des Kopfes nach hinten in Nase oder Wange des Angreifers schlagen. Bleiben die Arme dabei frei genug, um sich zu bewegen, weil der Griff über deinen Armen ansetzt: tief in eine stabile Stellung gehen, beide Arme sofort hochbringen, bevor er sie kontrollieren kann, seitlich um seine Hüfte herumdrehen, und sobald du an ihm vorbei bist, seine Leiste treffen, siehe „Trefferstellen ohne Kraft: nur um loszukommen“.\n\nIn jedem dieser Fälle gilt dasselbe Ziel: Sobald der Griff offen ist, nicht weiterkämpfen, sondern den gewonnenen Moment nutzen, um wegzukommen.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 3-5 „Grappling“ a und b (Wristlock From a Collar or Lapel Grab, Figur 3-15; Wristlock From an Arm Grab, Figur 3-16) sowie Abschnitt 3-1(4) „Head Butt“ (Figur 3-4, Kopfstoß bei Umarmung von vorn und hinten). Volltext gelesen am 20.08.2026, archive.org-Kennung CombativesFieldManualFM21150. Werk der US-Bundesregierung, gemeinfrei."
+        },
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 Combatives, US-Heer, 18.01.2002, Abschnitt 8-2 „Defense Against Bear Hugs“, b (Front Bear Hug Under Your Arms, Kinn/Nase nach oben drücken) und c (Bear Hug From the Rear, Over the Arms, Hüfte umgehen, Leiste treffen; der abschließende Hüftwurf der Quelle wird hier weggelassen). Volltext gelesen am 20.08.2026, archive.org-Kennung milmanual-fm-3-25.150-combatives."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-wuergegriff-loesen",
+      "title": "Würgegriff lösen: vorn, hinten, am Boden",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "würgegriff",
+        "gewürgt",
+        "erwürgt",
+        "strangulation",
+        "erdrosselt",
+        "atemnot",
+        "hals zugedrückt",
+        "ohnmacht",
+        "bewusstlos werden",
+        "würgen von hinten",
+        "würgen am boden"
+      ],
+      "body": "HIER ZÄHLT JEDE SEKUNDE. Eine US-Heeresvorschrift zum Nahkampf sagt es ohne Umschweife: Bewusstlosigkeit durch einen Würgegriff kann bereits innerhalb von drei Sekunden eintreten. Es bleibt also keine Zeit, mehrere Techniken durchzuprobieren — die erste Reaktion muss sitzen.\n\nDIE ERSTE REAKTION, EGAL AUS WELCHER RICHTUNG: Sobald du den Arm oder die Hände am Hals spürst, greifen deine eigenen Hände sofort danach — nicht um sie wegzureißen, sondern um zu verhindern, dass der Griff sich weiter zuzieht, und um zu spüren, wie der Angreifer steht. Diese eine Bewegung ist nach einer zweiten US-Heeresvorschrift der erste Reflex, bevor irgendeine der folgenden Techniken beginnt.\n\nVON VORN. Dreh deinen Körper zur Seite und lass einen Arm nach unten zwischen die Arme des Angreifers gleiten. Senk dabei dein eigenes Gewicht ab und führ die Hand bis zum Boden. Von dort aus explodierst du mit einem Ellbogenschlag nach oben — Ziel ist Kinn, Bauch oder Leiste des Angreifers. Diese Bewegung nutzt Körpergewicht und Hebelwirkung, keine Armkraft, und genau deshalb funktioniert sie auch, wenn der Angreifer kräftiger ist. Reicht das nicht sofort: Ein Stoß mit den Fingern in Richtung der Augen kann zusätzlich reichen, damit der Griff für einen Moment nachgibt — dann sofort den Ellbogenschlag hinterher.\n\nVON HINTEN. Schlag mit einem kräftigen Rückwärts-Ellbogenschlag in die Magengrube des Angreifers, um den Griff zu brechen. Direkt danach schabst du mit deinem Schienbein an seinem Bein entlang nach unten und trittst mit dem Absatz auf seinen Fuß. Reicht auch das nicht: ein Tritt in die Leiste. Die drei Bewegungen gehören zusammen und laufen in einem Zug — nicht anhalten, um das Ergebnis der ersten Bewegung abzuwarten.\n\nAM BODEN, WENN DER ANGREIFER AUF DIR SITZT UND WÜRGT: Schnapp dir mit beiden Händen einen seiner Arme und häng deinen Fuß über denselben Fuß des Angreifers, sodass er sich mit dieser Seite nicht abstützen kann — die Ellbogen bleiben dabei so nah wie möglich am eigenen Körper. Dann heb deine Hüfte mit einem einzigen, explosiven Stoß gerade nach oben. Weil dem Angreifer auf dieser Seite weder Hand noch Fuß zum Abstützen bleibt, kippt er zur Seite um. Das ist eine einzelne kraftvolle Hüftbewegung, kein feines Manöver — genau deshalb funktioniert sie auch unter Stress. Sobald er kippt, dreh dich mit ihm mit, komm obenauf oder frei, und steh nach dem in „Fallen ohne Verletzung, und sofort wieder hoch“ beschriebenen Weg auf.\n\nDANACH: Sobald der Griff offen ist, nicht weiterringen, sondern den Abstand suchen und weg — genau wie bei jedem anderen Griff, siehe „Gepackt, gegriffen, umklammert: sich lösen“. Wird jemand — du selbst oder, nachdem sich die Lage gedreht hat, der Angreifer — durch den Würgegriff bewusstlos, gilt ab diesem Moment das Vorgehen in „Bewusstlos: atmet oder atmet nicht“. Und noch etwas, das in keiner der beiden Quellen steht, hier aber als Vorsicht gilt: Auch wenn nach einem gelösten Würgegriff nichts mehr wehtut, sollte den Hals später jemand mit medizinischem Wissen ansehen, sobald das wieder möglich ist.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 3-4 „Counters to Chokes“, Einleitung (Bewusstlosigkeit binnen drei Sekunden) und d „Counterstrikes to Rear Choke and Frontal Choke“ (Figur 3-13). Volltext gelesen am 20.08.2026, archive.org-Kennung CombativesFieldManualFM21150. Werk der US-Bundesregierung, gemeinfrei."
+        },
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 Combatives, US-Heer, 18.01.2002, Abschnitt 8-1.a „Standing Rear Naked“ (erster Griff nach dem würgenden Arm) sowie Abschnitt 3-5.b „Escape the Mount, Trap, and Roll“ (Figuren 3-8 bis 3-10, Befreiung am Boden). Volltext gelesen am 20.08.2026, archive.org-Kennung milmanual-fm-3-25.150-combatives."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-fallen-aufstehen",
+      "title": "Fallen ohne Verletzung, und sofort wieder hoch",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "fallen",
+        "hinfallen",
+        "hinstürzen",
+        "sturz abfangen",
+        "abrollen",
+        "fallschule",
+        "wieder aufstehen",
+        "vom boden aufstehen",
+        "zu boden gebracht",
+        "gestürzt",
+        "boden"
+      ],
+      "body": "DER WICHTIGSTE GRUNDSATZ ZUERST. Eine US-Heeresvorschrift zum Nahkampf bringt die Fallschule auf einen Satz: Nicht versuchen, sich mit ausgestreckten Armen abzufangen — den Aufprall stattdessen auf die fleischigen Stellen des Körpers nehmen. Ausgestreckte Arme brechen. Schulter, Rücken und Gesäß halten einen Sturz aus.\n\nDIE GRUNDPOSITION. Auf der Seite liegend, das untere Bein ausgestreckt, das obere Bein angewinkelt und leicht angehoben, der untere Arm ausgestreckt mit der Handfläche nach unten leicht vom Körper weg, der obere Arm vor dem Gesicht angewinkelt, um sich zu schützen. In dieser Position endet jeder der beiden folgenden Fälle.\n\nNACH VORN FALLEN. Einen Arm heben, sodass die ganze Seite frei wird, beide Hände zum Boden bringen, beide Knie beugen. Dann über den Körper rollen — entlang der Hand, des Arms und über den Rücken bis zur gegenüberliegenden Hüfte — und in der Position von oben enden.\n\nNACH HINTEN FALLEN. Den Kopf nach vorn halten, das verringert die Gefahr für Kopf und Nacken. Beim Fallen die Knie beugen, um den eigenen Schwerpunkt zu senken. Sobald das Gesäß den Boden berührt, mit der Bewegung weiterrollen, um den Schwung aufzufangen. Die Hände dabei gewölbt halten und Hände und Arme aufs Mal auf den Boden schlagen — das verteilt den Aufprall und stabilisiert den eigenen Körper.\n\nSOFORT WIEDER HOCH. Aus der Bodenlage: auf einer Hand abstützen, das andere Bein angewinkelt daneben, keine gekreuzten Füße. Das Gewicht auf die stützende Hand und den gegenüberliegenden Fuß verlagern, den restlichen Körper hochziehen und das freie Bein zwischen die beiden Stützpunkte schwingen, mit dem Knie hinter derselben Hand, die noch am Boden ist. Erst wenn beide Füße wieder unter dem Körper stehen, die Hand vom Boden lösen und in die in „Grundhaltung: Hände oben und offen“ beschriebene Stellung kommen.\n\nWARUM DAS TEMPO ZÄHLT, WENN MEHR ALS EIN ANGREIFER DA IST (Einordnung dieses Pakets, nicht aus der Quelle): Am Boden lässt sich immer nur ein Gegner gleichzeitig kontrollieren — alles andere um dich herum bleibt außerhalb deines Blickfelds und deiner Reichweite. Ist nur ein Angreifer da, ist der Boden manchmal trotzdem der richtige Ort, etwa um sich aus einem Würgegriff zu befreien, siehe „Würgegriff lösen: vorn, hinten, am Boden“. Sind es mehrere, zählt jede Sekunde am Boden gegen dich, weil ein zweiter oder dritter Angreifer aus einer Richtung treffen kann, die du von unten nicht siehst und nicht abwehren kannst. Deshalb gilt bei mehreren Angreifern erst recht: fallen ohne sich zu verletzen, aber so schnell wie möglich wieder hoch und in Bewegung — stehenbleiben, auch aufrecht, ist dann die falsche Wahl, weil es jedem der Angreifer Zeit gibt, sich zu sortieren und gleichzeitig anzugreifen.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 Combatives, US-Heer, 18.01.2002, Abschnitt 5-1 „Breakfalls“ a bis d (Side Breakfall Position, Forward Rolling Breakfall, Rear Breakfall, Figuren 5-1 bis 5-5) sowie Abschnitt 3-5.a „Stand Up in Base“ (Figuren 3-5 bis 3-7). Volltext gelesen am 20.08.2026, archive.org-Kennung milmanual-fm-3-25.150-combatives. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. §105)."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-trefferstellen-abstand",
+      "title": "Trefferstellen ohne Kraft: nur um loszukommen",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "trefferstellen",
+        "druckpunkte",
+        "schwachstellen",
+        "wohin schlagen",
+        "wohin treffen",
+        "augen",
+        "nase",
+        "leiste",
+        "schienbein",
+        "spann",
+        "verwundbare stellen",
+        "nervenpunkte"
+      ],
+      "body": "WOZU DIESE STELLEN GUT SIND, UND WOZU NICHT. Eine US-Heeresvorschrift zum Nahkampf listet den ganzen Körper nach verwundbaren Stellen auf — von der Schädeldecke bis zum Spann. Ein großer Teil davon steht hier bewusst NICHT: Die Vorschrift selbst nennt Schläfe, Hinterkopf, Nackenwirbel und einen kräftigen Schlag gegen die Vorderseite des Halses ausdrücklich als Stellen, an denen ein Treffer tödlich enden kann. Das ist mit dem Ziel dieses Pakets nicht vereinbar: Es geht ausschließlich darum, für ein paar Sekunden Raum zu schaffen, um wegzukommen — nicht darum, jemanden kampfunfähig zu machen oder bleibenden Schaden anzurichten. Deshalb bleiben hier nur vier Stellen übrig, die zugleich ohne Muskelkraft wirken und die die Vorschrift selbst als vergleichsweise harmlos einordnet.\n\nAUGEN. Schon ein leichter Stoß mit den Fingern in Richtung der Augen führt zu unwillkürlichem Tränen und verschwommenem Sehen — das reicht als Reflex, um jemanden für einen Moment abzulenken. Mehr braucht es hier nicht und mehr steht hier bewusst nicht: Ein tieferer, gezielter Stoß kann die Augen dauerhaft schädigen, und das ist kein Mittel, um wegzukommen, sondern eines, um zu verstümmeln — es gehört nicht in dieses Paket.\n\nNASE. Jeder Schlag bricht leicht die dünnen Nasenknochen, das verursacht starken Schmerz und lässt die Augen tränen — auch das reicht, um für einen Moment Raum zu schaffen, ohne dass es Kraft im Sinne von Körperkraft braucht.\n\nLEISTE. Ein mittlerer Treffer reicht aus, um jemanden für einen Moment handlungsunfähig zu machen und starke Schmerzen auszulösen — ein Tritt oder ein Knie, kein Vollkraftschlag.\n\nSCHIENBEIN UND SPANN. Die kleinen Knochen auf dem Fußrücken brechen leicht, ein Tritt oder Stampfer dorthin behindert das Weiterlaufen des Angreifers spürbar. Ein Schaben mit dem eigenen Schienbein am Bein des Angreifers entlang, gefolgt von einem Tritt auf seinen Fuß, braucht ebenfalls kein Kraftpaket — nur Richtung und Gelegenheit. Die deutsche Polizeiliche Kriminalprävention rät bei einem als bedrohlich eingeschätzten Angriff unabhängig davon zum selben Prinzip: gezielt zum Gesicht schlagen und gegen Schienbein oder Knie treten — dieselbe Auswahl also, mit demselben Ziel.\n\nAlle vier Stellen ordnet die Vorschrift selbst als SELTEN TÖDLICH, ABER HANDLUNGSUNFÄHIG MACHEND ein — das unterscheidet sie von den oben ausgeschlossenen Stellen im Kopf- und Halsbereich.\n\nWAS DAS ERREICHT, UND WAS NICHT: Jede dieser vier Stellen liefert im besten Fall ein paar Sekunden Schmerz oder Ablenkung. Das ist Absicht, nicht Schwäche der Technik: Diese Sekunden sind genau das Zeitfenster, das gebraucht wird, um sich zu lösen und wegzulaufen — nicht, um nachzusetzen. Wer nach einem Treffer stehen bleibt, um zu sehen, ob er gewirkt hat, verschenkt genau die Sekunden, die er sich gerade erkämpft hat.\n\nSIND MEHRERE ANGREIFER DA (Einordnung dieses Pakets, nicht aus der Quelle): Dann gilt dieselbe Regel noch schärfer. Ein Treffer bei einem von mehreren öffnet nur eine einzige Lücke, für einen einzigen Moment — die anderen bleiben eine Bedrohung. Stehenbleiben, um nachzusetzen oder das Ergebnis abzuwarten, gibt den übrigen genau die Zeit, die es braucht, um dich von mehreren Seiten gleichzeitig zu erreichen. Die einzige richtige Reaktion auf eine gelungene Lücke ist deshalb dieselbe wie bei einem einzelnen Angreifer, nur dringlicher: durch die Lücke hindurch und in Bewegung bleiben, nicht auf den nächsten Angreifer warten.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 4-1 „Vital Targets“, Unterpunkte a(4) Augen, a(6) Nase, c(1) Leiste und c(10) Spann; ausgeschlossen sind die dort ausdrücklich als potenziell tödlich benannten Ziele Schläfe, Hinterkopf, Nackenwirbel und Kehle. Volltext gelesen am 20.08.2026, archive.org-Kennung CombativesFieldManualFM21150. Werk der US-Bundesregierung, gemeinfrei."
+        },
+        {
+          "name": "Polizeiliche Kriminalprävention der Länder und des Bundes (ProPK)",
+          "detail": "Themenseite „Verhalten bei einem Angriff“, Abschnitt „Wehren Sie sich gegen einen körperlichen Angriff“: „Schlagen Sie mit den Händen gezielt zum Gesicht und/oder treten Sie mit den Füßen gegen Schienbein oder Knie der Angreifer.“ polizei-beratung.de, Volltext gelesen am 20.08.2026. Nur als sachliche Bestätigung herangezogen, kein weiterer Wortlaut übernommen. © ProPK."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-notwehr-rechtslage",
+      "title": "Notwehr: was das Gesetz erlaubt",
+      "category": "taktisch",
+      "group": "taktisch-grundsatz",
+      "keywords": [
+        "notwehr",
+        "selbstverteidigung erlaubt",
+        "recht auf verteidigung",
+        "gesetz",
+        "strafgesetzbuch",
+        "rechtslage",
+        "notwehrrecht",
+        "notwehrüberschreitung",
+        "österreich",
+        "schweiz",
+        "deutschland"
+      ],
+      "body": "KEINE RECHTSBERATUNG, NUR DER WORTLAUT. Der genaue Gesetzestext steht mit Fundstelle in den Quellenangaben zu diesem Tipp. Hier steht eine einfache Erklärung dazu — keine Einschätzung für einen bestimmten Einzelfall. Die trifft im Zweifel ein Gericht, nicht dieses Paket. Trotzdem lohnt es sich, den Kern zu kennen, weil er sagt, WANN eine Verteidigung erlaubt ist und vor allem WANN SIE AUFHÖRT, es zu sein.\n\nDEUTSCHLAND, § 32 UND § 33 STRAFGESETZBUCH. Notwehr ist danach eine Verteidigung, die erforderlich ist, um einen gegenwärtigen rechtswidrigen Angriff von sich oder einem anderen abzuwenden; wer so handelt, handelt nicht rechtswidrig. Drei Wörter tragen die ganze Vorschrift. GEGENWÄRTIG heißt: Der Angriff läuft gerade oder steht unmittelbar bevor — nicht schon vorbei, nicht erst in Aussicht. ERFORDERLICH heißt: das mildeste Mittel, das den Angriff tatsächlich beendet — nicht das wirkungsvollste. Und RECHTSWIDRIG heißt: Wer selbst angefangen hat, kann sich auf das, was danach zurückkommt, nicht in gleicher Weise berufen. § 33 ergänzt: Wer die Grenzen der Notwehr aus Verwirrung, Furcht oder Schrecken überschreitet, wird nicht bestraft. Das ist keine Erlaubnis, sondern eine Entschuldigung im Nachhinein — sie gilt nur, wenn die Grenze aus genau diesen Gründen überschritten wurde, nicht aus Wut oder Rache.\n\nÖSTERREICH, § 3 STRAFGESETZBUCH. Nicht rechtswidrig handelt danach, wer sich nur der Verteidigung bedient, die notwendig ist, um einen gegenwärtigen ODER UNMITTELBAR DROHENDEN rechtswidrigen Angriff auf Leben, Gesundheit, körperliche Unversehrtheit, sexuelle Integrität und Selbstbestimmung, Freiheit oder VERMÖGEN von sich oder einem anderen abzuwehren. Zwei Unterschiede zu Deutschland stehen im Wortlaut selbst: Erlaubt ist die Abwehr schon bei einem unmittelbar drohenden Angriff, nicht erst beim tatsächlich laufenden. Und das Gesetz zählt ausdrücklich auf, was verteidigt werden darf — auch Vermögen. Direkt im selben Absatz folgt eine Grenze: Die Verteidigung ist nicht gerechtfertigt, wenn offensichtlich nur ein geringer Nachteil droht und die Verteidigung dazu, vor allem wegen der Schwere dessen, was sie dem Angreifer antut, unangemessen ist. Auch hier gibt es eine Entschuldigung bei Überschreitung aus Bestürzung, Furcht oder Schrecken.\n\nSCHWEIZ, ART. 15 UND 16 STRAFGESETZBUCH. Wer ohne Recht angegriffen oder unmittelbar mit einem Angriff bedroht wird, darf den Angriff danach in einer den Umständen ANGEMESSENEN Weise abwehren — und zwar nicht nur die angegriffene Person selbst, sondern ausdrücklich auch JEDER ANDERE, der eingreifen will. Auch hier reicht schon die unmittelbare Drohung. Wer die Grenzen dieser Notwehr überschreitet, dem mildert das Gericht die Strafe; wer sie in entschuldbarer Aufregung oder Bestürzung über den Angriff überschreitet, handelt gar nicht erst schuldhaft.\n\nWAS ALLEN DREI GEMEINSAM IST: Ein wirklicher, gerade laufender oder unmittelbar bevorstehender Angriff wird vorausgesetzt — keine bloße Vermutung, keine alte Rechnung. Die Verteidigung muss nötig sein, nicht nur naheliegend. Und sie endet in dem Moment, in dem der Angriff endet: Läuft der Angreifer weg oder liegt er wehrlos am Boden, ist das, was danach kommt, keine Notwehr mehr. Genau das ist der Grund, warum jede Technik in dieser Kategorie mit demselben Satz endet: Sobald der Griff offen ist oder der Angreifer sich löst, geht es weiter mit Weglaufen, nicht mit Weitermachen.\n\nWENN NIEMAND DA IST, DER DAS RECHTLICH EINORDNET (Einordnung dieses Pakets, nicht aus der Quelle): Fehlt eine Polizei oder ein Gericht, das im Nachhinein einordnet, was in einer Gewaltlage angemessen war, ändert das nichts an der Grenze selbst — sie bleibt dieselbe. Aufhören, sobald der Angriff vorbei ist, bleibt die richtige Grenze, auch ganz ohne jede Behörde, die das später bestätigt.",
+      "sources": [
+        {
+          "name": "Bundesministerium der Justiz (Deutschland)",
+          "detail": "§ 32 StGB (Notwehr) im Wortlaut: „Wer eine Tat begeht, die durch Notwehr geboten ist, handelt nicht rechtswidrig. Notwehr ist die Verteidigung, die erforderlich ist, um einen gegenwärtigen rechtswidrigen Angriff von sich oder einem anderen abzuwenden.“ Gesetze-im-internet.de, abgerufen am 20.08.2026."
+        },
+        {
+          "name": "Bundesministerium der Justiz (Deutschland)",
+          "detail": "§ 33 StGB (Notwehrüberschreitung) im Wortlaut: „Überschreitet der Täter die Grenzen der Notwehr aus Verwirrung, Furcht oder Schrecken, so wird er nicht bestraft.“ Gesetze-im-internet.de, abgerufen am 20.08.2026."
+        },
+        {
+          "name": "Rechtsinformationssystem des Bundes (Österreich)",
+          "detail": "§ 3 Abs. 1 StGB, erster Satz, im Wortlaut: „Nicht rechtswidrig handelt, wer sich nur der Verteidigung bedient, die notwendig ist, um einen gegenwärtigen oder unmittelbar drohenden rechtswidrigen Angriff auf Leben, Gesundheit, körperliche Unversehrtheit, sexuelle Integrität und Selbstbestimmung, Freiheit oder Vermögen von sich oder einem anderen abzuwehren.“ Ris.bka.gv.at, abgerufen am 20.08.2026."
+        },
+        {
+          "name": "Rechtsinformationssystem des Bundes (Österreich)",
+          "detail": "§ 3 Abs. 1 StGB, zweiter Satz (Einschränkung), im Wortlaut: „Die Handlung ist jedoch nicht gerechtfertigt, wenn es offensichtlich ist, daß dem Angegriffenen bloß ein geringer Nachteil droht und die Verteidigung, insbesondere wegen der Schwere der zur Abwehr nötigen Beeinträchtigung des Angreifers, unangemessen ist.“ Ris.bka.gv.at, abgerufen am 20.08.2026."
+        },
+        {
+          "name": "Rechtsinformationssystem des Bundes (Österreich)",
+          "detail": "§ 3 Abs. 2 StGB im Wortlaut: „Wer das gerechtfertigte Maß der Verteidigung überschreitet oder sich einer offensichtlich unangemessenen Verteidigung bedient, ist, wenn dies lediglich aus Bestürzung, Furcht oder Schrecken geschieht, nur strafbar, wenn die Überschreitung auf Fahrlässigkeit beruht und die fahrlässige Handlung mit Strafe bedroht ist.“ Ris.bka.gv.at, 20.08.2026."
+        },
+        {
+          "name": "Schweizerisches Strafgesetzbuch (SR 311.0)",
+          "detail": "Art. 15 im Wortlaut: „Wird jemand ohne Recht angegriffen oder unmittelbar mit einem Angriff bedroht, so ist der Angegriffene und jeder andere berechtigt, den Angriff in einer den Umständen angemessenen Weise abzuwehren.“ Fedlex.admin.ch ist ohne JavaScript nicht lesbar; Wortlaut über zwei unabhängige Abschriften (swissrights.ch, rechtundgesetz.ch) geprüft, identisch, 20.08.2026."
+        },
+        {
+          "name": "Schweizerisches Strafgesetzbuch (SR 311.0)",
+          "detail": "Art. 16 im Wortlaut: „Überschreitet der Abwehrende die Grenzen der Notwehr nach Artikel 15, so mildert das Gericht die Strafe. Überschreitet der Abwehrende die Grenzen der Notwehr in entschuldbarer Aufregung oder Bestürzung über den Angriff, so handelt er nicht schuldhaft.“ Ebenso über swissrights.ch/rechtundgesetz.ch geprüft, 20.08.2026."
+        }
+      ],
+      "situations": [
+        "lage-und-gefahr"
+      ]
     }
   ],
   "groups": [
