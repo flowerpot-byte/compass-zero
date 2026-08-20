@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="880" viewBox="0 0 900 880">
+  <!-- Zum Tipp "Schulter einrenken: drei Wege ohne Geraet".
+       Drei Koerperhaltungen, die der Text nur nacheinander beschreiben kann,
+       die man aber nebeneinander sehen muss, um zu waehlen: Der erste Weg
+       braucht niemanden, der zweite braucht Geduld, der dritte braucht eine
+       zweite Person.
+       In jeder Tafel steht das eine Merkmal, an dem der Weg scheitert, wenn
+       man es falsch macht: das Knie der GLEICHEN Seite, das freie Haengen des
+       Arms, der Fuss MIT Socke oder Schuh und der Zug in der Achse des Arms.
+       Der Kniescheiben-Absatz des Tipps ist absichtlich NICHT im Bild: Er
+       gehoert nicht zur Schulter und wuerde die Auswahl verwirren.
+       Zweite Fassung. In der ersten liefen die Bildunterschriften der ersten
+       beiden Tafeln ineinander und ueber den rechten Rand, die sitzende Figur
+       war ein Gewirr aus Strichen, und in Tafel 3 lag eine Beschriftung auf
+       der Ueberschrift. pruefen.py meldete davon nur zwei Randhinweise. -->
+  <rect width="900" height="880" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Schulter einrenken: drei Wege ohne Gerät</text>
+
+  <!-- ============== TAFEL 1: allein ============== -->
+  <text x="40" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">1. Allein, mit dem eigenen Knie</text>
+
+  <!-- Wand im Ruecken und Boden -->
+  <rect x="64" y="130" width="16" height="222" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <line x1="64" y1="352" x2="410" y2="352" stroke="#111" stroke-width="4"/>
+
+  <!-- Endstellung, gepunktet: Bein gestreckt, Arm folgt -->
+  <g stroke="#b9b4a6" stroke-width="8" stroke-linecap="round" fill="none" stroke-dasharray="4 10">
+    <path d="M 140 330 L 268 336"/>
+    <path d="M 268 336 L 372 344"/>
+    <path d="M 128 224 L 258 328"/>
+  </g>
+
+  <!-- Person: Kopf und Rumpf, Ruecken an der Wand -->
+  <circle cx="116" cy="182" r="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="98" y="204" width="40" height="126" rx="18" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <!-- Bein angezogen -->
+  <g stroke="#111" stroke-width="15" stroke-linecap="round" fill="none">
+    <path d="M 140 330 L 232 254"/>
+    <path d="M 232 254 L 250 348"/>
+  </g>
+  <!-- beide Arme zum Knie -->
+  <g stroke="#111" stroke-width="9" stroke-linecap="round">
+    <line x1="128" y1="224" x2="220" y2="240"/>
+    <line x1="132" y1="238" x2="220" y2="256"/>
+  </g>
+  <circle cx="228" cy="250" r="16" fill="#111" stroke="#111" stroke-width="4"/>
+
+  <!-- Streckpfeil -->
+  <g stroke="#111" stroke-width="5" fill="none">
+    <path d="M 268 282 Q 322 296 358 322"/>
+    <path d="M 358 322 l -22 -2 M 358 322 l -2 -22"/>
+  </g>
+
+  <text x="256" y="150" font-family="Georgia, serif" font-size="21" fill="#111">Knie der</text>
+  <text x="256" y="176" font-family="Georgia, serif" font-size="21" fill="#111">GLEICHEN</text>
+  <text x="256" y="202" font-family="Georgia, serif" font-size="21" fill="#111">Seite</text>
+  <text x="256" y="378" font-family="Georgia, serif" font-size="21" fill="#111">Bein langsam</text>
+  <text x="256" y="404" font-family="Georgia, serif" font-size="21" fill="#111">strecken</text>
+  <text x="40" y="404" font-family="Georgia, serif" font-size="19" fill="#111">Wand oder Baum</text>
+
+  <text x="40" y="452" font-family="Georgia, serif" font-size="21" fill="#111">Beide Hände um das Knie,</text>
+  <text x="40" y="478" font-family="Georgia, serif" font-size="21" fill="#111">Finger ineinander. Das Bein</text>
+  <text x="40" y="504" font-family="Georgia, serif" font-size="21" fill="#111">zieht den Arm nach vorn</text>
+  <text x="40" y="530" font-family="Georgia, serif" font-size="21" fill="#111">und unten.</text>
+  <text x="40" y="562" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Der wertvollste Weg: er</text>
+  <text x="40" y="588" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">braucht niemanden sonst.</text>
+
+  <line x1="440" y1="112" x2="440" y2="600" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============== TAFEL 2: Gewicht und Zeit ============== -->
+  <text x="470" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">2. Mit Gewicht und Zeit</text>
+
+  <!-- Liegeflaeche mit Vorderkante -->
+  <rect x="500" y="250" width="196" height="18" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="500" y="268" width="196" height="30" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <line x1="514" y1="298" x2="514" y2="392" stroke="#111" stroke-width="4"/>
+  <line x1="682" y1="298" x2="682" y2="392" stroke="#111" stroke-width="4"/>
+  <line x1="470" y1="392" x2="716" y2="392" stroke="#111" stroke-width="4"/>
+
+  <!-- Person baeuchlings oben auf -->
+  <circle cx="524" cy="228" r="20" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="544" y="212" width="116" height="38" rx="18" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <!-- Arm haengt vor der Kante herab -->
+  <g stroke="#111" stroke-width="10" stroke-linecap="round">
+    <line x1="572" y1="248" x2="566" y2="322"/>
+  </g>
+  <!-- Gewicht am Handgelenk -->
+  <rect x="530" y="322" width="72" height="42" rx="8" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <text x="566" y="350" font-family="Georgia, serif" font-size="21" fill="#111" text-anchor="middle">5–7 kg</text>
+
+  <line x1="606" y1="336" x2="722" y2="336" stroke="#111" stroke-width="2"/>
+  <text x="730" y="314" font-family="Georgia, serif" font-size="21" fill="#111">der Arm</text>
+  <text x="730" y="340" font-family="Georgia, serif" font-size="21" fill="#111">hängt FREI,</text>
+  <text x="730" y="366" font-family="Georgia, serif" font-size="21" fill="#111">nichts stützt</text>
+  <text x="730" y="392" font-family="Georgia, serif" font-size="21" fill="#111">ihn</text>
+
+  <text x="470" y="452" font-family="Georgia, serif" font-size="21" fill="#111">Dann geschieht zehn bis</text>
+  <text x="470" y="478" font-family="Georgia, serif" font-size="21" fill="#111">fünfzehn Minuten lang nichts</text>
+  <text x="470" y="504" font-family="Georgia, serif" font-size="21" fill="#111">weiter. Das Gewicht ermüdet</text>
+  <text x="470" y="530" font-family="Georgia, serif" font-size="21" fill="#111">den Muskel.</text>
+  <text x="470" y="562" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Die Schulter geht von selbst</text>
+  <text x="470" y="588" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">zurück. Tut am wenigsten weh.</text>
+
+  <line x1="40" y1="620" x2="860" y2="620" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============== TAFEL 3: zu zweit ============== -->
+  <text x="40" y="662" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">3. Zu zweit: Zug in der Achse des Arms</text>
+
+  <!-- Verletzter auf dem Ruecken, Aufsicht -->
+  <circle cx="106" cy="788" r="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="128" y="762" width="140" height="52" rx="18" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- verletzter Arm nach rechts -->
+  <g stroke="#111" stroke-width="11" stroke-linecap="round">
+    <line x1="150" y1="758" x2="318" y2="744"/>
+  </g>
+  <!-- Fuss des Helfers in der Achselhoehle -->
+  <rect x="126" y="722" width="50" height="30" rx="10" fill="#d65a1a" stroke="#111" stroke-width="4"/>
+  <!-- beide Haende des Helfers am Handgelenk -->
+  <rect x="306" y="728" width="26" height="32" rx="8" fill="#1d6b3a"/>
+  <rect x="338" y="726" width="26" height="32" rx="8" fill="#1d6b3a"/>
+  <!-- Zugpfeil in der Achse des Arms -->
+  <g stroke="#1d6b3a" stroke-width="5" fill="none">
+    <path d="M 378 738 L 452 730"/>
+    <path d="M 452 730 l -20 -8 M 452 730 l -18 10"/>
+  </g>
+
+  <line x1="151" y1="722" x2="188" y2="704" stroke="#d65a1a" stroke-width="2"/>
+  <text x="196" y="710" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Fuß in die Achselhöhle — MIT Socke oder Schuh</text>
+
+  <text x="480" y="778" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">langsam und gleichmäßig</text>
+  <text x="480" y="804" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">zurücklehnen, wie beim Rudern</text>
+
+  <text x="40" y="838" font-family="Georgia, serif" font-size="21" fill="#111">Der Zug läuft in der ACHSE des Arms — nicht zur Seite, nicht nach oben.</text>
+  <text x="40" y="864" font-family="Georgia, serif" font-size="21" fill="#111">Danach in allen drei Fällen: Arm in eine Schlinge, mindestens zwei Wochen.</text>
+</svg>

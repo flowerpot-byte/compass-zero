@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Nullskala</title>
+  <ellipse cx="256" cy="256" rx="130" ry="175" fill="none" stroke="#0A0A0A" stroke-width="44"/>
+  <g fill="#0A0A0A">
+    <circle cx="256" cy="138" r="6"/>
+    <circle cx="299" cy="154" r="6"/>
+    <circle cx="330" cy="197" r="6"/>
+    <circle cx="341" cy="256" r="6"/>
+    <circle cx="330" cy="315" r="6"/>
+    <circle cx="299" cy="358" r="6"/>
+    <circle cx="256" cy="374" r="6"/>
+    <circle cx="214" cy="358" r="6"/>
+    <circle cx="182" cy="315" r="6"/>
+    <circle cx="171" cy="256" r="6"/>
+    <circle cx="182" cy="197" r="6"/>
+    <circle cx="214" cy="154" r="6"/>
+  </g>
+  <polygon points="335,149 242,245 270,267" fill="#FF4D00"/>
+  <polygon points="177,363 270,267 242,245" fill="#0A0A0A"/>
+  <circle cx="256" cy="256" r="8" fill="#FFFFFF"/>
+</svg>

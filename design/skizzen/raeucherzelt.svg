@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zu Schritt 8 der Bauanleitung "Beute versorgen und haltbar machen".
+       Querschnitt.
+       Der Text nennt fuenf Bedingungen, die zusammen erst funktionieren: ein
+       KLEINES Feuer (Rauch und Waerme, keine Flamme), eine dichte Umhausung,
+       die den Rauch haelt, duenne Scheiben, die einander NICHT beruehren, und
+       genug Abstand nach oben, damit das Fleisch nicht gart.
+       Der haeufigste Denkfehler ist das grosse Feuer: Man raeuchert damit nicht
+       schneller, man braet.
+       ZUR GEOMETRIE: Das Gestell muss INNERHALB der Zeltkanten bleiben. Im
+       ersten Anlauf ragte es auf beiden Seiten heraus, und drei Beschriftungen
+       lagen auf der Zeltwand. Alle Beschriftungen stehen jetzt ausserhalb des
+       Dreiecks, mit gestrichelter Bezugslinie. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+  <text x="30" y="44" font-family="Georgia, serif" font-size="25" fill="#111">Räuchern: klein feuern, dicht abdecken — Querschnitt</text>
+
+  <line x1="150" y1="540" x2="790" y2="540" stroke="#111" stroke-width="5"/>
+  <!-- Zelt: Spitze (470,100), Fuesse (240,540) und (700,540) -->
+  <path d="M 470 100 L 240 540 M 470 100 L 700 540" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Gestell und Fleisch, beides INNERHALB der Kanten -->
+  <line x1="392" y1="272" x2="548" y2="272" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#d65a1a" stroke="#111" stroke-width="2">
+    <rect x="398" y="272" width="12" height="74" rx="5"/>
+    <rect x="423" y="272" width="12" height="80" rx="5"/>
+    <rect x="448" y="272" width="12" height="70" rx="5"/>
+    <rect x="473" y="272" width="12" height="80" rx="5"/>
+    <rect x="498" y="272" width="12" height="72" rx="5"/>
+    <rect x="523" y="272" width="12" height="76" rx="5"/>
+  </g>
+
+  <!-- Rauch -->
+  <g fill="none" stroke="#8a8578" stroke-width="3" stroke-linecap="round">
+    <path d="M 432 430 C 420 406 444 390 432 366"/>
+    <path d="M 478 434 C 466 410 490 394 478 370"/>
+    <path d="M 524 430 C 512 406 536 390 524 366"/>
+  </g>
+
+  <!-- kleines Feuer -->
+  <path d="M 442 520 L 464 478 L 486 520 Z" fill="#d65a1a"/>
+  <path d="M 468 520 L 484 492 L 498 520 Z" fill="#d65a1a" opacity="0.7"/>
+  <g stroke="#111" stroke-width="7" stroke-linecap="round">
+    <line x1="428" y1="530" x2="510" y2="530"/>
+    <line x1="436" y1="538" x2="500" y2="520"/>
+  </g>
+
+  <!-- ===== Beschriftungen LINKS, alle ausserhalb ===== -->
+  <g font-family="Georgia, serif" font-size="18" fill="#d65a1a">
+    <text x="30" y="248">kein Stück berührt</text>
+    <text x="30" y="272">ein anderes</text>
+  </g>
+  <path d="M 168 264 L 392 296" fill="none" stroke="#d65a1a" stroke-width="2" stroke-dasharray="8 7"/>
+  <circle cx="392" cy="296" r="5" fill="#d65a1a"/>
+
+  <g font-family="Georgia, serif" font-size="18" fill="#d65a1a">
+    <text x="30" y="470">kleines Feuer:</text>
+    <text x="30" y="494">Rauch, keine Flamme</text>
+  </g>
+  <path d="M 172 486 L 436 502" fill="none" stroke="#d65a1a" stroke-width="2" stroke-dasharray="8 7"/>
+  <circle cx="436" cy="502" r="5" fill="#d65a1a"/>
+
+  <!-- ===== Beschriftungen RECHTS ===== -->
+  <g font-family="Georgia, serif" font-size="18" fill="#111">
+    <text x="716" y="140">oben nur ein Spalt,</text>
+    <text x="716" y="164">damit der Rauch bleibt</text>
+  </g>
+  <path d="M 712 148 L 494 132" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="8 7"/>
+
+  <g font-family="Georgia, serif" font-size="18" fill="#111">
+    <text x="716" y="300">Scheiben höchstens</text>
+    <text x="716" y="324">6 Millimeter dick</text>
+  </g>
+  <path d="M 712 310 L 552 306" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="8 7"/>
+
+  <g font-family="Georgia, serif" font-size="18" fill="#111">
+    <text x="716" y="474">unten dicht halten</text>
+  </g>
+  <path d="M 712 468 L 660 500" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="8 7"/>
+
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="30" y="586">Hartholz, leicht grün — zu trockenes vorher wässern.</text>
+    <text x="30" y="610">Harzhaltiges Holz ruiniert das Fleisch.</text>
+  </g>
+</svg>

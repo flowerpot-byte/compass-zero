@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Nullkompass</title>
+  <circle cx="256" cy="256" r="168" fill="none" stroke="#0A0A0A" stroke-width="56"/>
+  <polygon points="362,150 239,239 273,273" fill="#FF4D00"/>
+  <polygon points="150,362 273,273 239,239" fill="#0A0A0A"/>
+  <circle cx="256" cy="256" r="10" fill="#FFFFFF"/>
+</svg>

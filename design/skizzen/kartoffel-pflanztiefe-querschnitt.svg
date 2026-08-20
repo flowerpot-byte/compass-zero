@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660">
+  <!-- Zum Kapitel agrikultur-kartoffel, Abschnitt 3
+       ("Wie tief und wie eng gesetzt wird"). Dieser Abschnitt ist raeumlich:
+       Pflanztiefe, der Bau der Pflanze (Knoten am Staengel, aus denen Wurzeln
+       und Auslaeufer wachsen), die Zone der Knollenbildung und die Regel zum
+       Reihenabstand. Andere Abschnitte des Kapitels sind reine Aufzaehlungen
+       (Auswahl, Vorkeimen, Lagerung); dieser ist der einzige, bei dem ein
+       Schnittbild mehr zeigt als der Text allein. Alle Zahlen stehen wortgleich
+       in Abschnitt 3: 7,5 cm, nicht weniger als etwa 10 cm, 13 cm, oberste
+       etwa 15 cm. Die Signalfarbe markiert nur die eine harte Grenze: die
+       Mindesttiefe von etwa 10 cm, deren Unterschreiten den Ertrag mindert. -->
+  <rect width="900" height="660" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="27" fill="#111">Kartoffeln pflanzen: wie tief und wie eng</text>
+  <text x="40" y="74" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Querschnitt durch den Boden — Tiefe, Knoten am Stängel, Zone der Knollenbildung</text>
+
+  <!-- Pflanze oberirdisch -->
+  <line x1="440" y1="150" x2="440" y2="118" stroke="#8ba668" stroke-width="5"/>
+  <ellipse cx="416" cy="122" rx="22" ry="10" fill="#8ba668" stroke="#111" stroke-width="1.5" transform="rotate(-25 416 122)"/>
+  <ellipse cx="466" cy="119" rx="22" ry="10" fill="#8ba668" stroke="#111" stroke-width="1.5" transform="rotate(22 466 119)"/>
+  <ellipse cx="440" cy="102" rx="16" ry="9" fill="#8ba668" stroke="#111" stroke-width="1.5"/>
+
+  <!-- Boden -->
+  <rect x="230" y="150" width="420" height="400" fill="#d9c98a" stroke="#111" stroke-width="4"/>
+
+  <!-- Zone der Knollenbildung: oberste etwa 15 cm -->
+  <rect x="230" y="150" width="420" height="300" fill="#e8ddc7" opacity="0.65" stroke="#5b7f96" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="245" y="180" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Zone der Knollenbildung</text>
+  <text x="245" y="200" font-family="Georgia, serif" font-size="16" fill="#5b7f96">oberste etwa 15 cm</text>
+
+  <!-- Bodenoberflaeche -->
+  <line x1="230" y1="150" x2="650" y2="150" stroke="#111" stroke-width="4"/>
+  <text x="245" y="138" font-family="Georgia, serif" font-size="15" fill="#5b7f96">Bodenoberfläche</text>
+
+  <!-- Staengel unter der Erde, mit mehreren Knoten -->
+  <line x1="440" y1="150" x2="440" y2="320" stroke="#8ba668" stroke-width="5"/>
+  <circle cx="440" cy="200" r="5" fill="#111"/>
+  <circle cx="440" cy="230" r="5" fill="#111"/>
+  <circle cx="440" cy="280" r="5" fill="#111"/>
+
+  <!-- Auslaeufer vom mittleren Knoten zu einer Knolle -->
+  <path d="M440 230 Q 485 224 520 220" fill="none" stroke="#7a5a3e" stroke-width="3"/>
+  <ellipse cx="530" cy="219" rx="20" ry="13" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+
+  <!-- Pflanzstueck, gesetzt bei rund 9-10 cm -->
+  <ellipse cx="440" cy="340" rx="34" ry="20" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+
+  <!-- Wurzeln aus dem Pflanzstueck -->
+  <path d="M415 355 Q 380 415 362 475" fill="none" stroke="#7a5a3e" stroke-width="2.5"/>
+  <path d="M440 360 Q 434 420 425 485" fill="none" stroke="#7a5a3e" stroke-width="2.5"/>
+  <path d="M465 355 Q 500 415 513 475" fill="none" stroke="#7a5a3e" stroke-width="2.5"/>
+
+  <!-- Leader links: Pflanzstueck -->
+  <path d="M406 340 L 208 338" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <circle cx="406" cy="340" r="3" fill="#5b7f96"/>
+  <text x="55" y="333" font-family="Georgia, serif" font-size="17" fill="#111">Pflanzstück</text>
+  <text x="55" y="353" font-family="Georgia, serif" font-size="14" fill="#5b7f96">die gesetzte Kartoffel</text>
+
+  <!-- Leader links: Wurzeln -->
+  <path d="M420 480 L 208 478" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <circle cx="420" cy="480" r="3" fill="#5b7f96"/>
+  <text x="55" y="473" font-family="Georgia, serif" font-size="17" fill="#111">Wurzeln</text>
+  <text x="55" y="493" font-family="Georgia, serif" font-size="14" fill="#5b7f96">wachsen aus den Knoten</text>
+
+  <!-- Leader rechts: Knoten -->
+  <path d="M448 228 L 700 172" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <circle cx="448" cy="228" r="3" fill="#5b7f96"/>
+  <text x="705" y="174" font-family="Georgia, serif" font-size="16" fill="#111">Unterirdischer Knoten</text>
+  <text x="705" y="194" font-family="Georgia, serif" font-size="14" fill="#5b7f96">mehrere davon am Stängel</text>
+
+  <!-- Leader rechts: Auslaeufer/Knolle -->
+  <path d="M548 218 L 700 232" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <circle cx="548" cy="218" r="3" fill="#5b7f96"/>
+  <text x="705" y="234" font-family="Georgia, serif" font-size="16" fill="#111">Ausläufer</text>
+  <text x="705" y="254" font-family="Georgia, serif" font-size="14" fill="#5b7f96">Knolle an seinem Ende</text>
+
+  <!-- Tiefen-Leiste -->
+  <text x="672" y="286" font-family="Georgia, serif" font-size="15" fill="#5b7f96">Pflanztiefe</text>
+  <line x1="672" y1="296" x2="672" y2="470" stroke="#111" stroke-width="2"/>
+
+  <line x1="664" y1="300" x2="680" y2="300" stroke="#5b7f96" stroke-width="2"/>
+  <text x="686" y="306" font-family="Georgia, serif" font-size="15" fill="#111">7,5 cm</text>
+
+  <line x1="660" y1="350" x2="684" y2="350" stroke="#d65a1a" stroke-width="4"/>
+  <text x="686" y="346" font-family="Georgia, serif" font-size="16" fill="#d65a1a">nicht weniger als</text>
+  <text x="686" y="366" font-family="Georgia, serif" font-size="16" fill="#d65a1a">etwa 10 cm</text>
+
+  <line x1="664" y1="410" x2="680" y2="410" stroke="#5b7f96" stroke-width="2"/>
+  <text x="686" y="416" font-family="Georgia, serif" font-size="15" fill="#111">13 cm</text>
+
+  <line x1="664" y1="450" x2="680" y2="450" stroke="#5b7f96" stroke-width="2"/>
+  <text x="686" y="456" font-family="Georgia, serif" font-size="15" fill="#111">15 cm</text>
+
+  <!-- Reihenabstand: Regel statt Zahl -->
+  <text x="450" y="568" font-family="Georgia, serif" font-size="19" fill="#5b7f96" text-anchor="middle">Reihenabstand: Regel statt Zahl</text>
+
+  <rect x="250" y="605" width="180" height="24" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <ellipse cx="285" cy="614" rx="38" ry="16" fill="#8ba668" stroke="#111" stroke-width="2"/>
+  <ellipse cx="340" cy="614" rx="38" ry="16" fill="#8ba668" stroke="#111" stroke-width="2"/>
+  <ellipse cx="395" cy="614" rx="38" ry="16" fill="#8ba668" stroke="#111" stroke-width="2"/>
+  <text x="340" y="650" font-family="Georgia, serif" font-size="14" fill="#111" text-anchor="middle">eng genug: Boden beschattet</text>
+
+  <rect x="470" y="605" width="180" height="24" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <ellipse cx="497" cy="614" rx="22" ry="14" fill="#8ba668" stroke="#111" stroke-width="2"/>
+  <ellipse cx="560" cy="614" rx="22" ry="14" fill="#8ba668" stroke="#111" stroke-width="2"/>
+  <ellipse cx="623" cy="614" rx="22" ry="14" fill="#8ba668" stroke="#111" stroke-width="2"/>
+  <text x="560" y="650" font-family="Georgia, serif" font-size="14" fill="#111" text-anchor="middle">zu weit: nackte Erde sichtbar</text>
+</svg>

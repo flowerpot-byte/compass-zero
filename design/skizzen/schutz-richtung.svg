@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp "Hoch, tief oder raus: der Fehler ist die falsche Richtung".
+       Drei Gefahren, drei GEGENTEILIGE Richtungen. In Worten muss man das
+       dreimal nacheinander lesen; nebeneinander gezeichnet sieht man den
+       Widerspruch sofort und behaelt ihn. Der Keller ist dabei zweimal
+       dargestellt: einmal als der richtige Ort, einmal als der toedliche. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="28" fill="#111">Drei Gefahren, drei Richtungen</text>
+
+  <!-- ===== Haus 1: Gase im Freien ===== -->
+  <text x="52" y="96" font-family="Georgia, serif" font-size="22" fill="#111">Gase im Freien</text>
+  <path d="M 60 148 L 160 106 L 260 148 Z" fill="#c9c4b4" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="72" y="148" width="176" height="240" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <rect x="72" y="388" width="176" height="66" fill="#f2efe6" stroke="#111" stroke-width="4"/>
+  <line x1="72" y1="228" x2="248" y2="228" stroke="#111" stroke-width="2"/>
+  <line x1="72" y1="308" x2="248" y2="308" stroke="#111" stroke-width="2"/>
+  <!-- Gas am Boden -->
+  <rect x="20" y="424" width="280" height="30" fill="#d65a1a" opacity="0.28"/>
+  <text x="20" y="480" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Gas sammelt sich unten</text>
+  <!-- Pfeil nach oben -->
+  <g stroke="#111" stroke-width="6" fill="none">
+    <line x1="160" y1="370" x2="160" y2="200"/>
+    <path d="M 160 200 l -18 26 M 160 200 l 18 26"/>
+  </g>
+  <text x="20" y="524" font-family="Georgia, serif" font-size="21" fill="#111">Hinein, Fenster zu,</text>
+  <text x="20" y="550" font-family="Georgia, serif" font-size="21" fill="#111">Lüftung aus, nach OBEN</text>
+
+  <!-- ===== Haus 2: Strahlung / Explosion ===== -->
+  <text x="352" y="96" font-family="Georgia, serif" font-size="22" fill="#111">Strahlung, Explosion</text>
+  <path d="M 340 148 L 440 106 L 540 148 Z" fill="#c9c4b4" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="352" y="148" width="176" height="240" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <rect x="352" y="388" width="176" height="66" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <line x1="352" y1="228" x2="528" y2="228" stroke="#111" stroke-width="2"/>
+  <line x1="352" y1="308" x2="528" y2="308" stroke="#111" stroke-width="2"/>
+  <!-- Pfeil nach unten -->
+  <g stroke="#111" stroke-width="6" fill="none">
+    <line x1="440" y1="196" x2="440" y2="410"/>
+    <path d="M 440 410 l -18 -26 M 440 410 l 18 -26"/>
+  </g>
+  <text x="300" y="480" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Mauern und Erde schirmen ab</text>
+  <text x="300" y="524" font-family="Georgia, serif" font-size="21" fill="#111">Hinein, weg von Glas,</text>
+  <text x="300" y="550" font-family="Georgia, serif" font-size="21" fill="#111">nach UNTEN in den Keller</text>
+
+  <!-- ===== Haus 3: Hochwasser ===== -->
+  <text x="640" y="96" font-family="Georgia, serif" font-size="22" fill="#111">Hochwasser</text>
+  <path d="M 620 148 L 720 106 L 820 148 Z" fill="#c9c4b4" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="632" y="148" width="176" height="240" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <rect x="632" y="388" width="176" height="66" fill="#c9d9e2" stroke="#111" stroke-width="4"/>
+  <line x1="632" y1="228" x2="808" y2="228" stroke="#111" stroke-width="2"/>
+  <line x1="632" y1="308" x2="808" y2="308" stroke="#111" stroke-width="2"/>
+  <!-- Wasser -->
+  <rect x="596" y="360" width="252" height="94" fill="#c9d9e2" opacity="0.7"/>
+  <!-- Pfeil nach oben -->
+  <g stroke="#111" stroke-width="6" fill="none">
+    <line x1="720" y1="340" x2="720" y2="200"/>
+    <path d="M 720 200 l -18 26 M 720 200 l 18 26"/>
+  </g>
+  <!-- Kreuz ueber dem Keller -->
+  <g stroke="#d65a1a" stroke-width="8" stroke-linecap="round">
+    <line x1="676" y1="400" x2="764" y2="444"/>
+    <line x1="764" y1="400" x2="676" y2="444"/>
+  </g>
+  <text x="596" y="480" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Kellertür geht nicht mehr auf</text>
+  <text x="596" y="524" font-family="Georgia, serif" font-size="21" fill="#111">Nach OBEN — und auf</text>
+  <text x="596" y="550" font-family="Georgia, serif" font-size="21" fill="#111">keinen Fall in den Keller</text>
+
+  <text x="40" y="590" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Man geht dorthin, wo die Gefahr nicht hinkommt.</text>
+</svg>

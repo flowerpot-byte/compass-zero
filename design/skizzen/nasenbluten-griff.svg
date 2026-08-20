@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <!-- Zum Tipp "erste-hilfe-nasenbluten".
+
+       GEZEIGTE AUSSAGE: die Haltung waehrend der Blutung - drei Stellen
+       gleichzeitig, die sich in Worten umstaendlich beschreiben und im Bild
+       auf einen Blick erfassen lassen: Kopf LEICHT nach vorn, Stirn in die
+       eigenen Haende gestuetzt, kalter Umschlag im NACKEN (nicht auf der
+       Nase).
+
+       Nicht gezeichnet: Notruf 112 und die Lagerung bei starker Blutung. Das
+       sind Handlungsschritte, keine raeumliche Aussage. Sie stehen als Zeile
+       unter dem Bild, und weil die Quelle dort ausdruecklich von
+       Lebensgefahr spricht, ist das die eine Stelle mit der Signalfarbe.
+
+       Neubau am 04.08.2026. Die erste Fassung kippte den ganzen Koerper um
+       etwa 45 Grad nach vorn, obwohl der Text "leicht nach vorn beugen"
+       sagt - das Bild widersprach damit seinem eigenen Tipp. Dazu war die
+       Figur nicht als sitzender Mensch zu lesen: ein diagonaler Rumpfbalken,
+       ein Arm quer darueber und ein winziges Bein unten in der Ecke. -->
+
+  <rect width="900" height="560" fill="#faf9f6"/>
+
+  <text x="40" y="50" font-family="Georgia, serif" font-size="26" fill="#111">Nasenbluten: Kopf leicht nach vorn, Umschlag im Nacken</text>
+
+  <!-- Boden und Hocker -->
+  <line x1="230" y1="512" x2="700" y2="512" stroke="#111" stroke-width="4"/>
+  <rect x="352" y="424" width="130" height="14" rx="6" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <line x1="368" y1="438" x2="362" y2="512" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  <line x1="466" y1="438" x2="472" y2="512" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Bein: Oberschenkel nach vorn, Unterschenkel herunter -->
+  <path d="M 424,424 L 530,424" fill="none" stroke="#e6e2d6" stroke-width="34" stroke-linecap="round"/>
+  <path d="M 424,424 L 530,424" fill="none" stroke="#111" stroke-width="3" fill-opacity="0"/>
+  <path d="M 424,406 L 530,406 L 530,442 L 424,442 Z" fill="#e6e2d6" stroke="#111" stroke-width="3.5"/>
+  <path d="M 512,442 L 512,498 L 546,498 L 546,442 Z" fill="#e6e2d6" stroke="#111" stroke-width="3.5"/>
+  <path d="M 508,498 L 566,498 L 566,512 L 508,512 Z" fill="#e6e2d6" stroke="#111" stroke-width="3.5"/>
+
+  <!-- Rumpf: aufrecht sitzend, nur ganz leicht nach vorn -->
+  <path d="M 404,412 L 468,412 L 462,286 L 414,286 Z" fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Hals -->
+  <path d="M 420,290 L 456,290 L 458,262 L 422,262 Z" fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Kopf, leicht nach vorn geneigt. Das Gesicht zeigt nach rechts. -->
+  <g transform="rotate(14 442 226)">
+    <circle cx="442" cy="226" r="36" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <path d="M 476,220 L 486,232 L 474,238" fill="none" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Kalter Umschlag im Nacken, hinter Kopf und Hals -->
+  <g transform="rotate(-8 400 268)">
+    <rect x="374" y="252" width="54" height="30" rx="12" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+    <g stroke="#faf9f6" stroke-width="2.5">
+      <line x1="384" y1="258" x2="384" y2="276"/>
+      <line x1="396" y1="258" x2="396" y2="276"/>
+      <line x1="408" y1="258" x2="408" y2="276"/>
+      <line x1="420" y1="258" x2="420" y2="276"/>
+    </g>
+  </g>
+
+  <!-- Arme: Ellenbogen auf dem Oberschenkel, Unterarm hoch zur Stirn -->
+  <path d="M 452,300 C 484,338 500,376 498,410" fill="none" stroke="#e6e2d6" stroke-width="22" stroke-linecap="round"/>
+  <path d="M 452,300 C 484,338 500,376 498,410" fill="none" stroke="#111" stroke-width="2.5" opacity="0.55"/>
+  <path d="M 498,410 C 514,372 512,308 502,258" fill="none" stroke="#7a5a3e" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Beide Haende stuetzen die Stirn -->
+  <ellipse cx="497" cy="238" rx="17" ry="24" fill="#d9c98a" stroke="#111" stroke-width="3" transform="rotate(-16 497 238)"/>
+  <ellipse cx="478" cy="222" rx="15" ry="21" fill="#d9c98a" stroke="#111" stroke-width="3" transform="rotate(-16 478 222)"/>
+
+  <!-- Massstab fuer "leicht": Senkrechte durch den Hals, dazu der kleine Winkel -->
+  <line x1="440" y1="264" x2="440" y2="132" stroke="#5b7f96" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M 440,168 A 96,96 0 0 1 464,174" fill="none" stroke="#5b7f96" stroke-width="2"/>
+
+  <!-- Beschriftungen: alles links und rechts, nichts auf der Figur -->
+  <text x="40" y="268" font-family="Georgia, serif" font-size="18" fill="#111">kalter Umschlag</text>
+  <text x="40" y="292" font-family="Georgia, serif" font-size="18" fill="#111">in den Nacken</text>
+  <line x1="196" y1="272" x2="372" y2="268" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <text x="600" y="228" font-family="Georgia, serif" font-size="18" fill="#111">Stirn in die Hände stützen</text>
+  <line x1="594" y1="222" x2="516" y2="228" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <text x="470" y="152" font-family="Georgia, serif" font-size="17" fill="#5b7f96">nur leicht nach vorn</text>
+
+  <text x="40" y="546" font-family="Georgia, serif" font-size="19" fill="#d65a1a">Bei starker oder anhaltender Blutung: Notruf 112, hinlegen, zudecken, nicht allein lassen.</text>
+</svg>

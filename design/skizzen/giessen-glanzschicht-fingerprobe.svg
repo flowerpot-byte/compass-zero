@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Kapitel agrikultur-giessen, Abschnitt 1
+       ("Die Glanzschicht: wann genug ist").
+       WARUM GERADE DIESER ABSCHNITT: Er hat zwei Angaben. Die erste ist eine
+       ZEIT (fuenf bis fuenfzehn Sekunden Glanz) — eine Zeit laesst sich nicht
+       zeichnen, sie steht deshalb nur als Satz oben. Die zweite ist eine TIEFE
+       (die obersten fuenf Zentimeter), und die Entscheidung daran ist ein
+       Dreiervergleich: richtig, zu trocken, zu nass. Das ist raeumlich, und
+       genau das zeigt das Bild.
+       ERSTE FASSUNG VERWORFEN: Sie hatte die Zeitangabe als eigenes Feld mit
+       Balken und Punkten. Das war ein Kasten mit einer Beschriftung darin —
+       Fuellung, kein Bild. Wer eine Zeit zeichnet, zeichnet nichts.
+       Alle Zahlen stehen wortgleich in Abschnitt 1. Die Signalfarbe markiert
+       nur die eine teure Verwechslung: matschig und triefend, also zu viel
+       Wasser. Abschnitt 0 beschreibt, wie das Naehrstoffe wegspuelt, Erde
+       abtraegt und Wurzeln ersticken laesst. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="450" y="44" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#111">Die Gegenprobe am nächsten Morgen</text>
+  <text x="450" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Beim Gießen soll der Glanz fünf bis fünfzehn Sekunden stehen bleiben.</text>
+  <text x="450" y="102" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Ob das gestimmt hat, sagt am Morgen der Finger in der Erde.</text>
+
+  <!-- ===== Tiefenmassstab links: fuenf Zentimeter ===== -->
+  <g stroke="#111" stroke-width="3">
+    <line x1="176" y1="182" x2="176" y2="268"/>
+    <line x1="166" y1="182" x2="186" y2="182"/>
+    <line x1="166" y1="268" x2="186" y2="268"/>
+  </g>
+  <text x="156" y="218" text-anchor="end" font-family="Georgia, serif" font-size="18" fill="#111">fünf</text>
+  <text x="156" y="242" text-anchor="end" font-family="Georgia, serif" font-size="18" fill="#111">Zentimeter</text>
+
+  <!-- ============ Probe 1: so soll es sein ============ -->
+  <rect x="196" y="182" width="196" height="240" fill="#e5ddc6" stroke="#111" stroke-width="4"/>
+  <rect x="196" y="182" width="196" height="86" fill="#7a5a3e"/>
+  <rect x="196" y="268" width="196" height="54" fill="#9b7d5c"/>
+  <line x1="196" y1="268" x2="392" y2="268" stroke="#faf9f6" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="294" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#faf9f6">feucht</text>
+  <text x="294" y="466" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#111">feucht — richtig</text>
+  <text x="294" y="496" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#5b7f96">und ein Stück darunter auch</text>
+  <text x="294" y="540" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">so weitermachen</text>
+
+  <!-- ============ Probe 2: zu trocken ============ -->
+  <rect x="428" y="182" width="196" height="240" fill="#e5ddc6" stroke="#111" stroke-width="4"/>
+  <rect x="428" y="268" width="196" height="54" fill="#9b7d5c"/>
+  <line x1="428" y1="268" x2="624" y2="268" stroke="#111" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="526" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#111">trocken</text>
+  <text x="526" y="466" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#111">oben trocken</text>
+  <text x="526" y="496" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#5b7f96">ganz oder teilweise</text>
+  <text x="526" y="540" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">länger glänzen lassen</text>
+
+  <!-- ============ Probe 3: zu nass ============ -->
+  <rect x="660" y="182" width="196" height="240" fill="#5c422c" stroke="#111" stroke-width="4"/>
+  <rect x="660" y="182" width="196" height="26" fill="#6f95a8"/>
+  <line x1="660" y1="268" x2="856" y2="268" stroke="#faf9f6" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="758" y="244" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#faf9f6">Wasser steht oben</text>
+  <text x="758" y="466" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#d65a1a">matschig und triefend</text>
+  <text x="758" y="496" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#d65a1a">zu viel Wasser</text>
+  <text x="758" y="540" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">kürzer glänzen lassen</text>
+
+  <text x="450" y="592" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Die gestrichelte Linie liegt in allen drei Proben bei fünf Zentimetern.</text>
+</svg>

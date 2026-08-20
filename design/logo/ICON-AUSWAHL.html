@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Compass Zero – Kompass auf dem Handbuch</title>
+<style>
+  body { font-family: "Segoe UI", system-ui, sans-serif; max-width: 900px; margin: 24px auto; padding: 0 16px; color: #0A0A0A; background: #F4F2ED; }
+  h1 { font-family: Georgia, serif; font-weight: normal; }
+  h2 { font-family: Georgia, serif; font-weight: normal; margin: 36px 0 4px; }
+  p.hint { margin: 2px 0 12px; color: #555; font-size: 14px; }
+  .reihe { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .karte { border-radius: 10px; padding: 18px; display: flex; align-items: center; justify-content: center; gap: 18px; }
+  .hell { background: #FFFFFF; --paper: #FFFFFF; color: #0A0A0A; border: 1px solid #DDD; }
+  .dunkel { background: #0A0A0A; --paper: #0A0A0A; color: #F2F0EB; }
+  .maske { width: 96px; height: 96px; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #FFF; --paper: #FFF; border: 1px solid #CCC; }
+  .maske.schwarz { background: #0A0A0A; --paper: #0A0A0A; color: #F2F0EB; border: none; }
+  .rund { border-radius: 50%; } .eckig { border-radius: 24%; }
+  .maske svg { width: 74%; height: 74%; }
+  .beschriftung { font-size: 12px; color: #666; text-align: center; margin-top: 4px; }
+</style>
+</head>
+<body>
+<h1>App-Icon: Kompass auf dem Handbuch</h1>
+<p class="hint">Aus Entwurf 14 weiterentwickelt. Statt der schrägen Nadel liegt jetzt ein richtiger Kompass auf dem aufgeschlagenen Buch — Nordspitze im einzigen Akzentton.</p>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+  <symbol id="a" viewBox="0 0 512 512">
+    <path d="M 56 168 C 118 132 186 132 256 168 C 326 132 394 132 456 168 V 404 C 394 368 326 368 256 404 C 186 368 118 368 56 404 Z" fill="currentColor"/>
+    <path d="M 256 172 V 400" stroke="var(--paper,#FFF)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="256" cy="286" r="104" fill="var(--paper,#FFF)"/>
+    <circle cx="256" cy="286" r="104" fill="none" stroke="currentColor" stroke-width="16"/>
+    <g fill="currentColor"><circle cx="256" cy="206" r="7"/><circle cx="336" cy="286" r="7"/><circle cx="256" cy="366" r="7"/><circle cx="176" cy="286" r="7"/></g>
+    <polygon points="308,234 246,276 266,296" fill="#FF4D00"/>
+    <polygon points="204,338 266,296 246,276" fill="currentColor"/>
+    <circle cx="256" cy="286" r="9" fill="var(--paper,#FFF)"/>
+    <circle cx="256" cy="286" r="9" fill="none" stroke="currentColor" stroke-width="5"/>
+  </symbol>
+  <symbol id="b" viewBox="0 0 512 512">
+    <path d="M 40 150 C 104 112 176 112 248 150 C 320 112 392 112 456 150 V 392 C 392 354 320 354 248 392 C 176 354 104 354 40 392 Z" fill="currentColor"/>
+    <path d="M 248 154 V 388" stroke="var(--paper,#FFF)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="330" cy="330" r="118" fill="var(--paper,#FFF)"/>
+    <circle cx="330" cy="330" r="118" fill="none" stroke="currentColor" stroke-width="18"/>
+    <g fill="currentColor"><circle cx="330" cy="242" r="8"/><circle cx="418" cy="330" r="8"/><circle cx="330" cy="418" r="8"/><circle cx="242" cy="330" r="8"/></g>
+    <polygon points="388,272 318,318 342,342" fill="#FF4D00"/>
+    <polygon points="272,388 342,342 318,318" fill="currentColor"/>
+    <circle cx="330" cy="330" r="10" fill="var(--paper,#FFF)"/>
+    <circle cx="330" cy="330" r="10" fill="none" stroke="currentColor" stroke-width="6"/>
+  </symbol>
+</defs></svg>
+
+<h2>A — Kompass mittig auf dem Buch</h2>
+<p class="hint">Ruhig und symmetrisch. Das Buch bleibt als Form klar erkennbar, der Kompass sitzt in der Mitte über dem Falz.</p>
+<div class="reihe">
+  <div class="karte hell"><svg width="200" height="200"><use href="#a"/></svg></div>
+  <div class="karte dunkel"><svg width="200" height="200"><use href="#a"/></svg></div>
+  <div class="karte hell"><svg width="96" height="96"><use href="#a"/></svg><svg width="48" height="48"><use href="#a"/></svg></div>
+  <div><div class="maske rund"><svg><use href="#a"/></svg></div><div class="beschriftung">rund</div></div>
+  <div><div class="maske eckig schwarz"><svg><use href="#a"/></svg></div><div class="beschriftung">eckig</div></div>
+</div>
+
+<h2>B — Kompass liegt aufgelegt, versetzt</h2>
+<p class="hint">Wirkt mehr wie ein Gegenstand, der wirklich auf dem Buch liegt: größer, nach rechts unten versetzt, ragt über den Rand.</p>
+<div class="reihe">
+  <div class="karte hell"><svg width="200" height="200"><use href="#b"/></svg></div>
+  <div class="karte dunkel"><svg width="200" height="200"><use href="#b"/></svg></div>
+  <div class="karte hell"><svg width="96" height="96"><use href="#b"/></svg><svg width="48" height="48"><use href="#b"/></svg></div>
+  <div><div class="maske rund"><svg><use href="#b"/></svg></div><div class="beschriftung">rund</div></div>
+  <div><div class="maske eckig schwarz"><svg><use href="#b"/></svg></div><div class="beschriftung">eckig</div></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Tipp "Eingebrochen: erst die Atmung, dann heraus".
+       Der entscheidende Satz lautet: nicht hochziehen und aufsteigen, sondern
+       FLACH WERDEN. In Seitenansicht ist der Unterschied sofort da, in Worten
+       dagegen zaeh. Links der Fehler, rechts der Weg.
+       Zweite Fassung: In der ersten waren die Figuren Strichmaennchen und
+       wirkten wie jemand, der im Wasser steht. Jetzt derselbe vereinfachte
+       Koerper wie in der Lawinen-Tafel, Kopf als Kreis und Rumpf als Kapsel,
+       weil daran die LAGE ablesbar ist und nur darum geht es hier.
+       Der Arm greift nach VORN, in die Bewegungsrichtung, und laeuft oberhalb
+       des Kopfes vorbei. Zwei Arme sahen aus wie ein Gewirr und liefen durch
+       den Kopf; in der Seitenansicht verdeckt ein Arm ohnehin den anderen. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Aus dem Eisloch: flach werden, nicht hochziehen</text>
+
+  <!-- ============ LINKS: so nicht ============ -->
+  <text x="40" y="94" font-family="Georgia, serif" font-size="23" fill="#a3231a">So nicht: sich hochstemmen</text>
+
+  <!-- Wasser -->
+  <rect x="40" y="250" width="380" height="150" fill="#c9d9e2" stroke="#111" stroke-width="4"/>
+  <!-- Eis links und rechts, dazwischen das Loch -->
+  <rect x="40" y="226" width="150" height="26" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <rect x="300" y="226" width="120" height="26" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+
+  <!-- Person senkrecht: Rumpf als stehende Kapsel, halb im Wasser -->
+  <rect x="212" y="182" width="66" height="150" rx="30" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <circle cx="245" cy="152" r="21" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Arme stemmen sich auf die Kante -->
+  <line x1="212" y1="212" x2="176" y2="230" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <line x1="278" y1="212" x2="314" y2="230" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Kante bricht -->
+  <g stroke="#a3231a" stroke-width="4" fill="none">
+    <path d="M 190 226 l 12 -16 M 190 238 l 16 -8 M 300 226 l -12 -16 M 300 238 l -16 -8"/>
+  </g>
+  <!-- Kraftpfeil nach unten auf die Kante -->
+  <g stroke="#a3231a" stroke-width="4" fill="none">
+    <path d="M 172 244 l 0 22 M 172 266 l -6 -8 M 172 266 l 6 -8"/>
+    <path d="M 318 244 l 0 22 M 318 266 l -6 -8 M 318 266 l 6 -8"/>
+  </g>
+
+  <!-- Verbotszeichen, klar neben dem Kopf und unter der Ueberschrift -->
+  <g stroke="#a3231a" stroke-width="7" fill="none">
+    <circle cx="366" cy="160" r="34"/>
+    <line x1="342" y1="136" x2="390" y2="184"/>
+  </g>
+
+  <text x="40" y="446" font-family="Georgia, serif" font-size="21" fill="#111">Das ganze Gewicht drückt auf</text>
+  <text x="40" y="472" font-family="Georgia, serif" font-size="21" fill="#111">eine schmale Kante —</text>
+  <text x="40" y="498" font-family="Georgia, serif" font-size="21" fill="#a3231a">sie bricht weiter ab.</text>
+
+  <line x1="446" y1="120" x2="446" y2="530" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ RECHTS: so ============ -->
+  <text x="472" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">So: flach auf das Eis schieben</text>
+
+  <rect x="472" y="250" width="388" height="150" fill="#c9d9e2" stroke="#111" stroke-width="4"/>
+  <rect x="472" y="226" width="250" height="26" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <rect x="810" y="226" width="50" height="26" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+
+  <!-- Person waagerecht auf dem Eis, Beine noch ueber dem Loch -->
+  <rect x="560" y="196" width="180" height="32" rx="16" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <circle cx="540" cy="212" r="21" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- ein Arm nach vorn: in der Seitenansicht verdeckt der eine den anderen -->
+  <line x1="572" y1="198" x2="498" y2="172" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <!-- Beine ueber der Kante -->
+  <line x1="740" y1="214" x2="798" y2="240" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Gewicht verteilt sich: drei kleine Pfeile unter dem Rumpf -->
+  <g stroke="#d65a1a" stroke-width="3" fill="none">
+    <path d="M 592 230 l 0 14 M 592 244 l -5 -6 M 592 244 l 5 -6"/>
+    <path d="M 650 230 l 0 14 M 650 244 l -5 -6 M 650 244 l 5 -6"/>
+    <path d="M 708 230 l 0 14 M 708 244 l -5 -6 M 708 244 l 5 -6"/>
+  </g>
+
+  <!-- Bewegungsrichtung, deutlich ueber der Figur -->
+  <g stroke="#1d6b3a" stroke-width="5" fill="none">
+    <path d="M 690 140 L 528 140"/>
+    <path d="M 528 140 l 24 -11 M 528 140 l 24 11"/>
+  </g>
+  <text x="700" y="146" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">zurück, wo</text>
+  <text x="700" y="172" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">du herkamst</text>
+
+  <text x="472" y="446" font-family="Georgia, serif" font-size="21" fill="#111">Dasselbe Gewicht verteilt sich</text>
+  <text x="472" y="472" font-family="Georgia, serif" font-size="21" fill="#111">auf ein Vielfaches der Fläche.</text>
+  <text x="472" y="498" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Danach nicht aufstehen: rollen.</text>
+
+  <!-- gemeinsame Fusszeile -->
+  <text x="40" y="570" font-family="Georgia, serif" font-size="21" fill="#111">Trägt der Rand nicht, das dünne Eis abbrechen, bis festes kommt. Knistert</text>
+  <text x="40" y="596" font-family="Georgia, serif" font-size="21" fill="#111">es unterwegs: sofort wieder flach hinlegen.</text>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1660" viewBox="0 0 900 1660">
+  <!-- Zum Tipp "Eine Gruppe einteilen: Aufgaben, Wache, Buch".
+       Der erste Schritt ist der, den man ueberspringt, weil er wie Nichtstun
+       aussieht: hinsetzen und die Lage durchgehen. Er steht deshalb als
+       Schritt EINS und nicht als Vorbemerkung.
+       Der Kasten beim Buch enthaelt den Satz, der erklaert, wozu das Buch
+       ueberhaupt dient: Von Tag zu Tag faellt niemandem auf, dass jemand
+       schwaecher wird — ueber eine Woche geschrieben faellt es sofort auf.
+       Ohne diesen Satz liest sich "Buch fuehren" wie Buerokratie.
+       Die zwei Stunden Wache stehen rot, weil sie die einzige Zahl im
+       Abschnitt sind und weil die Versuchung, sie zu strecken, immer da ist:
+       Wer auf vier Stunden legt, spart Leute und hat vier Stunden lang
+       niemanden, der wirklich aufpasst.
+       Bleiben oder Weiterziehen steht als zwei Kaesten statt als Regel, weil
+       die Quelle ausdruecklich KEINE Regel gibt, sondern Fragen. Die
+       Auswertung steht in den Kaesten, nicht die Entscheidung. -->
+  <rect width="900" height="1660" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Eine Gruppe einteilen: Aufgaben, Wache, Buch</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Eine Gruppe ohne Einteilung macht dreimal dasselbe und einmal gar nichts.</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Die Quelle beschreibt ein Rettungsfloß — hier auf eine Gruppe an Land</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">übertragen.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <g fill="#111">
+    <circle cx="60" cy="224" r="17"/><circle cx="60" cy="351" r="17"/><circle cx="60" cy="452" r="17"/>
+    <circle cx="60" cy="527" r="17"/><circle cx="60" cy="807" r="17"/><circle cx="60" cy="1090" r="17"/>
+  </g>
+  <circle cx="60" cy="680" r="17" fill="#a3231a"/>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="231">1</text><text x="60" y="358">2</text><text x="60" y="459">3</text>
+    <text x="60" y="534">4</text><text x="60" y="687">5</text><text x="60" y="814">6</text>
+    <text x="60" y="1097">7</text>
+  </g>
+
+  <text x="88" y="231" font-family="Georgia, serif" font-size="23" fill="#111">ZUERST HINSETZEN.</text>
+  <text x="88" y="265" font-family="Georgia, serif" font-size="21" fill="#111">Ruhig alle Seiten der Lage durchgehen und bestimmen, was getan werden</text>
+  <text x="88" y="291" font-family="Georgia, serif" font-size="21" fill="#111">muss. Das steht VOR jedem Handgriff — wer sofort losrennt, verbraucht</text>
+  <text x="88" y="317" font-family="Georgia, serif" font-size="21" fill="#111">die Kraft, die später fehlt.</text>
+
+  <text x="88" y="358" font-family="Georgia, serif" font-size="23" fill="#111">BESTANDSAUFNAHME: Ausrüstung, Nahrung, Wasser.</text>
+  <text x="88" y="392" font-family="Georgia, serif" font-size="21" fill="#111">Nicht schätzen, sondern zählen und aufschreiben. Erst wenn die Zahl auf</text>
+  <text x="88" y="418" font-family="Georgia, serif" font-size="21" fill="#111">dem Papier steht, weiß man, ob man drei Tage hat oder dreißig.</text>
+
+  <text x="88" y="459" font-family="Georgia, serif" font-size="23" fill="#111">VON ANFANG AN EINTEILEN, nicht erst, wenn es knapp wird.</text>
+  <text x="88" y="493" font-family="Georgia, serif" font-size="21" fill="#111">Später ist die Einteilung nur noch Verwaltung des Mangels.</text>
+
+  <text x="88" y="534" font-family="Georgia, serif" font-size="23" fill="#111">JEDER BEKOMMT EINE AUFGABE.</text>
+  <text x="88" y="568" font-family="Georgia, serif" font-size="21" fill="#111">Wasser · Nahrung · Ausschau · Signale · Funk — an Land dazu Feuer und</text>
+  <text x="88" y="594" font-family="Georgia, serif" font-size="21" fill="#111">Brennholz, Kochen, die Sorge für Kranke und Kinder.</text>
+  <text x="88" y="626" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Wer nichts zu tun hat, hat nichts, woran er sich festhält.</text>
+  <text x="88" y="650" font-family="Georgia, serif" font-size="19" fill="#111">(Dieser Satz ist die Einordnung des Pakets, nicht aus der Quelle.)</text>
+
+  <text x="88" y="687" font-family="Georgia, serif" font-size="23" fill="#a3231a">DIE WACHE DAUERT HÖCHSTENS ZWEI STUNDEN.</text>
+  <text x="88" y="721" font-family="Georgia, serif" font-size="21" fill="#a3231a">Danach sieht ein Mensch nicht mehr, was er ansieht. Wer die Wache auf</text>
+  <text x="88" y="747" font-family="Georgia, serif" font-size="21" fill="#a3231a">vier Stunden legt, um Leute zu sparen, hat vier Stunden lang niemanden,</text>
+  <text x="88" y="773" font-family="Georgia, serif" font-size="21" fill="#a3231a">der wirklich aufpasst.</text>
+
+  <text x="88" y="814" font-family="Georgia, serif" font-size="23" fill="#111">EIN BUCH FÜHREN.</text>
+  <text x="88" y="848" font-family="Georgia, serif" font-size="21" fill="#111">Zeitpunkt des Ereignisses · NAMEN und KÖRPERLICHER ZUSTAND aller</text>
+  <text x="88" y="874" font-family="Georgia, serif" font-size="21" fill="#111">Beteiligten · Rationsplan · Wetter · alles, was der Orientierung dient.</text>
+
+  <rect x="88" y="899" width="772" height="119" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="3"/>
+  <text x="110" y="934" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der Zustand aller ist der wichtigste Eintrag.</text>
+  <text x="110" y="970" font-family="Georgia, serif" font-size="21" fill="#111">Von Tag zu Tag fällt niemandem auf, dass jemand schwächer wird. Über</text>
+  <text x="110" y="996" font-family="Georgia, serif" font-size="21" fill="#111">eine Woche geschrieben fällt es sofort auf.</text>
+
+  <text x="88" y="1056" font-family="Georgia, serif" font-size="21" fill="#111">Und es ist der einzige Nachweis darüber, was entschieden wurde und warum.</text>
+
+  <text x="88" y="1097" font-family="Georgia, serif" font-size="23" fill="#111">BLEIBEN ODER WEITERZIEHEN — dafür gibt es keine Regel,</text>
+  <text x="88" y="1125" font-family="Georgia, serif" font-size="23" fill="#111">sondern Fragen.</text>
+
+  <line x1="40" y1="1161" x2="860" y2="1161" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1201" font-family="Georgia, serif" font-size="21" fill="#111">· Wurde noch ein Notruf abgesetzt — in Europa die 112 — und wie viel davon</text>
+  <text x="40" y="1227" font-family="Georgia, serif" font-size="21" fill="#111">  ist durchgekommen?</text>
+  <text x="40" y="1253" font-family="Georgia, serif" font-size="21" fill="#111">· Weiß irgendjemand, wo ihr seid?</text>
+  <text x="40" y="1279" font-family="Georgia, serif" font-size="21" fill="#111">· Wisst IHR, wo ihr seid?</text>
+  <text x="40" y="1305" font-family="Georgia, serif" font-size="21" fill="#111">· Ist das Wetter so, dass überhaupt jemand suchen kann?</text>
+  <text x="40" y="1331" font-family="Georgia, serif" font-size="21" fill="#111">· Kommt hier jemand vorbei?</text>
+
+  <rect x="40" y="1370" width="390" height="145" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <rect x="470" y="1370" width="390" height="145" rx="10" fill="none" stroke="#d65a1a" stroke-width="4"/>
+
+  <text x="62" y="1410" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">MEHRFACH JA</text>
+  <text x="62" y="1446" font-family="Georgia, serif" font-size="21" fill="#111">spricht alles fürs BLEIBEN.</text>
+  <text x="62" y="1472" font-family="Georgia, serif" font-size="21" fill="#111">Ein Suchtrupp findet</text>
+  <text x="62" y="1498" font-family="Georgia, serif" font-size="21" fill="#111">niemanden, der sich bewegt.</text>
+
+  <text x="492" y="1410" font-family="Georgia, serif" font-size="23" fill="#d65a1a">MEHRFACH NEIN</text>
+  <text x="492" y="1446" font-family="Georgia, serif" font-size="21" fill="#111">spricht fürs WEITERZIEHEN.</text>
+
+  <line x1="40" y1="1551" x2="860" y2="1551" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1595" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Zusammenarbeit ist einer der Schlüssel zum Überleben —</text>
+  <text x="40" y="1627" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">und man soll die anderen ausdrücklich DARAN ERINNERN.</text>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Erzeugt aus design/logo/bereich-icons.svg. Dort wird geaendert, nicht hier. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M6 12 H30 V28 H16 L10 34 V28 H6 Z"
+        android:strokeColor="#FF0A0A0A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M18 30 H42 V44 H36 L40 50 L32 44 H18 Z"
+        android:strokeColor="#FF0A0A0A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

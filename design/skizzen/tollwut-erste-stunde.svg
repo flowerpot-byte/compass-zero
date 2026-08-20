@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <!-- Zum Tipp "Tollwut: sofort auswaschen und nicht zunaehen".
+       Zwei Dinge tragen dieses Bild.
+       ERSTENS die vier Schritte der ersten Stunde in fester Reihenfolge. Der
+       vierte ist der, den man ohne Anleitung falsch macht: die Stelle NICHT
+       verschliessen. Zugenaeht bekommt der Erreger genau die abgeschlossene
+       Tasche, die er braucht. Deshalb steht daneben ein durchgestrichenes
+       Nahtbild — das ist der Fehler, den ein Bild verhindern kann.
+       ZWEITENS das gefaehrlichste Missverstaendnis: Jeder erwartet den
+       schaeumenden, angreifenden Hund. Die Quelle beschreibt daneben die
+       STILLE, GELAEHMTE Form — ein solches Tier wirkt nicht bedrohlich,
+       sondern krank und hilfsbeduerftig, und genau dem naehert man sich.
+       Die beiden Zahlen oben stehen bewusst zusammen: 99 von 100 sterben,
+       wenn die Beschwerden da sind — und genau deshalb zaehlt die lange Frist
+       davor, in der eine Impfung es noch abbrechen kann. -->
+  <rect width="900" height="900" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Tollwut: was in der ersten Stunde geschieht</text>
+
+  <!-- ============ Die zwei Zahlen ============ -->
+  <rect x="40" y="74" width="820" height="86" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="62" y="110" font-family="Georgia, serif" font-size="23" fill="#a3231a">Sind die Beschwerden erst da, sterben 99 von 100. Aber zwischen Biss und</text>
+  <text x="62" y="142" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ausbruch liegen 20 bis 90 Tage — darin kann eine Impfung es noch abbrechen.</text>
+
+  <!-- ============ LINKS: die vier Schritte ============ -->
+  <text x="40" y="206" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die vier Schritte ohne Arzt</text>
+
+  <g fill="#1d6b3a">
+    <circle cx="58" cy="242" r="16"/>
+    <circle cx="58" cy="298" r="16"/>
+    <circle cx="58" cy="354" r="16"/>
+  </g>
+  <circle cx="58" cy="410" r="16" fill="#a3231a"/>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="58" y="249">1</text><text x="58" y="305">2</text>
+    <text x="58" y="361">3</text><text x="58" y="417">4</text>
+  </g>
+
+  <text x="86" y="238" font-family="Georgia, serif" font-size="21" fill="#111">SOFORT mit Seife oder Waschmittel</text>
+  <text x="86" y="264" font-family="Georgia, serif" font-size="21" fill="#111">und Wasser abschrubben.</text>
+  <text x="86" y="294" font-family="Georgia, serif" font-size="21" fill="#111">Kräftig ausspülen — für jeden Stich-</text>
+  <text x="86" y="320" font-family="Georgia, serif" font-size="21" fill="#111">kanal rund 200 ml unter Druck.</text>
+  <text x="86" y="350" font-family="Georgia, serif" font-size="21" fill="#111">Mit einem Desinfektionsmittel</text>
+  <text x="86" y="376" font-family="Georgia, serif" font-size="21" fill="#111">behandeln.</text>
+  <text x="86" y="406" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die Stelle NICHT verschließen.</text>
+  <text x="86" y="434" font-family="Georgia, serif" font-size="21" fill="#a3231a">Nicht nähen, nicht klammern,</text>
+  <text x="86" y="460" font-family="Georgia, serif" font-size="21" fill="#a3231a">nicht dicht verkleben.</text>
+
+  <!-- offen (richtig) -->
+  <path d="M 76 522 C 106 508 148 508 178 522 C 148 546 106 546 76 522 Z"
+        fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <circle cx="200" cy="502" r="17" fill="#1d6b3a"/>
+  <g stroke="#faf9f6" stroke-width="3" fill="none"><path d="M 192 502 l 5 6 l 11 -12"/></g>
+  <text x="76" y="578" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">offen lassen</text>
+
+  <!-- zugenaeht (falsch) -->
+  <path d="M 268 522 C 298 508 340 508 370 522 C 340 536 298 536 268 522 Z"
+        fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <g stroke="#a3231a" stroke-width="4">
+    <path d="M 292 512 l 0 20 M 312 510 l 0 24 M 332 510 l 0 24 M 352 512 l 0 20"/>
+  </g>
+  <g stroke="#a3231a" stroke-width="6" fill="none">
+    <circle cx="392" cy="502" r="26"/>
+    <line x1="374" y1="484" x2="410" y2="520"/>
+  </g>
+  <text x="268" y="578" font-family="Georgia, serif" font-size="21" fill="#a3231a">nicht zunähen</text>
+  <text x="40" y="612" font-family="Georgia, serif" font-size="21" fill="#111">Zugenäht bekommt der Erreger genau die</text>
+  <text x="40" y="638" font-family="Georgia, serif" font-size="21" fill="#111">abgeschlossene Tasche, die er braucht.</text>
+
+  <line x1="446" y1="190" x2="446" y2="726" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ RECHTS: das Tier ============ -->
+  <text x="470" y="206" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Das gefährlichste Missverständnis</text>
+
+  <!-- Tier mit haengendem Kopf -->
+  <ellipse cx="640" cy="300" rx="74" ry="32" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="9" stroke-linecap="round">
+    <line x1="598" y1="328" x2="592" y2="376"/>
+    <line x1="626" y1="328" x2="622" y2="376"/>
+    <line x1="666" y1="328" x2="670" y2="376"/>
+    <line x1="692" y1="328" x2="698" y2="376"/>
+  </g>
+  <line x1="490" y1="376" x2="840" y2="376" stroke="#111" stroke-width="4"/>
+  <circle cx="562" cy="336" r="26" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <path d="M 546 316 l -6 -20 l 20 8 Z" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <path d="M 578 314 l 8 -18 l 4 20 Z" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <path d="M 538 344 q 12 12 26 8" fill="none" stroke="#111" stroke-width="4"/>
+  <g stroke="#a9c4d4" stroke-width="4" stroke-linecap="round">
+    <line x1="544" y1="356" x2="540" y2="374"/>
+    <line x1="556" y1="358" x2="554" y2="372"/>
+  </g>
+  <path d="M 714 290 q 26 14 22 44" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <line x1="552" y1="366" x2="520" y2="400" stroke="#d65a1a" stroke-width="2"/>
+
+  <text x="470" y="424" font-family="Georgia, serif" font-size="21" fill="#d65a1a">gelähmter Rachen, starker Speichelfluss,</text>
+  <text x="470" y="450" font-family="Georgia, serif" font-size="21" fill="#d65a1a">kann nicht schlucken</text>
+
+  <text x="470" y="490" font-family="Georgia, serif" font-size="21" fill="#111">Jeder erwartet den schäumenden,</text>
+  <text x="470" y="516" font-family="Georgia, serif" font-size="21" fill="#111">angreifenden Hund. Den gibt es.</text>
+  <text x="470" y="548" font-family="Georgia, serif" font-size="23" fill="#a3231a">Daneben steht die STILLE,</text>
+  <text x="470" y="576" font-family="Georgia, serif" font-size="23" fill="#a3231a">GELÄHMTE Form: Ein solches Tier</text>
+  <text x="470" y="604" font-family="Georgia, serif" font-size="23" fill="#a3231a">wirkt krank und hilfsbedürftig —</text>
+  <text x="470" y="632" font-family="Georgia, serif" font-size="23" fill="#a3231a">und genau dem nähert man sich.</text>
+
+  <g fill="#a3231a">
+    <circle cx="480" cy="668" r="7"/>
+    <circle cx="480" cy="700" r="7"/>
+  </g>
+  <text x="500" y="676" font-family="Georgia, serif" font-size="21" fill="#111">Wildtiere verlieren die Scheu.</text>
+  <text x="500" y="708" font-family="Georgia, serif" font-size="21" fill="#111">Nachtaktive Tiere zeigen sich am Tag.</text>
+
+  <line x1="40" y1="742" x2="860" y2="742" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="40" y="776" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Weil die Frist so lang ist: Auch Wochen später ist eine Impfung noch sinnvoll.</text>
+  <text x="40" y="806" font-family="Georgia, serif" font-size="21" fill="#111">Ansteckung durch Biss, Kratzer oder Lecken. Hunde sind weltweit die wichtigste</text>
+  <text x="40" y="832" font-family="Georgia, serif" font-size="21" fill="#111">Quelle; besonders verdächtig ist der Angriff wildlebender Säugetiere.</text>
+  <text x="40" y="870" font-family="Georgia, serif" font-size="21" fill="#a3231a">Dieselbe Verletzung kann Starrkrampf übertragen — der Tipp dazu gehört dazu.</text>
+</svg>

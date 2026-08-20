@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="990" viewBox="0 0 900 990">
+  <!-- Zum Tipp "Trichinen: Einfrieren toetet sie nicht".
+       Der Tipp raeumt eine verbreitete Annahme aus, und Annahmen raeumt man
+       nicht mit einem Nebensatz aus. Links stehen die drei Verfahren, die
+       fast jeder fuer sicher haelt — Einfrieren, Poekeln, Raeuchern —, rechts
+       das eine, das wirkt. Nebeneinander ist es eine Entscheidung; im
+       Fliesstext ist es eine Aufzaehlung mit einem "aber".
+       Die 72 Grad stehen gross und mit ihrem Grund: Sie sind nicht die
+       Toetungsschwelle (die liegt bei 62,2), sondern die Zahl, die zugleich
+       die uebrigen Erreger abdeckt. Ohne den Grund kuerzt jemand auf 62.
+       "Man sieht nichts" steht ganz oben, weil es die Voraussetzung fuer
+       alles andere ist: Wer glaubt, ein befallenes Tier zu erkennen, braucht
+       den Rest nicht zu lesen — und irrt sich. -->
+  <rect width="900" height="990" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Trichinen: Einfrieren tötet sie nicht</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Winzige Fadenwürmer in der Muskulatur. In Deutschland bei Wildschwein,</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Fuchs und Marderhund; angesteckt wird der Mensch ausschließlich über das</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">Fleisch befallener Tiere.</text>
+
+  <text x="40" y="192" font-family="Georgia, serif" font-size="23" fill="#a3231a">Dem Tier sieht man nichts an, dem Fleisch auch nicht.</text>
+  <text x="40" y="226" font-family="Georgia, serif" font-size="21" fill="#111">Die Tiere bleiben in der Regel ohne Anzeichen, und mit bloßem Auge ist der</text>
+  <text x="40" y="252" font-family="Georgia, serif" font-size="21" fill="#111">Befall im Fleisch nicht zu erkennen.</text>
+
+  <line x1="40" y1="288" x2="860" y2="288" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="321" width="390" height="231" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <rect x="470" y="321" width="390" height="231" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+
+  <text x="62" y="361" font-family="Georgia, serif" font-size="23" fill="#a3231a">WIRKT NICHT</text>
+  <text x="62" y="397" font-family="Georgia, serif" font-size="21" fill="#111">· EINFRIEREN</text>
+  <text x="62" y="423" font-family="Georgia, serif" font-size="21" fill="#111">· PÖKELN</text>
+  <text x="62" y="449" font-family="Georgia, serif" font-size="21" fill="#111">· RÄUCHERN</text>
+  <text x="62" y="487" font-family="Georgia, serif" font-size="19" fill="#111">Zwei Arten, die gerade bei Wild</text>
+  <text x="62" y="511" font-family="Georgia, serif" font-size="19" fill="#111">vorkommen, überstehen die</text>
+  <text x="62" y="535" font-family="Georgia, serif" font-size="19" fill="#111">vorgeschriebene Gefrierbehandlung.</text>
+
+  <text x="492" y="361" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">WIRKT: HITZE</text>
+  <text x="492" y="397" font-family="Georgia, serif" font-size="21" fill="#111">Oberhalb von 62,2 Grad im</text>
+  <text x="492" y="423" font-family="Georgia, serif" font-size="21" fill="#111">Inneren sterben sie innerhalb</text>
+  <text x="492" y="449" font-family="Georgia, serif" font-size="21" fill="#111">weniger Sekunden.</text>
+  <text x="492" y="487" font-family="Georgia, serif" font-size="19" fill="#111">Für Wild ist von vergleichbaren</text>
+  <text x="492" y="511" font-family="Georgia, serif" font-size="19" fill="#111">Werten auszugehen.</text>
+
+  <text x="40" y="596" font-family="Georgia, serif" font-size="26" fill="#111">Halte dich trotzdem an 72 Grad für zwei Minuten —</text>
+  <text x="40" y="628" font-family="Georgia, serif" font-size="26" fill="#111">die decken zugleich die übrigen Erreger ab.</text>
+
+  <line x1="40" y1="664" x2="860" y2="664" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="704" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wie wenige genügen</text>
+  <text x="40" y="742" font-family="Georgia, serif" font-size="23" fill="#111">Ab mehr als ZEHN Larven: hohes Infektionsrisiko.</text>
+  <text x="40" y="770" font-family="Georgia, serif" font-size="23" fill="#111">Bei einem Ausbruch reichten etwa 60 Trichinen zur Erkrankung.</text>
+  <text x="40" y="806" font-family="Georgia, serif" font-size="21" fill="#111">2013 erkrankten in Sachsen 14 Menschen an Rohwurst aus</text>
+  <text x="40" y="832" font-family="Georgia, serif" font-size="21" fill="#111">Wildschweinfleisch.</text>
+
+  <line x1="40" y1="868" x2="860" y2="868" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="908" font-family="Georgia, serif" font-size="21" fill="#111">Die Internationale Trichinella-Kommission erkennt Gefrieren bei Wildtieren</text>
+  <text x="40" y="934" font-family="Georgia, serif" font-size="21" fill="#111">nicht als sicheres Verfahren an. Pökeln und Räuchern werden aus demselben</text>
+  <text x="40" y="960" font-family="Georgia, serif" font-size="21" fill="#111">Grund nicht zur sicheren Abtötung empfohlen.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540">
+  <!-- Zum Tipp "Druckverband anlegen".
+       Gezeichnet ist nicht der Verband, sondern die HALTUNG. Der Tipp nennt
+       eine Messung: Mit durchgestreckten Armen und dem Koerpergewicht von oben
+       hielten Helfer den noetigen Druck ueber drei Minuten in 100 Prozent der
+       Zeit durch, mit angewinkelten Armen nur in knapp 64 Prozent. Das ist eine
+       Frage der Koerperhaltung, und eine Haltung laesst sich zeichnen und nur
+       muehsam beschreiben. Die gestrichelte Senkrechte ist der ganze
+       Unterschied: Schulter ueber der Hand oder nicht.
+       Wer stundenlang druecken muss, weil niemand kommt, entscheidet hier
+       ueber sein Durchhaltevermoegen.
+       ZUR GEOMETRIE: Der Oberschenkel steigt STEIL vom Knie zur Huefte, der
+       Rumpf laeuft von dort FLACH nach vorn. Ein erster Anlauf hatte beide
+       gleich steil; daraus wurde eine Dreiecksspitze, die niemand als
+       knienden Menschen liest. -->
+  <rect width="900" height="540" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Druck halten: die Haltung entscheidet, nicht die Kraft</text>
+
+  <!-- ============ LINKS: durchgestreckt ============ -->
+  <g transform="translate(30,86)">
+    <text x="14" y="0" font-family="Georgia, serif" font-size="22" fill="#111">Arme durchgestreckt</text>
+    <line x1="6" y1="296" x2="404" y2="296" stroke="#111" stroke-width="4"/>
+    <rect x="176" y="268" width="212" height="28" rx="14" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <rect x="212" y="254" width="52" height="18" rx="4" fill="#d65a1a" stroke="#111" stroke-width="3"/>
+    <!-- Fuss und Schienbein liegen am Boden -->
+    <path d="M 48 288 L 44 296" fill="none" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 48 290 L 140 290" fill="none" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+    <!-- Oberschenkel STEIL nach oben -->
+    <path d="M 140 290 L 170 232" fill="none" stroke="#111" stroke-width="13" stroke-linecap="round"/>
+    <!-- Rumpf FLACH nach vorn -->
+    <path d="M 170 232 L 236 194" fill="none" stroke="#111" stroke-width="17" stroke-linecap="round"/>
+    <circle cx="266" cy="176" r="21" fill="#faf9f6" stroke="#111" stroke-width="5"/>
+    <!-- Arm: eine gerade Linie von der Schulter bis zur Hand -->
+    <path d="M 238 200 L 238 252" fill="none" stroke="#d65a1a" stroke-width="12" stroke-linecap="round"/>
+    <!-- gestrichelte Senkrechte durch Schulter UND Hand -->
+    <line x1="238" y1="148" x2="238" y2="272" stroke="#111" stroke-width="3" stroke-dasharray="8 7"/>
+    <g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round">
+      <line x1="330" y1="150" x2="330" y2="244"/>
+      <path d="M 330 244 l -12 -18 M 330 244 l 12 -18"/>
+    </g>
+    <text x="348" y="196" font-family="Georgia, serif" font-size="18" fill="#111">Körpergewicht</text>
+    <text x="348" y="220" font-family="Georgia, serif" font-size="18" fill="#111">von oben</text>
+    <text x="112" y="330" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Schulter genau über der Hand</text>
+    <text x="14" y="382" font-family="Georgia, serif" font-size="34" fill="#d65a1a">100 %</text>
+    <text x="14" y="412" font-family="Georgia, serif" font-size="19" fill="#111">der Zeit über drei Minuten</text>
+  </g>
+
+  <!-- ============ RECHTS: angewinkelt ============ -->
+  <g transform="translate(470,86)">
+    <text x="14" y="0" font-family="Georgia, serif" font-size="22" fill="#111">Arme angewinkelt</text>
+    <line x1="6" y1="296" x2="404" y2="296" stroke="#111" stroke-width="4"/>
+    <rect x="176" y="268" width="212" height="28" rx="14" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <rect x="212" y="254" width="52" height="18" rx="4" fill="#d65a1a" stroke="#111" stroke-width="3"/>
+    <path d="M 48 288 L 44 296" fill="none" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 48 290 L 140 290" fill="none" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 140 290 L 170 232" fill="none" stroke="#111" stroke-width="13" stroke-linecap="round"/>
+    <!-- Rumpf AUFRECHT: die Schulter bleibt weit hinter der Hand -->
+    <path d="M 170 232 L 186 176" fill="none" stroke="#111" stroke-width="17" stroke-linecap="round"/>
+    <circle cx="196" cy="146" r="21" fill="#faf9f6" stroke="#111" stroke-width="5"/>
+    <!-- Oberarm nach vorn unten, Unterarm senkrecht: deutlicher Knick -->
+    <path d="M 188 182 L 240 206 L 238 252" fill="none" stroke="#d65a1a" stroke-width="12"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="240" cy="206" r="7" fill="#faf9f6" stroke="#d65a1a" stroke-width="4"/>
+    <!-- Senkrechte ab der Schulter: sie verfehlt die Hand um die Strecke unten -->
+    <line x1="188" y1="140" x2="188" y2="316" stroke="#111" stroke-width="3" stroke-dasharray="8 7"/>
+    <line x1="188" y1="316" x2="238" y2="316" stroke="#d65a1a" stroke-width="4"/>
+    <line x1="238" y1="266" x2="238" y2="316" stroke="#d65a1a" stroke-width="3" stroke-dasharray="8 7"/>
+    <text x="80" y="348" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Schulter zu weit hinten</text>
+    <text x="14" y="382" font-family="Georgia, serif" font-size="34" fill="#111">64 %</text>
+    <text x="14" y="412" font-family="Georgia, serif" font-size="19" fill="#111">nur aus der Armkraft</text>
+  </g>
+</svg>

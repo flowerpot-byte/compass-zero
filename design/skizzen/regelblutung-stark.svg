@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1796" viewBox="0 0 900 1796">
+  <!-- Zum Tipp "Starke Regelblutung: was normal ist und was nicht".
+       Der Tipp beginnt mit Zahlen, an denen sich normal von nicht normal
+       unterscheidet, und die stehen deshalb als Tabelle zuerst.
+       Der wichtigste Satz danach ist eine Verschiebung des Blicks:
+       Auffaellig ist nicht die einzelne starke Blutung, sondern die
+       VERAENDERUNG. Wer nur auf die Menge sieht, misst das Falsche.
+       Die Blutarmutszeichen stehen eigens, weil sie das sind, was
+       tatsaechlich gefaehrlich wird — nicht die Blutung selbst.
+       Beim Ibuprofen steht ein Befund, der als Satz untergeht und der die
+       Menge erst begruendet: Mit 600 Milligramm am Tag war KEINE Wirkung zu
+       sehen, mit 1200 schon. Ohne diese Gegenueberstellung wirkt die Menge
+       beliebig und wird halbiert.
+       Die Blutung nach den Wechseljahren hat eine eigene rote Zeile, weil
+       sie das einzige Zeichen im Tipp ist, das ganz ohne Schmerz ernst
+       genommen wird.
+       Der Vorbehalt steht unten UND das Bild nennt Arzneimengen — deshalb
+       zusaetzlich in der letzten Zeile, wo das Auge am Ende landet. -->
+  <rect width="900" height="1796" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Starke Regelblutung: was normal ist und was nicht</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was die Quelle als normal angibt</text>
+  <g font-family="Georgia, serif" font-size="21" fill="#111">
+    <text x="40" y="136">Abstand</text>
+    <text x="250" y="136">28 Tage im Mittel — normal ist alles zwischen 21 und 35</text>
+    <text x="40" y="166">Dauer</text>
+    <text x="250" y="166">2 bis 7 Tage</text>
+    <text x="40" y="196">Menge</text>
+    <text x="250" y="196">im Mittel weniger als 80 Milliliter — knapp eine kleine</text>
+    <text x="250" y="222">Tasse über die ganze Blutung, nicht pro Tag</text>
+  </g>
+
+  <line x1="40" y1="262" x2="860" y2="262" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="302" font-family="Georgia, serif" font-size="23" fill="#a3231a">Auffällig ist nicht die einzelne starke Blutung, sondern die</text>
+  <text x="40" y="330" font-family="Georgia, serif" font-size="23" fill="#a3231a">VERÄNDERUNG.</text>
+  <text x="40" y="366" font-family="Georgia, serif" font-size="21" fill="#111">Ein deutlicher Wechsel im Muster oder in der Menge gegenüber dem, was für</text>
+  <text x="40" y="392" font-family="Georgia, serif" font-size="21" fill="#111">diese Frau bisher üblich war. Beschrieben wird eine schwere Blutung oft als</text>
+  <text x="40" y="418" font-family="Georgia, serif" font-size="21" fill="#111">schwallartig, und es gehen große Klumpen ab.</text>
+
+  <line x1="40" y1="454" x2="860" y2="454" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="494" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Zeichen, auf die es ankommt — sie zeigen die Blutarmut</text>
+  <text x="40" y="532" font-family="Georgia, serif" font-size="21" fill="#111">· Erschöpfung, die nicht zum Aufwand passt</text>
+  <text x="40" y="558" font-family="Georgia, serif" font-size="21" fill="#111">· Schwindel oder Schwarzwerden beim Aufstehen</text>
+  <text x="40" y="584" font-family="Georgia, serif" font-size="21" fill="#111">· Herzklopfen oder ein Herz, das stolpert</text>
+  <text x="40" y="624" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Kommt das zusammen: hinlegen und liegen bleiben. Bettruhe gilt ausdrücklich</text>
+  <text x="40" y="650" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">als Behandlung, nicht als Empfehlung. Und trinken.</text>
+
+  <line x1="40" y1="686" x2="860" y2="686" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="726" font-family="Georgia, serif" font-size="23" fill="#a3231a">Drei Dinge, die zuerst ausgeschlossen werden</text>
+
+  <text x="40" y="766" font-family="Georgia, serif" font-size="23" fill="#a3231a">SCHWANGERSCHAFT</text>
+  <text x="250" y="800" font-family="Georgia, serif" font-size="21" fill="#111">immer zuerst. Blieb die letzte Regel aus, kommen Übelkeit</text>
+  <text x="250" y="826" font-family="Georgia, serif" font-size="21" fill="#111">und Brustspannen dazu und schmerzt es einseitig im Becken,</text>
+  <text x="250" y="852" font-family="Georgia, serif" font-size="21" fill="#111">kann es eine Schwangerschaft außerhalb der Gebärmutter sein.</text>
+
+  <text x="40" y="892" font-family="Georgia, serif" font-size="23" fill="#a3231a">EINE INFEKTION</text>
+  <text x="250" y="892" font-family="Georgia, serif" font-size="21" fill="#111">Fieber, eine druckschmerzhafte Gebärmutter und übel</text>
+  <text x="250" y="918" font-family="Georgia, serif" font-size="21" fill="#111">riechender Ausfluss. Hier ist ein Antibiotikum angezeigt,</text>
+  <text x="250" y="944" font-family="Georgia, serif" font-size="21" fill="#111">bei Fieber sofort.</text>
+
+  <text x="40" y="984" font-family="Georgia, serif" font-size="23" fill="#a3231a">EIN MÄDCHEN,</text>
+  <text x="40" y="1012" font-family="Georgia, serif" font-size="23" fill="#a3231a">das noch nicht</text>
+  <text x="40" y="1040" font-family="Georgia, serif" font-size="23" fill="#a3231a">lange blutet</text>
+  <text x="250" y="984" font-family="Georgia, serif" font-size="21" fill="#111">Blutet es von Anfang an ungewöhnlich stark, kann eine</text>
+  <text x="250" y="1010" font-family="Georgia, serif" font-size="21" fill="#111">angeborene Gerinnungsstörung dahinterstecken. Das erklärt</text>
+  <text x="250" y="1036" font-family="Georgia, serif" font-size="21" fill="#111">oft auch andere Blutungen, die niemand einordnen konnte.</text>
+
+  <line x1="40" y1="1076" x2="860" y2="1076" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1116" font-family="Georgia, serif" font-size="23" fill="#a3231a">Eine Blutung nach den Wechseljahren ist NIE normal.</text>
+  <text x="40" y="1150" font-family="Georgia, serif" font-size="21" fill="#111">Sie ist das einzige Zeichen hier, das auch ohne jeden Schmerz ernst genommen</text>
+  <text x="40" y="1176" font-family="Georgia, serif" font-size="21" fill="#111">wird — sie gilt als Hauptzeichen für einen Tumor der Gebärmutter.</text>
+
+  <line x1="40" y1="1212" x2="860" y2="1212" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1252" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ibuprofen verringert die Blutungsmenge — das ist der Zweck</text>
+  <text x="40" y="1290" font-family="Georgia, serif" font-size="23" fill="#111">400 mg dreimal am Tag, zusammen 1200 mg, mindestens sechs</text>
+  <text x="40" y="1318" font-family="Georgia, serif" font-size="23" fill="#111">Stunden Abstand.</text>
+  <text x="40" y="1354" font-family="Georgia, serif" font-size="21" fill="#a3231a">Mit 600 mg am Tag war in derselben Untersuchung KEINE Wirkung zu sehen.</text>
+  <text x="40" y="1390" font-family="Georgia, serif" font-size="21" fill="#111">1200 mg ist zugleich die Tagesmenge der rezeptfreien 400-mg-Tablette. Mehr als</text>
+  <text x="40" y="1416" font-family="Georgia, serif" font-size="21" fill="#111">800 mg auf einmal ist auch unter ärztlicher Verordnung nicht vorgesehen.</text>
+  <text x="40" y="1442" font-family="Georgia, serif" font-size="21" fill="#111">Mit dem Einsetzen der Blutung anfangen, über die starken Tage weiter — etwa</text>
+  <text x="40" y="1468" font-family="Georgia, serif" font-size="21" fill="#111">fünf Tage. Naproxen wirkt ebenso gut.</text>
+
+  <line x1="40" y1="1504" x2="860" y2="1504" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1544" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wann nicht — das wiegt hier schwerer, weil das Mittel selbst</text>
+  <text x="40" y="1572" font-family="Georgia, serif" font-size="23" fill="#a3231a">Blutungen auslösen kann</text>
+  <text x="40" y="1608" font-family="Georgia, serif" font-size="21" fill="#111">· bei einer ungeklärten Störung der Blutbildung — das trifft Punkt 3 oben</text>
+  <text x="40" y="1634" font-family="Georgia, serif" font-size="21" fill="#111">· bei einem Magen- oder Zwölffingerdarmgeschwür, heute oder früher, und nach</text>
+  <text x="40" y="1660" font-family="Georgia, serif" font-size="21" fill="#111">  jeder früheren Blutung im Magen-Darm-Bereich</text>
+  <text x="40" y="1686" font-family="Georgia, serif" font-size="21" fill="#111">· bei schwerer Austrocknung — in einer Krise der wahrscheinlichste dieser Fälle</text>
+  <text x="40" y="1712" font-family="Georgia, serif" font-size="21" fill="#111">· im letzten Drittel einer Schwangerschaft · nach Asthmaanfällen oder Ausschlag</text>
+
+  <text x="40" y="1756" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets: Auf dem Beipackzettel steht, ohne Arzt nicht länger als vier</text>
+  <text x="40" y="1780" font-family="Georgia, serif" font-size="19" fill="#a3231a">Tage. Das meint den Dauergebrauch. — Keine ärztliche Verordnung, ohne Gewähr.</text>
+</svg>

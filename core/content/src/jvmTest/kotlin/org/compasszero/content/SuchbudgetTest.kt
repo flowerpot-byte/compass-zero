@@ -1,0 +1,150 @@
+package org.compasszero.content
+
+import java.io.File
+import kotlin.test.Test
+import kotlin.test.assertTrue
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.jsonArray
+import kotlinx.serialization.json.jsonObject
+import kotlinx.serialization.json.jsonPrimitive
+
+// Am 17.08.2026 lief das Paket ohne Vorwarnung in die Wortgrenze: Ein fertiger
+// Tipp wurde eingebaut, und danach lud das GANZE Paket nicht mehr --
+// content-too-many-search-terms, 300 229 von 300 000. Der Fund selbst steht in
+// ROADMAP.md; hier steht das Messgeraet dazu.
+//
+// Zweck ist der Bericht, nicht das Verbot: Wer Inhalte schreibt, soll den
+// Abstand zur Grenze als Zahl sehen, bevor er einen Nachmittag in einen Eintrag
+// steckt, der nicht mehr hineinpasst. Und reisst das Budget doch, faellt hier
+// ein Satz mit Zahlen statt einer rohen Fatal-Meldung aus dem Parser.
+//
+// Gezaehlt wird nach derselben Regel wie in PackParser.pruefeSuchtextMenge --
+// Feld fuer Feld, ohne die Felder zu verketten. Wird die Regel dort geaendert,
+// gehoert sie hier nachgezogen; die Gegenprobe unten schlaegt sonst an.
+class SuchbudgetTest {
+
+    private fun repoRoot(): File {
+        val fromProperty = System.getProperty("compasszero.repoRoot")
+        if (fromProperty != null) return File(fromProperty)
+        var dir = File(".").absoluteFile
+        while (!File(dir, "settings.gradle.kts").exists()) {
+            dir = dir.parentFile ?: error("settings.gradle.kts nicht gefunden")
+        }
+        return dir
+    }
+
+    private class Zaehlung {
+        var zeichen = 0L
+        var wortvorkommen = 0L
+        val proEintrag = mutableListOf<Pair<String, Long>>()
+
+        fun zaehle(text: String): Long {
+            val aufbereitet = Tokenizer.suchform(text)
+            zeichen += (aufbereitet?.length ?: text.length).toLong()
+            if (aufbereitet == null) return 0
+            var n = 0L
+            for (token in Tokenizer.tokensAusSuchform(aufbereitet)) {
+                if (!Tokenizer.enthaeltOhneWortabstand(token)) n++
+            }
+            wortvorkommen += n
+            return n
+        }
+    }
+
+    private fun zaehleBasispaket(): Zaehlung {
+        val paket = File(repoRoot(), "content/europe-de/paket")
+        val json = Json { ignoreUnknownKeys = true }
+        val z = Zaehlung()
+
+        val tips = json.parseToJsonElement(File(paket, "content/tips.json").readText())
+        for (e in tips.jsonObject.getValue("tips").jsonArray) {
+            val o = e.jsonObject
+            var n = z.zaehle(o.getValue("title").jsonPrimitive.content)
+            n += z.zaehle(o.getValue("body").jsonPrimitive.content)
+            o["keywords"]?.jsonArray?.forEach { n += z.zaehle(it.jsonPrimitive.content) }
+            z.proEintrag += o.getValue("id").jsonPrimitive.content to n
+        }
+        val guides = json.parseToJsonElement(File(paket, "content/guides.json").readText())
+        for (e in guides.jsonObject.getValue("guides").jsonArray) {
+            val o = e.jsonObject
+            var n = z.zaehle(o.getValue("title").jsonPrimitive.content)
+            o["summary"]?.jsonPrimitive?.content?.let { n += z.zaehle(it) }
+            o["steps"]?.jsonArray?.forEach { s ->
+                n += z.zaehle(s.jsonObject.getValue("text").jsonPrimitive.content)
+            }
+            z.proEintrag += o.getValue("id").jsonPrimitive.content to n
+        }
+        val agri = json.parseToJsonElement(File(paket, "content/agriculture.json").readText())
+        for (e in agri.jsonObject.getValue("chapters").jsonArray) {
+            val o = e.jsonObject
+            var n = z.zaehle(o.getValue("title").jsonPrimitive.content)
+            o["sections"]?.jsonArray?.forEach { s ->
+                n += z.zaehle(s.jsonObject.getValue("heading").jsonPrimitive.content)
+                n += z.zaehle(s.jsonObject.getValue("body").jsonPrimitive.content)
+            }
+            z.proEintrag += o.getValue("id").jsonPrimitive.content to n
+        }
+        return z
+    }
+
+    @Test
+    fun dasBasispaketPasstNochInsSuchbudget() {
+        val z = zaehleBasispaket()
+        val grenze = ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN.toLong()
+        val frei = grenze - z.wortvorkommen
+        val mittel = z.wortvorkommen / z.proEintrag.size
+
+        println("Suchbudget des Basispakets (${z.proEintrag.size} Eintraege):")
+        println("  Wortvorkommen  ${z.wortvorkommen} von $grenze, frei $frei")
+        println("  Suchzeichen    ${z.zeichen} von ${ContentLimits.MAX_SUCHTEXT_ZEICHEN}")
+        val passenNoch = frei / mittel
+        println(
+            "  Mittel je Eintrag $mittel -- das reicht noch fuer $passenNoch " +
+                if (passenNoch == 1L) "Eintrag" else "Eintraege",
+        )
+        println("  Groesste Eintraege:")
+        z.proEintrag.sortedByDescending { it.second }.take(5).forEach {
+            println("    ${it.second}\t${it.first}")
+        }
+
+        assertTrue(
+            z.wortvorkommen <= grenze,
+            "Das Suchbudget ist gerissen: ${z.wortvorkommen} Wortvorkommen, erlaubt sind $grenze " +
+                "(${z.wortvorkommen - grenze} zu viel). Damit laedt das PAKET NICHT MEHR, nicht nur " +
+                "der neue Eintrag. Was jetzt gilt, steht in ROADMAP.md unter \"Das Wortbudget des " +
+                "Europa-Pakets ist voll\" -- die Grenze wird nicht einfach angehoben, das ist eine " +
+                "Entwurfsentscheidung.",
+        )
+        assertTrue(
+            z.zeichen <= ContentLimits.MAX_SUCHTEXT_ZEICHEN,
+            "Zeichenbudget gerissen: ${z.zeichen} von ${ContentLimits.MAX_SUCHTEXT_ZEICHEN}",
+        )
+    }
+
+    // Gegenprobe gegen Auseinanderlaufen: Der Parser rechnet dieselbe Summe. Zaehlt
+    // er anders als dieser Test, faellt es hier auf und nicht erst dann, wenn ein
+    // Eintrag durchrutscht, den der Parser abweist.
+    @Test
+    fun dieEigeneRechnungStimmtMitDerDesParsersUeberein() {
+        val z = zaehleBasispaket()
+        val paket = File(repoRoot(), "content/europe-de/paket")
+        val result = PackParser.parse(
+            mapOf(
+                "manifest.json" to File(paket, "manifest.json").readBytes(),
+                "content/tips.json" to File(paket, "content/tips.json").readBytes(),
+                "content/guides.json" to File(paket, "content/guides.json").readBytes(),
+                "content/agriculture.json" to File(paket, "content/agriculture.json").readBytes(),
+                "content/terms.json" to File(paket, "content/terms.json").readBytes(),
+            ),
+            emptySet(),
+        )
+        val parserMeldetZuViel = result.problems.any { it.code == "content-too-many-search-terms" }
+        val eigeneRechnungSagtZuViel = z.wortvorkommen > ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN
+        assertTrue(
+            parserMeldetZuViel == eigeneRechnungSagtZuViel,
+            "Parser und Budgetrechnung sind uneins: Parser meldet zu viel = $parserMeldetZuViel, " +
+                "eigene Rechnung = $eigeneRechnungSagtZuViel bei ${z.wortvorkommen} Wortvorkommen. " +
+                "Wurde PackParser.pruefeSuchtextMenge geaendert, gehoert die Zaehlung hier nachgezogen.",
+        )
+    }
+}

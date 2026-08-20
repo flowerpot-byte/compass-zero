@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1104" viewBox="0 0 900 1104">
+  <!-- Zum Tipp "Insulin ohne Kuehlung lagern".
+       Der Tipp ist eine Temperatur-Frage mit Zeitangaben, und beides
+       zusammen laesst sich als Skala zeigen: Wo liegt es, und wie lange
+       haelt es dort. Als Satzfolge muss man vier Bereiche und vier Zeiten
+       gleichzeitig behalten.
+       Der Massstab stimmt: 0 bis 40 Grad ueber 620 Bildpunkte, 15,5 Punkte
+       je Grad; 2 Grad stehen bei x=231, 8 bei 324, 15 bei 433, 30 bei 665.
+       Die Luecken zwischen 8 und 15 Grad sind ABSICHTLICH leer. Die Quelle
+       nennt 2 bis 8 und 15 bis 30; was dazwischen gilt, sagt sie nicht, und
+       ein durchgezogener Balken wuerde eine Angabe erfinden.
+       Das Einfrieren steht links vom Nullpunkt und durchgestrichen, weil es
+       kein Bereich mit einer Haltbarkeit ist, sondern ein Ausschluss.
+       Die Einordnung am Schluss ist die wichtigste Zeile des ganzen Bildes:
+       Diese Regeln beantworten den voruebergehenden Ausfall, nicht das
+       dauerhafte Ausgehen. Ohne sie liest sich das Bild wie eine Loesung. -->
+  <rect width="900" height="1104" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Insulin ohne Kühlung lagern</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wo es liegt und wie lange es hält</text>
+
+  <text x="170" y="190" font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="middle">nie</text>
+  <text x="278" y="190" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Kühlschrank</text>
+  <text x="549" y="190" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">28 Tage</text>
+  <text x="742" y="190" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">benutzen, messen</text>
+
+  <rect x="140" y="200" width="60" height="36" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <g stroke="#a3231a" stroke-width="5">
+    <line x1="146" y1="206" x2="194" y2="230"/>
+    <line x1="194" y1="206" x2="146" y2="230"/>
+  </g>
+  <rect x="231" y="200" width="93" height="36" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <rect x="433" y="200" width="232" height="36" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="665" y="200" width="155" height="36" fill="#d65a1a" stroke="#111" stroke-width="3"/>
+
+  <line x1="200" y1="252" x2="820" y2="252" stroke="#111" stroke-width="2"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="200" y1="252" x2="200" y2="260"/><line x1="355" y1="252" x2="355" y2="260"/>
+    <line x1="510" y1="252" x2="510" y2="260"/><line x1="665" y1="252" x2="665" y2="260"/>
+    <line x1="820" y1="252" x2="820" y2="260"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="200" y="278">0</text><text x="355" y="278">10</text><text x="510" y="278">20</text>
+    <text x="665" y="278">30</text><text x="820" y="278">40 °C</text>
+  </g>
+
+  <g font-family="Georgia, serif" font-size="21" fill="#111">
+    <text x="40" y="330">2 bis 8 Grad, ungeöffnet</text>
+    <text x="500" y="330">bis zum aufgedruckten Verfallsdatum</text>
+    <text x="40" y="366">15 bis 30 Grad, in der Originalpackung</text>
+    <text x="500" y="366">28 TAGE</text>
+    <text x="40" y="402">verdünnt oder umgefüllt</text>
+    <text x="500" y="402">ZWEI WOCHEN</text>
+    <text x="40" y="438">im Schlauchsystem einer Pumpe</text>
+    <text x="500" y="438">48 STUNDEN</text>
+  </g>
+
+  <line x1="40" y1="478" x2="860" y2="478" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Zwei harte Regeln ============ -->
+  <text x="40" y="518" font-family="Georgia, serif" font-size="23" fill="#a3231a">Zwei harte Regeln</text>
+  <text x="40" y="556" font-family="Georgia, serif" font-size="21" fill="#111">Insulin darf NICHT einfrieren. Wer mit Eis kühlt, muss aufpassen, dass es das</text>
+  <text x="40" y="582" font-family="Georgia, serif" font-size="21" fill="#111">Fläschchen nicht berührt. Eingefrorenes Insulin wird nicht mehr verwendet.</text>
+  <text x="40" y="618" font-family="Georgia, serif" font-size="21" fill="#111">Weg von direkter Hitze und aus der Sonne. Hitze zerstört die Wirkung nicht</text>
+  <text x="40" y="644" font-family="Georgia, serif" font-size="21" fill="#111">schlagartig, sondern nach und nach: Je länger sie einwirkt, desto schwächer.</text>
+
+  <line x1="40" y1="680" x2="860" y2="680" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Ueber 30 Grad ============ -->
+  <text x="40" y="720" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wird es wärmer als 30 Grad</text>
+  <text x="40" y="758" font-family="Georgia, serif" font-size="21" fill="#111">Dann kann es trotzdem sein, dass du dieses Insulin benutzen musst — und das</text>
+  <text x="40" y="784" font-family="Georgia, serif" font-size="21" fill="#111">ausdrücklich. Benutzen, aber den Blutzucker regelmäßig messen, weil die</text>
+  <text x="40" y="810" font-family="Georgia, serif" font-size="21" fill="#111">Wirkung nachgelassen haben kann. Sobald wieder gekühltes Insulin da ist,</text>
+  <text x="40" y="836" font-family="Georgia, serif" font-size="21" fill="#111">werden die Fläschchen ausgetauscht, die in der Hitze lagen.</text>
+
+  <text x="40" y="876" font-family="Georgia, serif" font-size="21" fill="#a3231a">Im Schlauchsystem einer Pumpe: nach 48 Stunden wechseln — und sofort, wenn</text>
+  <text x="40" y="902" font-family="Georgia, serif" font-size="21" fill="#a3231a">es wärmer als 37 Grad wurde.</text>
+
+  <line x1="40" y1="938" x2="860" y2="938" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="978" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus der Quelle: Diese Regeln beantworten den</text>
+  <text x="40" y="1002" font-family="Georgia, serif" font-size="19" fill="#111">vorübergehenden Ausfall — Stromausfall, Sturm, Evakuierung. Sie beantworten NICHT,</text>
+  <text x="40" y="1026" font-family="Georgia, serif" font-size="19" fill="#111">was jemand tut, dessen Insulin dauerhaft zur Neige geht. Dafür gibt es keinen Ersatz</text>
+  <text x="40" y="1050" font-family="Georgia, serif" font-size="19" fill="#111">und in den geprüften Quellen keine Antwort. Wer davon abhängt, sollte das bei der</text>
+  <text x="40" y="1074" font-family="Georgia, serif" font-size="19" fill="#111">Vorratsplanung wissen — und niemand sollte glauben, dieser Text löse das Problem.</text>
+</svg>

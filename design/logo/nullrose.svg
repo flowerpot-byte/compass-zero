@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Nullrose</title>
+  <g fill="#0A0A0A">
+    <circle cx="256" cy="76" r="14"/>
+    <circle cx="386" cy="256" r="14"/>
+    <circle cx="256" cy="436" r="14"/>
+    <circle cx="126" cy="256" r="14"/>
+    <circle cx="290" cy="82" r="8"/>
+    <circle cx="321" cy="100" r="8"/>
+    <circle cx="369" cy="166" r="8"/>
+    <circle cx="382" cy="209" r="8"/>
+    <circle cx="382" cy="303" r="8"/>
+    <circle cx="369" cy="346" r="8"/>
+    <circle cx="348" cy="383" r="8"/>
+    <circle cx="321" cy="412" r="8"/>
+    <circle cx="290" cy="430" r="8"/>
+    <circle cx="222" cy="430" r="8"/>
+    <circle cx="191" cy="412" r="8"/>
+    <circle cx="143" cy="346" r="8"/>
+    <circle cx="130" cy="303" r="8"/>
+    <circle cx="130" cy="209" r="8"/>
+    <circle cx="143" cy="166" r="8"/>
+    <circle cx="164" cy="129" r="8"/>
+    <circle cx="191" cy="100" r="8"/>
+    <circle cx="222" cy="82" r="8"/>
+  </g>
+  <polygon points="348,129 240,244 272,268" fill="#FF4D00"/>
+  <polygon points="164,383 272,268 240,244" fill="#0A0A0A"/>
+</svg>

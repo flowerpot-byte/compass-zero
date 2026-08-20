@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="770" viewBox="0 0 820 770">
+  <!-- Zum Tipp "Neunerregel: das Ausmass in Prozent schaetzen".
+       Der Tipp zaehlt sieben Zahlen auf. Als Liste muss man sie sich merken;
+       am Koerper muss man sie nur ablesen. Deshalb ZWEI Ansichten nebeneinander
+       - Vorderseite und Rueckseite -, denn genau das ist die Falle der Regel:
+       Der Rumpf zaehlt VORN 18 und HINTEN nochmal 18, und ein Bein zaehlt 18
+       fuer beide Seiten zusammen. Wer nur eine Ansicht sieht, verdoppelt oder
+       halbiert. -->
+  <rect width="820" height="770" fill="#faf9f6"/>
+
+  <g font-family="Georgia, serif" fill="#111">
+    <text x="40" y="46" font-size="26">Neunerregel: die verbrannte Fläche schätzen</text>
+    <text x="150" y="86" font-size="20" fill="#555">Vorderseite</text>
+    <text x="520" y="86" font-size="20" fill="#555">Rückseite</text>
+  </g>
+
+  <!-- ============ VORDERSEITE ============ -->
+  <g transform="translate(60,100)">
+    <!-- Kopf 9 -->
+    <circle cx="150" cy="46" r="38" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <text x="150" y="54" font-family="Georgia, serif" font-size="26" text-anchor="middle" fill="#111">9</text>
+    <!-- Hals -->
+    <rect x="136" y="84" width="28" height="18" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <!-- Rumpf vorn 18 -->
+    <rect x="94" y="102" width="112" height="170" rx="12" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <text x="150" y="196" font-family="Georgia, serif" font-size="34" text-anchor="middle" fill="#111">18</text>
+    <!-- Arme je 9 -->
+    <rect x="38" y="106" width="48" height="164" rx="22" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <text x="62" y="198" font-family="Georgia, serif" font-size="26" text-anchor="middle" fill="#111">9</text>
+    <rect x="214" y="106" width="48" height="164" rx="22" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <text x="238" y="198" font-family="Georgia, serif" font-size="26" text-anchor="middle" fill="#111">9</text>
+    <!-- Genitalbereich 1 -->
+    <rect x="132" y="272" width="36" height="26" rx="6" fill="#d65a1a" stroke="#111" stroke-width="3"/>
+    <text x="150" y="292" font-family="Georgia, serif" font-size="18" text-anchor="middle" fill="#faf9f6">1</text>
+    <!-- Beine je 18 -->
+    <rect x="98" y="298" width="48" height="196" rx="20" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <text x="122" y="404" font-family="Georgia, serif" font-size="28" text-anchor="middle" fill="#111">18</text>
+    <rect x="154" y="298" width="48" height="196" rx="20" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <text x="178" y="404" font-family="Georgia, serif" font-size="28" text-anchor="middle" fill="#111">18</text>
+  </g>
+
+  <!-- ============ RUECKSEITE ============ -->
+  <g transform="translate(430,100)">
+    <circle cx="150" cy="46" r="38" fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-dasharray="7 6"/>
+    <rect x="136" y="84" width="28" height="18" fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-dasharray="7 6"/>
+    <!-- Rumpf hinten 18: die einzige Zahl, die hier NEU dazukommt -->
+    <rect x="94" y="102" width="112" height="170" rx="12" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <text x="150" y="196" font-family="Georgia, serif" font-size="34" text-anchor="middle" fill="#111">18</text>
+    <rect x="38" y="106" width="48" height="164" rx="22" fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-dasharray="7 6"/>
+    <rect x="214" y="106" width="48" height="164" rx="22" fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-dasharray="7 6"/>
+    <rect x="98" y="298" width="48" height="196" rx="20" fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-dasharray="7 6"/>
+    <rect x="154" y="298" width="48" height="196" rx="20" fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-dasharray="7 6"/>
+    <text x="150" y="522" font-family="Georgia, serif" font-size="17" text-anchor="middle" fill="#555">gestrichelt = schon</text>
+    <text x="150" y="544" font-family="Georgia, serif" font-size="17" text-anchor="middle" fill="#555">vorn mitgezählt</text>
+  </g>
+
+  <!-- Merksatz zur eigentlichen Falle -->
+  <g font-family="Georgia, serif" font-size="19" fill="#d65a1a">
+    <text x="40" y="712">Nur der RUMPF zählt zweimal: vorn 18, hinten 18.</text>
+    <text x="40" y="742">Kopf, Arm und Bein sind Rundum-Zahlen — sie werden NICHT verdoppelt.</text>
+  </g>
+</svg>

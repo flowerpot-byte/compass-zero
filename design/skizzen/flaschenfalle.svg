@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zu Schritt 11 der Bauanleitung "Fallen stellen": die Flaschenfalle.
+       Querschnitt.
+       Der ganze Trick steht in einem halben Satz des Textes und ist als Satz
+       leicht zu ueberlesen: Das Loch ist UNTEN BREITER ALS OBEN. Deshalb
+       kommt das Tier nicht mehr heraus – es kann sich an der nach innen
+       geneigten Wand nicht abstuetzen. Ein gerades Loch faengt nichts.
+       Das zweite, was der Text nicht zeigt: Die Abdeckung liegt NICHT auf,
+       sondern auf kleinen Steinen, sodass ringsum ein Spalt bleibt. Der Spalt
+       ist der Eingang; die Abdeckung ist das, was das Tier ueberhaupt
+       anlockt, weil es darunter Deckung sucht. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="30" y="46" font-family="Georgia, serif" font-size="25" fill="#111">Flaschenfalle: unten breiter als oben — Querschnitt</text>
+
+  <!-- Erdreich -->
+  <rect x="60" y="210" width="780" height="330" fill="#e6e2d6"/>
+  <line x1="60" y1="210" x2="840" y2="210" stroke="#111" stroke-width="5"/>
+
+  <!-- Das Loch: oben schmal, unten breit -->
+  <path d="M 390 210 L 350 480 Q 350 500 372 500 L 528 500 Q 550 500 550 480 L 510 210"
+        fill="#faf9f6" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Abdeckung auf zwei kleinen Steinen, Spalt ringsum -->
+  <ellipse cx="336" cy="196" rx="20" ry="12" fill="#8a8578" stroke="#111" stroke-width="3"/>
+  <ellipse cx="564" cy="196" rx="20" ry="12" fill="#8a8578" stroke="#111" stroke-width="3"/>
+  <rect x="286" y="160" width="328" height="24" rx="6" fill="#e6e2d6" stroke="#111" stroke-width="5"/>
+
+  <!-- Maus, die unter der Abdeckung Deckung sucht und faellt -->
+  <g transform="translate(246,192)">
+    <ellipse cx="0" cy="0" rx="22" ry="12" fill="#111"/>
+    <circle cx="19" cy="-5" r="7" fill="#111"/>
+    <circle cx="-6" cy="-11" r="6" fill="#111"/>
+    <path d="M -22 2 L -44 8" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(452,430)">
+    <ellipse cx="0" cy="0" rx="22" ry="12" fill="#111"/>
+    <circle cx="19" cy="-5" r="7" fill="#111"/>
+    <circle cx="-6" cy="-11" r="6" fill="#111"/>
+    <path d="M -22 2 L -44 8" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round">
+    <path d="M 420 246 C 412 300 416 348 424 384"/>
+    <path d="M 424 384 l -14 -12 M 424 384 l 14 -12"/>
+  </g>
+
+  <!-- Masse -->
+  <g stroke="#d65a1a" stroke-width="3">
+    <line x1="640" y1="210" x2="640" y2="500"/>
+    <line x1="630" y1="210" x2="650" y2="210"/>
+    <line x1="630" y1="500" x2="650" y2="500"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#d65a1a">
+    <text x="660" y="342">30 bis 45</text>
+    <text x="660" y="366">Zentimeter tief</text>
+  </g>
+  <g stroke="#d65a1a" stroke-width="3">
+    <line x1="390" y1="248" x2="510" y2="248"/>
+    <line x1="390" y1="240" x2="390" y2="256"/>
+    <line x1="510" y1="240" x2="510" y2="256"/>
+    <line x1="352" y1="466" x2="548" y2="466"/>
+    <line x1="352" y1="458" x2="352" y2="474"/>
+    <line x1="548" y1="458" x2="548" y2="474"/>
+  </g>
+  <text x="112" y="254" font-family="Georgia, serif" font-size="19" fill="#d65a1a">oben schmal</text>
+  <text x="106" y="472" font-family="Georgia, serif" font-size="19" fill="#d65a1a">unten breiter</text>
+
+  <!-- Spalt -->
+  <path d="M 200 130 L 292 168" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="8 7"/>
+  <g font-family="Georgia, serif" font-size="18" fill="#111">
+    <text x="30" y="112">Abdeckung liegt auf kleinen Steinen,</text>
+    <text x="30" y="136">ringsum bleibt ein Spalt von 2 bis 5 cm</text>
+  </g>
+
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="30" y="560">Die nach innen geneigte Wand ist der ganze Trick: Das Tier findet keinen Halt.</text>
+    <text x="30" y="584">Ein gerades Loch fängt nichts.</text>
+  </g>
+</svg>

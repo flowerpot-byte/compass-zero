@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1470" viewBox="0 0 900 1470">
+  <!-- Zum Tipp "Durchfall: mehr trinken".
+       Die Mengen sind der Teil, den man im Fliesstext nicht wiederfindet:
+       drei Altersgruppen, zwei Zahlen je Gruppe, und dazu die Umrechnung in
+       Glaeser. Als Tabelle steht jede Zeile fuer sich, und die dritte Zeile
+       — "so viel, wie sie moegen" — faellt als das auf, was sie ist: keine
+       Zahl, sondern eine Erlaubnis.
+       Der Handgriff, an dem es wirklich haengt, ist der beim Erbrechen. Er
+       steht deshalb als eigener Kasten und nicht als Nebensatz: NICHT
+       AUFHOEREN, fuenf bis zehn Minuten warten, dann LANGSAMER weiter. Wer
+       das nicht weiss, hoert auf, wenn es hochkommt — und genau dann faengt
+       das Austrocknen an.
+       "Das meiste wird trotz Erbrechen aufgenommen" ist der Satz, der diesen
+       Handgriff traegt. Ohne ihn klingt Weitertrinken sinnlos.
+       Bewusst keine gezeichneten Glaeser: Ein gezeichnetes halbes Glas
+       behauptet eine Groesse, die niemand kennt. Die Quelle sagt "grosses
+       Glas", und mehr steht auch im Bild. -->
+  <rect width="900" height="1470" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Durchfall: mehr trinken</text>
+
+  <text x="40" y="100" font-family="Georgia, serif" font-size="26" fill="#111">Von Anfang an mehr Flüssigkeit als sonst — bis der</text>
+  <text x="40" y="132" font-family="Georgia, serif" font-size="26" fill="#111">Durchfall aufhört.</text>
+
+  <line x1="40" y1="168" x2="860" y2="168" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Mengen ============ -->
+  <text x="40" y="208" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Menge nach JEDEM dünnen Stuhlgang</text>
+
+  <text x="40" y="252" font-family="Georgia, serif" font-size="21" fill="#111">unter zwei Jahren</text>
+  <text x="380" y="252" font-family="Georgia, serif" font-size="21" fill="#111">50 bis 100 Milliliter</text>
+  <text x="620" y="252" font-family="Georgia, serif" font-size="21" fill="#111">ein viertel bis ein</text>
+  <text x="620" y="278" font-family="Georgia, serif" font-size="21" fill="#111">halbes großes Glas</text>
+  <line x1="40" y1="296" x2="860" y2="296" stroke="#c9c4b4" stroke-width="2"/>
+
+  <text x="40" y="332" font-family="Georgia, serif" font-size="21" fill="#111">zwei bis zehn Jahre</text>
+  <text x="380" y="332" font-family="Georgia, serif" font-size="21" fill="#111">100 bis 200 Milliliter</text>
+  <text x="620" y="332" font-family="Georgia, serif" font-size="21" fill="#111">ein halbes bis ein</text>
+  <text x="620" y="358" font-family="Georgia, serif" font-size="21" fill="#111">ganzes großes Glas</text>
+  <line x1="40" y1="376" x2="860" y2="376" stroke="#c9c4b4" stroke-width="2"/>
+
+  <text x="40" y="412" font-family="Georgia, serif" font-size="21" fill="#111">ältere Kinder und</text>
+  <text x="40" y="438" font-family="Georgia, serif" font-size="21" fill="#111">Erwachsene</text>
+  <text x="380" y="412" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">so viel, wie sie mögen</text>
+
+  <line x1="40" y1="474" x2="860" y2="474" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Wenn es hochkommt ============ -->
+  <rect x="40" y="500" width="820" height="196" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="542" font-family="Georgia, serif" font-size="26" fill="#a3231a">Wenn es wieder hochkommt: NICHT aufhören.</text>
+  <text x="62" y="580" font-family="Georgia, serif" font-size="21" fill="#111">Fünf bis zehn Minuten warten, dann LANGSAMER wieder anfangen:</text>
+  <text x="62" y="612" font-family="Georgia, serif" font-size="21" fill="#111">· unter zwei Jahren ein Teelöffel alle ein bis zwei Minuten</text>
+  <text x="62" y="638" font-family="Georgia, serif" font-size="21" fill="#111">· ältere Kinder und Erwachsene kleine Schlucke aus der Tasse</text>
+  <text x="62" y="676" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Das meiste wird trotz Erbrechen aufgenommen.</text>
+
+  <text x="40" y="736" font-family="Georgia, serif" font-size="21" fill="#111">Nach ein bis zwei Stunden hört das Erbrechen meist von selbst auf.</text>
+
+  <line x1="40" y1="772" x2="860" y2="772" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Was getrunken wird ============ -->
+  <text x="40" y="812" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was getrunken wird</text>
+  <text x="40" y="850" font-family="Georgia, serif" font-size="21" fill="#111">Am besten eine fertige Trinklösung. Sonst gilt eine einfache Regel:</text>
+  <text x="40" y="886" font-family="Georgia, serif" font-size="23" fill="#111">Wenigstens eine der Flüssigkeiten soll SALZ enthalten,</text>
+  <text x="40" y="914" font-family="Georgia, serif" font-size="23" fill="#111">dazu sauberes Wasser.</text>
+
+  <text x="40" y="956" font-family="Georgia, serif" font-size="21" fill="#111">MIT SALZ</text>
+  <text x="240" y="956" font-family="Georgia, serif" font-size="21" fill="#111">gesalzenes Reiswasser · gesalzener Joghurtdrink ·</text>
+  <text x="240" y="982" font-family="Georgia, serif" font-size="21" fill="#111">Gemüse- oder Hühnerbrühe mit Salz</text>
+
+  <text x="40" y="1022" font-family="Georgia, serif" font-size="21" fill="#111">OHNE SALZ</text>
+  <text x="240" y="1022" font-family="Georgia, serif" font-size="21" fill="#111">sauberes Wasser · Kochwasser von Getreide ·</text>
+  <text x="240" y="1048" font-family="Georgia, serif" font-size="21" fill="#111">ungesalzene Suppe · ungesalzener Joghurtdrink ·</text>
+  <text x="240" y="1074" font-family="Georgia, serif" font-size="21" fill="#111">schwacher ungesüßter Tee · ungesüßter frischer Fruchtsaft</text>
+
+  <line x1="40" y1="1110" x2="860" y2="1110" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Weiter essen ============ -->
+  <text x="40" y="1154" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Und weiter essen.</text>
+  <text x="40" y="1190" font-family="Georgia, serif" font-size="21" fill="#111">Für Kinder steht es ausdrücklich so da: Essen darf NIE vorenthalten und die</text>
+  <text x="40" y="1216" font-family="Georgia, serif" font-size="21" fill="#111">gewohnte Kost NICHT VERDÜNNT werden. Gestillt wird durchgehend weiter.</text>
+
+  <line x1="40" y1="1252" x2="860" y2="1252" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1296" font-family="Georgia, serif" font-size="23" fill="#a3231a">Warum die Menge an den Stuhlgang gekoppelt ist</text>
+  <text x="40" y="1334" font-family="Georgia, serif" font-size="21" fill="#111">Weil sie so von selbst mitwächst, wenn es schlimmer wird. Wer stattdessen</text>
+  <text x="40" y="1360" font-family="Georgia, serif" font-size="21" fill="#111">nach Gefühl trinken lässt, gibt bei starkem Durchfall zu wenig — gerade dann,</text>
+  <text x="40" y="1386" font-family="Georgia, serif" font-size="21" fill="#111">wenn am meisten verloren geht.</text>
+  <text x="40" y="1424" font-family="Georgia, serif" font-size="19" fill="#111">(Einordnung dieses Pakets, nicht aus der Quelle.)</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Zu Schritt 3 von feuer-lagerfeuer-sicher: "grabe stattdessen ein Loch in
+       den Boden. Grabe oder steche auf der windzugewandten Seite ein zweites,
+       verbundenes Loch zur Belueftung. Lege dein Feuer in dieses Loch."
+       Querschnitt. Der Punkt der Skizze sind ZWEI getrennte Oeffnungen, die
+       unter der Erde verbunden sind; genau diese Verbindung ist von oben nicht
+       zu sehen und macht den Text schwer vorstellbar. Eine Zeichnung, die
+       daraus eine durchgehende Grube macht, zeigt etwas anderes als der Text. -->
+  <rect width="800" height="500" fill="#faf9f6"/>
+  <!-- Erdreich -->
+  <rect x="40" y="200" width="720" height="250" fill="#e6e2d6"/>
+  <!-- Hohlraum: Feuerloch, Kanal, Belueftungsloch als ein zusammenhaengender Raum -->
+  <path d="M 250 200 L 262 372 L 444 372 L 626 318 L 634 200 L 572 200 L 580 318 L 450 345 L 456 200 Z"
+        fill="#faf9f6" stroke="none"/>
+  <g fill="none" stroke="#111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <polyline points="250,200 262,372 444,372 626,318 634,200"/>
+    <polyline points="572,200 580,318 450,345 456,200"/>
+    <!-- Bodenoberflaeche, an den beiden Oeffnungen unterbrochen -->
+    <line x1="40" y1="200" x2="250" y2="200"/>
+    <line x1="456" y1="200" x2="572" y2="200"/>
+    <line x1="634" y1="200" x2="760" y2="200"/>
+    <line x1="40" y1="450" x2="760" y2="450"/>
+    <line x1="40" y1="200" x2="40" y2="450"/>
+    <line x1="760" y1="200" x2="760" y2="450"/>
+  </g>
+  <!-- Feuer im Feuerloch -->
+  <g fill="none" stroke="#d65a1a" stroke-width="5" stroke-linecap="round">
+    <path d="M 352 366 C 322 326 352 316 347 281 C 377 311 382 336 352 366"/>
+    <path d="M 305 368 C 290 338 308 328 306 305 C 325 325 326 348 305 368"/>
+    <path d="M 399 368 C 384 338 402 328 400 305 C 419 325 420 348 399 368"/>
+  </g>
+  <!-- Wind in die Belueftungsoeffnung -->
+  <g fill="none" stroke="#d65a1a" stroke-width="5" stroke-linecap="round">
+    <line x1="742" y1="110" x2="610" y2="195"/>
+    <path d="M 610 195 l 24 -3 M 610 195 l 13 -20"/>
+  </g>
+  <!-- Luftweg unter der Erde -->
+  <g fill="none" stroke="#d65a1a" stroke-width="4" stroke-dasharray="12 9" stroke-linecap="round">
+    <polyline points="604,232 597,308 500,348 428,322"/>
+    <path d="M 428 322 l 16 15 M 428 322 l 22 -2"/>
+  </g>
+  <g font-family="sans-serif" font-size="25" fill="#111">
+    <text x="350" y="170" text-anchor="middle">Feuerloch</text>
+    <text x="694" y="268" text-anchor="middle">Belüftung,</text>
+    <text x="694" y="300" text-anchor="middle">windzugewandt</text>
+    <text x="140" y="300" text-anchor="middle">Erde</text>
+    <text x="720" y="80" text-anchor="end" fill="#d65a1a">Wind</text>
+    <text x="400" y="490" text-anchor="middle">Zwei Löcher, unter der Erde verbunden</text>
+  </g>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="820" viewBox="0 0 900 820">
+  <!-- Zum Tipp "Thrombose und Lungenembolie: Bewegung beugt vor".
+       Der Tipp nennt selbst den wichtigsten Satz: Sobald der Verdacht besteht,
+       gilt das GEGENTEIL der Vorbeugung. Wer das verwechselt und den Menschen
+       mit Atemnot zum Umhergehen auffordert, tut genau das Falsche.
+       Genau diese Umkehrung ist das Bild: links gruen, rechts rot, dazwischen
+       ein Pfeil mit dem Umschaltpunkt. Ein Satz mitten in einem langen Tipp
+       wird ueberlesen; zwei Tafeln nebeneinander nicht.
+       Die Frist steht mit im Bild, weil sie sagt, wann es kippt: eine
+       Lungenembolie tritt typischerweise nach zwei bis drei Tagen Bettruhe
+       auf.
+       Unten die Zeichen, darunter das, was der Tipp ausdruecklich als
+       Krankheitszeichen einordnet und was man sonst nirgends liest: ein
+       Gefuehl drohenden Unheils. -->
+  <rect width="900" height="820" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Bewegung beugt vor — Ruhe gilt danach</text>
+
+  <!-- ============ LINKS: Vorbeugung ============ -->
+  <text x="40" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Vorher: bewegen, so oft es geht</text>
+
+  <!-- Liege -->
+  <rect x="62" y="246" width="250" height="20" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <line x1="76" y1="266" x2="76" y2="322" stroke="#111" stroke-width="4"/>
+  <line x1="298" y1="266" x2="298" y2="322" stroke="#111" stroke-width="4"/>
+  <line x1="40" y1="322" x2="410" y2="322" stroke="#111" stroke-width="4"/>
+
+  <!-- Person liegt -->
+  <circle cx="96" cy="224" r="19" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="118" y="206" width="112" height="40" rx="18" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="228" y="220" width="86" height="26" rx="13" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Fuss in zwei Stellungen -->
+  <rect x="310" y="222" width="26" height="24" rx="8" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="308" y="186" width="24" height="26" rx="8" fill="none" stroke="#b9b4a6" stroke-width="4" stroke-dasharray="5 5"/>
+  <g stroke="#1d6b3a" stroke-width="4" fill="none">
+    <path d="M 344 236 Q 362 208 348 186"/>
+    <path d="M 348 186 l 12 12 M 348 186 l -10 12"/>
+  </g>
+
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Stündlich die Füße bewegen, die</text>
+  <text x="40" y="174" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Waden anspannen, aufstehen und</text>
+  <text x="40" y="200" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">ein paar Schritte gehen.</text>
+
+  <text x="40" y="368" font-family="Georgia, serif" font-size="21" fill="#111">Das ist keine Beschäftigung, sondern</text>
+  <text x="40" y="394" font-family="Georgia, serif" font-size="21" fill="#111">die Behandlung. Eine Lungenembolie</text>
+  <text x="40" y="420" font-family="Georgia, serif" font-size="21" fill="#a3231a">tritt typischerweise nach ZWEI BIS DREI</text>
+  <text x="40" y="446" font-family="Georgia, serif" font-size="21" fill="#a3231a">TAGEN Bettruhe auf.</text>
+
+  <!-- ============ Der Umschaltpunkt ============ -->
+  <g stroke="#a3231a" stroke-width="6" fill="none">
+    <path d="M 424 250 L 470 250"/>
+    <path d="M 470 250 l -18 -10 M 470 250 l -18 10"/>
+  </g>
+  <text x="447" y="164" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="middle">sobald</text>
+  <text x="447" y="190" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="middle">der Verdacht</text>
+  <text x="447" y="216" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="middle">besteht</text>
+
+  <!-- ============ RECHTS: bei Verdacht ============ -->
+  <text x="494" y="94" font-family="Georgia, serif" font-size="23" fill="#a3231a">Danach: absolute Ruhe</text>
+
+  <!-- halb sitzend gelagert -->
+  <rect x="518" y="246" width="250" height="20" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <line x1="532" y1="266" x2="532" y2="322" stroke="#111" stroke-width="4"/>
+  <line x1="754" y1="266" x2="754" y2="322" stroke="#111" stroke-width="4"/>
+  <line x1="496" y1="322" x2="866" y2="322" stroke="#111" stroke-width="4"/>
+  <path d="M 540 246 L 620 246 L 620 200 Z" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <rect x="566" y="182" width="112" height="40" rx="18" fill="#c9c4b4" stroke="#111" stroke-width="4" transform="rotate(-20 622 204)"/>
+  <circle cx="556" cy="176" r="19" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="672" y="220" width="98" height="26" rx="13" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <!-- Verbot: Beine bewegen -->
+  <g stroke="#a3231a" stroke-width="5" fill="none">
+    <path d="M 790 236 Q 806 210 794 190"/>
+    <circle cx="800" cy="216" r="34"/>
+    <line x1="776" y1="192" x2="824" y2="240"/>
+  </g>
+
+  <text x="494" y="368" font-family="Georgia, serif" font-size="21" fill="#111">Jetzt gilt das GEGENTEIL: keine</text>
+  <text x="494" y="394" font-family="Georgia, serif" font-size="21" fill="#111">Beinbewegung, kein Pressen im Bauch —</text>
+  <text x="494" y="420" font-family="Georgia, serif" font-size="21" fill="#111">beides kann weitere Gerinnsel losreißen.</text>
+  <text x="494" y="446" font-family="Georgia, serif" font-size="21" fill="#a3231a">Wer jetzt zum Umhergehen auffordert,</text>
+  <text x="494" y="472" font-family="Georgia, serif" font-size="21" fill="#a3231a">tut genau das Falsche.</text>
+
+  <line x1="40" y1="502" x2="860" y2="502" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Zeichen ============ -->
+  <text x="40" y="544" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Woran man die Lungenembolie erkennt</text>
+
+  <g fill="#a3231a">
+    <circle cx="52" cy="580" r="7"/>
+    <circle cx="52" cy="628" r="7"/>
+    <circle cx="52" cy="676" r="7"/>
+    <circle cx="52" cy="724" r="7"/>
+  </g>
+  <text x="74" y="588" font-family="Georgia, serif" font-size="21" fill="#111">PLÖTZLICHE, unerklärliche Atemnot — das Häufigste. Der Anfang ist ein Moment.</text>
+  <text x="74" y="636" font-family="Georgia, serif" font-size="21" fill="#111">Ohne Gerät messbar: mehr als 18 Atemzüge in der Minute, Ruhepuls über 90.</text>
+  <text x="74" y="684" font-family="Georgia, serif" font-size="21" fill="#111">Eine geschwollene Wade zeigt, wo das Gerinnsel entstanden ist.</text>
+  <text x="74" y="732" font-family="Georgia, serif" font-size="21" fill="#111">Ein Gefühl drohenden Unheils oder Angst ohne Grund ist häufig — das ist ein</text>
+  <text x="74" y="758" font-family="Georgia, serif" font-size="21" fill="#111">Krankheitszeichen, keine Gemütslage.</text>
+
+  <line x1="40" y1="784" x2="860" y2="784" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="40" y="812" font-family="Georgia, serif" font-size="21" fill="#a3231a">Ohne Gerinnungshemmer lässt sie sich nicht behandeln. Der Hebel liegt vorher.</text>
+</svg>

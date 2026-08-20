@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp "wasser-truebes-wasser-vorbehandeln" (Titel: "Truebes Wasser
+       absetzen und filtern").
+       Die EINE Aussage, die als Bild taugt: Sedimentation ist ein raeumliches
+       Prinzip. Truebes Wasser ist GLEICHMAESSIG truebe; nach ruhigem Stehen
+       trennt es sich in zwei ECHTE SCHICHTEN, Schwebstoffe unten, klares
+       Wasser oben, und nur die OBERE Schicht wird abgegossen und
+       weiterverwendet. Das laesst sich in Worten nur umstaendlich sagen, im
+       Bild sieht man die Trennung sofort.
+       Der Filter (Keramik-, Sand- oder Membranfilter) ist im Text nur ein
+       "wo vorhanden, zusaetzlich"; deshalb klein und als Nebensache
+       gezeichnet, nicht gleichrangig mit der Sedimentation.
+       Die Signalfarbe steht nur an der einen gefaehrlichen Stelle: dem
+       Hinweis, dass Absetzen und Filtern das Entkeimen NICHT ersetzen. Wer
+       das uebersieht, trinkt Wasser, das nur klar aussieht, aber nicht
+       keimfrei ist. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Trübes Wasser absetzen und filtern</text>
+  <line x1="40" y1="66" x2="860" y2="66" stroke="#5b7f96" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Gefaess A: truebes Wasser, gleichmaessig getruebt -->
+  <path d="M 70 112 L 70 330 Q 70 360 100 360 L 180 360 Q 210 360 210 330 L 210 112 Z" fill="#d9c98a"/>
+  <g fill="#7a5a3e">
+    <circle cx="90" cy="135" r="3"/>
+    <circle cx="130" cy="125" r="2.5"/>
+    <circle cx="170" cy="140" r="3"/>
+    <circle cx="85" cy="175" r="2.5"/>
+    <circle cx="140" cy="165" r="3"/>
+    <circle cx="190" cy="180" r="2.5"/>
+    <circle cx="100" cy="225" r="3"/>
+    <circle cx="150" cy="215" r="2.5"/>
+    <circle cx="185" cy="230" r="3"/>
+    <circle cx="95" cy="275" r="2.5"/>
+    <circle cx="145" cy="285" r="3"/>
+    <circle cx="180" cy="270" r="2.5"/>
+    <circle cx="115" cy="310" r="3"/>
+    <circle cx="165" cy="315" r="2.5"/>
+  </g>
+  <path d="M 70 112 L 70 330 Q 70 360 100 360 L 180 360 Q 210 360 210 330 L 210 112"
+        fill="none" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="140" y="388" font-family="Georgia, serif" font-size="20" fill="#111" text-anchor="middle">trüb</text>
+
+  <!-- Pfeil 1: ruhig stehen -->
+  <path d="M 222 240 L 345 240 M 345 240 l -14 -8 M 345 240 l -14 8"
+        fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  <text x="283" y="205" font-family="Georgia, serif" font-size="17" fill="#111" text-anchor="middle">ruhig stehen lassen</text>
+  <text x="283" y="272" font-family="Georgia, serif" font-size="17" fill="#111" text-anchor="middle">(Sedimentation)</text>
+
+  <!-- Gefaess B: abgesetzt, zwei echte Schichten -->
+  <path d="M 370 112 L 370 330 Q 370 360 400 360 L 480 360 Q 510 360 510 330 L 510 112 Z"
+        fill="#5b7f96" fill-opacity="0.15"/>
+  <path d="M 370 300 L 370 330 Q 370 360 400 360 L 480 360 Q 510 360 510 330 L 510 300 Z" fill="#7a5a3e"/>
+  <line x1="370" y1="300" x2="510" y2="300" stroke="#5b7f96" stroke-width="3"/>
+  <path d="M 370 112 L 370 330 Q 370 360 400 360 L 480 360 Q 510 360 510 330 L 510 112"
+        fill="none" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="440" y="160" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">klares Wasser</text>
+  <text x="440" y="340" font-family="Georgia, serif" font-size="16" fill="#faf9f6" text-anchor="middle">Schwebstoffe</text>
+  <text x="440" y="388" font-family="Georgia, serif" font-size="20" fill="#111" text-anchor="middle">abgesetzt</text>
+
+  <!-- Pfeil 2: nur die obere Schicht wird abgegossen -->
+  <path d="M 515 180 C 560 160 590 160 628 175 M 628 175 l -16 -6 M 628 175 l -10 -16"
+        fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  <text x="572" y="142" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">darüber</text>
+
+  <!-- Glas: nur das klare Wasser -->
+  <path d="M 645 165 L 645 300 Q 645 325 670 325 L 720 325 Q 745 325 745 300 L 745 165 Z"
+        fill="#5b7f96" fill-opacity="0.15"/>
+  <path d="M 645 165 L 645 300 Q 645 325 670 325 L 720 325 Q 745 325 745 300 L 745 165"
+        fill="none" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="695" y="350" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">wird weiterverwendet</text>
+
+  <line x1="40" y1="404" x2="860" y2="404" stroke="#5b7f96" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Nebensache, klein: der Filter ist nur eine zusaetzliche Verbesserung -->
+  <path d="M 260 420 L 310 420 L 292 460 L 292 478 L 278 478 L 278 460 Z"
+        fill="none" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="266" y1="434" x2="304" y2="434" stroke="#5b7f96" stroke-width="2"/>
+  <line x1="270" y1="447" x2="300" y2="447" stroke="#5b7f96" stroke-width="2"/>
+  <text x="330" y="432" font-family="Georgia, serif" font-size="16" fill="#111">zusätzlich, wo vorhanden: Filter</text>
+  <text x="330" y="456" font-family="Georgia, serif" font-size="16" fill="#111">(Keramik-, Sand- oder Membranfilter)</text>
+
+  <line x1="40" y1="500" x2="860" y2="500" stroke="#5b7f96" stroke-width="1.5" opacity="0.4"/>
+
+  <text x="40" y="530" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Wichtig: Absetzen und Filtern ersetzen Abkochen oder Chloren nicht.</text>
+  <text x="40" y="560" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Das Wasser muss danach noch entkeimt werden.</text>
+</svg>

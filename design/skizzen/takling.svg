@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="540" viewBox="0 0 840 540">
+  <!-- Zu Schritt 10 von seilwerk-grundknoten: "Bevor du ein Seil durchtrennst,
+       sichere beide Seiten der Schnittstelle."
+       Der Takling ist der eine Knoten dieser Anleitung, der sich ohne
+       Ueber- und Unterfuehrungen zeichnen laesst: Er besteht nur aus einer
+       Schlaufe, die auf dem Seil liegt, und Wicklungen darueber. Was der
+       Text nicht zeigen kann, ist WO die Schlaufe liegt (Bogen zum Seilende
+       hin) und dass am Ende durch sie hindurchgezogen und die Schlaufe unter
+       die Wicklungen zurueckgezogen wird - genau das macht den Takling aus.
+       Ein Seilende ohne Takling dreht sich auf und ist unbrauchbar. -->
+  <rect width="840" height="540" fill="#faf9f6"/>
+
+  <g font-family="Georgia, serif" font-size="22" fill="#111">
+    <text x="30" y="42">1 · Schlaufe auf das Seil legen</text>
+    <text x="30" y="222">2 · darüber wickeln</text>
+    <text x="30" y="402">3 · Ende durchstecken und ziehen</text>
+  </g>
+
+  <!-- ===================== 1 ===================== -->
+  <rect x="60" y="76" width="560" height="52" rx="25" fill="#e6e2d6" stroke="#111" stroke-width="5"/>
+  <g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round">
+    <path d="M 620 88 L 666 78"/><path d="M 620 102 L 672 100"/><path d="M 620 116 L 664 128"/>
+  </g>
+  <!-- die Schlaufe liegt AUF dem Seil, ihr Bogen zeigt zum Seilende -->
+  <path d="M 210 90 L 470 90 C 502 90 502 114 470 114 L 210 114"
+        fill="none" stroke="#d65a1a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 210 114 C 178 114 172 140 196 146" fill="none" stroke="#d65a1a" stroke-width="7" stroke-linecap="round"/>
+  <g font-family="Georgia, serif" font-size="18" fill="#d65a1a">
+    <text x="284" y="172">der Bogen zeigt zum Seilende</text>
+  </g>
+
+  <!-- ===================== 2 ===================== -->
+  <rect x="60" y="256" width="560" height="52" rx="25" fill="#e6e2d6" stroke="#111" stroke-width="5"/>
+  <g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round">
+    <path d="M 620 268 L 666 258"/><path d="M 620 282 L 672 280"/><path d="M 620 296 L 664 308"/>
+  </g>
+  <!-- Schlaufe wie oben, aber der mittlere Teil liegt unter den Wicklungen -->
+  <path d="M 210 270 L 306 270 M 210 294 L 306 294" fill="none" stroke="#d65a1a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 430 270 L 470 270 C 502 270 502 294 470 294 L 430 294"
+        fill="none" stroke="#d65a1a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 210 294 C 178 294 172 320 196 326" fill="none" stroke="#d65a1a" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#d65a1a" stroke-width="9" stroke-linecap="round">
+    <path d="M 316 262 L 316 302"/><path d="M 337 262 L 337 302"/><path d="M 358 262 L 358 302"/>
+    <path d="M 379 262 L 379 302"/><path d="M 400 262 L 400 302"/><path d="M 421 262 L 421 302"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="18" fill="#d65a1a">
+    <text x="230" y="352">eng und dicht wickeln — der Bogen bleibt frei</text>
+  </g>
+
+  <!-- ===================== 3 ===================== -->
+  <rect x="60" y="436" width="560" height="52" rx="25" fill="#e6e2d6" stroke="#111" stroke-width="5"/>
+  <g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round">
+    <path d="M 620 448 L 666 438"/><path d="M 620 462 L 672 460"/><path d="M 620 476 L 664 488"/>
+  </g>
+  <g fill="none" stroke="#d65a1a" stroke-width="9" stroke-linecap="round">
+    <path d="M 316 442 L 316 482"/><path d="M 337 442 L 337 482"/><path d="M 358 442 L 358 482"/>
+    <path d="M 379 442 L 379 482"/><path d="M 400 442 L 400 482"/><path d="M 421 442 L 421 482"/>
+    <path d="M 442 442 L 442 482"/>
+  </g>
+  <!-- der Bogen ist unter die Wicklungen gezogen, das Ende steckt darin -->
+  <path d="M 210 450 L 306 450 M 210 474 L 306 474" fill="none" stroke="#d65a1a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 210 474 C 178 474 172 500 196 506" fill="none" stroke="#d65a1a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 458 462 L 512 462" fill="none" stroke="#d65a1a" stroke-width="7" stroke-linecap="round"/>
+  <!-- Zugpfeil am festen Ende, weit unterhalb der Ueberschrift -->
+  <g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round">
+    <path d="M 196 526 L 132 526"/>
+    <path d="M 132 526 l 18 -7 M 132 526 l 18 7"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="18" fill="#111">
+    <text x="216" y="532">hier ziehen, bis der Bogen unter den Wicklungen verschwindet</text>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660" font-family="Georgia, serif">
+  <!-- Zum Tipp "wasser-falsche-fluessigkeiten"
+       (Diese vier Fluessigkeiten machen den Durst schlimmer).
+       Gezeigter Satz: "Um die Abfallstoffe aus einem Liter Meerwasser wieder
+       loszuwerden, braucht der Koerper etwa zwei Liter eigener Fluessigkeit."
+       Und die Schlusszeile der Quelle: "Ein Liter Meerwasser kostet einen
+       Liter Leben."
+       Die Waage zeigt das als Form, nicht nur als Zahl: die Meerwasser-Seite
+       traegt genau EIN randvolles Litergefaess. Die Koerper-Seite traegt ein
+       Gefaess von derselben Breite, aber DOPPELT so hoch, randvoll mit ZWEI
+       Litern. Die gestrichelte Linie darin markiert genau die Hoehe, bis zu
+       der das linke Gefaess reicht - so ist die Verdopplung nachpruefbar und
+       nicht nur behauptet. Weil die Koerper-Seite mehr wiegt als das, was
+       hineinkam, kippt der Balken nach rechts: es kostet mehr, als es gibt. -->
+
+  <rect x="0" y="0" width="900" height="660" fill="#faf9f6"/>
+
+  <!-- Ueberschrift: die Schlusszeile der Quelle, wortgleich -->
+  <text x="450" y="50" font-size="26" fill="#111" text-anchor="middle">Ein Liter Meerwasser kostet einen Liter Leben</text>
+  <text x="450" y="80" font-size="17" fill="#5b7f96" text-anchor="middle">Es enthält etwa vier Prozent Salz</text>
+
+  <!-- Stand der Waage -->
+  <line x1="450" y1="182" x2="450" y2="580" stroke="#111" stroke-width="6"/>
+  <rect x="390" y="580" width="120" height="8" fill="#111"/>
+  <circle cx="450" cy="182" r="7" fill="#111"/>
+
+  <!-- Balken, gekippt: rechts (Koerperseite) tiefer als links (Meerwasserseite) -->
+  <line x1="180" y1="145" x2="720" y2="220" stroke="#111" stroke-width="5"/>
+  <circle cx="180" cy="145" r="4" fill="#111"/>
+  <circle cx="720" cy="220" r="4" fill="#111"/>
+
+  <!-- Aufhaengung links -->
+  <line x1="180" y1="145" x2="140" y2="255" stroke="#5b7f96" stroke-width="2"/>
+  <line x1="180" y1="145" x2="220" y2="255" stroke="#5b7f96" stroke-width="2"/>
+
+  <!-- Aufhaengung rechts -->
+  <line x1="720" y1="220" x2="680" y2="320" stroke="#5b7f96" stroke-width="2"/>
+  <line x1="720" y1="220" x2="760" y2="320" stroke="#5b7f96" stroke-width="2"/>
+
+  <!-- Linkes Gefaess: EIN Liter Meerwasser, randvoll -->
+  <rect x="140" y="255" width="80" height="90" fill="#2a7fa8" stroke="#111" stroke-width="2"/>
+  <circle cx="160" cy="275" r="3" fill="#a8c4d4"/>
+  <circle cx="182" cy="266" r="3" fill="#a8c4d4"/>
+  <circle cx="200" cy="286" r="3" fill="#a8c4d4"/>
+  <circle cx="165" cy="308" r="3" fill="#a8c4d4"/>
+  <circle cx="195" cy="300" r="3" fill="#a8c4d4"/>
+  <circle cx="205" cy="322" r="3" fill="#a8c4d4"/>
+  <circle cx="150" cy="330" r="3" fill="#a8c4d4"/>
+  <circle cx="180" cy="325" r="3" fill="#a8c4d4"/>
+
+  <text x="180" y="378" font-size="18" fill="#111" text-anchor="middle">ein Liter Meerwasser</text>
+  <text x="180" y="400" font-size="16" fill="#5b7f96" text-anchor="middle">wird getrunken</text>
+
+  <!-- Rechtes Gefaess: ZWEI Liter eigene Fluessigkeit, gleiche Breite, doppelte Hoehe -->
+  <rect x="680" y="320" width="80" height="180" fill="#6f95a8" stroke="#111" stroke-width="2"/>
+  <!-- Markierung genau auf Hoehe des linken (einen) Liters -->
+  <line x1="680" y1="410" x2="760" y2="410" stroke="#2a7fa8" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <text x="720" y="524" font-size="18" fill="#111" text-anchor="middle">zwei Liter</text>
+  <text x="720" y="546" font-size="18" fill="#111" text-anchor="middle">eigene Flüssigkeit</text>
+  <text x="720" y="568" font-size="16" fill="#5b7f96" text-anchor="middle">muss der Körper aufwenden</text>
+
+  <!-- Die eine Stelle mit Signalfarbe: der gefaehrliche Verlust -->
+  <text x="450" y="622" font-size="19" fill="#d65a1a" text-anchor="middle">kostet einen Liter Leben</text>
+</svg>

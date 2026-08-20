@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1560" viewBox="0 0 900 1560">
+  <!-- Zum Tipp "Norden finden mit Stock und Schatten".
+       Das Verfahren hat einen Handgriff, an dem alles haengt, und er ist im
+       Fliesstext der vierte Punkt: sich so hinstellen, dass die ERSTE Marke
+       LINKS und die zweite RECHTS liegt — dann schaut man nach Norden. Wer
+       sich falsch herum stellt, laeuft genau verkehrt. Deshalb steht diese
+       Stellung im Bild gross und mit den Marken an ihrem Platz.
+       Der Satz "die erste Marke ist immer Westen" ist der zweite Anker. Er
+       gilt ueberall auf der Erde und zu jeder Jahreszeit, und er ist der
+       Grund, warum man beim Schattenstock nichts wissen muss — keine
+       Uhrzeit, keine Jahreszeit, keinen Ort.
+       Die Draufsicht zeigt die eine Sache, auf die es ankommt: Die zweite
+       Marke liegt OESTLICH der ersten, der Schatten wandert also nach Osten,
+       waehrend die Sonne nach Westen zieht.
+       Der Abstand der beiden Marken ist im Bild UEBERTRIEBEN, und das steht
+       auch da. Nach einer Viertelstunde sind es ein paar Zentimeter; so weit
+       wie hier wird es erst ueber einen halben Tag. Ein Bild, das den
+       Abstand gross zeigt, ohne es zu sagen, laesst jemanden auf eine zweite
+       Marke warten, die so nie kommt.
+       Kein gezeichneter Mensch: Die Stellung steht als Fuesse und Blickpfeil
+       da. Eine Figur waere hier eine Verkleinerung — es kommt nur darauf an,
+       WOHIN die Schultern zeigen. -->
+  <rect width="900" height="1560" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Norden finden mit Stock und Schatten</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Braucht nichts als einen Stock, etwas Sonne und eine Viertelstunde Geduld —</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">und es funktioniert ÜBERALL AUF DER ERDE, ohne dass man wissen muss, wo</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">man ist.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Draufsicht ============ -->
+  <text x="40" y="224" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Von oben gesehen</text>
+
+  <rect x="150" y="264" width="620" height="300" rx="10" fill="#f2ece2" stroke="#c9c4b4" stroke-width="2"/>
+
+  <circle cx="460" cy="414" r="12" fill="#111"/>
+  <text x="460" y="392" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Stock</text>
+
+  <line x1="460" y1="414" x2="250" y2="470" stroke="#111" stroke-width="5"/>
+  <line x1="460" y1="414" x2="670" y2="470" stroke="#111" stroke-width="5" stroke-dasharray="10 6"/>
+
+  <circle cx="250" cy="470" r="15" fill="#a3231a"/>
+  <circle cx="670" cy="470" r="15" fill="#1d6b3a"/>
+  <text x="250" y="512" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="middle">1. Marke</text>
+  <text x="250" y="538" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="middle">= WESTEN</text>
+  <text x="670" y="512" font-family="Georgia, serif" font-size="21" fill="#1d6b3a" text-anchor="middle">2. Marke</text>
+  <text x="670" y="538" font-family="Georgia, serif" font-size="21" fill="#1d6b3a" text-anchor="middle">= OSTEN</text>
+
+  <text x="330" y="415" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Schatten jetzt</text>
+  <text x="592" y="415" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">und später</text>
+
+  <line x1="180" y1="470" x2="740" y2="470" stroke="#111" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <text x="150" y="600" font-family="Georgia, serif" font-size="21" fill="#111">Die Linie durch beide Marken ist die Ost-West-Linie. Der Schatten wandert</text>
+  <text x="150" y="626" font-family="Georgia, serif" font-size="21" fill="#111">nach Osten, weil die Sonne nach Westen zieht.</text>
+  <text x="150" y="662" font-family="Georgia, serif" font-size="19" fill="#d65a1a">Im Bild übertrieben: nach einer Viertelstunde liegen die Marken nur ein paar</text>
+  <text x="150" y="686" font-family="Georgia, serif" font-size="19" fill="#d65a1a">Zentimeter auseinander. So weit wie hier wird es erst über einen halben Tag.</text>
+
+  <line x1="40" y1="722" x2="860" y2="722" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Stellung ============ -->
+  <text x="40" y="762" font-family="Georgia, serif" font-size="23" fill="#a3231a">Der Handgriff, den man sich merken sollte</text>
+
+  <rect x="40" y="790" width="820" height="224" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+
+  <text x="62" y="830" font-family="Georgia, serif" font-size="26" fill="#a3231a">Erste Marke LINKS, zweite Marke RECHTS —</text>
+  <text x="62" y="862" font-family="Georgia, serif" font-size="26" fill="#a3231a">dann schaust du nach NORDEN.</text>
+
+  <circle cx="220" cy="954" r="15" fill="#a3231a"/>
+  <circle cx="520" cy="954" r="15" fill="#1d6b3a"/>
+  <text x="220" y="992" font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="middle">1. Marke</text>
+  <text x="520" y="992" font-family="Georgia, serif" font-size="19" fill="#1d6b3a" text-anchor="middle">2. Marke</text>
+
+  <rect x="352" y="944" width="18" height="40" rx="7" fill="#111"/>
+  <rect x="378" y="944" width="18" height="40" rx="7" fill="#111"/>
+  <line x1="374" y1="944" x2="374" y2="904" stroke="#111" stroke-width="4"/>
+  <polygon points="360,908 374,884 388,908" fill="#111"/>
+  <text x="440" y="912" font-family="Georgia, serif" font-size="23" fill="#111">NORDEN</text>
+
+  <text x="40" y="1056" font-family="Georgia, serif" font-size="21" fill="#111">Auch das gilt überall auf der Erde. Ebenso wie: die erste Marke ist IMMER</text>
+  <text x="40" y="1082" font-family="Georgia, serif" font-size="21" fill="#111">Westen — zu jeder Jahreszeit, an jedem Ort.</text>
+
+  <line x1="40" y1="1118" x2="860" y2="1118" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Schritte ============ -->
+  <text x="40" y="1158" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Schritte</text>
+  <text x="40" y="1196" font-family="Georgia, serif" font-size="21" fill="#111">Einen etwa einen Meter langen, geraden Stock an einer ebenen Stelle in den</text>
+  <text x="40" y="1222" font-family="Georgia, serif" font-size="21" fill="#111">Boden stecken, wo er einen deutlichen Schatten wirft. Die Schattenspitze mit</text>
+  <text x="40" y="1248" font-family="Georgia, serif" font-size="21" fill="#111">einem Stein oder Zweig markieren. ZEHN BIS FÜNFZEHN MINUTEN warten, bis</text>
+  <text x="40" y="1274" font-family="Georgia, serif" font-size="21" fill="#111">die Spitze ein paar Zentimeter weitergewandert ist, und die neue Spitze</text>
+  <text x="40" y="1300" font-family="Georgia, serif" font-size="21" fill="#111">genauso markieren.</text>
+
+  <text x="40" y="1340" font-family="Georgia, serif" font-size="21" fill="#111">Genauer, aber langsamer: die erste Marke am Vormittag setzen, mit einer</text>
+  <text x="40" y="1366" font-family="Georgia, serif" font-size="21" fill="#111">Schnur einen Kreisbogen durch sie um den Stock ziehen — und am Nachmittag</text>
+  <text x="40" y="1392" font-family="Georgia, serif" font-size="21" fill="#111">dort die zweite Marke setzen, wo die Schattenspitze den Bogen wieder</text>
+  <text x="40" y="1418" font-family="Georgia, serif" font-size="21" fill="#111">BERÜHRT. Das kostet einen halben Tag und ist deutlich zuverlässiger.</text>
+
+  <line x1="40" y1="1454" x2="860" y2="1454" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1494" font-family="Georgia, serif" font-size="23" fill="#a3231a">Eine ungefähre Richtung, keine Peilung.</text>
+  <text x="40" y="1526" font-family="Georgia, serif" font-size="21" fill="#111">Man nimmt sie, um nicht im Kreis zu gehen — nicht, um einen Punkt zu treffen.</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Kapitel: agrikultur-saatgut. Abschnitt: So weit weg wie moeglich, und
+       warum hier keine Zahl steht.
+       Gezeigter Satz: Ein Saatgutbeet gehoert so weit vom uebrigen
+       Kartoffelacker entfernt wie irgend machbar, und Bau jede Sorte
+       getrennt an, nicht nur getrennt von fremden Feldern.
+       Die Zeichnung zeigt zwei Flaechen mit einer grossen leeren Luecke
+       dazwischen, dazu einen Bruch im Pfeil, weil die Quelle ausdruecklich
+       keine feste Entfernung nennt. Innerhalb des Saatgutbeets liegen
+       zwei Sorten ebenfalls getrennt, mit eigenem Zwischenraum. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="450" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="27" font-weight="bold" fill="#111">So weit weg wie möglich</text>
+
+  <!-- Kartoffelacker: grosse Flaeche links -->
+  <rect x="70" y="170" width="280" height="340" fill="#8ba668" stroke="#111" stroke-width="2.5"/>
+  <g stroke="#7a5a3e" stroke-width="1.2" opacity="0.55">
+    <line x1="90" y1="172" x2="90" y2="508"/>
+    <line x1="124" y1="172" x2="124" y2="508"/>
+    <line x1="158" y1="172" x2="158" y2="508"/>
+    <line x1="192" y1="172" x2="192" y2="508"/>
+    <line x1="226" y1="172" x2="226" y2="508"/>
+    <line x1="260" y1="172" x2="260" y2="508"/>
+    <line x1="294" y1="172" x2="294" y2="508"/>
+    <line x1="328" y1="172" x2="328" y2="508"/>
+  </g>
+  <text x="210" y="155" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">Kartoffelacker</text>
+
+  <!-- Saatgutbeet: zwei Sorten, klein und getrennt, weit rechts -->
+  <rect x="620" y="170" width="200" height="150" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+  <g stroke="#7a5a3e" stroke-width="1.2" opacity="0.55">
+    <line x1="640" y1="172" x2="640" y2="318"/>
+    <line x1="660" y1="172" x2="660" y2="318"/>
+    <line x1="680" y1="172" x2="680" y2="318"/>
+    <line x1="700" y1="172" x2="700" y2="318"/>
+    <line x1="720" y1="172" x2="720" y2="318"/>
+    <line x1="740" y1="172" x2="740" y2="318"/>
+    <line x1="760" y1="172" x2="760" y2="318"/>
+    <line x1="780" y1="172" x2="780" y2="318"/>
+    <line x1="800" y1="172" x2="800" y2="318"/>
+  </g>
+
+  <rect x="620" y="350" width="200" height="150" fill="#e8ddc7" stroke="#111" stroke-width="2.5"/>
+  <g stroke="#7a5a3e" stroke-width="1.2" opacity="0.55">
+    <line x1="640" y1="352" x2="640" y2="498"/>
+    <line x1="660" y1="352" x2="660" y2="498"/>
+    <line x1="680" y1="352" x2="680" y2="498"/>
+    <line x1="700" y1="352" x2="700" y2="498"/>
+    <line x1="720" y1="352" x2="720" y2="498"/>
+    <line x1="740" y1="352" x2="740" y2="498"/>
+    <line x1="760" y1="352" x2="760" y2="498"/>
+    <line x1="780" y1="352" x2="780" y2="498"/>
+    <line x1="800" y1="352" x2="800" y2="498"/>
+  </g>
+
+  <text x="720" y="155" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">Saatgutbeet</text>
+  <text x="610" y="250" text-anchor="end" font-family="Georgia, serif" font-size="18" fill="#111">Sorte A</text>
+  <text x="610" y="430" text-anchor="end" font-family="Georgia, serif" font-size="18" fill="#111">Sorte B</text>
+
+  <!-- Der Abstand selbst: die einzige Signalfarbe, weil ein zu knapper
+       Abstand hier der teure Fehler ist -->
+  <polygon points="350,340 364,332 364,348" fill="#d65a1a"/>
+  <polygon points="620,340 606,332 606,348" fill="#d65a1a"/>
+  <line x1="364" y1="340" x2="465" y2="340" stroke="#d65a1a" stroke-width="3"/>
+  <line x1="513" y1="340" x2="606" y2="340" stroke="#d65a1a" stroke-width="3"/>
+  <g stroke="#d65a1a" stroke-width="3" stroke-linecap="round">
+    <line x1="472" y1="349" x2="486" y2="331"/>
+    <line x1="492" y1="349" x2="506" y2="331"/>
+  </g>
+  <text x="485" y="318" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">so weit weg wie möglich</text>
+
+  <text x="720" y="525" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">auch untereinander: je Sorte getrennt</text>
+
+  <text x="450" y="575" text-anchor="middle" font-style="italic" font-family="Georgia, serif" font-size="14" fill="#5b7f96">Eine feste Zahl für den Abstand nennt die Quelle nicht — nur: möglichst weit.</text>
+</svg>

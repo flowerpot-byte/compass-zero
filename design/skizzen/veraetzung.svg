@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1326" viewBox="0 0 900 1326">
+  <!-- Zum Tipp "Veraetzung: spuelen, bis der Schmerz nachlaesst".
+       Der Kern ist ein Unterschied zwischen zwei ARTEN von Anweisung, und
+       den verwechselt man leicht: Bei Hitze gilt eine ZEIT, bei einer
+       Chemikalie ein ZUSTAND. Wer das nicht trennt, hoert nach zehn Minuten
+       auf, weil eine Uhr abgelaufen ist. Deshalb stehen die beiden als zwei
+       Kaesten nebeneinander, mit ZEIT und ZUSTAND als den grossen Woertern.
+       Der zweite Kern ist raeumlich und deshalb gezeichnet: Die
+       Spuelfluessigkeit muss VOM GESUNDEN WEG ablaufen. Am Auge heisst das
+       von der Nase nach aussen und niemals ueber das andere Auge hinweg.
+       Das ist der Fehler, an den laut Leitlinie fast niemand denkt, und er
+       macht aus einem verletzten Auge zwei.
+       Das Gesicht ist bewusst so einfach wie moeglich gehalten: Kreis, zwei
+       Ellipsen, ein Strich fuer die Nase. Es soll die Richtung tragen und
+       sonst nichts.
+       Der Satz zum Trinken steht rot und allein, weil er dem Reflex
+       widerspricht: nicht verduennen. -->
+  <rect width="900" height="1326" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Verätzung: spülen, bis der Schmerz nachlässt</text>
+
+  <!-- ============ A: Zeit gegen Zustand ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der Unterschied, der die Spüldauer bestimmt</text>
+
+  <rect x="40" y="130" width="400" height="170" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="62" y="168" font-family="Georgia, serif" font-size="23" fill="#111">Verbrennung: eine ZEIT</text>
+  <text x="62" y="204" font-family="Georgia, serif" font-size="21" fill="#111">mindestens zehn Minuten spülen.</text>
+
+  <rect x="460" y="130" width="400" height="170" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="482" y="168" font-family="Georgia, serif" font-size="23" fill="#a3231a">Verätzung: ein ZUSTAND</text>
+  <text x="482" y="204" font-family="Georgia, serif" font-size="21" fill="#111">mit fließendem Wasser, bis der</text>
+  <text x="482" y="230" font-family="Georgia, serif" font-size="21" fill="#111">Schmerz nachlässt. Das kann viel</text>
+  <text x="482" y="256" font-family="Georgia, serif" font-size="21" fill="#111">länger dauern — man hört nicht</text>
+  <text x="482" y="282" font-family="Georgia, serif" font-size="21" fill="#111">auf, weil eine Uhr abgelaufen ist.</text>
+
+  <line x1="40" y1="336" x2="860" y2="336" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: das Auge und die Richtung ============ -->
+  <text x="40" y="376" font-family="Georgia, serif" font-size="23" fill="#a3231a">Am Auge ist es am dringendsten — und die Richtung entscheidet</text>
+
+  <circle cx="200" cy="490" r="90" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <ellipse cx="160" cy="470" rx="22" ry="13" fill="#faf9f6" stroke="#a3231a" stroke-width="4"/>
+  <ellipse cx="240" cy="470" rx="22" ry="13" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+  <circle cx="160" cy="470" r="5" fill="#a3231a"/>
+  <circle cx="240" cy="470" r="5" fill="#111"/>
+  <path d="M 200 482 L 208 512 L 192 512" fill="none" stroke="#111" stroke-width="3"/>
+  <path d="M 168 540 q 32 12 64 0" fill="none" stroke="#111" stroke-width="3"/>
+
+  <g stroke="#1d6b3a" stroke-width="5" fill="none">
+    <path d="M 136 470 L 92 470"/>
+    <path d="M 84 470 l 16 -8 M 84 470 l 16 8"/>
+  </g>
+  <g stroke="#a3231a" stroke-width="4" fill="none" stroke-dasharray="8 6">
+    <path d="M 184 470 L 262 470"/>
+  </g>
+  <g stroke="#a3231a" stroke-width="5" fill="none">
+    <path d="M 214 434 L 236 456 M 236 434 L 214 456"/>
+  </g>
+
+  <text x="60" y="612" font-family="Georgia, serif" font-size="19" fill="#1d6b3a">richtig: von der Nase nach außen</text>
+  <text x="60" y="638" font-family="Georgia, serif" font-size="19" fill="#a3231a">falsch: über das andere Auge hinweg</text>
+
+  <text x="400" y="430" font-family="Georgia, serif" font-size="21" fill="#111">Ein ätzender Stoff im Auge wird SOFORT</text>
+  <text x="400" y="456" font-family="Georgia, serif" font-size="21" fill="#111">mit sauberem Wasser ausgespült — die</text>
+  <text x="400" y="482" font-family="Georgia, serif" font-size="21" fill="#111">Leitlinie sagt ausdrücklich: trinkbares,</text>
+  <text x="400" y="508" font-family="Georgia, serif" font-size="21" fill="#111">sauberes Wasser.</text>
+  <text x="400" y="548" font-family="Georgia, serif" font-size="21" fill="#111">Kontaktlinsen kommen beim Spülen</text>
+  <text x="400" y="574" font-family="Georgia, serif" font-size="21" fill="#111">von selbst heraus.</text>
+  <text x="400" y="614" font-family="Georgia, serif" font-size="21" fill="#a3231a">Die Spülflüssigkeit muss VOM</text>
+  <text x="400" y="640" font-family="Georgia, serif" font-size="21" fill="#a3231a">GESUNDEN WEG ablaufen.</text>
+
+  <line x1="40" y1="676" x2="860" y2="676" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: die drei Fehler ============ -->
+  <text x="40" y="716" font-family="Georgia, serif" font-size="23" fill="#a3231a">Drei Fehler, die man dabei machen kann</text>
+
+  <g fill="#a3231a">
+    <circle cx="60" cy="749" r="17"/><circle cx="60" cy="789" r="17"/><circle cx="60" cy="855" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="756">1</text><text x="60" y="796">2</text><text x="60" y="862">3</text>
+  </g>
+  <text x="88" y="756" font-family="Georgia, serif" font-size="21" fill="#111">Der Helfer fasst den ätzenden Stoff an. Nicht mit bloßen Händen.</text>
+  <text x="88" y="796" font-family="Georgia, serif" font-size="21" fill="#111">Die verdünnte Flüssigkeit läuft über gesunde Haut oder ins gesunde Auge und</text>
+  <text x="88" y="822" font-family="Georgia, serif" font-size="21" fill="#111">schädigt sie dort. Deshalb muss sie vom Gesunden weg ablaufen.</text>
+  <text x="88" y="862" font-family="Georgia, serif" font-size="21" fill="#111">Es wird sonst nichts aufgetragen. Kein Öl, keine Salbe, kein Gegenmittel,</text>
+  <text x="88" y="888" font-family="Georgia, serif" font-size="21" fill="#111">nichts, ohne ärztlichen Rat.</text>
+
+  <line x1="40" y1="924" x2="860" y2="924" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: getrunken ============ -->
+  <text x="40" y="964" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ist etwas Ätzendes getrunken worden: NICHT verdünnen.</text>
+  <text x="40" y="998" font-family="Georgia, serif" font-size="21" fill="#111">Die Leitlinie sagt klar, dass gar nicht erst versucht werden soll, den Stoff zu</text>
+  <text x="40" y="1024" font-family="Georgia, serif" font-size="21" fill="#111">verdünnen — sondern dass sofort die Giftnotrufzentrale oder der Notruf 112</text>
+  <text x="40" y="1050" font-family="Georgia, serif" font-size="21" fill="#111">gerufen wird.</text>
+
+  <line x1="40" y1="1086" x2="860" y2="1086" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1126" font-family="Georgia, serif" font-size="21" fill="#111">Wenn es sicher möglich ist, wird zuerst die Gefahrenquelle entschärft — der Topf</text>
+  <text x="40" y="1152" font-family="Georgia, serif" font-size="21" fill="#111">mit heißem Öl abgedeckt, die Flasche verschlossen —, damit nicht der Nächste</text>
+  <text x="40" y="1178" font-family="Georgia, serif" font-size="21" fill="#111">hineingerät.</text>
+
+  <text x="40" y="1218" font-family="Georgia, serif" font-size="19" fill="#111">Warum das in einer langen Krise wichtiger wird, nicht aus der Quelle: Ätzende Stoffe sind</text>
+  <text x="40" y="1242" font-family="Georgia, serif" font-size="19" fill="#111">dann häufiger, nicht seltener. Lauge steckt in Abfluss- und Backofenreiniger und entsteht</text>
+  <text x="40" y="1266" font-family="Georgia, serif" font-size="19" fill="#111">beim Seifensieden aus Holzasche und Fett; Säure sitzt in jeder Autobatterie. Also vorher</text>
+  <text x="40" y="1290" font-family="Georgia, serif" font-size="19" fill="#111">überlegen, wo das Spülwasser steht — bevor die Flasche aufgeht, nicht danach.</text>
+</svg>

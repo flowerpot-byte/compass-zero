@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+  <!-- Kapitel agrikultur-trocknen (agriculture.json), Abschnitt 8
+       "Lagern: Behaelter, Ratten und Kaefer". Dieser Abschnitt ist der
+       einzige im Kapitel mit echter Raeumlichkeit: eine Mindesthoehe des
+       Rattenblechs ueber dem Boden und die Idee, kleine Behaelter in einen
+       grossen zu stellen. Die anderen Abschnitte im Kapitel listen vor
+       allem Prozente, Temperaturen und Pruefregeln auf, ohne Bauweise
+       oder Abstand. Gezeigt werden die zwei raeumlichen Kernpunkte des
+       Abschnitts; Kaefer/Koerner-Mischung und Reis in der Spelze bleiben
+       Text, weil sie keine Geometrie haben. -->
+  <rect width="900" height="640" fill="#faf9f6"/>
+
+  <text x="40" y="44" font-family="Georgia, serif" font-size="26" fill="#111">Lagern: hoch gegen Ratten, verschachtelt gegen Luft</text>
+  <text x="40" y="68" font-family="Georgia, serif" font-size="15" fill="#5b7f96">Abschnitt 8 – Behälter, Ratten und Käfer</text>
+
+  <!-- Boden -->
+  <line x1="60" y1="560" x2="840" y2="560" stroke="#111" stroke-width="3"/>
+  <g stroke="#5b7f96" stroke-width="1.5">
+    <line x1="100" y1="560" x2="88" y2="576"/>
+    <line x1="130" y1="560" x2="118" y2="576"/>
+    <line x1="160" y1="560" x2="148" y2="576"/>
+    <line x1="190" y1="560" x2="178" y2="576"/>
+    <line x1="710" y1="560" x2="698" y2="576"/>
+    <line x1="740" y1="560" x2="728" y2="576"/>
+    <line x1="770" y1="560" x2="758" y2="576"/>
+    <line x1="800" y1="560" x2="788" y2="576"/>
+  </g>
+
+  <!-- Lager auf Beinen -->
+  <rect x="250" y="300" width="400" height="18" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+  <line x1="288" y1="318" x2="288" y2="560" stroke="#7a5a3e" stroke-width="14" stroke-linecap="round"/>
+  <line x1="612" y1="318" x2="612" y2="560" stroke="#7a5a3e" stroke-width="14" stroke-linecap="round"/>
+
+  <text x="40" y="305" font-family="Georgia, serif" font-size="16" fill="#111">Lager (Gestell)</text>
+  <path d="M150 300 L248 310" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <circle cx="248" cy="310" r="3" fill="#5b7f96"/>
+
+  <!-- Rattenbleche an beiden Beinen -->
+  <ellipse cx="288" cy="410" rx="36" ry="10" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <ellipse cx="612" cy="410" rx="36" ry="10" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+
+  <!-- Ratte am Bein, durch das Blech aufgehalten -->
+  <ellipse cx="262" cy="544" rx="20" ry="11" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+  <circle cx="283" cy="538" r="8" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+  <circle cx="286" cy="535" r="1.4" fill="#111"/>
+  <path d="M242 546 Q222 552 214 538" stroke="#111" stroke-width="2" fill="none"/>
+  <path d="M278 530 l 6 -8 M284 528 l 4 -9" stroke="#111" stroke-width="2" fill="none"/>
+
+  <!-- Messung: mindestens einen Meter -->
+  <line x1="225" y1="410" x2="225" y2="560" stroke="#d65a1a" stroke-width="3"/>
+  <path d="M225 410 l -8 10 M225 410 l 8 10" stroke="#d65a1a" stroke-width="3" fill="none"/>
+  <path d="M225 560 l -8 -10 M225 560 l 8 -10" stroke="#d65a1a" stroke-width="3" fill="none"/>
+
+  <text x="40" y="460" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Rattenblech:</text>
+  <text x="40" y="482" font-family="Georgia, serif" font-size="18" fill="#d65a1a">mindestens einen</text>
+  <text x="40" y="503" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Meter über dem Boden</text>
+
+  <text x="40" y="530" font-family="Georgia, serif" font-size="14" fill="#111">sonst springen die Ratten</text>
+  <text x="40" y="547" font-family="Georgia, serif" font-size="14" fill="#111">über das Blech</text>
+
+  <!-- Bauweise des Rattenblechs -->
+  <text x="650" y="400" font-family="Georgia, serif" font-size="17" fill="#111">Rattenblech</text>
+  <path d="M648 405 L618 410" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <circle cx="618" cy="410" r="3" fill="#5b7f96"/>
+  <text x="650" y="424" font-family="Georgia, serif" font-size="14" fill="#111">Bauweise: Blech oder</text>
+  <text x="650" y="441" font-family="Georgia, serif" font-size="14" fill="#111">aufgeschnittener</text>
+  <text x="650" y="458" font-family="Georgia, serif" font-size="14" fill="#111">20-Liter-Kanister</text>
+
+  <!-- Grosses Gefaess im Schnitt, mit kleinen Beuteln darin -->
+  <path d="M355 155 L355 275 Q355 300 380 300 L520 300 Q545 300 545 275 L545 155"
+        fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <ellipse cx="450" cy="155" rx="95" ry="13" fill="#e8ddc7" stroke="#111" stroke-width="3"/>
+
+  <ellipse cx="395" cy="236" rx="26" ry="30" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <path d="M379 208 L395 194 L411 208" stroke="#111" stroke-width="2" fill="none"/>
+
+  <ellipse cx="450" cy="222" rx="30" ry="34" fill="#8ba668" stroke="#111" stroke-width="2"/>
+  <path d="M432 190 L450 174 L468 190" stroke="#111" stroke-width="2" fill="none"/>
+
+  <ellipse cx="505" cy="236" rx="26" ry="30" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <path d="M489 208 L505 194 L521 208" stroke="#111" stroke-width="2" fill="none"/>
+
+  <text x="610" y="170" font-family="Georgia, serif" font-size="17" fill="#111">Kleine Behälter (Beutel)</text>
+  <text x="610" y="192" font-family="Georgia, serif" font-size="15" fill="#111">im großen, verschlossenen</text>
+  <text x="610" y="212" font-family="Georgia, serif" font-size="15" fill="#111">Gefäß</text>
+  <path d="M610 200 L546 220" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <circle cx="546" cy="220" r="3" fill="#5b7f96"/>
+
+  <text x="610" y="246" font-family="Georgia, serif" font-size="14" fill="#5b7f96">Nur ein kleiner Teil des</text>
+  <text x="610" y="264" font-family="Georgia, serif" font-size="14" fill="#5b7f96">Vorrats ist beim Öffnen</text>
+  <text x="610" y="282" font-family="Georgia, serif" font-size="14" fill="#5b7f96">der Luft ausgesetzt</text>
+
+  <!-- Grundregel als Unterschrift -->
+  <rect x="290" y="590" width="320" height="36" rx="6" fill="none" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="450" y="613" font-family="Georgia, serif" font-size="15" fill="#111" text-anchor="middle">kühl, dunkel, trocken – nur wenig Luft an den Vorrat</text>
+</svg>

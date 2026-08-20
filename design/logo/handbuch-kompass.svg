@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Kompass auf dem Handbuch</title>
+  <path d="M 56 168 C 118 132 186 132 256 168 C 326 132 394 132 456 168 V 404 C 394 368 326 368 256 404 C 186 368 118 368 56 404 Z" fill="#0A0A0A"/>
+  <path d="M 256 172 V 400" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="256" cy="286" r="104" fill="#FFFFFF"/>
+  <circle cx="256" cy="286" r="104" fill="none" stroke="#0A0A0A" stroke-width="16"/>
+  <g fill="#0A0A0A">
+    <circle cx="256" cy="206" r="7"/>
+    <circle cx="336" cy="286" r="7"/>
+    <circle cx="256" cy="366" r="7"/>
+    <circle cx="176" cy="286" r="7"/>
+  </g>
+  <polygon points="308,234 246,276 266,296" fill="#FF4D00"/>
+  <polygon points="204,338 266,296 246,276" fill="#0A0A0A"/>
+  <circle cx="256" cy="286" r="9" fill="#FFFFFF"/>
+  <circle cx="256" cy="286" r="9" fill="none" stroke="#0A0A0A" stroke-width="5"/>
+</svg>

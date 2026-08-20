@@ -1,0 +1,65 @@
+<!-- Anleitung: Werkzeug: eine Klinge aus dem, was da ist
+     Schritt 6 (HOLZ): "Nimm ein GERADFASERIGES Stueck Hartholz von etwa
+     30 Zentimetern Laenge und 2,5 Zentimetern Durchmesser. Daraus schnitzt
+     du eine etwa 15 Zentimeter lange Klinge, die vorne in einer Spitze
+     auslaeuft. [...] DEN KERN - das Mark - LAESST DU WEG: Dort wird die
+     Spitze schwach."
+     Gezeigter Satz: die Spitze liegt VERSETZT zum Kern (Mark), der
+     laengs durch die Mitte des Rundholzes laeuft - deshalb bleibt sie
+     stark statt am Mark zu brechen. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="40" y="50" font-family="Georgia, serif" font-size="26" fill="#111">Holzklinge: die Spitze meidet den Kern</text>
+  <text x="40" y="80" font-family="Georgia, serif" font-size="17" fill="#5b7f96">GERADFASERIGES HARTHOLZ, 30 CM LANG, 2,5 CM DURCHMESSER</text>
+
+  <!-- Querschnitt links: Ende des Rundholzes, zeigt Durchmesser und Kern als Punkt in der Mitte -->
+  <ellipse cx="150" cy="290" rx="34" ry="60" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <circle cx="150" cy="290" r="4.5" fill="#5b7f96"/>
+  <line x1="150" y1="230" x2="150" y2="176" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="150" y="168" font-family="Georgia, serif" font-size="17" fill="#5b7f96" text-anchor="middle">KERN (MARK)</text>
+  <text x="150" y="190" font-family="Georgia, serif" font-size="14" fill="#5b7f96" text-anchor="middle">Querschnitt</text>
+
+  <!-- Durchmesserklammer am Querschnitt -->
+  <line x1="95" y1="232" x2="95" y2="348" stroke="#111" stroke-width="1.5"/>
+  <line x1="90" y1="232" x2="100" y2="232" stroke="#111" stroke-width="1.5"/>
+  <line x1="90" y1="348" x2="100" y2="348" stroke="#111" stroke-width="1.5"/>
+  <text x="80" y="296" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle" transform="rotate(-90 80 296)">2,5 CM</text>
+
+  <!-- Rundholzschaft: 30 cm insgesamt, Kern als gestrichelte Mittellinie -->
+  <rect x="150" y="260" width="330" height="60" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <line x1="150" y1="290" x2="740" y2="290" stroke="#5b7f96" stroke-width="2" stroke-dasharray="7 6"/>
+
+  <!-- Geschnitzte Klinge: 15 cm, Spitze deutlich ueber der Kernlinie, also versetzt zum Mark -->
+  <path d="M480,260 C580,252 670,258 748,272 C700,300 590,314 480,320 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Die Kernlinie liefe geradeaus bis 748,290, genau dort, wo die Spitze NICHT ist. Das ist der gezeigte Satz. -->
+  <line x1="740" y1="290" x2="760" y2="290" stroke="#5b7f96" stroke-width="2" stroke-dasharray="4 5"/>
+  <circle cx="760" cy="290" r="4" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <line x1="760" y1="290" x2="740" y2="335" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="690" y="356" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Kern läuft hier weiter,</text>
+  <text x="690" y="376" font-family="Georgia, serif" font-size="16" fill="#5b7f96">die Spitze liegt nicht dort</text>
+
+  <!-- Signalfarbe: einzige gefaehrliche Stelle, die Spitze selbst, versetzt zum Kern -->
+  <circle cx="748" cy="272" r="6" fill="#d65a1a"/>
+  <line x1="748" y1="272" x2="700" y2="205" stroke="#d65a1a" stroke-width="1.5"/>
+  <text x="480" y="185" font-family="Georgia, serif" font-size="19" fill="#d65a1a">SPITZE VERSETZT ZUM KERN</text>
+  <text x="480" y="208" font-family="Georgia, serif" font-size="16" fill="#d65a1a">so bleibt sie stark statt am Mark zu brechen</text>
+
+  <!-- Laengenklammern -->
+  <line x1="150" y1="400" x2="480" y2="400" stroke="#111" stroke-width="1.5"/>
+  <line x1="150" y1="394" x2="150" y2="406" stroke="#111" stroke-width="1.5"/>
+  <line x1="480" y1="394" x2="480" y2="406" stroke="#111" stroke-width="1.5"/>
+
+  <line x1="480" y1="430" x2="748" y2="430" stroke="#111" stroke-width="1.5"/>
+  <line x1="480" y1="424" x2="480" y2="436" stroke="#111" stroke-width="1.5"/>
+  <line x1="748" y1="424" x2="748" y2="436" stroke="#111" stroke-width="1.5"/>
+  <text x="614" y="454" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">15 CM KLINGE</text>
+
+  <line x1="150" y1="480" x2="748" y2="480" stroke="#111" stroke-width="1.5"/>
+  <line x1="150" y1="474" x2="150" y2="486" stroke="#111" stroke-width="1.5"/>
+  <line x1="748" y1="474" x2="748" y2="486" stroke="#111" stroke-width="1.5"/>
+  <text x="449" y="504" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">30 CM GESAMT</text>
+
+  <text x="40" y="546" font-family="Georgia, serif" font-size="16" fill="#111">Gerade Fasern, ohne den Kern in der Spitze: nur so hält die Spitze beim Stechen.</text>
+</svg>

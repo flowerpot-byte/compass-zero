@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1742" viewBox="0 0 900 1742">
+  <!-- Zum Tipp "Bienen- und Wespenstich: die erste Minute zaehlt".
+       Der Kasten oben enthaelt einen Satz, der einer verbreiteten Regel
+       widerspricht: UNABHAENGIG VON DER METHODE. Fast jeder hat gehoert,
+       man duerfe den Stachel nicht quetschen, sondern muesse ihn seitlich
+       abschaben — und wer danach sucht, verliert die Sekunden, in denen der
+       Giftsack weiterpumpt. Deshalb steht die Methodenfreiheit gross und
+       der Irrtum direkt darunter.
+       Biene gegen Wespe steht nebeneinander, weil daraus eine Handlung
+       folgt: Bei einer Wespe gibt es nichts zu suchen. Wer das nicht weiss,
+       durchsucht eine Wunde nach etwas, das nicht da ist.
+       Die zwei Wege zur Gefahr sind die eigentliche Umkehrung: Die grosse
+       Zahl (200 Stiche) ist der seltene Fall, die kleine (ein einziger) der
+       haeufigere. Nebeneinander sieht man, dass die Menge fast nie das
+       Problem ist. -->
+  <rect width="900" height="1742" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Bienen- und Wespenstich: die erste Minute zählt</text>
+
+  <rect x="40" y="80" width="820" height="160" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="122" font-family="Georgia, serif" font-size="26" fill="#a3231a">Der Stachel pumpt weiter — etwa eine Minute lang.</text>
+  <text x="62" y="158" font-family="Georgia, serif" font-size="23" fill="#111">Deshalb: so schnell wie möglich entfernen — UNABHÄNGIG</text>
+  <text x="62" y="186" font-family="Georgia, serif" font-size="23" fill="#111">VON DER METHODE.</text>
+  <text x="62" y="222" font-family="Georgia, serif" font-size="21" fill="#111">Kratz ihn weg, zieh ihn heraus. Hauptsache sofort.</text>
+
+  <text x="40" y="282" font-family="Georgia, serif" font-size="21" fill="#111">Das ist wichtig, weil man oft das Gegenteil hört: erst eine Karte suchen, nicht</text>
+  <text x="40" y="308" font-family="Georgia, serif" font-size="21" fill="#111">quetschen, seitlich abschaben. Wer nach der richtigen Technik sucht, verliert</text>
+  <text x="40" y="334" font-family="Georgia, serif" font-size="21" fill="#111">genau die Sekunden, um die es geht.</text>
+
+  <line x1="40" y1="370" x2="860" y2="370" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="397" width="390" height="171" rx="10" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="470" y="397" width="390" height="171" rx="10" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+
+  <text x="62" y="437" font-family="Georgia, serif" font-size="23" fill="#111">NUR DIE BIENE</text>
+  <text x="62" y="473" font-family="Georgia, serif" font-size="21" fill="#111">Ihr Stachel hat einen</text>
+  <text x="62" y="499" font-family="Georgia, serif" font-size="21" fill="#111">WIDERHAKEN und bleibt</text>
+  <text x="62" y="525" font-family="Georgia, serif" font-size="21" fill="#111">stecken. Die Biene stirbt</text>
+  <text x="62" y="551" font-family="Georgia, serif" font-size="21" fill="#111">daran und sticht nur einmal.</text>
+
+  <text x="492" y="437" font-family="Georgia, serif" font-size="23" fill="#111">WESPE, HORNISSE</text>
+  <text x="492" y="473" font-family="Georgia, serif" font-size="21" fill="#111">KEIN Widerhaken — sie</text>
+  <text x="492" y="499" font-family="Georgia, serif" font-size="21" fill="#111">können mehrfach stechen,</text>
+  <text x="492" y="525" font-family="Georgia, serif" font-size="21" fill="#111">und es bleibt nichts zum</text>
+  <text x="492" y="551" font-family="Georgia, serif" font-size="21" fill="#111">Herausziehen.</text>
+
+  <text x="40" y="608" font-family="Georgia, serif" font-size="21" fill="#111">Wer bei einem Wespenstich nach dem Stachel sucht, sucht vergebens.</text>
+
+  <line x1="40" y1="644" x2="860" y2="644" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="684" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Danach — und mehr ist es nicht</text>
+  <text x="40" y="722" font-family="Georgia, serif" font-size="21" fill="#111">· KÜHLEN mit Eis oder kaltem Wasser. Lindert den Schmerz, hält die</text>
+  <text x="40" y="748" font-family="Georgia, serif" font-size="21" fill="#111">  Schwellung klein.</text>
+  <text x="40" y="774" font-family="Georgia, serif" font-size="21" fill="#111">· Die betroffene Hand oder das Bein HOCHLAGERN, damit sich die</text>
+  <text x="40" y="800" font-family="Georgia, serif" font-size="21" fill="#111">  Schwellung nicht ausbreitet.</text>
+
+  <line x1="40" y1="836" x2="860" y2="836" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="876" font-family="Georgia, serif" font-size="23" fill="#a3231a">Was nichts bringt — und zwar klar gesagt</text>
+  <text x="40" y="914" font-family="Georgia, serif" font-size="21" fill="#111">Salmiakgeist · Natron · Papaya-Enzym aus Fleischzartmacher: KAUM</text>
+  <text x="40" y="940" font-family="Georgia, serif" font-size="21" fill="#111">NACHWEISBARE WIRKUNG.</text>
+  <text x="40" y="976" font-family="Georgia, serif" font-size="21" fill="#a3231a">Wer damit Zeit verliert, statt zu kühlen, tauscht Wirksames gegen</text>
+  <text x="40" y="1002" font-family="Georgia, serif" font-size="21" fill="#a3231a">Unwirksames.</text>
+
+  <line x1="40" y1="1038" x2="860" y2="1038" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1078" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wann es gefährlich wird — zwei ganz verschiedene Wege</text>
+
+  <rect x="40" y="1111" width="390" height="197" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <rect x="470" y="1111" width="390" height="197" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+
+  <text x="62" y="1151" font-family="Georgia, serif" font-size="23" fill="#111">DIE MENGE</text>
+  <text x="62" y="1187" font-family="Georgia, serif" font-size="21" fill="#111">Sehr viele Stiche auf einmal</text>
+  <text x="62" y="1213" font-family="Georgia, serif" font-size="21" fill="#111">wirken durch die Giftmenge</text>
+  <text x="62" y="1239" font-family="Georgia, serif" font-size="21" fill="#111">selbst. Etwa 200 Bienenstiche</text>
+  <text x="62" y="1265" font-family="Georgia, serif" font-size="21" fill="#111">können ausreichen, einen</text>
+  <text x="62" y="1291" font-family="Georgia, serif" font-size="21" fill="#111">Menschen zu töten.</text>
+
+  <text x="492" y="1151" font-family="Georgia, serif" font-size="23" fill="#a3231a">DIE ALLERGIE</text>
+  <text x="492" y="1187" font-family="Georgia, serif" font-size="21" fill="#111">EIN EINZIGER Stich kann bei</text>
+  <text x="492" y="1213" font-family="Georgia, serif" font-size="21" fill="#111">einem empfindlichen</text>
+  <text x="492" y="1239" font-family="Georgia, serif" font-size="21" fill="#111">Menschen eine schwere</text>
+  <text x="492" y="1265" font-family="Georgia, serif" font-size="21" fill="#111">Reaktion auslösen.</text>
+  <text x="492" y="1291" font-family="Georgia, serif" font-size="21" fill="#a3231a">Der häufigere Fall.</text>
+
+  <text x="40" y="1348" font-family="Georgia, serif" font-size="21" fill="#111">Das ist ein Notfall mit dem Notruf 112.</text>
+  <text x="40" y="1384" font-family="Georgia, serif" font-size="21" fill="#111">Und eine Verbindung, die man kennen sollte: Wer auf Wespengift heftig</text>
+  <text x="40" y="1410" font-family="Georgia, serif" font-size="21" fill="#111">reagiert, kann gleichzeitig auf Ameisengift heftig reagieren.</text>
+  <text x="40" y="1446" font-family="Georgia, serif" font-size="21" fill="#a3231a">Ein Stich im Mund oder Rachen ist ein eigener Fall und immer ein Notfall —</text>
+  <text x="40" y="1472" font-family="Georgia, serif" font-size="21" fill="#a3231a">auch ohne Allergie.</text>
+
+  <line x1="40" y1="1508" x2="860" y2="1508" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1548" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Vorbeugen</text>
+  <text x="40" y="1586" font-family="Georgia, serif" font-size="21" fill="#111">Diese Tiere sitzen dort, wo sie fressen — bei Blüten und OBST. Wespen und</text>
+  <text x="40" y="1612" font-family="Georgia, serif" font-size="21" fill="#111">Hornissen sammeln sich außerdem um FLEISCH und offen stehende Speisen.</text>
+  <text x="40" y="1648" font-family="Georgia, serif" font-size="21" fill="#111">In einer Lage ohne Kühlschrank, in der Essen draußen steht, ist das kein</text>
+  <text x="40" y="1674" font-family="Georgia, serif" font-size="21" fill="#111">Randproblem: Vorräte und Reste gehören abgedeckt.</text>
+  <text x="40" y="1710" font-family="Georgia, serif" font-size="21" fill="#111">Angezogen werden sie auch von grellen Farben und von Parfüm.</text>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1460" viewBox="0 0 900 1460">
+  <!-- Zum Tipp "Wenn nicht gestillt werden kann: die Rangfolge".
+       Die Quelle sagt selbst, dass die REIHENFOLGE wichtiger ist als jede
+       einzelne Zubereitung. Deshalb steht sie oben und nummeriert, und die
+       dritte Stufe traegt ihre Bedingung im Satz: erst wenn beides nicht da
+       ist. Eine Rangfolge, bei der man Platz drei ohne Bedingung liest, ist
+       keine Rangfolge mehr.
+       Die Mischung ist massstaeblich: 4 Bildpunkte je Milliliter, also 400
+       fuer 100 Milliliter Milch und 200 fuer 50 Milliliter Wasser. Das
+       Verhaeltnis 2:1 sieht man, ohne zu rechnen — und wer es nachmisst,
+       findet es. Der Zucker steht daneben und NICHT als Balken: Gramm sind
+       keine Milliliter, und ein Balken wuerde eine Vergleichbarkeit
+       behaupten, die es nicht gibt.
+       Die drei Warnungen stehen zusammen, weil die Quelle sie zusammen
+       nennt. Die erste ist die unbequeme: Ohne Mikronaehrstoff-Zusatz gibt
+       man trotzdem — aber dann weiss man, dass es eine Ueberbrueckung ist.
+       Der Schlusssatz steht in der groessten Schrift, weil er erklaert,
+       warum die Rangfolge so herum lautet. -->
+  <rect width="900" height="1460" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Wenn nicht gestillt werden kann: die Rangfolge</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Wenn ein Säugling nicht an der Brust trinken kann, gibt es eine</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">REIHENFOLGE — sie einzuhalten ist wichtiger als jede einzelne Zubereitung.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Rangfolge ============ -->
+  <circle cx="60" cy="198" r="17" fill="#1d6b3a"/>
+  <circle cx="60" cy="297" r="17" fill="#111"/>
+  <circle cx="60" cy="370" r="17" fill="#d65a1a"/>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="205">1</text><text x="60" y="304">2</text><text x="60" y="377">3</text>
+  </g>
+
+  <text x="88" y="205" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">ABGEPUMPTE MUTTERMILCH, am besten von der eigenen Mutter</text>
+  <text x="88" y="235" font-family="Georgia, serif" font-size="21" fill="#111">Keine schlechtere Lösung als Stillen — dieselbe Milch aus einem anderen</text>
+  <text x="88" y="261" font-family="Georgia, serif" font-size="21" fill="#111">Gefäß. Auch Milch einer anderen stillenden Frau, wenn man ihr vertraut.</text>
+
+  <text x="88" y="304" font-family="Georgia, serif" font-size="23" fill="#111">FERTIGE SÄUGLINGSNAHRUNG, nach Anleitung zubereitet</text>
+  <text x="88" y="334" font-family="Georgia, serif" font-size="21" fill="#111">Mit SAUBEREM Wasser — das Wasser ist hier der gefährlichste Teil.</text>
+
+  <text x="88" y="377" font-family="Georgia, serif" font-size="23" fill="#d65a1a">TIERMILCH — und erst, wenn beides nicht da ist</text>
+
+  <line x1="40" y1="413" x2="860" y2="413" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Mischung, massstaeblich ============ -->
+  <text x="40" y="453" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Mischung für die Notlösung</text>
+
+  <rect x="40" y="486" width="300" height="54" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <rect x="370" y="486" width="150" height="54" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <text x="40" y="566" font-family="Georgia, serif" font-size="21" fill="#111">100 Milliliter Kuhmilch</text>
+  <text x="370" y="566" font-family="Georgia, serif" font-size="21" fill="#111">50 Milliliter Wasser</text>
+  <text x="560" y="522" font-family="Georgia, serif" font-size="23" fill="#111">+ 10 Gramm Zucker</text>
+
+  <text x="40" y="606" font-family="Georgia, serif" font-size="21" fill="#111">Auf einen halben Liter Milch sind das etwa 250 Milliliter Wasser und</text>
+  <text x="40" y="632" font-family="Georgia, serif" font-size="21" fill="#111">50 Gramm Zucker.</text>
+
+  <line x1="40" y1="668" x2="860" y2="668" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die drei Warnungen ============ -->
+  <text x="40" y="708" font-family="Georgia, serif" font-size="23" fill="#a3231a">Drei Warnungen zu dieser Notlösung</text>
+  <text x="40" y="746" font-family="Georgia, serif" font-size="21" fill="#111">· Ein MIKRONÄHRSTOFF-ZUSATZ gehört dazu. Wer keinen hat, gibt trotzdem —</text>
+  <text x="40" y="772" font-family="Georgia, serif" font-size="21" fill="#111">  aber diese Mischung ist eine Überbrückung und keine Ernährung auf Dauer.</text>
+  <text x="40" y="798" font-family="Georgia, serif" font-size="21" fill="#111">· NICHT für Frühgeborene, wenn es sich irgend vermeiden lässt.</text>
+  <text x="40" y="824" font-family="Georgia, serif" font-size="21" fill="#111">· Rohe Tiermilch wird abgekocht. Für einen Säugling ist rohe Milch ein</text>
+  <text x="40" y="850" font-family="Georgia, serif" font-size="21" fill="#111">  Risiko, das man nicht eingeht. (Einordnung dieses Pakets.)</text>
+
+  <line x1="40" y1="886" x2="860" y2="886" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Menge ============ -->
+  <text x="40" y="926" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wie viel und wie oft — für abgepumpte Muttermilch</text>
+  <text x="40" y="964" font-family="Georgia, serif" font-size="23" fill="#111">150 Milliliter je Kilogramm am Tag · acht Mahlzeiten ·</text>
+  <text x="40" y="992" font-family="Georgia, serif" font-size="23" fill="#111">im Abstand von drei Stunden</text>
+  <text x="40" y="1028" font-family="Georgia, serif" font-size="21" fill="#111">Für ein Kind von vier Kilogramm sind das 600 Milliliter am Tag, also gut</text>
+  <text x="40" y="1054" font-family="Georgia, serif" font-size="21" fill="#111">75 Milliliter je Mahlzeit. Das gilt ab zwei Kilogramm; darunter gelten eigene,</text>
+  <text x="40" y="1080" font-family="Georgia, serif" font-size="21" fill="#111">engmaschigere Regeln, die dieses Paket nicht abbildet.</text>
+
+  <line x1="40" y1="1116" x2="860" y2="1116" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Becher ============ -->
+  <text x="40" y="1156" font-family="Georgia, serif" font-size="23" fill="#a3231a">Aus dem Becher, nicht aus der Flasche.</text>
+  <text x="40" y="1190" font-family="Georgia, serif" font-size="21" fill="#111">Flaschen, Sauger und Schnuller sollen vermieden werden. Für sehr schwache</text>
+  <text x="40" y="1216" font-family="Georgia, serif" font-size="21" fill="#111">Kinder: Becher oder Schale und dazu Löffel, Pipette oder Spritze.</text>
+  <text x="40" y="1252" font-family="Georgia, serif" font-size="21" fill="#111">Und nicht eingießen: den Becher so halten, dass die Milch die Lippen berührt,</text>
+  <text x="40" y="1278" font-family="Georgia, serif" font-size="21" fill="#111">und das Kind selbst schlecken lassen. (Einordnung dieses Pakets.)</text>
+
+  <line x1="40" y1="1314" x2="860" y2="1314" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1356" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Je kleiner und kränker ein Kind ist, desto mehr braucht es</text>
+  <text x="40" y="1388" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Muttermilch.</text>
+  <text x="40" y="1424" font-family="Georgia, serif" font-size="21" fill="#111">Kinder unter 2,5 Kilogramm Geburtsgewicht haben sie noch nötiger als größere.</text>
+  <text x="40" y="1450" font-family="Georgia, serif" font-size="21" fill="#111">Ausgerechnet dort, wo Stillen am schwersten fällt, ist es am wichtigsten.</text>
+</svg>

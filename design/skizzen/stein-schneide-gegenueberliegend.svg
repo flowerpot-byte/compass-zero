@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <rect width="900" height="620" fill="#faf9f6"/>
+  <text x="40" y="52" font-family="Georgia, serif" font-size="30" fill="#111">Stein schärfen: der Span löst sich gegenüber</text>
+  <text x="60" y="95" font-family="Georgia, serif" font-size="18" fill="#5b7f96">SCHNITT DURCH DIE KANTE</text>
+
+  <!-- Steinkoerper im Schnitt, links durch Zickzacklinie als Anschnitt markiert.
+       Die Vertiefung nahe der Spitze ist die Abschlagnarbe. -->
+  <path d="M170,225 L640,255 Q555,250 480,265 L170,285 L155,275 L170,265 L155,255 L170,245 L155,235 L170,225 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Druckstab: Pfeil von oben auf die Kante nahe der Spitze -->
+  <line x1="580" y1="150" x2="580" y2="246" stroke="#5b7f96" stroke-width="4"/>
+  <path d="M580,246 l -9,-16 M580,246 l 9,-16" stroke="#5b7f96" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <line x1="360" y1="135" x2="574" y2="165" stroke="#111" stroke-width="2"/>
+  <text x="250" y="140" font-family="Georgia, serif" font-size="22" fill="#111">DRUCKSTAB</text>
+  <text x="250" y="164" font-family="Georgia, serif" font-size="18" fill="#111">drückt hier</text>
+
+  <line x1="612" y1="213" x2="586" y2="248" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="612" y="205" font-family="Georgia, serif" font-size="18" fill="#5b7f96">nicht hier</text>
+
+  <line x1="696" y1="225" x2="644" y2="256" stroke="#111" stroke-width="2"/>
+  <text x="700" y="232" font-family="Georgia, serif" font-size="22" fill="#111">KANTE</text>
+
+  <!-- Abgeloester Span: Lage genau gegenueber der Druckstelle, auf der Unterseite -->
+  <line x1="630" y1="254" x2="630" y2="272" stroke="#111" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <line x1="485" y1="266" x2="484" y2="281" stroke="#111" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <path d="M636,270 Q555,285 484,280 Q555,305 636,270 Z" fill="#d65a1a" fill-opacity="0.85" stroke="#d65a1a" stroke-width="3"/>
+
+  <line x1="560" y1="292" x2="520" y2="335" stroke="#d65a1a" stroke-width="1.5"/>
+  <text x="460" y="345" font-family="Georgia, serif" font-size="22" fill="#d65a1a">Span löst sich hier</text>
+  <text x="460" y="372" font-family="Georgia, serif" font-size="19" fill="#d65a1a">auf der GEGENÜBERLIEGENDEN SEITE</text>
+
+  <line x1="60" y1="430" x2="840" y2="430" stroke="#5b7f96" stroke-width="1" stroke-dasharray="6 6"/>
+
+  <!-- Zweiter Streifen: die ganze Laenge der Kante wird abgearbeitet, nicht nur eine Stelle -->
+  <line x1="170" y1="500" x2="770" y2="500" stroke="#111" stroke-width="4"/>
+  <g stroke="#5b7f96" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <line x1="230" y1="480" x2="230" y2="497"/>
+    <path d="M230,497 l -6,-10 M230,497 l 6,-10"/>
+    <line x1="340" y1="480" x2="340" y2="497"/>
+    <path d="M340,497 l -6,-10 M340,497 l 6,-10"/>
+    <line x1="450" y1="480" x2="450" y2="497"/>
+    <path d="M450,497 l -6,-10 M450,497 l 6,-10"/>
+    <line x1="560" y1="480" x2="560" y2="497"/>
+    <path d="M560,497 l -6,-10 M560,497 l 6,-10"/>
+    <line x1="670" y1="480" x2="670" y2="497"/>
+    <path d="M670,497 l -6,-10 M670,497 l 6,-10"/>
+  </g>
+
+  <line x1="170" y1="540" x2="770" y2="540" stroke="#5b7f96" stroke-width="2"/>
+  <path d="M170,540 l14,-7 M170,540 l14,7 M770,540 l-14,-7 M770,540 l-14,7"
+        stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="470" y="575" font-family="Georgia, serif" font-size="20" fill="#5b7f96" text-anchor="middle">GANZE LÄNGE DER KANTE</text>
+</svg>

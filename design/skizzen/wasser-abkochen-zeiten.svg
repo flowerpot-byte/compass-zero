@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1462" viewBox="0 0 900 1462">
+  <!-- Zum Tipp "Wasser abkochen".
+       Die drei Balken sind der Grund fuer dieses Bild. Im Fliesstext stehen
+       "eine Minute", "drei bis fuenf" und "dreissig" als Zahlen nebeneinander
+       und wirken wie Varianten derselben Sache. Massstaeblich gezeichnet —
+       24 Bildpunkte je Minute — sieht man, dass der erste Balken neben dem
+       dritten fast verschwindet. Genau das ist der Punkt: Es geht nicht um
+       Genauigkeit, sondern darum, ob ueberhaupt abgekocht wird.
+       KEINE Achse unter den Balken. Jeder Balken traegt seine Zahl selbst,
+       und eine Achse haette Zwischenmarken gebraucht (10, 20), die im Tipp
+       nicht vorkommen. Marken, die niemand braucht, sind erfundene Zahlen an
+       einer Stelle, wo Zahlen glaubwuerdig aussehen.
+       Der Satz zum Brennstoff steht gross, weil er die Zeichnung erklaert:
+       Dreissig Minuten kosten das Dreissigfache, und selten abgekochtes
+       Wasser ist gefaehrlicher als kurz abgekochtes. -->
+  <rect width="900" height="1462" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Wasser abkochen</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Abkochen tötet krankheitserregende Bakterien, Viren und Einzeller. Was es</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">nicht kann: chemische Verunreinigungen entfernen.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="198" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der Weg</text>
+
+  <g fill="#111">
+    <circle cx="60" cy="236" r="17"/><circle cx="60" cy="309" r="17"/>
+    <circle cx="60" cy="356" r="17"/><circle cx="60" cy="429" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="243">1</text><text x="60" y="316">2</text>
+    <text x="60" y="363">3</text><text x="60" y="436">4</text>
+  </g>
+  <text x="88" y="243" font-family="Georgia, serif" font-size="21" fill="#111">Ist das Wasser trüb: absetzen lassen und durch ein sauberes Tuch,</text>
+  <text x="88" y="269" font-family="Georgia, serif" font-size="21" fill="#111">ein Papiertuch oder einen Kaffeefilter filtern.</text>
+  <text x="88" y="316" font-family="Georgia, serif" font-size="21" fill="#111">Zum sprudelnden Kochen bringen.</text>
+  <text x="88" y="363" font-family="Georgia, serif" font-size="23" fill="#111">Mindestens EINE MINUTE sprudelnd kochen.</text>
+  <text x="88" y="391" font-family="Georgia, serif" font-size="21" fill="#111">Oberhalb von etwa 1000 Metern Höhe: drei Minuten.</text>
+  <text x="88" y="436" font-family="Georgia, serif" font-size="21" fill="#111">Von selbst abkühlen lassen, in sauberen, abgedeckten Behältern</text>
+  <text x="88" y="462" font-family="Georgia, serif" font-size="21" fill="#111">aufbewahren.</text>
+
+  <line x1="40" y1="498" x2="860" y2="498" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die drei Zeiten ============ -->
+  <text x="40" y="538" font-family="Georgia, serif" font-size="23" fill="#a3231a">Warum du vielleicht eine andere Zahl im Kopf hast</text>
+  <text x="40" y="576" font-family="Georgia, serif" font-size="21" fill="#111">Ältere Handbücher nennen andere Zeiten. Sie sind überholt — und der</text>
+  <text x="40" y="602" font-family="Georgia, serif" font-size="21" fill="#111">Unterschied ist kein Streit um Feinheiten:</text>
+
+  <text x="100" y="646" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">heute: eine Minute</text>
+  <rect x="100" y="656" width="24" height="34" fill="#1d6b3a" stroke="#111" stroke-width="2"/>
+
+  <text x="100" y="736" font-family="Georgia, serif" font-size="21" fill="#111">ältere Handbücher: drei bis fünf Minuten</text>
+  <rect x="100" y="746" width="120" height="34" fill="#a9c4d4" stroke="#111" stroke-width="2"/>
+
+  <text x="100" y="826" font-family="Georgia, serif" font-size="21" fill="#d65a1a">manche sogar: dreißig Minuten</text>
+  <rect x="100" y="836" width="720" height="34" fill="#d65a1a" stroke="#111" stroke-width="2"/>
+
+  <text x="100" y="916" font-family="Georgia, serif" font-size="26" fill="#a3231a">Dreißig Minuten Kochen verbrauchen das Dreißigfache an</text>
+  <text x="100" y="948" font-family="Georgia, serif" font-size="26" fill="#a3231a">Brennstoff.</text>
+  <text x="40" y="990" font-family="Georgia, serif" font-size="21" fill="#111">In einer Lage, in der Holz Arbeit kostet, entscheidet das darüber, ob überhaupt</text>
+  <text x="40" y="1016" font-family="Georgia, serif" font-size="21" fill="#111">abgekocht wird — und selten abgekochtes Wasser ist gefährlicher als kurz</text>
+  <text x="40" y="1042" font-family="Georgia, serif" font-size="21" fill="#111">abgekochtes.</text>
+
+  <line x1="40" y1="1078" x2="860" y2="1078" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1118" font-family="Georgia, serif" font-size="21" fill="#111">Krankheitserreger sterben schon deutlich unter dem Siedepunkt ab. Wer das</text>
+  <text x="40" y="1144" font-family="Georgia, serif" font-size="21" fill="#111">Wasser überhaupt zum sprudelnden Kochen bringt, hat sie erledigt.</text>
+  <text x="40" y="1186" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die eine Minute ist der Sicherheitszuschlag, nicht die</text>
+  <text x="40" y="1214" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">eigentliche Wirkung.</text>
+
+  <line x1="40" y1="1250" x2="860" y2="1250" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1290" font-family="Georgia, serif" font-size="23" fill="#a3231a">Was Abkochen NICHT kann</text>
+  <text x="40" y="1328" font-family="Georgia, serif" font-size="21" fill="#111">Chemische Verunreinigungen entfernen — Schadstoffe, Schwermetalle, Salze.</text>
+  <text x="40" y="1366" font-family="Georgia, serif" font-size="21" fill="#111">Wer eine Kochstelle hat, sollte Abkochen als Standardmethode ansehen —</text>
+  <text x="40" y="1392" font-family="Georgia, serif" font-size="21" fill="#111">solange die Quelle nicht chemisch belastet sein könnte.</text>
+</svg>

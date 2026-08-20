@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="820" viewBox="0 0 900 820">
+  <!-- Zum Tipp "Ohnmacht: Beine kreuzen und anspannen".
+       Der Tipp hat zwei Saetze, die man im Flieestext ueberliest und die im
+       Bild oben stehen muessen:
+       ERSTENS der Zeitpunkt. Fast immer geht der Ohnmacht ein Moment voraus,
+       in dem der Person schwindlig und flau ist — die Leitlinie nennt das den
+       idealen Augenblick zu handeln, BEVOR sie umfaellt.
+       ZWEITENS: Die meisten Verletzungen entstehen durch den STURZ, nicht
+       durch die Ohnmacht. Deshalb ist "hinsetzen, wo sie nicht fallen kann"
+       wichtiger als alles Weitere.
+       Darunter die Uebungen, und zwar in der Rangfolge der Quelle:
+       Unterkoerper wirkt besser als Arme und Bauch. Der Armgriff steht
+       deshalb als letzter und ausdruecklich als Ausweichloesung. -->
+  <rect width="900" height="820" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Ohnmacht: der Augenblick davor entscheidet</text>
+
+  <!-- ============ A: Zeitpunkt und Sturz ============ -->
+  <rect x="40" y="76" width="820" height="120" rx="10" fill="none" stroke="#1d6b3a" stroke-width="3"/>
+  <text x="62" y="114" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Fast immer geht ein Moment voraus, in dem der Person schwindlig und flau</text>
+  <text x="62" y="146" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">ist. Das ist der Augenblick zu handeln — BEVOR sie umfällt.</text>
+  <text x="62" y="180" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die meisten Verletzungen entstehen durch den STURZ, nicht durch die Ohnmacht.</text>
+
+  <text x="40" y="248" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was die Person selbst tun kann — Unterkörper wirkt am besten</text>
+
+  <!-- ============ 1. stehend, Beine ueberkreuzt ============ -->
+  <line x1="60" y1="500" x2="270" y2="500" stroke="#111" stroke-width="4"/>
+  <circle cx="150" cy="304" r="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="130" y="330" width="42" height="86" rx="19" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="24" stroke-linecap="round" fill="none">
+    <path d="M 142 414 L 176 498"/>
+    <path d="M 162 414 L 128 498"/>
+  </g>
+  <g stroke="#c9c4b4" stroke-width="16" stroke-linecap="round" fill="none">
+    <path d="M 142 414 L 176 498"/>
+  </g>
+  <g stroke="#c9c4b4" stroke-width="16" stroke-linecap="round" fill="none">
+    <path d="M 162 414 L 128 498"/>
+  </g>
+  <!-- Anspannung andeuten -->
+  <g stroke="#d65a1a" stroke-width="3" fill="none">
+    <path d="M 194 380 l 12 -8 M 196 400 l 14 -6 M 194 420 l 12 -10"/>
+    <path d="M 106 380 l -12 -8 M 104 400 l -14 -6 M 106 420 l -12 -10"/>
+  </g>
+  <text x="60" y="542" font-family="Georgia, serif" font-size="21" fill="#111">Beine ÜBERKREUZEN</text>
+  <text x="60" y="568" font-family="Georgia, serif" font-size="21" fill="#111">und dabei Beine, Bauch</text>
+  <text x="60" y="594" font-family="Georgia, serif" font-size="21" fill="#111">und Gesäß anspannen.</text>
+
+  <line x1="296" y1="270" x2="296" y2="610" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 2. in die Hocke ============ -->
+  <line x1="322" y1="500" x2="532" y2="500" stroke="#111" stroke-width="4"/>
+  <circle cx="404" cy="356" r="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="384" y="382" width="42" height="66" rx="19" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="24" stroke-linecap="round" fill="none">
+    <path d="M 400 446 L 448 452 L 442 498"/>
+  </g>
+  <g stroke="#c9c4b4" stroke-width="16" stroke-linecap="round" fill="none">
+    <path d="M 400 446 L 448 452 L 442 498"/>
+  </g>
+  <text x="322" y="542" font-family="Georgia, serif" font-size="21" fill="#111">Oder in die Hocke gehen.</text>
+
+  <line x1="558" y1="270" x2="558" y2="610" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 3. sitzend, Beine angehoben ============ -->
+  <line x1="584" y1="500" x2="860" y2="500" stroke="#111" stroke-width="4"/>
+  <circle cx="616" cy="452" r="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="638" y="454" width="120" height="46" rx="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="26" stroke-linecap="round" fill="none">
+    <path d="M 758 480 L 838 420"/>
+  </g>
+  <g stroke="#c9c4b4" stroke-width="18" stroke-linecap="round" fill="none">
+    <path d="M 758 480 L 838 420"/>
+  </g>
+  <path d="M 820 500 A 70 70 0 0 0 810 452" fill="none" stroke="#d65a1a" stroke-width="3"/>
+  <line x1="806" y1="474" x2="756" y2="440" stroke="#d65a1a" stroke-width="2"/>
+  <text x="748" y="436" font-family="Georgia, serif" font-size="21" fill="#d65a1a" text-anchor="end">30–60°</text>
+  <text x="584" y="542" font-family="Georgia, serif" font-size="21" fill="#111">Wer sitzt oder liegt, hebt</text>
+  <text x="584" y="568" font-family="Georgia, serif" font-size="21" fill="#111">stattdessen die Beine an.</text>
+
+  <line x1="40" y1="636" x2="860" y2="636" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Ausweichloesung und Schritte ============ -->
+  <text x="40" y="676" font-family="Georgia, serif" font-size="21" fill="#111">Geht mit den Beinen nichts, bleibt der Arm: eine Hand mit der anderen fassen und</text>
+  <text x="40" y="702" font-family="Georgia, serif" font-size="21" fill="#111">die Arme fest in entgegengesetzte Richtungen ziehen. Wirkt schwächer als der</text>
+  <text x="40" y="728" font-family="Georgia, serif" font-size="21" fill="#111">Unterkörper, aber besser als nichts.</text>
+  <text x="40" y="768" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zuerst aber immer: hinsetzen oder hinlegen, wo sie nicht fallen kann.</text>
+  <text x="40" y="800" font-family="Georgia, serif" font-size="21" fill="#111">Dann beruhigen, beobachten — und herausfinden, warum ihr flau ist.</text>
+</svg>

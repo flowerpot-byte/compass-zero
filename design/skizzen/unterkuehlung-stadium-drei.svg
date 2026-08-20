@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1390" viewBox="0 0 900 1390">
+  <!-- Zum Tipp "Unterkuehlung Stadium III: sieht tot aus und ist es nicht".
+       Der erste Satz entscheidet ueber Leben und steht deshalb in der
+       groessten Schrift ganz oben, vor allem anderen.
+       Die eine Minute ist die Zahl, an der alles haengt, und sie ist nur im
+       VERGLEICH zu verstehen: sonst zehn Sekunden, hier eine ganze Minute.
+       Zwei Balken auf derselben Achse zeigen den Unterschied als Laenge; als
+       zwei Zahlen im Satz liest man darueber hinweg. Der Massstab stimmt:
+       0 bis 70 Sekunden ueber 500 Bildpunkte, also 7,14 Punkte je Sekunde;
+       10 Sekunden sind 71 Punkte, 60 Sekunden 429.
+       Das aufgehoerte Zittern steht rot und allein, weil es das Zeichen ist,
+       das man fuer eine Besserung haelt: Wer nicht mehr zittert, wirkt
+       ruhiger. Tatsaechlich hat er die Kraft verloren.
+       Die Schicht zwischen Person und Boden ist im Tipp als das benannt,
+       was fast immer vergessen wird, und steht deshalb in Grossbuchstaben.
+       Ohne Figur gezeichnet: Ein gezeichneter Unterkuehlter saehe entweder
+       schlafend aus oder tot, und beides waere hier falsch. -->
+  <rect width="900" height="1390" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Unterkühlung Stadium III: sieht tot aus und ist es nicht</text>
+
+  <text x="40" y="100" font-family="Georgia, serif" font-size="26" fill="#a3231a">Ein tief unterkühlter Mensch kann aussehen wie ein Toter</text>
+  <text x="40" y="132" font-family="Georgia, serif" font-size="26" fill="#a3231a">und trotzdem leben.</text>
+  <text x="40" y="168" font-family="Georgia, serif" font-size="21" fill="#111">Puls und Atmung werden bei großer Kälte so langsam und so flach, dass man</text>
+  <text x="40" y="194" font-family="Georgia, serif" font-size="21" fill="#111">sie leicht übersieht. Wer hier zu schnell aufgibt, gibt einen Lebenden auf.</text>
+
+  <line x1="40" y1="230" x2="860" y2="230" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Zahl ============ -->
+  <text x="40" y="270" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Daraus folgt eine Zahl, die man sich merken muss</text>
+
+  <rect x="300" y="298" width="71" height="28" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <text x="40" y="318" font-family="Georgia, serif" font-size="19" fill="#111">sonst</text>
+  <text x="383" y="318" font-family="Georgia, serif" font-size="19" fill="#111">10 Sekunden</text>
+
+  <rect x="300" y="342" width="429" height="28" fill="#a3231a" stroke="#111" stroke-width="3"/>
+  <text x="40" y="356" font-family="Georgia, serif" font-size="19" fill="#a3231a">bewusstlos und</text>
+  <text x="40" y="378" font-family="Georgia, serif" font-size="19" fill="#a3231a">unterkühlt</text>
+  <text x="741" y="362" font-family="Georgia, serif" font-size="19" fill="#a3231a">60 Sekunden</text>
+
+  <line x1="300" y1="396" x2="800" y2="396" stroke="#111" stroke-width="2"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="300" y1="396" x2="300" y2="404"/><line x1="443" y1="396" x2="443" y2="404"/>
+    <line x1="586" y1="396" x2="586" y2="404"/><line x1="729" y1="396" x2="729" y2="404"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="300" y="422">0</text><text x="443" y="422">20</text>
+    <text x="586" y="422">40</text><text x="729" y="422">60 Sekunden</text>
+  </g>
+
+  <text x="40" y="458" font-family="Georgia, serif" font-size="21" fill="#111">Eine Minute lang sehen, hören und fühlen, ob sich etwas regt. Das ist sechsmal</text>
+  <text x="40" y="484" font-family="Georgia, serif" font-size="21" fill="#111">so lang — und es ist der Unterschied zwischen „atmet nicht“ und „atmet so</text>
+  <text x="40" y="510" font-family="Georgia, serif" font-size="21" fill="#111">schwach, dass ich es fast nicht gemerkt hätte“.</text>
+
+  <text x="40" y="550" font-family="Georgia, serif" font-size="23" fill="#a3231a">Kälte ist ein Grund, LÄNGER weiterzumachen, nicht früher aufzuhören.</text>
+
+  <line x1="40" y1="586" x2="860" y2="586" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Zeichen ============ -->
+  <text x="40" y="626" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Zeichen, dass es so weit ist</text>
+  <text x="40" y="664" font-family="Georgia, serif" font-size="21" fill="#a3231a">Das Zittern hat AUFGEHÖRT — das wichtigste Zeichen.</text>
+  <text x="40" y="690" font-family="Georgia, serif" font-size="21" fill="#111">Zittern ist Wärmeerzeugung; wer nicht mehr zittert, hat die Kraft dazu verloren.</text>
+  <text x="40" y="716" font-family="Georgia, serif" font-size="21" fill="#111">Dazu: Verwirrtheit, Erinnerungslücken, zusammenhangloses Reden, unvernünftiges</text>
+  <text x="40" y="742" font-family="Georgia, serif" font-size="21" fill="#111">Verhalten. Freiliegende Haut wird blau und schwillt an. Die Bewegungen werden</text>
+  <text x="40" y="768" font-family="Georgia, serif" font-size="21" fill="#111">ungeschickter, bis die Person nicht mehr gehen und die Hände nicht mehr</text>
+  <text x="40" y="794" font-family="Georgia, serif" font-size="21" fill="#111">gebrauchen kann.</text>
+
+  <line x1="40" y1="830" x2="860" y2="830" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Was zu tun ist ============ -->
+  <text x="40" y="870" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was jetzt zu tun ist — alles ohne Ausrüstung</text>
+  <text x="40" y="908" font-family="Georgia, serif" font-size="21" fill="#111">· Aus der Kälte holen oder vor weiterem Auskühlen schützen.</text>
+  <text x="40" y="934" font-family="Georgia, serif" font-size="21" fill="#111">· Nasse Kleidung weg — bei schwerer Unterkühlung AUFSCHNEIDEN statt ausziehen,</text>
+  <text x="40" y="960" font-family="Georgia, serif" font-size="21" fill="#111">  weil jede Bewegung der Person schadet.</text>
+  <text x="40" y="986" font-family="Georgia, serif" font-size="21" fill="#111">· Vorsichtig abtrocknen. Zudecken, Kopf und Körper.</text>
+  <text x="40" y="1012" font-family="Georgia, serif" font-size="21" fill="#111">· EINE SCHICHT ZWISCHEN PERSON UND BODEN. Der Boden zieht Wärme viel</text>
+  <text x="40" y="1038" font-family="Georgia, serif" font-size="21" fill="#111">  schneller aus einem Körper als kalte Luft. Plane, Schlafsack, Laub, Pappe.</text>
+
+  <text x="40" y="1078" font-family="Georgia, serif" font-size="21" fill="#111">Zittert die Person noch: nur passiv wärmen. Zittert sie NICHT mehr, darf aktiv</text>
+  <text x="40" y="1104" font-family="Georgia, serif" font-size="21" fill="#111">gewärmt werden — ausschließlich am Rumpf, nicht an Armen und Beinen.</text>
+
+  <line x1="40" y1="1140" x2="860" y2="1140" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Zwei Verbote ============ -->
+  <text x="40" y="1180" font-family="Georgia, serif" font-size="23" fill="#a3231a">Zwei Verbote</text>
+  <text x="40" y="1214" font-family="Georgia, serif" font-size="21" fill="#111">Nicht die Haut reiben — das schädigt Haut und Muskeln darunter.</text>
+  <text x="40" y="1240" font-family="Georgia, serif" font-size="21" fill="#111">Erwärmte Steine nie unmittelbar auf die Haut: Die unterkühlte Haut merkt eine</text>
+  <text x="40" y="1266" font-family="Georgia, serif" font-size="21" fill="#111">Verbrennung nicht. Immer ein Tuch dazwischen.</text>
+
+  <text x="40" y="1306" font-family="Georgia, serif" font-size="19" fill="#111">Ist die Person ansprechbar und kann schlucken: ein warmes, gut gezuckertes Getränk</text>
+  <text x="40" y="1330" font-family="Georgia, serif" font-size="19" fill="#111">oder etwas sehr Energiereiches. Kein Alkohol. Ohne jede Ausrüstung nennt die Leitlinie</text>
+  <text x="40" y="1354" font-family="Georgia, serif" font-size="19" fill="#111">selbst den Weg: ein Feuer machen und einen Unterstand bauen.</text>
+</svg>

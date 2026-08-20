@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Anleitung "Behelfs-Lean-to aus Naturmaterial", Schritt 9, die
+       Feuer-Reflektorwand (optional, fuer kalte Naechte).
+       Gezeigter Satz: "Stapele frisches (gruenes) Rundholz zwischen den
+       Stuetzpfaehlen zu zwei Reihen uebereinander, sodass ein Zwischenraum
+       entsteht, den du mit Erde fuellst."
+       Die Form zeigt genau das: zwei getrennte Staebe aus gestapelten
+       Rundhoelzern (vordere und hintere Reihe) mit einer sichtbaren Luecke
+       dazwischen, die mit Erde verfuellt ist, nicht eine einzige dicke
+       Wand. Die Pfaehle stecken im Boden UND ragen ueber den Holzstapel
+       hinaus, wo sie oben zusammengebunden sind: so haelt es die Ladung.
+       Schritt 5 (Dachbalken) und Schritt 7 (Rahmen decken) haben eigene
+       Bilder und werden hier nicht wiederholt. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="30" y="42" font-family="Georgia, serif" font-size="26" fill="#111">Die Feuer-Reflektorwand: zwei Reihen mit Erde dazwischen</text>
+  <text x="30" y="68" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Behelfs-Lean-to — Reflektorwand für kalte Nächte (optional)</text>
+
+  <!-- Boden -->
+  <line x1="120" y1="500" x2="780" y2="500" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="1.5">
+    <line x1="135" y1="500" x2="123" y2="516"/>
+    <line x1="165" y1="500" x2="153" y2="516"/>
+    <line x1="195" y1="500" x2="183" y2="516"/>
+    <line x1="705" y1="500" x2="693" y2="516"/>
+    <line x1="735" y1="500" x2="723" y2="516"/>
+    <line x1="765" y1="500" x2="753" y2="516"/>
+  </g>
+
+  <!-- Vier Pfaehle: zwei vorne im Bild sichtbar (die hinteren beiden liegen
+       dahinter und werden durch dieselbe Linie angedeutet) -->
+  <rect x="322" y="150" width="18" height="405" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+  <rect x="560" y="150" width="18" height="405" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+
+  <!-- Oben zusammengebunden -->
+  <path d="M331,150 L569,150" stroke="#111" stroke-width="5" fill="none"/>
+  <g stroke="#111" stroke-width="2.5" fill="none">
+    <path d="M325,146 L337,158"/>
+    <path d="M325,158 L337,146"/>
+    <path d="M563,146 L575,158"/>
+    <path d="M563,158 L575,146"/>
+  </g>
+
+  <!-- Erde im Zwischenraum: die kritische Stelle -->
+  <rect x="398" y="205" width="104" height="295" fill="#c9c4b4" stroke="#d65a1a" stroke-width="4"/>
+  <g stroke="#7a5a3e" stroke-width="1.5" opacity="0.75">
+    <line x1="400" y1="490" x2="425" y2="465"/>
+    <line x1="405" y1="450" x2="430" y2="425"/>
+    <line x1="400" y1="410" x2="425" y2="385"/>
+    <line x1="405" y1="370" x2="430" y2="345"/>
+    <line x1="400" y1="330" x2="425" y2="305"/>
+    <line x1="405" y1="290" x2="430" y2="265"/>
+    <line x1="400" y1="250" x2="425" y2="225"/>
+    <line x1="440" y1="480" x2="465" y2="455"/>
+    <line x1="445" y1="440" x2="470" y2="415"/>
+    <line x1="440" y1="400" x2="465" y2="375"/>
+    <line x1="445" y1="360" x2="470" y2="335"/>
+    <line x1="440" y1="320" x2="465" y2="295"/>
+    <line x1="445" y1="280" x2="470" y2="255"/>
+    <line x1="440" y1="240" x2="465" y2="215"/>
+    <line x1="478" y1="470" x2="498" y2="450"/>
+    <line x1="480" y1="430" x2="498" y2="412"/>
+    <line x1="478" y1="390" x2="498" y2="372"/>
+    <line x1="480" y1="350" x2="498" y2="332"/>
+    <line x1="478" y1="310" x2="498" y2="292"/>
+    <line x1="480" y1="270" x2="498" y2="252"/>
+    <line x1="478" y1="230" x2="498" y2="212"/>
+  </g>
+
+  <!-- Vordere Reihe: gestapeltes gruenes Rundholz -->
+  <g fill="#8ba668" stroke="#111" stroke-width="2.5">
+    <circle cx="376" cy="480" r="20"/>
+    <circle cx="376" cy="444" r="20"/>
+    <circle cx="376" cy="408" r="20"/>
+    <circle cx="376" cy="372" r="20"/>
+    <circle cx="376" cy="336" r="20"/>
+    <circle cx="376" cy="300" r="20"/>
+    <circle cx="376" cy="264" r="20"/>
+    <circle cx="376" cy="228" r="20"/>
+  </g>
+
+  <!-- Hintere Reihe: gestapeltes gruenes Rundholz -->
+  <g fill="#8ba668" stroke="#111" stroke-width="2.5">
+    <circle cx="524" cy="480" r="20"/>
+    <circle cx="524" cy="444" r="20"/>
+    <circle cx="524" cy="408" r="20"/>
+    <circle cx="524" cy="372" r="20"/>
+    <circle cx="524" cy="336" r="20"/>
+    <circle cx="524" cy="300" r="20"/>
+    <circle cx="524" cy="264" r="20"/>
+    <circle cx="524" cy="228" r="20"/>
+  </g>
+
+  <!-- Massline: Pfahllaenge etwa 1,5 m -->
+  <g stroke="#111" stroke-width="1.5">
+    <line x1="270" y1="150" x2="270" y2="555"/>
+    <line x1="263" y1="150" x2="277" y2="150"/>
+    <line x1="263" y1="555" x2="277" y2="555"/>
+  </g>
+  <text x="255" y="345" text-anchor="end" font-family="Georgia, serif" font-size="16" fill="#111">vier Pfähle,</text>
+  <text x="255" y="367" text-anchor="end" font-family="Georgia, serif" font-size="16" fill="#111">etwa 1,5 m lang,</text>
+  <text x="255" y="389" text-anchor="end" font-family="Georgia, serif" font-size="16" fill="#111">in den Boden getrieben</text>
+
+  <!-- Pfahl unter der Erde angedeutet -->
+  <rect x="322" y="500" width="18" height="55" fill="#e8ddc7" stroke="#111" stroke-width="2" stroke-dasharray="4,3"/>
+  <rect x="560" y="500" width="18" height="55" fill="#e8ddc7" stroke="#111" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- Beschriftung oben zusammengebunden -->
+  <path d="M450,150 L450,120" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="450" y="106" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">Pfähle oben zusammengebunden</text>
+
+  <!-- Beschriftung: zwei Reihen -->
+  <path d="M376,208 L376,180" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="376" y="167" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#111">Reihe 1</text>
+  <path d="M524,208 L524,180" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="524" y="167" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#111">Reihe 2</text>
+  <text x="450" y="590" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">zwei Reihen frisches Rundholz übereinander gestapelt</text>
+
+  <!-- Beschriftung: Erde, Signalfarbe -->
+  <path d="M614,352 L502,352" stroke="#d65a1a" stroke-width="2" fill="none"/>
+  <text x="622" y="322" font-family="Georgia, serif" font-size="17" fill="#d65a1a">Zwischenraum mit</text>
+  <text x="622" y="344" font-family="Georgia, serif" font-size="17" fill="#d65a1a">Erde gefüllt —</text>
+  <text x="622" y="366" font-family="Georgia, serif" font-size="16" fill="#d65a1a">macht die Wand</text>
+  <text x="622" y="388" font-family="Georgia, serif" font-size="16" fill="#d65a1a">hitzereflektierender</text>
+</svg>

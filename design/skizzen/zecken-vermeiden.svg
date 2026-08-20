@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+  <!-- Zum Tipp "Zeckenstiche vermeiden".
+       Zwei Dinge im Tipp sind Bild und nicht Liste: die Kleidung mit dem
+       Handgriff, den man sonst vergisst (Hosenbeine IN die Socken), und die
+       Suche danach.
+       WICHTIG bei der Suche: Die Quelle nennt KEINE Lieblingsstellen, sondern
+       sagt "den ganzen Koerper sorgfaeltig absuchen" — und als einzige
+       benannte Stelle den Haaransatz bei Kindern. Deshalb zeigt das Bild
+       einen Suchpfeil ueber den ganzen Umriss und nur EINEN markierten Punkt.
+       Eine erfundene Liste beliebter Stellen waere hier bequem und falsch.
+       Der letzte Satz steht im Bild, weil er den Tipp erst wichtig macht:
+       Beerensuchen und Gehen durch hohes Gras werden in einer
+       Versorgungslage haeufiger, nicht seltener. -->
+  <rect width="900" height="760" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Zecken: die Kleidung und die Suche danach</text>
+
+  <!-- ============ A: Kleidung ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Vorher: bedecken</text>
+
+  <line x1="60" y1="470" x2="410" y2="470" stroke="#111" stroke-width="4"/>
+  <circle cx="190" cy="158" r="26" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- langaermeliges Hemd -->
+  <rect x="158" y="190" width="64" height="110" rx="18" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="20" stroke-linecap="round" fill="none">
+    <path d="M 164 206 L 128 286"/>
+    <path d="M 216 206 L 252 286"/>
+  </g>
+  <g stroke="#e8eef2" stroke-width="12" stroke-linecap="round" fill="none">
+    <path d="M 164 206 L 128 286"/>
+    <path d="M 216 206 L 252 286"/>
+  </g>
+  <!-- lange Hose -->
+  <rect x="160" y="298" width="26" height="106" rx="10" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <rect x="194" y="298" width="26" height="106" rx="10" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <!-- Socken ueber die Hosenbeine -->
+  <rect x="156" y="396" width="34" height="36" rx="8" fill="#d65a1a" stroke="#111" stroke-width="4"/>
+  <rect x="190" y="396" width="34" height="36" rx="8" fill="#d65a1a" stroke="#111" stroke-width="4"/>
+  <!-- feste Schuhe -->
+  <rect x="150" y="432" width="46" height="38" rx="10" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="188" y="432" width="46" height="38" rx="10" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <line x1="228" y1="414" x2="300" y2="392" stroke="#d65a1a" stroke-width="2"/>
+  <text x="308" y="386" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Hosenbeine</text><text x="308" y="412" font-family="Georgia, serif" font-size="21" fill="#d65a1a">IN die Socken</text>
+  <line x1="256" y1="240" x2="300" y2="222" stroke="#111" stroke-width="2"/>
+  <text x="308" y="216" font-family="Georgia, serif" font-size="21" fill="#111">lange Ärmel,</text>
+  <text x="308" y="242" font-family="Georgia, serif" font-size="21" fill="#111">lange Hose</text>
+
+  <text x="40" y="512" font-family="Georgia, serif" font-size="21" fill="#111">Dazu festes Schuhwerk. Mittel zum</text>
+  <text x="40" y="538" font-family="Georgia, serif" font-size="21" fill="#111">Auftragen wirken auch — etwa mit</text>
+  <text x="40" y="564" font-family="Georgia, serif" font-size="21" fill="#111">Icaridin —, müssen aber je nach</text>
+  <text x="40" y="590" font-family="Georgia, serif" font-size="21" fill="#111">Wirkdauer aufgefrischt werden.</text>
+
+  <line x1="446" y1="112" x2="446" y2="610" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die Suche ============ -->
+  <text x="472" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Danach: der wichtigste Handgriff</text>
+
+  <!-- Koerperumriss -->
+  <circle cx="620" cy="176" r="30" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <path d="M 584 214 L 656 214 C 670 262 672 296 664 336 C 658 378 652 406 644 430
+           L 596 430 C 588 406 582 378 576 336 C 568 296 570 262 584 214 Z"
+        fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="18" stroke-linecap="round" fill="none">
+    <path d="M 588 226 L 550 320"/>
+    <path d="M 652 226 L 690 320"/>
+    <path d="M 606 430 L 600 512"/>
+    <path d="M 634 430 L 640 512"/>
+  </g>
+  <g stroke="#f2ece2" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M 588 226 L 550 320"/>
+    <path d="M 652 226 L 690 320"/>
+    <path d="M 606 430 L 600 512"/>
+    <path d="M 634 430 L 640 512"/>
+  </g>
+
+  <!-- Suchpfeil ueber den ganzen Umriss -->
+  <g stroke="#1d6b3a" stroke-width="4" fill="none" stroke-dasharray="10 7">
+    <path d="M 520 160 Q 560 260 520 360 Q 560 460 528 520"/>
+  </g>
+  <text x="470" y="560" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Den GANZEN Körper</text>
+  <text x="470" y="588" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">sorgfältig absuchen.</text>
+
+  <!-- Haaransatz bei Kindern -->
+  <path d="M 596 156 q 24 -14 48 0" fill="none" stroke="#d65a1a" stroke-width="5"/>
+  <line x1="652" y1="152" x2="716" y2="128" stroke="#d65a1a" stroke-width="2"/>
+  <text x="724" y="122" font-family="Georgia, serif" font-size="21" fill="#d65a1a">bei Kindern</text>
+  <text x="724" y="148" font-family="Georgia, serif" font-size="21" fill="#d65a1a">oft am</text>
+  <text x="724" y="174" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Haaransatz</text>
+
+  <text x="700" y="300" font-family="Georgia, serif" font-size="21" fill="#111">Wird eine</text>
+  <text x="700" y="326" font-family="Georgia, serif" font-size="21" fill="#111">gefunden, muss</text>
+  <text x="700" y="352" font-family="Georgia, serif" font-size="21" fill="#111">sie umgehend</text>
+  <text x="700" y="378" font-family="Georgia, serif" font-size="21" fill="#111">entfernt werden.</text>
+
+  <line x1="40" y1="636" x2="860" y2="636" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="672" font-family="Georgia, serif" font-size="21" fill="#111">Am größten ist die Gefahr in hohem Gras, Gebüsch und losem Laub — und beim</text>
+  <text x="40" y="698" font-family="Georgia, serif" font-size="21" fill="#a3231a">Beerensuchen. Genau das wird in einer Versorgungslage häufiger, nicht seltener.</text>
+  <text x="40" y="734" font-family="Georgia, serif" font-size="21" fill="#111">Auf die Höhe ist kein Verlass: In Europa wurden Zecken über 1500 Meter gefunden.</text>
+</svg>

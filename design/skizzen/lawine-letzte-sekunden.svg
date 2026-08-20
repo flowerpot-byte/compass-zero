@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="896" viewBox="0 0 900 896">
+  <!-- Zum Tipp "Wenn die Lawine dich erfasst: die letzten Sekunden".
+       Gegenstueck zur Ausgrab-Tafel; zusammen decken sie beide Seiten
+       derselben Lage ab.
+       Vier Schritte in fester Reihenfolge, und der vierte ist der, ueber den
+       laut Quelle das Ersticken entscheidet: Mund schliessen und die Arme vor
+       das Gesicht. Deshalb bekommt er die grosse untere Tafel mit der
+       Atemhoehle als eigenem Merkmal.
+       Der Satz darunter ist der Grund, warum die Reihenfolge zaehlt: Der
+       Schnee setzt sich beim Stillstand sofort und wird hart wie Beton. Was
+       in diesem Moment nicht vor dem Gesicht ist, kommt danach nicht mehr
+       dorthin. -->
+  <rect width="900" height="896" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Von der Lawine erfasst: die letzten Sekunden</text>
+
+  <!-- ============ 1. zur Seite ============ -->
+  <circle cx="60" cy="98" r="17" fill="#1d6b3a"/>
+  <text x="60" y="105" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">1</text>
+  <text x="88" y="105" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zur SEITE</text>
+
+  <!-- Lawinenbahn von oben -->
+  <path d="M 96 150 L 216 150 L 246 320 L 66 320 Z" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <text x="156" y="182" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">schnell</text>
+  <text x="156" y="204" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">und tief</text>
+  <circle cx="156" cy="244" r="15" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- quer heraus, richtig -->
+  <g stroke="#1d6b3a" stroke-width="5" fill="none">
+    <path d="M 178 244 L 268 244"/>
+    <path d="M 268 244 l -20 -9 M 268 244 l -20 9"/>
+  </g>
+  <!-- nach unten, falsch -->
+  <g stroke="#a3231a" stroke-width="5" fill="none">
+    <path d="M 156 266 L 156 316"/>
+    <path d="M 156 316 l -9 -20 M 156 316 l 9 20"/>
+    <path d="M 132 280 L 180 302 M 180 280 L 132 302"/>
+  </g>
+  <text x="40" y="356" font-family="Georgia, serif" font-size="21" fill="#111">In der Mitte ist sie am</text>
+  <text x="40" y="382" font-family="Georgia, serif" font-size="21" fill="#111">schnellsten und tiefsten.</text>
+  <text x="40" y="408" font-family="Georgia, serif" font-size="21" fill="#111">Der kürzeste Weg</text>
+  <text x="40" y="434" font-family="Georgia, serif" font-size="21" fill="#111">heraus führt QUER.</text>
+
+  <line x1="316" y1="120" x2="316" y2="456" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 2. alles weg ============ -->
+  <circle cx="342" cy="98" r="17" fill="#1d6b3a"/>
+  <text x="342" y="105" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">2</text>
+  <text x="370" y="105" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Alles weg</text>
+
+  <!-- Ski und Stoecke -->
+  <g stroke="#111" stroke-width="8" stroke-linecap="round">
+    <line x1="372" y1="176" x2="372" y2="284"/>
+    <line x1="398" y1="176" x2="398" y2="284"/>
+  </g>
+  <g stroke="#111" stroke-width="5" stroke-linecap="round">
+    <line x1="430" y1="176" x2="430" y2="284"/>
+    <line x1="452" y1="176" x2="452" y2="284"/>
+  </g>
+  <g stroke="#a3231a" stroke-width="6" fill="none">
+    <circle cx="412" cy="228" r="46"/>
+    <line x1="380" y1="196" x2="444" y2="260"/>
+  </g>
+  <g stroke="#a3231a" stroke-width="5" fill="none">
+    <path d="M 490 200 L 490 268"/>
+    <path d="M 490 268 l -10 -22 M 490 268 l 10 22"/>
+  </g>
+  <text x="510" y="232" font-family="Georgia, serif" font-size="21" fill="#a3231a">wirken wie</text>
+  <text x="510" y="258" font-family="Georgia, serif" font-size="21" fill="#a3231a">ein Anker</text>
+
+  <text x="342" y="356" font-family="Georgia, serif" font-size="21" fill="#111">Ski, Snowboard, Schuhe</text>
+  <text x="342" y="382" font-family="Georgia, serif" font-size="21" fill="#111">und Stöcke ziehen dich</text>
+  <text x="342" y="408" font-family="Georgia, serif" font-size="21" fill="#111">im fließenden Schnee</text>
+  <text x="342" y="434" font-family="Georgia, serif" font-size="21" fill="#111">in die Tiefe.</text>
+
+  <line x1="616" y1="120" x2="616" y2="456" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 3. oben bleiben ============ -->
+  <circle cx="642" cy="98" r="17" fill="#1d6b3a"/>
+  <text x="642" y="105" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">3</text>
+  <text x="670" y="105" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Oben bleiben</text>
+
+  <rect x="642" y="212" width="218" height="76" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <circle cx="700" cy="200" r="17" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <circle cx="800" cy="256" r="17" fill="#b9b4a6" stroke="#b9b4a6" stroke-width="4"/>
+  <text x="632" y="326" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Wer oben bleibt, wird</text>
+  <text x="632" y="352" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">gesehen und muss</text>
+  <text x="632" y="378" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">nicht gesucht werden.</text>
+  <text x="632" y="416" font-family="Georgia, serif" font-size="21" fill="#111">Der größte Unterschied,</text>
+  <text x="632" y="442" font-family="Georgia, serif" font-size="21" fill="#111">den du noch machst.</text>
+
+  <line x1="40" y1="456" x2="860" y2="456" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 4. der eine Handgriff ============ -->
+  <circle cx="60" cy="500" r="17" fill="#a3231a"/>
+  <text x="60" y="507" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">4</text>
+  <text x="88" y="507" font-family="Georgia, serif" font-size="23" fill="#a3231a">Kurz bevor es steht: Mund zu, Arme vor das Gesicht</text>
+
+  <!-- Kopf im Schnee, Arme davor, Hohlraum -->
+  <rect x="70" y="536" width="330" height="180" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <circle cx="176" cy="628" r="42" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- geschlossener Mund -->
+  <line x1="196" y1="640" x2="212" y2="640" stroke="#111" stroke-width="4"/>
+  <!-- Arme davor -->
+  <g stroke="#111" stroke-width="26" stroke-linecap="round" fill="none">
+    <path d="M 232 578 L 272 640"/>
+    <path d="M 236 690 L 276 636"/>
+  </g>
+  <g stroke="#c9c4b4" stroke-width="18" stroke-linecap="round" fill="none">
+    <path d="M 232 578 L 272 640"/>
+    <path d="M 236 690 L 276 636"/>
+  </g>
+  <!-- Hohlraum -->
+  <path d="M 214 592 q 52 36 0 76 q -30 -40 0 -76 Z" fill="#faf9f6" stroke="#d65a1a" stroke-width="5"/>
+  <line x1="240" y1="630" x2="414" y2="580" stroke="#d65a1a" stroke-width="2"/>
+  <text x="422" y="574" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Hohlraum vor Mund</text>
+  <text x="422" y="600" font-family="Georgia, serif" font-size="21" fill="#d65a1a">und Nase — daraus</text>
+  <text x="422" y="626" font-family="Georgia, serif" font-size="21" fill="#d65a1a">lebt ein Verschütteter,</text>
+  <text x="422" y="652" font-family="Georgia, serif" font-size="21" fill="#d65a1a">bis er ausgegraben ist</text>
+
+  <text x="40" y="756" font-family="Georgia, serif" font-size="21" fill="#111">Wer den Mund offen hat, bekommt ihn voll Schnee. Wer die Arme unten hat,</text>
+  <text x="40" y="782" font-family="Georgia, serif" font-size="21" fill="#111">liegt danach fest eingepackt, ohne Luft davor.</text>
+
+  <line x1="40" y1="812" x2="860" y2="812" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="40" y="846" font-family="Georgia, serif" font-size="23" fill="#a3231a">Der Schnee wird beim Stillstand sofort hart wie Beton. Was jetzt nicht vor dem</text>
+  <text x="40" y="876" font-family="Georgia, serif" font-size="23" fill="#a3231a">Gesicht ist, kommt danach nicht mehr dorthin.</text>
+</svg>

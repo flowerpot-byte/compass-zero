@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1470" viewBox="0 0 900 1470">
+  <!-- Zum Tipp "Kaliumpermanganat: die Farbe ist das Mass".
+       Dies ist einer der wenigen Faelle, in denen ein Bild etwas kann, was
+       Text nicht kann: Farben zeigen. Der Tipp misst an der Farbe, und drei
+       Felder nebeneinander sagen mehr als drei Farbwoerter.
+       ABER: Darunter steht ausdruecklich, dass die Felder Anhaltspunkte sind
+       und keine Farbnorm. Ein Feld auf einem Bildschirm oder Papier laesst
+       sich mit einer Fluessigkeit im Becher nicht genau vergleichen —
+       Beleuchtung, Gefaesstiefe und Druck veraendern alles. Was traegt, ist
+       die REIHE hell/dunkel/tiefrot, nicht der einzelne Farbwert. Ohne
+       diesen Satz waere das Bild genauer, als es sein darf.
+       Der Satz oben erklaert, warum es diesen Tipp ueberhaupt gibt: Die
+       Kristalle sind unterschiedlich gross, Abzaehlen fuehrt in die Irre.
+       Und das Verfahren prueft sich dadurch selbst — das kann sonst keines. -->
+  <rect width="900" height="1470" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Kaliumpermanganat: die Farbe ist das Maß</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Ein dunkelvioletter Kristall, jahrzehntelang haltbar, der drei verschiedene</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Dinge kann. Auch unter dem Namen „Condy’s Crystals“ verkauft.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="202" font-family="Georgia, serif" font-size="26" fill="#111">Die Kristalle sind unterschiedlich groß. Abzählen führt in</text>
+  <text x="40" y="234" font-family="Georgia, serif" font-size="26" fill="#111">die Irre — gemessen wird an der FARBE.</text>
+  <text x="40" y="270" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Damit prüft sich das Verfahren selbst. Das ist bei keinem anderen</text>
+  <text x="40" y="296" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Entkeimungsmittel so.</text>
+
+  <line x1="40" y1="332" x2="860" y2="332" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="372" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">So geht es</text>
+  <text x="40" y="410" font-family="Georgia, serif" font-size="21" fill="#111">Ein paar kleine Kristalle in einen Liter Wasser — drei sind ein Anhaltspunkt</text>
+  <text x="40" y="436" font-family="Georgia, serif" font-size="21" fill="#111">zum Anfangen, keine Vorschrift. DREISSIG MINUTEN warten. Dann die Farbe</text>
+  <text x="40" y="462" font-family="Georgia, serif" font-size="21" fill="#111">ansehen:</text>
+
+  <rect x="40" y="490" width="250" height="80" fill="#f4ccd8" stroke="#111" stroke-width="3"/>
+  <rect x="325" y="490" width="250" height="80" fill="#d4728f" stroke="#111" stroke-width="3"/>
+  <rect x="610" y="490" width="250" height="80" fill="#a01530" stroke="#111" stroke-width="3"/>
+
+  <text x="40" y="608" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">HELLROSA</text>
+  <text x="40" y="644" font-family="Georgia, serif" font-size="21" fill="#111">Das Wasser gilt als</text>
+  <text x="40" y="670" font-family="Georgia, serif" font-size="21" fill="#111">entkeimt. Trinkbar.</text>
+
+  <text x="325" y="608" font-family="Georgia, serif" font-size="23" fill="#d65a1a">DUNKELROSA</text>
+  <text x="325" y="644" font-family="Georgia, serif" font-size="21" fill="#111">ZU VIEL. So nicht</text>
+  <text x="325" y="670" font-family="Georgia, serif" font-size="21" fill="#111">trinken. Verdünnen —</text>
+  <text x="325" y="696" font-family="Georgia, serif" font-size="21" fill="#111">oder als DESINFEK-</text>
+  <text x="325" y="722" font-family="Georgia, serif" font-size="21" fill="#111">TIONSLÖSUNG für Haut</text>
+  <text x="325" y="748" font-family="Georgia, serif" font-size="21" fill="#111">und Gegenstände.</text>
+
+  <text x="610" y="608" font-family="Georgia, serif" font-size="23" fill="#a3231a">VOLLES ROT</text>
+  <text x="610" y="644" font-family="Georgia, serif" font-size="21" fill="#111">etwa wie Preiselbeer-</text>
+  <text x="610" y="670" font-family="Georgia, serif" font-size="21" fill="#111">saft. Nicht mehr zum</text>
+  <text x="610" y="696" font-family="Georgia, serif" font-size="21" fill="#111">Trinken. Dient als</text>
+  <text x="610" y="722" font-family="Georgia, serif" font-size="21" fill="#111">MITTEL GEGEN PILZ.</text>
+
+  <text x="40" y="800" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Aus einem einzigen Stoff werden so drei Mittel.</text>
+  <text x="40" y="836" font-family="Georgia, serif" font-size="21" fill="#111">Die zu starke Mischung ist kein Fehlschlag, sondern das nächste Mittel. In</text>
+  <text x="40" y="862" font-family="Georgia, serif" font-size="21" fill="#111">einer Lage, in der nichts nachkommt, ist das viel wert.</text>
+
+  <text x="40" y="906" font-family="Georgia, serif" font-size="19" fill="#a3231a">Die Farbfelder sind Anhaltspunkte, KEINE Farbnorm: Ein Feld auf einem Bildschirm oder</text>
+  <text x="40" y="930" font-family="Georgia, serif" font-size="19" fill="#a3231a">Papier lässt sich mit einer Flüssigkeit im Becher nicht genau vergleichen. Was trägt, ist</text>
+  <text x="40" y="954" font-family="Georgia, serif" font-size="19" fill="#a3231a">die Reihe hell — dunkel — tiefrot, nicht der einzelne Farbwert.</text>
+
+  <line x1="40" y1="990" x2="860" y2="990" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="1016" width="820" height="145" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="1056" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die Grenze, die es mit allen chemischen Mitteln teilt</text>
+  <text x="62" y="1092" font-family="Georgia, serif" font-size="21" fill="#111">Gegen bestimmte Einzeller, vor allem CRYPTOSPORIDIUM, wirken chemische</text>
+  <text x="62" y="1118" font-family="Georgia, serif" font-size="21" fill="#111">Entkeimungsmittel NICHT zuverlässig. Dagegen hilft nur Abkochen oder ein</text>
+  <text x="62" y="1144" font-family="Georgia, serif" font-size="21" fill="#111">richtiger Filter.</text>
+
+  <line x1="40" y1="1197" x2="860" y2="1197" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1237" font-family="Georgia, serif" font-size="21" fill="#111">Und wie bei jedem Mittel: Trübes Wasser wird ZUERST abgesetzt und durch ein</text>
+  <text x="40" y="1263" font-family="Georgia, serif" font-size="21" fill="#111">Tuch gefiltert, erst danach entkeimt. Ein Entkeimungsmittel arbeitet sich an</text>
+  <text x="40" y="1289" font-family="Georgia, serif" font-size="21" fill="#111">Schwebstoffen auf, statt an den Keimen.</text>
+
+  <line x1="40" y1="1325" x2="860" y2="1325" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1365" font-family="Georgia, serif" font-size="21" fill="#111">Der Stoff färbt alles, was er berührt — Haut, Kleidung, Gefäße — dauerhaft</text>
+  <text x="40" y="1391" font-family="Georgia, serif" font-size="21" fill="#111">braun. Das ist harmlos, aber man sollte es wissen, bevor man das gute Gefäß</text>
+  <text x="40" y="1417" font-family="Georgia, serif" font-size="21" fill="#111">nimmt.</text>
+  <text x="40" y="1455" font-family="Georgia, serif" font-size="19" fill="#111">(Der letzte Absatz ist die Einordnung dieses Pakets, nicht aus der Quelle.)</text>
+</svg>

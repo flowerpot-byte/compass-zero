@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1650" viewBox="0 0 900 1650">
+  <!-- Zum Tipp "Alkoholentzug kann toeten, Opiatentzug nicht".
+       Die Umkehrung steht ganz oben und in zwei gleich grossen Kaesten. Fast
+       jeder vermutet es andersherum, und die Reihenfolge im Fliesstext
+       aendert daran nichts — nebeneinander schon.
+       Der Quellenwiderspruch ist als ZWEI BALKEN gezeichnet, und das ist
+       genau, was der Tipp beschreibt: Oben stimmen sie ueberein, unten
+       liegen sie weit auseinander. Ein einzelner Balken haette eine
+       Einigkeit behauptet, die es nicht gibt; ein Mittelwert waere eine
+       erfundene Zahl. Massstab 10 Bildpunkte je Stunde, 0 bei x=100.
+       Die praktische Folgerung steht darunter in einem eigenen Kasten, weil
+       sie nicht aus einer der beiden Quellen kommt, sondern aus ihrem
+       Vergleich: das FRUEHERE Ende der einen und das SPAETERE der anderen.
+       Der Kasten weiter unten ist eine Luecke und keine Anleitung. Beide
+       Quellen setzen Beruhigungsmittel voraus, keine beschreibt einen Weg
+       ohne. Das gehoert dahin, wo man nach der Anleitung sucht. -->
+  <rect width="900" height="1650" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Alkoholentzug kann töten, Opiatentzug nicht</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Wenn der Nachschub abreißt, hören auch Abhängigkeiten auf — und das ist</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">nicht bei allen Stoffen harmlos. Die Reihenfolge widerspricht dem, was die</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">meisten vermuten.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="214" width="390" height="256" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <rect x="470" y="214" width="390" height="256" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+
+  <text x="62" y="256" font-family="Georgia, serif" font-size="26" fill="#a3231a">LEBENSGEFÄHRLICH</text>
+  <text x="62" y="296" font-family="Georgia, serif" font-size="21" fill="#111">Entzug von ALKOHOL,</text>
+  <text x="62" y="322" font-family="Georgia, serif" font-size="21" fill="#111">von BERUHIGUNGS-</text>
+  <text x="62" y="348" font-family="Georgia, serif" font-size="21" fill="#111">MITTELN aus der</text>
+  <text x="62" y="374" font-family="Georgia, serif" font-size="21" fill="#111">Benzodiazepin-Gruppe</text>
+  <text x="62" y="400" font-family="Georgia, serif" font-size="21" fill="#111">und von BARBITURATEN</text>
+  <text x="62" y="426" font-family="Georgia, serif" font-size="21" fill="#111">— die stecken auch in</text>
+  <text x="62" y="452" font-family="Georgia, serif" font-size="21" fill="#111">manchen Migränemitteln.</text>
+
+  <text x="492" y="256" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">NICHT LEBENS-</text>
+  <text x="492" y="288" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">GEFÄHRLICH</text>
+  <text x="492" y="330" font-family="Georgia, serif" font-size="21" fill="#111">Entzug von Opiaten.</text>
+  <text x="492" y="370" font-family="Georgia, serif" font-size="21" fill="#111">Er ist quälend, aber er</text>
+  <text x="492" y="396" font-family="Georgia, serif" font-size="21" fill="#111">bringt niemanden um.</text>
+
+  <text x="40" y="510" font-family="Georgia, serif" font-size="21" fill="#111">Bei langjährigem Gebrauch kann das Aufhören selbst töten. Beide Quellen</text>
+  <text x="40" y="536" font-family="Georgia, serif" font-size="21" fill="#111">ordnen es unabhängig voneinander gleich ein.</text>
+
+  <line x1="40" y1="572" x2="860" y2="572" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Der Quellenwiderspruch ============ -->
+  <text x="40" y="612" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ab wann — hier widersprechen sich die Quellen</text>
+
+  <text x="40" y="670" font-family="Georgia, serif" font-size="19" fill="#111">neueres Handbuch</text>
+  <rect x="220" y="646" width="600" height="34" fill="#d65a1a" stroke="#111" stroke-width="2"/>
+  <text x="40" y="730" font-family="Georgia, serif" font-size="19" fill="#111">älteres Handbuch</text>
+  <rect x="580" y="706" width="240" height="34" fill="#a9c4d4" stroke="#111" stroke-width="2"/>
+
+  <line x1="100" y1="762" x2="820" y2="762" stroke="#111" stroke-width="2"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="100" y1="762" x2="100" y2="772"/><line x1="220" y1="762" x2="220" y2="772"/>
+    <line x1="580" y1="762" x2="580" y2="772"/><line x1="820" y1="762" x2="820" y2="772"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="100" y="794">0</text><text x="220" y="794">12</text>
+    <text x="580" y="794">48</text><text x="820" y="794">72</text>
+  </g>
+  <text x="100" y="822" font-family="Georgia, serif" font-size="19" fill="#111">Stunden nach dem letzten Getränk</text>
+
+  <text x="40" y="862" font-family="Georgia, serif" font-size="21" fill="#111">Oben stimmen sie überein, unten liegen sie weit auseinander.</text>
+
+  <rect x="40" y="890" width="820" height="92" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="928" font-family="Georgia, serif" font-size="26" fill="#a3231a">Ab dem ERSTEN halben Tag damit rechnen — und bis</text>
+  <text x="62" y="960" font-family="Georgia, serif" font-size="26" fill="#a3231a">mindestens drei Tage niemanden allein lassen.</text>
+
+  <line x1="40" y1="1018" x2="860" y2="1018" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Stufenfolge ============ -->
+  <text x="40" y="1058" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Worauf du achtest — in der Reihenfolge, in der es kommt</text>
+
+  <g fill="#111">
+    <circle cx="60" cy="1096" r="17"/><circle cx="60" cy="1136" r="17"/>
+  </g>
+  <circle cx="60" cy="1176" r="17" fill="#a3231a"/>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="1103">1</text><text x="60" y="1143">2</text><text x="60" y="1183">3</text>
+  </g>
+  <text x="88" y="1103" font-family="Georgia, serif" font-size="21" fill="#111">erst feines Zittern, Unruhe und Sehstörungen</text>
+  <text x="88" y="1143" font-family="Georgia, serif" font-size="21" fill="#111">dann Übelkeit, Erschöpfung, Angst und Schlaflosigkeit</text>
+  <text x="88" y="1183" font-family="Georgia, serif" font-size="21" fill="#a3231a">und schließlich das Gefährliche: Erregung, Gereiztheit,</text>
+  <text x="88" y="1209" font-family="Georgia, serif" font-size="21" fill="#a3231a">Sinnestäuschungen, Wahnvorstellungen, Verwirrtheit und</text>
+  <text x="88" y="1235" font-family="Georgia, serif" font-size="21" fill="#a3231a">KRAMPFANFÄLLE</text>
+
+  <line x1="40" y1="1272" x2="860" y2="1272" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Luecke ============ -->
+  <rect x="40" y="1298" width="820" height="186" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="1340" font-family="Georgia, serif" font-size="26" fill="#a3231a">Beide Quellen setzen voraus, dass Beruhigungsmittel da sind.</text>
+  <text x="62" y="1376" font-family="Georgia, serif" font-size="21" fill="#111">Keine von beiden beschreibt einen Weg durch einen schweren Alkoholentzug</text>
+  <text x="62" y="1402" font-family="Georgia, serif" font-size="21" fill="#111">OHNE Medikamente. Das ist die ehrliche Auskunft.</text>
+  <text x="62" y="1440" font-family="Georgia, serif" font-size="21" fill="#111">Was bleibt und in beiden Büchern steht: die Person nicht allein lassen, vor</text>
+  <text x="62" y="1466" font-family="Georgia, serif" font-size="21" fill="#111">Verletzungen schützen, für Ruhe und Dunkelheit sorgen, Flüssigkeit anbieten.</text>
+
+  <text x="40" y="1546" font-family="Georgia, serif" font-size="26" fill="#a3231a">Wer noch Vorrat hat und abrupt aufhört, um „vernünftig“ zu</text>
+  <text x="40" y="1578" font-family="Georgia, serif" font-size="26" fill="#a3231a">sein, geht ein Risiko ein, das er beim Opiat nicht hätte.</text>
+  <text x="40" y="1614" font-family="Georgia, serif" font-size="21" fill="#111">Wer aufhören muss, weil nichts mehr da ist, hat keine Wahl. Bei Alkohol und</text>
+  <text x="40" y="1640" font-family="Georgia, serif" font-size="21" fill="#111">Beruhigungsmitteln ist langsames Ausschleichen der sicherere Weg.</text>
+</svg>

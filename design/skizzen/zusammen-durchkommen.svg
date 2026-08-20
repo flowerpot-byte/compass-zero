@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1310" viewBox="0 0 900 1310">
+  <!-- Zum Tipp "Zusammen durchkommen: reden hilft messbar".
+       Das Herzstueck ist der Abschnitt ueber Kinder, und zwar wegen eines
+       Fehlschlusses: Die Quelle beschreibt DREI Erscheinungsformen, und die
+       mittlere ist "gar keine auffaelligen Reaktionen". Als Fliesstext liest
+       man darueber hinweg und behaelt die auffaelligen. Nebeneinander
+       gestellt sieht man, dass das leere Feld genauso zur Reihe gehoert wie
+       die beiden anderen — deshalb drei gleich grosse Kaesten und der
+       mittlere rot umrandet.
+       Der Satz darunter steht in der groessten Schrift, weil er der ist, der
+       eine Fehlentscheidung verhindert.
+       Die drei Gruende oben sind nummeriert, weil die Quelle sie zaehlt. Der
+       dritte steht farbig, weil er der einzige ist, der eine HANDLUNG
+       verlangt: gemeinsam die naechsten Schritte planen statt auf den
+       Schaden zu sehen.
+       Bewusst keine gezeichneten Menschen. Ein Gespraech laesst sich nicht
+       zeichnen, ohne es zu verkleinern; was hier zaehlt, sind die Saetze. -->
+  <rect width="900" height="1310" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Zusammen durchkommen: reden hilft messbar</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">In einer Lage, die Wochen dauert, entscheidet nicht nur der Vorrat, sondern ob</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">die Menschen miteinander zurechtkommen.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="198" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Drei Gründe, warum Reden mehr ist als Trost</text>
+
+  <g fill="#111">
+    <circle cx="60" cy="236" r="17"/><circle cx="60" cy="283" r="17"/>
+  </g>
+  <circle cx="60" cy="330" r="17" fill="#d65a1a"/>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="243">1</text><text x="60" y="290">2</text><text x="60" y="337">3</text>
+  </g>
+  <text x="88" y="243" font-family="Georgia, serif" font-size="21" fill="#111">ÜBERBLICK über die Lage. Wer allein sitzt, malt sich das Schlimmste aus.</text>
+  <text x="88" y="290" font-family="Georgia, serif" font-size="21" fill="#111">NICHT ALLEIN sein mit seinen Ängsten.</text>
+  <text x="88" y="337" font-family="Georgia, serif" font-size="21" fill="#d65a1a">GEMEINSAM DIE NÄCHSTEN SCHRITTE planen — nicht nur auf den</text>
+  <text x="88" y="363" font-family="Georgia, serif" font-size="21" fill="#d65a1a">entstandenen Schaden schauen. Der Blick nach vorn ist eine Handlung.</text>
+
+  <line x1="40" y1="400" x2="860" y2="400" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="440" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Gegenseitige Hilfe gibt in einer Krise das Gefühl, etwas Sinnvolles</text>
+  <text x="40" y="468" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">zu tun — dadurch fühlt man sich weniger hilflos.</text>
+
+  <line x1="40" y1="504" x2="860" y2="504" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Das Herzstueck: wie Kinder es zeigen ============ -->
+  <text x="40" y="544" font-family="Georgia, serif" font-size="23" fill="#a3231a">Kinder zeigen Belastung anders als Erwachsene</text>
+
+  <rect x="40" y="574" width="260" height="186" rx="8" fill="none" stroke="#111" stroke-width="2"/>
+  <rect x="320" y="574" width="260" height="186" rx="8" fill="#f2ece2" stroke="#a3231a" stroke-width="4"/>
+  <rect x="600" y="574" width="260" height="186" rx="8" fill="none" stroke="#111" stroke-width="2"/>
+
+  <text x="60" y="612" font-family="Georgia, serif" font-size="21" fill="#111">UNRUHIG</text>
+  <text x="60" y="650" font-family="Georgia, serif" font-size="19" fill="#111">Konzentrations-</text>
+  <text x="60" y="674" font-family="Georgia, serif" font-size="19" fill="#111">schwierigkeiten</text>
+  <text x="60" y="698" font-family="Georgia, serif" font-size="19" fill="#111">oder Albträume.</text>
+
+  <text x="340" y="612" font-family="Georgia, serif" font-size="21" fill="#a3231a">GAR NICHTS</text>
+  <text x="340" y="650" font-family="Georgia, serif" font-size="19" fill="#111">Keine auffälligen</text>
+  <text x="340" y="674" font-family="Georgia, serif" font-size="19" fill="#111">Reaktionen —</text>
+  <text x="340" y="698" font-family="Georgia, serif" font-size="19" fill="#111">vielleicht entgegen</text>
+  <text x="340" y="722" font-family="Georgia, serif" font-size="19" fill="#111">der Erwartung.</text>
+
+  <text x="620" y="612" font-family="Georgia, serif" font-size="21" fill="#111">ÄNGSTLICH</text>
+  <text x="620" y="650" font-family="Georgia, serif" font-size="19" fill="#111">oder gereizt.</text>
+
+  <text x="40" y="806" font-family="Georgia, serif" font-size="26" fill="#a3231a">Ein Kind, das nichts zeigt, ist nicht unbedingt unbelastet.</text>
+  <text x="40" y="842" font-family="Georgia, serif" font-size="21" fill="#111">Für alle Fälle gilt dasselbe: Verständnis zeigen.</text>
+
+  <line x1="40" y1="878" x2="860" y2="878" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="918" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ein Weg, der ohne Gespräch auskommt</text>
+  <text x="40" y="956" font-family="Georgia, serif" font-size="21" fill="#111">Biete an, etwas GEMEINSAM zu machen. Manche Kinder drücken Gedanken und</text>
+  <text x="40" y="982" font-family="Georgia, serif" font-size="21" fill="#111">Gefühle besser über Malen oder Schreiben aus; kleinere gestalten sie im Spiel.</text>
+
+  <line x1="40" y1="1018" x2="860" y2="1018" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1058" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was vorher hilft</text>
+  <text x="40" y="1096" font-family="Georgia, serif" font-size="21" fill="#111">Mit Nachbarschaft, Familie und Freunden besprechen, wie man sich in einer</text>
+  <text x="40" y="1122" font-family="Georgia, serif" font-size="21" fill="#111">Notlage gegenseitig unterstützen kann. Manches lässt sich zusammen</text>
+  <text x="40" y="1148" font-family="Georgia, serif" font-size="21" fill="#111">anschaffen und teilen. Und im Ernstfall: amtliche Warnungen WEITERGEBEN —</text>
+  <text x="40" y="1174" font-family="Georgia, serif" font-size="21" fill="#111">nicht alle haben sie bekommen.</text>
+
+  <line x1="40" y1="1210" x2="860" y2="1210" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1252" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Die meisten Reaktionen auf Krisen sind NORMAL.</text>
+  <text x="40" y="1288" font-family="Georgia, serif" font-size="21" fill="#111">Nicht jedes veränderte Verhalten ist ein Schaden, der behandelt werden muss.</text>
+</svg>

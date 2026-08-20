@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580">
+  <!-- Zum Tipp erste-hilfe-schlaganfall.
+
+       GEZEIGTE AUSSAGE: die beiden Dinge, die nur die Person am Ort tun
+       kann. Der Tipp schreibt: "Merk dir, wann die Beschwerden angefangen
+       haben - danach richtet sich die Behandlung, und niemand sonst kann es
+       spaeter sagen." Und: "Bleib bei der Person, lass sie nichts essen und
+       nichts trinken, und lagere sie mit leicht erhoehtem Oberkoerper, wenn
+       sie bei Bewusstsein ist."
+
+       Die Uhrzeit ist der Kern. Sie kostet nichts, sie ist in zwei Sekunden
+       erledigt, und sie ist unwiederbringlich verloren, wenn sie niemand
+       festhaelt. Genau deshalb gehoert sie ins Bild und nicht in eine
+       Aufzaehlung, die man ueberliest.
+
+       Die Signalfarbe steht einmal, am Notruf: Der Tipp verlangt
+       ausdruecklich, den Verdacht beim Namen zu nennen, weil sich danach
+       richtet, wohin und wie schnell gefahren wird.
+
+       Neubau am 05.08.2026. Die erste Fassung hatte die Signalfarbe als
+       grosse orange Flaeche auf einem Lagerungskeil - also auf einem
+       harmlosen Gegenstand, waehrend im ganzen Bild keine gefaehrliche
+       Stelle markiert war. Sie zeichnete ausserdem "leicht erhoeht" als
+       Schraege von etwa 45 Grad, was das Gegenteil von leicht ist, und liess
+       die Uhrzeit und den Notruf ganz weg. -->
+
+  <rect width="900" height="580" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Schlaganfall: die zwei Dinge, die nur du tun kannst</text>
+  <line x1="40" y1="70" x2="860" y2="70" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <line x1="450" y1="94" x2="450" y2="430" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- ================= LINKS: die Uhrzeit ================= -->
+  <text x="240" y="122" font-family="Georgia, serif" font-size="20" fill="#111" text-anchor="middle">Wann hat es angefangen?</text>
+
+  <circle cx="240" cy="252" r="86" fill="#faf9f6" stroke="#111" stroke-width="5"/>
+  <g stroke="#111" stroke-width="3" stroke-linecap="round">
+    <line x1="240" y1="180" x2="240" y2="192"/>
+    <line x1="312" y1="252" x2="300" y2="252"/>
+    <line x1="240" y1="324" x2="240" y2="312"/>
+    <line x1="168" y1="252" x2="180" y2="252"/>
+  </g>
+  <g stroke="#5b7f96" stroke-width="2" stroke-linecap="round" opacity="0.7">
+    <line x1="276" y1="190" x2="270" y2="200"/>
+    <line x1="302" y1="216" x2="292" y2="222"/>
+    <line x1="302" y1="288" x2="292" y2="282"/>
+    <line x1="276" y1="314" x2="270" y2="304"/>
+    <line x1="204" y1="314" x2="210" y2="304"/>
+    <line x1="178" y1="288" x2="188" y2="282"/>
+    <line x1="178" y1="216" x2="188" y2="222"/>
+    <line x1="204" y1="190" x2="210" y2="200"/>
+  </g>
+  <line x1="240" y1="252" x2="240" y2="200" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+  <line x1="240" y1="252" x2="288" y2="272" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="240" cy="252" r="7" fill="#111"/>
+
+  <text x="240" y="382" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Die Uhrzeit merken oder aufschreiben.</text>
+  <text x="240" y="406" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Danach richtet sich die Behandlung —</text>
+  <text x="240" y="430" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">und niemand sonst kann sie später sagen.</text>
+
+  <!-- ================= RECHTS: warten, lagern, nichts geben ================= -->
+  <text x="676" y="122" font-family="Georgia, serif" font-size="20" fill="#111" text-anchor="middle">Bis Hilfe kommt</text>
+
+  <!-- Boden -->
+  <line x1="500" y1="330" x2="860" y2="330" stroke="#111" stroke-width="3"/>
+  <!-- flache Stuetze: leicht erhoeht heisst wirklich leicht -->
+  <path d="M 690,330 L 826,330 L 826,290 Z" fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Person, Oberkoerper nur wenig angehoben -->
+  <path d="M 520,322 L 800,286" stroke="#111" stroke-width="34" stroke-linecap="round" fill="none"/>
+  <path d="M 520,322 L 800,286" stroke="#e6e2d6" stroke-width="28" stroke-linecap="round" fill="none"/>
+  <circle cx="826" cy="278" r="24" fill="#e6e2d6" stroke="#111" stroke-width="3.5"/>
+
+  <!-- nichts essen, nichts trinken -->
+  <path d="M 528,208 L 576,208 L 568,262 L 536,262 Z" fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="552" cy="234" r="38" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="525" y1="207" x2="579" y2="261" stroke="#111" stroke-width="4"/>
+  <text x="604" y="228" font-family="Georgia, serif" font-size="18" fill="#111">nichts essen,</text>
+  <text x="604" y="250" font-family="Georgia, serif" font-size="18" fill="#111">nichts trinken</text>
+
+  <text x="500" y="382" font-family="Georgia, serif" font-size="19" fill="#111">Oberkörper nur LEICHT erhöht,</text>
+  <text x="500" y="406" font-family="Georgia, serif" font-size="19" fill="#111">solange sie bei Bewusstsein ist.</text>
+
+  <!-- ================= Schlusszeilen ================= -->
+  <text x="40" y="494" font-family="Georgia, serif" font-size="20" fill="#d65a1a">Sofort 112 rufen und ausdrücklich sagen, dass du einen Schlaganfall vermutest.</text>
+  <text x="40" y="530" font-family="Georgia, serif" font-size="19" fill="#111">Wird sie bewusstlos: Reaktion und Atmung prüfen, dann nach den Tipps zur</text>
+  <text x="40" y="554" font-family="Georgia, serif" font-size="19" fill="#111">Wiederbelebung vorgehen.</text>
+</svg>

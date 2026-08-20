@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Nullbruch</title>
+  <path d="M 372 177 A 130 175 0 0 1 197 412" fill="none" stroke="#0A0A0A" stroke-width="48" stroke-linecap="round"/>
+  <path d="M 116 335 A 130 175 0 0 1 315 100" fill="none" stroke="#0A0A0A" stroke-width="48" stroke-linecap="round"/>
+  <polygon points="372,100 240,244 272,268" fill="#FF4D00"/>
+  <polygon points="140,412 272,268 240,244" fill="#0A0A0A"/>
+</svg>

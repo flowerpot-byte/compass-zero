@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1556" viewBox="0 0 900 1556">
+  <!-- Zum Tipp "Waschen, wenn Duschen nicht geht: vier Stellen".
+       Bewusst KEIN Koerperschema, obwohl die vier Stellen raeumlich sind.
+       Vier Woerter in einer Zeile behaelt man; eine Figur mit vier
+       markierten Flaechen muss man erst lesen. Und der Grund traegt hier
+       mehr als der Ort: Es sind die Stellen, an denen Feuchtigkeit und
+       Reibung zusammenkommen — wer das weiss, findet auch die fuenfte.
+       (Anders als bei der Unterkuehlung, wo die Zuordnung von Flaeche zu
+       Erlaubnis der ganze Inhalt war.)
+       Der Kasten mit dem Haendewaschen steht eigens, weil die Quelle ihn als
+       den einen Satz bezeichnet, der mehr verhindert als alles andere.
+       Der Laeuse-Kasten sagt, was fast jeder falsch macht: nur den Menschen
+       behandeln. Ohne die Kleidung faengt man am naechsten Tag von vorn an.
+       Der letzte Kasten ist eine LUECKE und kein Rat. Wer jemanden im Bett
+       pflegt, soll wissen, dass hier nichts steht — statt zu suchen. -->
+  <rect width="900" height="1556" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Waschen, wenn Duschen nicht geht: vier Stellen</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Hautkrankheiten sind ohne fließendes Wasser keine Frage der Eitelkeit — sie</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">machen Menschen arbeitsunfähig.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="198" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die vier Stellen, wenn ein ganzes Bad nicht geht</text>
+  <text x="40" y="244" font-family="Georgia, serif" font-size="26" fill="#111">GESICHT · ACHSELN · LEISTE · FÜSSE</text>
+  <text x="40" y="282" font-family="Georgia, serif" font-size="21" fill="#111">In dieser Reihenfolge steht es da — und es sind genau die Stellen, an denen</text>
+  <text x="40" y="308" font-family="Georgia, serif" font-size="21" fill="#111">Feuchtigkeit und Reibung zusammenkommen. Mit einer Schüssel Wasser ist</text>
+  <text x="40" y="334" font-family="Georgia, serif" font-size="21" fill="#111">das zu schaffen.</text>
+
+  <line x1="40" y1="370" x2="860" y2="370" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="394" width="820" height="96" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <text x="62" y="432" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Hände waschen nach dem Abort und vor dem Essen.</text>
+  <text x="62" y="468" font-family="Georgia, serif" font-size="21" fill="#111">Der eine Satz, der mehr Krankheit verhindert als alles andere hier.</text>
+
+  <line x1="40" y1="526" x2="860" y2="526" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="566" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Füße bekommen eine eigene Reihenfolge</text>
+  <text x="40" y="604" font-family="Georgia, serif" font-size="21" fill="#111">An ihnen scheitern ganze Gruppen.</text>
+  <text x="40" y="640" font-family="Georgia, serif" font-size="21" fill="#111">· sauber halten und nach dem Waschen GUT ABTROCKNEN</text>
+  <text x="40" y="666" font-family="Georgia, serif" font-size="21" fill="#111">· wenn möglich zweimal täglich einreiben und pudern</text>
+  <text x="40" y="692" font-family="Georgia, serif" font-size="21" fill="#111">· Socken täglich wechseln — oder sobald sie nass sind</text>
+
+  <line x1="40" y1="728" x2="860" y2="728" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="768" font-family="Georgia, serif" font-size="21" fill="#111">Gegen Wundgehen in der Leiste und zwischen den Gesäßbacken helfen</text>
+  <text x="40" y="794" font-family="Georgia, serif" font-size="21" fill="#111">Zinksalbe oder SPEISESTÄRKE. Die Speisestärke ist der Teil, an den niemand</text>
+  <text x="40" y="820" font-family="Georgia, serif" font-size="21" fill="#111">denkt und den fast jeder im Haus hat.</text>
+
+  <line x1="40" y1="856" x2="860" y2="856" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="889" width="820" height="119" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="928" font-family="Georgia, serif" font-size="23" fill="#a3231a">Bei Läusen: der Mensch allein genügt nicht.</text>
+  <text x="62" y="964" font-family="Georgia, serif" font-size="21" fill="#111">Baden mit scharfer Seife befreit den Menschen davon. Aber die KLEIDUNG</text>
+  <text x="62" y="990" font-family="Georgia, serif" font-size="21" fill="#111">muss ausgezogen und gewaschen werden, sonst befällt sie ihn sofort wieder.</text>
+
+  <text x="40" y="1048" font-family="Georgia, serif" font-size="21" fill="#111">Wer nur den Menschen behandelt und die Kleidung liegen lässt, fängt am</text>
+  <text x="40" y="1074" font-family="Georgia, serif" font-size="21" fill="#111">nächsten Tag von vorn an.</text>
+
+  <line x1="40" y1="1110" x2="860" y2="1110" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1150" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Eine Handwaschstelle ohne Leitung</text>
+  <text x="40" y="1188" font-family="Georgia, serif" font-size="21" fill="#111">Ein Wasserkanister, aus dem sich ein dünner Strahl ablassen lässt — und</text>
+  <text x="40" y="1214" font-family="Georgia, serif" font-size="21" fill="#111">daneben ein Stück unparfümierte Seife IN EINEM STRUMPF aufgehängt.</text>
+  <text x="40" y="1250" font-family="Georgia, serif" font-size="21" fill="#111">Der Strumpf verhindert, dass die Seife in den Dreck fällt und weggetragen</text>
+  <text x="40" y="1276" font-family="Georgia, serif" font-size="21" fill="#111">wird. So etwas gehört ausdrücklich AUSSERHALB jeder Latrine.</text>
+
+  <line x1="40" y1="1312" x2="860" y2="1312" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="1341" width="820" height="145" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="62" y="1380" font-family="Georgia, serif" font-size="23" fill="#111">Was in den Quellen nicht steht</text>
+  <text x="62" y="1416" font-family="Georgia, serif" font-size="21" fill="#111">Eine Anleitung zum Waschen eines Menschen, der nicht aufstehen kann. Beide</text>
+  <text x="62" y="1442" font-family="Georgia, serif" font-size="21" fill="#111">Handbücher beschreiben nur Feldhygiene für Gehfähige. Wer jemanden im Bett</text>
+  <text x="62" y="1468" font-family="Georgia, serif" font-size="21" fill="#111">pflegt, findet hier die vier Stellen und sonst nichts.</text>
+
+  <text x="40" y="1526" font-family="Georgia, serif" font-size="21" fill="#111">Das ist eine Lücke und keine Auslassung.</text>
+</svg>

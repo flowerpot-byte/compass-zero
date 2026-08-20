@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1378" viewBox="0 0 900 1378">
+  <!-- Zum Tipp "Lungenentzuendung erkennen".
+       Der Tipp nennt selbst zwei Fragen, die sie am besten von einer
+       Erkaeltung trennen. Sie stehen deshalb ganz oben und als Fragen, nicht
+       als Merkmalsliste: Wer sie stellt, hat die Unterscheidung.
+       Die vier Merkmale mit der Schwelle "mehr als zwei" sind eine Regel und
+       keine Aufzaehlung. Direkt darunter steht der Grund, warum die Schwelle
+       zaehlt, und der ist nur als Vergleich zu begreifen: 10 bis 25 von
+       hundert gegen weniger als einer von hundert. Zwei Balken auf derselben
+       Achse zeigen den Abstand; als zwei Zahlen im Satz liest man darueber
+       hinweg. Der Massstab stimmt: 0 bis 30 ueber 480 Bildpunkte, 16 Punkte
+       je Einheit.
+       Die Grundwerte stehen zuletzt, weil sie das sind, was man taeglich
+       tut, und nicht das, was man einmal entscheidet.
+       Ohne Sinnbild gezeichnet: Eine gezeichnete Lunge traegt hier nichts
+       bei, weil man nichts davon sieht. -->
+  <rect width="900" height="1378" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Lungenentzündung erkennen</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Die Lungenentzündung ist weltweit eine der häufigsten Todesursachen. Sie von</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">einer Erkältung zu unterscheiden, ist eine der nützlichsten Fähigkeiten in einer</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">langen Krise.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Zwei Fragen ============ -->
+  <text x="40" y="224" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zwei Fragen trennen sie am besten von einer Erkältung</text>
+
+  <text x="40" y="266" font-family="Georgia, serif" font-size="23" fill="#a3231a">TUT DAS ATMEN WEH?</text>
+  <text x="40" y="302" font-family="Georgia, serif" font-size="21" fill="#111">Der Brustschmerz einer Lungenentzündung wird beim Husten und beim tiefen</text>
+  <text x="40" y="328" font-family="Georgia, serif" font-size="21" fill="#111">Einatmen deutlich schlimmer.</text>
+
+  <text x="40" y="370" font-family="Georgia, serif" font-size="23" fill="#a3231a">WIE SCHNELL KAM ES?</text>
+  <text x="40" y="406" font-family="Georgia, serif" font-size="21" fill="#111">Die klassische Form kommt plötzlich, mit hohem Fieber nach Schüttelfrost —</text>
+  <text x="40" y="432" font-family="Georgia, serif" font-size="21" fill="#111">binnen Stunden schwer krank. Die stillere Form beginnt über mehrere Tage</text>
+  <text x="40" y="458" font-family="Georgia, serif" font-size="21" fill="#111">mit leichtem Fieber und Abgeschlagenheit.</text>
+
+  <text x="40" y="498" font-family="Georgia, serif" font-size="21" fill="#111">Verfärbter Auswurf spricht für eine bakterielle Ursache. Wer sich stundenlang</text>
+  <text x="40" y="524" font-family="Georgia, serif" font-size="21" fill="#111">auf die schmerzende Seite legt, weil es nur so auszuhalten ist, hat womöglich</text>
+  <text x="40" y="550" font-family="Georgia, serif" font-size="21" fill="#111">Eiter im Brustfell — ein eigener, schwererer Fall.</text>
+
+  <line x1="40" y1="586" x2="860" y2="586" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Vier Merkmale ============ -->
+  <text x="40" y="626" font-family="Georgia, serif" font-size="23" fill="#a3231a">Vier Merkmale — mehr als zwei davon heißt Krankenhaus</text>
+  <text x="40" y="664" font-family="Georgia, serif" font-size="21" fill="#111">· älter als 65 Jahre</text>
+  <text x="40" y="690" font-family="Georgia, serif" font-size="21" fill="#111">· ein geschwächtes Abwehrsystem durch eine chronische Krankheit</text>
+  <text x="40" y="716" font-family="Georgia, serif" font-size="21" fill="#111">· deutlich veränderte Grundwerte: Fieber über 38,9 Grad, beschleunigte Atmung</text>
+  <text x="40" y="742" font-family="Georgia, serif" font-size="21" fill="#111">  oder niedriger Blutdruck</text>
+  <text x="40" y="768" font-family="Georgia, serif" font-size="21" fill="#111">· Veränderungen im Wachheitszustand: Verwirrtheit oder Benommenheit</text>
+
+  <text x="40" y="808" font-family="Georgia, serif" font-size="21" fill="#111">Der Unterschied ist gewaltig — Sterblichkeit:</text>
+
+  <rect x="320" y="828" width="400" height="30" fill="#a3231a" stroke="#111" stroke-width="3"/>
+  <text x="40" y="848" font-family="Georgia, serif" font-size="19" fill="#a3231a">mehr als zwei</text>
+  <text x="732" y="848" font-family="Georgia, serif" font-size="19" fill="#a3231a">10 bis 25 von 100</text>
+
+  <rect x="320" y="872" width="16" height="30" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <text x="40" y="892" font-family="Georgia, serif" font-size="19" fill="#111">alle anderen</text>
+  <text x="348" y="892" font-family="Georgia, serif" font-size="19" fill="#111">weniger als 1 von 100</text>
+
+  <line x1="320" y1="918" x2="800" y2="918" stroke="#111" stroke-width="2"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="320" y1="918" x2="320" y2="926"/><line x1="480" y1="918" x2="480" y2="926"/>
+    <line x1="640" y1="918" x2="640" y2="926"/><line x1="800" y1="918" x2="800" y2="926"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="320" y="944">0</text><text x="480" y="944">10</text>
+    <text x="640" y="944">20</text><text x="800" y="944">30 von 100</text>
+  </g>
+
+  <line x1="40" y1="980" x2="860" y2="980" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Grundwerte ============ -->
+  <text x="40" y="1020" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Grundwerte, ab denen es auffällig wird</text>
+  <text x="40" y="1058" font-family="Georgia, serif" font-size="21" fill="#111">· Fieber über 38,3 Grad</text>
+  <text x="40" y="1084" font-family="Georgia, serif" font-size="21" fill="#111">· mehr als 14 Atemzüge in der Minute</text>
+  <text x="40" y="1110" font-family="Georgia, serif" font-size="21" fill="#111">· Ruhepuls über 90</text>
+
+  <text x="40" y="1150" font-family="Georgia, serif" font-size="21" fill="#a3231a">Blaue Lippen oder blaue Fingernägel sind ein spätes und schlechtes Zeichen.</text>
+
+  <text x="40" y="1186" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Atemzüge und Puls lassen sich mit einer Uhr zählen — und genau das sollte man</text>
+  <text x="40" y="1212" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">täglich tun, wenn jemand krank ist.</text>
+
+  <line x1="40" y1="1248" x2="860" y2="1248" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1288" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus der Quelle: Behandelt wird mit Antibiotika, und die</text>
+  <text x="40" y="1312" font-family="Georgia, serif" font-size="19" fill="#111">Quelle betont, dass Verzögerung den Verlauf verschlechtert. Ohne sie bleibt Pflege:</text>
+  <text x="40" y="1336" font-family="Georgia, serif" font-size="19" fill="#111">aufrecht lagern statt flach, viel trinken, warm halten, Ruhe — und täglich Atemzüge und</text>
+  <text x="40" y="1360" font-family="Georgia, serif" font-size="19" fill="#111">Puls zählen. Steigen beide oder werden die Lippen blau: alles versuchen, Hilfe zu holen.</text>
+</svg>

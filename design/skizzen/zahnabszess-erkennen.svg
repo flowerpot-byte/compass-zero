@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Tipp medizin-zahnabszess-erkennen.
+
+       GEZEIGTE AUSSAGE: der Punkt, ab dem ein Zahnabszess kein Zahnproblem
+       mehr ist. Der Tipp schreibt: "DAS IST DIE GEFAEHRLICHE RICHTUNG:
+       Breitet sich die Entzuendung unter der Zunge und in die Halsweichteile
+       aus, kann sie den Rachen zuschwellen lassen. Das gilt ausdruecklich
+       als schwerwiegend und moeglicherweise toedlich." Und er nennt die
+       Zeichen, bei denen es eilt.
+
+       Gezeichnet ist deshalb NICHT der Weg des Eiters im Kiefer - den kann
+       niemand sehen, und danach kann auch niemand handeln -, sondern WO man
+       hinsehen und hinfassen muss: unter das Kinn und an den Hals. Die
+       Schwellung ist als Ausbuchtung der Umrisslinie gezeichnet, also als
+       Form, nicht als Farbfleck.
+
+       Die Signalfarbe steht einmal, am Hals: dort entscheidet sich, ob aus
+       einem Zahnschmerz eine Bedrohung der Atemwege wird.
+
+       Neubau am 05.08.2026. Die erste Fassung zeigte den Durchbruchsweg im
+       Kiefer, und zwar unlesbar: ein beiger Kasten als Kiefer, ein Trapez
+       als Zahn, eine schwebende Ellipse als Zunge und ein Pfeil, der ins
+       Leere lief. Dazu stand das obere Drittel der Leinwand leer. Selbst
+       richtig gezeichnet haette dieses Bild nur etwas gezeigt, wonach man
+       nicht handeln kann. -->
+
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Zahnabszess: ab wann es die Atemwege bedroht</text>
+  <text x="40" y="76" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Dann ist es kein Zahnproblem mehr. Sieh und taste hier nach.</text>
+
+  <!-- ===================== Kopf und Hals von vorn ===================== -->
+  <!-- Schultern -->
+  <path d="M 120,560 C 130,470 190,436 250,428 L 330,428 C 390,436 450,470 460,560 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Hals, an beiden Seiten geschwollen: die Umrisslinie beult aus -->
+  <path d="M 248,352 C 226,376 220,402 250,430 L 330,430 C 360,402 354,376 332,352 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Kopf -->
+  <ellipse cx="290" cy="252" rx="86" ry="100" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <circle cx="258" cy="234" r="6" fill="#111"/>
+  <circle cx="322" cy="234" r="6" fill="#111"/>
+  <line x1="270" y1="302" x2="310" y2="302" stroke="#111" stroke-width="3"/>
+
+  <!-- Die Schwellung unter dem Kinn, als eigene Woelbung -->
+  <path d="M 236,340 C 254,372 326,372 344,340 C 340,378 300,392 268,388 C 250,384 238,366 236,340 Z"
+        fill="#7a5a3e" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Die eine Signalstelle: der Hals -->
+  <path d="M 214,404 C 214,444 366,444 366,404" fill="none" stroke="#d65a1a" stroke-width="6" stroke-linecap="round"/>
+
+  <line x1="470" y1="368" x2="352" y2="368" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="478" y="356" font-family="Georgia, serif" font-size="17" fill="#111">Schwellung unter</text>
+  <text x="478" y="376" font-family="Georgia, serif" font-size="17" fill="#111">dem Kinn</text>
+
+  <line x1="470" y1="428" x2="372" y2="424" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="478" y="422" font-family="Georgia, serif" font-size="17" fill="#d65a1a">Schwellung am Hals:</text>
+  <text x="478" y="442" font-family="Georgia, serif" font-size="17" fill="#d65a1a">der Rachen kann zuschwellen</text>
+
+  <!-- ===================== Die Zeichen, bei denen es eilt ===================== -->
+  <text x="478" y="140" font-family="Georgia, serif" font-size="21" fill="#111">Es eilt bei diesen Zeichen:</text>
+
+  <g font-family="Georgia, serif" font-size="18" fill="#111">
+    <text x="500" y="180">— Schwellung unter dem Kinn oder am Hals</text>
+    <text x="500" y="212">— Schluckbeschwerden</text>
+    <text x="500" y="244">— kloßige Sprache</text>
+    <text x="500" y="276">— der Mund lässt sich nicht mehr weit öffnen</text>
+    <text x="500" y="308">— Atemnot</text>
+  </g>
+
+  <text x="40" y="576" font-family="Georgia, serif" font-size="18" fill="#111">Der Tipp nennt das ausdrücklich schwerwiegend und möglicherweise tödlich.</text>
+  <text x="40" y="600" font-family="Georgia, serif" font-size="18" fill="#111">Ab diesen Zeichen zählt jede Stunde.</text>
+</svg>

@@ -1,0 +1,22 @@
+.gradle/
+build/
+.idea/
+.kotlin/
+*.iml
+local.properties
+keys/
+*.secret
+work/
+
+# Pruefsonden der Review-Durchgaenge: laufen im Testbaum mit, gehoeren aber
+# nie in die Versionierung. Einmal ist genau das versehentlich passiert.
+**/PruefsondeTest.kt
+
+# Signiertes Inhaltspaket: Bauergebnis, wird aus content/ erzeugt
+androidApp/src/main/assets/*.czp
+
+# Kartendaten: Rohdaten, Zwischendatei und gebaute Karte sind zu gross fuers
+# Repo und jederzeit aus tools/karte/ neu herstellbar.
+androidApp/src/main/assets/karte.czk
+__pycache__/
+androidApp/src/main/assets/hoehen.czh

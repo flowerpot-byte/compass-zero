@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Basislager</title>
+  <ellipse cx="256" cy="256" rx="130" ry="175" fill="none" stroke="#0A0A0A" stroke-width="44"/>
+  <polygon points="186,330 256,180 326,330" fill="#0A0A0A"/>
+  <polygon points="240,330 256,266 272,330" fill="#FF4D00"/>
+</svg>

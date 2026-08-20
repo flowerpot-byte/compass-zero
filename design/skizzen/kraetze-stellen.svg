@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp medizin-kraetze.
+
+       GEZEIGTE AUSSAGE: Die Stellen, an denen man die Kraetze suchen muss,
+       sind raeumlich festgelegt und in Worten muehsam aufzuzaehlen, im Bild
+       aber auf einen Blick zu erfassen. Wortlaut des Tipps: "Wo man suchen
+       muss, steht genau fest: in den Zwischenraeumen der Finger und Zehen,
+       in den Achseln, in den Beugen von Armen und Beinen und im
+       Genitalbereich, bei Frauen auch um die Brustwarzen."
+
+       REGEL gross: die markierten (gefuellten) Stellen an Haenden, Fuessen,
+       Achseln, Armbeugen, Kniebeugen und im Genitalbereich - alle in
+       derselben Flaechenfarbe, damit die Fuellung selbst der Code ist.
+
+       AUSNAHME klein: "Kopf und Gesicht bleiben in der Regel verschont -
+       das unterscheidet die Kraetze von vielem anderen." Deshalb bleibt der
+       Kopf im Bild ohne Fuellung (nur Grundton) und die Beschriftung dazu
+       ist bewusst kuerzer und kleiner gesetzt als die uebrigen.
+
+       Keine Signalfarbe verwendet: In diesem Tippabschnitt (den Suchstellen)
+       steht keine Aussage, bei der ein Fehler gefaehrlich waere - die
+       Signalfarbe #d65a1a waere hier unbegruendet und bleibt deshalb aus.
+
+       Der Hinweis zu Frauen (Brustwarzen) ist eine kleine Ergaenzung der
+       Regel, keine eigene Aussage - deshalb kleiner gesetzt, mit eigenen
+       kleinen Punkten statt einer grossen Flaeche. -->
+
+  <rect width="900" height="600" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Krätze: wo man suchen muss</text>
+  <text x="40" y="74" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Leitzeichen: ein Juckreiz, der nachts deutlich schlimmer wird.</text>
+  <line x1="40" y1="90" x2="860" y2="90" stroke="#e6e2d6" stroke-width="2"/>
+
+  <!-- ===================== Legende oben rechts ===================== -->
+  <circle cx="614" cy="54" r="9" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <text x="632" y="59" font-family="Georgia, serif" font-size="16" fill="#111">markierte Stelle: dort suchen</text>
+  <circle cx="614" cy="80" r="9" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+  <text x="632" y="85" font-family="Georgia, serif" font-size="16" fill="#111">ohne Füllung: meist frei</text>
+
+  <!-- ===================== Koerper, von vorn ===================== -->
+  <!-- Die ganze Figur steht 50px hoeher als gezeichnet, damit unten Platz
+       fuer die Fuesse UND die letzte Textzeile bleibt, ohne dass sich beide
+       beruehren. -->
+  <g transform="translate(0,-50)">
+  <!-- Kopf: bewusst OHNE Fuellfarbe - das ist die Ausnahme -->
+  <circle cx="260" cy="190" r="40" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <!-- Hals -->
+  <rect x="246" y="226" width="28" height="26" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <!-- Rumpf -->
+  <path d="M 196,252 L 324,252 L 312,432 L 208,432 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Arme, gebeugt: Oberarm nach aussen-unten, Unterarm zurueck nach oben -->
+  <g stroke="#111" stroke-width="26" stroke-linecap="round" fill="none">
+    <path d="M 324,258 L 392,302"/>
+    <path d="M 392,302 L 356,222"/>
+    <path d="M 196,258 L 128,302"/>
+    <path d="M 128,302 L 164,222"/>
+  </g>
+  <g stroke="#e6e2d6" stroke-width="20" stroke-linecap="round" fill="none">
+    <path d="M 324,258 L 392,302"/>
+    <path d="M 392,302 L 356,222"/>
+    <path d="M 196,258 L 128,302"/>
+    <path d="M 128,302 L 164,222"/>
+  </g>
+
+  <!-- Haende: gespreizte Finger, direkt in der Markierungsfarbe.
+       Die Zwischenraeume sind die Luecken zwischen den Fingern. -->
+  <g stroke="#111" stroke-width="8" stroke-linecap="round">
+    <path d="M 356,222 L 330,198"/>
+    <path d="M 356,222 L 344,190"/>
+    <path d="M 356,222 L 360,186"/>
+    <path d="M 356,222 L 376,192"/>
+    <path d="M 356,222 L 388,208"/>
+    <path d="M 164,222 L 190,198"/>
+    <path d="M 164,222 L 176,190"/>
+    <path d="M 164,222 L 160,186"/>
+    <path d="M 164,222 L 144,192"/>
+    <path d="M 164,222 L 132,208"/>
+  </g>
+  <g stroke="#d9c98a" stroke-width="5" stroke-linecap="round">
+    <path d="M 356,222 L 330,198"/>
+    <path d="M 356,222 L 344,190"/>
+    <path d="M 356,222 L 360,186"/>
+    <path d="M 356,222 L 376,192"/>
+    <path d="M 356,222 L 388,208"/>
+    <path d="M 164,222 L 190,198"/>
+    <path d="M 164,222 L 176,190"/>
+    <path d="M 164,222 L 160,186"/>
+    <path d="M 164,222 L 144,192"/>
+    <path d="M 164,222 L 132,208"/>
+  </g>
+
+  <!-- Beine, gebeugt: Oberschenkel nach aussen, Unterschenkel zurueck zur Mitte -->
+  <g stroke="#111" stroke-width="32" stroke-linecap="round" fill="none">
+    <path d="M 312,432 L 368,486"/>
+    <path d="M 368,486 L 306,566"/>
+    <path d="M 208,432 L 152,486"/>
+    <path d="M 152,486 L 214,566"/>
+  </g>
+  <g stroke="#e6e2d6" stroke-width="26" stroke-linecap="round" fill="none">
+    <path d="M 312,432 L 368,486"/>
+    <path d="M 368,486 L 306,566"/>
+    <path d="M 208,432 L 152,486"/>
+    <path d="M 152,486 L 214,566"/>
+  </g>
+
+  <!-- Fuesse: kleine gespreizte Zehen, in der Markierungsfarbe -->
+  <g stroke="#111" stroke-width="7" stroke-linecap="round">
+    <path d="M 306,566 L 284,580"/>
+    <path d="M 306,566 L 298,588"/>
+    <path d="M 306,566 L 314,588"/>
+    <path d="M 306,566 L 328,580"/>
+    <path d="M 214,566 L 236,580"/>
+    <path d="M 214,566 L 222,588"/>
+    <path d="M 214,566 L 206,588"/>
+    <path d="M 214,566 L 192,580"/>
+  </g>
+  <g stroke="#d9c98a" stroke-width="4" stroke-linecap="round">
+    <path d="M 306,566 L 284,580"/>
+    <path d="M 306,566 L 298,588"/>
+    <path d="M 306,566 L 314,588"/>
+    <path d="M 306,566 L 328,580"/>
+    <path d="M 214,566 L 236,580"/>
+    <path d="M 214,566 L 222,588"/>
+    <path d="M 214,566 L 206,588"/>
+    <path d="M 214,566 L 192,580"/>
+  </g>
+
+  <!-- Achseln -->
+  <ellipse cx="326" cy="278" rx="13" ry="9" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <ellipse cx="194" cy="278" rx="13" ry="9" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+
+  <!-- Armbeugen (innen am Ellenbogen) -->
+  <ellipse cx="358" cy="272" rx="12" ry="9" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <ellipse cx="162" cy="272" rx="12" ry="9" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+
+  <!-- Kniebeugen (innen am Knie) -->
+  <ellipse cx="332" cy="478" rx="13" ry="10" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <ellipse cx="188" cy="478" rx="13" ry="10" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+
+  <!-- Genitalbereich -->
+  <ellipse cx="260" cy="428" rx="18" ry="11" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+
+  <!-- Brustwarzen (nur bei Frauen), bewusst klein: kleine Ergaenzung, keine eigene Flaeche -->
+  <circle cx="236" cy="322" r="4" fill="#d9c98a" stroke="#111" stroke-width="1.5"/>
+  <circle cx="284" cy="322" r="4" fill="#d9c98a" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- ===================== Beschriftungen rechts ===================== -->
+  <!-- Ausnahme, klein und zuerst: Kopf und Gesicht bleiben ohne Fuellung -->
+  <line x1="500" y1="122" x2="288" y2="112" stroke="#5b7f96" stroke-width="1"/>
+  <text x="510" y="118" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Kopf und Gesicht:</text>
+  <text x="510" y="138" font-family="Georgia, serif" font-size="16" fill="#5b7f96">in der Regel verschont</text>
+
+  <line x1="500" y1="182" x2="386" y2="148" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="510" y="176" font-family="Georgia, serif" font-size="18" fill="#111">In den Zwischenräumen</text>
+  <text x="510" y="200" font-family="Georgia, serif" font-size="18" fill="#111">der Finger und Zehen</text>
+
+  <line x1="500" y1="260" x2="339" y2="228" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="510" y="256" font-family="Georgia, serif" font-size="18" fill="#111">In den Achseln</text>
+
+  <line x1="500" y1="320" x2="370" y2="224" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="510" y="322" font-family="Georgia, serif" font-size="18" fill="#111">In den Beugen von</text>
+  <text x="510" y="346" font-family="Georgia, serif" font-size="18" fill="#111">Armen und Beinen</text>
+
+  <line x1="500" y1="404" x2="278" y2="378" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="510" y="404" font-family="Georgia, serif" font-size="18" fill="#111">Im Genitalbereich</text>
+
+  <line x1="500" y1="432" x2="288" y2="273" stroke="#5b7f96" stroke-width="1"/>
+  <text x="510" y="432" font-family="Georgia, serif" font-size="16" fill="#5b7f96">bei Frauen auch:</text>
+  <text x="510" y="452" font-family="Georgia, serif" font-size="16" fill="#5b7f96">um die Brustwarzen</text>
+
+  <text x="40" y="576" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Kopf und Gesicht bleiben in der Regel verschont — das unterscheidet die Krätze von vielem anderen.</text>
+</svg>

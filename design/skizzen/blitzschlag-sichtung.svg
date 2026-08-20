@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <!-- Zum Tipp "Blitzschlag: umgekehrte Reihenfolge bei mehreren Getroffenen".
+       Dieser Tipp enthaelt die einzige Stelle im Paket, an der eine sonst
+       richtige Regel ins Gegenteil verkehrt wird. Genau deshalb braucht er
+       ein Bild: Wer die Umkehrung erst im Ernstfall liest, glaubt sie nicht
+       oder haelt sie fuer einen Druckfehler.
+       Die beiden Kaesten stehen deshalb nebeneinander und nicht
+       nacheinander. Man soll sehen, dass es zwei Regeln fuer zwei Lagen
+       sind, und nicht eine Regel mit einer Ausnahme.
+       Der eine Satz dazwischen steht in der groessten Schrift des ganzen
+       Bildes, weil er im Ernstfall der einzige ist, an den man sich
+       erinnern wird: zuerst zu den Stillen, nicht zu den Schreienden.
+       Die Begruendung steht darunter und nicht darueber. Wer die Regel
+       befolgt, ohne den Grund zu kennen, handelt trotzdem richtig; wer den
+       Grund zuerst liest, verliert Zeit.
+       Ohne Figuren gezeichnet. Gezeichnete Getroffene waeren hier entweder
+       nichtssagend oder verstoerend, und die Aussage haengt nicht am
+       Aussehen. -->
+  <rect width="900" height="1200" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Blitzschlag: umgekehrte Reihenfolge</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Nach einem Blitzschlag mit mehreren Getroffenen gilt eine Regel, die dem</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Gegenteil dessen entspricht, was sonst richtig ist — und deshalb muss man sie</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">vorher gelesen haben.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="218" width="400" height="252" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="62" y="256" font-family="Georgia, serif" font-size="23" fill="#111">Sonst, bei jedem anderen Unfall</text>
+  <text x="62" y="292" font-family="Georgia, serif" font-size="21" fill="#111">Wer schreit, atmet. Wer still ist,</text>
+  <text x="62" y="318" font-family="Georgia, serif" font-size="21" fill="#111">wird zuerst versorgt — aber wer</text>
+  <text x="62" y="344" font-family="Georgia, serif" font-size="21" fill="#111">keinen Kreislauf mehr hat, bekommt</text>
+  <text x="62" y="370" font-family="Georgia, serif" font-size="21" fill="#111">bei vielen Verletzten und wenigen</text>
+  <text x="62" y="396" font-family="Georgia, serif" font-size="21" fill="#111">Helfern nicht die erste Aufmerk-</text>
+  <text x="62" y="422" font-family="Georgia, serif" font-size="21" fill="#111">samkeit, weil die Aussichten</text>
+  <text x="62" y="448" font-family="Georgia, serif" font-size="21" fill="#111">schlecht sind.</text>
+
+  <rect x="460" y="218" width="400" height="252" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="482" y="256" font-family="Georgia, serif" font-size="23" fill="#a3231a">Nach einem Blitzschlag</text>
+  <text x="482" y="292" font-family="Georgia, serif" font-size="21" fill="#111">ZUERST werden die versorgt, die</text>
+  <text x="482" y="318" font-family="Georgia, serif" font-size="21" fill="#111">keinen Kreislauf und keine Atmung</text>
+  <text x="482" y="344" font-family="Georgia, serif" font-size="21" fill="#111">mehr haben.</text>
+  <text x="482" y="392" font-family="Georgia, serif" font-size="21" fill="#111">Das heißt in der Quelle ausdrücklich</text>
+  <text x="482" y="418" font-family="Georgia, serif" font-size="21" fill="#111">„umgekehrte Sichtung“.</text>
+
+  <line x1="40" y1="506" x2="860" y2="506" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="550" font-family="Georgia, serif" font-size="26" fill="#a3231a">Nach einem Blitz geht man zuerst zu den STILLEN,</text>
+  <text x="40" y="582" font-family="Georgia, serif" font-size="26" fill="#a3231a">nicht zu den SCHREIENDEN.</text>
+  <text x="40" y="618" font-family="Georgia, serif" font-size="21" fill="#111">Bei jedem anderen Massenunfall wäre das falsch. Hier ist es richtig.</text>
+
+  <line x1="40" y1="654" x2="860" y2="654" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="694" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Warum das hier richtig ist</text>
+  <text x="40" y="732" font-family="Georgia, serif" font-size="21" fill="#111">Nach einem Blitzschlag nimmt das Herz seinen Rhythmus oft von selbst wieder</text>
+  <text x="40" y="758" font-family="Georgia, serif" font-size="21" fill="#111">auf — dann brauchen diese Menschen unter Umständen nur noch freie Atemwege.</text>
+  <text x="40" y="784" font-family="Georgia, serif" font-size="21" fill="#111">Wer bei Bewusstsein ist, wird voraussichtlich nicht in den nächsten Minuten</text>
+  <text x="40" y="810" font-family="Georgia, serif" font-size="21" fill="#111">sterben. Der Grund liegt in der Dauer: Ein Blitz wirkt so extrem kurz, dass er</text>
+  <text x="40" y="836" font-family="Georgia, serif" font-size="21" fill="#111">nur selten die Verletzungen anrichtet, die man von künstlichem Strom kennt.</text>
+  <text x="40" y="862" font-family="Georgia, serif" font-size="21" fill="#111">Er wirft das Herz aus dem Takt — und das ist oft rückholbar.</text>
+
+  <line x1="40" y1="898" x2="860" y2="898" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="938" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein vom Blitz getroffener Mensch ist NICHT geladen</text>
+  <text x="40" y="966" font-family="Georgia, serif" font-size="23" fill="#a3231a">und darf sofort angefasst werden.</text>
+
+  <line x1="40" y1="1002" x2="860" y2="1002" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1042" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus der Quelle: Vorbeugen ist hier ungleich wirksamer</text>
+  <text x="40" y="1066" font-family="Georgia, serif" font-size="19" fill="#111">als behandeln. Wer ein Gewitter aufziehen sieht, sucht rechtzeitig ein Gebäude oder ein</text>
+  <text x="40" y="1090" font-family="Georgia, serif" font-size="19" fill="#111">Fahrzeug auf. Freistehende Bäume, Masten, Gipfel, Grate, offene Flächen und das Ufer</text>
+  <text x="40" y="1114" font-family="Georgia, serif" font-size="19" fill="#111">eines Gewässers sind die gefährlichsten Orte. Wer nichts erreichen kann, macht sich</text>
+  <text x="40" y="1138" font-family="Georgia, serif" font-size="19" fill="#111">klein, stellt die Füße eng zusammen und hockt sich hin, statt sich flach hinzulegen.</text>
+  <text x="40" y="1162" font-family="Georgia, serif" font-size="19" fill="#111">Und eine Gruppe verteilt sich, statt eng beieinanderzustehen — dann trifft es nicht alle.</text>
+</svg>

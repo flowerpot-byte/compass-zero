@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="520" viewBox="0 0 880 520">
+  <!-- Zum Tipp "Sechs Regeln, damit Kleidung waermt", dritte Regel.
+       Querschnitt durch die Kleidung.
+       Der Text sagt: mehrere duenne Schichten sind besser als eine gleich
+       dicke, weil zwischen ihnen stehende Luft liegt. Als Satz klingt das nach
+       einer Behauptung; im Schnitt sieht man, dass die LUFT das Daemmende ist
+       und der Stoff nur ihr Gehaeuse.
+       Rechts daneben derselbe Schnitt mit Naesse: Die Luftraeume sind
+       zugelaufen. Das ist der Grund, warum nass so gefaehrlich ist – die
+       Jacke ist dieselbe, aber die Daemmung ist weg. -->
+  <rect width="880" height="520" fill="#faf9f6"/>
+  <text x="30" y="44" font-family="Georgia, serif" font-size="25" fill="#111">Nicht der Stoff wärmt, sondern die Luft dazwischen</text>
+
+  <g font-family="Georgia, serif" font-size="20" fill="#111">
+    <text x="70" y="94">trocken</text>
+    <text x="530" y="94">nass oder verschmutzt</text>
+  </g>
+
+  <!-- LINKS: trocken, drei Schichten mit Luft dazwischen -->
+  <g>
+    <rect x="60" y="120" width="60" height="260" fill="#f2b199" stroke="#111" stroke-width="4"/>
+    <text x="66" y="404" font-family="Georgia, serif" font-size="17" fill="#111">Haut</text>
+    <rect x="150" y="120" width="36" height="260" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <rect x="226" y="120" width="36" height="260" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <rect x="302" y="120" width="36" height="260" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <!-- Luftraeume -->
+    <g font-family="Georgia, serif" font-size="26" fill="#5b7f96">
+      <text x="196" y="200">·</text><text x="204" y="240">·</text><text x="194" y="290">·</text><text x="206" y="336">·</text>
+      <text x="272" y="210">·</text><text x="280" y="256">·</text><text x="270" y="300">·</text><text x="282" y="344">·</text>
+    </g>
+    <text x="150" y="436" font-family="Georgia, serif" font-size="19" fill="#5b7f96">stehende Luft = die Dämmung</text>
+  </g>
+
+  <!-- RECHTS: nass, Schichten kleben zusammen -->
+  <g>
+    <rect x="520" y="120" width="60" height="260" fill="#f2b199" stroke="#111" stroke-width="4"/>
+    <text x="526" y="404" font-family="Georgia, serif" font-size="17" fill="#111">Haut</text>
+    <rect x="600" y="120" width="36" height="260" fill="#aab7bd" stroke="#111" stroke-width="4"/>
+    <rect x="636" y="120" width="36" height="260" fill="#aab7bd" stroke="#111" stroke-width="4"/>
+    <rect x="672" y="120" width="36" height="260" fill="#aab7bd" stroke="#111" stroke-width="4"/>
+    <text x="560" y="436" font-family="Georgia, serif" font-size="19" fill="#111">keine Luft — keine Dämmung</text>
+  </g>
+
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="30" y="478">Deshalb: mehrere dünne Schichten statt einer dicken — und locker, nicht eng.</text>
+    <text x="30" y="504" fill="#d65a1a">Und deshalb ist Schwitzen gefährlich: Die Jacke bleibt dieselbe, die Dämmung ist weg.</text>
+  </g>
+</svg>

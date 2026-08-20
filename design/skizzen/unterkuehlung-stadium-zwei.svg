@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1840" viewBox="0 0 900 1840">
+  <!-- Zum Tipp "Unterkuehlung Stadium II: nur den Oberkoerper waermen".
+       Hier ist die Aussage RAEUMLICH, und deshalb steht hier ausnahmsweise
+       eine Figur — aber aus reinen Formen: Kreis, Rechtecke mit runden
+       Ecken. Keine Kontur, keine Haltung, kein Gesicht. Was gezeigt werden
+       muss, ist eine Zuordnung von Flaechen zu Erlaubnis, und die traegt ein
+       Schema besser als jede Aufzaehlung: Rumpf gruen, Gliedmassen rot.
+       Der Grund steht als eigener Kasten, weil das Verbot ohne ihn wie
+       Schikane wirkt und dann gebrochen wird. Nachkuehlung heisst: Aus Armen
+       und Beinen fliesst kaltes Blut zum Herzen zurueck.
+       "Das Zittern hoert auf" steht hervorgehoben unter den Zeichen. Es ist
+       das eine, an dem man Stadium II vom ersten unterscheidet — und es
+       sieht aus wie eine Besserung.
+       Der letzte Abschnitt erklaert eine Abweichung zwischen Quellen. Er
+       gehoert ins Bild, weil jemand sonst die deutsche Anleitung daneben
+       liest und glaubt, dieses Paket irre sich. -->
+  <rect width="900" height="1840" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Unterkühlung Stadium II: nur den Oberkörper wärmen</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Daran erkennst du das zweite Stadium</text>
+  <text x="40" y="134" font-family="Georgia, serif" font-size="21" fill="#111">Die Atmung verlangsamt sich · die Muskeln werden starr · das</text>
+  <text x="40" y="160" font-family="Georgia, serif" font-size="21" fill="#111">Schmerzempfinden lässt nach · zunehmend müde, schließlich bewusstlos.</text>
+  <text x="40" y="198" font-family="Georgia, serif" font-size="23" fill="#a3231a">Und das eine, woran man es festmacht: DAS ZITTERN HÖRT AUF.</text>
+  <text x="40" y="226" font-family="Georgia, serif" font-size="23" fill="#a3231a">Es sieht aus wie eine Besserung. Notruf 112.</text>
+
+  <line x1="40" y1="262" x2="860" y2="262" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Das Schema ============ -->
+  <text x="40" y="302" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ab hier gilt anderes als im ersten Stadium — kein Detail</text>
+
+  <circle cx="450" cy="368" r="32" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <rect x="380" y="408" width="140" height="180" rx="24" fill="#1d6b3a" stroke="#111" stroke-width="3"/>
+  <rect x="318" y="418" width="50" height="150" rx="22" fill="#a3231a" stroke="#111" stroke-width="3"/>
+  <rect x="532" y="418" width="50" height="150" rx="22" fill="#a3231a" stroke="#111" stroke-width="3"/>
+  <rect x="388" y="600" width="56" height="170" rx="24" fill="#a3231a" stroke="#111" stroke-width="3"/>
+  <rect x="456" y="600" width="56" height="170" rx="24" fill="#a3231a" stroke="#111" stroke-width="3"/>
+
+
+  <text x="40" y="440" font-family="Georgia, serif" font-size="23" fill="#a3231a">KEINE WÄRME</text>
+  <text x="40" y="470" font-family="Georgia, serif" font-size="21" fill="#111">an Armen und Beinen</text>
+  <text x="40" y="508" font-family="Georgia, serif" font-size="21" fill="#111">· kein Reiben</text>
+  <text x="40" y="534" font-family="Georgia, serif" font-size="21" fill="#111">· keine Wärmflasche</text>
+  <text x="40" y="560" font-family="Georgia, serif" font-size="21" fill="#111">· kein warmes Bad</text>
+
+  <text x="610" y="440" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">WÄRME HIER</text>
+  <text x="610" y="470" font-family="Georgia, serif" font-size="21" fill="#111">Achseln, Brust, Rücken</text>
+  <text x="610" y="508" font-family="Georgia, serif" font-size="21" fill="#111">Große Wärmekissen</text>
+  <text x="610" y="534" font-family="Georgia, serif" font-size="21" fill="#111">oder Wärmflaschen —</text>
+  <text x="610" y="560" font-family="Georgia, serif" font-size="21" fill="#111">nie direkt auf der Haut.</text>
+
+  <line x1="40" y1="812" x2="860" y2="812" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Der Grund ============ -->
+  <rect x="40" y="838" width="820" height="148" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="876" font-family="Georgia, serif" font-size="26" fill="#a3231a">Der Grund heißt Nachkühlung.</text>
+  <text x="62" y="912" font-family="Georgia, serif" font-size="21" fill="#111">Aus Armen und Beinen fließt kaltes Blut zum Herzen zurück, die Temperatur</text>
+  <text x="62" y="938" font-family="Georgia, serif" font-size="21" fill="#111">im Körperkern sinkt dadurch weiter — das kann Herzrhythmusstörungen</text>
+  <text x="62" y="964" font-family="Georgia, serif" font-size="21" fill="#111">auslösen. Dasselbe löst jede unnötige Bewegung aus.</text>
+
+  <text x="40" y="1026" font-family="Georgia, serif" font-size="23" fill="#a3231a">Deshalb: vorsichtig anfassen, waagerecht liegen lassen, Arme</text>
+  <text x="40" y="1054" font-family="Georgia, serif" font-size="23" fill="#a3231a">und Beine so wenig wie möglich bewegen.</text>
+
+  <line x1="40" y1="1090" x2="860" y2="1090" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1130" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was sonst gilt</text>
+  <text x="40" y="1168" font-family="Georgia, serif" font-size="21" fill="#111">· Erwärmte Hautstellen alle 20 bis 30 Minuten ansehen — eine unterkühlte</text>
+  <text x="40" y="1194" font-family="Georgia, serif" font-size="21" fill="#111">  Haut merkt eine Verbrennung nicht.</text>
+  <text x="40" y="1220" font-family="Georgia, serif" font-size="21" fill="#111">· Kleine chemische Wärmepads geben zu wenig ab; sie taugen allenfalls für</text>
+  <text x="40" y="1246" font-family="Georgia, serif" font-size="21" fill="#111">  Hände und Füße.</text>
+  <text x="40" y="1272" font-family="Georgia, serif" font-size="21" fill="#111">· Wärmeverlust stoppen: Isolierung und darüber eine wasserdichte Schicht,</text>
+  <text x="40" y="1298" font-family="Georgia, serif" font-size="21" fill="#111">  besonders um Kopf und Nacken und zwischen Person und Boden. Wind</text>
+  <text x="40" y="1324" font-family="Georgia, serif" font-size="21" fill="#111">  fernhalten.</text>
+  <text x="40" y="1350" font-family="Georgia, serif" font-size="21" fill="#111">· Nasse Kleidung kommt weg, sobald ihr an einem geschützten Ort seid — und</text>
+  <text x="40" y="1376" font-family="Georgia, serif" font-size="21" fill="#111">  wird AUFGESCHNITTEN statt ausgezogen, damit sich die Person kaum</text>
+  <text x="40" y="1402" font-family="Georgia, serif" font-size="21" fill="#111">  bewegen muss.</text>
+
+  <text x="40" y="1444" font-family="Georgia, serif" font-size="23" fill="#a3231a">Und anders als im ersten Stadium: nichts mehr zu essen und</text>
+  <text x="40" y="1472" font-family="Georgia, serif" font-size="23" fill="#a3231a">zu trinken.</text>
+
+  <line x1="40" y1="1508" x2="860" y2="1508" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1548" font-family="Georgia, serif" font-size="21" fill="#111">Ist sie bewusstlos und atmet: laut um Hilfe rufen, stabile Seitenlage,</text>
+  <text x="40" y="1574" font-family="Georgia, serif" font-size="21" fill="#111">zudecken, wiederholt Bewusstsein und Atmung prüfen. Atmet sie nicht</text>
+  <text x="40" y="1600" font-family="Georgia, serif" font-size="21" fill="#111">normal: Herzdruckmassage beginnen. Nach kaltem Wasser kann der Kreislauf</text>
+  <text x="40" y="1626" font-family="Georgia, serif" font-size="21" fill="#111">auch noch nach der Rettung plötzlich zusammenbrechen.</text>
+
+  <line x1="40" y1="1662" x2="860" y2="1662" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1702" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Warum hier drei Quellen genannt sind</text>
+  <text x="40" y="1740" font-family="Georgia, serif" font-size="21" fill="#111">Die deutsche Laien-Anleitung verbietet ab diesem Stadium JEDES Aufwärmen.</text>
+  <text x="40" y="1766" font-family="Georgia, serif" font-size="21" fill="#111">Das ist eine Verkürzung — gemeint und belegt ist das Verbot für Arme und</text>
+  <text x="40" y="1792" font-family="Georgia, serif" font-size="21" fill="#111">Beine. Zwei unabhängige Fachquellen verlangen für eine Person, die nicht</text>
+  <text x="40" y="1818" font-family="Georgia, serif" font-size="21" fill="#111">mehr zittert, ausdrücklich aktives Wärmen am Oberkörper. Diese Fassung</text>
+  <text x="40" y="1836" font-family="Georgia, serif" font-size="19" fill="#111">folgt ihnen, behält aber jedes Verbot bei, das die deutsche Anleitung meint.</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif">
+<!-- Kapitel agrikultur-kompost, Abschnitt "Die Eisenstange: der einzige Messwert, den man braucht".
+     Gezeigter Satz: Eine Metallstange in die Mitte des Haufens stecken, herausziehen und anfassen.
+     Ist sie warm, arbeitet der Haufen. Die Umkehrung (kalt, arbeitet nicht) ist der teure Irrtum
+     und deshalb die einzige Stelle mit Signalfarbe. -->
+<rect x="0" y="0" width="900" height="620" fill="#faf9f6"/>
+
+<text x="450" y="48" text-anchor="middle" font-size="26" fill="#111">Die Eisenstange: der einzige Messwert, den man braucht</text>
+
+<text x="180" y="95" text-anchor="middle" font-size="18" fill="#111">Stange in die Mitte stecken</text>
+
+<path d="M 40 500 C 40 340, 100 210, 180 210 C 260 210, 320 340, 320 500 Z" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+<line x1="20" y1="500" x2="340" y2="500" stroke="#5b7f96" stroke-width="1.5"/>
+
+<line x1="180" y1="120" x2="180" y2="355" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+<circle cx="180" cy="355" r="5" fill="#111"/>
+
+<polyline points="180,355 180,540 250,540" fill="none" stroke="#5b7f96" stroke-width="1.5"/>
+<text x="260" y="545" text-anchor="start" font-size="17" fill="#111">Mitte des Haufens</text>
+
+<line x1="400" y1="355" x2="560" y2="355" stroke="#111" stroke-width="3"/>
+<text x="480" y="325" text-anchor="middle" font-size="16" fill="#111">herausziehen und anfassen</text>
+
+<path d="M560,355 Q595,300 630,270" fill="none" stroke="#111" stroke-width="3"/>
+<polygon points="630,270 612,262 612,278" fill="#111"/>
+
+<path d="M560,355 Q595,410 630,460" fill="none" stroke="#111" stroke-width="3"/>
+<polygon points="630,460 612,452 612,468" fill="#111"/>
+
+<line x1="650" y1="270" x2="830" y2="270" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+<path d="M680,258 Q672,225 680,195 Q688,165 680,150" stroke="#5b7f96" stroke-width="2" fill="none"/>
+<path d="M740,258 Q732,225 740,195 Q748,165 740,150" stroke="#5b7f96" stroke-width="2" fill="none"/>
+<path d="M800,258 Q792,225 800,195 Q808,165 800,150" stroke="#5b7f96" stroke-width="2" fill="none"/>
+<text x="740" y="305" text-anchor="middle" font-size="19" fill="#111">warm</text>
+<text x="740" y="328" text-anchor="middle" font-size="17" fill="#111">der Haufen arbeitet</text>
+
+<line x1="650" y1="460" x2="830" y2="460" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+<text x="740" y="497" text-anchor="middle" font-size="19" fill="#d65a1a">kalt</text>
+<text x="740" y="520" text-anchor="middle" font-size="17" fill="#d65a1a">der Haufen arbeitet nicht</text>
+
+<text x="450" y="585" text-anchor="middle" font-size="15" fill="#5b7f96">Zieltemperatur: etwa 71 Grad, rund drei Wochen gehalten</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <!-- Zum Tipp "Nach langem Hunger: langsam anfangen".
+       Der Tipp beschreibt zwei Zustaende, die man verwechseln kann, und das
+       Unterscheidungsmerkmal ist am Koerper ablesbar: Beim TOTALEN Hunger
+       gibt es KEINE Wassereinlagerung, beim EIWEISSMANGEL schon.
+       Das ist wichtig genug fuer ein Bild, weil die Verwechslung in die
+       falsche Richtung geht: Ein Kind mit dickem Bauch und dicken Beinen
+       sieht satt aus und ist es nicht. Wer das nicht weiss, behandelt den
+       Falschen zuerst. -->
+  <rect width="900" height="500" fill="#faf9f6"/>
+  <text x="30" y="44" font-family="Georgia, serif" font-size="25" fill="#111">Zwei Arten Hunger — der Unterschied steht an den Beinen</text>
+
+  <g font-family="Georgia, serif" font-size="21" fill="#111">
+    <text x="90" y="94">totaler Hunger</text>
+    <text x="530" y="94">Eiweißmangel bei genug Kalorien</text>
+  </g>
+
+  <!-- LINKS: abgemagert, vorgewoelbter Bauch, duenne Beine -->
+  <g>
+    <circle cx="200" cy="150" r="30" fill="#faf9f6" stroke="#111" stroke-width="5"/>
+    <path d="M 200 180 L 200 210" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+    <!-- schmaler Brustkorb, vorgewoelbter Bauch -->
+    <path d="M 176 210 L 224 210 L 232 264 Q 240 300 200 306 Q 160 300 168 264 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+    <!-- sehr duenne Beine -->
+    <line x1="188" y1="306" x2="182" y2="410" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+    <line x1="212" y1="306" x2="218" y2="410" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+    <!-- duenne Arme -->
+    <line x1="176" y1="222" x2="146" y2="290" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+    <line x1="224" y1="222" x2="254" y2="290" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="60" y="452">dünn, vorgewölbter Bauch,</text>
+    <text x="60" y="476">Haut lose — KEINE Schwellung</text>
+  </g>
+
+  <!-- RECHTS: geschwollene Beine und Gesicht -->
+  <g>
+    <ellipse cx="640" cy="152" rx="46" ry="34" fill="#faf9f6" stroke="#111" stroke-width="5"/>
+    <path d="M 640 184 L 640 210" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 616 210 L 664 210 L 672 264 Q 680 300 640 306 Q 600 300 608 264 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+    <!-- dicke, geschwollene Beine -->
+    <path d="M 622 306 Q 606 360 616 410 L 638 410 Q 640 356 634 306 Z"
+          fill="#c9d9e2" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M 646 306 Q 640 356 642 410 L 664 410 Q 674 360 658 306 Z"
+          fill="#c9d9e2" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+    <line x1="616" y1="222" x2="586" y2="290" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+    <line x1="664" y1="222" x2="694" y2="290" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g stroke="#d65a1a" stroke-width="3">
+    <line x1="716" y1="352" x2="690" y2="352"/>
+    <path d="M 690 352 l 12 -7 M 690 352 l 12 7"/>
+  </g>
+  <text x="726" y="346" font-family="Georgia, serif" font-size="19" fill="#d65a1a">Wasser</text>
+  <text x="726" y="370" font-family="Georgia, serif" font-size="19" fill="#d65a1a">im Gewebe</text>
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="520" y="452">dicke Beine, oft auch das Gesicht.</text>
+    <text x="520" y="476" fill="#d65a1a">Sieht satt aus und ist es nicht.</text>
+  </g>
+</svg>

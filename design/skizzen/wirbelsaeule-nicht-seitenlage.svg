@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp erste-hilfe-wirbelsaeule, "Wirbelsaeulenverletzung: nicht in
+       die Seitenlage".
+       Gezeigter Satz: "Dann wird sie NICHT in die stabile Seitenlage
+       gebracht", zusammen mit "den Hals in Linie mit dem Koerper".
+       Links die Seitenlage mit der typischen angewinkelten Knieform, darueber
+       ein Verbotszeichen (Kreis plus Diagonale); das Zeichen liegt duenn
+       ueber der Figur, nicht als voller Kasten darauf, damit man weiterhin
+       sieht, WAS verboten ist. Rechts die richtige Haltung: der Koerper
+       bleibt flach auf dem Ruecken, eine gestrichelte Linie zieht sich
+       tatsaechlich gerade durch Kopf, Hals und Ruecken, und eine zweite
+       Gestalt kniet oberhalb des Kopfes und haelt ihn mit beiden Haenden von
+       den Seiten her fest, ohne den Kopf selbst zu verdecken. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="40" y="45" font-family="Georgia, serif" font-size="26" fill="#111">Wirbelsäulenverletzung: nicht in die Seitenlage</text>
+
+  <line x1="450" y1="78" x2="450" y2="470" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- ============ LINKS: verboten ============ -->
+  <g transform="translate(40,88)">
+    <text x="0" y="20" font-family="Georgia, serif" font-size="19" fill="#d65a1a">so nicht</text>
+
+    <line x1="0" y1="340" x2="380" y2="340" stroke="#111" stroke-width="3"/>
+
+    <!-- Kopf -->
+    <circle cx="90" cy="250" r="30" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+    <!-- Rumpf, diagonal auf der Seite liegend -->
+    <line x1="118" y1="262" x2="235" y2="300" stroke="#111" stroke-width="26" stroke-linecap="round"/>
+    <!-- unteres Bein, gestreckt -->
+    <line x1="235" y1="300" x2="335" y2="326" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+    <!-- oberes Bein, angewinkelt -->
+    <line x1="235" y1="300" x2="278" y2="246" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+    <line x1="278" y1="246" x2="250" y2="320" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="278" cy="246" r="6" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+
+    <!-- Verbotszeichen: duenner Kreis plus Diagonale, liegt UEBER der Figur,
+         verdeckt sie aber nicht -->
+    <ellipse cx="195" cy="270" rx="172" ry="98" fill="none" stroke="#d65a1a" stroke-width="6"/>
+    <line x1="50" y1="188" x2="340" y2="352" stroke="#d65a1a" stroke-width="6" stroke-linecap="round"/>
+
+    <text x="40" y="412" font-family="Georgia, serif" font-size="18" fill="#d65a1a">NICHT in die Seitenlage</text>
+  </g>
+
+  <!-- ============ RECHTS: richtig ============ -->
+  <g transform="translate(480,88)">
+    <text x="0" y="20" font-family="Georgia, serif" font-size="19" fill="#111">so richtig</text>
+
+    <line x1="0" y1="340" x2="380" y2="340" stroke="#111" stroke-width="3"/>
+
+    <!-- Person flach auf dem Ruecken -->
+    <circle cx="90" cy="327" r="28" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+    <rect x="135" y="310" width="175" height="34" rx="14" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <line x1="310" y1="327" x2="372" y2="327" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- gerade Linie durch Kopf, Hals und Ruecken -->
+    <line x1="90" y1="327" x2="310" y2="327" stroke="#5b7f96" stroke-width="2.5" stroke-dasharray="7 6"/>
+
+    <!-- NUR die Haende des Helfers, von oben an den Kopf. Vorher stand hier
+         eine ganze zweite Gestalt senkrecht ueber dem waagerecht Liegenden,
+         das las sich, als staende jemand auf seinem Kopf. Rumpf und Kopf des
+         Helfers zeigen nichts, was der Satz sagt; die Haende schon. -->
+    <line x1="52" y1="208" x2="52" y2="292" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="52" cy="308" rx="14" ry="18" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+    <line x1="130" y1="208" x2="130" y2="292" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="130" cy="308" rx="14" ry="18" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+    <text x="91" y="196" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">deine Hände</text>
+
+    <line x1="220" y1="300" x2="220" y2="316" stroke="#5b7f96" stroke-width="1.5"/>
+    <text x="145" y="280" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Kopf, Hals, Rücken</text>
+    <text x="180" y="300" font-family="Georgia, serif" font-size="16" fill="#5b7f96">in einer Linie</text>
+
+    <text x="20" y="380" font-family="Georgia, serif" font-size="18" fill="#111">Kopf wird von beiden Seiten festgehalten</text>
+  </g>
+
+  <text x="40" y="534" font-family="Georgia, serif" font-size="18" fill="#111">Bei Verdacht auf eine Wirbelsäulenverletzung nicht in die Seitenlage bringen.</text>
+  <text x="40" y="560" font-family="Georgia, serif" font-size="18" fill="#111">Kopf, Hals und Rücken bleiben in einer Linie, bis Hilfe kommt.</text>
+</svg>

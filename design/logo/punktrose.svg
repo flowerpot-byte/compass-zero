@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Punktrose</title>
+  <g fill="#0A0A0A">
+    <circle cx="300" cy="92" r="9"/>
+    <circle cx="341" cy="109" r="9"/>
+    <circle cx="376" cy="136" r="9"/>
+    <circle cx="403" cy="171" r="9"/>
+    <circle cx="420" cy="212" r="9"/>
+    <circle cx="420" cy="300" r="9"/>
+    <circle cx="403" cy="341" r="9"/>
+    <circle cx="376" cy="376" r="9"/>
+    <circle cx="341" cy="403" r="9"/>
+    <circle cx="300" cy="420" r="9"/>
+    <circle cx="212" cy="420" r="9"/>
+    <circle cx="171" cy="403" r="9"/>
+    <circle cx="136" cy="376" r="9"/>
+    <circle cx="109" cy="341" r="9"/>
+    <circle cx="92" cy="300" r="9"/>
+    <circle cx="92" cy="212" r="9"/>
+    <circle cx="109" cy="171" r="9"/>
+    <circle cx="136" cy="136" r="9"/>
+    <circle cx="171" cy="109" r="9"/>
+    <circle cx="212" cy="92" r="9"/>
+    <circle cx="426" cy="256" r="16"/>
+    <circle cx="256" cy="426" r="16"/>
+    <circle cx="86" cy="256" r="16"/>
+  </g>
+  <circle cx="256" cy="86" r="16" fill="#FF4D00"/>
+  <polygon points="256,120 232,256 280,256" fill="#0A0A0A"/>
+  <polygon points="232,256 280,256 256,392" fill="none" stroke="#0A0A0A" stroke-width="8" stroke-linejoin="round"/>
+</svg>

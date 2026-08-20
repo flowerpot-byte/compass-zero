@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <!-- Zum Tipp erste-hilfe-atemwege-oeffnen.
+
+       GEZEIGTE AUSSAGE: der Handgriff. Der Text beschreibt zwei Haende an
+       zwei Stellen, die gleichzeitig zwei verschiedene Sachen tun: "mit
+       einer Hand auf der Stirn und den Fingerspitzen der anderen Hand unter
+       dem Kinn den Kopf sanft nach hinten Richtung Nacken. Hebe dabei das
+       Kinn an." Die beiden blauen Pfeile sind die Aussage.
+
+       KEIN Querschnitt und KEINE Anatomie. Der Text sagt nur, DASS die
+       Atemwege dadurch frei werden, nicht warum. Ein Bild mit Zunge, Rachen
+       und Luftroehre wuerde etwas behaupten, das in der Quelle nicht steht.
+
+       Keine Signalfarbe: Der Text nennt keinen Handgriff, bei dem ein Fehler
+       gefaehrlich waere, nur den richtigen.
+
+       Vierte Fassung, 04.08.2026. Die drei davor scheiterten alle am selben
+       Punkt: Der Kopf war ein Kreis mit angesetzten Strichen fuer Nase, Mund
+       und Kinn, und daraus wurde beim Rendern ein Gekritzel am Rand. Jetzt
+       ist der Kopf EIN durchgehender Profilzug - Stirn, Nase, Mund, Kinn,
+       Kiefer, Hinterkopf in einem Pfad. Erst damit sieht man, wo die Stirn
+       ist und wo das Kinn, und erst dann sagen die Haende etwas.
+       Fassung 1 war zusaetzlich ein Querschnitt, der Gewebe im Rachen
+       zeigte, das im Tipp nicht vorkommt. -->
+
+  <rect width="900" height="520" fill="#faf9f6"/>
+
+  <text x="40" y="48" font-family="Georgia, serif" font-size="26" fill="#111">Atemwege öffnen: zwei Hände, zwei Richtungen</text>
+  <text x="40" y="78" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Die Person liegt auf dem Rücken. Kopf von der Seite, das Gesicht zeigt nach oben.</text>
+
+  <!-- Unterlage -->
+  <line x1="80" y1="376" x2="820" y2="376" stroke="#111" stroke-width="3"/>
+
+  <!-- Kopf und Hals als EIN Profilzug. Der Hinterkopf liegt links auf der
+       Unterlage, das Gesicht laeuft oben von links nach rechts: Stirn, Nase,
+       Mund, Kinn. Der Hals geht rechts unten in den Rumpf ueber. -->
+  <g transform="translate(150,232) scale(1.35) rotate(-14 98 46)">
+    <path d="M 0,60
+             C 2,34 22,12 62,0
+             C 92,-8 122,-4 138,14
+             L 156,-6 L 154,22 L 172,26 L 176,38 L 198,38
+             L 202,66
+             C 198,80 190,88 174,90
+             C 150,98 90,100 44,94
+             C 16,90 -2,78 0,60 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="3.2" stroke-linejoin="round"/>
+    <!-- Auge, damit sofort klar ist, wo vorn ist -->
+    <circle cx="132" cy="30" r="4.5" fill="#111"/>
+  </g>
+
+  <!-- Hals und angeschnittener Rumpf, nicht mitgedreht -->
+  <path d="M 396,316 L 432,304 L 442,376 L 396,376 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M 432,306 L 686,316 Q 724,320 724,348 Q 724,376 686,376 L 442,376 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Hand 1: flach auf der Stirn -->
+  <g transform="rotate(-16 268 250)">
+    <rect x="222" y="234" width="92" height="32" rx="15" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+    <line x1="244" y1="234" x2="244" y2="266" stroke="#111" stroke-width="1.6"/>
+    <line x1="266" y1="234" x2="266" y2="266" stroke="#111" stroke-width="1.6"/>
+    <line x1="288" y1="234" x2="288" y2="266" stroke="#111" stroke-width="1.6"/>
+  </g>
+
+  <!-- Pfeil: Kopf sanft nach hinten, Richtung Nacken -->
+  <path d="M 132,330 A 110,110 0 0 1 168,268" fill="none" stroke="#5b7f96" stroke-width="4"/>
+  <path d="M 168,268 L 152,272 L 164,283 Z" fill="#5b7f96"/>
+
+  <!-- Hand 2: nur die Fingerspitzen, unter das Kinn gelegt -->
+  <circle cx="386" cy="322" r="8" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+  <circle cx="396" cy="336" r="8" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+  <path d="M 396,314 Q 430,312 452,330 Q 458,352 440,358 Q 410,354 392,342 Z"
+        fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Pfeil: das Kinn wird angehoben -->
+  <line x1="470" y1="318" x2="470" y2="282" stroke="#5b7f96" stroke-width="4"/>
+  <path d="M 470,274 L 461,290 L 479,290 Z" fill="#5b7f96"/>
+
+  <!-- Beschriftungen im freien Feld -->
+  <text x="530" y="160" font-family="Georgia, serif" font-size="18" fill="#111">eine Hand flach auf der Stirn</text>
+  <line x1="526" y1="154" x2="300" y2="222" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <text x="530" y="238" font-family="Georgia, serif" font-size="18" fill="#111">Fingerspitzen der anderen Hand</text>
+  <text x="530" y="262" font-family="Georgia, serif" font-size="18" fill="#111">unter das Kinn — und anheben</text>
+  <line x1="526" y1="252" x2="486" y2="322" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <text x="40" y="286" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Kopf sanft</text>
+  <text x="40" y="308" font-family="Georgia, serif" font-size="17" fill="#5b7f96">nach hinten</text>
+
+  <text x="40" y="480" font-family="Georgia, serif" font-size="19" fill="#111">So werden die Atemwege frei. Erst danach lässt sich die Atmung überhaupt</text>
+  <text x="40" y="506" font-family="Georgia, serif" font-size="19" fill="#111">verlässlich beurteilen.</text>
+</svg>

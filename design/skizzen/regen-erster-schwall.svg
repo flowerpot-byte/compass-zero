@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <!-- Zum Tipp "Regen vom Dach: der erste Schwall muss weg".
+       Zweite Fassung. Die erste hatte zwei getrennte Bilder, eines je Schritt.
+       Damit war die eigentliche Aussage - das Rohr wird GESCHWENKT - gerade
+       nicht zu sehen, weil zwei Standbilder keine Bewegung zeigen. Jetzt beide
+       Stellungen in EINEM Bild: die erste blass, die zweite kraeftig, dazwischen
+       der Schwenkpfeil. Ausserdem war der Wasserstrahl so duenn, dass er wie
+       ein Kratzer aussah; jetzt eine Tropfenreihe. -->
+  <rect width="900" height="560" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Regen auffangen: erst daneben, dann ins Fass</text>
+
+  <!-- Dach -->
+  <path d="M 90 150 L 400 66 L 400 92 L 90 176 Z" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Rinne -->
+  <rect x="76" y="172" width="46" height="22" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+
+  <!-- Boden -->
+  <line x1="40" y1="404" x2="860" y2="404" stroke="#111" stroke-width="4"/>
+
+  <!-- ===== Stellung 1: blass, zur Seite ===== -->
+  <path d="M 99 194 L 99 268 L 176 316" fill="none" stroke="#b9b4a6" stroke-width="10" stroke-linecap="round"/>
+  <!-- Tropfenreihe daneben auf den Boden -->
+  <g fill="#a3231a">
+    <ellipse cx="192" cy="332" rx="6" ry="9"/>
+    <ellipse cx="206" cy="352" rx="6" ry="9"/>
+    <ellipse cx="220" cy="372" rx="6" ry="9"/>
+    <ellipse cx="234" cy="392" rx="6" ry="9"/>
+  </g>
+  <text x="96" y="360" font-family="Georgia, serif" font-size="21" fill="#a3231a">1. zuerst</text>
+  <text x="96" y="386" font-family="Georgia, serif" font-size="21" fill="#a3231a">daneben</text>
+
+  <!-- ===== Stellung 2: kraeftig, ueber dem Fass ===== -->
+  <path d="M 99 194 L 99 250 L 470 250 L 470 296" fill="none" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+  <!-- Tropfen ins Fass -->
+  <g fill="#1d6b3a">
+    <ellipse cx="470" cy="312" rx="6" ry="9"/>
+    <ellipse cx="470" cy="334" rx="6" ry="9"/>
+  </g>
+
+  <!-- Schwenkpfeil zwischen den beiden Stellungen -->
+  <g stroke="#1d6b3a" stroke-width="5" fill="none">
+    <path d="M 214 306 Q 300 236 396 262"/>
+    <path d="M 396 262 l -22 -12 M 396 262 l -6 -22"/>
+  </g>
+  <text x="246" y="222" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">2. dann umschwenken</text>
+
+  <!-- Fass mit Tuch -->
+  <rect x="416" y="352" width="112" height="52" rx="6" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <line x1="406" y1="352" x2="538" y2="352" stroke="#d65a1a" stroke-width="8"/>
+  <text x="552" y="346" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Tuch als Sieb:</text>
+  <text x="552" y="372" font-family="Georgia, serif" font-size="21" fill="#d65a1a">hält Laub zurück</text>
+
+  <!-- Erklaerung rechts oben -->
+  <text x="552" y="150" font-family="Georgia, serif" font-size="21" fill="#111">Der erste Schwall spült ab,</text>
+  <text x="552" y="176" font-family="Georgia, serif" font-size="21" fill="#111">was seit dem letzten Regen</text>
+  <text x="552" y="202" font-family="Georgia, serif" font-size="21" fill="#111">auf dem Dach lag —</text>
+  <text x="552" y="228" font-family="Georgia, serif" font-size="21" fill="#a3231a">vor allem Vogelkot.</text>
+
+  <!-- Fusszeilen -->
+  <text x="40" y="492" font-family="Georgia, serif" font-size="21" fill="#111">Wegzuleiten sind rund 0,4 Liter je Quadratmeter Dachfläche. Bei einem Dach</text>
+  <text x="40" y="518" font-family="Georgia, serif" font-size="21" fill="#111">von 50 Quadratmetern sind das etwa zwanzig Liter, also zwei Eimer.</text>
+  <text x="40" y="546" font-family="Georgia, serif" font-size="21" fill="#a3231a">Auch danach ist es kein Trinkwasser: erst entkeimen.</text>
+</svg>

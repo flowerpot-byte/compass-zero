@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp erste-hilfe-bauchverletzung, "Bauchverletzung: Knie anziehen,
+       nichts zurueckschieben".
+       Zwei Saetze aus dem Tipp werden als Form gezeigt, nicht nur benannt:
+       1. "BEI EINER BAUCHVERLETZUNG: flach hinlegen und DIE KNIE ANZIEHEN",
+          links die liegende Gestalt mit hochgezogenem Knie.
+       2. "Wenn INNERE ORGANE AUS DER VERLETZUNG HERAUSTRETEN, werden sie
+          NICHT ZURUECKGESCHOBEN... Stattdessen: mit einem sauberen und
+          FEUCHTEN Tuch abdecken.", rechts oben der Schub-Pfeil in die
+          Wunde mit Verbotsstrich (die eine Stelle mit Signalfarbe, weil das
+          Zurueckschieben Schmutz mit hineinschiebt), rechts unten dasselbe
+          Bild mit dem Tuch, das lose ueber dem Vorfall liegt, statt zu
+          druecken. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="40" y="45" font-family="Georgia, serif" font-size="26" fill="#111">Bauchverletzung: Knie anziehen, nichts zurückschieben</text>
+
+  <line x1="455" y1="80" x2="455" y2="480" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- ============ LINKS: Lagerung ============ -->
+  <g transform="translate(40,90)">
+    <text x="0" y="20" font-family="Georgia, serif" font-size="19" fill="#5b7f96">Lagerung</text>
+
+    <line x1="0" y1="340" x2="390" y2="340" stroke="#111" stroke-width="3"/>
+
+    <!-- Kopf -->
+    <circle cx="56" cy="316" r="24" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+    <!-- Rumpf, flach am Boden -->
+    <rect x="80" y="298" width="140" height="36" rx="14" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <!-- Arm, entspannt -->
+    <path d="M 130 300 L 104 322" fill="none" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <!-- Oberschenkel steil nach oben -->
+    <path d="M 220 316 L 258 196" fill="none" stroke="#111" stroke-width="16" stroke-linecap="round"/>
+    <!-- Unterschenkel zurueck zum Boden, Fuss nah am Koerper -->
+    <path d="M 258 196 L 220 320" fill="none" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+    <!-- Kniegelenk -->
+    <circle cx="258" cy="196" r="7" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+    <!-- Fuss, flach am Boden -->
+    <path d="M 220 320 L 194 326" fill="none" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Beschriftung Rumpf -->
+    <text x="80" y="282" font-family="Georgia, serif" font-size="16" fill="#5b7f96">flach auf dem Rücken</text>
+
+    <!-- Beschriftung Knie -->
+    <line x1="258" y1="196" x2="296" y2="146" stroke="#111" stroke-width="2"/>
+    <text x="270" y="130" font-family="Georgia, serif" font-size="18" fill="#111">Knie</text>
+    <text x="270" y="152" font-family="Georgia, serif" font-size="18" fill="#111">angezogen</text>
+
+    <text x="0" y="380" font-family="Georgia, serif" font-size="16" fill="#111">Das nimmt die Spannung aus der Bauchdecke.</text>
+  </g>
+
+  <!-- ============ RECHTS: austretende Organe ============ -->
+  <g transform="translate(480,90)">
+    <text x="0" y="20" font-family="Georgia, serif" font-size="19" fill="#5b7f96">Organe, die austreten</text>
+
+    <!-- oberes Feld: falsch -->
+    <text x="0" y="55" font-family="Georgia, serif" font-size="16" fill="#d65a1a">so nicht</text>
+    <line x1="20" y1="140" x2="120" y2="140" stroke="#111" stroke-width="5"/>
+    <line x1="200" y1="140" x2="330" y2="140" stroke="#111" stroke-width="5"/>
+    <ellipse cx="160" cy="112" rx="42" ry="34" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <!-- Schub-Pfeil in die Wunde -->
+    <path d="M 120 62 L 152 108" fill="none" stroke="#d65a1a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 152 108 L 138 100 M 152 108 L 146 92" fill="none" stroke="#d65a1a" stroke-width="6" stroke-linecap="round"/>
+    <!-- Verbotsstrich quer durch den Pfeil -->
+    <line x1="110" y1="112" x2="166" y2="58" stroke="#d65a1a" stroke-width="6" stroke-linecap="round"/>
+    <text x="260" y="100" font-family="Georgia, serif" font-size="18" fill="#d65a1a">NICHT</text>
+    <text x="260" y="122" font-family="Georgia, serif" font-size="18" fill="#d65a1a">zurückschieben</text>
+
+    <line x1="0" y1="190" x2="380" y2="190" stroke="#5b7f96" stroke-width="1" stroke-dasharray="6 5"/>
+
+    <!-- unteres Feld: richtig -->
+    <text x="0" y="222" font-family="Georgia, serif" font-size="16" fill="#111">so richtig</text>
+    <line x1="20" y1="330" x2="120" y2="330" stroke="#111" stroke-width="5"/>
+    <line x1="200" y1="330" x2="330" y2="330" stroke="#111" stroke-width="5"/>
+    <ellipse cx="160" cy="302" rx="42" ry="34" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+    <!-- Tuch, lose darueber, ohne zu druecken -->
+    <path d="M 100 330 Q 100 250 160 245 Q 220 250 220 330 Z" fill="#c9c4b4" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M 120 300 Q 160 280 200 300" fill="none" stroke="#111" stroke-width="2" opacity="0.4"/>
+    <text x="260" y="290" font-family="Georgia, serif" font-size="18" fill="#111">Mit feuchtem</text>
+    <text x="260" y="312" font-family="Georgia, serif" font-size="18" fill="#111">Tuch abdecken</text>
+  </g>
+
+  <text x="40" y="530" font-family="Georgia, serif" font-size="16" fill="#111">Treten innere Organe aus der Wunde, werden sie nicht zurückgeschoben. Wer hineindrückt,</text>
+  <text x="40" y="554" font-family="Georgia, serif" font-size="16" fill="#111">schiebt Schmutz mit hinein und verletzt zusätzlich.</text>
+</svg>

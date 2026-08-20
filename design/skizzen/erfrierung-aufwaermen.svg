@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="880" viewBox="0 0 900 880">
+  <!-- Zum Tipp "Erfrierungen versorgen".
+       Der Tipp ist ein einziger langer Absatz, und mitten darin steckt eine
+       ENTSCHEIDUNG mit drei Bedingungen, die ALLE zutreffen muessen. Im
+       Fliesstext liest man darueber hinweg; als Tor mit drei Kaesten steht sie
+       vor dem Verfahren, und das ist die richtige Reihenfolge.
+       Die Bedingung "keine Gefahr, dass es wieder gefriert" steht in der
+       Quelle ausdruecklich ganz vorn und nicht am Ende: Auftauen und wieder
+       gefrieren ist schlimmer, als durchgehend gefroren zu bleiben. Deshalb
+       steht dieser Satz hier als Fusszeile unter allem.
+       Die vier verbotenen Waermequellen stehen als eigene Reihe, weil der
+       Grund dafuer nicht offensichtlich ist: Die Stelle ist gefuehllos und
+       verbrennt, ohne dass die Person es rechtzeitig merkt.
+       Die Ibuprofen-Angabe des Tipps ist NICHT im Bild. Arzneimengen gehoeren
+       nicht in eine Zeichnung, die man ohne den Vorbehaltsabsatz ansieht. -->
+  <rect width="900" height="880" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Erfrierung aktiv aufwärmen? Nur wenn alle drei zutreffen</text>
+
+  <!-- ============ Die drei Bedingungen ============ -->
+  <g fill="none" stroke="#1d6b3a" stroke-width="4">
+    <rect x="40" y="80" width="250" height="118" rx="14"/>
+    <rect x="325" y="80" width="250" height="118" rx="14"/>
+    <rect x="610" y="80" width="250" height="118" rx="14"/>
+  </g>
+  <g fill="#1d6b3a">
+    <circle cx="70" cy="110" r="13"/>
+    <circle cx="355" cy="110" r="13"/>
+    <circle cx="640" cy="110" r="13"/>
+  </g>
+  <g stroke="#faf9f6" stroke-width="3" fill="none">
+    <path d="M 64 110 l 4 5 l 8 -10"/>
+    <path d="M 349 110 l 4 5 l 8 -10"/>
+    <path d="M 634 110 l 4 5 l 8 -10"/>
+  </g>
+
+  <text x="92" y="118" font-family="Georgia, serif" font-size="21" fill="#111">Mehr als ZWEI</text>
+  <text x="92" y="144" font-family="Georgia, serif" font-size="21" fill="#111">STUNDEN bis zu</text>
+  <text x="92" y="170" font-family="Georgia, serif" font-size="21" fill="#111">ärztlicher Hilfe.</text>
+
+  <text x="377" y="118" font-family="Georgia, serif" font-size="21" fill="#111">Du hast das</text>
+  <text x="377" y="144" font-family="Georgia, serif" font-size="21" fill="#111">Nötige dafür</text>
+  <text x="377" y="170" font-family="Georgia, serif" font-size="21" fill="#111">wirklich da.</text>
+
+  <text x="662" y="118" font-family="Georgia, serif" font-size="21" fill="#111">Keine Gefahr,</text>
+  <text x="662" y="144" font-family="Georgia, serif" font-size="21" fill="#111">dass es danach</text>
+  <text x="662" y="170" font-family="Georgia, serif" font-size="21" fill="#111">wieder gefriert.</text>
+
+  <text x="40" y="238" font-family="Georgia, serif" font-size="21" fill="#a3231a">Fehlt auch nur EINE: nicht aufwärmen. Dann locker zudecken, vor Kälte schützen,</text>
+  <text x="40" y="264" font-family="Georgia, serif" font-size="21" fill="#a3231a">nichts reiben, keine Wärmflasche — und die erfrorenen Teile nicht selbst bewegen.</text>
+
+  <line x1="40" y1="292" x2="860" y2="292" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Das Verfahren ============ -->
+  <text x="40" y="336" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Alle drei erfüllt: so wird aufgewärmt</text>
+
+  <!-- Gefaess mit Wasser -->
+  <path d="M 96 402 L 116 542 L 300 542 L 320 402 Z" fill="none" stroke="#111" stroke-width="4"/>
+  <path d="M 104 458 L 116 542 L 300 542 L 312 458 Z" fill="#a9c4d4"/>
+  <!-- Hand von oben ins Wasser: Unterarm, Handflaeche, Finger unter der Oberflaeche -->
+  <rect x="180" y="352" width="56" height="104" rx="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="170" y="444" width="76" height="56" rx="16" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="4" fill="#c9c4b4">
+    <rect x="176" y="494" width="14" height="34" rx="7"/>
+    <rect x="194" y="494" width="14" height="40" rx="7"/>
+    <rect x="212" y="494" width="14" height="36" rx="7"/>
+    <rect x="230" y="494" width="14" height="28" rx="7"/>
+  </g>
+
+  <!-- Thermometer -->
+  <rect x="346" y="392" width="20" height="120" rx="10" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <rect x="351" y="446" width="10" height="62" rx="5" fill="#a3231a"/>
+  <circle cx="356" cy="520" r="18" fill="#a3231a" stroke="#111" stroke-width="4"/>
+  <text x="386" y="440" font-family="Georgia, serif" font-size="23" fill="#a3231a">37–39 °C</text>
+  <text x="386" y="466" font-family="Georgia, serif" font-size="21" fill="#111">Körperwärme,</text>
+  <text x="386" y="492" font-family="Georgia, serif" font-size="21" fill="#111">nicht heiß.</text>
+
+  <text x="40" y="586" font-family="Georgia, serif" font-size="21" fill="#111">Darin lassen, bis die Stelle rot oder violett wird und sich wieder weich anfühlt —</text>
+  <text x="40" y="612" font-family="Georgia, serif" font-size="21" fill="#111">meist etwa 30 Minuten. Nicht reiben, nicht grob anfassen.</text>
+  <text x="40" y="638" font-family="Georgia, serif" font-size="21" fill="#111">Danach keimfrei verbinden — bei mehreren Fingern oder Zehen kommt zwischen</text>
+  <text x="40" y="664" font-family="Georgia, serif" font-size="21" fill="#111">jeden einzelnen eine Lage Gaze.</text>
+
+  <line x1="40" y1="692" x2="860" y2="692" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Verbotene Waermequellen ============ -->
+  <text x="40" y="730" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ausdrücklich ausgeschlossen — die Stelle ist gefühllos und verbrennt,</text>
+  <text x="40" y="758" font-family="Georgia, serif" font-size="23" fill="#a3231a">ohne dass die Person es rechtzeitig merkt:</text>
+  <text x="40" y="792" font-family="Georgia, serif" font-size="21" fill="#111">kein Feuer  ·  kein Heizgerät  ·  kein Ofen  ·  keine erhitzten Steine</text>
+
+  <!-- Auftau-Regel als letzte Warnung, in eigener Zeile -->
+  <rect x="40" y="812" width="820" height="46" rx="8" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="62" y="843" font-family="Georgia, serif" font-size="23" fill="#a3231a">Auftauen und wieder gefrieren ist schlimmer, als gefroren zu bleiben.</text>
+</svg>

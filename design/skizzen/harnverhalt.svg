@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1306" viewBox="0 0 900 1306">
+  <!-- Zum Tipp "Wenn kein Wasser mehr kommt".
+       Der Tipp sagt selbst, dass ein Laie hier wenig ausrichten kann. Genau
+       deshalb muss das Bild die zwei Dinge tragen, die er AUSRICHTEN kann:
+       richtig erkennen und den einen Handgriff.
+       Die Falle in der Mitte ist der Grund fuer dieses Bild ueberhaupt. Ein
+       Ueberlaufen sieht aus wie Inkontinenz und ist das Gegenteil: Die Blase
+       ist randvoll und geht nicht leer, und nur einzelne Tropfen kommen an
+       der Blockade vorbei. Wer das als Inkontinenz liest, sucht in die
+       falsche Richtung und verliert Stunden.
+       Deshalb ist im Bild die Blase VOLL gezeichnet, die Blockade sitzt im
+       Abfluss, und unten kommen nur zwei Tropfen an. Nicht ueber den Rand:
+       ueberlaufen heisst hier vorbeitropfen, nicht ueberschwappen.
+       Die Wanne ist der einzige Weg, den die Quelle ohne Geraet beschreibt.
+       Das WARME Wasser ist der wirksame Teil, deshalb die Waermewellen.
+       Unten die zwei Ursachen, an die man nicht denkt. Die zweite ist keine
+       Ursachen-Variante, sondern ein ganz anderer Notfall: Harnverhalt plus
+       Kiefersperre plus bretthart gespannte Bauchdecke ist Starrkrampf.
+       Bewusst NICHT im Bild: irgendetwas zum Katheter. Die Quelle beschreibt
+       ihn, aber das lernt niemand aus einem Bild, und ein halbes Bild davon
+       waere gefaehrlicher als keines. -->
+  <rect width="900" height="1306" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Wenn kein Wasser mehr kommt</text>
+
+  <!-- ============ A: die drei Fragen ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Drei Fragen zum Erkennen</text>
+
+  <g fill="#1d6b3a">
+    <circle cx="60" cy="140" r="17"/><circle cx="60" cy="186" r="17"/><circle cx="60" cy="232" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="147">1</text><text x="60" y="193">2</text><text x="60" y="239">3</text>
+  </g>
+  <text x="88" y="147" font-family="Georgia, serif" font-size="21" fill="#111">Fällt es schwer, die Blase zu leeren, obwohl das Gefühl da ist, zu müssen?</text>
+  <text x="88" y="193" font-family="Georgia, serif" font-size="21" fill="#111">Bleibt nach dem Wasserlassen das Gefühl, gleich wieder zu müssen?</text>
+  <text x="88" y="239" font-family="Georgia, serif" font-size="21" fill="#111">Tröpfelt es danach nach?</text>
+
+  <text x="40" y="284" font-family="Georgia, serif" font-size="21" fill="#111">Zum Vergleichen: Der erste Drang kommt bei etwa 150 Millilitern, die Blase fasst</text>
+  <text x="40" y="310" font-family="Georgia, serif" font-size="21" fill="#111">300 bis 450. Normal vergehen mehr als zwei Stunden, am Tag kommt etwa ein Liter.</text>
+
+  <line x1="40" y1="342" x2="860" y2="342" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die Falle ============ -->
+  <text x="40" y="382" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die Falle: es sieht aus wie Inkontinenz — und ist das Gegenteil</text>
+
+  <rect x="110" y="414" width="190" height="120" rx="48" fill="#a9c4d4" stroke="#111" stroke-width="4"/>
+  <text x="205" y="484" font-family="Georgia, serif" font-size="23" fill="#111" text-anchor="middle">randvoll</text>
+  <rect x="190" y="530" width="30" height="50" fill="#a9c4d4" stroke="#111" stroke-width="4"/>
+  <rect x="180" y="546" width="50" height="14" rx="4" fill="#111"/>
+  <path d="M 205 604 q -8 -10 0 -18 q 8 8 0 18 Z" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <path d="M 205 640 q -7 -9 0 -16 q 7 7 0 16 Z" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <line x1="240" y1="553" x2="300" y2="553" stroke="#a3231a" stroke-width="2"/>
+  <text x="308" y="559" font-family="Georgia, serif" font-size="21" fill="#a3231a">Blockade</text>
+
+  <text x="440" y="444" font-family="Georgia, serif" font-size="21" fill="#111">Nur einzelne Tropfen kommen</text>
+  <text x="440" y="470" font-family="Georgia, serif" font-size="21" fill="#111">daran vorbei. Das sieht aus wie</text>
+  <text x="440" y="496" font-family="Georgia, serif" font-size="21" fill="#111">Inkontinenz — und ist genau das</text>
+  <text x="440" y="522" font-family="Georgia, serif" font-size="21" fill="#111">Gegenteil: Die Blase ist voll und</text>
+  <text x="440" y="548" font-family="Georgia, serif" font-size="21" fill="#111">geht nicht leer.</text>
+  <text x="440" y="592" font-family="Georgia, serif" font-size="21" fill="#a3231a">Dazu ein harter, druckempfindlicher</text>
+  <text x="440" y="618" font-family="Georgia, serif" font-size="21" fill="#a3231a">Unterbauch. Wer über viele Stunden</text>
+  <text x="440" y="644" font-family="Georgia, serif" font-size="21" fill="#a3231a">gar nichts lässt, hat keine</text>
+  <text x="440" y="670" font-family="Georgia, serif" font-size="21" fill="#a3231a">Austrocknung, sondern einen</text>
+  <text x="440" y="696" font-family="Georgia, serif" font-size="21" fill="#a3231a">Verschluss.</text>
+
+  <line x1="40" y1="730" x2="860" y2="730" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: der eine Handgriff ============ -->
+  <text x="40" y="770" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der eine Handgriff ohne Gerät</text>
+
+  <g stroke="#d65a1a" stroke-width="4" fill="none">
+    <path d="M 150 830 q 12 -14 0 -24 q -12 -12 0 -22"/>
+    <path d="M 190 830 q 12 -14 0 -24 q -12 -12 0 -22"/>
+    <path d="M 230 830 q 12 -14 0 -24 q -12 -12 0 -22"/>
+  </g>
+  <rect x="110" y="836" width="280" height="96" rx="22" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <!-- die Person sitzt IM Wasser: erst der Koerper, dann das Wasser davor,
+       damit alles unter der Oberflaeche verdeckt ist und Kopf, Schultern und
+       Knie herausschauen, so wie man jemanden in einer Wanne sieht. -->
+  <circle cx="300" cy="808" r="20" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <path d="M 292 886 L 205 848 L 168 892" fill="none" stroke="#111" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 292 886 L 205 848 L 168 892" fill="none" stroke="#f2ece2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="280" y="832" width="40" height="58" rx="16" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <rect x="120" y="866" width="260" height="58" rx="16" fill="#a9c4d4"/>
+
+  <text x="440" y="812" font-family="Georgia, serif" font-size="23" fill="#a3231a">Im WARMEN Wasser sitzen</text>
+  <text x="440" y="840" font-family="Georgia, serif" font-size="23" fill="#a3231a">und im Wasser Wasser lassen.</text>
+  <text x="440" y="878" font-family="Georgia, serif" font-size="21" fill="#111">Das entspannt den Beckenboden,</text>
+  <text x="440" y="904" font-family="Georgia, serif" font-size="21" fill="#111">nimmt den Schmerz und löst die</text>
+  <text x="440" y="930" font-family="Georgia, serif" font-size="21" fill="#111">Blockade oft von selbst. Es klingt</text>
+  <text x="440" y="956" font-family="Georgia, serif" font-size="21" fill="#111">banal und ist der einzige Weg, den</text>
+  <text x="440" y="982" font-family="Georgia, serif" font-size="21" fill="#111">die Quelle ohne Gerät beschreibt.</text>
+
+  <line x1="40" y1="1016" x2="860" y2="1016" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: zwei Ursachen, an die man nicht denkt ============ -->
+  <text x="40" y="1056" font-family="Georgia, serif" font-size="23" fill="#a3231a">Zwei Ursachen, an die man nicht denkt</text>
+
+  <rect x="40" y="1076" width="400" height="150" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="62" y="1114" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein neues Mittel dabei?</text>
+  <text x="62" y="1150" font-family="Georgia, serif" font-size="21" fill="#111">Krampflösende Blasenmittel können</text>
+  <text x="62" y="1176" font-family="Georgia, serif" font-size="21" fill="#111">genau das auslösen. Die Quelle warnt</text>
+  <text x="62" y="1202" font-family="Georgia, serif" font-size="21" fill="#111">davor, sie großzügig zu geben.</text>
+
+  <rect x="460" y="1076" width="400" height="150" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="482" y="1114" font-family="Georgia, serif" font-size="23" fill="#a3231a">Kiefersperre dazu?</text>
+  <text x="482" y="1150" font-family="Georgia, serif" font-size="21" fill="#111">Dann ist es STARRKRAMPF — mit</text>
+  <text x="482" y="1176" font-family="Georgia, serif" font-size="21" fill="#111">Krämpfen und brettharter Bauchdecke.</text>
+  <text x="482" y="1202" font-family="Georgia, serif" font-size="21" fill="#111">Ein anderes, dringenderes Problem.</text>
+
+  <text x="40" y="1266" font-family="Georgia, serif" font-size="21" fill="#111">Was die Quellen darüber hinaus anbieten, ist das Legen eines Katheters — und das</text>
+  <text x="40" y="1292" font-family="Georgia, serif" font-size="21" fill="#111">lernt man nicht aus einem Text. Eine Anleitung dazu steht hier deshalb nicht.</text>
+</svg>

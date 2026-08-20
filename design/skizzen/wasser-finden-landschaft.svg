@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <!-- Zum Tipp "wasser-finden-landschaft" (Trinkbares finden: Tau, Baumhoehlen,
+       Felsspalten), Absatz "DIE LANDSCHAFT SELBST ZEIGT DEN WEG".
+
+       Gewaehlte Aussage: "Wo mehrere Wildwechsel oder Trampelpfade
+       ZUSAMMENLAUFEN, geht man in diese Richtung." Das ist die eine Aussage
+       aus dem Tipp, die raeumlich ist und sich schlecht in Worten, aber
+       leicht als Bild zeigen laesst: nicht EIN Pfad zeigt Wasser an, sondern
+       das ZUSAMMENLAUFEN mehrerer Pfade an einem Punkt. Deshalb zeigt das
+       Bild eine Draufsicht mit mehreren duennen Pfaden, die sich zu einem
+       einzigen breiteren Pfad vereinen, der zum Wasser fuehrt. Die anderen
+       Wasserzeichen des Absatzes (Voegel, Tau, Baumhoehlen, Graben) sind
+       eigene Aussagen und bewusst nicht mitgezeichnet, um dieses eine
+       geometrische Prinzip nicht zu verwaessern. Die Erkennungsmerkmale der
+       Pfade (Lagerspuren, Asche, Tierlosung) sind eine Liste im Text und
+       werden hier nicht abgemalt. Signalfarbe einmalig am Richtungspfeil,
+       weil er die eigentliche Handlungsanweisung "geht man in diese
+       Richtung" traegt. -->
+
+  <rect width="900" height="520" fill="#faf9f6"/>
+
+  <text x="40" y="50" font-family="Georgia, serif" font-size="26" fill="#111">Wo Pfade zusammenlaufen, ist Wasser</text>
+
+  <!-- Gelaende als Kartenausschnitt -->
+  <rect x="40" y="90" width="820" height="330" rx="16" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+
+  <!-- Wasserstelle -->
+  <ellipse cx="655" cy="272" rx="80" ry="50" fill="#5b7f96" stroke="#111" stroke-width="3"/>
+  <text x="622" y="205" font-family="Georgia, serif" font-size="19" fill="#111">Wasser</text>
+
+  <!-- Drei einzelne Pfade, die sich zu einem gemeinsamen Pfad vereinen.
+       Technik: erst ein dickerer Strich in Kontur-Farbe als Umriss, darueber
+       ein duennerer Strich in der Flaechenfarbe – ergibt einen durchgehend
+       umrandeten Pfad-Streifen statt einer blossen Linie. -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pfad 1: von links oben -->
+    <path d="M 95 145 Q 210 165 380 258" stroke="#111" stroke-width="18"/>
+    <path d="M 95 145 Q 210 165 380 258" stroke="#d9c98a" stroke-width="12"/>
+    <!-- Pfad 2: von links unten -->
+    <path d="M 95 400 Q 230 335 380 258" stroke="#111" stroke-width="18"/>
+    <path d="M 95 400 Q 230 335 380 258" stroke="#d9c98a" stroke-width="12"/>
+    <!-- vereinigter Pfad 1+2, breiter, bis zum zweiten Zusammenfluss -->
+    <path d="M 380 258 Q 450 262 520 268" stroke="#111" stroke-width="26"/>
+    <path d="M 380 258 Q 450 262 520 268" stroke="#d9c98a" stroke-width="20"/>
+    <!-- Pfad 3: von unten -->
+    <path d="M 435 412 Q 480 340 520 268" stroke="#111" stroke-width="18"/>
+    <path d="M 435 412 Q 480 340 520 268" stroke="#d9c98a" stroke-width="12"/>
+    <!-- gemeinsamer, breitester Pfad zur Wasserstelle -->
+    <path d="M 520 268 Q 555 270 578 271" stroke="#111" stroke-width="32"/>
+    <path d="M 520 268 Q 555 270 578 271" stroke="#d9c98a" stroke-width="26"/>
+  </g>
+
+  <!-- Richtungspfeil, deutlich oberhalb des letzten Pfadstuecks und der
+       Wasserstelle platziert, damit er keine Beschriftung beruehrt -->
+  <g fill="none" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 480 202 Q 520 190 555 186"/>
+    <path d="M 555 186 l -19 -3 M 555 186 l -10 17"/>
+  </g>
+  <text x="270" y="168" font-family="Georgia, serif" font-size="17" fill="#111">geht man in diese Richtung</text>
+
+  <g font-family="Georgia, serif" font-size="18" fill="#111">
+    <text x="40" y="458">Alle Pfade führen zum Wasser: Wo mehrere Wildwechsel oder Trampelpfade</text>
+    <text x="40" y="486">zusammenlaufen, geht man in diese Richtung.</text>
+  </g>
+</svg>

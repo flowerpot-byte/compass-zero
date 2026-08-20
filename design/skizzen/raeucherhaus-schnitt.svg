@@ -1,0 +1,138 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif">
+  <!-- Nahrung fuer Monate, Schritt 6-7: das Raeucherhaus im Schnitt -->
+  <rect x="0" y="0" width="900" height="620" fill="#faf9f6"/>
+
+  <text x="450" y="38" text-anchor="middle" font-size="25" fill="#111">Räuchern: das Räucherhaus im Schnitt</text>
+  <text x="450" y="60" text-anchor="middle" font-size="14" fill="#5b7f96">Räuchern, Teil 1 und 2 — das Haus, das Feuer, das Aufhängen</text>
+
+  <!-- Erdreich -->
+  <line x1="90" y1="500" x2="810" y2="500" stroke="#111" stroke-width="3"/>
+  <g stroke="#5b7f96" stroke-width="1.5">
+    <line x1="100" y1="500" x2="88" y2="516"/>
+    <line x1="130" y1="500" x2="118" y2="516"/>
+    <line x1="160" y1="500" x2="148" y2="516"/>
+    <line x1="600" y1="500" x2="588" y2="516"/>
+    <line x1="630" y1="500" x2="618" y2="516"/>
+    <line x1="660" y1="500" x2="648" y2="516"/>
+  </g>
+
+  <!-- Gebaeude: Waende und Dach mit Abzug -->
+  <line x1="240" y1="500" x2="240" y2="180" stroke="#111" stroke-width="4"/>
+  <line x1="660" y1="500" x2="660" y2="180" stroke="#111" stroke-width="4"/>
+  <path d="M 240 180 L 425 95" fill="none" stroke="#111" stroke-width="4"/>
+  <path d="M 475 95 L 660 180" fill="none" stroke="#111" stroke-width="4"/>
+
+  <!-- Rauch: von der Feuergrube durch das Haus zum Dachabzug -->
+  <path d="M 450 495 C 430 465, 400 450, 398 415 L 398 335 C 398 290, 410 260, 425 230 C 440 190, 446 140, 450 100"
+        fill="none" stroke="#5b7f96" stroke-width="2.5" stroke-dasharray="2 8" stroke-linecap="round"/>
+
+  <!-- Feuergrube, mittig, etwa 60 cm tief -->
+  <path d="M 385 500 L 515 500 L 495 570 L 405 570 Z" fill="#5b7f96" fill-opacity="0.15" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="1" opacity="0.5">
+    <line x1="400" y1="510" x2="415" y2="560"/>
+    <line x1="420" y1="505" x2="432" y2="565"/>
+    <line x1="480" y1="505" x2="468" y2="565"/>
+    <line x1="500" y1="510" x2="485" y2="560"/>
+  </g>
+
+  <!-- Glut, angedeutet als kleine Punkte -->
+  <g fill="#111" opacity="0.55">
+    <circle cx="435" cy="495" r="3"/>
+    <circle cx="450" cy="497" r="3"/>
+    <circle cx="465" cy="495" r="3"/>
+    <circle cx="443" cy="490" r="2.5"/>
+    <circle cx="458" cy="490" r="2.5"/>
+  </g>
+
+  <!-- Gruenes Holz nachgelegt: die eine kritische Stelle -->
+  <g stroke="#d65a1a" stroke-width="4" stroke-linecap="round">
+    <line x1="410" y1="480" x2="470" y2="500"/>
+    <line x1="415" y1="500" x2="475" y2="478"/>
+    <line x1="430" y1="472" x2="450" y2="502"/>
+  </g>
+
+  <!-- Tiefenmass der Feuergrube -->
+  <g stroke="#111" stroke-width="1.5">
+    <line x1="340" y1="500" x2="340" y2="570"/>
+    <line x1="333" y1="500" x2="347" y2="500"/>
+    <line x1="333" y1="570" x2="347" y2="570"/>
+  </g>
+  <text x="325" y="539" text-anchor="end" font-size="14" fill="#111">etwa 60</text>
+  <text x="325" y="555" text-anchor="end" font-size="14" fill="#111">Zentimeter tief</text>
+  <line x1="330" y1="535" x2="341" y2="533" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- Querstange durch die Laenge des Hauses -->
+  <line x1="260" y1="330" x2="640" y2="330" stroke="#111" stroke-width="4"/>
+  <circle cx="260" cy="330" r="5" fill="#faf9f6" stroke="#111" stroke-width="2"/>
+  <circle cx="640" cy="330" r="5" fill="#faf9f6" stroke="#111" stroke-width="2"/>
+
+  <!-- Drei Fleischstuecke, frei haengend, ohne Beruehrung -->
+  <g stroke="#111" stroke-width="1.5">
+    <line x1="340" y1="330" x2="340" y2="345"/>
+    <line x1="450" y1="330" x2="450" y2="345"/>
+    <line x1="560" y1="330" x2="560" y2="345"/>
+  </g>
+  <g fill="#5b7f96" fill-opacity="0.18" stroke="#111" stroke-width="3">
+    <rect x="315" y="345" width="50" height="72" rx="10"/>
+    <rect x="425" y="345" width="50" height="72" rx="10"/>
+    <rect x="535" y="345" width="50" height="72" rx="10"/>
+  </g>
+
+  <!-- Abstand zwischen zwei Stuecken, kein Beruehren -->
+  <g stroke="#111" stroke-width="1">
+    <line x1="365" y1="381" x2="425" y2="381"/>
+    <line x1="365" y1="376" x2="365" y2="386"/>
+    <line x1="425" y1="376" x2="425" y2="386"/>
+  </g>
+  <text x="70" y="388" text-anchor="start" font-size="14" fill="#111">jedes Stück hängt frei,</text>
+  <text x="70" y="406" text-anchor="start" font-size="14" fill="#111">berührt kein anderes</text>
+  <path d="M 215 396 L 280 345 L 364 335" fill="none" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- Hoehenmass: Fleisch ueber der Feuergrube -->
+  <g stroke="#111" stroke-width="1.5">
+    <line x1="620" y1="330" x2="620" y2="500"/>
+    <line x1="613" y1="330" x2="627" y2="330"/>
+    <line x1="613" y1="500" x2="627" y2="500"/>
+  </g>
+  <text x="700" y="358" text-anchor="start" font-size="14" fill="#111">Fleisch hängt an Schnur,</text>
+  <text x="700" y="376" text-anchor="start" font-size="14" fill="#111">1,20 bis 1,50 Meter</text>
+  <text x="700" y="394" text-anchor="start" font-size="14" fill="#111">über der Feuergrube</text>
+  <path d="M 698 372 L 660 405 L 622 415" fill="none" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- Dichtes Gebaeude -->
+  <text x="70" y="220" text-anchor="start" font-size="14" fill="#111">möglichst</text>
+  <text x="70" y="238" text-anchor="start" font-size="14" fill="#111">dichtes Gebäude</text>
+  <line x1="150" y1="228" x2="238" y2="260" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- Querstangen aus gruenem Holz -->
+  <text x="70" y="325" text-anchor="start" font-size="14" fill="#111">Querstangen aus</text>
+  <text x="70" y="343" text-anchor="start" font-size="14" fill="#111">grünem Holz, durch die</text>
+  <text x="70" y="361" text-anchor="start" font-size="14" fill="#111">ganze Länge des Hauses</text>
+  <line x1="185" y1="350" x2="258" y2="332" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- Feuergrube-Beschriftung -->
+  <text x="70" y="450" text-anchor="start" font-size="14" fill="#111">Feuergrube im Boden,</text>
+  <text x="70" y="468" text-anchor="start" font-size="14" fill="#111">mittig</text>
+  <line x1="130" y1="458" x2="386" y2="530" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- Abzug im Dach -->
+  <text x="700" y="130" text-anchor="start" font-size="14" fill="#111">Abzug im Dach</text>
+  <line x1="698" y1="126" x2="465" y2="97" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- kalter Rauch -->
+  <text x="700" y="235" text-anchor="start" font-size="14" fill="#111">kalter Rauch, unter</text>
+  <text x="700" y="253" text-anchor="start" font-size="14" fill="#111">etwa 29 Grad —</text>
+  <text x="700" y="271" text-anchor="start" font-size="14" fill="#111">Flammen vermieden</text>
+  <line x1="698" y1="253" x2="422" y2="238" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- gruenes Holz, die kritische Stelle -->
+  <text x="700" y="462" text-anchor="start" font-size="14" fill="#d65a1a">grünes Holz von</text>
+  <text x="700" y="480" text-anchor="start" font-size="14" fill="#d65a1a">Laubbäumen —</text>
+  <text x="700" y="498" text-anchor="start" font-size="14" fill="#d65a1a">Nadelhölzer werden</text>
+  <text x="700" y="516" text-anchor="start" font-size="14" fill="#d65a1a">nicht verwendet</text>
+  <line x1="698" y1="480" x2="472" y2="486" stroke="#d65a1a" stroke-width="1"/>
+
+  <!-- Dauer -->
+  <rect x="345" y="572" width="210" height="38" rx="6" fill="none" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="450" y="596" text-anchor="middle" font-size="15" fill="#111">geräuchert: vier bis fünf Tage</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Gipfelblick</title>
+  <ellipse cx="256" cy="256" rx="130" ry="175" fill="none" stroke="#0A0A0A" stroke-width="44"/>
+  <circle cx="200" cy="180" r="18" fill="#FF4D00"/>
+  <polygon points="180,330 240,214 296,330" fill="#0A0A0A"/>
+  <polygon points="250,330 302,252 348,330" fill="#0A0A0A"/>
+</svg>

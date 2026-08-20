@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580">
+  <!-- Zum Tipp "Stabile Seitenlage: Handgriffe".
+       Die einzelnen Handgriffe stehen im Text und sind dort gut aufgehoben.
+       Was ein Bild besser kann, ist die ENDLAGE: Woran erkenne ich, dass die
+       Person richtig liegt? Drei Dinge entscheiden, und alle drei werden
+       haeufig falsch gemacht — der Hals ist ueberstreckt, der Mund ist der
+       TIEFSTE Punkt, und das obere Bein steht im rechten Winkel und haelt die
+       Person davon ab, auf den Bauch zu rollen. -->
+  <rect width="900" height="580" fill="#faf9f6"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="28" fill="#111">Stabile Seitenlage: woran man die richtige Lage erkennt</text>
+
+  <!-- Boden -->
+  <line x1="60" y1="440" x2="850" y2="440" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="2" opacity="0.35">
+    <line x1="80" y1="440" x2="66" y2="456"/><line x1="180" y1="440" x2="166" y2="456"/>
+    <line x1="280" y1="440" x2="266" y2="456"/><line x1="380" y1="440" x2="366" y2="456"/>
+    <line x1="480" y1="440" x2="466" y2="456"/><line x1="580" y1="440" x2="566" y2="456"/>
+    <line x1="680" y1="440" x2="666" y2="456"/><line x1="780" y1="440" x2="766" y2="456"/>
+  </g>
+
+  <!-- Rumpf, auf der Seite liegend -->
+  <path d="M 300 306 Q 380 288 520 300 L 546 356 Q 520 424 440 428 L 320 428 Q 288 380 300 306 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Kopf, Hals ueberstreckt, Mund nach unten -->
+  <circle cx="236" cy="342" r="48" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <path d="M 276 316 L 306 308" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+  <!-- Mund als tiefster Punkt -->
+  <path d="M 208 380 Q 226 392 246 382" fill="none" stroke="#d65a1a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Hand unter der Wange -->
+  <ellipse cx="206" cy="352" rx="24" ry="16" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <path d="M 226 366 Q 262 396 320 400" fill="none" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Unteres Bein gestreckt, flach am Boden -->
+  <path d="M 512 392 L 716 400 L 716 424 L 512 420 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Oberes Bein: Oberschenkel quer, Unterschenkel nach unten -->
+  <path d="M 508 322 L 606 310 L 632 424 L 594 428 L 574 338 L 508 348 Z"
+        fill="#c9c4b4" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Winkelzeichen am Knie -->
+  <path d="M 578 336 L 596 334 L 598 354" fill="none" stroke="#d65a1a" stroke-width="4"/>
+
+  <!-- Beschriftungen -->
+  <g stroke="#111" stroke-width="2">
+    <line x1="236" y1="290" x2="236" y2="230"/>
+    <line x1="228" y1="394" x2="180" y2="470"/>
+    <line x1="600" y1="306" x2="624" y2="276"/>
+  </g>
+  <text x="130" y="220" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Hals überstreckt</text>
+  <text x="60" y="496" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Mund ist der tiefste Punkt</text>
+  <text x="560" y="238" font-family="Georgia, serif" font-size="21" fill="#d65a1a">oberes Bein</text>
+  <text x="560" y="262" font-family="Georgia, serif" font-size="21" fill="#d65a1a">im rechten Winkel</text>
+
+  <text x="40" y="546" font-family="Georgia, serif" font-size="20" fill="#111">Der Handrücken liegt an der Wange und hält den Hals überstreckt. Das gebeugte</text>
+  <text x="40" y="572" font-family="Georgia, serif" font-size="20" fill="#111">Bein verhindert, dass die Person auf den Bauch rollt.</text>
+</svg>

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1714" viewBox="0 0 900 1714">
+  <!-- Zum Tipp "Kopfschmerz: welcher harmlos ist und welcher nicht".
+       Zwei Sachen tragen hier ein Bild, und beide gehen im Fliesstext unter.
+       ERSTENS die eine Frage. Sie ist die nuetzlichste und zugleich die
+       einfachste, und sie steht deshalb ganz oben und allein: Hattest du
+       schon einmal genau so einen Kopfschmerz? Darunter ihr Gegenstueck in
+       Rot — der erste oder der schlimmste des Lebens.
+       ZWEITENS die Zeile "Der Kranke will". Migraene und Cluster trennen
+       sich an einem einzigen beobachtbaren Merkmal: hinlegen oder
+       herumlaufen. Im Fliesstext steht das an zwei weit auseinander
+       liegenden Stellen; nebeneinander in einer Tabelle ist es ein Griff.
+       Deshalb ist genau diese Zeile hinterlegt.
+       Beim Spannungskopfschmerz steht in dieser Zeile ein Strich und nicht
+       etwa "egal". Die Quelle sagt dazu nichts, und ein erfundenes Merkmal
+       in einer Unterscheidungstabelle waere schlimmer als eine Luecke.
+       Keine senkrechten Trennlinien: Die Spalten stehen durch ihre Flucht,
+       und jeder zusaetzliche Strich macht das Lesen langsamer. -->
+  <rect width="900" height="1714" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Kopfschmerz: welcher harmlos ist und welcher nicht</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Alles vom Hals aufwärts kann wehtun und den Schmerz in den Kopf schicken:</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Augen, Ohren, Nase, Rachen, Zähne, Nebenhöhlen, Nacken. Die allermeisten</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">sind harmlos — die Frage ist nur, welcher es nicht ist.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die eine Frage ============ -->
+  <text x="40" y="226" font-family="Georgia, serif" font-size="26" fill="#111">Hattest du schon einmal genau so einen Kopfschmerz?</text>
+  <text x="40" y="262" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Wenn ja, spricht das für einen harmlosen. Es ist die nützlichste Frage und</text>
+  <text x="40" y="288" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">zugleich die einfachste.</text>
+
+  <text x="40" y="332" font-family="Georgia, serif" font-size="26" fill="#a3231a">Der ERSTE oder der SCHLIMMSTE Kopfschmerz des Lebens</text>
+  <text x="40" y="364" font-family="Georgia, serif" font-size="26" fill="#a3231a">gehört sofort in ärztliche Hand.</text>
+
+  <line x1="40" y1="400" x2="860" y2="400" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Zeichen gegen harmlos ============ -->
+  <text x="40" y="440" font-family="Georgia, serif" font-size="23" fill="#a3231a">Diese Zeichen sprechen gegen harmlos</text>
+  <text x="40" y="478" font-family="Georgia, serif" font-size="21" fill="#111">· Fieber, steifer Nacken oder ein Ausschlag — das kann eine</text>
+  <text x="40" y="504" font-family="Georgia, serif" font-size="21" fill="#111">  Hirnhautentzündung sein.</text>
+  <text x="40" y="530" font-family="Georgia, serif" font-size="21" fill="#111">· Ein Schlag auf den Kopf oder ein Unfall kurz vorher.</text>
+  <text x="40" y="556" font-family="Georgia, serif" font-size="21" fill="#111">· Alles Neurologische: Schwierigkeiten beim Denken oder Sprechen,</text>
+  <text x="40" y="582" font-family="Georgia, serif" font-size="21" fill="#111">  Bewusstlosigkeit, verschwommenes oder doppeltes Sehen, Drehschwindel,</text>
+  <text x="40" y="608" font-family="Georgia, serif" font-size="21" fill="#111">  Taubheit, Schwäche.</text>
+  <text x="40" y="646" font-family="Georgia, serif" font-size="21" fill="#a3231a">Kommt eines davon dazu, ist es kein gewöhnlicher Kopfschmerz mehr.</text>
+
+  <line x1="40" y1="682" x2="860" y2="682" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Tabelle ============ -->
+  <text x="40" y="722" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die drei harmlosen Sorten unterscheiden</text>
+
+  <g font-family="Georgia, serif" font-size="21" fill="#111">
+    <text x="200" y="760">MIGRÄNE</text>
+    <text x="420" y="760">SPANNUNG</text>
+    <text x="640" y="760">CLUSTER</text>
+  </g>
+  <line x1="40" y1="774" x2="860" y2="774" stroke="#111" stroke-width="2"/>
+
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="40" y="806">Wo</text>
+    <text x="200" y="806">meist einseitig</text>
+    <text x="420" y="806">im ganzen Kopf,</text>
+    <text x="420" y="830">wie ein Band</text>
+    <text x="640" y="806">einseitig, meist</text>
+    <text x="640" y="830">um das Auge</text>
+
+    <text x="40" y="866">Wie</text>
+    <text x="200" y="866">pochend oder</text>
+    <text x="200" y="890">hämmernd,</text>
+    <text x="200" y="914">mittelstark bis stark</text>
+    <text x="420" y="866">drückend,</text>
+    <text x="420" y="890">schwächer als</text>
+    <text x="420" y="914">Migräne</text>
+    <text x="640" y="866">sehr heftig, kurz</text>
+
+    <text x="40" y="950">Wie lange</text>
+    <text x="200" y="950">Stunden bis Tage</text>
+    <text x="420" y="950">Stunden bis</text>
+    <text x="420" y="974">Wochen</text>
+    <text x="640" y="950">höchstens ein</text>
+    <text x="640" y="974">paar Stunden</text>
+
+    <text x="40" y="1010">Dabei</text>
+    <text x="200" y="1010">Übelkeit, Licht-</text>
+    <text x="200" y="1034">und Lärmscheu,</text>
+    <text x="200" y="1058">Bewegung</text>
+    <text x="200" y="1082">verschlimmert</text>
+    <text x="420" y="1010">nichts davon</text>
+    <text x="640" y="1010">viele Male am Tag</text>
+    <text x="640" y="1034">möglich, weckt</text>
+    <text x="640" y="1058">nachts auf</text>
+  </g>
+
+  <rect x="40" y="1108" width="820" height="72" rx="8" fill="#f2ece2" stroke="#a3231a" stroke-width="3"/>
+  <text x="60" y="1140" font-family="Georgia, serif" font-size="19" fill="#111">DER KRANKE</text>
+  <text x="60" y="1164" font-family="Georgia, serif" font-size="19" fill="#111">WILL</text>
+  <text x="200" y="1152" font-family="Georgia, serif" font-size="23" fill="#a3231a">SICH HINLEGEN</text>
+  <text x="420" y="1152" font-family="Georgia, serif" font-size="23" fill="#111">—</text>
+  <text x="640" y="1152" font-family="Georgia, serif" font-size="23" fill="#a3231a">HERUMLAUFEN</text>
+
+  <text x="40" y="1216" font-family="Georgia, serif" font-size="21" fill="#111">Daran trennt man Migräne und Cluster. Beim Spannungskopfschmerz sagt die</text>
+  <text x="40" y="1242" font-family="Georgia, serif" font-size="21" fill="#111">Quelle dazu nichts — deshalb steht dort ein Strich und keine Vermutung.</text>
+  <text x="40" y="1278" font-family="Georgia, serif" font-size="21" fill="#111">Migräne baut sich über Minuten bis Stunden auf; manche sehen vorher</text>
+  <text x="40" y="1304" font-family="Georgia, serif" font-size="21" fill="#111">flackernde Lichter, Frauen sind häufiger betroffen. Cluster ist seltener und</text>
+  <text x="40" y="1330" font-family="Georgia, serif" font-size="21" fill="#111">trifft vor allem jüngere Männer.</text>
+
+  <line x1="40" y1="1366" x2="860" y2="1366" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1406" font-family="Georgia, serif" font-size="23" fill="#d65a1a">Ein Punkt, den kaum jemand kennt</text>
+  <text x="40" y="1444" font-family="Georgia, serif" font-size="21" fill="#111">Kopfschmerz entsteht auch durch den ENTZUG von Koffein und von</text>
+  <text x="40" y="1470" font-family="Georgia, serif" font-size="21" fill="#111">Schmerzmitteln. Wer täglich Kaffee trinkt und ihn plötzlich weglässt,</text>
+  <text x="40" y="1496" font-family="Georgia, serif" font-size="21" fill="#111">bekommt Kopfschmerz davon — und wer oft Schmerzmittel nimmt, ebenso.</text>
+  <text x="40" y="1522" font-family="Georgia, serif" font-size="21" fill="#111">In einer Krise, in der beides ausgeht, ist das eine wahrscheinliche und</text>
+  <text x="40" y="1548" font-family="Georgia, serif" font-size="21" fill="#111">harmlose Ursache. Sonst hilft ohne Apotheke: regelmäßig schlafen, sich</text>
+  <text x="40" y="1574" font-family="Georgia, serif" font-size="21" fill="#111">bewegen, mit Belastung umgehen lernen, vernünftig essen.</text>
+
+  <line x1="40" y1="1600" x2="860" y2="1600" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1636" font-family="Georgia, serif" font-size="19" fill="#a3231a">Wenn niemand kommt und Warnzeichen da sind, trägt wenig: hinlegen, ruhig und dunkel betten,</text>
+  <text x="40" y="1660" font-family="Georgia, serif" font-size="19" fill="#a3231a">trinken lassen, regelmäßig prüfen, ob er ansprechbar bleibt und sich normal bewegen kann.</text>
+  <text x="40" y="1684" font-family="Georgia, serif" font-size="19" fill="#a3231a">Verschlechtert sich das, ist es dringend. (Einordnung dieses Pakets, nicht aus der Quelle.)</text>
+</svg>

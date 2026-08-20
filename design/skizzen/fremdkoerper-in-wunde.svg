@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <!-- Zeichnung zum Tipp erste-hilfe-fremdkoerper-in-wunde (Erste Hilfe, Wunden).
+       Gezeigte Aussage: Ein tief sitzender Fremdkoerper bleibt drin und wird
+       ringsum gepolstert. Der Druck der Bandage liegt neben dem Gegenstand,
+       nicht auf ihm, weil er die Wunde weiter wie ein Pfropfen verschliessen
+       kann. Herausziehen ist verboten - das steht rechts oben, klein, mit der
+       einzigen Signalfarben-Stelle im Bild, denn genau das ist laut Text der
+       gefaehrliche Fehler. Unten klein: die Ausnahme aus dem Text, der
+       oberflaechliche, nicht blutende Splitter, den das Verbot nicht meint.
+       Warum als Bild statt als Satz: die raeumliche Anordnung ringsum statt
+       oben drauf laesst sich in Worten nur umstaendlich beschreiben, im Bild
+       sieht man sie auf einen Blick. -->
+
+  <rect x="0" y="0" width="900" height="560" fill="#faf9f6"/>
+
+  <text x="450" y="45" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#111">Fremdkörper: umpolstern statt herausziehen</text>
+
+  <!-- Hauptszene: Unterarm im Querschnitt, Fremdkoerper ragt heraus,
+       Polsterung steht ringsum, Bandage laeuft ueber die Polsterung -->
+  <rect x="120" y="270" width="660" height="120" rx="60" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+
+  <!-- Wundoeffnung, dunkler Spalt -->
+  <ellipse cx="450" cy="270" rx="18" ry="7" fill="#111"/>
+
+  <!-- Polsterung links und rechts vom Gegenstand, nicht auf ihm -->
+  <rect x="380" y="165" width="48" height="105" rx="12" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <rect x="470" y="165" width="48" height="105" rx="12" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+
+  <!-- Fremdkoerper, ragt ueber die Polsterung hinaus -->
+  <polygon points="435,270 465,270 450,150" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+
+  <!-- Bandagenwicklung ueber die Polsterung, beruehrt den Gegenstand nicht -->
+  <path d="M 380 200 Q 450 180 520 200" fill="none" stroke="#111" stroke-width="2"/>
+  <path d="M 380 225 Q 450 205 520 225" fill="none" stroke="#111" stroke-width="2"/>
+  <path d="M 380 250 Q 450 230 520 250" fill="none" stroke="#111" stroke-width="2"/>
+
+  <!-- Druckpfeile: sie zeigen auf die Polsterung links und rechts, nicht auf den Gegenstand -->
+  <line x1="280" y1="215" x2="372" y2="215" stroke="#5b7f96" stroke-width="3"/>
+  <polygon points="378,215 364,207 364,223" fill="#5b7f96"/>
+  <line x1="620" y1="215" x2="528" y2="215" stroke="#5b7f96" stroke-width="3"/>
+  <polygon points="522,215 536,207 536,223" fill="#5b7f96"/>
+
+  <text x="615" y="118" text-anchor="end" font-family="Georgia, serif" font-size="17" fill="#111">Fremdkörper bleibt drin</text>
+  <line x1="608" y1="122" x2="453" y2="146" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <text x="450" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">Der Druck kommt rings um den Gegenstand</text>
+
+  <!-- Kleine Nebenszene oben rechts: das Verbot, mit der einzigen Signalfarben-Stelle -->
+  <rect x="695" y="180" width="110" height="40" rx="15" fill="#e6e2d6" stroke="#111" stroke-width="1.5"/>
+  <ellipse cx="750" cy="180" rx="9" ry="4" fill="#111"/>
+  <polygon points="742,180 758,180 750,140" fill="#7a5a3e" stroke="#111" stroke-width="1.5"/>
+  <line x1="750" y1="140" x2="750" y2="93" stroke="#d65a1a" stroke-width="4"/>
+  <polygon points="750,86 742,100 758,100" fill="#d65a1a"/>
+  <circle cx="750" cy="113" r="28" fill="none" stroke="#d65a1a" stroke-width="4"/>
+  <line x1="730" y1="93" x2="770" y2="133" stroke="#d65a1a" stroke-width="4"/>
+  <text x="750" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">nicht einfach herausziehen</text>
+
+  <!-- Ausnahme, klein: der oberflaechliche Splitter aus dem Text -->
+  <rect x="630" y="450" width="140" height="45" rx="12" fill="#e6e2d6" stroke="#111" stroke-width="1.5"/>
+  <polygon points="693,450 701,450 697,435" fill="#7a5a3e" stroke="#111" stroke-width="1"/>
+  <text x="700" y="515" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#111">Ausnahme: oberflächlicher Splitter,</text>
+  <text x="700" y="533" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#111">blutet nicht – nicht gemeint</text>
+</svg>

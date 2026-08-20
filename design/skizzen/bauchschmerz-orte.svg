@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="800" viewBox="0 0 900 800">
+  <!-- Zu den Tipps "Blinddarmentzuendung erkennen", "Gallenkolik: rechts oben,
+       bis in die Schulter" und "Nierenstein: der Schmerz kommt und geht in
+       Wellen".
+       Alle drei beschreiben einen ORT und eine RICHTUNG, in die der Schmerz
+       zieht. Das trifft Text schlecht und ein Koerperumriss sofort. Und sie
+       stehen im Paket in drei verschiedenen Tipps, muessen aber gegeneinander
+       abgegrenzt werden — deshalb eine gemeinsame Karte.
+       WICHTIG und im Bild ausdruecklich vermerkt: Ansicht von vorn. Die RECHTE
+       Seite der Person liegt fuer den Betrachter LINKS. Alle drei Quellen
+       sagen "rechts" und meinen die Seite der Person. Wer das verwechselt,
+       tastet auf der falschen Seite.
+       Der Blinddarm-Punkt ist nicht frei gesetzt: Er liegt auf der Linie
+       zwischen dem vorderen oberen Beckenknochen und dem Nabel, etwa eine
+       Handbreit vom Beckenknochen entfernt — so steht es in der Quelle. -->
+  <rect width="900" height="800" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Bauchschmerz: wo er sitzt und wohin er zieht</text>
+
+  <!-- ============ Rumpf von vorn ============ -->
+  <path d="M 296 150 L 448 150 C 464 210 466 250 458 296 C 452 342 454 386 448 424
+           C 442 468 428 496 410 506 L 334 506 C 316 496 302 468 296 424
+           C 290 386 292 342 286 296 C 278 250 280 210 296 150 Z"
+        fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <!-- Schultern angedeutet -->
+  <path d="M 296 150 C 268 156 250 168 240 182" fill="none" stroke="#111" stroke-width="4"/>
+  <path d="M 448 150 C 476 156 494 168 504 182" fill="none" stroke="#111" stroke-width="4"/>
+
+  <!-- Rippenbogen -->
+  <path d="M 292 268 L 372 208 L 452 268" fill="none" stroke="#111" stroke-width="4" stroke-dasharray="10 6"/>
+  <text x="372" y="196" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Rippenbogen</text>
+
+  <!-- Nabel -->
+  <circle cx="372" cy="352" r="7" fill="none" stroke="#111" stroke-width="4"/>
+  <text x="386" y="358" font-family="Georgia, serif" font-size="19" fill="#111">Nabel</text>
+
+  <!-- vordere obere Beckenknochen -->
+  <circle cx="306" cy="446" r="6" fill="#111"/>
+  <circle cx="438" cy="446" r="6" fill="#111"/>
+  <line x1="330" y1="528" x2="308" y2="456" stroke="#111" stroke-width="2"/>
+  <line x1="416" y1="528" x2="436" y2="456" stroke="#111" stroke-width="2"/>
+  <text x="372" y="548" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">vordere Beckenknochen</text>
+
+  <!-- Seitenmarkierung: rechts der Person = links im Bild -->
+  <text x="266" y="140" font-family="Georgia, serif" font-size="23" fill="#111" text-anchor="middle">RECHTS</text>
+  <text x="478" y="140" font-family="Georgia, serif" font-size="23" fill="#c9c4b4" text-anchor="middle">LINKS</text>
+
+  <!-- ============ 1. Gallenkolik: rechts oben ============ -->
+  <circle cx="318" cy="292" r="26" fill="none" stroke="#d65a1a" stroke-width="5"/>
+  <!-- zieht ins rechte Schulterblatt -->
+  <g stroke="#d65a1a" stroke-width="4" fill="none">
+    <path d="M 300 272 Q 268 226 258 188"/>
+    <path d="M 258 188 l 14 14 M 258 188 l -8 18"/>
+  </g>
+  <line x1="344" y1="284" x2="530" y2="252" stroke="#d65a1a" stroke-width="2"/>
+  <text x="540" y="246" font-family="Georgia, serif" font-size="23" fill="#d65a1a">Gallenkolik</text>
+  <text x="540" y="274" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Oberbauch rechts, zieht ins</text>
+  <text x="540" y="300" font-family="Georgia, serif" font-size="21" fill="#d65a1a">rechte Schulterblatt. Steigt</text>
+  <text x="540" y="326" font-family="Georgia, serif" font-size="21" fill="#d65a1a">über 15–60 Minuten an.</text>
+
+  <!-- ============ 2. Blinddarm: wandert in den rechten Unterbauch ============ -->
+  <!-- Linie Beckenknochen - Nabel -->
+  <line x1="306" y1="446" x2="372" y2="352" stroke="#a3231a" stroke-width="2" stroke-dasharray="6 5"/>
+  <circle cx="328" cy="415" r="22" fill="none" stroke="#a3231a" stroke-width="5"/>
+  <!-- Wanderpfeil vom unbestimmten Mittelbauch zum Punkt -->
+  <g stroke="#a3231a" stroke-width="4" fill="none">
+    <path d="M 386 372 Q 366 400 352 410"/>
+    <path d="M 352 410 l 18 -4 M 352 410 l 6 -18"/>
+  </g>
+  <circle cx="392" cy="360" r="16" fill="none" stroke="#a3231a" stroke-width="3" stroke-dasharray="5 5"/>
+
+  <line x1="350" y1="424" x2="530" y2="452" stroke="#a3231a" stroke-width="2"/>
+  <text x="540" y="446" font-family="Georgia, serif" font-size="23" fill="#a3231a">Blinddarm</text>
+  <text x="540" y="474" font-family="Georgia, serif" font-size="21" fill="#a3231a">Beginnt unbestimmt in der</text>
+  <text x="540" y="500" font-family="Georgia, serif" font-size="21" fill="#a3231a">Mitte und WANDERT nach</text>
+  <text x="540" y="526" font-family="Georgia, serif" font-size="21" fill="#a3231a">rechts unten: auf der Linie</text>
+  <text x="540" y="552" font-family="Georgia, serif" font-size="21" fill="#a3231a">Beckenknochen–Nabel, etwa</text>
+  <text x="540" y="578" font-family="Georgia, serif" font-size="21" fill="#a3231a">eine Handbreit vom Knochen.</text>
+
+  <!-- ============ 3. Nierenstein: Flanke, zieht in die Leiste ============ -->
+  <circle cx="290" cy="360" r="20" fill="none" stroke="#1d6b3a" stroke-width="5"/>
+  <g stroke="#1d6b3a" stroke-width="4" fill="none">
+    <path d="M 292 384 Q 302 442 330 490"/>
+    <path d="M 330 490 l 2 -20 M 330 490 l -18 -6"/>
+  </g>
+  <line x1="268" y1="352" x2="228" y2="332" stroke="#1d6b3a" stroke-width="2"/>
+  <text x="40" y="300" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Nierenstein</text>
+  <text x="40" y="328" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Flanke, zieht in</text>
+  <text x="40" y="354" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">die Leiste. Kommt</text>
+  <text x="40" y="380" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">und geht in Wellen</text>
+  <text x="40" y="406" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">und hängt NICHT von</text>
+  <text x="40" y="432" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">der Haltung ab.</text>
+
+  <!-- ============ Hinweis zur Seite ============ -->
+  <line x1="40" y1="596" x2="860" y2="596" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="40" y="630" font-family="Georgia, serif" font-size="23" fill="#111">Ansicht von vorn: Die RECHTE Seite der Person liegt für dich LINKS.</text>
+
+  <!-- ============ Die drei Handgriffe ============ -->
+  <text x="40" y="676" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Galle: unter den rechten Rippenbogen drücken und tief einatmen lassen —</text>
+  <text x="40" y="702" font-family="Georgia, serif" font-size="21" fill="#d65a1a">stockt der Atem mitten im Einatmen, spricht das für die Gallenblase.</text>
+  <text x="40" y="734" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Niere: mit der Faust leicht auf die unteren Rippen im RÜCKEN klopfen.</text>
+  <text x="40" y="766" font-family="Georgia, serif" font-size="21" fill="#a3231a">Blinddarm: Husten tut im Bauch weh, und die Bauchdecke spannt sich beim Drücken.</text>
+</svg>

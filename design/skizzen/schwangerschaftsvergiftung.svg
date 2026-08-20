@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="2096" viewBox="0 0 900 2096">
+  <!-- Zum Tipp "Schwangerschaftsvergiftung: die Zeichen vor dem Anfall".
+       Das Raster ist der Grund fuer dieses Bild. "Siebzig bis achtzig von
+       hundert" liest man im Fliesstext und behaelt "Schwellung ist ein
+       Warnzeichen" — und erschreckt damit jede Schwangere mit dicken
+       Knoecheln. Hundert Felder, davon sieben Reihen voll und eine Reihe
+       gestreift, zeigen dagegen auf einen Blick: Das ist der NORMALFALL.
+       Die gestreifte Reihe ist die Spanne 70 bis 80 und nicht etwa ein
+       Mittelwert. Ein Raster mit genau 75 gefuellten Feldern haette eine
+       Genauigkeit behauptet, die die Quelle nicht hergibt.
+       Was WIRKLICH auffaellig ist, steht deshalb gross daneben: nicht die
+       dicken Knoechel, sondern ein morgens verquollenes Gesicht und Ringe,
+       die ploetzlich nicht mehr passen.
+       Die Sehstoerung steht als erstes Zeichen und mit dem Satz dazu, der
+       sie einordnet — wer leuchtende Flecken beschreibt, hat kein
+       Augenproblem. Ohne diesen Satz sucht man eine Brille.
+       Der Kasten am Ende ist der harte Satz der Quelle selbst. Er steht da,
+       weil er die Entscheidung klarer macht und nicht, weil er entmutigt. -->
+  <rect width="900" height="2096" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Schwangerschaftsvergiftung: die Zeichen vor dem Anfall</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">In den letzten Monaten einer Schwangerschaft kann der Blutdruck so steigen,</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">dass es für Mutter und Kind lebensgefährlich wird. Es kündigt sich an — und</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">die Zeichen davor sind ohne jedes Gerät zu erkennen.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die vier Warnzeichen ============ -->
+  <text x="40" y="224" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die vier Warnzeichen</text>
+
+  <g fill="#a3231a">
+    <circle cx="60" cy="262" r="17"/><circle cx="60" cy="367" r="17"/>
+    <circle cx="60" cy="414" r="17"/><circle cx="60" cy="461" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="269">1</text><text x="60" y="374">2</text>
+    <text x="60" y="421">3</text><text x="60" y="468">4</text>
+  </g>
+
+  <text x="88" y="269" font-family="Georgia, serif" font-size="23" fill="#111">SEHSTÖRUNGEN — unregelmäßige LEUCHTENDE</text>
+  <text x="88" y="297" font-family="Georgia, serif" font-size="23" fill="#111">FLECKEN im Gesichtsfeld, meist nach Anstrengung</text>
+  <text x="88" y="330" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Wer so etwas beschreibt, hat kein Augenproblem.</text>
+
+  <text x="88" y="374" font-family="Georgia, serif" font-size="23" fill="#111">KOPFSCHMERZ</text>
+  <text x="88" y="421" font-family="Georgia, serif" font-size="23" fill="#111">SCHMERZ IM OBERBAUCH, oft rechts</text>
+  <text x="88" y="468" font-family="Georgia, serif" font-size="23" fill="#111">SCHWELLUNGEN — aber hier ist Vorsicht geboten</text>
+
+  <line x1="40" y1="504" x2="860" y2="504" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Das Raster ============ -->
+  <text x="40" y="544" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zur Schwellung gehört die Einschränkung</text>
+
+  <g stroke="#111" stroke-width="1">
+    <!-- sieben volle Reihen = 70 -->
+    <g fill="#a9c4d4">
+      <rect x="40" y="574" width="24" height="24"/><rect x="68" y="574" width="24" height="24"/><rect x="96" y="574" width="24" height="24"/><rect x="124" y="574" width="24" height="24"/><rect x="152" y="574" width="24" height="24"/><rect x="180" y="574" width="24" height="24"/><rect x="208" y="574" width="24" height="24"/><rect x="236" y="574" width="24" height="24"/><rect x="264" y="574" width="24" height="24"/><rect x="292" y="574" width="24" height="24"/>
+      <rect x="40" y="602" width="24" height="24"/><rect x="68" y="602" width="24" height="24"/><rect x="96" y="602" width="24" height="24"/><rect x="124" y="602" width="24" height="24"/><rect x="152" y="602" width="24" height="24"/><rect x="180" y="602" width="24" height="24"/><rect x="208" y="602" width="24" height="24"/><rect x="236" y="602" width="24" height="24"/><rect x="264" y="602" width="24" height="24"/><rect x="292" y="602" width="24" height="24"/>
+      <rect x="40" y="630" width="24" height="24"/><rect x="68" y="630" width="24" height="24"/><rect x="96" y="630" width="24" height="24"/><rect x="124" y="630" width="24" height="24"/><rect x="152" y="630" width="24" height="24"/><rect x="180" y="630" width="24" height="24"/><rect x="208" y="630" width="24" height="24"/><rect x="236" y="630" width="24" height="24"/><rect x="264" y="630" width="24" height="24"/><rect x="292" y="630" width="24" height="24"/>
+      <rect x="40" y="658" width="24" height="24"/><rect x="68" y="658" width="24" height="24"/><rect x="96" y="658" width="24" height="24"/><rect x="124" y="658" width="24" height="24"/><rect x="152" y="658" width="24" height="24"/><rect x="180" y="658" width="24" height="24"/><rect x="208" y="658" width="24" height="24"/><rect x="236" y="658" width="24" height="24"/><rect x="264" y="658" width="24" height="24"/><rect x="292" y="658" width="24" height="24"/>
+      <rect x="40" y="686" width="24" height="24"/><rect x="68" y="686" width="24" height="24"/><rect x="96" y="686" width="24" height="24"/><rect x="124" y="686" width="24" height="24"/><rect x="152" y="686" width="24" height="24"/><rect x="180" y="686" width="24" height="24"/><rect x="208" y="686" width="24" height="24"/><rect x="236" y="686" width="24" height="24"/><rect x="264" y="686" width="24" height="24"/><rect x="292" y="686" width="24" height="24"/>
+      <rect x="40" y="714" width="24" height="24"/><rect x="68" y="714" width="24" height="24"/><rect x="96" y="714" width="24" height="24"/><rect x="124" y="714" width="24" height="24"/><rect x="152" y="714" width="24" height="24"/><rect x="180" y="714" width="24" height="24"/><rect x="208" y="714" width="24" height="24"/><rect x="236" y="714" width="24" height="24"/><rect x="264" y="714" width="24" height="24"/><rect x="292" y="714" width="24" height="24"/>
+      <rect x="40" y="742" width="24" height="24"/><rect x="68" y="742" width="24" height="24"/><rect x="96" y="742" width="24" height="24"/><rect x="124" y="742" width="24" height="24"/><rect x="152" y="742" width="24" height="24"/><rect x="180" y="742" width="24" height="24"/><rect x="208" y="742" width="24" height="24"/><rect x="236" y="742" width="24" height="24"/><rect x="264" y="742" width="24" height="24"/><rect x="292" y="742" width="24" height="24"/>
+    </g>
+    <!-- achte Reihe: die Spanne 70 bis 80 -->
+    <g fill="#c2d5e0">
+      <rect x="40" y="770" width="24" height="24"/><rect x="68" y="770" width="24" height="24"/><rect x="96" y="770" width="24" height="24"/><rect x="124" y="770" width="24" height="24"/><rect x="152" y="770" width="24" height="24"/><rect x="180" y="770" width="24" height="24"/><rect x="208" y="770" width="24" height="24"/><rect x="236" y="770" width="24" height="24"/><rect x="264" y="770" width="24" height="24"/><rect x="292" y="770" width="24" height="24"/>
+    </g>
+    <!-- zwei leere Reihen -->
+    <g fill="#faf9f6">
+      <rect x="40" y="798" width="24" height="24"/><rect x="68" y="798" width="24" height="24"/><rect x="96" y="798" width="24" height="24"/><rect x="124" y="798" width="24" height="24"/><rect x="152" y="798" width="24" height="24"/><rect x="180" y="798" width="24" height="24"/><rect x="208" y="798" width="24" height="24"/><rect x="236" y="798" width="24" height="24"/><rect x="264" y="798" width="24" height="24"/><rect x="292" y="798" width="24" height="24"/>
+      <rect x="40" y="826" width="24" height="24"/><rect x="68" y="826" width="24" height="24"/><rect x="96" y="826" width="24" height="24"/><rect x="124" y="826" width="24" height="24"/><rect x="152" y="826" width="24" height="24"/><rect x="180" y="826" width="24" height="24"/><rect x="208" y="826" width="24" height="24"/><rect x="236" y="826" width="24" height="24"/><rect x="264" y="826" width="24" height="24"/><rect x="292" y="826" width="24" height="24"/>
+    </g>
+  </g>
+
+  <text x="360" y="600" font-family="Georgia, serif" font-size="23" fill="#111">70 bis 80 von 100 normalen</text>
+  <text x="360" y="628" font-family="Georgia, serif" font-size="23" fill="#111">Schwangerschaften haben eine</text>
+  <text x="360" y="656" font-family="Georgia, serif" font-size="23" fill="#111">mäßige Schwellung.</text>
+  <text x="360" y="694" font-family="Georgia, serif" font-size="21" fill="#111">Geschwollene Füße am Abend</text>
+  <text x="360" y="720" font-family="Georgia, serif" font-size="21" fill="#111">sind normal.</text>
+  <text x="360" y="762" font-family="Georgia, serif" font-size="21" fill="#a3231a">Auffällig wird es, wenn die</text>
+  <text x="360" y="788" font-family="Georgia, serif" font-size="21" fill="#a3231a">Schwellung ALLGEMEIN ist</text>
+  <text x="360" y="814" font-family="Georgia, serif" font-size="21" fill="#a3231a">oder HÄNDE UND GESICHT</text>
+  <text x="360" y="840" font-family="Georgia, serif" font-size="21" fill="#a3231a">betrifft.</text>
+
+  <rect x="36" y="766" width="286" height="32" fill="none" stroke="#1d6b3a" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="40" y="876" font-family="Georgia, serif" font-size="19" fill="#1d6b3a">Die eingerahmte Reihe ist die Spanne: irgendwo zwischen 70 und 80.</text>
+
+  <text x="40" y="906" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein morgens verquollenes Gesicht und Ringe, die plötzlich</text>
+  <text x="40" y="934" font-family="Georgia, serif" font-size="23" fill="#a3231a">nicht mehr passen — nicht die dicken Knöchel.</text>
+
+  <line x1="40" y1="970" x2="860" y2="970" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Waage ============ -->
+  <text x="40" y="1010" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ein Frühzeichen braucht nur eine Waage</text>
+  <text x="40" y="1050" font-family="Georgia, serif" font-size="26" fill="#111">Mehr als etwa 1,8 Kilogramm Zunahme in einer Woche,</text>
+  <text x="40" y="1082" font-family="Georgia, serif" font-size="26" fill="#111">im letzten Schwangerschaftsdrittel.</text>
+  <text x="40" y="1118" font-family="Georgia, serif" font-size="21" fill="#111">Das ist Wasser, das im Körper bleibt, nicht wachsendes Kind. Wer wöchentlich</text>
+  <text x="40" y="1144" font-family="Georgia, serif" font-size="21" fill="#111">wiegt, hat damit ein Warnsystem, das nichts kostet.</text>
+
+  <line x1="40" y1="1180" x2="860" y2="1180" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Blutdruck ============ -->
+  <text x="40" y="1220" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wenn eine Manschette da ist</text>
+  <text x="40" y="1258" font-family="Georgia, serif" font-size="21" fill="#111">Jeweils ZWEIMAL gemessen, im Abstand von mindestens sechs Stunden:</text>
+
+  <text x="40" y="1298" font-family="Georgia, serif" font-size="23" fill="#111">ab 140 zu 90</text>
+  <text x="380" y="1298" font-family="Georgia, serif" font-size="23" fill="#111">leichte Form</text>
+  <text x="40" y="1330" font-family="Georgia, serif" font-size="23" fill="#d65a1a">ab 160 zu 110</text>
+  <text x="380" y="1330" font-family="Georgia, serif" font-size="23" fill="#d65a1a">schwere Form</text>
+  <text x="40" y="1362" font-family="Georgia, serif" font-size="23" fill="#a3231a">ab 180 oben oder 110 unten</text>
+  <text x="380" y="1362" font-family="Georgia, serif" font-size="23" fill="#a3231a">Gefahr einer Blutung im Gehirn</text>
+
+  <text x="40" y="1402" font-family="Georgia, serif" font-size="21" fill="#111">Ohne Manschette bleiben die vier Zeichen oben und das Gewicht.</text>
+
+  <line x1="40" y1="1438" x2="860" y2="1438" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1478" font-family="Georgia, serif" font-size="21" fill="#111">Zwei weitere Befunde ohne Labor: auffällig LEBHAFTE REFLEXE, und eine stark</text>
+  <text x="40" y="1504" font-family="Georgia, serif" font-size="21" fill="#111">verringerte Urinmenge — weniger als 400 Milliliter in 24 Stunden, also weniger</text>
+  <text x="40" y="1530" font-family="Georgia, serif" font-size="21" fill="#111">als zwei Tassen am ganzen Tag.</text>
+
+  <text x="40" y="1572" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein Krampfanfall in der Schwangerschaft — bei diesen Zeichen</text>
+  <text x="40" y="1600" font-family="Georgia, serif" font-size="23" fill="#a3231a">oder ohne andere Erklärung — ist die Steigerung. Notruf 112.</text>
+
+  <line x1="40" y1="1636" x2="860" y2="1636" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1676" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was ohne Medikamente möglich ist — wenig, aber nicht nichts</text>
+  <text x="40" y="1714" font-family="Georgia, serif" font-size="21" fill="#111">BETTRUHE AUF DER LINKEN SEITE, um die Beschwerden zu mildern. Und:</text>
+  <text x="40" y="1740" font-family="Georgia, serif" font-size="21" fill="#111">mehr trinken, dabei aber die gewohnte Salzmenge beibehalten — also nicht</text>
+  <text x="40" y="1766" font-family="Georgia, serif" font-size="21" fill="#111">salzarm essen, wie man früher riet.</text>
+
+  <line x1="40" y1="1802" x2="860" y2="1802" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="1828" width="820" height="152" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="1872" font-family="Georgia, serif" font-size="26" fill="#a3231a">Die einzige Heilung ist die Entbindung.</text>
+  <text x="62" y="1908" font-family="Georgia, serif" font-size="21" fill="#111">Alles andere — Ruhe, Medikamente, Blutdrucksenkung — ist Zeitgewinn. Das</text>
+  <text x="62" y="1934" font-family="Georgia, serif" font-size="21" fill="#111">ist hart, aber es macht die Entscheidung klarer: Diese Frau gehört so schnell</text>
+  <text x="62" y="1960" font-family="Georgia, serif" font-size="21" fill="#111">wie möglich dorthin, wo entbunden werden kann.</text>
+
+  <text x="40" y="2028" font-family="Georgia, serif" font-size="21" fill="#111">Wenn niemand kommt: linke Seitenlage, Ruhe, Dunkelheit und Stille — Reize</text>
+  <text x="40" y="2054" font-family="Georgia, serif" font-size="21" fill="#111">können einen Anfall auslösen —, trinken, und jemand, der danebenbleibt.</text>
+  <text x="40" y="2086" font-family="Georgia, serif" font-size="19" fill="#111">(Einordnung dieses Pakets, nicht aus der Quelle.)</text>
+</svg>

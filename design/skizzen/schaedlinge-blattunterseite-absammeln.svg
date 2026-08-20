@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Kapitel agrikultur-schaedlinge, Abschnitt 2 "Was man tatsaechlich tun kann".
+       Dieser Abschnitt braucht ein Bild, weil die wirksamste Massnahme (Absammeln
+       von Hand) eine raeumliche Falle enthaelt: Schaedlinge und ihre Eier sitzen auf
+       der Blattunterseite, nicht auf der Oberseite, wo man zuerst hinschaut. Wer nur
+       oben nachsieht, haelt das Blatt faelschlich fuer sauber und uebersieht die
+       Eier, bevor daraus etwas wird. Gezeichnet: Blatt von oben (nichts zu sehen)
+       gegen dasselbe Blatt gewendet (Eier sichtbar, in der Signalfarbe, weil das
+       Uebersehen teuer ist), dazu die zwei Handgriffe als Schrittfolge darunter. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="450" y="42" text-anchor="middle" font-family="Georgia, serif" font-size="27" fill="#111">Blätter absammeln: wo die Eier wirklich sitzen</text>
+  <text x="450" y="68" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Die wirksamste Einzelmaßnahme – sie braucht kein Mittel</text>
+
+  <!-- Panel A: Oberseite -->
+  <rect x="50" y="90" width="345" height="345" rx="14" fill="#5b7f96" fill-opacity="0.08" stroke="#111" stroke-width="2"/>
+  <text x="222" y="122" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#111">Oberseite</text>
+
+  <g>
+    <path d="M222,215 C287,245 277,345 222,385 C167,345 157,245 222,215 Z" fill="#8ba668" stroke="#111" stroke-width="3"/>
+    <line x1="222" y1="225" x2="222" y2="375" stroke="#111" stroke-opacity="0.35" stroke-width="2"/>
+    <line x1="222" y1="255" x2="260" y2="275" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="222" y1="255" x2="184" y2="275" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="222" y1="290" x2="266" y2="308" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="222" y1="290" x2="178" y2="308" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="222" y1="325" x2="256" y2="340" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="222" y1="325" x2="188" y2="340" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="222" y1="385" x2="222" y2="410" stroke="#7a5a3e" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <line x1="158" y1="300" x2="145" y2="308" stroke="#5b7f96" stroke-width="1.5"/>
+  <circle cx="158" cy="300" r="2.5" fill="#5b7f96"/>
+  <text x="140" y="316" text-anchor="end" font-family="Georgia, serif" font-size="16" fill="#111">nichts</text>
+  <text x="140" y="338" text-anchor="end" font-family="Georgia, serif" font-size="16" fill="#111">zu sehen</text>
+
+  <!-- Wende-Pfeil zwischen den Panels -->
+  <text x="450" y="145" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">Blatt</text>
+  <text x="450" y="165" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">wenden</text>
+  <path d="M350,196 Q450,214 548,196" fill="none" stroke="#5b7f96" stroke-width="3"/>
+  <path d="M548,196 l-15,-5 M548,196 l-11,10" stroke="#5b7f96" stroke-width="3" fill="none"/>
+
+  <!-- Panel B: Unterseite -->
+  <rect x="505" y="90" width="345" height="345" rx="14" fill="#5b7f96" fill-opacity="0.08" stroke="#111" stroke-width="2"/>
+  <text x="677" y="122" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#111">Unterseite</text>
+
+  <g transform="rotate(180 678 300)">
+    <path d="M678,215 C743,245 733,345 678,385 C623,345 613,245 678,215 Z" fill="#8ba668" stroke="#111" stroke-width="3"/>
+    <line x1="678" y1="225" x2="678" y2="375" stroke="#111" stroke-opacity="0.35" stroke-width="2"/>
+    <line x1="678" y1="255" x2="716" y2="275" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="678" y1="255" x2="640" y2="275" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="678" y1="290" x2="722" y2="308" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="678" y1="290" x2="634" y2="308" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="678" y1="325" x2="712" y2="340" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="678" y1="325" x2="644" y2="340" stroke="#111" stroke-opacity="0.3" stroke-width="1.5"/>
+    <line x1="678" y1="385" x2="678" y2="410" stroke="#7a5a3e" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Eier: die eine kritische Stelle, deshalb Signalfarbe -->
+  <g fill="#d65a1a" stroke="#111" stroke-width="1">
+    <ellipse cx="690" cy="322" rx="5" ry="7"/>
+    <ellipse cx="702" cy="320" rx="5" ry="7"/>
+    <ellipse cx="714" cy="323" rx="5" ry="7"/>
+    <ellipse cx="694" cy="336" rx="5" ry="7"/>
+    <ellipse cx="706" cy="335" rx="5" ry="7"/>
+    <ellipse cx="716" cy="338" rx="5" ry="7"/>
+  </g>
+  <line x1="722" y1="330" x2="742" y2="322" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="722" cy="330" r="2.5" fill="#5b7f96"/>
+  <text x="745" y="315" font-family="Georgia, serif" font-size="17" fill="#d65a1a">hier sitzen</text>
+  <text x="745" y="336" font-family="Georgia, serif" font-size="17" fill="#d65a1a">die Eier</text>
+
+  <!-- Schrittfolge -->
+  <line x1="50" y1="455" x2="850" y2="455" stroke="#111" stroke-width="2"/>
+
+  <rect x="50" y="475" width="345" height="95" rx="12" fill="#e8ddc7" stroke="#111" stroke-width="3"/>
+  <circle cx="95" cy="522" r="22" fill="#111"/>
+  <text x="95" y="530" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#faf9f6">1</text>
+  <text x="135" y="512" font-family="Georgia, serif" font-size="18" fill="#111">Blatt umdrehen</text>
+  <text x="135" y="536" font-family="Georgia, serif" font-size="15" fill="#5b7f96">die Unterseite ansehen</text>
+
+  <rect x="505" y="475" width="345" height="95" rx="12" fill="#e8ddc7" stroke="#111" stroke-width="3"/>
+  <circle cx="550" cy="522" r="22" fill="#111"/>
+  <text x="550" y="530" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#faf9f6">2</text>
+  <text x="590" y="505" font-family="Georgia, serif" font-size="18" fill="#111">Insekten und Eier</text>
+  <text x="590" y="528" font-family="Georgia, serif" font-size="18" fill="#111">von Hand absammeln</text>
+
+  <text x="450" y="598" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#5b7f96">Am wirksamsten: die Eier erwischen, bevor daraus etwas wird</text>
+</svg>

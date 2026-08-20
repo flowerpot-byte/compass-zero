@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1690" viewBox="0 0 900 1690">
+  <!-- Zum Tipp "Krampfanfall: wann es dringend wird".
+       Der neunte Fall ist der wichtigste und steht deshalb in einem eigenen
+       Kasten, obwohl er in derselben Aufzaehlung steht wie die anderen acht:
+       IM ZWEIFEL. Wer die Liste durchgeht und keinen der acht findet, hat
+       damit noch nicht "nein" — genau das soll der Kasten verhindern.
+       Die beiden Balken sind massstaeblich: 30 Bildpunkte je Minute, also
+       150 fuer fuenf und 600 fuer zwanzig Minuten, Verhaeltnis 4:1. Beide
+       Zahlen stehen im Tipp — die Quelle sagt selbst, dass fuenf Minuten
+       einem wie zwanzig vorkommen. Der Groessenunterschied ist der Grund
+       fuer den Rat darunter: gleich zu Beginn auf die Uhr sehen. Ohne Uhr
+       schaetzt niemand fuenf Minuten richtig, und der Balken zeigt, um
+       wieviel man sich verschaetzt.
+       Der gruene Kasten enthaelt einen Satz, der ueber diesen Tipp hinaus
+       gilt und den die Quelle nur zwischen den Zeilen sagt: Wenn das
+       Medikament fehlt, wird die Ursache zum Behandlungsziel. -->
+  <rect width="900" height="1690" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Krampfanfall: wann es dringend wird</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Die meisten Anfälle gehen von allein vorbei. Neun Fälle nennt die Leitlinie,</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">in denen der Notruf 112 gewählt wird — und der neunte ist der wichtigste.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="198" font-family="Georgia, serif" font-size="23" fill="#a3231a">Neun Fälle für den Notruf</text>
+  <text x="40" y="236" font-family="Georgia, serif" font-size="21" fill="#111">1. Die Person hat sich verletzt.</text>
+  <text x="40" y="262" font-family="Georgia, serif" font-size="21" fill="#111">2. Es ist ihr ERSTER Anfall überhaupt.</text>
+  <text x="40" y="288" font-family="Georgia, serif" font-size="21" fill="#111">3. Der Anfall dauert LÄNGER ALS FÜNF MINUTEN am Stück.</text>
+  <text x="40" y="314" font-family="Georgia, serif" font-size="21" fill="#111">4. Sie kommt danach nicht wieder zu sich.</text>
+  <text x="40" y="340" font-family="Georgia, serif" font-size="21" fill="#111">5. Die Anfälle wiederholen sich, sehen anders aus als sonst, oder kommen</text>
+  <text x="40" y="366" font-family="Georgia, serif" font-size="21" fill="#111">    häufiger als gewohnt.</text>
+  <text x="40" y="392" font-family="Georgia, serif" font-size="21" fill="#111">6. Die Person ist schwanger oder zuckerkrank.</text>
+  <text x="40" y="418" font-family="Georgia, serif" font-size="21" fill="#111">7. Sie hat hohes Fieber.</text>
+  <text x="40" y="444" font-family="Georgia, serif" font-size="21" fill="#111">8. Sie steht unter dem Einfluss von Alkohol oder Drogen.</text>
+
+  <rect x="40" y="470" width="820" height="92" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="508" font-family="Georgia, serif" font-size="26" fill="#a3231a">9. IM ZWEIFEL.</text>
+  <text x="62" y="540" font-family="Georgia, serif" font-size="21" fill="#111">So steht es wörtlich in der Leitlinie.</text>
+
+  <line x1="40" y1="598" x2="860" y2="598" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Fuenf gegen zwanzig ============ -->
+  <text x="40" y="638" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Zahl, auf die es ankommt</text>
+
+  <text x="40" y="700" font-family="Georgia, serif" font-size="21" fill="#111">tatsächlich</text>
+  <rect x="200" y="676" width="150" height="40" fill="#1d6b3a" stroke="#111" stroke-width="2"/>
+  <text x="366" y="704" font-family="Georgia, serif" font-size="21" fill="#111">fünf Minuten</text>
+
+  <text x="40" y="760" font-family="Georgia, serif" font-size="21" fill="#111">gefühlt</text>
+  <rect x="200" y="736" width="600" height="40" fill="#d65a1a" stroke="#111" stroke-width="2"/>
+  <text x="216" y="764" font-family="Georgia, serif" font-size="21" fill="#faf9f6">wie zwanzig Minuten</text>
+
+  <text x="40" y="816" font-family="Georgia, serif" font-size="21" fill="#111">Ein Anfall, der länger als fünf Minuten dauert, hat einen eigenen Namen —</text>
+  <text x="40" y="842" font-family="Georgia, serif" font-size="21" fill="#111">anhaltender Anfallszustand — und braucht sofortige ärztliche Behandlung.</text>
+  <text x="40" y="880" font-family="Georgia, serif" font-size="23" fill="#a3231a">Deshalb: gleich zu Beginn auf die Uhr sehen.</text>
+
+  <line x1="40" y1="916" x2="860" y2="916" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="956" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Bei Babys und kleinen Kindern</text>
+  <text x="40" y="994" font-family="Georgia, serif" font-size="21" fill="#111">Ein schneller Temperaturanstieg löst besonders leicht einen Anfall aus. Dann</text>
+  <text x="40" y="1020" font-family="Georgia, serif" font-size="21" fill="#111">zusätzlich: die Temperatur prüfen. Ist das Kind zu heiß — überschüssige</text>
+  <text x="40" y="1046" font-family="Georgia, serif" font-size="21" fill="#111">Kleidung ausziehen, für frische, kühle Luft sorgen, das Fieber behandeln.</text>
+  <text x="40" y="1084" font-family="Georgia, serif" font-size="21" fill="#111">Vorbeugend: Fieber früh senken und Kinder der Umgebung angemessen</text>
+  <text x="40" y="1110" font-family="Georgia, serif" font-size="21" fill="#111">anziehen — nicht zu warm.</text>
+
+  <line x1="40" y1="1146" x2="860" y2="1146" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="1172" width="820" height="206" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <text x="62" y="1216" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Wenn das Medikament fehlt, wird die Ursache zum</text>
+  <text x="62" y="1248" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Behandlungsziel.</text>
+  <text x="62" y="1286" font-family="Georgia, serif" font-size="21" fill="#111">Wo Malaria verbreitet ist, ist Fieber durch Malaria eine der häufigsten</text>
+  <text x="62" y="1312" font-family="Georgia, serif" font-size="21" fill="#111">Ursachen für Anfälle bei Kindern. Wo keine Anfallsmedikamente zu bekommen</text>
+  <text x="62" y="1338" font-family="Georgia, serif" font-size="21" fill="#111">sind, kann der Schutz vor Mückenstichen — imprägnierte Netze,</text>
+  <text x="62" y="1364" font-family="Georgia, serif" font-size="21" fill="#111">Mückenmittel — das wirksamste Mittel gegen die Anfälle selbst sein.</text>
+
+  <line x1="40" y1="1414" x2="860" y2="1414" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1454" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Etwas, das man wissen muss, bevor man es erlebt</text>
+  <text x="40" y="1492" font-family="Georgia, serif" font-size="21" fill="#111">Ein Mensch mit bekannter Anfallskrankheit möchte unter Umständen selbst</text>
+  <text x="40" y="1518" font-family="Georgia, serif" font-size="21" fill="#111">zurechtkommen und bittet ausdrücklich darum, KEINE Hilfe zu rufen.</text>
+  <text x="40" y="1556" font-family="Georgia, serif" font-size="21" fill="#111">Ist eine vertraute Person dabei: auf sie hören und unterstützen, was sie sagt.</text>
+  <text x="40" y="1582" font-family="Georgia, serif" font-size="21" fill="#111">Ist die Person allein: nach einem Notfallarmband sehen, bevor man Hilfe holt.</text>
+  <text x="40" y="1608" font-family="Georgia, serif" font-size="21" fill="#111">Sind Angehörige da: fragen, ob es ein Notfallmedikament gibt — über den</text>
+  <text x="40" y="1634" font-family="Georgia, serif" font-size="21" fill="#111">Mund, als Nasenspray, als Spritze oder über den Darm. Wer sich zutraut,</text>
+  <text x="40" y="1660" font-family="Georgia, serif" font-size="21" fill="#111">dabei zu helfen, soll es tun.</text>
+</svg>

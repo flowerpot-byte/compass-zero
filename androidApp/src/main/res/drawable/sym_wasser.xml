@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Erzeugt aus design/logo/kategorie-icons.svg. Dort wird geaendert, nicht hier. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M24 9 C24 9 35 22 35 29 A11 11 0 0 1 13 29 C13 22 24 9 24 9 Z"
+        android:strokeColor="#FF0A0A0A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1820" viewBox="0 0 900 1820">
+  <!-- Zum Tipp "Verbrennung versorgen: Blasen bleiben zu".
+       Zwei Stellen kehren eine Erwartung um, und beide gehoeren gross ins
+       Bild.
+       ERSTENS die Blase. Sie sieht aus wie etwas, das weg muss, und ist das
+       Gegenteil: ein steriler Verband, den der Koerper selbst gemacht hat.
+       Wer das einmal so gelesen hat, sticht nicht mehr.
+       ZWEITENS die weisse Brandsalbe. Sie liegt in vielen Hausapotheken und
+       fuehlt sich wie das richtige Mittel an; die Leitlinie raet ab und
+       nennt stattdessen Honig. Deshalb stehen die beiden nebeneinander, und
+       der Kasten mit der Salbe ist der durchgestrichene. Eine Liste haette
+       dieselben Woerter, aber nicht die Umkehrung.
+       "Auflegen statt umwickeln" ist als Querschnitt gezeichnet, weil der
+       Unterschied raeumlich ist: ein Bogen OBEN DRAUF gegen einen
+       geschlossenen Ring. Kreis und Bogen sind Formen, keine Figuren.
+       Der Grund steht daneben und ist der eigentliche Inhalt: Es schwillt
+       an, und was jetzt locker sitzt, schnuert in einer Stunde ab. -->
+  <rect width="900" height="1820" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Verbrennung versorgen: Blasen bleiben zu</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Gekühlt ist gekühlt — jetzt kommt der Teil, bei dem am meisten falsch</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">gemacht wird, und zwar mit den besten Absichten.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="202" font-family="Georgia, serif" font-size="26" fill="#a3231a">Blasen bleiben zu. Nicht aufstechen, nicht abtragen,</text>
+  <text x="40" y="234" font-family="Georgia, serif" font-size="26" fill="#a3231a">nicht absaugen.</text>
+  <text x="40" y="270" font-family="Georgia, serif" font-size="21" fill="#111">Der Grund steht klar da: Das ERHÖHT DIE GEFAHR EINER INFEKTION. Die</text>
+  <text x="40" y="296" font-family="Georgia, serif" font-size="21" fill="#111">Blase ist ein steriler Verband, den der Körper selbst gemacht hat, und</text>
+  <text x="40" y="322" font-family="Georgia, serif" font-size="21" fill="#111">niemand baut einen besseren.</text>
+  <text x="40" y="358" font-family="Georgia, serif" font-size="21" fill="#111">Stören sie an einem Gelenk oder einer Fingerbeuge den Gebrauch, ist das ein</text>
+  <text x="40" y="384" font-family="Georgia, serif" font-size="21" fill="#111">Grund, jemanden darauf sehen zu lassen — kein Grund zum Aufstechen.</text>
+
+  <line x1="40" y1="420" x2="860" y2="420" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="460" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was ein Verband hier leisten muss</text>
+  <text x="40" y="498" font-family="Georgia, serif" font-size="23" fill="#111">feucht halten · sich anschmiegen · NICHT ankleben</text>
+  <text x="40" y="534" font-family="Georgia, serif" font-size="21" fill="#111">Ein Verband, der antrocknet, reißt beim Wechseln die neue Haut wieder ab.</text>
+
+  <line x1="40" y1="570" x2="860" y2="570" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Schrank gegen Leitlinie ============ -->
+  <text x="40" y="610" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was im Schrank liegt — und was besser ist</text>
+
+  <rect x="40" y="640" width="390" height="210" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <rect x="470" y="640" width="390" height="210" rx="10" fill="none" stroke="#1d6b3a" stroke-width="4"/>
+
+  <text x="62" y="680" font-family="Georgia, serif" font-size="21" fill="#a3231a">SILBERSULFADIAZIN</text>
+  <line x1="62" y1="673" x2="278" y2="673" stroke="#a3231a" stroke-width="3"/>
+  <text x="62" y="710" font-family="Georgia, serif" font-size="19" fill="#111">die weiße Brandsalbe aus vielen</text>
+  <text x="62" y="734" font-family="Georgia, serif" font-size="19" fill="#111">Hausapotheken</text>
+  <text x="62" y="772" font-family="Georgia, serif" font-size="19" fill="#a3231a">Die Leitlinie rät ab: wird mit</text>
+  <text x="62" y="796" font-family="Georgia, serif" font-size="19" fill="#a3231a">SCHLECHTERER Heilung in</text>
+  <text x="62" y="820" font-family="Georgia, serif" font-size="19" fill="#a3231a">Verbindung gebracht.</text>
+
+  <text x="492" y="680" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">HONIG</text>
+  <text x="492" y="710" font-family="Georgia, serif" font-size="19" fill="#111">ausdrücklich genannt, auch</text>
+  <text x="492" y="734" font-family="Georgia, serif" font-size="19" fill="#111">zusammen mit Vaseline. Dazu</text>
+  <text x="492" y="758" font-family="Georgia, serif" font-size="19" fill="#111">Aloe vera und Bananenblätter.</text>
+  <text x="492" y="796" font-family="Georgia, serif" font-size="19" fill="#1d6b3a">Und Honig verdirbt nicht —</text>
+  <text x="492" y="820" font-family="Georgia, serif" font-size="19" fill="#1d6b3a">ein Grund, ihn zu bevorraten.</text>
+
+  <text x="40" y="890" font-family="Georgia, serif" font-size="21" fill="#111">Wer die weiße Brandsalbe im Schrank hat, hat kein besseres Mittel als Honig,</text>
+  <text x="40" y="916" font-family="Georgia, serif" font-size="21" fill="#111">sondern ein schlechteres.</text>
+
+  <line x1="40" y1="952" x2="860" y2="952" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Auflegen statt umwickeln ============ -->
+  <text x="40" y="992" font-family="Georgia, serif" font-size="23" fill="#a3231a">Bei Arm oder Bein: nur auflegen, nicht umwickeln</text>
+
+  <circle cx="230" cy="1090" r="48" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <path d="M 172 1068 Q 230 1022 288 1068" fill="none" stroke="#1d6b3a" stroke-width="7"/>
+  <text x="230" y="1174" font-family="Georgia, serif" font-size="21" fill="#1d6b3a" text-anchor="middle">richtig: auflegen</text>
+
+  <circle cx="640" cy="1090" r="48" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <circle cx="640" cy="1090" r="64" fill="none" stroke="#a3231a" stroke-width="7"/>
+  <text x="640" y="1174" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="middle">falsch: umwickeln</text>
+
+  <text x="40" y="1226" font-family="Georgia, serif" font-size="21" fill="#111">Es schwillt an, und was jetzt locker sitzt, schnürt in einer Stunde ab. Für den</text>
+  <text x="40" y="1252" font-family="Georgia, serif" font-size="21" fill="#111">Weg zu ärztlicher Hilfe: sauberes, FEUCHTES Tuch oder Frischhaltefolie.</text>
+
+  <line x1="40" y1="1288" x2="860" y2="1288" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Infektion ============ -->
+  <text x="40" y="1328" font-family="Georgia, serif" font-size="23" fill="#a3231a">Danach wird beobachtet — die Zeichen sind einfach</text>
+  <text x="40" y="1366" font-family="Georgia, serif" font-size="23" fill="#111">Wärme oder Schmerz, die rings um die Stelle NEU entstehen · Fieber</text>
+  <text x="40" y="1402" font-family="Georgia, serif" font-size="21" fill="#111">Dann sofort Rat suchen. Verbrennungen infizieren sich leicht, weil die</text>
+  <text x="40" y="1428" font-family="Georgia, serif" font-size="21" fill="#111">schützende Hautschicht fehlt — und aus einer infizierten Verbrennung wird</text>
+  <text x="40" y="1454" font-family="Georgia, serif" font-size="21" fill="#111">schnell eine Blutvergiftung.</text>
+
+  <text x="40" y="1494" font-family="Georgia, serif" font-size="21" fill="#111">Ein ausgedehnter Sonnenbrand — oder einer bei einem Baby, einem alten oder</text>
+  <text x="40" y="1520" font-family="Georgia, serif" font-size="21" fill="#111">kranken Menschen — gehört ebenfalls angesehen.</text>
+
+  <line x1="40" y1="1556" x2="860" y2="1556" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1596" font-family="Georgia, serif" font-size="21" fill="#111">Wenn niemand kommt: sauber halten, feucht abdecken, täglich ansehen, viel</text>
+  <text x="40" y="1622" font-family="Georgia, serif" font-size="21" fill="#111">trinken, und über großer Fläche auf die Zeichen des Schocks achten.</text>
+  <text x="40" y="1648" font-family="Georgia, serif" font-size="19" fill="#111">(Einordnung dieses Pakets, nicht aus der Quelle.)</text>
+
+  <line x1="40" y1="1684" x2="860" y2="1684" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1726" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Vorbeugen ist der eigentliche Punkt.</text>
+  <text x="40" y="1762" font-family="Georgia, serif" font-size="21" fill="#111">Nicht auf dem Boden kochen, wo Kleinkinder hineinlaufen. Kleidung von</text>
+  <text x="40" y="1788" font-family="Georgia, serif" font-size="21" fill="#111">Flammen und Hitze fernhalten. Etwas zum Löschen bereitlegen, wo gekocht</text>
+  <text x="40" y="1814" font-family="Georgia, serif" font-size="21" fill="#111">wird. Handschuhe bei heißen Dingen. Und die Haut in der Sonne bedecken.</text>
+</svg>

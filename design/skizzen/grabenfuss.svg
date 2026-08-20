@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1304" viewBox="0 0 900 1304">
+  <!-- Zum Tipp "Grabenfuss: nasse Fuesse zerstoeren ohne Frost".
+       Der erste Satz raeumt einen Irrtum aus und steht deshalb gross: Es
+       braucht keinen Frost. Wer auf Frost wartet, wartet zu lange.
+       Der Tipp nennt drei Zustaende, die sich NUR durch die Dauer
+       unterscheiden, und die verwechselt man ohne Bild: unter zwoelf
+       Stunden, ueber zwoelf Stunden, ab zwei Tagen. Als ein Balken mit drei
+       Abschnitten sieht man, dass es eine Skala ist und keine drei
+       Krankheiten. Der Massstab stimmt: 0 bis 72 Stunden ueber 580
+       Bildpunkte, also 8,06 Punkte je Stunde; 12 Stunden stehen bei x=337,
+       48 Stunden bei x=627.
+       Die Falle des Aufwaermens steht rot, weil sie der Moment ist, in dem
+       jemand glaubt, es werde besser: Die Fuesse werden warm, und genau dann
+       wird es schlimm.
+       Die Behandlung steht als vier Woerter, weil der Tipp das selbst so
+       sagt und weil vier Woerter im Ernstfall abrufbar sind.
+       Kein Fuss gezeichnet. Ein gezeichneter Grabenfuss waere entweder
+       harmlos oder abstossend, und die Entscheidung haengt an der Dauer,
+       nicht am Aussehen. -->
+  <rect width="900" height="1304" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Grabenfuß: nasse Füße zerstören ohne Frost</text>
+
+  <text x="40" y="100" font-family="Georgia, serif" font-size="26" fill="#a3231a">Es braucht keinen Frost, um Füße zu verlieren.</text>
+  <text x="40" y="136" font-family="Georgia, serif" font-size="21" fill="#111">Zwei Tage oder mehr mit kalten, nassen Füßen genügen — bei Temperaturen ÜBER</text>
+  <text x="40" y="162" font-family="Georgia, serif" font-size="21" fill="#111">dem Gefrierpunkt. Je kälter es ist, desto schneller geht es.</text>
+
+  <line x1="40" y1="198" x2="860" y2="198" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Zeitskala ============ -->
+  <text x="40" y="238" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wie lange nasse Kälte — und was daraus wird</text>
+
+  <rect x="240" y="270" width="97" height="30" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="337" y="270" width="290" height="30" fill="#d65a1a" stroke="#111" stroke-width="3"/>
+  <rect x="627" y="270" width="193" height="30" fill="#a3231a" stroke="#111" stroke-width="3"/>
+
+  <line x1="240" y1="316" x2="820" y2="316" stroke="#111" stroke-width="2"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="240" y1="316" x2="240" y2="324"/><line x1="337" y1="316" x2="337" y2="324"/>
+    <line x1="433" y1="316" x2="433" y2="324"/><line x1="627" y1="316" x2="627" y2="324"/>
+    <line x1="820" y1="316" x2="820" y2="324"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="240" y="342">0</text><text x="337" y="342">12</text><text x="433" y="342">24</text>
+    <text x="627" y="342">48</text><text x="820" y="342">72 Stunden</text>
+  </g>
+  <text x="288" y="372" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Frostbeulen</text>
+  <text x="482" y="372" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">dünne, absterbende Haut</text>
+  <text x="723" y="372" font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="middle">GRABENFUSS</text>
+
+  <text x="40" y="412" font-family="Georgia, serif" font-size="21" fill="#111">Frostbeulen sind nach 24 Stunden wieder weg. Die dünnen Hautstellen gehen nach</text>
+  <text x="40" y="438" font-family="Georgia, serif" font-size="21" fill="#111">einigen Tagen ohne Narben ab — die Stelle kann aber über Monate schmerzhaft</text>
+  <text x="40" y="464" font-family="Georgia, serif" font-size="21" fill="#111">bleiben. Die echte Erfrierung braucht Frost und macht trockenes Gewebe.</text>
+
+  <line x1="40" y1="500" x2="860" y2="500" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Falle des Aufwaermens ============ -->
+  <text x="40" y="540" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die Falle des Aufwärmens</text>
+  <text x="40" y="578" font-family="Georgia, serif" font-size="21" fill="#111">So beginnt es: kalte, nasse Füße, die TAUB werden. Das ist die Phase, in der</text>
+  <text x="40" y="604" font-family="Georgia, serif" font-size="21" fill="#111">noch alles zu retten ist — und in der es am leichtesten ignoriert wird, weil</text>
+  <text x="40" y="630" font-family="Georgia, serif" font-size="21" fill="#111">taub nicht weh tut.</text>
+
+  <text x="40" y="670" font-family="Georgia, serif" font-size="21" fill="#a3231a">Werden Rumpf und Füße wieder warm, werden die Füße HEISS und sehr</text>
+  <text x="40" y="696" font-family="Georgia, serif" font-size="21" fill="#a3231a">schmerzhaft, geschwollen, leuchtend rot oder violett.</text>
+
+  <text x="40" y="732" font-family="Georgia, serif" font-size="21" fill="#111">Die Betroffenen können keine Stiefel mehr tragen und kaum noch gehen — ein</text>
+  <text x="40" y="758" font-family="Georgia, serif" font-size="21" fill="#111">schlurfender Gang, das Gehen fühle sich an wie auf hölzernen Beinen. Wer so</text>
+  <text x="40" y="784" font-family="Georgia, serif" font-size="21" fill="#111">weit ist, ist für Tage bewegungsunfähig und muss getragen werden.</text>
+
+  <line x1="40" y1="820" x2="860" y2="820" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die vier Woerter ============ -->
+  <text x="40" y="860" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Behandlung steht in vier Worten</text>
+
+  <text x="40" y="900" font-family="Georgia, serif" font-size="23" fill="#a3231a">TROCKENTUPFEN</text>
+  <text x="310" y="900" font-family="Georgia, serif" font-size="21" fill="#111">nicht reiben. Reiben zerstört das geschädigte</text>
+  <text x="310" y="926" font-family="Georgia, serif" font-size="21" fill="#111">Gewebe zusätzlich.</text>
+
+  <text x="40" y="966" font-family="Georgia, serif" font-size="23" fill="#111">HOCHLAGERN</text>
+  <text x="310" y="966" font-family="Georgia, serif" font-size="21" fill="#111">die Füße hoch.</text>
+
+  <text x="40" y="1006" font-family="Georgia, serif" font-size="23" fill="#111">RUMPF WÄRMEN</text>
+  <text x="310" y="1006" font-family="Georgia, serif" font-size="21" fill="#111">nicht die Füße selbst.</text>
+
+  <text x="40" y="1046" font-family="Georgia, serif" font-size="23" fill="#111">TRINKEN</text>
+  <text x="310" y="1046" font-family="Georgia, serif" font-size="21" fill="#111">Ob genug getrunken wird, liest man am Urin ab:</text>
+  <text x="310" y="1072" font-family="Georgia, serif" font-size="21" fill="#111">an Farbe und Häufigkeit.</text>
+
+  <line x1="40" y1="1110" x2="860" y2="1110" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Vorbeugen ============ -->
+  <text x="40" y="1150" font-family="Georgia, serif" font-size="23" fill="#a3231a">Vorbeugen ist hier fast alles, und es ist beschämend einfach:</text>
+  <text x="40" y="1178" font-family="Georgia, serif" font-size="23" fill="#a3231a">jeden Tag trockene Socken.</text>
+  <text x="40" y="1214" font-family="Georgia, serif" font-size="21" fill="#111">Nachts die Füße sanft massieren. Und wer die frühen Zeichen hat — taube,</text>
+  <text x="40" y="1240" font-family="Georgia, serif" font-size="21" fill="#111">blasse, nasse Füße —, wird sofort trocken gelegt und geschont, bevor aus zwei</text>
+  <text x="40" y="1266" font-family="Georgia, serif" font-size="21" fill="#111">Tagen Nässe zwei Monate Liegen werden.</text>
+</svg>

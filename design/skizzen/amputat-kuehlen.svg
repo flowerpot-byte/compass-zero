@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1404" viewBox="0 0 900 1404">
+  <!-- Zum Tipp "Abgetrennter Koerperteil: kuehlen, aber nicht gefrieren".
+       Der Tipp benennt selbst den Punkt, den fast alle falsch machen, und der
+       ist raeumlich: Zwischen Gewebe und Eis darf es keinen unmittelbaren
+       Kontakt geben. Das laesst sich als Schnitt durch drei Schichten in
+       einem Blick zeigen und als Satz kaum merken.
+       Die Schichten sind deshalb ineinander gezeichnet und nicht
+       nebeneinander: Man soll sehen, dass das Eis AUSSEN bleibt.
+       Die Reihenfolge steht ganz oben und rot, weil sie nicht verhandelbar
+       ist. Ein gerettetes Koerperteil neben einem verbluteten Menschen ist
+       kein Erfolg. Kein Titel eines anderen Tipps steht im Bild.
+       Der Widerspruch zwischen den Quellen steht offen im Bild, statt ihn
+       wegzulassen: feuchtes Tuch (Europa 2025) gegen trocken (Rotkreuz 2020).
+       Wer die andere Fassung kennt, soll nicht denken, hier sei geschlampt
+       worden. Dazu die vier Punkte, an denen sich beide einig sind.
+       Der Merksatz am Schluss gehoert zur Einordnung dieses Pakets und steht
+       deshalb NACH der Kennzeichnung, nicht davor. -->
+  <rect width="900" height="1404" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Abgetrennter Körperteil: kühlen, aber nicht gefrieren</text>
+
+  <!-- ============ A: die Reihenfolge ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die Reihenfolge ist nicht verhandelbar</text>
+  <text x="40" y="134" font-family="Georgia, serif" font-size="23" fill="#111">ZUERST DIE BLUTUNG, DANN DAS TEIL.</text>
+  <text x="40" y="168" font-family="Georgia, serif" font-size="21" fill="#111">Ein gerettetes Körperteil neben einem verbluteten Menschen ist kein Erfolg.</text>
+
+  <line x1="40" y1="204" x2="860" y2="204" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die drei Schichten ============ -->
+  <text x="40" y="244" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Vollständig abgetrennt: drei Schichten, das Eis bleibt außen</text>
+
+  <rect x="80" y="300" width="300" height="200" rx="24" fill="#a9c4d4" stroke="#111" stroke-width="4"/>
+  <g fill="#e8eef2" stroke="#111" stroke-width="2">
+    <rect x="96" y="312" width="24" height="18" rx="4"/>
+    <rect x="140" y="312" width="24" height="18" rx="4"/>
+    <rect x="200" y="312" width="24" height="18" rx="4"/>
+    <rect x="264" y="312" width="24" height="18" rx="4"/>
+    <rect x="330" y="312" width="24" height="18" rx="4"/>
+    <rect x="96" y="370" width="24" height="18" rx="4"/>
+    <rect x="96" y="410" width="24" height="18" rx="4"/>
+    <rect x="96" y="450" width="24" height="18" rx="4"/>
+    <rect x="336" y="370" width="24" height="18" rx="4"/>
+    <rect x="336" y="410" width="24" height="18" rx="4"/>
+    <rect x="336" y="450" width="24" height="18" rx="4"/>
+    <rect x="150" y="468" width="24" height="18" rx="4"/>
+    <rect x="220" y="468" width="24" height="18" rx="4"/>
+    <rect x="290" y="468" width="24" height="18" rx="4"/>
+  </g>
+  <rect x="140" y="350" width="180" height="110" rx="18" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <rect x="172" y="378" width="116" height="56" rx="16" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <rect x="196" y="392" width="68" height="28" rx="14" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+
+  <g stroke="#111" stroke-width="2">
+    <line x1="378" y1="320" x2="430" y2="316"/>
+    <line x1="324" y1="366" x2="430" y2="366"/>
+    <line x1="292" y1="424" x2="430" y2="422"/>
+  </g>
+  <text x="440" y="322" font-family="Georgia, serif" font-size="21" fill="#111">Eis oder Eiswasser</text>
+  <text x="440" y="372" font-family="Georgia, serif" font-size="21" fill="#111">sauberer, dichter Beutel</text>
+  <text x="440" y="428" font-family="Georgia, serif" font-size="21" fill="#111">feuchtes Tuch, darin das Teil</text>
+
+  <text x="440" y="482" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Erst wickeln, dann in den</text>
+  <text x="440" y="508" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">dichten Beutel, dann ins Eis.</text>
+
+  <text x="40" y="558" font-family="Georgia, serif" font-size="23" fill="#a3231a">Kein Eis am Gewebe.</text>
+  <text x="40" y="592" font-family="Georgia, serif" font-size="21" fill="#111">Nicht ins Eis legen, nicht in kaltes Wasser, nicht in Schnee packen — und</text>
+  <text x="40" y="618" font-family="Georgia, serif" font-size="21" fill="#111">einfrieren erst recht nicht. Unmittelbare Kälte und Nässe zerstören genau das</text>
+  <text x="40" y="644" font-family="Georgia, serif" font-size="21" fill="#111">Gewebe, das man retten will. Gekühlt bleibt es durchgehend, auch unterwegs.</text>
+
+  <text x="40" y="684" font-family="Georgia, serif" font-size="21" fill="#111">Behälter mit Namen und Uhrzeit beschriften. Das Teil geht ZUSAMMEN MIT der</text>
+  <text x="40" y="710" font-family="Georgia, serif" font-size="21" fill="#111">Person in dasselbe Krankenhaus — nicht nachgeschickt.</text>
+
+  <line x1="40" y1="746" x2="860" y2="746" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: nur teilweise abgetrennt ============ -->
+  <text x="40" y="786" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Nur teilweise abgetrennt: dann gilt etwas anderes</text>
+  <text x="40" y="824" font-family="Georgia, serif" font-size="21" fill="#111">Die Gliedmaße so ruhig wie möglich halten, möglichst in ihrer natürlichen Lage —</text>
+  <text x="40" y="850" font-family="Georgia, serif" font-size="21" fill="#111">das schützt davor, dass sie sich löst. Mit sterilem Verband oder sauberem Tuch</text>
+  <text x="40" y="876" font-family="Georgia, serif" font-size="21" fill="#111">abdecken und in dieser Lage festlegen.</text>
+
+  <line x1="40" y1="912" x2="860" y2="912" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: nichts zu essen, nichts zu trinken ============ -->
+  <text x="40" y="952" font-family="Georgia, serif" font-size="23" fill="#a3231a">Nichts zu essen und nichts zu trinken geben,</text>
+  <text x="40" y="986" font-family="Georgia, serif" font-size="21" fill="#111">wenn ein Krankenhaus in erreichbarer Nähe ist — dort kann eine Narkose nötig</text>
+  <text x="40" y="1012" font-family="Georgia, serif" font-size="21" fill="#111">werden, und ein voller Magen ist dabei gefährlich. Ist der Weg sehr weit und die</text>
+  <text x="40" y="1038" font-family="Georgia, serif" font-size="21" fill="#111">Person ansprechbar, darf sie in kleinen Schlucken Wasser bekommen.</text>
+
+  <!-- ============ E: der offengelegte Widerspruch ============ -->
+  <rect x="40" y="1076" width="820" height="176" rx="10" fill="none" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="62" y="1114" font-family="Georgia, serif" font-size="23" fill="#111">Zwei Quellen, ein Widerspruch — offengelegt</text>
+  <text x="62" y="1150" font-family="Georgia, serif" font-size="21" fill="#111">Die europäische Leitlinie von 2025 sagt: Tuch mit Kochsalzlösung oder Wasser</text>
+  <text x="62" y="1176" font-family="Georgia, serif" font-size="21" fill="#111">BEFEUCHTET. Die Rotkreuz-Leitlinie von 2020 sagt: TROCKEN halten. Hier steht</text>
+  <text x="62" y="1202" font-family="Georgia, serif" font-size="21" fill="#111">die europäische, weil sie neuer ist und für diese Gegend gilt. Einig sind sich</text>
+  <text x="62" y="1228" font-family="Georgia, serif" font-size="21" fill="#111">beide an dem, woran es hängt: schnell kühlen, kein Eiskontakt, nicht gefrieren.</text>
+
+  <!-- ============ F: Einordnung und Merksatz ============ -->
+  <text x="40" y="1296" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus den Quellen: Ohne Aussicht auf eine Operation</text>
+  <text x="40" y="1320" font-family="Georgia, serif" font-size="19" fill="#111">binnen Stunden lässt sich nichts annähen. Kühlen kostet fast nichts — aber niemals</text>
+  <text x="40" y="1344" font-family="Georgia, serif" font-size="19" fill="#111">auf Kosten der Blutstillung oder der Wärme des Verletzten.</text>
+  <text x="40" y="1386" font-family="Georgia, serif" font-size="23" fill="#a3231a">Der Mensch warm, das Teil kühl.</text>
+</svg>

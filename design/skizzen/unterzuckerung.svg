@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1420" viewBox="0 0 900 1420">
+  <!-- Zum Tipp "Unterzuckerung: Zucker geben".
+       Alles haengt an einer einzigen Frage, und die steht deshalb gross und
+       allein ueber den beiden Spalten: Ist die Person wach und kann sie
+       schlucken? Im Fliesstext kommt die Antwort auf NEIN erst am Ende, nach
+       allen Mengenangaben — und wer in Eile liest, hat bis dahin schon
+       etwas in einen Mund geschoben.
+       Die beiden Spalten sind absichtlich gleich gross. Die rechte ist die
+       unbefriedigende, aber sie ist genauso ein Handlungsweg wie die linke:
+       nichts in den Mund, Notruf, Seitenlage, notfalls Wiederbelebung. Eine
+       kleiner gesetzte NEIN-Spalte haette gelesen wie eine Randbemerkung.
+       Der Kasten unten steht da, weil die Quelle selbst sagt, dass die
+       Antwort unbefriedigend ist. Er ist der Grund fuer den letzten
+       Abschnitt: Was im Notfall fehlt, gehoert in die Vorsorge. -->
+  <rect width="900" height="1420" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Unterzuckerung: Zucker geben</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Vermute eine Unterzuckerung, wenn jemand mit Diabetes oder mit anhaltendem</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Nahrungsmangel plötzlich anders reagiert oder sich anders verhält als sonst.</text>
+  <text x="40" y="158" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Das ist der Notfall, der sich mit dem beheben lässt, was da ist.</text>
+
+  <line x1="40" y1="194" x2="860" y2="194" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="240" font-family="Georgia, serif" font-size="26" fill="#111">Alles hängt an einer Frage:</text>
+  <text x="40" y="276" font-family="Georgia, serif" font-size="26" fill="#111">Ist die Person wach und kann sie schlucken?</text>
+
+  <rect x="40" y="304" width="390" height="476" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <rect x="470" y="304" width="390" height="476" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+
+  <!-- linke Spalte: JA -->
+  <text x="62" y="348" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">JA</text>
+  <text x="62" y="390" font-family="Georgia, serif" font-size="23" fill="#111">15 bis 20 Gramm</text>
+  <text x="62" y="418" font-family="Georgia, serif" font-size="23" fill="#111">Traubenzucker.</text>
+  <text x="62" y="456" font-family="Georgia, serif" font-size="21" fill="#111">Kein Traubenzucker da?</text>
+  <text x="62" y="482" font-family="Georgia, serif" font-size="21" fill="#111">· eine Handvoll zucker-</text>
+  <text x="62" y="508" font-family="Georgia, serif" font-size="21" fill="#111">  haltige Bonbons</text>
+  <text x="62" y="534" font-family="Georgia, serif" font-size="21" fill="#111">· 50 bis 100 Milliliter</text>
+  <text x="62" y="560" font-family="Georgia, serif" font-size="21" fill="#111">  Fruchtsaft oder</text>
+  <text x="62" y="586" font-family="Georgia, serif" font-size="21" fill="#111">  zuckerhaltige Limonade</text>
+  <text x="62" y="628" font-family="Georgia, serif" font-size="21" fill="#111">Kind, das keine Tablette</text>
+  <text x="62" y="654" font-family="Georgia, serif" font-size="21" fill="#111">schlucken will: ein halber</text>
+  <text x="62" y="680" font-family="Georgia, serif" font-size="21" fill="#111">Teelöffel Haushaltszucker</text>
+  <text x="62" y="706" font-family="Georgia, serif" font-size="21" fill="#111">(2,5 Gramm) unter die</text>
+  <text x="62" y="732" font-family="Georgia, serif" font-size="21" fill="#111">Zunge.</text>
+
+  <!-- rechte Spalte: reagiert nicht -->
+  <text x="492" y="348" font-family="Georgia, serif" font-size="26" fill="#a3231a">REAGIERT NICHT</text>
+  <text x="492" y="390" font-family="Georgia, serif" font-size="23" fill="#a3231a">Nichts Süßes in den</text>
+  <text x="492" y="418" font-family="Georgia, serif" font-size="23" fill="#a3231a">Mund — auch nicht</text>
+  <text x="492" y="446" font-family="Georgia, serif" font-size="23" fill="#a3231a">unter die Zunge.</text>
+  <text x="492" y="484" font-family="Georgia, serif" font-size="21" fill="#111">Sie könnte es in die</text>
+  <text x="492" y="510" font-family="Georgia, serif" font-size="21" fill="#111">Atemwege bekommen.</text>
+  <text x="492" y="548" font-family="Georgia, serif" font-size="21" fill="#111">Dann gilt nur der Notruf 112.</text>
+  <text x="492" y="590" font-family="Georgia, serif" font-size="21" fill="#111">Atmet sie ausreichend:</text>
+  <text x="492" y="616" font-family="Georgia, serif" font-size="21" fill="#111">stabile Seitenlage und</text>
+  <text x="492" y="642" font-family="Georgia, serif" font-size="21" fill="#111">zudecken.</text>
+  <text x="492" y="680" font-family="Georgia, serif" font-size="21" fill="#111">Atmet sie nicht oder nicht</text>
+  <text x="492" y="706" font-family="Georgia, serif" font-size="21" fill="#111">normal — auch seltene,</text>
+  <text x="492" y="732" font-family="Georgia, serif" font-size="21" fill="#111">langsame Schnappatmung</text>
+  <text x="492" y="758" font-family="Georgia, serif" font-size="21" fill="#111">—: sofort wiederbeleben.</text>
+
+  <line x1="40" y1="836" x2="860" y2="836" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="876" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zwei Zeiten</text>
+  <text x="40" y="914" font-family="Georgia, serif" font-size="23" fill="#111">Nach 15 Minuten keine Besserung → noch einmal Zucker.</text>
+  <text x="40" y="946" font-family="Georgia, serif" font-size="23" fill="#111">5 bis 10 Minuten nach der Aufnahme abgeklungen → eine</text>
+  <text x="40" y="974" font-family="Georgia, serif" font-size="23" fill="#111">leichte Mahlzeit essen.</text>
+
+  <line x1="40" y1="1010" x2="860" y2="1010" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="1036" width="820" height="130" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="1080" font-family="Georgia, serif" font-size="26" fill="#a3231a">Den Blutzucker einer bewusstlosen Person kann ohne</text>
+  <text x="62" y="1112" font-family="Georgia, serif" font-size="26" fill="#a3231a">Spritze oder Notfallset niemand anheben.</text>
+  <text x="62" y="1148" font-family="Georgia, serif" font-size="21" fill="#111">Das ist die ehrliche Antwort, und sie ist unbefriedigend.</text>
+
+  <text x="40" y="1226" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Deshalb gehört das in die Vorsorge, nicht in den Notfall.</text>
+  <text x="40" y="1262" font-family="Georgia, serif" font-size="21" fill="#111">Lebt jemand mit Diabetes im Haushalt: vorher klären, ob ein Notfallset da ist,</text>
+  <text x="40" y="1288" font-family="Georgia, serif" font-size="21" fill="#111">wo es liegt und wer damit umgehen kann.</text>
+  <text x="40" y="1324" font-family="Georgia, serif" font-size="21" fill="#111">Wacht die Person von selbst wieder auf, gilt sofort wieder der Weg von oben —</text>
+  <text x="40" y="1350" font-family="Georgia, serif" font-size="21" fill="#111">erst Zucker, dann eine Mahlzeit.</text>
+  <text x="40" y="1388" font-family="Georgia, serif" font-size="19" fill="#111">Die Grenze verschiebt sich nicht, wenn niemand kommt. (Einordnung dieses Pakets.)</text>
+</svg>

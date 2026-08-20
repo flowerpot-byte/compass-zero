@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+  <!-- Tipp: wasser-stelle-beurteilen, "Wasserstelle beurteilen, bevor man schoepft".
+       Gezeigter Satz: "Der Lagerplatz gehoert mindestens DREISSIG METER
+       FLUSSABWAERTS von der Stelle, an der geschoepft wird." Das Lager liegt
+       im Bild sichtbar flussabwaerts der Schoepfstelle, mit Massangabe
+       dreissig Meter (Signalfarbe, weil das Lager sonst die Schoepfstelle
+       verschmutzt). Zusaetzlich gezeigt, aus demselben Absatz: flussaufwaerts
+       nach moeglichen Verschmutzungsquellen schauen, etwa drei Kilometer
+       (Hof, Strasse, Fabrik, Deponie). Der Fluss ist zwischen den beiden
+       Abschnitten mit einem Bruchsymbol unterbrochen, weil drei Kilometer und
+       dreissig Meter nicht im selben Massstab nebeneinander passen. -->
+  <rect width="900" height="500" fill="#faf9f6"/>
+  <text x="30" y="42" font-family="Georgia, serif" font-size="26" fill="#111">Wasserstelle beurteilen, bevor man schöpft</text>
+
+  <!-- Fliessrichtung -->
+  <text x="200" y="70" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Fließrichtung</text>
+  <line x1="315" y1="70" x2="345" y2="70" stroke="#5b7f96" stroke-width="3"/>
+  <polygon points="345,64 357,70 345,76" fill="#5b7f96"/>
+
+  <!-- Gebaeude / moegliche Verschmutzungsquelle, flussaufwaerts -->
+  <polygon points="55,95 100,60 145,95" fill="#7a5a3e" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="65" y="95" width="70" height="55" fill="#c9c4b4" stroke="#111" stroke-width="2.5"/>
+  <rect x="90" y="120" width="20" height="30" fill="#7a5a3e"/>
+  <text x="40" y="172" font-family="Georgia, serif" font-size="17" fill="#111">Hof, Straße, Fabrik,</text>
+  <text x="40" y="193" font-family="Georgia, serif" font-size="17" fill="#111">Deponie, flussaufwärts</text>
+
+  <!-- Schoepfstelle: Markierung ueber dem Fluss, Beschriftung darueber -->
+  <line x1="470" y1="225" x2="470" y2="253" stroke="#111" stroke-width="2"/>
+  <text x="470" y="215" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">Schöpfstelle</text>
+
+  <!-- Zelt / Lagerplatz, flussabwaerts -->
+  <path d="M 790 150 L 823 100 L 856 150 Z" fill="#d9c98a" stroke="#7a5a3e" stroke-width="2.5" stroke-linejoin="round"/>
+  <line x1="823" y1="150" x2="823" y2="115" stroke="#7a5a3e" stroke-width="2"/>
+  <text x="823" y="172" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">Lagerplatz</text>
+  <text x="823" y="193" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">flussabwärts</text>
+
+  <!-- Fluss, links oben (flussaufwaerts) nach rechts unten (flussabwaerts) -->
+  <path d="M 40 260 C 200 240, 350 275, 470 258 C 600 240, 750 275, 860 258
+           L 860 330 C 750 348, 600 313, 470 331 C 350 348, 200 313, 40 330 Z"
+        fill="#a8c4d4" stroke="#6f95a8" stroke-width="2"/>
+
+  <!-- Stroemungspfeile im Fluss, nach rechts -->
+  <g stroke="#2a7fa8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 150 285 L 168 295 L 150 305"/>
+    <path d="M 300 285 L 318 295 L 300 305"/>
+    <path d="M 600 285 L 618 295 L 600 305"/>
+    <path d="M 750 285 L 768 295 L 750 305"/>
+  </g>
+
+  <!-- Schoepfstelle-Punkt auf dem Fluss -->
+  <circle cx="470" cy="255" r="7" fill="#2a7fa8" stroke="#111" stroke-width="2"/>
+
+  <!-- Bruchsymbol: Fluss stark verkuerzt zwischen den beiden Abschnitten -->
+  <line x1="400" y1="255" x2="412" y2="330" stroke="#5b7f96" stroke-width="4"/>
+  <line x1="418" y1="255" x2="430" y2="330" stroke="#5b7f96" stroke-width="4"/>
+  <text x="400" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#5b7f96">nicht maßstäblich</text>
+
+  <!-- Massangabe flussaufwaerts: etwa drei Kilometer -->
+  <g stroke="#5b7f96" stroke-width="3">
+    <line x1="90" y1="345" x2="390" y2="345"/>
+    <line x1="90" y1="338" x2="90" y2="352"/>
+    <line x1="390" y1="338" x2="390" y2="352"/>
+  </g>
+  <text x="240" y="372" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">etwa drei Kilometer</text>
+  <text x="240" y="393" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">flussaufwärts</text>
+
+  <!-- Massangabe flussabwaerts: mindestens dreissig Meter (Signalfarbe) -->
+  <g stroke="#d65a1a" stroke-width="3.5">
+    <line x1="470" y1="345" x2="760" y2="345"/>
+    <line x1="470" y1="336" x2="470" y2="354"/>
+    <line x1="760" y1="336" x2="760" y2="354"/>
+  </g>
+  <text x="615" y="372" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#d65a1a">mindestens dreißig Meter</text>
+  <text x="615" y="393" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">flussabwärts</text>
+
+  <!-- Erklaerende Saetze -->
+  <text x="90" y="430" font-family="Georgia, serif" font-size="16" fill="#111">Was flussaufwärts liegt, kommt hier an.</text>
+  <text x="470" y="430" font-family="Georgia, serif" font-size="16" fill="#111">Waschen, Latrine, Abwasch bleiben flussabwärts.</text>
+</svg>

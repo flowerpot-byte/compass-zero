@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540">
+  <!-- Zum Tipp medizin-laeuse.
+
+       GEZEIGTE AUSSAGE, wortgleich der Kern des Tipps: "KLEIDERLAEUSE
+       SITZEN NICHT AUF DEM KOERPER. Sie leben in den Naehten der Kleidung
+       und kommen nur zum Saugen auf die Haut. Wer nur den Menschen
+       behandelt und die Kleidung liegen laesst, hat sie am naechsten Tag
+       wieder."
+
+       Warum als Bild: Der Irrtum, den der Text widerlegt, ist ein
+       raeumlicher - man sucht am falschen Ort. Ein Querschnitt zeigt beide
+       Orte nebeneinander, und der Unterschied ist eine ANZAHL: viele Tiere
+       in der Naht, eines auf der Haut. Das traegt auch klein.
+
+       Die Signalfarbe steht nur bei dem Satz zum gefaehrlichen Fehler.
+
+       Neubau am 05.08.2026. Die erste Fassung hatte die Aussage schon
+       richtig, sass aber gedraengt in der linken Bildhaelfte, waehrend
+       rechts und unten grosse Flaechen leer blieben. Vor allem lagen Stoff
+       und Haut als zwei unverbundene Kaesten uebereinander: Dass die
+       Kleidung AUF der Haut liegt und die Laus nur den kurzen Weg
+       dazwischen macht, war nicht zu sehen. Genau dieser kurze Weg ist der
+       Grund, warum man am falschen Ort sucht. -->
+
+  <rect width="900" height="540" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="25" fill="#111">Kleiderläuse: die Naht ist das Nest, nicht die Haut</text>
+  <text x="40" y="76" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Querschnitt durch Kleidung und Haut.</text>
+
+  <!-- Beschriftung der Naht, oberhalb, mit Fuehrungslinie -->
+  <text x="300" y="132" font-family="Georgia, serif" font-size="19" fill="#111">Die Naht: hier lebt die Kleiderlaus</text>
+  <line x1="404" y1="142" x2="404" y2="196" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- Kleidung im Querschnitt, mit der Naht als Tasche nach unten -->
+  <path d="M 80,208 L 300,208 L 300,344 L 520,344 L 520,208 L 700,208
+           L 700,258 L 560,258 L 560,392 L 260,392 L 260,258 L 80,258 Z"
+        fill="#d9c98a" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Die Laeuse in der Naht: viele, dicht -->
+  <g fill="#7a5a3e" stroke="#111" stroke-width="1.6">
+    <ellipse cx="292" cy="290" rx="11" ry="7.5"/>
+    <ellipse cx="322" cy="322" rx="11" ry="7.5"/>
+    <ellipse cx="296" cy="352" rx="11" ry="7.5"/>
+    <ellipse cx="336" cy="368" rx="11" ry="7.5"/>
+    <ellipse cx="386" cy="360" rx="11" ry="7.5"/>
+    <ellipse cx="436" cy="366" rx="11" ry="7.5"/>
+    <ellipse cx="482" cy="356" rx="11" ry="7.5"/>
+    <ellipse cx="520" cy="330" rx="11" ry="7.5"/>
+    <ellipse cx="528" cy="292" rx="11" ry="7.5"/>
+    <ellipse cx="410" cy="330" rx="11" ry="7.5"/>
+  </g>
+
+  <!-- Haut, direkt unter der Kleidung -->
+  <rect x="80" y="420" width="620" height="62" fill="#e6e2d6" stroke="#111" stroke-width="3.5"/>
+
+  <text x="716" y="238" font-family="Georgia, serif" font-size="18" fill="#111">Kleidung</text>
+  <text x="716" y="458" font-family="Georgia, serif" font-size="18" fill="#111">Haut</text>
+
+  <!-- Die eine Laus, die den kurzen Weg macht -->
+  <ellipse cx="410" cy="410" rx="11" ry="7.5" fill="#7a5a3e" stroke="#111" stroke-width="1.6"/>
+  <line x1="410" y1="394" x2="410" y2="400" stroke="#5b7f96" stroke-width="2"/>
+  <line x1="424" y1="410" x2="470" y2="410" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="478" y="415" font-family="Georgia, serif" font-size="17" fill="#111">kommt nur zum Saugen</text>
+
+  <text x="40" y="512" font-family="Georgia, serif" font-size="19" fill="#d65a1a">Wer nur den Menschen behandelt und die Kleidung liegen lässt, hat sie am nächsten Tag wieder.</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="590" viewBox="0 0 900 590">
+  <!-- Zur Anleitung "Feuer ohne Zuendmittel", Schritt 8: der Feuerpflug.
+       Gezeigter Satz: "Schneide eine gerade Rille in ein Brett aus WEICHHOLZ.
+       Fuehre die stumpfe Spitze eines Stabes aus HARTHOLZ in der Rille auf
+       und ab. Das Pfluegen schiebt kleine Holzfasern vor sich her." Oben:
+       Draufsicht auf Brett und Rille, mit dem Stab an beiden Enden des
+       Zugs (Anfang durchgezeichnet, Ende blass) und der Bahn dazwischen.
+       Unten: Nahansicht im Querschnitt, wie die stumpfe, runde Spitze die
+       Fasern vor sich her zu einem Haeufchen zusammenschiebt. Fuer diesen
+       Schritt nennt der Text keinen gefaehrlichen Fehler, deshalb kommt
+       die Signalfarbe in dieser Zeichnung nicht vor. -->
+  <rect width="900" height="590" fill="#faf9f6"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="26" fill="#111">Feuerpflug: die Spitze schiebt Fasern vor sich her</text>
+
+  <!-- ===== oben: Brett von oben, mit der geraden Rille ===== -->
+  <text x="60" y="90" font-family="Georgia, serif" font-size="19" fill="#111">Von oben: die gerade Rille in Weichholz</text>
+
+  <rect x="140" y="116" width="620" height="144" fill="#e6e2d6" stroke="#111" stroke-width="5"/>
+  <rect x="190" y="160" width="520" height="56" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <!-- Stab, Anfang des Zugs: Spitze links in der Rille, Griffende ragt oben heraus -->
+  <line x1="310" y1="188" x2="266" y2="104" stroke="#111" stroke-width="28" stroke-linecap="round"/>
+  <line x1="310" y1="188" x2="266" y2="104" stroke="#9c7b52" stroke-width="22" stroke-linecap="round"/>
+
+  <!-- Stab, Ende des Zugs: blass, gleiche Form, Spitze rechts in der Rille -->
+  <line x1="610" y1="188" x2="654" y2="104" stroke="#111" stroke-width="28" stroke-linecap="round" opacity="0.22"/>
+  <line x1="610" y1="188" x2="654" y2="104" stroke="#9c7b52" stroke-width="22" stroke-linecap="round" opacity="0.32"/>
+
+  <!-- Bahn der Spitze zwischen den beiden Enden des Zugs -->
+  <g stroke="#111" stroke-width="4" fill="none">
+    <line x1="345" y1="300" x2="585" y2="300"/>
+    <path d="M 345 300 l 16 -9 M 345 300 l 16 9"/>
+    <path d="M 585 300 l -16 -9 M 585 300 l -16 9"/>
+  </g>
+  <text x="465" y="288" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">auf und ab</text>
+
+  <line x1="700" y1="188" x2="764" y2="181" stroke="#111" stroke-width="2"/>
+  <text x="770" y="187" font-family="Georgia, serif" font-size="18" fill="#111">Rille</text>
+
+  <line x1="100" y1="143" x2="260" y2="102" stroke="#111" stroke-width="2"/>
+  <text x="15" y="132" font-family="Georgia, serif" font-size="18" fill="#111">Stab aus</text>
+  <text x="15" y="154" font-family="Georgia, serif" font-size="18" fill="#111">Hartholz</text>
+
+  <!-- ===== unten: Querschnitt, Spitze schiebt Fasern zusammen ===== -->
+  <text x="60" y="340" font-family="Georgia, serif" font-size="19" fill="#111">Nah dran: wie die Spitze die Fasern schiebt</text>
+
+  <rect x="330" y="372" width="240" height="24" fill="#c9c4b4"/>
+  <path d="M 150 372 L 330 372 L 330 396 L 570 396 L 570 372 L 750 372 L 750 462 L 150 462 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Spitze, stumpf und rund, in die Rille gedrueckt -->
+  <line x1="430" y1="396" x2="392" y2="356" stroke="#111" stroke-width="26" stroke-linecap="round"/>
+  <line x1="430" y1="396" x2="392" y2="356" stroke="#9c7b52" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Haeufchen aus Holzfasern, vor der Spitze zusammengeschoben -->
+  <ellipse cx="505" cy="390" rx="45" ry="8" fill="#d8cdb0" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="2" opacity="0.7">
+    <line x1="480" y1="386" x2="490" y2="378"/>
+    <line x1="495" y1="384" x2="507" y2="374"/>
+    <line x1="513" y1="386" x2="527" y2="376"/>
+    <line x1="530" y1="384" x2="542" y2="376"/>
+  </g>
+
+  <!-- Pfeil: die Spitze schiebt in Richtung des Haeufchens -->
+  <g stroke="#111" stroke-width="4" fill="none">
+    <line x1="440" y1="378" x2="458" y2="378"/>
+    <path d="M 458 378 l -13 -7 M 458 378 l -13 7"/>
+  </g>
+
+  <line x1="150" y1="382" x2="400" y2="370" stroke="#111" stroke-width="2"/>
+  <text x="15" y="392" font-family="Georgia, serif" font-size="18" fill="#111">stumpfe Spitze</text>
+
+  <line x1="700" y1="436" x2="764" y2="432" stroke="#111" stroke-width="2"/>
+  <text x="770" y="428" font-family="Georgia, serif" font-size="18" fill="#111">Brett aus</text>
+  <text x="770" y="450" font-family="Georgia, serif" font-size="18" fill="#111">Weichholz</text>
+
+  <line x1="510" y1="397" x2="365" y2="486" stroke="#111" stroke-width="2"/>
+  <text x="330" y="502" font-family="Georgia, serif" font-size="18" fill="#111">Fasern, vor sich her geschoben</text>
+
+  <text x="60" y="546" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Mit jedem Zug drückst du etwas stärker.</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif">
+<!-- Anleitung: notunterstand-laubhuette. Schritt 8: Eingang verschliessbar machen.
+Gezeigter Satz: Haeufe am Eingang zusaetzliches Daemmmaterial auf, das du von innen zu dir heranziehen kannst,
+um den Eingang zu verschliessen, oder baue eine Tuer.
+Gezeigt als Form: links ein Vorrat-Haufen aus Daemmmaterial neben dem offenen Eingang; ein Pfeil zeigt, wie
+dieses Material in den Eingang gezogen wird; rechts ist der Eingang damit verschlossen (gleiche Fuellfarbe wie
+der Haufen). Unten die zweite Moeglichkeit: eine gebundene Tuer aus Staeben. -->
+
+<rect x="0" y="0" width="900" height="600" fill="#faf9f6"/>
+
+<text x="450" y="40" text-anchor="middle" font-size="27" fill="#111" font-weight="bold">Eingang verschließbar machen</text>
+<text x="450" y="65" text-anchor="middle" font-size="17" fill="#5b7f96">Material von innen heranziehen — oder eine Tür bauen</text>
+
+<!-- Panel-Ueberschriften -->
+<text x="235" y="101" text-anchor="middle" font-size="19" fill="#5b7f96">offen</text>
+<text x="665" y="101" text-anchor="middle" font-size="19" fill="#5b7f96">verschlossen</text>
+
+<!-- Boeden -->
+<line x1="75" y1="420" x2="395" y2="420" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+<line x1="505" y1="420" x2="825" y2="420" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+
+<!-- Linkes Panel: Huette mit offenem Eingang -->
+<polygon points="235,170 395,420 75,420" fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="235,330 265,420 205,420" fill="#faf9f6" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+
+<!-- Vorrat: Haufen Daemmmaterial neben dem Eingang, griffbereit -->
+<path d="M275,420 C278,388 298,373 320,376 C342,372 364,389 366,420 Z" fill="#8ba668" stroke="#111" stroke-width="2"/>
+<line x1="415" y1="322" x2="345" y2="382" stroke="#5b7f96" stroke-width="1.5"/>
+<text x="422" y="318" text-anchor="start" font-size="16" fill="#111">Vorrat</text>
+<text x="422" y="337" text-anchor="start" font-size="16" fill="#111">griffbereit</text>
+
+<!-- Pfeil: Material wird von innen in den Eingang gezogen -->
+<path d="M328,368 C400,195 565,195 640,352" fill="none" stroke="#111" stroke-width="3"/>
+<polygon points="655,362 639,349 656,340" fill="#111"/>
+<text x="486" y="178" text-anchor="middle" font-size="18" fill="#111">von innen heranziehen</text>
+
+<!-- Rechtes Panel: Huette mit verschlossenem Eingang -->
+<polygon points="665,170 825,420 505,420" fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="665,330 695,420 635,420" fill="#8ba668" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="748" y1="300" x2="685" y2="365" stroke="#5b7f96" stroke-width="1.5"/>
+<text x="754" y="298" text-anchor="start" font-size="16" fill="#111">derselbe</text>
+<text x="754" y="317" text-anchor="start" font-size="16" fill="#111">Haufen</text>
+
+<!-- Trennlinie zur Alternative -->
+<line x1="120" y1="452" x2="780" y2="452" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="5,5"/>
+
+<!-- Alternative: gebundene Tuer -->
+<line x1="385" y1="470" x2="385" y2="560" stroke="#7a5a3e" stroke-width="7" stroke-linecap="round"/>
+<line x1="398" y1="470" x2="398" y2="560" stroke="#7a5a3e" stroke-width="7" stroke-linecap="round"/>
+<line x1="411" y1="470" x2="411" y2="560" stroke="#7a5a3e" stroke-width="7" stroke-linecap="round"/>
+<line x1="424" y1="470" x2="424" y2="560" stroke="#7a5a3e" stroke-width="7" stroke-linecap="round"/>
+<line x1="437" y1="470" x2="437" y2="560" stroke="#7a5a3e" stroke-width="7" stroke-linecap="round"/>
+<line x1="450" y1="470" x2="450" y2="560" stroke="#7a5a3e" stroke-width="7" stroke-linecap="round"/>
+<line x1="378" y1="488" x2="457" y2="488" stroke="#111" stroke-width="4"/>
+<line x1="378" y1="542" x2="457" y2="542" stroke="#111" stroke-width="4"/>
+<text x="478" y="521" text-anchor="start" font-size="19" fill="#111">oder: Tür bauen</text>
+
+</svg>

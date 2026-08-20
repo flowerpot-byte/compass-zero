@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp "Die Regel der zwei Waende".
+       Die Regel ist in einem Satz gesagt und im Grundriss sofort zu sehen:
+       Welcher Raum hat ZWEI Waende zwischen sich und draussen? Das Bild zeigt
+       einen Wohnungsgrundriss mit einem gruenen und mehreren schlechten
+       Plaetzen — und macht damit auch klar, dass es nicht um den groessten
+       oder gemuetlichsten Raum geht, sondern um den am weitesten innen. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="28" fill="#111">Zwei Wände zwischen dir und draußen</text>
+
+  <!-- Aussenmauer -->
+  <rect x="80" y="110" width="620" height="380" fill="#e6e2d6" stroke="#111" stroke-width="9"/>
+
+  <!-- Innenwaende -->
+  <line x1="300" y1="110" x2="300" y2="330" stroke="#111" stroke-width="6"/>
+  <line x1="300" y1="330" x2="700" y2="330" stroke="#111" stroke-width="6"/>
+  <line x1="500" y1="110" x2="500" y2="330" stroke="#111" stroke-width="6"/>
+  <line x1="300" y1="220" x2="500" y2="220" stroke="#111" stroke-width="6"/>
+  <line x1="480" y1="330" x2="480" y2="490" stroke="#111" stroke-width="6"/>
+
+  <!-- Fenster als Luecken in der Aussenwand -->
+  <g stroke="#c9d9e2" stroke-width="9">
+    <line x1="140" y1="110" x2="230" y2="110"/>
+    <line x1="560" y1="110" x2="650" y2="110"/>
+    <line x1="80" y1="200" x2="80" y2="290"/>
+    <line x1="700" y1="200" x2="700" y2="290"/>
+    <line x1="160" y1="490" x2="250" y2="490"/>
+    <line x1="560" y1="490" x2="650" y2="490"/>
+  </g>
+
+  <!-- guter Platz: innenliegender Raum ohne Fenster -->
+  <rect x="306" y="226" width="188" height="98" fill="#c9c4b4"/>
+  <text x="330" y="270" font-family="Georgia, serif" font-size="21" fill="#111">Bad oder Flur</text>
+  <text x="330" y="296" font-family="Georgia, serif" font-size="21" fill="#111">ohne Fenster</text>
+  <circle cx="400" cy="196" r="0" fill="none"/>
+
+  <!-- Haken beim guten Platz -->
+  <g stroke="#111" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M 440 244 l 14 16 l 28 -38"/>
+  </g>
+
+  <!-- Kreuze bei den schlechten Plaetzen -->
+  <g stroke="#d65a1a" stroke-width="7" stroke-linecap="round">
+    <line x1="150" y1="218" x2="200" y2="268"/><line x1="200" y1="218" x2="150" y2="268"/>
+    <line x1="580" y1="218" x2="630" y2="268"/><line x1="630" y1="218" x2="580" y2="268"/>
+    <line x1="180" y1="400" x2="230" y2="450"/><line x1="230" y1="400" x2="180" y2="450"/>
+  </g>
+
+  <!-- Beschriftungen -->
+  <g font-family="Georgia, serif" font-size="20" fill="#111">
+    <text x="112" y="164">Zimmer mit</text>
+    <text x="112" y="188">Fenster</text>
+    <text x="530" y="164">Zimmer mit</text>
+    <text x="530" y="188">Fenster</text>
+    <text x="126" y="386">Zimmer mit Fenster</text>
+  </g>
+
+  <!-- Pfeil: zwei Waende -->
+  <g stroke="#d65a1a" stroke-width="4" fill="none">
+    <line x1="726" y1="300" x2="516" y2="300"/>
+    <path d="M 516 300 l 18 -9 M 516 300 l 18 9"/>
+  </g>
+  <text x="734" y="258" font-family="Georgia, serif" font-size="20" fill="#d65a1a">von draußen</text>
+  <text x="734" y="282" font-family="Georgia, serif" font-size="20" fill="#d65a1a">nach innen:</text>
+  <text x="734" y="306" font-family="Georgia, serif" font-size="20" fill="#d65a1a">zwei Wände</text>
+
+  <text x="40" y="536" font-family="Georgia, serif" font-size="21" fill="#111">Fensterloser Keller ist am besten. Sonst: innenliegender Raum, wenige Außenwände,</text>
+  <text x="40" y="562" font-family="Georgia, serif" font-size="21" fill="#111">keine Fenster. Dachgeschoss meiden. Aufzüge nicht mehr benutzen.</text>
+  <text x="40" y="592" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Bei Hochwasser gilt das Gegenteil — dort nach oben.</text>
+</svg>

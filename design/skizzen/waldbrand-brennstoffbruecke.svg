@@ -1,0 +1,95 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif" fill="#111">
+<!-- Tipp: taktisch-waldbrand-schutzstreifen | Titel: Waldbrand: den Brennstoff vom Haus wegnehmen
+     Gezeigter Satz: Ein Feuer springt nicht aufs Haus ueber, weil das Haus brennbar ist,
+     sondern weil eine ununterbrochene Brennstoffbruecke vom Waldboden bis zum Dach fuehrt.
+     Im unbehandelten Wald links ist die Bruecke aus Bodenbewuchs, Straeuchern und tiefen
+     Aesten durchgehend gezeichnet. Im Schutzstreifen rechts davon ist genau diese Bruecke
+     an einer Stelle sichtbar unterbrochen: der Stamm ist bis 4 Meter Hoehe astfrei, der
+     Boden ist frei von Reisig, und zwischen Astfreiheit und Krone bleibt eine Luecke. Die
+     Zahl 20 bis 30 Meter benennt die Breite dieses Streifens. Einzige Signalfarbe: der
+     Holzstapel direkt an der Hauswand, ausdruecklich als Fehler markiert. -->
+
+<rect x="0" y="0" width="900" height="600" fill="#faf9f6"/>
+
+<text x="450" y="38" text-anchor="middle" font-size="26" font-weight="bold" fill="#111">Waldbrand: den Brennstoff vom Haus wegnehmen</text>
+<text x="450" y="64" text-anchor="middle" font-size="18" fill="#111">Ein Feuer springt nicht aufs Haus über, weil es brennbar ist –</text>
+<text x="450" y="86" text-anchor="middle" font-size="18" fill="#111">sondern weil eine ununterbrochene Brennstoffbrücke vom Waldboden bis zum Dach führt.</text>
+
+<!-- Boden -->
+<rect x="40" y="460" width="830" height="110" fill="#e8ddc7"/>
+<line x1="40" y1="460" x2="870" y2="460" stroke="#7a5a3e" stroke-width="3"/>
+
+<!-- Unbehandelter Wald links: Bruecke durchgehend -->
+<line x1="125" y1="460" x2="125" y2="330" stroke="#7a5a3e" stroke-width="7"/>
+<line x1="125" y1="420" x2="98" y2="435" stroke="#7a5a3e" stroke-width="4"/>
+<line x1="125" y1="420" x2="152" y2="435" stroke="#7a5a3e" stroke-width="4"/>
+<line x1="125" y1="395" x2="96" y2="406" stroke="#7a5a3e" stroke-width="4"/>
+<line x1="125" y1="395" x2="154" y2="406" stroke="#7a5a3e" stroke-width="4"/>
+<line x1="125" y1="368" x2="100" y2="378" stroke="#7a5a3e" stroke-width="4"/>
+<line x1="125" y1="368" x2="150" y2="378" stroke="#7a5a3e" stroke-width="4"/>
+<ellipse cx="100" cy="453" rx="18" ry="10" fill="#8ba668"/>
+<ellipse cx="150" cy="453" rx="18" ry="10" fill="#8ba668"/>
+<ellipse cx="125" cy="457" rx="24" ry="9" fill="#8ba668"/>
+<ellipse cx="125" cy="290" rx="55" ry="48" fill="#8ba668"/>
+
+<line x1="155" y1="458" x2="155" y2="232" stroke="#111" stroke-width="3"/>
+<polygon points="155,224 149,236 161,236" fill="#111"/>
+<text x="60" y="220" font-size="14" fill="#111">Brücke: ununterbrochen</text>
+<text x="125" y="500" text-anchor="middle" font-size="16" fill="#111">Wald, unverändert</text>
+
+<!-- Schutzstreifen: Massband -->
+<line x1="250" y1="130" x2="610" y2="130" stroke="#111" stroke-width="2"/>
+<line x1="250" y1="122" x2="250" y2="138" stroke="#111" stroke-width="2"/>
+<line x1="610" y1="122" x2="610" y2="138" stroke="#111" stroke-width="2"/>
+<polygon points="250,130 262,125 262,135" fill="#111"/>
+<polygon points="610,130 598,125 598,135" fill="#111"/>
+<text x="430" y="115" text-anchor="middle" font-size="18" fill="#111">Schutzstreifen: 20 bis 30 Meter</text>
+
+<!-- Baum 1 im Schutzstreifen: astfrei bis 4 Meter, Bruecke unterbrochen -->
+<line x1="390" y1="380" x2="390" y2="310" stroke="#7a5a3e" stroke-width="5"/>
+<line x1="390" y1="460" x2="390" y2="380" stroke="#7a5a3e" stroke-width="7"/>
+<ellipse cx="390" cy="308" rx="50" ry="45" fill="#8ba668"/>
+<line x1="360" y1="380" x2="420" y2="380" stroke="#111" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+<line x1="345" y1="460" x2="345" y2="380" stroke="#111" stroke-width="1.5"/>
+<line x1="338" y1="460" x2="352" y2="460" stroke="#111" stroke-width="1.5"/>
+<line x1="338" y1="380" x2="352" y2="380" stroke="#111" stroke-width="1.5"/>
+<text x="335" y="425" text-anchor="end" font-size="16" fill="#111">4 Meter</text>
+
+<line x1="460" y1="458" x2="460" y2="380" stroke="#111" stroke-width="4"/>
+<line x1="450" y1="380" x2="470" y2="380" stroke="#111" stroke-width="3"/>
+<line x1="450" y1="320" x2="470" y2="320" stroke="#111" stroke-width="3"/>
+<line x1="460" y1="320" x2="460" y2="270" stroke="#111" stroke-width="4"/>
+<polygon points="460,262 454,274 466,274" fill="#111"/>
+<text x="480" y="332" font-size="14" fill="#111">Lücke: Leiter fehlt</text>
+<text x="480" y="352" font-size="14" fill="#111">(Fehlstelle sichtbar)</text>
+
+<line x1="390" y1="206" x2="390" y2="262" stroke="#111" stroke-width="1" stroke-dasharray="2,2"/>
+<text x="390" y="198" text-anchor="middle" font-size="14" fill="#111">Kronenraum</text>
+
+<!-- Sparsamer, freigeraeumter Boden im Streifen -->
+<line x1="320" y1="454" x2="332" y2="446" stroke="#d9c98a" stroke-width="3"/>
+<line x1="345" y1="456" x2="357" y2="448" stroke="#d9c98a" stroke-width="3"/>
+<line x1="440" y1="454" x2="452" y2="446" stroke="#d9c98a" stroke-width="3"/>
+<line x1="465" y1="456" x2="477" y2="448" stroke="#d9c98a" stroke-width="3"/>
+
+<line x1="510" y1="454" x2="522" y2="446" stroke="#d9c98a" stroke-width="3"/>
+<line x1="535" y1="456" x2="547" y2="448" stroke="#d9c98a" stroke-width="3"/>
+<line x1="565" y1="454" x2="577" y2="446" stroke="#d9c98a" stroke-width="3"/>
+
+<text x="425" y="500" text-anchor="middle" font-size="16" fill="#111">Boden frei von Reisig und Laub</text>
+
+<!-- Haus -->
+<polygon points="665,345 865,345 765,255" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+<rect x="680" y="345" width="170" height="115" fill="#e8ddc7" stroke="#111" stroke-width="2"/>
+<rect x="700" y="372" width="26" height="26" fill="#c9c4b4" stroke="#111" stroke-width="1"/>
+<rect x="752" y="405" width="30" height="55" fill="#c9c4b4" stroke="#111" stroke-width="1"/>
+
+<!-- Fehler in Signalfarbe: Holzstapel an der Hauswand -->
+<ellipse cx="697" cy="441" rx="16" ry="8" fill="#7a5a3e" stroke="#111" stroke-width="1"/>
+<ellipse cx="697" cy="426" rx="16" ry="8" fill="#7a5a3e" stroke="#111" stroke-width="1"/>
+<ellipse cx="697" cy="411" rx="16" ry="8" fill="#7a5a3e" stroke="#111" stroke-width="1"/>
+<line x1="676" y1="452" x2="718" y2="400" stroke="#d65a1a" stroke-width="5"/>
+<text x="765" y="500" text-anchor="middle" font-size="17" fill="#d65a1a">NICHT an die Hauswand!</text>
+
+</svg>

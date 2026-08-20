@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1446" viewBox="0 0 900 1446">
+  <!-- Zum Tipp "Durst ist kein guter Ratgeber".
+       "Nur zwei Drittel" ist eine Zahl, die man liest und sofort wieder
+       vergisst, weil sie nach wenig klingt. Als Balken daneben sieht man das
+       fehlende Drittel, und das ist der ganze Punkt: Es fehlt jede Stunde,
+       jeden Tag, ohne dass es jemand merkt.
+       Massstab: 450 Bildpunkte fuer den Bedarf, 300 fuer das nach Durst
+       Getrunkene — genau zwei Drittel.
+       Der zweite Irrtum steht in einem eigenen Kasten, weil er dem
+       Bauchgefuehl noch staerker widerspricht als der erste: Wer wenig hat,
+       will einteilen. Der Satz darunter erklaert, warum das nicht aufgeht —
+       ein Mensch, der zu wenig getrunken hat, verbraucht MEHR Wasser fuer
+       dieselbe Arbeit.
+       Kein Bild fuer den Plan (halber/ganzer Liter): Zwei Zahlen mit einer
+       Temperaturschwelle sind als Satz kuerzer und genauer als jede
+       Zeichnung. -->
+  <rect width="900" height="1446" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Durst ist kein guter Ratgeber</text>
+
+  <text x="40" y="98" font-family="Georgia, serif" font-size="23" fill="#111">Es gibt zwei Irrtümer beim Trinken, und beide fühlen sich</text>
+  <text x="40" y="126" font-family="Georgia, serif" font-size="23" fill="#111">vernünftig an. Beide stimmen nicht.</text>
+
+  <line x1="40" y1="162" x2="860" y2="162" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="206" font-family="Georgia, serif" font-size="26" fill="#a3231a">Erster Irrtum: auf den Durst hören.</text>
+  <text x="40" y="242" font-family="Georgia, serif" font-size="21" fill="#111">Durst ist kein zuverlässiger Anzeiger für den Bedarf.</text>
+
+  <text x="40" y="306" font-family="Georgia, serif" font-size="19" fill="#111">was der Körper braucht</text>
+  <rect x="340" y="282" width="450" height="40" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+
+  <text x="40" y="372" font-family="Georgia, serif" font-size="19" fill="#111">was man nach Durst trinkt</text>
+  <rect x="340" y="348" width="300" height="40" fill="#d65a1a" stroke="#111" stroke-width="3"/>
+  <text x="656" y="376" font-family="Georgia, serif" font-size="21" fill="#d65a1a">nur zwei Drittel</text>
+
+  <text x="40" y="428" font-family="Georgia, serif" font-size="21" fill="#111">Dafür gibt es einen Namen: „freiwillige Austrocknung“. Man merkt nicht, dass</text>
+  <text x="40" y="454" font-family="Georgia, serif" font-size="21" fill="#111">man zu wenig trinkt — man merkt nur, dass man müde wird.</text>
+
+  <line x1="40" y1="490" x2="860" y2="490" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="530" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Abhilfe ist ein Plan statt eines Gefühls</text>
+  <text x="40" y="572" font-family="Georgia, serif" font-size="26" fill="#111">unter 38 Grad: ein HALBER LITER je Stunde</text>
+  <text x="40" y="608" font-family="Georgia, serif" font-size="26" fill="#111">über 38 Grad: ein GANZER LITER je Stunde</text>
+  <text x="40" y="646" font-family="Georgia, serif" font-size="21" fill="#111">Nicht auf einmal, sondern über die Stunde verteilt.</text>
+  <text x="40" y="684" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Regelmäßiges Trinken hält den Körper kühler und verringert das Schwitzen —</text>
+  <text x="40" y="710" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">es spart also Wasser, statt welches zu kosten.</text>
+
+  <line x1="40" y1="746" x2="860" y2="746" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="772" width="820" height="132" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="810" font-family="Georgia, serif" font-size="26" fill="#a3231a">Zweiter Irrtum: das Wasser einteilen.</text>
+  <text x="62" y="846" font-family="Georgia, serif" font-size="26" fill="#a3231a">Rationiere dein Wasser nicht.</text>
+  <text x="62" y="882" font-family="Georgia, serif" font-size="21" fill="#111">Wer es versucht, wird mit guter Wahrscheinlichkeit selbst zum Hitzeopfer.</text>
+
+  <text x="40" y="946" font-family="Georgia, serif" font-size="21" fill="#111">Das klingt widersinnig, wenn wenig da ist, und ist es nicht: Ein Mensch, der zu</text>
+  <text x="40" y="972" font-family="Georgia, serif" font-size="21" fill="#111">wenig getrunken hat, arbeitet schlechter, denkt schlechter und braucht länger</text>
+  <text x="40" y="998" font-family="Georgia, serif" font-size="21" fill="#111">für dieselbe Strecke — er verbraucht also MEHR Wasser für dasselbe Ergebnis.</text>
+
+  <text x="40" y="1040" font-family="Georgia, serif" font-size="23" fill="#a3231a">Das Wasser im Kanister nützt niemandem, wenn der Mensch</text>
+  <text x="40" y="1068" font-family="Georgia, serif" font-size="23" fill="#a3231a">daneben zusammenbricht.</text>
+
+  <line x1="40" y1="1104" x2="860" y2="1104" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1146" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Eingeteilt wird die Arbeit, nicht das Wasser.</text>
+  <text x="40" y="1184" font-family="Georgia, serif" font-size="21" fill="#111">Flüssigkeit spart man, indem man die Tätigkeit in der Tageshitze verringert.</text>
+  <text x="40" y="1220" font-family="Georgia, serif" font-size="21" fill="#111">Und selbst wenn der Vorrat knapp ist, hilft STÄNDIGES SCHLÜCKCHENWEISES</text>
+  <text x="40" y="1246" font-family="Georgia, serif" font-size="21" fill="#111">TRINKEN — es hält den Körper kühler und verringert den Verlust über den</text>
+  <text x="40" y="1272" font-family="Georgia, serif" font-size="21" fill="#111">Schweiß.</text>
+
+  <line x1="40" y1="1308" x2="860" y2="1308" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1348" font-family="Georgia, serif" font-size="21" fill="#111">Nach oben gibt es eine Grenze — zu viel auf einmal zu trinken kann töten. Die</text>
+  <text x="40" y="1374" font-family="Georgia, serif" font-size="21" fill="#111">beiden widersprechen sich nicht: Ein Liter je Stunde liegt darunter.</text>
+  <text x="40" y="1410" font-family="Georgia, serif" font-size="21" fill="#111">Für die Vorratsplanung zu Hause gilt eine andere Zahl als für den Marsch in</text>
+  <text x="40" y="1436" font-family="Georgia, serif" font-size="21" fill="#111">der Hitze.</text>
+</svg>

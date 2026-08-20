@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+  <!-- Zum Tipp "Vergiftung ueber die Atemwege".
+       Der Tipp ist kurz, aber sein Kern ist eine Liste, die man sich merken
+       muss, BEVOR man losrennt: drei Arten von Raeumen, die man nicht selbst
+       betritt. Als Zeile mit drei durchgestrichenen Bildern steht sie vor dem
+       Rest — genau in der Reihenfolge, in der man sie braucht.
+       Der dritte Fall ist der heimtueckische und deshalb rot: Kohlenmonoxid
+       sieht und riecht man nicht. Ein Raum ohne sichtbaren Rauch ist kein
+       sicherer Raum. -->
+  <rect width="900" height="760" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Eingeatmetes Gift: zuerst die eigene Sicherheit</text>
+
+  <!-- ============ A: die Reihenfolge ============ -->
+  <g fill="#1d6b3a">
+    <circle cx="60" cy="100" r="17"/>
+    <circle cx="60" cy="156" r="17"/>
+    <circle cx="60" cy="212" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="107">1</text><text x="60" y="163">2</text><text x="60" y="219">3</text>
+  </g>
+  <text x="88" y="107" font-family="Georgia, serif" font-size="23" fill="#111">Eigene Sicherheit zuerst.</text>
+  <text x="88" y="163" font-family="Georgia, serif" font-size="23" fill="#111">Die Person so schnell wie möglich aus dem Gefahrenbereich bringen.</text>
+  <text x="88" y="219" font-family="Georgia, serif" font-size="23" fill="#111">Dann wie bei jeder Vergiftung: Lebenszeichen prüfen, Notruf 112,</text>
+  <text x="88" y="247" font-family="Georgia, serif" font-size="23" fill="#111">Giftreste sicherstellen.</text>
+
+  <line x1="40" y1="284" x2="860" y2="284" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die drei Raeume ============ -->
+  <text x="40" y="326" font-family="Georgia, serif" font-size="23" fill="#a3231a">Diese Räume betrittst du NICHT selbst</text>
+
+  <!-- 1: verraucht -->
+  <rect x="70" y="366" width="150" height="118" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="5" fill="none">
+    <path d="M 96 448 q 26 -22 52 0 q 26 22 52 0"/>
+    <path d="M 96 418 q 26 -22 52 0 q 26 22 52 0"/>
+    <path d="M 96 388 q 26 -22 52 0 q 26 22 52 0"/>
+  </g>
+  <g stroke="#a3231a" stroke-width="6" fill="none">
+    <circle cx="212" cy="374" r="30"/>
+    <line x1="191" y1="353" x2="233" y2="395"/>
+  </g>
+  <text x="70" y="518" font-family="Georgia, serif" font-size="21" fill="#111">verrauchte Räume</text>
+
+  <!-- 2: tiefliegend, geschlossen -->
+  <path d="M 330 366 L 470 366 L 470 484 L 330 484 Z" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <line x1="330" y1="392" x2="470" y2="392" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="5">
+    <line x1="386" y1="392" x2="386" y2="478"/>
+    <line x1="414" y1="392" x2="414" y2="478"/>
+    <line x1="386" y1="412" x2="414" y2="412"/>
+    <line x1="386" y1="436" x2="414" y2="436"/>
+    <line x1="386" y1="460" x2="414" y2="460"/>
+  </g>
+  <g stroke="#a3231a" stroke-width="6" fill="none">
+    <circle cx="462" cy="374" r="30"/>
+    <line x1="441" y1="353" x2="483" y2="395"/>
+  </g>
+  <text x="304" y="518" font-family="Georgia, serif" font-size="21" fill="#111">Gärkeller, Futtersilo,</text>
+  <text x="304" y="544" font-family="Georgia, serif" font-size="21" fill="#111">Brunnenschacht, Höhle,</text>
+  <text x="304" y="570" font-family="Georgia, serif" font-size="21" fill="#111">Stollen</text>
+
+  <!-- 3: Kohlenmonoxid -->
+  <rect x="590" y="366" width="150" height="118" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <text x="665" y="442" font-family="Georgia, serif" font-size="46" fill="#a3231a" text-anchor="middle">CO</text>
+  <g stroke="#a3231a" stroke-width="6" fill="none">
+    <circle cx="732" cy="374" r="30"/>
+    <line x1="711" y1="353" x2="753" y2="395"/>
+  </g>
+  <text x="590" y="518" font-family="Georgia, serif" font-size="21" fill="#a3231a">Räume, in denen Kohlen-</text>
+  <text x="590" y="544" font-family="Georgia, serif" font-size="21" fill="#a3231a">monoxid entstanden sein</text>
+  <text x="590" y="570" font-family="Georgia, serif" font-size="21" fill="#a3231a">kann — man sieht und</text>
+  <text x="590" y="596" font-family="Georgia, serif" font-size="21" fill="#a3231a">riecht es nicht.</text>
+
+  <line x1="40" y1="626" x2="860" y2="626" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="662" font-family="Georgia, serif" font-size="21" fill="#111">Reagiert die Person nicht und atmet sie ausreichend: stabile Seitenlage. Atmet sie</text>
+  <text x="40" y="688" font-family="Georgia, serif" font-size="21" fill="#111">nicht oder nicht normal — dazu zählt seltene, langsame Schnappatmung —, beginnt</text>
+  <text x="40" y="714" font-family="Georgia, serif" font-size="21" fill="#111">sofort die Herzdruckmassage.</text>
+  <text x="40" y="748" font-family="Georgia, serif" font-size="21" fill="#a3231a">Ein Raum ohne sichtbaren Rauch ist kein sicherer Raum.</text>
+</svg>

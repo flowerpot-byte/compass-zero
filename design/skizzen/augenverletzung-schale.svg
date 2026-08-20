@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Tipp medizin-augenverletzung, "Augenverletzung: abschirmen, nicht
+       draufdruecken".
+       Gezeigter Satz: "das verletzte Auge mit einer harten Schale abdecken...
+       irgendetwas Festes, das aufliegt, ohne auf den Augapfel zu druecken.
+       KEIN Druckverband."
+       Das Bild zeigt im Querschnitt, WARUM das geht: Brauenknochen und
+       Wangenknochen stehen weiter vor als der Augapfel selbst, der in der
+       Augenhoehle zurueckliegt. Eine harte Schale kann deshalb auf den beiden
+       Knochen aufliegen, ohne den Augapfel je zu beruehren, links im
+       Querschnitt zu sehen als Luecke zwischen Schale und Augapfel. Rechts
+       der Gegenfall: ein Polster, das direkt auf dem Augapfel liegt und
+       durch einen Verband dort festgehalten wird, genau das verbietet der
+       Text. Keine Zahl im Tipp-Text, deshalb keine Zahl im Bild. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+  <text x="40" y="45" font-family="Georgia, serif" font-size="26" fill="#111">Augenverletzung: abschirmen, nicht draufdrücken</text>
+
+  <line x1="450" y1="75" x2="450" y2="505" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- ============ LINKS: harte Schale, richtig ============ -->
+  <g transform="translate(40,85)">
+    <text x="0" y="20" font-family="Georgia, serif" font-size="19" fill="#111">so richtig</text>
+
+    <!-- Knochenkontur im Querschnitt: Stirn - Brauenknochen - Augenhoehle - Wangenknochen - Kiefer -->
+    <path d="M 60 60 Q 110 70 150 110 Q 55 135 100 160 Q 95 200 160 270 Q 150 330 120 360"
+          fill="none" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Augapfel, zurueckliegend in der Augenhoehle -->
+    <circle cx="106" cy="148" r="26" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+    <path d="M 82 142 Q 106 130 132 144" fill="none" stroke="#111" stroke-width="2"/>
+
+    <!-- harte Schale: Aussenwoelbung und Innenflaeche mit Luecke zum Augapfel -->
+    <path d="M 150 110 Q 260 190 160 270 Q 190 190 150 110 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+    <!-- Aufliegepunkte auf dem Knochen -->
+    <line x1="142" y1="100" x2="158" y2="120" stroke="#111" stroke-width="3"/>
+    <line x1="152" y1="262" x2="168" y2="278" stroke="#111" stroke-width="3"/>
+
+    <!-- Beschriftungen -->
+    <line x1="60" y1="200" x2="98" y2="172" stroke="#5b7f96" stroke-width="1.5"/>
+    <text x="20" y="216" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Augapfel</text>
+
+    <line x1="230" y1="70" x2="152" y2="108" stroke="#5b7f96" stroke-width="1.5"/>
+    <line x1="230" y1="70" x2="240" y2="70" stroke="#5b7f96" stroke-width="1.5"/>
+    <text x="190" y="60" font-family="Georgia, serif" font-size="18" fill="#111">liegt auf dem Knochen</text>
+
+    <line x1="230" y1="230" x2="175" y2="190" stroke="#5b7f96" stroke-width="1.5"/>
+    <text x="230" y="245" font-family="Georgia, serif" font-size="18" fill="#111">berührt das Auge nicht</text>
+
+    <text x="0" y="410" font-family="Georgia, serif" font-size="16" fill="#111">Harte Schale: Becher, Kanisterboden, Augenkappe.</text>
+  </g>
+
+  <!-- ============ RECHTS: Druckverband, falsch ============ -->
+  <g transform="translate(480,85)">
+    <text x="0" y="20" font-family="Georgia, serif" font-size="19" fill="#d65a1a">so nicht</text>
+
+    <!-- gleiche Knochenkontur zum Vergleich -->
+    <path d="M 60 60 Q 110 70 150 110 Q 55 135 100 160 Q 95 200 160 270 Q 150 330 120 360"
+          fill="none" stroke="#111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Augapfel, wie links -->
+    <circle cx="106" cy="148" r="26" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+    <path d="M 82 142 Q 106 130 132 144" fill="none" stroke="#111" stroke-width="2"/>
+
+    <!-- Das Polster war ein voller Kasten UEBER der Anatomie: Es verdeckte
+         Augapfel und Knochen und damit genau das, was der Vergleich zeigen
+         soll. Jetzt greift seine Innenseite sichtbar IN die Augenhoehle und
+         drueckt auf den Augapfel, waehrend links die Schale auf den Knochen
+         aufliegt und die Luecke bleibt. -->
+    <path d="M 150 110 Q 108 130 116 150 Q 124 200 160 270 Q 250 190 150 110 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+    <!-- Bindenzuegel, die das Polster festhalten -->
+    <path d="M 158 116 L 236 88" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 168 262 L 244 292" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Druck auf den Augapfel, mit Verbotsstrich: die einzige Signalstelle -->
+    <path d="M 262 172 L 206 172" fill="none" stroke="#d65a1a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 206 172 L 222 162 M 206 172 L 222 182" fill="none" stroke="#d65a1a" stroke-width="6" stroke-linecap="round"/>
+    <line x1="252" y1="146" x2="214" y2="198" stroke="#d65a1a" stroke-width="6" stroke-linecap="round"/>
+
+    <line x1="132" y1="176" x2="74" y2="272" stroke="#5b7f96" stroke-width="1.5"/>
+    <text x="8" y="292" font-family="Georgia, serif" font-size="16" fill="#5b7f96">drückt auf</text>
+    <text x="8" y="312" font-family="Georgia, serif" font-size="16" fill="#5b7f96">den Augapfel</text>
+
+    <text x="278" y="150" font-family="Georgia, serif" font-size="18" fill="#d65a1a">KEIN</text>
+    <text x="278" y="172" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Druckverband</text>
+
+    <text x="0" y="410" font-family="Georgia, serif" font-size="16" fill="#111">Polster liegt auf dem Augapfel, nicht auf dem Knochen.</text>
+  </g>
+
+  <text x="40" y="545" font-family="Georgia, serif" font-size="18" fill="#111">Das verletzte Auge wird mit einer harten Schale abgedeckt, die auf dem Knochen aufliegt, ohne den</text>
+  <text x="40" y="570" font-family="Georgia, serif" font-size="18" fill="#111">Augapfel zu berühren. Kein Druckverband.</text>
+</svg>

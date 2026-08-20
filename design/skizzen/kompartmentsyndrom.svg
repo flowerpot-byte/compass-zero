@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1706" viewBox="0 0 900 1706">
+  <!-- Zum Tipp "Muskelkammer unter Druck: der Schmerz passt nicht zur
+       Verletzung".
+       Das eine Merkmal steht ganz oben und in der groessten Schrift, weil
+       es die ganze Erkennung traegt: Der Schmerz ist staerker, als es zur
+       sichtbaren Verletzung passt. Alles andere im Tipp haengt daran.
+       Die sieben Zeichen sind farblich in drei Gruppen geteilt — gruen die
+       drei fruehen, schwarz die zwei mittleren, rot die zwei
+       unheilverkuendenden. Die Quelle sagt selbst, dass die letzten beiden
+       zu spaet sind; als gleichfoermige Liste sieht man das nicht.
+       Zwei Umkehrungen bekommen eigene Kaesten, weil beide dem widersprechen,
+       was man sonst tut: erkennen am SCHMERZ statt am fehlenden Puls, und
+       lagern auf HERZHOEHE statt hoch. Bei Verletzungen lagert man sonst
+       hoch — hier verringert das den Blutzufluss zusaetzlich.
+       Kein Querschnitt der Muskelkammer gezeichnet. Er saehe gut aus und
+       aendert nichts: Was zu tun ist, haengt an den Zeichen und am Lockern,
+       nicht an der Anatomie. -->
+  <rect width="900" height="1706" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Muskelkammer unter Druck</text>
+
+  <text x="40" y="100" font-family="Georgia, serif" font-size="26" fill="#a3231a">Der Schmerz ist viel stärker, als es zur sichtbaren</text>
+  <text x="40" y="132" font-family="Georgia, serif" font-size="26" fill="#a3231a">Verletzung passt.</text>
+  <text x="40" y="168" font-family="Georgia, serif" font-size="21" fill="#111">Das ist das eine Merkmal, an dem man es früh erkennt.</text>
+
+  <line x1="40" y1="204" x2="860" y2="204" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="244" font-family="Georgia, serif" font-size="21" fill="#111">Die Muskeln eines Arms oder Beins liegen in festen Hüllen, die kaum</text>
+  <text x="40" y="270" font-family="Georgia, serif" font-size="21" fill="#111">nachgeben. Schwillt der Muskel darin an — nach einem Bruch, einer</text>
+  <text x="40" y="296" font-family="Georgia, serif" font-size="21" fill="#111">Quetschung, einer Stromverletzung, einer Verbrennung oder unter einem zu</text>
+  <text x="40" y="322" font-family="Georgia, serif" font-size="21" fill="#111">engen Verband —, steigt der Druck so weit, dass Nerven und Blutgefäße</text>
+  <text x="40" y="348" font-family="Georgia, serif" font-size="21" fill="#111">zusammengedrückt werden. Das gefährdet das Überleben der Gliedmaße.</text>
+
+  <line x1="40" y1="384" x2="860" y2="384" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="424" font-family="Georgia, serif" font-size="23" fill="#111">Sieben Zeichen, alle mit bloßen Händen prüfbar</text>
+
+  <g fill="#1d6b3a">
+    <circle cx="60" cy="458" r="17"/><circle cx="60" cy="505" r="17"/><circle cx="60" cy="590" r="17"/>
+  </g>
+  <g fill="#111">
+    <circle cx="60" cy="637" r="17"/><circle cx="60" cy="677" r="17"/>
+  </g>
+  <g fill="#a3231a">
+    <circle cx="60" cy="724" r="17"/><circle cx="60" cy="764" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="465">1</text><text x="60" y="512">2</text><text x="60" y="597">3</text>
+    <text x="60" y="644">4</text><text x="60" y="684">5</text>
+    <text x="60" y="731">6</text><text x="60" y="771">7</text>
+  </g>
+
+  <text x="88" y="465" font-family="Georgia, serif" font-size="21" fill="#111">Schmerz, der nicht zur sichtbaren Verletzung passt.</text>
+  <text x="88" y="512" font-family="Georgia, serif" font-size="21" fill="#111">Der Schmerz wird SCHLIMMER, wenn man die betroffenen Muskeln</text>
+  <text x="88" y="538" font-family="Georgia, serif" font-size="21" fill="#111">vorsichtig DEHNT — etwa den Fuß langsam nach oben zieht, wenn es die</text>
+  <text x="88" y="564" font-family="Georgia, serif" font-size="21" fill="#111">Wade betrifft. Die aussagekräftigste Prüfung, die ein Laie machen kann.</text>
+  <text x="88" y="597" font-family="Georgia, serif" font-size="21" fill="#111">Die Stelle fühlt sich prall und hart an, wenn man daraufdrückt.</text>
+  <text x="88" y="644" font-family="Georgia, serif" font-size="21" fill="#111">Die Muskeln werden schwach oder lassen sich gar nicht mehr bewegen.</text>
+  <text x="88" y="684" font-family="Georgia, serif" font-size="21" fill="#111">Kribbeln, Taubheit oder Ameisenlaufen in dem Bereich.</text>
+  <text x="88" y="731" font-family="Georgia, serif" font-size="21" fill="#a3231a">Die Haut wird blass.</text>
+  <text x="88" y="771" font-family="Georgia, serif" font-size="21" fill="#a3231a">Der Puls unterhalb der Stelle ist nicht mehr zu tasten.</text>
+
+  <text x="40" y="818" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Die ersten drei kommen FRÜH — an ihnen erkennt man es rechtzeitig.</text>
+  <text x="40" y="844" font-family="Georgia, serif" font-size="21" fill="#a3231a">Die letzten beiden sind unheilverkündend. Wer bis dahin wartet, wartet zu lange.</text>
+
+  <line x1="40" y1="880" x2="860" y2="880" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="906" width="820" height="96" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="944" font-family="Georgia, serif" font-size="26" fill="#a3231a">Man erkennt es am SCHMERZ, nicht am fehlenden Puls.</text>
+  <text x="62" y="980" font-family="Georgia, serif" font-size="21" fill="#111">Wer auf den Puls wartet, verliert die Gliedmaße.</text>
+
+  <line x1="40" y1="1038" x2="860" y2="1038" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1078" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was jeder tun kann — und was manchmal genügt</text>
+  <text x="40" y="1122" font-family="Georgia, serif" font-size="26" fill="#111">Alles lockern, was drückt.</text>
+  <text x="40" y="1158" font-family="Georgia, serif" font-size="21" fill="#111">Verband, Schiene, Kleidung, Schuh, Ring, Uhr — alles. Ein zu fester Verband</text>
+  <text x="40" y="1184" font-family="Georgia, serif" font-size="21" fill="#111">ist eine der Ursachen, und ihn zu lösen ist die einzige Maßnahme, die den</text>
+  <text x="40" y="1210" font-family="Georgia, serif" font-size="21" fill="#111">Druck wirklich senkt.</text>
+
+  <rect x="40" y="1243" width="820" height="93" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="1283" font-family="Georgia, serif" font-size="23" fill="#a3231a">Auf HERZHÖHE lagern — nicht hoch.</text>
+  <text x="62" y="1319" font-family="Georgia, serif" font-size="21" fill="#111">Hochlagern verringert den Blutzufluss zusätzlich. Und nicht kühlen.</text>
+
+  <text x="40" y="1390" font-family="Georgia, serif" font-size="21" fill="#111">Wird es nicht besser, muss alles versucht werden, um chirurgische Hilfe zu</text>
+  <text x="40" y="1416" font-family="Georgia, serif" font-size="21" fill="#111">erreichen — die Behandlung ist ein Eingriff, der die Hülle öffnet, und der</text>
+  <text x="40" y="1442" font-family="Georgia, serif" font-size="21" fill="#111">lässt sich nicht behelfsmäßig machen.</text>
+  <text x="40" y="1478" font-family="Georgia, serif" font-size="21" fill="#111">Und dann täglich prüfen: Schmerz beim Dehnen, Härte, Gefühl, Farbe.</text>
+  <text x="40" y="1506" font-family="Georgia, serif" font-size="19" fill="#111">(Alles ab „Was jeder tun kann“ ist die Einordnung dieses Pakets.)</text>
+
+  <line x1="40" y1="1542" x2="860" y2="1542" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1582" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wann man besonders daran denkt</text>
+  <text x="40" y="1620" font-family="Georgia, serif" font-size="21" fill="#111">Nach einem Bruch · nach einer Quetschung oder Verschüttung · nach einem</text>
+  <text x="40" y="1646" font-family="Georgia, serif" font-size="21" fill="#111">Stromunfall · und immer, wenn ein angelegter Verband über Stunden</text>
+  <text x="40" y="1672" font-family="Georgia, serif" font-size="21" fill="#111">SCHMERZHAFTER wird statt erträglicher.</text>
+</svg>

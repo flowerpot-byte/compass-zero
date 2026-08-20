@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "terms": [
+    {
+      "wort": "Bauchfell",
+      "erklaerung": "Die dünne, glatte Haut, die den Bauchraum von innen auskleidet und die Organe darin überzieht. Sie ist sehr schmerzempfindlich: Ist sie gereizt, wird der Bauch bretthart und jede Erschütterung tut weh.",
+      "auch": [
+        "Bauchfells",
+        "Bauchfellentzündung"
+      ]
+    },
+    {
+      "wort": "Rippenfell",
+      "erklaerung": "Die dünne Haut, die den Brustkorb von innen auskleidet. Zwischen ihr und dem Lungenfell liegt ein hauchdünner Spalt — kommt dort Luft hinein, fällt die Lunge zusammen.",
+      "auch": [
+        "Rippenfells",
+        "Rippenfellentzündung"
+      ]
+    },
+    {
+      "wort": "Brustfell",
+      "erklaerung": "Sammelname für die beiden dünnen Häute im Brustkorb: die eine überzieht die Lunge, die andere kleidet den Brustkorb von innen aus.",
+      "auch": [
+        "Brustfells"
+      ]
+    },
+    {
+      "wort": "Schleimhaut",
+      "erklaerung": "Die feuchte Innenhaut von Mund, Nase, Rachen, Magen, Darm und Geschlechtsorganen. Sie ist dünner und empfindlicher als die äußere Haut — und sie ist die Stelle, an der Krankheitserreger am leichtesten eindringen.",
+      "auch": [
+        "Schleimhäute",
+        "Schleimhäuten",
+        "Schleimhautes",
+        "Schleimhaut­"
+      ]
+    },
+    {
+      "wort": "Sehne",
+      "erklaerung": "Der zugfeste Strang, mit dem ein Muskel am Knochen befestigt ist. Sie ist weißlich und glänzend, nicht rot wie Muskel und nicht rund wie eine Ader. Ist eine durchtrennt, lässt sich der Finger oder das Gelenk dahinter nicht mehr bewegen.",
+      "auch": [
+        "Sehnen"
+      ]
+    },
+    {
+      "wort": "Regenbogenhaut",
+      "erklaerung": "Der farbige Ring im Auge, der das Loch in der Mitte — die Pupille — größer und kleiner macht. Was man als Augenfarbe bezeichnet, ist sie.",
+      "auch": [
+        "Regenbogenhäute"
+      ]
+    },
+    {
+      "wort": "Hornhaut",
+      "erklaerung": "Am Auge: die klare, gewölbte Scheibe ganz vorn, durch die man sieht. (An Händen und Füßen meint dasselbe Wort verdickte, harte Haut — im Auge ist es das Gegenteil, nämlich durchsichtig und sehr empfindlich.)",
+      "auch": [
+        "Hornhäute"
+      ]
+    },
+    {
+      "wort": "Bindehaut",
+      "erklaerung": "Die dünne, durchsichtige Haut, die das Weiße des Auges und die Innenseite der Lider überzieht. Ist sie entzündet, sieht das Auge rot aus und brennt.",
+      "auch": [
+        "Bindehäute",
+        "Bindehautentzündung"
+      ]
+    },
+    {
+      "wort": "Pupille",
+      "erklaerung": "Das schwarze Loch in der Mitte des Auges, durch das Licht einfällt. Bei Helligkeit wird es kleiner, im Dunkeln größer — und wie es sich verhält, verrät viel über den Zustand eines Bewusstlosen.",
+      "auch": [
+        "Pupillen"
+      ]
+    },
+    {
+      "wort": "Luftröhre",
+      "erklaerung": "Das feste, elastische Rohr, das von der Kehle in die Lunge führt. Man spürt es vorn am Hals als geriffelten Strang unter der Haut.",
+      "auch": [
+        "Luftröhren"
+      ]
+    },
+    {
+      "wort": "Speiseröhre",
+      "erklaerung": "Der weiche Schlauch, der vom Rachen in den Magen führt. Er liegt hinter der Luftröhre — deshalb kann etwas, das in die falsche Röhre gerät, den Atem versperren.",
+      "auch": [
+        "Speiseröhren"
+      ]
+    },
+    {
+      "wort": "Kallus",
+      "erklaerung": "Der weiche, später harte Knochenstoff, mit dem der Körper einen Bruch selbst wieder zusammenwachsen lässt. Bis er trägt, vergehen sechs bis acht Wochen."
+    },
+    {
+      "wort": "Elektrolyt",
+      "erklaerung": "Sammelname für die Salze im Blut — vor allem Natrium, Kalium und Chlorid. Sie halten den Wasserhaushalt und die Nerven in Ordnung; bei starkem Durchfall oder Erbrechen gehen sie mit verloren, und deshalb hilft reines Wasser allein dann nicht.",
+      "auch": [
+        "Elektrolyte",
+        "Elektrolyten",
+        "Elektrolythaushalt"
+      ]
+    },
+    {
+      "wort": "Zirrhose",
+      "erklaerung": "Eine Leber, die nach langer Schädigung vernarbt und hart geworden ist. Vernarbtes Gewebe arbeitet nicht mehr mit, und der Schaden geht nicht zurück.",
+      "auch": [
+        "Leberzirrhose"
+      ]
+    },
+    {
+      "wort": "Hepatitis",
+      "erklaerung": "Eine Entzündung der Leber. Sie kann von Viren kommen, von Alkohol oder von Giften; die Virusformen werden mit Buchstaben unterschieden (A bis E) und übertragen sich auf ganz verschiedenen Wegen."
+    },
+    {
+      "wort": "Narkose",
+      "erklaerung": "Ein künstlich herbeigeführter Tiefschlaf, in dem man nichts spürt und sich hinterher an nichts erinnert. Sie ist etwas anderes als eine örtliche Betäubung, bei der man wach bleibt und nur die betäubte Stelle nichts spürt.",
+      "auch": [
+        "Narkosen"
+      ]
+    },
+    {
+      "wort": "Tourniquet",
+      "erklaerung": "Ein Gurt, der oberhalb einer Verletzung so fest um Arm oder Bein gezogen wird, dass kein Blut mehr hindurchkommt. Auf Deutsch: Abbindung. Er stoppt eine lebensgefährliche Blutung — und schädigt alles, was darunter liegt, wenn er zu lange liegt.",
+      "auch": [
+        "Tourniquets"
+      ]
+    },
+    {
+      "wort": "Rehydratation",
+      "erklaerung": "Das Wiederauffüllen des Körpers mit Flüssigkeit und Salzen, nachdem er durch Durchfall, Erbrechen oder Hitze zu viel verloren hat.",
+      "auch": [
+        "Rehydrierung"
+      ]
+    },
+    {
+      "wort": "Antiseptikum",
+      "erklaerung": "Ein Mittel, das Krankheitserreger auf Haut oder in einer Verletzung abtötet oder am Wachsen hindert — anders als ein Flächenmittel, das für Böden und Türklinken gemacht ist und in keine Verletzung gehört.",
+      "auch": [
+        "Antiseptika",
+        "antiseptisch"
+      ]
+    }
+  ]
+}

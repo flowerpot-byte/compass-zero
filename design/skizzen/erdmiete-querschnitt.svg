@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="560" viewBox="0 0 820 560">
+  <!-- Zum Abschnitt "Die Kegelmiete bauen" und "Belueftung der Miete" im
+       Agrikultur-Kapitel "Ernte lagern ohne Strom". Querschnitt.
+       Was im Text nicht vorstellbar ist, sind die SCHICHTEN und der
+       LUFTABZUG: Stroh liegt UNTER und UEBER dem Lagergut, und an der
+       Spitze reicht dasselbe Stroh durch die Erdschicht hindurch nach
+       aussen. Genau dieser Durchgang ist der Luftabzug; ohne ihn erwaermt
+       sich die Miete von innen und fault. Eine Zeichnung, die nur einen
+       Erdhuegel zeigt, laesst den entscheidenden Teil weg. -->
+  <rect width="820" height="560" fill="#faf9f6"/>
+
+  <!-- Erdreich ringsum -->
+  <rect x="0" y="380" width="820" height="180" fill="#e6e2d6"/>
+
+  <!-- Erdabdeckung der Miete: aussenkontur -->
+  <path d="M 120 400 C 150 250 300 130 410 130 C 520 130 670 250 700 400 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Strohschicht: eine Lage innerhalb der Erde -->
+  <path d="M 168 398 C 194 268 320 168 410 168 C 500 168 626 268 652 398 Z"
+        fill="#faf9f6" stroke="#d65a1a" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Lagergut als Kegel aus einzelnen Knollen -->
+  <g fill="#111">
+    <circle cx="410" cy="228" r="17"/>
+    <circle cx="374" cy="266" r="17"/><circle cx="446" cy="266" r="17"/>
+    <circle cx="338" cy="304" r="17"/><circle cx="410" cy="304" r="17"/><circle cx="482" cy="304" r="17"/>
+    <circle cx="302" cy="342" r="17"/><circle cx="374" cy="342" r="17"/><circle cx="446" cy="342" r="17"/><circle cx="518" cy="342" r="17"/>
+    <circle cx="266" cy="380" r="17"/><circle cx="338" cy="380" r="17"/><circle cx="410" cy="380" r="17"/><circle cx="482" cy="380" r="17"/><circle cx="554" cy="380" r="17"/>
+  </g>
+
+  <!-- Bodenlinie, an der Miete unterbrochen -->
+  <g stroke="#111" stroke-width="5" stroke-linecap="round">
+    <line x1="0" y1="400" x2="120" y2="400"/>
+    <line x1="700" y1="400" x2="820" y2="400"/>
+  </g>
+
+  <!-- Luftabzug: Stroh reicht an der Spitze durch die Erde nach aussen -->
+  <path d="M 396 168 L 396 112 M 424 168 L 424 112" fill="none" stroke="#d65a1a" stroke-width="5" stroke-linecap="round"/>
+  <!-- Brett oder Blech als Regenschutz, mit Stein beschwert -->
+  <line x1="352" y1="106" x2="468" y2="106" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="410" cy="88" rx="20" ry="13" fill="#111"/>
+  <!-- Luftpfeil nach oben -->
+  <g fill="none" stroke="#d65a1a" stroke-width="4" stroke-linecap="round">
+    <line x1="500" y1="200" x2="500" y2="130"/>
+    <path d="M 500 130 l -11 16 M 500 130 l 11 16"/>
+  </g>
+
+  <!-- Ableitungsgraben rings um die Miete -->
+  <path d="M 44 400 L 80 452 L 116 400" fill="#faf9f6" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M 704 400 L 740 452 L 776 400" fill="#faf9f6" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Beschriftung -->
+  <g font-family="Georgia, serif" font-size="20" fill="#111">
+    <text x="486" y="118">Luft zieht ab</text>
+    <text x="470" y="86">Brett mit Stein</text>
+    <text x="26" y="492">Graben leitet</text>
+    <text x="26" y="518">Wasser ab</text>
+    <text x="596" y="492">Erde festklopfen,</text>
+    <text x="596" y="518">damit sie dicht ist</text>
+  </g>
+  <!-- Bezugslinie zur Strohschicht, damit die Beschriftung im Freien steht
+       und nicht auf der Linie liegt, die sie erklaert. -->
+  <path d="M 196 96 L 232 240" fill="none" stroke="#d65a1a" stroke-width="3" stroke-dasharray="8 7"/>
+  <circle cx="232" cy="240" r="6" fill="#d65a1a"/>
+  <g font-family="Georgia, serif" font-size="20" fill="#d65a1a">
+    <text x="26" y="52">Stroh liegt unten und oben —</text>
+    <text x="26" y="78">und reicht an der Spitze</text>
+    <text x="26" y="104">durch die Erde nach draussen</text>
+  </g>
+</svg>

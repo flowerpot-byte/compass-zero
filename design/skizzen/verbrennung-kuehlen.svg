@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1910" viewBox="0 0 900 1910">
+  <!-- Zum Tipp "Verbrennung: mindestens zehn Minuten kuehlen".
+       Ganz oben steht der Grund und nicht die Handlung: Es brennt in den
+       Hautschichten weiter, auch wenn die Person von der Hitze weg ist. Wer
+       das weiss, kuehlt lange genug; wer nur die Zahl kennt, hoert auf,
+       sobald es nicht mehr wehtut.
+       Die Zeitleiste ist massstaeblich: 36 Bildpunkte je Minute, 0 bei
+       x=100, zehn bei 460, zwanzig bei 820. Zwei Felder statt einer Marke,
+       weil die Quelle zwei Zahlen nennt — Mindestmass und Besser.
+       KEINE Marke "hier hoeren die meisten auf". Die Quelle sagt, dass die
+       meisten zu frueh aufhoeren, nennt aber keinen Zeitpunkt. Eine
+       gezeichnete Marke waere eine erfundene Zahl an genau der Stelle, wo
+       sie am glaubwuerdigsten aussaehe.
+       Das Herzstueck ist die Gegenueberstellung Eintauchen gegen
+       Uebergiessen. Der Grund ist nicht selbstverstaendlich und steht im
+       Fliesstext in einem Nebensatz: Der Koerperteil erwaermt stehendes
+       Wasser, gegossenes bleibt kuehler. Nebeneinander gezeichnet sieht man,
+       dass die Schuessel UNTER die Stelle gehoert und nicht drumherum.
+       Schuesseln und Wasser sind Formen, keine Figuren — das geht. -->
+  <rect width="900" height="1910" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Verbrennung: mindestens zehn Minuten kühlen</text>
+
+  <text x="40" y="100" font-family="Georgia, serif" font-size="26" fill="#a3231a">Auch nachdem die Person von der Hitze weg ist, brennt es</text>
+  <text x="40" y="132" font-family="Georgia, serif" font-size="26" fill="#a3231a">in den Hautschichten weiter.</text>
+  <text x="40" y="168" font-family="Georgia, serif" font-size="21" fill="#111">Die Verbrennung ist kein Ereignis, das vorbei ist, sondern ein Vorgang, der</text>
+  <text x="40" y="194" font-family="Georgia, serif" font-size="21" fill="#111">weiterläuft. Kühlen hält ihn an.</text>
+
+  <line x1="40" y1="230" x2="860" y2="230" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Zeitleiste ============ -->
+  <text x="40" y="270" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Zahl, auf die es ankommt</text>
+
+  <g font-family="Georgia, serif" font-size="19" text-anchor="middle">
+    <text x="280" y="312" fill="#111">MINDESTENS so lange</text>
+    <text x="640" y="312" fill="#1d6b3a">BESSER bis hierhin</text>
+  </g>
+  <rect x="100" y="328" width="360" height="50" fill="#e8eef2" stroke="#111" stroke-width="2"/>
+  <rect x="460" y="328" width="360" height="50" fill="#1d6b3a" stroke="#111" stroke-width="2"/>
+
+  <line x1="100" y1="392" x2="820" y2="392" stroke="#111" stroke-width="2"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="100" y1="392" x2="100" y2="402"/><line x1="460" y1="392" x2="460" y2="402"/>
+    <line x1="820" y1="392" x2="820" y2="402"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="100" y="424">0</text><text x="460" y="424">10</text><text x="820" y="424">20</text>
+  </g>
+  <text x="100" y="452" font-family="Georgia, serif" font-size="19" fill="#111">Minuten mit sauberem, FLIESSENDEM Wasser</text>
+
+  <text x="40" y="492" font-family="Georgia, serif" font-size="21" fill="#111">Das ist länger, als es sich anfühlt, und die meisten hören viel zu früh auf.</text>
+
+  <line x1="40" y1="528" x2="860" y2="528" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die zwei Verbote ============ -->
+  <rect x="40" y="554" width="820" height="146" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="594" font-family="Georgia, serif" font-size="23" fill="#a3231a">Zwei Dinge dürfen nicht sein</text>
+  <text x="62" y="630" font-family="Georgia, serif" font-size="21" fill="#111">· KEIN EISKALTES WASSER — das kann zur Unterkühlung führen, besonders</text>
+  <text x="62" y="656" font-family="Georgia, serif" font-size="21" fill="#111">  bei großer Fläche, bei einem kleinen Menschen oder in der Kälte.</text>
+  <text x="62" y="682" font-family="Georgia, serif" font-size="21" fill="#111">· KEIN EIS auf die Verbrennung — das verschlimmert den Schaden.</text>
+
+  <text x="40" y="736" font-family="Georgia, serif" font-size="21" fill="#111">Was hier hilft, ist kühl, nicht kalt. Und: das Wasser ÜBER die Stelle laufen</text>
+  <text x="40" y="762" font-family="Georgia, serif" font-size="21" fill="#111">lassen, statt den Strahl direkt daraufzuhalten — das ist erträglicher.</text>
+
+  <line x1="40" y1="798" x2="860" y2="798" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Eintauchen gegen Uebergiessen ============ -->
+  <text x="40" y="838" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ohne fließendes Wasser — besser, als man denkt</text>
+
+  <rect x="40" y="866" width="390" height="286" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <rect x="470" y="866" width="390" height="286" rx="10" fill="none" stroke="#1d6b3a" stroke-width="4"/>
+
+  <text x="62" y="906" font-family="Georgia, serif" font-size="21" fill="#111">EINTAUCHEN</text>
+  <text x="492" y="906" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">ÜBERGIESSEN UND AUFFANGEN</text>
+
+  <!-- links: Schuessel mit stehendem Wasser, Stelle darin -->
+  <polygon points="110,940 145,1030 325,1030 360,940" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <rect x="185" y="946" width="100" height="20" rx="6" fill="#f2ece2" stroke="#a3231a" stroke-width="3"/>
+  <text x="235" y="1000" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">steht und wird warm</text>
+  <text x="62" y="1072" font-family="Georgia, serif" font-size="19" fill="#111">Der Körperteil erwärmt das stehende</text>
+  <text x="62" y="1096" font-family="Georgia, serif" font-size="19" fill="#111">Wasser — es kühlt immer weniger.</text>
+
+  <!-- rechts: Stelle oben, Guss, Schuessel darunter, Kreislauf -->
+  <rect x="615" y="930" width="100" height="20" rx="6" fill="#f2ece2" stroke="#a3231a" stroke-width="3"/>
+  <g stroke="#a9c4d4" stroke-width="5" stroke-linecap="round">
+    <line x1="640" y1="958" x2="640" y2="990"/>
+    <line x1="665" y1="958" x2="665" y2="998"/>
+    <line x1="690" y1="958" x2="690" y2="990"/>
+  </g>
+  <polygon points="580,1006 612,1076 748,1076 780,1006" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <path d="M 574 1040 C 520 1030 512 950 596 936" fill="none" stroke="#1d6b3a" stroke-width="4"/>
+  <polygon points="590,928 610,938 590,946" fill="#1d6b3a"/>
+  <text x="492" y="1116" font-family="Georgia, serif" font-size="19" fill="#111">Auffangen und neu übergießen —</text>
+  <text x="492" y="1140" font-family="Georgia, serif" font-size="19" fill="#111">gegossenes Wasser bleibt kühler.</text>
+
+  <text x="40" y="1196" font-family="Georgia, serif" font-size="21" fill="#111">Mit einem Liter, immer wieder aufgefangen und neu übergegossen, kommt man</text>
+  <text x="40" y="1222" font-family="Georgia, serif" font-size="21" fill="#111">durch zwanzig Minuten. Und ist gar kein Wasser da: jede andere kühle</text>
+  <text x="40" y="1248" font-family="Georgia, serif" font-size="21" fill="#111">Flüssigkeit — Saft, Milch. Was kühl und sauber genug ist, ist besser als nichts.</text>
+
+  <line x1="40" y1="1284" x2="860" y2="1284" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Waehrend gekuehlt wird ============ -->
+  <text x="40" y="1324" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Während gekühlt wird</text>
+  <text x="40" y="1362" font-family="Georgia, serif" font-size="21" fill="#111">Kleidung und Schmuck an oder neben der Stelle entfernen — SOLANGE SIE</text>
+  <text x="40" y="1388" font-family="Georgia, serif" font-size="21" fill="#111">NICHT AN DER HAUT FESTKLEBEN. Was klebt, bleibt: Abziehen reißt die Haut</text>
+  <text x="40" y="1414" font-family="Georgia, serif" font-size="21" fill="#111">mit. Ringe und Armbänder aber unbedingt herunter, solange es geht — es</text>
+  <text x="40" y="1440" font-family="Georgia, serif" font-size="21" fill="#111">schwillt an, und später bekommt man sie nicht mehr ab.</text>
+
+  <line x1="40" y1="1476" x2="860" y2="1476" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Notfall ============ -->
+  <text x="40" y="1516" font-family="Georgia, serif" font-size="23" fill="#a3231a">Notfall — an fünf Dingen festzumachen, ohne Fläche zu schätzen</text>
+  <text x="40" y="1554" font-family="Georgia, serif" font-size="21" fill="#111">· GROSS   · TIEF   · nahe an Gesicht, Mund, Rachen oder Geschlechtsteilen</text>
+  <text x="40" y="1580" font-family="Georgia, serif" font-size="21" fill="#111">· von Chemikalien oder Strom   · durch offene Flammen entstanden</text>
+  <text x="40" y="1616" font-family="Georgia, serif" font-size="21" fill="#111">Dann Notruf 112. Ehrlich dazu: Die Leitlinie nennt Verfahren, die Schwere</text>
+  <text x="40" y="1642" font-family="Georgia, serif" font-size="21" fill="#111">abzuschätzen, sagt aber selbst, dass es keinen Beleg gibt, welches am besten</text>
+  <text x="40" y="1668" font-family="Georgia, serif" font-size="21" fill="#111">taugt.</text>
+
+  <line x1="40" y1="1704" x2="860" y2="1704" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1748" font-family="Georgia, serif" font-size="26" fill="#a3231a">Bei einem Baby, einem kleinen oder einem alten Menschen</text>
+  <text x="40" y="1780" font-family="Georgia, serif" font-size="26" fill="#a3231a">kann auch eine kleine, harmlos aussehende Verbrennung</text>
+  <text x="40" y="1812" font-family="Georgia, serif" font-size="26" fill="#a3231a">sehr schädlich sein.</text>
+  <text x="40" y="1848" font-family="Georgia, serif" font-size="21" fill="#111">Bei Erwachsenen brauchen leichte Verbrennungen dagegen meist keine</text>
+  <text x="40" y="1874" font-family="Georgia, serif" font-size="21" fill="#111">ärztliche Behandlung. Ist die Fläche groß, droht ein Schock: hinlegen, warm</text>
+  <text x="40" y="1900" font-family="Georgia, serif" font-size="21" fill="#111">halten — und die verbrannte Stelle nicht den Boden berühren lassen.</text>
+</svg>

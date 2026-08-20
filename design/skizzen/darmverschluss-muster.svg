@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="820" viewBox="0 0 900 820">
+  <!-- Zum Tipp "Darmverschluss: wenn das Erbrochene nach Stuhl riecht".
+       Der Bildkern ist ein RHYTHMUS, und Rhythmus laesst sich schreiben, aber
+       nicht lesen: Wellen alle vier bis fuenf Minuten bei einer Blockade weit
+       oben, seltenere Wellen weiter unten — und wenn der Schmerz nicht mehr in
+       Wellen kommt, sondern durchgehend da ist, ist der Darm abgeschnuert.
+       Das ist der Notfall im Notfall und steht deshalb rot.
+       Die zweite Tafel ist die Falle, die der Tipp ausdruecklich benennt:
+       Spaeter wird es still. Ein stiller Bauch ist hier KEINE Besserung,
+       sondern die Verschlechterung. Ohne diesen Hinweis liest man Stille als
+       gutes Zeichen. -->
+  <rect width="900" height="820" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Darmverschluss: das Muster der Schmerzwellen</text>
+
+  <!-- ============ A: das Muster ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Aus dem Takt liest man ab, wo die Blockade sitzt</text>
+
+  <!-- Zeile 1: weit oben, haeufig -->
+  <line x1="56" y1="180" x2="480" y2="180" stroke="#c9c4b4" stroke-width="3"/>
+  <path d="M 60 180 q 14 -42 28 0 l 18 0 q 14 -42 28 0 l 18 0 q 14 -42 28 0 l 18 0
+           q 14 -42 28 0 l 18 0 q 14 -42 28 0 l 18 0 q 14 -42 28 0"
+        fill="none" stroke="#111" stroke-width="4"/>
+  <text x="510" y="160" font-family="Georgia, serif" font-size="21" fill="#111">Blockade WEIT OBEN:</text>
+  <text x="510" y="186" font-family="Georgia, serif" font-size="21" fill="#111">Wellen alle vier bis</text>
+  <text x="510" y="212" font-family="Georgia, serif" font-size="21" fill="#111">fünf Minuten.</text>
+
+  <!-- Zeile 2: weiter unten, seltener -->
+  <line x1="56" y1="290" x2="480" y2="290" stroke="#c9c4b4" stroke-width="3"/>
+  <path d="M 60 290 q 14 -42 28 0 l 110 0 q 14 -42 28 0 l 110 0 q 14 -42 28 0"
+        fill="none" stroke="#111" stroke-width="4"/>
+  <text x="510" y="282" font-family="Georgia, serif" font-size="21" fill="#111">Weiter UNTEN:</text>
+  <text x="510" y="308" font-family="Georgia, serif" font-size="21" fill="#111">seltenere Wellen.</text>
+
+  <!-- Zeile 3: durchgehend -->
+  <line x1="56" y1="400" x2="480" y2="400" stroke="#c9c4b4" stroke-width="3"/>
+  <path d="M 60 400 C 78 358 96 358 114 358 L 400 358 C 418 358 424 380 430 400"
+        fill="none" stroke="#a3231a" stroke-width="5"/>
+  <text x="510" y="380" font-family="Georgia, serif" font-size="23" fill="#a3231a">DURCHGEHEND, keine</text>
+  <text x="510" y="408" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wellen mehr: der Darm ist</text>
+  <text x="510" y="436" font-family="Georgia, serif" font-size="23" fill="#a3231a">abgeschnürt.</text>
+
+  <text x="56" y="440" font-family="Georgia, serif" font-size="19" fill="#111">Zeit →</text>
+
+  <line x1="40" y1="470" x2="860" y2="470" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die Falle ============ -->
+  <text x="40" y="512" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die Falle: später wird es still</text>
+
+  <path d="M 60 590 q 12 -34 24 0 l 14 0 q 12 -34 24 0 l 14 0 q 12 -34 24 0"
+        fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="200" y1="590" x2="400" y2="590" stroke="#a3231a" stroke-width="5"/>
+  <text x="60" y="622" font-family="Georgia, serif" font-size="19" fill="#111">laute Darmgeräusche</text>
+  <text x="252" y="622" font-family="Georgia, serif" font-size="19" fill="#a3231a">still</text>
+
+  <text x="40" y="668" font-family="Georgia, serif" font-size="21" fill="#111">Ein stiller Bauch ist hier KEINE</text>
+  <text x="40" y="694" font-family="Georgia, serif" font-size="21" fill="#111">Besserung, sondern die</text>
+  <text x="40" y="720" font-family="Georgia, serif" font-size="21" fill="#111">Verschlechterung — Bauchfell-</text>
+  <text x="40" y="746" font-family="Georgia, serif" font-size="21" fill="#111">entzündung oder abgestorbenes</text>
+  <text x="40" y="772" font-family="Georgia, serif" font-size="21" fill="#111">Darmgewebe.</text>
+
+  <line x1="446" y1="486" x2="446" y2="790" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: das eindeutige Zeichen ============ -->
+  <text x="472" y="512" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Das Zeichen, das nichts anderes hat</text>
+
+  <rect x="472" y="536" width="388" height="72" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="492" y="568" font-family="Georgia, serif" font-size="23" fill="#a3231a">Das Erbrochene riecht nach Stuhl.</text>
+  <text x="492" y="596" font-family="Georgia, serif" font-size="21" fill="#111">Im Stau vermehren sich Bakterien.</text>
+
+  <text x="472" y="646" font-family="Georgia, serif" font-size="21" fill="#111">Ohne Gerät zu prüfen: Der Bauch ist</text>
+  <text x="472" y="672" font-family="Georgia, serif" font-size="21" fill="#111">aufgetrieben. Bei einer Blockade im</text>
+  <text x="472" y="698" font-family="Georgia, serif" font-size="21" fill="#111">Dünndarm sieht man mit blossem Auge</text>
+  <text x="472" y="724" font-family="Georgia, serif" font-size="21" fill="#111">Wellen über den Bauch laufen. Das Ohr</text>
+  <text x="472" y="750" font-family="Georgia, serif" font-size="21" fill="#111">auf den Bauch genügt, um die lauten</text>
+  <text x="472" y="776" font-family="Georgia, serif" font-size="21" fill="#111">Darmgeräusche zu hören.</text>
+
+  <line x1="40" y1="806" x2="860" y2="806" stroke="#c9c4b4" stroke-width="3"/>
+</svg>

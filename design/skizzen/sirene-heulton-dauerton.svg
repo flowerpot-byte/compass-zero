@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Tipp taktisch-sirene-verstehen ("Sirene: Heulton und Dauerton
+       bedeuten das Gegenteil").
+
+       GEZEIGTE AUSSAGE: Zwei Sirenentoene bedeuten das genaue Gegenteil
+       voneinander, und der Unterschied liegt im TONVERLAUF, nicht in der
+       Lautstaerke oder Tonhoehe. Das laesst sich in Worten nur umstaendlich
+       beschreiben ("schwillt an und ab" gegen "gleichbleibend"), im Bild
+       aber auf einen Blick zeigen: zwei deutlich verschiedene Kurvenformen.
+       Wortlaut: "WARNUNG: eine Minute HEULTON - der Ton schwillt AN UND AB."
+       und "ENTWARNUNG: eine Minute DAUERTON - gleichbleibend."
+
+       FORM statt Strichstaerke als Unterschied: links eine gewellte,
+       gefuellte Huegelform (mehrfach auf- und absteigend), rechts ein
+       einzelner, ruhiger Block mit gerader Oberkante. Beide stehen auf
+       derselben Grundlinie, damit nur die Form den Unterschied traegt.
+
+       REGEL gross: die beiden Kurvenformen mit ihrer Bedeutung, in der
+       groessten Schrift nach der Ueberschrift.
+
+       Kleine Ergaenzung (keine Zahl, keine Ausnahme von der Regel, aber
+       bewusst klein gesetzt wie eine Randbemerkung): dass die Sirene nicht
+       sagt, WAS los ist, sondern nur zum Informieren auffordert - Wortlaut
+       "Die Sirene sagt nicht, WAS los ist" und die genannten Kanaele Radio,
+       Warn-App, Lautsprecherwagen.
+
+       SIGNALFARBE (#d65a1a) genau einmal: bei dem Satz, der die gefaehrliche
+       Verwechslung benennt - "Wer sie verwechselt, geht hinaus, wenn er
+       hineinsollte." Das ist die einzige Stelle in diesem Tipp, an der ein
+       Fehler unmittelbar gefaehrlich waere. -->
+
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="40" y="40" font-family="Georgia, serif" font-size="26" fill="#111">Sirene: Heulton und Dauerton bedeuten das Gegenteil</text>
+  <text x="40" y="68" font-family="Georgia, serif" font-size="17" fill="#d65a1a">Wer sie verwechselt, geht hinaus, wenn er hineinsollte.</text>
+  <line x1="40" y1="84" x2="860" y2="84" stroke="#e6e2d6" stroke-width="2"/>
+
+  <!-- ===================== Linkes Feld: Warnung / Heulton ===================== -->
+  <rect x="40" y="104" width="390" height="340" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="62" y="142" font-family="Georgia, serif" font-size="23" font-weight="bold" fill="#111">WARNUNG</text>
+  <text x="62" y="174" font-family="Georgia, serif" font-size="18" fill="#111">eine Minute HEULTON</text>
+
+  <!-- Kurvenform: schwillt AN UND AB, drei Huegel auf derselben Grundlinie -->
+  <path d="M 62,330 C 90,330 90,205 118,205 C 146,205 146,330 174,330 C 202,330 202,205 230,205 C 258,205 258,330 286,330 C 314,330 314,205 342,205 C 370,205 370,330 398,330 Z"
+        fill="#d9c98a" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="62" y1="330" x2="398" y2="330" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <text x="62" y="364" font-family="Georgia, serif" font-size="18" fill="#111">Das heißt: Es besteht Gefahr,</text>
+  <text x="62" y="388" font-family="Georgia, serif" font-size="18" fill="#111">informiere dich.</text>
+
+  <!-- ===================== Rechtes Feld: Entwarnung / Dauerton ===================== -->
+  <rect x="470" y="104" width="390" height="340" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="492" y="142" font-family="Georgia, serif" font-size="23" font-weight="bold" fill="#111">ENTWARNUNG</text>
+  <text x="492" y="174" font-family="Georgia, serif" font-size="18" fill="#111">eine Minute DAUERTON</text>
+
+  <!-- Kurvenform: gleichbleibend, ein ruhiger Block auf derselben Grundlinie -->
+  <rect x="492" y="230" width="336" height="100" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+  <line x1="492" y1="330" x2="828" y2="330" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <text x="492" y="364" font-family="Georgia, serif" font-size="18" fill="#111">Das heißt: Die Gefahr ist vorbei.</text>
+
+  <line x1="40" y1="470" x2="860" y2="470" stroke="#e6e2d6" stroke-width="2"/>
+
+  <text x="450" y="502" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Der Ton, der sich BEWEGT, meint Bewegung —</text>
+  <text x="450" y="528" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">es passiert etwas. Der Ton, der GLEICH bleibt,</text>
+  <text x="450" y="554" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">meint Ruhe.</text>
+
+  <text x="40" y="584" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Die Sirene sagt nicht, WAS los ist — informieren, zum Beispiel per</text>
+  <text x="40" y="606" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Radio, Warn-App oder Lautsprecherwagen.</text>
+</svg>

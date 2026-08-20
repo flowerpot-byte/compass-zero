@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="590" viewBox="0 0 900 590">
+  <!-- Zum Tipp "Ersticken beim Kind: Bauchstoesse" (erste-hilfe-ersticken-kind).
+       Aussage: Bei einem Kind (ab einem Jahr) wechselt man ab, solange es bei
+       Bewusstsein ist: bis zu fuenf Ruckenschlaege zwischen den
+       Schulterblaettern, dann bis zu fuenf Bauchstoesse zwischen Bauchnabel
+       und Brustbeinende, und wieder von vorn. Man bricht sofort ab, sobald
+       Husten, lautes Atmen oder Weinen zeigt, dass der Fremdkoerper frei wird.
+       Begruendung: Dieser Wechsel zweier Handgriffe als fortlaufender Ablauf
+       laesst sich in einem Satz nur umstaendlich sagen. Zwei Bilder mit einem
+       Kreislauf-Pfeil dazwischen zeigen ihn auf einen Blick, und genau das
+       fehlt in der vorhandenen Zeichnung fuer Erwachsene, die nur den Punkt
+       fuer einen einzelnen Bauchstoss zeigt, keinen Wechsel zweier Griffe. -->
+  <rect x="0" y="0" width="900" height="590" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Beim Kind: Rückenschläge und Bauchstöße im Wechsel</text>
+
+  <!-- Trennlinie zwischen den zwei Handgriffen -->
+  <line x1="450" y1="72" x2="450" y2="460" stroke="#5b7f96" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <text x="235" y="90" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#111">Rückenschläge</text>
+  <text x="655" y="90" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#111">Bauchstöße</text>
+
+  <!-- ===== LINKS: Ruckenschlaege ===== -->
+
+  <!-- Kind, nach vorn gebeugt -->
+  <circle cx="110" cy="255" r="16" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+  <path d="M 128 245 C 160 240 195 260 205 295 C 195 310 175 312 160 305 C 145 290 132 270 128 245 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 165 300 L 155 415 L 175 415 L 185 305 Z" fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 188 305 L 198 415 L 218 415 L 205 300 Z" fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 128 248 C 122 270 118 295 122 320 L 138 322 C 134 297 138 272 144 250 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Helfer, steht dahinter, schlaegt mit flacher Hand -->
+  <circle cx="300" cy="140" r="19" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <path d="M 282 165 C 276 210 276 255 282 300 L 316 300 C 322 255 322 210 316 165 Z"
+        fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 286 300 L 278 415 L 298 415 L 300 305 Z" fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 300 305 L 302 415 L 322 415 L 316 300 Z" fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 285 180 C 278 210 275 240 278 270 L 292 270 C 290 240 292 210 296 182 Z"
+        fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 288 175 C 260 195 225 220 195 245 L 208 262 C 235 235 265 210 300 188 Z"
+        fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 183 238 L 205 248 L 200 262 L 178 252 Z" fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+
+  <text x="235" y="436" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">bis zu fünf Mal</text>
+  <text x="235" y="458" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#111">Kind nach vorn beugen</text>
+  <text x="235" y="478" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#111">zwischen die Schulterblätter</text>
+
+  <!-- ===== RECHTS: Bauchstoesse ===== -->
+
+  <!-- Kind, nach vorn gebeugt -->
+  <circle cx="580" cy="255" r="16" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+  <path d="M 598 245 C 630 240 665 260 675 295 C 665 310 645 312 630 305 C 615 290 602 270 598 245 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 635 300 L 625 415 L 645 415 L 655 305 Z" fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 658 305 L 668 415 L 688 415 L 675 300 Z" fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 598 248 C 592 270 588 295 592 320 L 608 322 C 604 297 608 272 614 250 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Helfer, steht dicht dahinter, Arme um den oberen Bauch, Faust dazwischen -->
+  <circle cx="760" cy="140" r="19" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <path d="M 742 165 C 736 210 736 255 742 300 L 776 300 C 782 255 782 210 776 165 Z"
+        fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 746 300 L 738 415 L 758 415 L 760 305 Z" fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 760 305 L 762 415 L 782 415 L 776 300 Z" fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 748 178 C 715 195 680 220 660 260 L 675 275 C 695 235 725 205 758 185 Z"
+        fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 778 180 C 740 200 700 225 665 270 L 680 285 C 705 245 740 215 788 190 Z"
+        fill="#d9c98a" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 641 272 C 632 279 632 294 643 300 C 654 306 669 302 673 289 C 677 276 665 266 652 268 Z"
+        fill="#7a5a3e" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- Zugrichtung nach innen und oben, an der Faust -->
+  <line x1="657" y1="282" x2="620" y2="248" stroke="#111" stroke-width="2"/>
+  <polygon points="620,248 632,252 626,260" fill="#111"/>
+
+  <text x="655" y="436" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">bis zu fünf Mal</text>
+  <text x="655" y="458" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#111">zwischen Bauchnabel und Brustbeinende</text>
+  <text x="655" y="478" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#111">nach innen und oben ziehen</text>
+
+  <!-- Kreislauf: solange bei Bewusstsein, im Wechsel -->
+  <path d="M 330 500 C 400 490 500 490 570 500" fill="none" stroke="#111" stroke-width="2"/>
+  <polygon points="570,500 558,495 558,505" fill="#111"/>
+  <path d="M 570 518 C 500 528 400 528 330 518" fill="none" stroke="#111" stroke-width="2"/>
+  <polygon points="330,518 342,513 342,523" fill="#111"/>
+  <text x="450" y="545" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">im Wechsel, solange bei Bewusstsein</text>
+
+  <text x="40" y="575" font-family="Georgia, serif" font-size="17" fill="#d65a1a">Sofort aufhören: Husten, lautes Atmen oder Weinen.</text>
+</svg>

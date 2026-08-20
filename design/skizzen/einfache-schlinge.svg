@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zu Schritt 8 der Bauanleitung "Fallen stellen": die einfache Schlinge.
+       Seitenansicht.
+       Der Satz, der hier als Form steht: Eine Drahtschlinge ueber einem
+       Wechsel, das andere Ende an einem fest eingeschlagenen Pflock, die
+       Schlinge selbst mit duennen Zweigen offen und aufrecht gehalten.
+       Der Pflock steckt deshalb sichtbar tief im Boden: ein locker
+       eingeschlagener Pflock ist der Fehler, der gefaehrlich wird, weil das
+       Tier dann mit der Schlinge am Hals davonlaeuft. Genau das markiert die
+       Signalfarbe, und nur das.
+       Der letzte Satz des Schritts steht nur als Text unten: Die Schlinge
+       toetet meistens nicht sofort, deshalb muss nachgesehen und selbst
+       getoetet werden. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Die einfache Schlinge — über dem Wechsel, Ende am Pflock</text>
+
+  <!-- Boden mit Wechsel (Trittsiegel) -->
+  <rect x="40" y="458" width="820" height="72" fill="#e6e2d6"/>
+  <line x1="40" y1="458" x2="860" y2="458" stroke="#111" stroke-width="4"/>
+  <g fill="#5b7f96">
+    <ellipse cx="90" cy="463" rx="7" ry="3"/>
+    <ellipse cx="140" cy="463" rx="7" ry="3"/>
+    <ellipse cx="190" cy="463" rx="7" ry="3"/>
+    <ellipse cx="290" cy="463" rx="7" ry="3"/>
+    <ellipse cx="700" cy="463" rx="7" ry="3"/>
+    <ellipse cx="750" cy="463" rx="7" ry="3"/>
+    <ellipse cx="800" cy="463" rx="7" ry="3"/>
+  </g>
+  <!-- Grasbueschel als Bodenkante -->
+  <g stroke="#111" stroke-width="2" stroke-linecap="round">
+    <path d="M 350 458 l -5 -8 M 350 458 l 5 -8"/>
+    <path d="M 400 458 l -5 -8 M 400 458 l 5 -8"/>
+    <path d="M 630 458 l -5 -8 M 630 458 l 5 -8"/>
+    <path d="M 760 458 l -5 -8 M 760 458 l 5 -8"/>
+  </g>
+
+  <!-- KEIN Tier mehr gezeichnet. Der schwarze Klecks mit spitzem Kopf sagte
+       nichts ueber den Bau der Falle, und welches Tier durchlaeuft, gehoert
+       nicht zur Aussage. Der WEG durch die Schlinge gehoert dazu, und den
+       zeigt der Pfeil. -->
+  <text x="172" y="398" font-family="Georgia, serif" font-size="17" fill="#111">so läuft das Tier:</text>
+  <text x="172" y="420" font-family="Georgia, serif" font-size="17" fill="#111">hindurch und weiter</text>
+
+  <!-- Weg des Tieres: hindurch und weiter -->
+  <path d="M 150 440 Q 480 424 620 415" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 620 415 l -18 -8 M 620 415 l -14 14" stroke="#111" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Zwei duenne Zweige, die die Schlinge offen und aufrecht halten -->
+  <g stroke="#111" stroke-width="3" stroke-linecap="round">
+    <line x1="480" y1="458" x2="480" y2="415"/>
+    <path d="M 480 445 l -10 -8 M 480 428 l -9 -6"/>
+    <line x1="580" y1="458" x2="580" y2="415"/>
+    <path d="M 580 445 l 10 -8 M 580 428 l 9 -6"/>
+  </g>
+
+  <!-- Die Drahtschlinge selbst, aufrecht ueber dem Wechsel -->
+  <ellipse cx="530" cy="415" rx="50" ry="43" fill="none" stroke="#111" stroke-width="6"/>
+
+  <!-- Draht von der Schlinge zum Pflock -->
+  <path d="M 562 382 Q 620 378 680 395" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="592" y="372" font-family="Georgia, serif" font-size="17" fill="#111">Draht</text>
+
+  <!-- Pflock, fest eingeschlagen -->
+  <rect x="674" y="395" width="12" height="125" fill="#111"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="668" y1="388" x2="680" y2="396"/>
+    <line x1="692" y1="388" x2="680" y2="396"/>
+  </g>
+
+  <!-- Beschriftungen oben im freien Feld -->
+  <text x="60" y="110" font-family="Georgia, serif" font-size="19" fill="#111">Wechsel</text>
+  <path d="M 95 118 L 145 452" fill="none" stroke="#5b7f96" stroke-width="2" stroke-dasharray="8 7"/>
+
+  <text x="420" y="100" font-family="Georgia, serif" font-size="19" fill="#111">Drahtschlinge</text>
+  <path d="M 465 108 L 528 372" fill="none" stroke="#5b7f96" stroke-width="2" stroke-dasharray="8 7"/>
+
+  <text x="230" y="256" font-family="Georgia, serif" font-size="17" fill="#111">dünne Zweige halten</text>
+  <text x="230" y="278" font-family="Georgia, serif" font-size="17" fill="#111">sie offen und aufrecht</text>
+  <path d="M 320 288 L 478 418" fill="none" stroke="#5b7f96" stroke-width="2" stroke-dasharray="8 7"/>
+
+  <text x="700" y="140" font-family="Georgia, serif" font-size="19" fill="#111">Pflock,</text>
+  <text x="700" y="162" font-family="Georgia, serif" font-size="19" fill="#111">fest eingeschlagen</text>
+  <path d="M 705 168 L 682 393" fill="none" stroke="#5b7f96" stroke-width="2" stroke-dasharray="8 7"/>
+
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="40" y="562">Läuft das Tier hindurch und weiter, zieht sich die Schlinge zu.</text>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#d65a1a">
+    <text x="40" y="586">Sie tötet meistens NICHT sofort: nachsehen und selbst töten.</text>
+  </g>
+</svg>

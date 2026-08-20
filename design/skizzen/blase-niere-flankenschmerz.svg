@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+  <!-- Tipp: medizin-nierenbeckenentzuendung, "Nierenbeckenentzuendung: wenn
+       es die Niere erreicht".
+       Gezeigter Satz als Form: "NIERE: FIEBER ODER FLANKENSCHMERZ ... Der
+       Flankenschmerz sitzt seitlich am Ruecken, etwa in Hoehe der untersten
+       Rippen" sowie "Blase: Es brennt, man muss staendig. Sonst nichts."
+       Zwei Koerperstellen werden markiert: die Blase tief mittig im Becken,
+       die Niere seitlich auf Hoehe der untersten Rippen. Ein Pfeil fuehrt
+       von der Blase-Stelle hoch zur Niere-Stelle und zeigt damit den Satz
+       aus dem Titel: "wenn es die Niere erreicht". Der Zahlenkontrast drei
+       Tage (Blase) gegen VIERZEHN (Niere) aus dem Text macht sichtbar, wie
+       viel ernster die Lage wird, sobald die Niere erreicht ist. Die
+       Signalfarbe sitzt an genau einer Stelle: dem Niere-Marker samt seiner
+       Beschriftung, weil das Uebersehen von Fieber oder Flankenschmerz die
+       gefaehrliche Verwechslung ist. -->
+  <rect width="900" height="640" fill="#faf9f6"/>
+  <text x="40" y="45" font-family="Georgia, serif" font-size="26" fill="#111">Nierenbeckenentzündung: wenn es die Niere erreicht</text>
+
+  <!-- ============ Koerperumriss, Ansicht von vorn ============ -->
+  <circle cx="330" cy="165" r="32" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <line x1="330" y1="197" x2="330" y2="204" stroke="#111" stroke-width="4"/>
+  <path d="M 250 204 L 410 204 C 424 250 426 285 420 320 C 415 358 417 398 412 433
+           C 407 470 395 496 378 508 L 282 508 C 265 496 253 470 248 433
+           C 243 398 245 358 240 320 C 234 285 236 250 250 204 Z"
+        fill="#f2ece2" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Rippenbogen, dashed, deutet die untersten Rippen an -->
+  <path d="M 246 328 L 330 282 L 414 328" fill="none" stroke="#111" stroke-width="3" stroke-dasharray="9 6"/>
+  <text x="330" y="270" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">unterste Rippen</text>
+
+  <!-- Fuehrungslinie auf Hoehe der untersten Rippen, zur Niere-Beschriftung -->
+  <line x1="414" y1="328" x2="600" y2="328" stroke="#5b7f96" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- ============ Marker: NIERE (Signalfarbe, die eine Stelle) ============ -->
+  <circle cx="414" cy="328" r="18" fill="#faf9f6" stroke="#d65a1a" stroke-width="5"/>
+
+  <text x="620" y="278" font-family="Georgia, serif" font-size="19" fill="#d65a1a">NIERE</text>
+  <text x="620" y="304" font-family="Georgia, serif" font-size="17" fill="#111">FIEBER ODER</text>
+  <text x="620" y="326" font-family="Georgia, serif" font-size="17" fill="#111">FLANKENSCHMERZ</text>
+  <text x="620" y="350" font-family="Georgia, serif" font-size="16" fill="#5b7f96">seitlich am Rücken, Höhe</text>
+  <text x="620" y="372" font-family="Georgia, serif" font-size="16" fill="#5b7f96">der untersten Rippen</text>
+  <rect x="620" y="388" width="130" height="34" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <text x="685" y="411" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">VIERZEHN Tage</text>
+
+  <!-- ============ Marker: BLASE ============ -->
+  <circle cx="330" cy="490" r="16" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+
+  <text x="70" y="452" font-family="Georgia, serif" font-size="19" fill="#111">BLASE</text>
+  <text x="70" y="478" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Es brennt, man muss</text>
+  <text x="70" y="500" font-family="Georgia, serif" font-size="16" fill="#5b7f96">ständig. Sonst nichts.</text>
+  <rect x="70" y="516" width="110" height="34" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <text x="125" y="539" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">drei Tage</text>
+
+  <!-- ============ Pfeil: von der Blase-Stelle hoch zur Niere-Stelle ============ -->
+  <path d="M 344 478 Q 430 430 412 350" fill="none" stroke="#5b7f96" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 412 350 L 402 364 M 412 350 L 424 361" fill="none" stroke="#5b7f96" stroke-width="4" stroke-linecap="round"/>
+  <text x="460" y="440" font-family="Georgia, serif" font-size="16" fill="#111">erreicht die Niere</text>
+
+  <!-- ============ Fusszeile ============ -->
+  <line x1="40" y1="576" x2="860" y2="576" stroke="#c9c4b4" stroke-width="2"/>
+  <text x="40" y="604" font-family="Georgia, serif" font-size="17" fill="#111">Der Unterschied hängt an ZWEI Zeichen: Fieber oder Flankenschmerz. Sonst bleibt es die Blase.</text>
+  <text x="40" y="628" font-family="Georgia, serif" font-size="17" fill="#111">Eine Blasenentzündung wird drei Tage behandelt, eine Nierenbeckenentzündung VIERZEHN.</text>
+</svg>

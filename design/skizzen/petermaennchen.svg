@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1500" viewBox="0 0 900 1500">
+  <!-- Zum Tipp "Petermaennchen: Fischstich im Sand".
+       Zwei Saetze tragen dieses Bild, und beide widersprechen dem Reflex.
+       ERSTENS: heisses Wasser, nicht kaltes. Bei fast jeder anderen
+       Verletzung kuehlt man; hier waermt man, weil die Gifteiweisse
+       hitzeempfindlich sind. Wer das nicht ausdruecklich liest, greift zum
+       kalten Wasser und tut das Gegenteil.
+       ZWEITENS: Die Stelle ist betaeubt und merkt eine Verbrennung nicht.
+       Deshalb steht dieser Satz in einem eigenen Kasten und nicht als
+       Nebensatz hinter der Temperatur — er ist der Unterschied zwischen
+       Behandlung und zweiter Verletzung.
+       KEIN gezeichneter Fisch. Die Lage der Dornen ist mit zwei Woertern
+       gesagt (Kiemendeckel, vordere Rueckenflosse); ein gezeichneter Fisch
+       waere eine Figur, und die gehen hier regelmaessig schief. Ausserdem
+       sieht man das Tier ohnehin nicht — es ist eingegraben. -->
+  <rect width="900" height="1500" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Petermännchen: Fischstich im Sand</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Eines der gefährlichsten Gifttiere Europas. Zur Laichzeit im Frühjahr und</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Sommer sucht es flaches Wasser auf und gräbt sich so ein, dass nur die Augen</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">zu sehen sind — deshalb tritt man darauf, ohne es zu bemerken.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="224" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Erste Hilfe</text>
+
+  <g fill="#111">
+    <circle cx="60" cy="262" r="17"/><circle cx="60" cy="302" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="269">1</text><text x="60" y="309">2</text>
+  </g>
+  <text x="88" y="269" font-family="Georgia, serif" font-size="21" fill="#111">Die Wunde von Stacheln und Geweberesten befreien und desinfizieren.</text>
+  <text x="88" y="309" font-family="Georgia, serif" font-size="23" fill="#111">Ist nicht sofort ärztliche Hilfe erreichbar: den Arm oder das</text>
+  <text x="88" y="337" font-family="Georgia, serif" font-size="23" fill="#111">Bein in gerade noch erträglich HEISSES Wasser tauchen —</text>
+  <text x="88" y="365" font-family="Georgia, serif" font-size="23" fill="#111">etwa 45 Grad.</text>
+  <text x="88" y="401" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Die Gifteiweiße sind hitzeempfindlich. Deshalb HEISS und nicht kalt —</text>
+  <text x="88" y="427" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">anders als bei fast allem anderen.</text>
+
+  <rect x="40" y="461" width="820" height="122" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="499" font-family="Georgia, serif" font-size="26" fill="#a3231a">Die Stelle ist betäubt. Sie merkt eine Verbrennung nicht.</text>
+  <text x="62" y="535" font-family="Georgia, serif" font-size="21" fill="#111">Die Wassertemperatur unbedingt mit der GESUNDEN Hand prüfen — oder</text>
+  <text x="62" y="561" font-family="Georgia, serif" font-size="21" fill="#111">jemanden prüfen lassen.</text>
+
+  <line x1="40" y1="620" x2="860" y2="620" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="660" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wie es verläuft</text>
+  <text x="40" y="698" font-family="Georgia, serif" font-size="21" fill="#111">Der Schmerz setzt SOFORT ein, ist heftigst und breitet sich auf benachbarte</text>
+  <text x="40" y="724" font-family="Georgia, serif" font-size="21" fill="#111">Körperregionen aus. Meist schwillt das Gewebe stark an, manchmal bilden sich</text>
+  <text x="40" y="750" font-family="Georgia, serif" font-size="21" fill="#111">flüssigkeitsgefüllte Blasen — und nach etwa 24 Stunden fühlt sich die Wunde</text>
+  <text x="40" y="776" font-family="Georgia, serif" font-size="21" fill="#111">oft taub an.</text>
+  <text x="40" y="814" font-family="Georgia, serif" font-size="21" fill="#111">Seltener: Brechreiz, Kreislaufkollaps, Herzrhythmusstörungen,</text>
+  <text x="40" y="840" font-family="Georgia, serif" font-size="21" fill="#111">Leistungsminderung oder erhöhte Temperatur.</text>
+
+  <line x1="40" y1="876" x2="860" y2="876" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="916" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wo die Giftorgane sitzen</text>
+  <text x="40" y="954" font-family="Georgia, serif" font-size="21" fill="#111">Je ein nach unten gerichteter Dorn am Kiemendeckel — und die fünf bis acht</text>
+  <text x="40" y="980" font-family="Georgia, serif" font-size="21" fill="#111">Knochenstrahlen der vorderen Rückenflosse. Schon geringste Mengen des</text>
+  <text x="40" y="1006" font-family="Georgia, serif" font-size="21" fill="#111">Giftes können schwere Beschwerden auslösen.</text>
+
+  <line x1="40" y1="1042" x2="860" y2="1042" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1082" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Vorbeugen</text>
+  <text x="40" y="1120" font-family="Georgia, serif" font-size="21" fill="#111">· Im flachen Wasser Bade- oder Strandschuhe tragen.</text>
+  <text x="40" y="1146" font-family="Georgia, serif" font-size="21" fill="#111">· Beim Abnehmen eines Fangs von der Angel oder aus dem Netz Handschuhe.</text>
+  <text x="40" y="1172" font-family="Georgia, serif" font-size="21" fill="#111">· Beim Zubereiten darauf achten, dass sämtliche Dornen und Stacheln</text>
+  <text x="40" y="1198" font-family="Georgia, serif" font-size="21" fill="#111">  entfernt sind.</text>
+
+  <line x1="40" y1="1234" x2="860" y2="1234" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1274" font-family="Georgia, serif" font-size="21" fill="#111">Wenn niemand kommt: An die Stelle der ärztlichen Kontrolle tritt die</text>
+  <text x="40" y="1300" font-family="Georgia, serif" font-size="21" fill="#111">Selbstbeobachtung über Tage. Wird die Einstichstelle in den Stunden und</text>
+  <text x="40" y="1326" font-family="Georgia, serif" font-size="21" fill="#111">Tagen danach wärmer, schmerzhafter oder röter statt besser, spricht das für</text>
+  <text x="40" y="1352" font-family="Georgia, serif" font-size="21" fill="#111">eine Infektion — dann Hilfe suchen, sobald es irgend geht.</text>
+
+  <text x="40" y="1394" font-family="Georgia, serif" font-size="21" fill="#a3231a">Der fehlende Tetanusschutz bleibt das ungelöste Problem dieser Lage:</text>
+  <text x="40" y="1420" font-family="Georgia, serif" font-size="21" fill="#a3231a">Gegen Tetanus gibt es kein Hausmittel.</text>
+
+  <text x="40" y="1460" font-family="Georgia, serif" font-size="19" fill="#111">Die Beobachtungsregel stammt aus der Leitlinie, dort allgemein für Verletzungen durch</text>
+  <text x="40" y="1484" font-family="Georgia, serif" font-size="19" fill="#111">Wassertiere; die Einordnung für fehlende Hilfe ist die dieses Pakets.</text>
+</svg>

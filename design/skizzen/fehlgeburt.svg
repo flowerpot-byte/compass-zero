@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1364" viewBox="0 0 900 1364">
+  <!-- Zum Tipp "Fehlgeburt: was normal ist und was gefaehrlich wird".
+       Der Tipp beginnt mit etwas, das sonst niemand sagt, und das steht
+       deshalb auch im Bild zuerst: Eine Fehlgeburt ist haeufig und kein
+       Versagen. Wer eine Zeichnung zu diesem Thema aufschlaegt, liest diesen
+       Satz als Erstes.
+       Der Kern sind vier Verlaeufe, und die Unterscheidung entscheidet ueber
+       die Gefahr. Als vier Zeilen nebeneinander sieht man, dass sie sich in
+       genau EINEM Merkmal unterscheiden, das man leicht falsch gewichtet.
+       Der rote Satz in der Mitte ist die Falle, die der Tipp woertlich
+       benennt: Nur leichte Kraempfe, aber anhaltende Blutung. Wer die Gefahr
+       am Schmerz misst, unterschaetzt sie. Deshalb steht er allein zwischen
+       den Verlaeufen und den Warnzeichen.
+       Was das Paket NICHT beschreibt, steht am Schluss und mit Begruendung.
+       Ohne diesen Absatz wirkt das Bild unvollstaendig; mit ihm ist die
+       Luecke eine Entscheidung.
+       Ohne Sinnbilder gezeichnet. Es gibt hier nichts zu zeigen, was nicht
+       entweder falsch beruhigen oder verstoeren wuerde. -->
+  <rect width="900" height="1364" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Fehlgeburt: was normal ist und was gefährlich wird</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zuerst das, was sonst niemand sagt</text>
+  <text x="40" y="134" font-family="Georgia, serif" font-size="21" fill="#111">Mindestens zwölf von hundert Schwangerschaften enden von selbst, drei Viertel</text>
+  <text x="40" y="160" font-family="Georgia, serif" font-size="21" fill="#111">davon vor der zehnten Woche. Eine Fehlgeburt ist kein Versagen und meist kein</text>
+  <text x="40" y="186" font-family="Georgia, serif" font-size="21" fill="#111">Zeichen dafür, dass etwas falsch gemacht wurde. Sie ist häufig.</text>
+
+  <line x1="40" y1="222" x2="860" y2="222" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Vier Verlaeufe ============ -->
+  <text x="40" y="262" font-family="Georgia, serif" font-size="23" fill="#111">Vier Verläufe — die Unterscheidung entscheidet über die Gefahr</text>
+
+  <text x="40" y="306" font-family="Georgia, serif" font-size="23" fill="#111">UNAUFHALTSAM</text>
+  <text x="310" y="306" font-family="Georgia, serif" font-size="21" fill="#111">Der Abgang steht unmittelbar bevor. Blutung und</text>
+  <text x="310" y="332" font-family="Georgia, serif" font-size="21" fill="#111">Krämpfe hören NICHT auf.</text>
+
+  <text x="40" y="374" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">VOLLSTÄNDIG</text>
+  <text x="310" y="374" font-family="Georgia, serif" font-size="21" fill="#111">Alles ist abgegangen. Die Schwangerschaftszeichen</text>
+  <text x="310" y="400" font-family="Georgia, serif" font-size="21" fill="#111">verschwinden häufig rasch, Blutung und Schmerz</text>
+  <text x="310" y="426" font-family="Georgia, serif" font-size="21" fill="#111">lassen nach. Der Verlauf, der gut ausgeht.</text>
+
+  <text x="40" y="468" font-family="Georgia, serif" font-size="23" fill="#a3231a">UNVOLLSTÄNDIG</text>
+  <text x="310" y="468" font-family="Georgia, serif" font-size="21" fill="#111">Ein Teil bleibt zurück, meist Reste des Mutter-</text>
+  <text x="310" y="494" font-family="Georgia, serif" font-size="21" fill="#111">kuchens. NUR LEICHTE KRÄMPFE, aber die Blutung</text>
+  <text x="310" y="520" font-family="Georgia, serif" font-size="21" fill="#111">ist ANHALTEND und oft ZU STARK.</text>
+
+  <text x="40" y="562" font-family="Georgia, serif" font-size="23" fill="#111">VERHALTEN</text>
+  <text x="310" y="562" font-family="Georgia, serif" font-size="21" fill="#111">Seit mindestens einem Monat beendet, aber nichts</text>
+  <text x="310" y="588" font-family="Georgia, serif" font-size="21" fill="#111">ist abgegangen. Kein Fieber, bräunlicher Ausfluss,</text>
+  <text x="310" y="614" font-family="Georgia, serif" font-size="21" fill="#111">keine freie Blutung, kein Schmerz. Gerade weil es</text>
+  <text x="310" y="640" font-family="Georgia, serif" font-size="21" fill="#111">so unauffällig ist, wird es lange übersehen.</text>
+
+  <line x1="40" y1="676" x2="860" y2="676" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Falle ============ -->
+  <text x="40" y="716" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wer die Gefahr am Schmerz misst, unterschätzt sie.</text>
+  <text x="40" y="750" font-family="Georgia, serif" font-size="21" fill="#111">Es ist die Blutung, die zählt, nicht der Schmerz.</text>
+
+  <line x1="40" y1="786" x2="860" y2="786" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Worauf zu achten ist ============ -->
+  <text x="40" y="826" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Worauf zu achten ist, wenn niemand kommt</text>
+  <text x="40" y="864" font-family="Georgia, serif" font-size="21" fill="#111">· Hört die Blutung nach dem Abgang nicht auf oder wird stärker, muss man von</text>
+  <text x="40" y="890" font-family="Georgia, serif" font-size="21" fill="#111">  zurückgebliebenem Gewebe ausgehen.</text>
+  <text x="40" y="916" font-family="Georgia, serif" font-size="21" fill="#111">· Fieber, faulig riechender Ausfluss oder ein auf Druck schmerzender Unterbauch:</text>
+  <text x="40" y="942" font-family="Georgia, serif" font-size="21" fill="#111">  eine Infektion ist dazugekommen.</text>
+  <text x="40" y="968" font-family="Georgia, serif" font-size="21" fill="#111">· Blässe, kalter Schweiß und schneller Puls sind der Notfall — auch wenn von</text>
+  <text x="40" y="994" font-family="Georgia, serif" font-size="21" fill="#111">  außen wenig zu sehen ist.</text>
+  <text x="40" y="1020" font-family="Georgia, serif" font-size="21" fill="#111">· Was abgeht, wird aufgehoben und angesehen. Fehlt offensichtlich etwas,</text>
+  <text x="40" y="1046" font-family="Georgia, serif" font-size="21" fill="#111">  spricht das für einen unvollständigen Verlauf.</text>
+
+  <line x1="40" y1="1082" x2="860" y2="1082" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Was bleibt, und was hier nicht steht ============ -->
+  <text x="40" y="1122" font-family="Georgia, serif" font-size="21" fill="#111">Was ein Laie gegen die Blutung tun kann, ist wenig: flach lagern, warm halten,</text>
+  <text x="40" y="1148" font-family="Georgia, serif" font-size="21" fill="#111">trinken lassen, den Puls beobachten und alles daransetzen, Hilfe zu erreichen.</text>
+  <text x="40" y="1174" font-family="Georgia, serif" font-size="21" fill="#111">Die kräftige Massage der Gebärmutter ist ein Griff für Ausgebildete.</text>
+
+  <text x="40" y="1214" font-family="Georgia, serif" font-size="23" fill="#a3231a">Eine anhaltende Blutung nach einer Fehlgeburt ist einer der Fälle,</text>
+  <text x="40" y="1242" font-family="Georgia, serif" font-size="23" fill="#a3231a">für die sich ein weiter Weg lohnt.</text>
+
+  <text x="40" y="1282" font-family="Georgia, serif" font-size="19" fill="#111">Die Ausschabung beschreibt dieses Paket nicht: Sie muss vorher unter Anleitung geübt</text>
+  <text x="40" y="1306" font-family="Georgia, serif" font-size="19" fill="#111">sein, darf niemals mit Kraft ausgeführt werden, und sonst entsteht leicht ein Loch in</text>
+  <text x="40" y="1330" font-family="Georgia, serif" font-size="19" fill="#111">der Gebärmutter. Das ist nichts, was jemand nach einem Text tun kann.</text>
+</svg>

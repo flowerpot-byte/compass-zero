@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Wortmarke</title>
+  <text x="256" y="200" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="96" letter-spacing="2" fill="#0A0A0A">Compass</text>
+  <g fill="#0A0A0A">
+    <circle cx="57" cy="252" r="8"/><circle cx="77" cy="252" r="8"/><circle cx="97" cy="252" r="8"/><circle cx="117" cy="252" r="8"/><circle cx="137" cy="252" r="8"/>
+    <circle cx="137" cy="272" r="8"/>
+    <circle cx="117" cy="292" r="8"/>
+    <circle cx="97" cy="312" r="8"/>
+    <circle cx="77" cy="332" r="8"/>
+    <circle cx="57" cy="352" r="8"/>
+    <circle cx="57" cy="372" r="8"/><circle cx="77" cy="372" r="8"/><circle cx="97" cy="372" r="8"/><circle cx="117" cy="372" r="8"/><circle cx="137" cy="372" r="8"/>
+    <circle cx="163" cy="252" r="8"/><circle cx="183" cy="252" r="8"/><circle cx="203" cy="252" r="8"/><circle cx="223" cy="252" r="8"/><circle cx="243" cy="252" r="8"/>
+    <circle cx="163" cy="272" r="8"/>
+    <circle cx="163" cy="292" r="8"/>
+    <circle cx="163" cy="312" r="8"/><circle cx="183" cy="312" r="8"/><circle cx="203" cy="312" r="8"/><circle cx="223" cy="312" r="8"/>
+    <circle cx="163" cy="332" r="8"/>
+    <circle cx="163" cy="352" r="8"/>
+    <circle cx="163" cy="372" r="8"/><circle cx="183" cy="372" r="8"/><circle cx="203" cy="372" r="8"/><circle cx="223" cy="372" r="8"/><circle cx="243" cy="372" r="8"/>
+    <circle cx="269" cy="252" r="8"/><circle cx="289" cy="252" r="8"/><circle cx="309" cy="252" r="8"/><circle cx="329" cy="252" r="8"/>
+    <circle cx="269" cy="272" r="8"/><circle cx="349" cy="272" r="8"/>
+    <circle cx="269" cy="292" r="8"/><circle cx="349" cy="292" r="8"/>
+    <circle cx="269" cy="312" r="8"/><circle cx="289" cy="312" r="8"/><circle cx="309" cy="312" r="8"/><circle cx="329" cy="312" r="8"/>
+    <circle cx="269" cy="332" r="8"/><circle cx="309" cy="332" r="8"/>
+    <circle cx="269" cy="352" r="8"/><circle cx="329" cy="352" r="8"/>
+    <circle cx="269" cy="372" r="8"/><circle cx="349" cy="372" r="8"/>
+    <circle cx="395" cy="252" r="8"/><circle cx="415" cy="252" r="8"/><circle cx="435" cy="252" r="8"/>
+    <circle cx="375" cy="272" r="8"/><circle cx="455" cy="272" r="8"/>
+    <circle cx="375" cy="292" r="8"/><circle cx="455" cy="292" r="8"/>
+    <circle cx="375" cy="312" r="8"/><circle cx="455" cy="312" r="8"/>
+    <circle cx="375" cy="332" r="8"/><circle cx="455" cy="332" r="8"/>
+    <circle cx="375" cy="352" r="8"/><circle cx="455" cy="352" r="8"/>
+    <circle cx="395" cy="372" r="8"/><circle cx="415" cy="372" r="8"/><circle cx="435" cy="372" r="8"/>
+  </g>
+  <g fill="#FF4D00">
+    <circle cx="395" cy="352" r="8"/>
+    <circle cx="415" cy="312" r="8"/>
+    <circle cx="435" cy="272" r="8"/>
+  </g>
+</svg>

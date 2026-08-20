@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1250" viewBox="0 0 900 1250">
+  <!-- Zum Tipp "Wenn jemand zusammenbricht: vier Dinge, die helfen".
+       Die Behandlung passt in vier Woerter, und genau so steht sie im Bild:
+       vier grosse Woerter links, die Ausfuehrung rechts. Wer nur die vier
+       Woerter behaelt, hat das Wichtigste.
+       Das vierte ist der Punkt, den man falsch macht, WEIL man es gut meint:
+       jemanden zudecken und in Ruhe lassen. Es steht deshalb nicht am Rand,
+       sondern als gleichwertiges viertes Wort, mit dem gruenen Satz
+       darunter, der den Grund nennt.
+       Die 72 Stunden sind die nuetzlichste Zahl des Tipps und stehen gross.
+       Ihr Wert liegt nicht im Messen, sondern im Aushalten: Wer die Zahl
+       kennt, gibt die Person nicht am ersten Abend auf.
+       Der Abschnitt darunter grenzt ab, wann es KEINE voruebergehende
+       Reaktion mehr ist. Ohne ihn liest sich das Bild wie ein Versprechen.
+       Bewusst ohne Figur gezeichnet: Ein dargestellter Zusammengebrochener
+       waere ein Bild von einem Zustand, um den es hier gar nicht geht. Es
+       geht um das, was die anderen tun. -->
+  <rect width="900" height="1250" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Wenn jemand zusammenbricht: vier Dinge, die helfen</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Starr, weinend, verwirrt, zittrig oder einfach abwesend — nach Tagen unter</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Druck ist das keine Charakterschwäche und meistens keine Krankheit.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die vier Dinge ============ -->
+  <text x="40" y="198" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die vier Dinge — und alle vier kosten nichts</text>
+
+  <text x="40" y="246" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">RUHE</text>
+  <text x="290" y="246" font-family="Georgia, serif" font-size="21" fill="#111">Einen Platz und eine Zeit zum Ausruhen schaffen. Nicht</text>
+  <text x="290" y="272" font-family="Georgia, serif" font-size="21" fill="#111">„gleich weiter“, sondern wirklich aus der Lage heraus.</text>
+
+  <text x="40" y="314" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">ZUSPRUCH</text>
+  <text x="290" y="314" font-family="Georgia, serif" font-size="21" fill="#111">Sagen, dass das vorübergeht. Nicht beschwichtigen,</text>
+  <text x="290" y="340" font-family="Georgia, serif" font-size="21" fill="#111">sondern die Erwartung aussprechen: Das wird besser,</text>
+  <text x="290" y="366" font-family="Georgia, serif" font-size="21" fill="#111">und du wirst wieder mitmachen. Genau dieser Satz ist</text>
+  <text x="290" y="392" font-family="Georgia, serif" font-size="21" fill="#111">Teil der Behandlung, nicht Höflichkeit.</text>
+
+  <text x="40" y="434" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">AUFFÜLLEN</text>
+  <text x="290" y="434" font-family="Georgia, serif" font-size="21" fill="#111">Essen, Trinken, Waschen. In dieser Reihenfolge und</text>
+  <text x="290" y="460" font-family="Georgia, serif" font-size="21" fill="#111">ohne Umschweife.</text>
+
+  <text x="40" y="502" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">ZUTRAUEN</text>
+  <text x="40" y="528" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">ZURÜCKGEBEN</text>
+  <text x="290" y="502" font-family="Georgia, serif" font-size="21" fill="#111">Die Person NICHT in die Kranken-Rolle schieben. Sie</text>
+  <text x="290" y="528" font-family="Georgia, serif" font-size="21" fill="#111">behält ihre Rolle in der Gruppe. Einfache, überschau-</text>
+  <text x="290" y="554" font-family="Georgia, serif" font-size="21" fill="#111">bare Aufgaben geben: etwas prüfen, etwas herrichten,</text>
+  <text x="290" y="580" font-family="Georgia, serif" font-size="21" fill="#111">etwas zählen.</text>
+
+  <text x="40" y="620" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Wer wieder etwas tut, das gebraucht wird, kommt schneller zurück als jemand,</text>
+  <text x="40" y="646" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">den man zudeckt und in Ruhe lässt.</text>
+
+  <line x1="40" y1="682" x2="860" y2="682" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Zahl ============ -->
+  <text x="40" y="722" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wie lange es dauert — die nützlichste Zahl im Tipp</text>
+  <text x="40" y="778" font-family="Georgia, serif" font-size="40" fill="#a3231a">72 Stunden</text>
+  <text x="40" y="820" font-family="Georgia, serif" font-size="21" fill="#111">Eine Belastungsreaktion dieser Art klingt größtenteils innerhalb von</text>
+  <text x="40" y="846" font-family="Georgia, serif" font-size="21" fill="#111">72 Stunden ab, wenn Ruhe, Zuspruch, Auffüllen und Zutrauen da sind.</text>
+
+  <text x="40" y="886" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Wer das weiß, wartet die drei Tage ab, statt am ersten Abend die Person</text>
+  <text x="40" y="912" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">aufzugeben.</text>
+
+  <line x1="40" y1="948" x2="860" y2="948" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Wann es mehr ist ============ -->
+  <text x="40" y="988" font-family="Georgia, serif" font-size="23" fill="#a3231a">Woran man merkt, dass es mehr ist</text>
+  <text x="40" y="1026" font-family="Georgia, serif" font-size="21" fill="#111">Bleibt es nach diesen Tagen unverändert oder wird es schlimmer, ist es keine</text>
+  <text x="40" y="1052" font-family="Georgia, serif" font-size="21" fill="#111">vorübergehende Reaktion mehr. Auch eine Reaktion, die erst WOCHEN NACH dem</text>
+  <text x="40" y="1078" font-family="Georgia, serif" font-size="21" fill="#111">Ereignis auftritt, gehört nicht in dieses Muster.</text>
+
+  <line x1="40" y1="1114" x2="860" y2="1114" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Falle ============ -->
+  <text x="40" y="1154" font-family="Georgia, serif" font-size="23" fill="#a3231a">Eine Falle, beim Namen genannt</text>
+  <text x="40" y="1192" font-family="Georgia, serif" font-size="21" fill="#111">Rausch und Entzug sehen einer Belastungsreaktion ähnlich. Wer nicht weiß, ob</text>
+  <text x="40" y="1218" font-family="Georgia, serif" font-size="21" fill="#111">jemand zusammengebrochen ist oder getrunken hat, muss danach fragen.</text>
+</svg>

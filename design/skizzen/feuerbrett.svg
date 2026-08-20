@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+  <!-- Zur Anleitung "Zuenden ohne Streichhoelzer", Schritt 10: das Feuerbrett.
+       Die entscheidende Stelle des ganzen Verfahrens sitzt an der UNTERSEITE
+       des Bretts und ist deshalb unsichtbar, wenn man nur den Aufbau von der
+       Seite zeigt. Der V-Ausschnitt laeuft laut Quelle VOM RAND zur
+       Vertiefung: am Rand breit, zur Vertiefung hin spitz. Nur so faellt das
+       heisse Pulver nach unten heraus und nicht in die Bohrung zurueck. -->
+  <rect width="900" height="640" fill="#faf9f6"/>
+  <text x="40" y="52" font-family="Georgia, serif" font-size="30" fill="#111">Feuerbrett: die Kerbe, auf die es ankommt</text>
+
+  <!-- ===== oben: Brett von oben ===== -->
+  <text x="60" y="106" font-family="Georgia, serif" font-size="24" fill="#111">Von oben</text>
+
+  <rect x="180" y="128" width="540" height="200" fill="#e6e2d6" stroke="#111" stroke-width="5"/>
+  <!-- Vertiefung fuer den Bohrer -->
+  <circle cx="450" cy="212" r="40" fill="#c9c4b4" stroke="#111" stroke-width="5"/>
+  <!-- V-Ausschnitt: am Brettrand breit, zur Vertiefung hin spitz -->
+  <path d="M 392 328 L 508 328 L 450 218 Z" fill="#faf9f6" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+
+  <g font-family="Georgia, serif" font-size="23" fill="#111">
+    <line x1="450" y1="152" x2="450" y2="176" stroke="#111" stroke-width="2"/>
+    <text x="500" y="112">Vertiefung für den Bohrer</text>
+    <line x1="524" y1="300" x2="640" y2="368" stroke="#111" stroke-width="2"/>
+    <text x="646" y="376">V-Ausschnitt</text>
+  </g>
+  <text x="60" y="300" font-family="Georgia, serif" font-size="22" fill="#111">etwa 2 cm</text>
+  <text x="60" y="328" font-family="Georgia, serif" font-size="22" fill="#111">vom Rand</text>
+
+  <!-- ===== unten: Schnitt durch Brett und Zunder ===== -->
+  <text x="60" y="440" font-family="Georgia, serif" font-size="24" fill="#111">Von der Seite geschnitten</text>
+
+  <rect x="200" y="462" width="500" height="34" fill="#e6e2d6" stroke="#111" stroke-width="5"/>
+  <path d="M 414 462 L 450 496 L 486 462 Z" fill="#faf9f6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Zunderbuendel darunter -->
+  <ellipse cx="450" cy="552" rx="86" ry="34" fill="#c9c4b4" stroke="#111" stroke-width="5"/>
+  <g stroke="#111" stroke-width="2" opacity="0.7">
+    <line x1="386" y1="540" x2="444" y2="566"/><line x1="412" y1="532" x2="472" y2="562"/>
+    <line x1="444" y1="532" x2="500" y2="556"/><line x1="392" y1="566" x2="452" y2="540"/>
+    <line x1="420" y1="572" x2="486" y2="538"/>
+  </g>
+
+  <!-- Pfeil: das Pulver faellt durch die Kerbe nach unten -->
+  <g stroke="#d65a1a" stroke-width="5" fill="none">
+    <line x1="450" y1="496" x2="450" y2="524"/>
+    <path d="M 450 524 l -11 -18 M 450 524 l 11 -18"/>
+  </g>
+
+  <g font-family="Georgia, serif" font-size="23" fill="#111">
+    <line x1="536" y1="552" x2="626" y2="552" stroke="#111" stroke-width="2"/>
+    <text x="634" y="560">Zunder</text>
+  </g>
+  <text x="60" y="614" font-family="Georgia, serif" font-size="22" fill="#d65a1a">Durch die Kerbe fällt das heiße Pulver nach unten auf den Zunder.</text>
+</svg>

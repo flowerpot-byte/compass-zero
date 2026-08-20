@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Tipp: wasser-pflanzenbeutel (Beutel um einen belaubten Ast).
+     Gezeigte Aussage: Bei dieser Bauart wird die Oeffnung des Beutels
+     luftdicht um den Zweig gebunden, und der Ast wird so heruntergebunden,
+     dass sein Ende TIEFER haengt als die Oeffnung. Nur an diesem tiefsten
+     Punkt sammelt sich das Wasser. Dieser raeumliche Zusammenhang, oben
+     die Oeffnung, unten der Sammelpunkt, laesst sich in Worten nur
+     umstaendlich beschreiben, im Bild aber auf einen Blick zeigen, deshalb
+     die Wahl dieser einen Aussage. Kleine Ergaenzung unten rechts, bewusst
+     kleiner gezeichnet: ein eingebundener Halm oder Schlauch erlaubt
+     Abzapfen, ohne den Beutel zu oeffnen. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" font-family="Georgia, serif">
+
+  <!-- Grundflaeche deckt die ganze Leinwand ab -->
+  <rect x="0" y="0" width="900" height="600" fill="#faf9f6"/>
+
+  <!-- Titel und Unterzeile -->
+  <text x="50" y="46" font-size="26" fill="#111" font-family="Georgia, serif">Beutel um den belaubten Ast</text>
+  <text x="450" y="72" text-anchor="middle" font-size="16" font-style="italic" fill="#111" font-family="Georgia, serif">Die einfachere von zwei Bauarten, um Wasser aus Blättern zu gewinnen</text>
+
+  <!-- Baumstamm-Stumpf, aus dem der Ast waechst -->
+  <path d="M55,150 L95,150 C100,150 103,155 103,162 L100,370 C100,378 95,383 88,383 L62,383 C55,383 50,378 50,370 L53,162 C53,155 55,150 55,150 Z" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+
+  <!-- Belaubter Ast: ein durchgehender Umriss, der oben am Stamm beginnt,
+       durch die Halsoeffnung des Beutels laeuft und darin nach unten haengt -->
+  <path d="M100,212 C180,195 260,205 320,225 C350,235 385,270 405,320 C418,352 424,385 424,410 L412,412 C410,388 402,358 388,328 C368,282 335,248 305,238 C250,222 180,214 102,228 Z" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+
+  <!-- Blaetter ausserhalb des Beutels, am unverpackten Teil des Astes -->
+  <path d="M150,205 C160,182 184,183 188,206 C184,227 160,228 150,205 Z" fill="#d9c98a" stroke="#111" stroke-width="1.5"/>
+  <line x1="153" y1="205" x2="185" y2="205" stroke="#111" stroke-width="1"/>
+  <path d="M205,195 C217,172 241,174 244,197 C239,218 214,219 205,195 Z" fill="#d9c98a" stroke="#111" stroke-width="1.5"/>
+  <line x1="208" y1="195" x2="241" y2="196" stroke="#111" stroke-width="1"/>
+
+  <!-- Der durchsichtige Beutel: ein durchgehender Umriss, oben eng am Zweig,
+       unten weit, damit das haengende Astende darin Platz hat -->
+  <path d="M300,222 C255,245 235,300 245,350 C252,392 280,425 325,438 C365,450 405,432 420,398 C435,362 430,310 415,270 C403,240 375,218 340,212 C325,209 310,213 300,222 Z" fill="#e6e2d6" fill-opacity="0.4" stroke="#111" stroke-width="2"/>
+
+  <!-- Blaetter innerhalb des Beutels -->
+  <path d="M308,255 C321,230 344,232 347,256 C342,277 316,278 308,255 Z" fill="#d9c98a" stroke="#111" stroke-width="1.5"/>
+  <line x1="311" y1="255" x2="344" y2="255" stroke="#111" stroke-width="1"/>
+  <path d="M340,300 C354,275 380,277 383,301 C378,323 351,324 340,300 Z" fill="#d9c98a" stroke="#111" stroke-width="1.5"/>
+  <line x1="343" y1="300" x2="380" y2="300" stroke="#111" stroke-width="1"/>
+  <path d="M355,350 C369,326 395,328 398,352 C393,374 366,375 355,350 Z" fill="#d9c98a" stroke="#111" stroke-width="1.5"/>
+  <line x1="358" y1="350" x2="395" y2="351" stroke="#111" stroke-width="1"/>
+  <path d="M345,392 C359,369 385,371 388,394 C383,415 357,416 345,392 Z" fill="#d9c98a" stroke="#111" stroke-width="1.5"/>
+  <line x1="348" y1="392" x2="385" y2="393" stroke="#111" stroke-width="1"/>
+
+  <!-- Schnur, mit der die Beutel-Oeffnung luftdicht um den Zweig gebunden ist -->
+  <ellipse cx="322" cy="228" rx="28" ry="9" fill="none" stroke="#111" stroke-width="3"/>
+
+  <!-- Wasser, das sich am tiefsten Punkt sammelt, nahe dem haengenden Astende -->
+  <path d="M391,420 C391,410 403,410 403,420 C403,431 394,438 387,433 C380,428 385,422 391,420 Z" fill="#5b7f96" stroke="#111" stroke-width="1"/>
+
+  <!-- Hilfslinien: Hoehe der Oeffnung oben, Hoehe des Astendes unten -->
+  <line x1="360" y1="228" x2="450" y2="228" stroke="#5b7f96" stroke-width="2" stroke-dasharray="7,6"/>
+  <line x1="450" y1="228" x2="860" y2="228" stroke="#5b7f96" stroke-width="2" stroke-dasharray="7,6"/>
+  <line x1="430" y1="419" x2="450" y2="418" stroke="#5b7f96" stroke-width="2" stroke-dasharray="7,6"/>
+  <line x1="450" y1="418" x2="860" y2="418" stroke="#5b7f96" stroke-width="2" stroke-dasharray="7,6"/>
+
+  <!-- Senkrechter Pfeil: der Abstand zwischen Oeffnung und Astende -->
+  <line x1="860" y1="232" x2="860" y2="414" stroke="#5b7f96" stroke-width="2"/>
+  <polygon points="860,220 854,232 866,232" fill="#5b7f96"/>
+  <polygon points="860,426 854,414 866,414" fill="#5b7f96"/>
+
+  <!-- Beschriftungen der Hilfslinien -->
+  <text x="600" y="205" font-size="16" fill="#111" font-family="Georgia, serif">Öffnung: luftdicht gebunden</text>
+  <text x="600" y="328" font-size="16" fill="#111" font-family="Georgia, serif">das Ende hängt tiefer</text>
+  <text x="600" y="398" font-size="16" fill="#111" font-family="Georgia, serif">dort sammelt sich das Wasser</text>
+
+  <!-- Unterzeile: die Regel in Worten, als Ergaenzung zum Bild -->
+  <text x="50" y="475" font-size="18" fill="#111" font-family="Georgia, serif">Das Astende hängt tiefer als die Öffnung —</text>
+  <text x="50" y="499" font-size="18" fill="#111" font-family="Georgia, serif">dort sammelt sich das Wasser.</text>
+
+  <text x="50" y="542" font-size="18" fill="#d65a1a" font-family="Georgia, serif">Keine giftigen Pflanzen verwenden.</text>
+  <text x="50" y="566" font-size="18" fill="#d65a1a" font-family="Georgia, serif">Der Beutel entgiftet nichts, er sammelt nur.</text>
+
+  <!-- Kleine Ergaenzung, bewusst klein gezeichnet: Halm oder Schlauch zum Abzapfen -->
+  <text x="600" y="448" font-size="16" font-style="italic" fill="#111" font-family="Georgia, serif">Zusatz: mit Halm zum Abzapfen</text>
+
+  <path d="M678,460 C658,472 651,497 658,517 C665,534 685,544 705,540 C723,536 733,520 731,500 C729,482 715,466 695,460 C688,458 681,458 678,460 Z" fill="#e6e2d6" fill-opacity="0.4" stroke="#111" stroke-width="1.5"/>
+  <ellipse cx="693" cy="464" rx="14" ry="5" fill="none" stroke="#111" stroke-width="2"/>
+  <path d="M698,470 L743,487 L741,495 L696,478 Z" fill="#d9c98a" stroke="#111" stroke-width="1"/>
+  <circle cx="745" cy="491" r="5" fill="#faf9f6" stroke="#111" stroke-width="1.5"/>
+  <path d="M694,514 C694,510 700,510 700,514 C700,519 696,522 692,520 C689,518 691,515 694,514 Z" fill="#5b7f96" stroke="#111" stroke-width="1"/>
+
+  <text x="600" y="572" font-size="16" fill="#111" font-family="Georgia, serif">Halm oder Schlauch eingebunden —</text>
+  <text x="600" y="592" font-size="16" fill="#111" font-family="Georgia, serif">abzapfen ohne öffnen</text>
+
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <!-- Zum Tipp erste-hilfe-knochenbruch-versorgen.
+
+       GEZEIGTE AUSSAGE: "Stelle die Bruchstelle ruhig und bewege sie nicht.
+       Unternimm keinen Einrenkungs- oder Bewegungsversuch - das ist der
+       wichtigste Satz an dieser Stelle. Polstere die verletzte Gliedmasse
+       mit geeignetem Material um, etwa festgerollten Kleidungsstuecken,
+       Decken oder Kissen."
+
+       Der Unterschied ist eine SILHOUETTE und darum ein Bild wert: Links
+       bleibt das Bein in dem Winkel, in dem es gefunden wurde, und das
+       Polster fuellt den Winkel aus. Rechts ist dasselbe Bein gerade
+       gezogen - eine voellig andere Umrisslinie, die man ohne zu lesen
+       erkennt.
+
+       Signalfarbe genau einmal, am geradegezogenen Bruch: Das ist die
+       Handlung, die der Text als wichtigsten Satz verbietet.
+
+       Neubau am 04.08.2026. Die erste Fassung hatte zwei harte Fehler.
+       Erstens war der SICHTBARE Text ohne Umlaute geschrieben ("zaehlt",
+       "unauffaellig", "Gliedmasse") - die ae/oe/ue-Schreibung gilt in
+       diesem Projekt NUR fuer Kommentare. Zweitens zeigte sie gross die
+       eng gefasste AUSNAHME (geradeziehen bei kalter, blasser Gliedmasse,
+       und nur durch Ausgebildete in abgelegener Lage), waehrend die Regel
+       klein darunter stand. Damit warb das Bild fuer genau das, was der
+       Tipp verbietet. -->
+
+  <rect width="900" height="560" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Knochenbruch: polstern, nicht geradebiegen</text>
+  <text x="40" y="76" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Dasselbe Bein, von der Seite. Der Unterschied ist der Umriss.</text>
+
+  <line x1="452" y1="104" x2="452" y2="436" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- ================= LINKS: so wie gefunden, gepolstert ================= -->
+  <text x="60" y="132" font-family="Georgia, serif" font-size="19" fill="#111">so richtig</text>
+  <line x1="60" y1="436" x2="424" y2="436" stroke="#111" stroke-width="3"/>
+
+  <!-- Polsterrollen, liegen unter und neben dem Bein -->
+  <g fill="#d9c98a" stroke="#111" stroke-width="2.5">
+    <rect x="272" y="386" width="84" height="34" rx="16"/>
+    <rect x="132" y="352" width="76" height="34" rx="16"/>
+  </g>
+  <g stroke="#111" stroke-width="1.4" opacity="0.6">
+    <line x1="300" y1="390" x2="300" y2="416"/><line x1="326" y1="390" x2="326" y2="416"/>
+    <line x1="156" y1="356" x2="156" y2="382"/><line x1="182" y1="356" x2="182" y2="382"/>
+  </g>
+
+  <!-- Bein: Oberschenkel waagerecht, Unterschenkel im gefundenen Winkel -->
+  <path d="M 126,408 L 252,408" stroke="#111" stroke-width="46" stroke-linecap="round" fill="none"/>
+  <path d="M 126,408 L 252,408" stroke="#e6e2d6" stroke-width="40" stroke-linecap="round" fill="none"/>
+  <path d="M 252,408 L 356,340" stroke="#111" stroke-width="46" stroke-linecap="round" fill="none"/>
+  <path d="M 252,408 L 356,340" stroke="#e6e2d6" stroke-width="40" stroke-linecap="round" fill="none"/>
+
+  <!-- Bruchstelle -->
+  <path d="M 244,392 L 258,404 L 246,414" fill="none" stroke="#111" stroke-width="3"/>
+
+  <text x="60" y="470" font-family="Georgia, serif" font-size="18" fill="#111">Das Polster füllt den Winkel aus,</text>
+  <text x="60" y="492" font-family="Georgia, serif" font-size="18" fill="#111">das Bein bleibt, wie es liegt.</text>
+
+  <!-- ================= RECHTS: geradegezogen, verboten ================= -->
+  <text x="492" y="132" font-family="Georgia, serif" font-size="19" fill="#111">so nicht</text>
+  <line x1="482" y1="436" x2="856" y2="436" stroke="#111" stroke-width="3"/>
+
+  <!-- Brett, auf das gezwungen wird -->
+  <rect x="518" y="414" width="304" height="18" rx="6" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+
+  <!-- Bein, gerade gezogen: ganz andere Umrisslinie -->
+  <path d="M 534,390 L 826,390" stroke="#111" stroke-width="46" stroke-linecap="round" fill="none"/>
+  <path d="M 534,390 L 826,390" stroke="#e6e2d6" stroke-width="40" stroke-linecap="round" fill="none"/>
+
+  <!-- Zug am Fuss -->
+  <line x1="838" y1="390" x2="872" y2="390" stroke="#111" stroke-width="4"/>
+  <path d="M 880,390 L 864,382 L 864,398 Z" fill="#111"/>
+
+  <!-- Die eine Signalstelle: der Bruch, der geradegezogen wurde -->
+  <circle cx="660" cy="390" r="30" fill="none" stroke="#d65a1a" stroke-width="6"/>
+  <line x1="640" y1="370" x2="680" y2="410" stroke="#d65a1a" stroke-width="6"/>
+
+  <text x="492" y="470" font-family="Georgia, serif" font-size="18" fill="#111">Kein Einrenken, kein Biegen,</text>
+  <text x="492" y="492" font-family="Georgia, serif" font-size="18" fill="#111">auch nicht auf ein Brett.</text>
+
+  <text x="40" y="536" font-family="Georgia, serif" font-size="18" fill="#5b7f96">Die eng gefasste Ausnahme steht im Text und gilt nur für Ausgebildete in abgelegener Lage.</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 48">
+  <title>Compass Zero – Icons der Lexikon-Kategorien</title>
+  <desc>Gleiche Strichsprache wie bereich-icons.svg: 3 px Strich, runde Enden
+  und Ecken, monochrom. Der Signalton FF4D00 bleibt kritischen Stellen
+  vorbehalten und kommt nur beim Erste-Hilfe-Kreuz und beim Taktik-Schild
+  vor.</desc>
+  <g fill="none" stroke="#0A0A0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Erste Hilfe: Koffer mit Kreuz -->
+    <g transform="translate(0,0)">
+      <path d="M8 16 H40 V38 H8 Z"/>
+      <path d="M18 16 V11 H30 V16"/>
+      <path d="M24 22 V32" stroke="#FF4D00"/>
+      <path d="M19 27 H29" stroke="#FF4D00"/>
+    </g>
+
+    <!-- Medizin: Kolben, der laengere Weg nach dem Notfall -->
+    <g transform="translate(48,0)">
+      <path d="M20 9 V21 L11 37 H37 L28 21 V9"/>
+      <path d="M17 9 H31"/>
+      <path d="M15 29 H33"/>
+    </g>
+
+    <!-- Wasser: Tropfen -->
+    <g transform="translate(96,0)">
+      <path d="M24 9 C24 9 35 22 35 29 A11 11 0 0 1 13 29 C13 22 24 9 24 9 Z"/>
+    </g>
+
+    <!-- Nahrung: Schale mit Aufsteigendem -->
+    <g transform="translate(144,0)">
+      <path d="M10 26 H38 A14 14 0 0 1 10 26 Z"/>
+      <path d="M8 40 H40"/>
+      <path d="M19 19 C19 15 22 15 22 11"/>
+      <path d="M27 19 C27 15 30 15 30 11"/>
+    </g>
+
+    <!-- Bauanleitungen: Hammer -->
+    <g transform="translate(192,0)">
+      <path d="M13 37 L27 23"/>
+      <path d="M25 11 L38 24 L33 29 L20 16 Z"/>
+    </g>
+
+    <!-- Agrikultur: Keimling -->
+    <g transform="translate(240,0)">
+      <path d="M24 40 V21"/>
+      <path d="M24 25 C16 25 12 20 12 13 C20 13 24 18 24 25 Z"/>
+      <path d="M24 25 C32 25 36 20 36 13 C28 13 24 18 24 25 Z"/>
+    </g>
+
+    <!-- Taktisch: Schild, Gefahr vermeiden statt suchen -->
+    <g transform="translate(288,0)">
+      <path d="M24 8 L38 14 V26 C38 34 32 38 24 42 C16 38 10 34 10 26 V14 Z"/>
+      <path d="M24 19 V27" stroke="#FF4D00"/>
+      <path d="M24 32 V32.5" stroke="#FF4D00"/>
+    </g>
+
+    <!-- Orientierung: Windrose, vier Striche und die Nordnadel -->
+    <g transform="translate(336,0)">
+      <circle cx="24" cy="25" r="15"/>
+      <path d="M24 10 V6"/>
+      <path d="M24 40 V44"/>
+      <path d="M9 25 H5"/>
+      <path d="M39 25 H43"/>
+      <path d="M24 25 L29 32 L24 14 L19 32 Z"/>
+    </g>
+    <!-- Verletzt: Pflaster, schraeg. Die runden Enden der ersten Fassung haben
+    es bei Anzeigegroesse zur Tablette gemacht; mit geraden Enden liest es sich
+    eindeutig. Der Signalton sitzt auf der Wundauflage. -->
+    <g transform="translate(384,0)">
+      <g transform="rotate(-30 24 24)">
+        <path d="M12 19 H36 V29 H12 Z"/>
+        <path d="M19 19 V29"/>
+        <path d="M29 19 V29"/>
+        <path d="M22 24 H26" stroke="#FF4D00"/>
+      </g>
+    </g>
+  </g>
+</svg>
+

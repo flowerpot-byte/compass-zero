@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1458" viewBox="0 0 900 1458">
+  <!-- Zum Tipp "Verrenkung: was vor jedem Versuch gilt".
+       Der Tipp nennt drei Regeln VOR dem Versuch, und die erste verhindert
+       den schlimmsten Fehler. Genau deshalb stehen sie nummeriert und nicht
+       als Absatzfolge: Wer im Ernstfall nur die erste liest, hat schon das
+       Wichtigste.
+       Die dritte Regel ist ein Grundprinzip, kein Handgriff, und sie
+       widerspricht der Vorstellung, die jeder mitbringt: Man drueckt den
+       Knochen nicht hinein, man macht Platz und laesst den Koerper
+       arbeiten. Sie steht deshalb gruen.
+       Die zwei Sonderfaelle haben eigene Zahlen, die alles entscheiden:
+       acht Stunden bei der Huefte, alle fuenfzehn Minuten beim Knie. Sie
+       stehen unten und in Grossbuchstaben, weil sie im Fliesstext als
+       Nebensatz durchgehen wuerden.
+       Kein Gelenk gezeichnet. Der Tipp gilt fuer alle Gelenke, und eine
+       gezeichnete Schulter oder Huefte wuerde ihn auf eine verengen. -->
+  <rect width="900" height="1458" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Verrenkung: was vor jedem Versuch gilt</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Ein ausgerenktes Gelenk wieder hineinzubekommen ist eine der wenigen Sachen,</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">die ein Laie ohne Arzt tatsächlich schaffen kann. Davor gelten drei Regeln.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <circle cx="60" cy="200" r="17" fill="#a3231a"/>
+  <text x="60" y="207" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">1</text>
+  <text x="88" y="207" font-family="Georgia, serif" font-size="23" fill="#a3231a">PRÜFE AUF EINEN BRUCH</text>
+  <text x="88" y="243" font-family="Georgia, serif" font-size="21" fill="#111">Knirscht etwas, oder bewegt sich etwas, wo sich nichts bewegen dürfte, dann</text>
+  <text x="88" y="269" font-family="Georgia, serif" font-size="21" fill="#111">ist da ein BRUCH. Hier gibt es kein Vielleicht.</text>
+  <text x="88" y="295" font-family="Georgia, serif" font-size="21" fill="#111">Dann bleibt Schienen und Ruhigstellen. Einrenken ist nicht der richtige Weg.</text>
+
+  <circle cx="60" cy="343" r="17" fill="#111"/>
+  <text x="60" y="350" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">2</text>
+  <text x="88" y="350" font-family="Georgia, serif" font-size="23" fill="#111">SO FRÜH WIE MÖGLICH</text>
+  <text x="88" y="386" font-family="Georgia, serif" font-size="21" fill="#111">Die Muskeln stehen zunächst unter Schock: eine Zeit mit wenig oder gar keinem</text>
+  <text x="88" y="412" font-family="Georgia, serif" font-size="21" fill="#111">Schmerz. Sobald sie sich erholen, ziehen sie den Knochen zurück. Je länger er</text>
+  <text x="88" y="438" font-family="Georgia, serif" font-size="21" fill="#111">draußen ist, desto stärker werden diese Zusammenziehungen und desto mehr</text>
+  <text x="88" y="464" font-family="Georgia, serif" font-size="21" fill="#111">Schaden entsteht im Gewebe ringsum.</text>
+
+  <circle cx="60" cy="512" r="17" fill="#1d6b3a"/>
+  <text x="60" y="519" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">3</text>
+  <text x="88" y="519" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">GERADE HERAUS, DANN</text>
+  <text x="88" y="547" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">ALLMÄHLICH NACHLASSEN</text>
+  <text x="88" y="583" font-family="Georgia, serif" font-size="21" fill="#111">Zieh den Knochen gerade heraus und vom Gelenk weg — dann lass den Zug</text>
+  <text x="88" y="609" font-family="Georgia, serif" font-size="21" fill="#111">allmählich nach. Die Muskeln ziehen ihn von selbst zurück ins Gelenk.</text>
+  <text x="88" y="635" font-family="Georgia, serif" font-size="21" fill="#111">Du drückst ihn nicht hinein; du machst Platz und lässt den Körper arbeiten.</text>
+
+  <line x1="40" y1="671" x2="860" y2="671" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Danach ============ -->
+  <text x="40" y="711" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Woran du merkst, dass es geschafft ist</text>
+  <text x="40" y="749" font-family="Georgia, serif" font-size="21" fill="#111">Ein hörbares Klacken, die normale Form des Gelenks kehrt zurück, die</text>
+  <text x="40" y="775" font-family="Georgia, serif" font-size="21" fill="#111">Beweglichkeit wird besser. Die Person spürt SOFORT Erleichterung.</text>
+
+  <text x="40" y="815" font-family="Georgia, serif" font-size="23" fill="#a3231a">Danach sofort nachsehen, ob das Blut wieder fließt.</text>
+  <text x="40" y="849" font-family="Georgia, serif" font-size="21" fill="#111">Nagelbetten drücken und schauen, ob die Farbe zurückkommt. Puls tasten.</text>
+  <text x="40" y="875" font-family="Georgia, serif" font-size="21" fill="#111">Prüfen, ob das Glied warm wird. Fehlt das, zählt jede Minute.</text>
+
+  <line x1="40" y1="911" x2="860" y2="911" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Ruhigstellen ============ -->
+  <text x="40" y="951" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ruhigstellen</text>
+  <text x="40" y="989" font-family="Georgia, serif" font-size="21" fill="#111">Die ältere Quelle verlangt mindestens drei Wochen. Für die Schulter nennt die</text>
+  <text x="40" y="1015" font-family="Georgia, serif" font-size="21" fill="#111">neuere eine Schlinge für mindestens zwei Wochen und danach sechs bis acht</text>
+  <text x="40" y="1041" font-family="Georgia, serif" font-size="21" fill="#111">Wochen vorsichtigen Aufbau.</text>
+  <text x="40" y="1081" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Im Zweifel die längere Angabe — ein Gelenk, das zu früh wieder arbeitet,</text>
+  <text x="40" y="1107" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">renkt erneut aus.</text>
+
+  <line x1="40" y1="1143" x2="860" y2="1143" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Zwei Sonderfaelle ============ -->
+  <text x="40" y="1183" font-family="Georgia, serif" font-size="23" fill="#a3231a">Zwei Gelenke sind Sonderfälle</text>
+
+  <text x="40" y="1223" font-family="Georgia, serif" font-size="23" fill="#111">HÜFTE</text>
+  <text x="250" y="1223" font-family="Georgia, serif" font-size="21" fill="#111">muss innerhalb von ACHT STUNDEN wieder drin sein, sonst</text>
+  <text x="250" y="1249" font-family="Georgia, serif" font-size="21" fill="#111">drohen Nervenschaden und das Absterben des Hüftkopfes.</text>
+  <text x="250" y="1275" font-family="Georgia, serif" font-size="21" fill="#111">Zu rechnen ist mit viel Kraft und fünf bis zehn Minuten.</text>
+
+  <text x="40" y="1321" font-family="Georgia, serif" font-size="23" fill="#a3231a">KNIE</text>
+  <text x="250" y="1321" font-family="Georgia, serif" font-size="21" fill="#111">ist der Notfall unter den Verrenkungen: Die Schlagader</text>
+  <text x="250" y="1347" font-family="Georgia, serif" font-size="21" fill="#111">dahinter kann verletzt sein. Sofort die Durchblutung prüfen,</text>
+  <text x="250" y="1373" font-family="Georgia, serif" font-size="21" fill="#111">vorsichtig unter Längszug richten, schienen — und danach</text>
+  <text x="250" y="1399" font-family="Georgia, serif" font-size="21" fill="#111">ALLE 15 MINUTEN erneut den Puls kontrollieren.</text>
+
+  <text x="40" y="1441" font-family="Georgia, serif" font-size="21" fill="#a3231a">Das ist die Verletzung, bei der ein Bein verloren geht.</text>
+</svg>

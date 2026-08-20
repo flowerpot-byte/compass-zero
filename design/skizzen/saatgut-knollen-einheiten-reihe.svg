@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Kapitel "agrikultur-saatgut", Abschnitt 2 "Die Knollen-Einheiten-Methode".
+       Dieser Abschnitt beschreibt einen raeumlichen Ablauf mit festen Massen:
+       eine Knolle wird der Laenge nach zweimal geschnitten (vier Teile), die
+       vier Geschwisterstuecke kommen mit 25 bis 30 Zentimetern Abstand in die
+       Reihe, danach folgt mit etwas mehr Platz die naechste Knollen-Einheit.
+       Das ist reine Geometrie und eignet sich damit fuer eine Zeichnung, waehrend
+       Abschnitt 1 (fuenf Grundsaetze) nur eine Liste ohne Raumbezug ist. Die
+       Signalfarbe markiert den einen teuren Fehler: eine verfaerbte oder kranke
+       Knolle, die sofort aus der Reihe entfernt werden muss, weil sie sonst den
+       ganzen Bestand ansteckt. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="450" y="42" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#111">Die Knollen-Einheiten-Methode</text>
+  <text x="450" y="66" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Eine Knolle wird geviertelt – die vier Teile bleiben als Einheit erkennbar,</text>
+  <text x="450" y="88" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">solange der Abstand in der Reihe stimmt.</text>
+
+  <!-- Schritt 1: Auswahl und Schnitt -->
+  <text x="40" y="118" font-family="Georgia, serif" font-size="20" fill="#111">Schritt 1 – Auswahl und Schnitt</text>
+  <rect x="40" y="132" width="820" height="200" fill="#5b7f96" fill-opacity="0.07"/>
+
+  <!-- Ganze Knolle, Seitenansicht -->
+  <ellipse cx="160" cy="238" rx="60" ry="80" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <text x="160" y="148" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#5b7f96">Kronenende</text>
+  <text x="160" y="335" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#5b7f96">Nabelende</text>
+
+  <!-- Zwei Schnitte der Laenge nach: ein Schnitt gerade (Schnitt 1), der
+       zweite als schmale Ellipse, weil man ihn schraeg von vorn sieht -->
+  <line x1="160" y1="162" x2="160" y2="314" stroke="#5b7f96" stroke-width="2" stroke-dasharray="6 5"/>
+  <ellipse cx="160" cy="238" rx="14" ry="80" fill="none" stroke="#5b7f96" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M132,161 L157,166" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="128" y="165" text-anchor="end" font-family="Georgia, serif" font-size="14" fill="#5b7f96">Schnitt 1</text>
+  <path d="M242,288 L173,272" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="248" y="293" text-anchor="start" font-family="Georgia, serif" font-size="14" fill="#5b7f96">Schnitt 2</text>
+
+  <!-- Gewicht der ausgewaehlten Knolle -->
+  <circle cx="209" cy="192" r="3" fill="#5b7f96"/>
+  <path d="M209,192 L250,178" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="258" y="177" font-family="Georgia, serif" font-size="15" fill="#111">170–230 g</text>
+  <text x="258" y="196" font-family="Georgia, serif" font-size="13" fill="#5b7f96">am besten geformt</text>
+
+  <text x="160" y="356" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#111">zweimal der Länge nach geschnitten</text>
+  <text x="160" y="374" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#5b7f96">teilt die Augenreihe, vom Nabelende zum Kronenende</text>
+
+  <!-- Pfeil: wird zu vier Teilen -->
+  <path d="M228,238 L438,238" stroke="#111" stroke-width="3" fill="none"/>
+  <path d="M438,238 l-14,-7 M438,238 l-14,7" stroke="#111" stroke-width="3" fill="none"/>
+  <text x="333" y="222" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#5b7f96">wird geschnitten</text>
+
+  <!-- Vier getrennte Teile -->
+  <ellipse cx="470" cy="238" rx="15" ry="80" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <ellipse cx="520" cy="238" rx="15" ry="80" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <ellipse cx="570" cy="238" rx="15" ry="80" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <ellipse cx="620" cy="238" rx="15" ry="80" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <text x="545" y="148" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">vier Teile</text>
+  <text x="545" y="335" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#5b7f96">möglichst gleich groß</text>
+
+  <!-- Schritt 2: In die Reihe legen -->
+  <text x="40" y="400" font-family="Georgia, serif" font-size="20" fill="#111">Schritt 2 – In die Reihe legen</text>
+  <rect x="40" y="415" width="820" height="195" fill="#5b7f96" fill-opacity="0.10"/>
+  <line x1="40" y1="415" x2="860" y2="415" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Einheit 1: vier Geschwisterstuecke einer Knolle -->
+  <path d="M110,460 L110,452 L335,452 L335,460" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="222" y="442" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#111">Einheit 1 – vier Geschwisterpflanzen</text>
+
+  <circle cx="110" cy="485" r="16" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <circle cx="185" cy="485" r="16" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <circle cx="260" cy="485" r="16" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <circle cx="335" cy="485" r="16" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+
+  <!-- Abstand innerhalb der Einheit: 25 bis 30 cm -->
+  <g stroke="#111" stroke-width="2">
+    <line x1="110" y1="505" x2="185" y2="505"/>
+    <line x1="110" y1="499" x2="110" y2="511"/>
+    <line x1="185" y1="499" x2="185" y2="511"/>
+  </g>
+  <text x="147" y="525" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#111">25–30 cm</text>
+  <line x1="185" y1="505" x2="335" y2="505" stroke="#5b7f96" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="260" y="525" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#5b7f96">gleicher Abstand</text>
+
+  <!-- Luecke zur naechsten Einheit: etwas mehr Platz, keine Zahl im Text -->
+  <g stroke="#111" stroke-width="2">
+    <line x1="335" y1="505" x2="460" y2="505"/>
+    <line x1="335" y1="499" x2="335" y2="511"/>
+    <line x1="460" y1="499" x2="460" y2="511"/>
+  </g>
+  <text x="397" y="525" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#111">etwas mehr Platz</text>
+
+  <!-- Einheit 2: naechste Knolle -->
+  <path d="M460,460 L460,452 L685,452 L685,460" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="572" y="442" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#111">Einheit 2 – nächste Knolle</text>
+
+  <circle cx="460" cy="485" r="16" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <circle cx="535" cy="485" r="16" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <circle cx="610" cy="485" r="16" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <circle cx="685" cy="485" r="16" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <line x1="460" y1="505" x2="685" y2="505" stroke="#5b7f96" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="572" y="525" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#5b7f96">gleicher Abstand</text>
+
+  <!-- Reihe geht weiter -->
+  <circle cx="705" cy="485" r="3" fill="#5b7f96"/>
+  <circle cx="715" cy="485" r="3" fill="#5b7f96"/>
+  <circle cx="725" cy="485" r="3" fill="#5b7f96"/>
+  <text x="715" y="525" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#5b7f96">weiter so</text>
+
+  <!-- Der eine teure Fehler: verfaerbte oder kranke Knolle kommt sofort weg -->
+  <path d="M635,552 Q600,530 610,501" fill="none" stroke="#d65a1a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="650" cy="565" r="17" fill="#d9c98a" stroke="#d65a1a" stroke-width="3"/>
+  <ellipse cx="644" cy="560" rx="5" ry="4" fill="#7a5a3e" opacity="0.8"/>
+  <ellipse cx="657" cy="571" rx="5" ry="4" fill="#7a5a3e" opacity="0.8"/>
+  <path d="M638,553 L662,577 M662,553 L638,577" stroke="#d65a1a" stroke-width="3"/>
+  <text x="650" y="597" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#d65a1a">verfärbt oder krank → sofort weg</text>
+</svg>

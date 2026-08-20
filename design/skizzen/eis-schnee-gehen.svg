@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1330" viewBox="0 0 900 1330">
+  <!-- Zum Tipp "Auf Eis und im Schnee: die Regeln fuers Gehen".
+       Der Tipp sagt selbst, worauf fast alle Regeln hinauslaufen: Gewicht
+       verteilen und langsamer sein, als man moechte. Dieser Satz steht
+       deshalb ganz oben und nicht am Ende.
+       Das Kriechen auf duennem Eis ist der einzige Teil, der wirklich
+       raeumlich ist, und er wird ohne Bild regelmaessig unterschaetzt:
+       Dasselbe Gewicht auf ein Vielfaches der Flaeche. Zwei Umrisse von der
+       Seite zeigen den Unterschied zwischen zwei Schuhsohlen und einem
+       ganzen Koerper.
+       Die Schneebruecke ist die zweite raeumliche Sache: im rechten Winkel
+       hinueber, nicht schraeg. Ein Pfeil quer und einer schraeg, der schraege
+       durchgestrichen.
+       Die zwei Augentaeuschungen stehen zusammen, weil sie beide dazu
+       fuehren, dass man weitergeht, obwohl man aufhoeren sollte. Beim
+       Schaetzfehler ist die Richtung wichtig und steht deshalb im Bild: Man
+       schaetzt zu KURZ, nie zu lang.
+       Der Schlusssatz ist die Regel, die der Tipp selbst als tragend
+       bezeichnet: frueh Lager machen. -->
+  <rect width="900" height="1330" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Auf Eis und im Schnee: die Regeln fürs Gehen</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#a3231a">Fast alle Regeln laufen auf dasselbe hinaus:</text>
+  <text x="40" y="126" font-family="Georgia, serif" font-size="26" fill="#111">Gewicht verteilen und langsamer sein, als man möchte.</text>
+  <text x="40" y="164" font-family="Georgia, serif" font-size="21" fill="#111">Wer im Winter unterwegs sein muss, verliert die meisten Menschen nicht an die</text>
+  <text x="40" y="190" font-family="Georgia, serif" font-size="21" fill="#111">Kälte, sondern an einen falschen Schritt.</text>
+
+  <line x1="40" y1="226" x2="860" y2="226" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ A: duennes Eis ============ -->
+  <text x="40" y="266" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Dünnes Eis: flach hinlegen und kriechen</text>
+
+  <line x1="60" y1="400" x2="400" y2="400" stroke="#a9c4d4" stroke-width="8"/>
+  <circle cx="150" cy="316" r="16" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <path d="M 150 334 L 150 372" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 150 372 L 138 396 M 150 372 L 162 396" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+  <path d="M 130 396 L 172 396" stroke="#a3231a" stroke-width="8"/>
+
+  <line x1="500" y1="400" x2="840" y2="400" stroke="#a9c4d4" stroke-width="8"/>
+  <circle cx="540" cy="378" r="16" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <path d="M 558 384 L 760 384" stroke="#111" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 560 396 L 800 396" stroke="#1d6b3a" stroke-width="8"/>
+
+  <text x="150" y="440" font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="middle">alles auf zwei Sohlen</text>
+  <text x="670" y="440" font-family="Georgia, serif" font-size="19" fill="#1d6b3a" text-anchor="middle">dasselbe Gewicht auf ein Vielfaches der Fläche</text>
+
+  <text x="40" y="484" font-family="Georgia, serif" font-size="21" fill="#111">Das ist die ganze Technik, und sie ist so einfach wie wirksam. Wer aufrecht</text>
+  <text x="40" y="510" font-family="Georgia, serif" font-size="21" fill="#111">geht, drückt alles auf zwei Schuhsohlen.</text>
+
+  <line x1="40" y1="546" x2="860" y2="546" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: Schneebruecke ============ -->
+  <text x="40" y="586" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Schneebrücken: immer im rechten Winkel hinüber</text>
+
+  <rect x="60" y="630" width="360" height="120" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="60" y="666" width="360" height="48" fill="#c9c4b4"/>
+  <g stroke="#1d6b3a" stroke-width="6" fill="none">
+    <path d="M 180 750 L 180 646"/>
+    <path d="M 180 634 l -9 16 M 180 634 l 9 16"/>
+  </g>
+  <g stroke="#a3231a" stroke-width="6" fill="none" stroke-dasharray="10 7">
+    <path d="M 260 750 L 380 646"/>
+  </g>
+  <g stroke="#a3231a" stroke-width="6" fill="none">
+    <path d="M 300 676 L 340 716 M 340 676 L 300 716"/>
+  </g>
+
+  <text x="450" y="664" font-family="Georgia, serif" font-size="21" fill="#111">Auf dem kürzesten Weg hinüber,</text>
+  <text x="450" y="690" font-family="Georgia, serif" font-size="21" fill="#111">nicht schräg. Vorher mit einer</text>
+  <text x="450" y="716" font-family="Georgia, serif" font-size="21" fill="#111">STANGE vor sich her stechen, um</text>
+  <text x="450" y="742" font-family="Georgia, serif" font-size="21" fill="#111">die tragfähigste Stelle zu finden.</text>
+  <text x="450" y="768" font-family="Georgia, serif" font-size="21" fill="#111">Und auch hier: kriechen.</text>
+
+  <line x1="40" y1="804" x2="860" y2="804" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: die zwei Augentaeuschungen ============ -->
+  <text x="40" y="844" font-family="Georgia, serif" font-size="23" fill="#a3231a">Zwei Dinge, die die Augen täuschen</text>
+
+  <text x="40" y="888" font-family="Georgia, serif" font-size="23" fill="#111">Entfernungen</text>
+  <text x="290" y="888" font-family="Georgia, serif" font-size="21" fill="#111">Die klare kalte Luft macht das Schätzen schwer, und der</text>
+  <text x="290" y="914" font-family="Georgia, serif" font-size="21" fill="#111">Fehler geht immer in EINE Richtung: Man schätzt zu KURZ.</text>
+  <text x="290" y="940" font-family="Georgia, serif" font-size="21" fill="#111">Was wie eine Stunde aussieht, sind drei.</text>
+
+  <text x="40" y="984" font-family="Georgia, serif" font-size="23" fill="#111">Whiteout</text>
+  <text x="290" y="984" font-family="Georgia, serif" font-size="21" fill="#111">Haben Schnee, Nebel und Himmel dieselbe Farbe, lässt sich</text>
+  <text x="290" y="1010" font-family="Georgia, serif" font-size="21" fill="#111">das Gelände gar nicht mehr beurteilen. Dann wird nicht</text>
+  <text x="290" y="1036" font-family="Georgia, serif" font-size="21" fill="#111">gegangen — man sieht die Kante nicht, über die man tritt.</text>
+
+  <text x="40" y="1080" font-family="Georgia, serif" font-size="21" fill="#a3231a">Bei Schneesturm wird ebenfalls nicht gegangen. Ab dreißig Zentimetern Schnee</text>
+  <text x="40" y="1106" font-family="Georgia, serif" font-size="21" fill="#a3231a">wird das Gehen mühsam; ohne Schneeschuhe ist tiefer Schnee kaum zu schaffen.</text>
+
+  <line x1="40" y1="1142" x2="860" y2="1142" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1182" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Und die Regel, die alles andere trägt: früh Lager machen.</text>
+  <text x="40" y="1216" font-family="Georgia, serif" font-size="21" fill="#111">Lieber zwei Stunden zu früh anhalten und einen ordentlichen Unterstand bauen,</text>
+  <text x="40" y="1242" font-family="Georgia, serif" font-size="21" fill="#111">als im Dunkeln nach einem Platz suchen.</text>
+  <text x="40" y="1276" font-family="Georgia, serif" font-size="19" fill="#111">Bäche quert man beim niedrigsten Wasserstand: Frieren und Tauen können ihn an einem</text>
+  <text x="40" y="1300" font-family="Georgia, serif" font-size="19" fill="#111">Tag um zwei bis zweieinhalb Meter ändern. Dasselbe gilt für den Lagerplatz.</text>
+</svg>

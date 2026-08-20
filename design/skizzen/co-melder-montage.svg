@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1226" viewBox="0 0 900 1226">
+  <!-- Zum Tipp "Warnmelder fuer Kohlenmonoxid anbringen".
+       Gegenstueck zur Zeichnung "Eingeatmetes Gift": dort steht, dass man
+       Kohlenmonoxid nicht sieht und nicht riecht; hier steht, wohin das
+       einzige Geraet gehoert, das es merkt.
+       Der Tipp hat zwei Montageregeln, die sich WIDERSPRECHEN, wenn man sie
+       verwechselt: ohne Verbrennungsgeraet an die Wand in Atemhoehe, mit
+       Verbrennungsgeraet zentral an die Decke. Genau deshalb zwei Raeume
+       nebeneinander statt einer Liste.
+       Der Massstab stimmt: 100 Bildpunkte sind ein Meter. Der Raum ist
+       250 hoch, also 2,50 m; das Band 1,00 bis 1,50 m liegt bei y=290 bis
+       y=240; die 30 cm an der Decke sind 30 Bildpunkte. Ein Bild mit
+       Massangaben, dessen Massstab nicht haelt, behauptet etwas Falsches.
+       Die zwei durchgestrichenen Melder im rechten Raum sind die beiden
+       Fehler, die der Tipp ausdruecklich nennt: zu dicht an der Wand und
+       direkt ueber dem Verbrennungsgeraet.
+       Die Schwellentafel ist wegen des SCHLUSSSATZES im Bild: Ein Melder,
+       der schweigt, sagt nicht, dass nichts da ist. Ohne diesen Satz liest
+       man Stille als Entwarnung.
+       Der Kasten unten ist die einzige Aussage des Tipps, die kein Geraet
+       und keine Montage verschiebt. Sie steht deshalb ohne Bild und gross.
+       Der Vorbehalt zu den Zahlen steht mit im Bild, weil die Zahlen mit im
+       Bild stehen. -->
+  <rect width="900" height="1226" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">CO-Melder: wohin er gehört</text>
+
+  <!-- ============ A: zwei Raeume, zwei Regeln ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zwei Räume, zwei Regeln — 100 Bildpunkte sind ein Meter</text>
+
+  <!-- Raum 1: ohne Verbrennungsgeraet -->
+  <rect x="60" y="240" width="360" height="50" fill="#f2ece2"/>
+  <rect x="60" y="140" width="360" height="250" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="60" y1="390" x2="420" y2="390" stroke="#111" stroke-width="7"/>
+  <rect x="64" y="251" width="34" height="28" rx="6" fill="#e8eef2" stroke="#1d6b3a" stroke-width="3"/>
+  <circle cx="81" cy="265" r="4" fill="#a3231a"/>
+  <g stroke="#111" stroke-width="2" fill="none">
+    <path d="M 140 390 L 140 265"/>
+    <path d="M 140 265 l -6 14 M 140 265 l 6 14"/>
+    <path d="M 140 390 l -6 -14 M 140 390 l 6 -14"/>
+  </g>
+  <text x="150" y="334" font-family="Georgia, serif" font-size="19" fill="#111">1 bis 1,5 m</text>
+  <text x="290" y="228" font-family="Georgia, serif" font-size="19" fill="#1d6b3a" text-anchor="middle">Atemhöhe</text>
+
+  <!-- Raum 2: mit Verbrennungsgeraet -->
+  <rect x="480" y="140" width="360" height="250" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="480" y1="390" x2="840" y2="390" stroke="#111" stroke-width="7"/>
+  <rect x="760" y="320" width="60" height="70" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <path d="M 780 372 q 10 -14 0 -22 q 12 8 8 22" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="750" y="362" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="end">Heizung</text>
+  <rect x="642" y="144" width="36" height="24" rx="6" fill="#e8eef2" stroke="#1d6b3a" stroke-width="3"/>
+  <circle cx="660" cy="156" r="4" fill="#a3231a"/>
+
+  <rect x="484" y="144" width="36" height="24" rx="6" fill="none" stroke="#a3231a" stroke-width="2" stroke-dasharray="6 5"/>
+  <g stroke="#a3231a" stroke-width="4" fill="none">
+    <circle cx="502" cy="200" r="16"/>
+    <line x1="491" y1="189" x2="513" y2="211"/>
+  </g>
+  <rect x="772" y="144" width="36" height="24" rx="6" fill="none" stroke="#a3231a" stroke-width="2" stroke-dasharray="6 5"/>
+  <g stroke="#a3231a" stroke-width="4" fill="none">
+    <circle cx="790" cy="200" r="16"/>
+    <line x1="779" y1="189" x2="801" y2="211"/>
+  </g>
+  <line x1="510" y1="144" x2="510" y2="252" stroke="#c9c4b4" stroke-width="2" stroke-dasharray="6 5"/>
+  <g stroke="#111" stroke-width="2" fill="none">
+    <path d="M 480 246 L 510 246"/>
+    <path d="M 480 240 L 480 252 M 510 240 L 510 252"/>
+  </g>
+  <text x="518" y="252" font-family="Georgia, serif" font-size="19" fill="#111">30 cm von der Wand</text>
+
+  <!-- Bildunterschriften -->
+  <text x="60" y="426" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Raum OHNE Verbrennungsgerät</text>
+  <text x="60" y="458" font-family="Georgia, serif" font-size="21" fill="#111">An die Wand in Atemhöhe, 1 bis</text>
+  <text x="60" y="484" font-family="Georgia, serif" font-size="21" fill="#111">1,5 Meter. Im Schlafzimmer in</text>
+  <text x="60" y="510" font-family="Georgia, serif" font-size="21" fill="#111">Kopfhöhe, im Wohnraum in der</text>
+  <text x="60" y="536" font-family="Georgia, serif" font-size="21" fill="#111">Höhe, in der man sitzt.</text>
+
+  <text x="480" y="426" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Raum MIT Verbrennungsgerät</text>
+  <text x="480" y="458" font-family="Georgia, serif" font-size="21" fill="#111">Zentral an die Decke, mind. 30 cm</text>
+  <text x="480" y="484" font-family="Georgia, serif" font-size="21" fill="#111">von der Wand, nicht über Heizung</text>
+  <text x="480" y="510" font-family="Georgia, serif" font-size="21" fill="#111">oder Gasherd. Geht das nicht: an</text>
+  <text x="480" y="536" font-family="Georgia, serif" font-size="21" fill="#111">die Wand, 15 cm unter der Decke,</text>
+  <text x="480" y="562" font-family="Georgia, serif" font-size="21" fill="#111">1 bis 3 m vom Gerät, über Türen</text>
+  <text x="480" y="588" font-family="Georgia, serif" font-size="21" fill="#111">und Fenstern.</text>
+
+  <text x="40" y="628" font-family="Georgia, serif" font-size="21" fill="#a3231a">Bei einem Pelletlager gehört er AUSSERHALB, zum Beispiel seitlich neben die Tür.</text>
+
+  <line x1="40" y1="662" x2="860" y2="662" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die Schwellen ============ -->
+  <text x="40" y="702" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wann er anschlägt — genormt</text>
+
+  <text x="60" y="742" font-family="Georgia, serif" font-size="21" fill="#a3231a">300 ppm</text>
+  <text x="200" y="742" font-family="Georgia, serif" font-size="21" fill="#111">spätestens nach 3 Minuten</text>
+  <text x="60" y="774" font-family="Georgia, serif" font-size="21" fill="#a3231a">100 ppm</text>
+  <text x="200" y="774" font-family="Georgia, serif" font-size="21" fill="#111">frühestens nach 10, spätestens nach 40 Minuten</text>
+  <text x="60" y="806" font-family="Georgia, serif" font-size="21" fill="#a3231a">50 ppm</text>
+  <text x="200" y="806" font-family="Georgia, serif" font-size="21" fill="#111">frühestens nach 60, spätestens nach 90 Minuten</text>
+  <text x="60" y="838" font-family="Georgia, serif" font-size="21" fill="#111">30 ppm</text>
+  <text x="200" y="838" font-family="Georgia, serif" font-size="21" fill="#111">soll innerhalb von 120 Minuten noch NICHT auslösen</text>
+
+  <text x="40" y="886" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein Melder, der schweigt, sagt nicht, dass kein Kohlenmonoxid da ist —</text>
+  <text x="40" y="914" font-family="Georgia, serif" font-size="23" fill="#a3231a">nur, dass seine Schwelle noch nicht erreicht ist.</text>
+
+  <line x1="40" y1="944" x2="860" y2="944" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: die Grenze, die kein Melder verschiebt ============ -->
+  <rect x="40" y="964" width="820" height="172" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="62" y="1002" font-family="Georgia, serif" font-size="23" fill="#a3231a">Eine Grenze, die kein Melder verschiebt</text>
+  <text x="62" y="1038" font-family="Georgia, serif" font-size="21" fill="#111">Holzkohlegrill, Gasgrill, Heizpilz und Stromaggregat setzen so viel</text>
+  <text x="62" y="1064" font-family="Georgia, serif" font-size="21" fill="#111">Kohlenmonoxid frei, dass ihr Betrieb in geschlossenen Räumen zum Tode führen</text>
+  <text x="62" y="1090" font-family="Georgia, serif" font-size="21" fill="#111">kann — auch bei geöffneten Fenstern, Türen oder Garagentor.</text>
+  <text x="62" y="1116" font-family="Georgia, serif" font-size="21" fill="#111">Stromaggregate gehören ausschließlich ins Freie.</text>
+
+  <text x="40" y="1176" font-family="Georgia, serif" font-size="19" fill="#111">Maße und Schwellen nach der Aufbereitung der Präventionsinitiative, die sich für die</text>
+  <text x="40" y="1200" font-family="Georgia, serif" font-size="19" fill="#111">Schwellen auf DIN EN 50291-1 beruft. Die Anleitung des Geräts geht jeder Angabe vor.</text>
+</svg>

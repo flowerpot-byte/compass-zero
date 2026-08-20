@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Tipp erste-hilfe-blutung-kopf-rumpf.
+
+       GEZEIGTE AUSSAGE: warum es an Kopf und Rumpf keinen Ersatz fuer die
+       drueckende Hand gibt. Der Grund ist raeumlich und deshalb ein Bild
+       wert: Ein Band laesst sich um ein Bein legen und zuziehen; um Kopf
+       oder Rumpf laesst es sich nicht so legen, dass es die Blutung stoppt.
+       Wortlaut des Tipps: "An Kopf und Rumpf wird nicht abgebunden - das
+       geht dort nicht, und einen Ersatz fuer die drueckende Hand gibt es
+       nicht. Am Bein ist das anders."
+
+       Die Signalfarbe steht genau einmal, am durchgestrichenen Band um den
+       Rumpf. Wer dort Zeit mit einem Abbindeversuch verliert, verliert sie
+       an der einzigen Stelle, an der sie zaehlt.
+
+       Der Tipp nennt eine Ausnahme, die nicht untergehen darf: Eine offene
+       Brustwunde wird NICHT zugedeckt und NICHT zugedrueckt. Deshalb liegt
+       die drueckende Hand im Bild am Bauch und nicht am Brustkorb, und die
+       Ausnahme steht als eigene Zeile darunter.
+
+       Neubau am 04.08.2026. Die erste Fassung zeigte drei abstrakte Kloetze
+       ("Kopf", "Rumpf", "Bein") und zwei Ellipsen fuer das Band. Der
+       Unterschied stand damit nur in den Beschriftungen, nicht im Bild -
+       genau der Fehler, der heute Abend schon zweimal auftrat. -->
+
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Blutung: warum nur am Bein abgebunden wird</text>
+  <text x="40" y="76" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Ein Band lässt sich um ein Bein legen. Um Kopf und Rumpf nicht.</text>
+
+  <!-- ===================== Koerper, von vorn ===================== -->
+  <!-- Kopf -->
+  <circle cx="300" cy="146" r="42" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <!-- Hals -->
+  <path d="M 286,184 L 314,184 L 314,204 L 286,204 Z" fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Rumpf -->
+  <path d="M 232,208 L 368,208 L 356,382 L 244,382 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Arme -->
+  <path d="M 232,214 L 196,360" stroke="#111" stroke-width="32" stroke-linecap="round" fill="none"/>
+  <path d="M 232,214 L 196,360" stroke="#e6e2d6" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <path d="M 368,214 L 404,360" stroke="#111" stroke-width="32" stroke-linecap="round" fill="none"/>
+  <path d="M 368,214 L 404,360" stroke="#e6e2d6" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <!-- Beine -->
+  <path d="M 268,382 L 264,504" stroke="#111" stroke-width="46" stroke-linecap="round" fill="none"/>
+  <path d="M 268,382 L 264,504" stroke="#e6e2d6" stroke-width="40" stroke-linecap="round" fill="none"/>
+  <path d="M 332,382 L 336,504" stroke="#111" stroke-width="46" stroke-linecap="round" fill="none"/>
+  <path d="M 332,382 L 336,504" stroke="#e6e2d6" stroke-width="40" stroke-linecap="round" fill="none"/>
+
+  <!-- Drueckende Hand am Kopf -->
+  <ellipse cx="322" cy="128" rx="26" ry="18" fill="#d9c98a" stroke="#111" stroke-width="3" transform="rotate(-18 322 128)"/>
+  <!-- Drueckende Hand am Bauch, bewusst nicht am Brustkorb -->
+  <ellipse cx="300" cy="326" rx="30" ry="20" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+
+  <!-- Band um das Bein: es geht ringsum und laesst sich zuziehen -->
+  <ellipse cx="334" cy="444" rx="30" ry="13" fill="none" stroke="#7a5a3e" stroke-width="9"/>
+  <path d="M 358,438 L 386,424" stroke="#7a5a3e" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="392" cy="421" r="8" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+
+  <!-- Band um den Rumpf: es liegt an, aber es schnuert nichts ab -->
+  <ellipse cx="300" cy="256" rx="70" ry="18" fill="none" stroke="#d65a1a" stroke-width="7"/>
+  <line x1="252" y1="228" x2="348" y2="284" stroke="#d65a1a" stroke-width="7"/>
+
+  <!-- ===================== Beschriftungen, alles rechts ===================== -->
+  <line x1="500" y1="140" x2="348" y2="128" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="510" y="134" font-family="Georgia, serif" font-size="18" fill="#111">Am Kopf: nur die Hand,</text>
+  <text x="510" y="158" font-family="Georgia, serif" font-size="18" fill="#111">fest auf die Stelle gedrückt.</text>
+
+  <line x1="500" y1="252" x2="372" y2="256" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="510" y="240" font-family="Georgia, serif" font-size="18" fill="#111">Am Rumpf geht kein Band.</text>
+  <text x="510" y="264" font-family="Georgia, serif" font-size="18" fill="#111">Es gibt dort keinen Ersatz</text>
+  <text x="510" y="288" font-family="Georgia, serif" font-size="18" fill="#111">für die drückende Hand.</text>
+
+  <line x1="500" y1="332" x2="334" y2="326" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="510" y="338" font-family="Georgia, serif" font-size="18" fill="#111">Weiterdrücken, bis Hilfe da ist.</text>
+
+  <line x1="500" y1="432" x2="404" y2="426" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="510" y="426" font-family="Georgia, serif" font-size="18" fill="#111">Am Bein geht ein Band ringsum:</text>
+  <text x="510" y="450" font-family="Georgia, serif" font-size="18" fill="#111">Reicht der Druck nicht, wird</text>
+  <text x="510" y="474" font-family="Georgia, serif" font-size="18" fill="#111">abgebunden — eigener Tipp.</text>
+
+  <text x="40" y="556" font-family="Georgia, serif" font-size="18" fill="#111">Ausnahme: Eine offene Brustwunde wird nicht zugedeckt und nicht zugedrückt.</text>
+  <text x="40" y="584" font-family="Georgia, serif" font-size="18" fill="#111">Dafür gibt es einen eigenen Tipp.</text>
+</svg>

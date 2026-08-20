@@ -1,0 +1,103 @@
+<svg viewBox="0 0 900 660" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif">
+  <!-- Zur Anleitung beute-versorgen, Schritt 4: Abziehen statt schneiden.
+       Dieser Schritt beschreibt Schnittfuehrung und Reihenfolge am Koerper
+       (Rundschnitte an den Beinen oberhalb des Gelenks, Verbindung mit dem
+       Bauchschnitt, dann Abziehen) - das ist raeumlich und profitiert von
+       einer Zeichnung mehr als die reinen Regel-Schritte davor und danach. -->
+  <rect x="0" y="0" width="900" height="660" fill="#faf9f6"/>
+
+  <text x="450" y="38" text-anchor="middle" font-size="26" fill="#111">Abziehen statt schneiden: die Schnittführung</text>
+  <text x="450" y="60" text-anchor="middle" font-size="14" fill="#5b7f96">Beute versorgen — Rundschnitte an den Beinen, verbunden mit dem Bauchschnitt</text>
+
+  <!-- Koerper, schematisch, Seitenansicht -->
+  <ellipse cx="420" cy="250" rx="170" ry="80" fill="#e8ddc7" stroke="#111" stroke-width="4"/>
+  <polygon points="560,210 595,163 636,167 611,226" fill="#e8ddc7" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="655" cy="182" rx="50" ry="38" fill="#e8ddc7" stroke="#111" stroke-width="4"/>
+  <path d="M255,235 Q210,205 198,188" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Vier Beine, zweilagig gezeichnet: dunkler Umriss, heller Kern.
+       GRUND: Die Schnittlinien liegen AUF den Beinen. Waren die Beine voll
+       schwarz, war eine schwarze Strichellinie darauf unsichtbar, und genau
+       sie ist die Aussage des Bildes. -->
+  <g stroke="#111" stroke-width="15" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M270,290 L270,388 L264,445"/>
+    <path d="M312,314 L312,395 L305,445"/>
+    <path d="M528,314 L528,385 L522,445"/>
+    <path d="M572,288 L572,388 L565,445"/>
+  </g>
+  <g stroke="#e8ddc7" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M270,290 L270,388 L264,445"/>
+    <path d="M312,314 L312,395 L305,445"/>
+    <path d="M528,314 L528,385 L522,445"/>
+    <path d="M572,288 L572,388 L565,445"/>
+  </g>
+
+  <!-- Die Gelenke: Ohne sie sagt "oberhalb des Gelenks" nichts, weil nichts
+       da ist, worueber der Ring liegen koennte. -->
+  <g fill="#faf9f6" stroke="#111" stroke-width="3">
+    <circle cx="270" cy="396" r="7"/>
+    <circle cx="312" cy="401" r="7"/>
+    <circle cx="528" cy="391" r="7"/>
+    <circle cx="572" cy="396" r="7"/>
+  </g>
+
+  <!-- Boden -->
+  <line x1="150" y1="452" x2="760" y2="452" stroke="#111" stroke-width="3"/>
+  <g stroke="#5b7f96" stroke-width="1.5">
+    <line x1="170" y1="452" x2="158" y2="468"/>
+    <line x1="200" y1="452" x2="188" y2="468"/>
+    <line x1="230" y1="452" x2="218" y2="468"/>
+    <line x1="680" y1="452" x2="668" y2="468"/>
+    <line x1="710" y1="452" x2="698" y2="468"/>
+    <line x1="740" y1="452" x2="728" y2="468"/>
+  </g>
+
+  <!-- Rundschnitte: ein Ring um jedes Bein, oberhalb des Gelenks -->
+  <g stroke="#111" stroke-width="5" fill="none">
+    <ellipse cx="270" cy="373" rx="15" ry="8"/>
+    <ellipse cx="312" cy="380" rx="15" ry="8"/>
+    <ellipse cx="528" cy="370" rx="15" ry="8"/>
+    <ellipse cx="572" cy="373" rx="15" ry="8"/>
+  </g>
+
+  <!-- Verbindung der Rundschnitte mit dem Bauchschnitt -->
+  <g stroke="#111" stroke-width="4" stroke-dasharray="9 7">
+    <line x1="270" y1="365" x2="270" y2="290"/>
+    <line x1="312" y1="372" x2="312" y2="314"/>
+    <line x1="528" y1="362" x2="528" y2="314"/>
+    <line x1="572" y1="365" x2="572" y2="288"/>
+  </g>
+
+  <!-- Der Bauchschnitt selbst -->
+  <path d="M255,269 Q290,300 312,314 Q420,336 528,314 Q550,298 572,288 Q592,258 605,228"
+        fill="none" stroke="#111" stroke-width="4" stroke-dasharray="9 7"/>
+
+  <!-- Beschriftung: Rundschnitt -->
+  <text x="30" y="340" font-size="17" fill="#111">Rundschnitt um jedes</text>
+  <text x="30" y="360" font-size="17" fill="#111">Bein, oberhalb des</text>
+  <text x="30" y="380" font-size="17" fill="#111">Gelenks</text>
+  <path d="M195,362 L250,372 L305,378" fill="none" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- Beschriftung: Bauchschnitt -->
+  <text x="740" y="150" font-size="18" fill="#111">Bauchschnitt</text>
+  <text x="740" y="172" font-size="16" fill="#111">verbindet die</text>
+  <text x="740" y="192" font-size="16" fill="#111">Rundschnitte</text>
+  <path d="M735,180 L680,235 L608,228" fill="none" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- Warnung: die eine kritische Stelle -->
+  <rect x="200" y="495" width="500" height="150" rx="12" fill="none" stroke="#d65a1a" stroke-width="2.5"/>
+
+  <!-- Haut, flach liegend -->
+  <rect x="240" y="555" width="140" height="14" fill="#e8ddc7" stroke="#111" stroke-width="2"/>
+  <!-- Messer, das in die Haut sticht -->
+  <path d="M310,520 L330,560 L295,560 Z" fill="#111" stroke="#111" stroke-width="1"/>
+  <line x1="310" y1="503" x2="310" y2="522" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+  <!-- Verbotszeichen -->
+  <circle cx="312" cy="545" r="34" fill="none" stroke="#d65a1a" stroke-width="4"/>
+  <line x1="288" y1="521" x2="336" y2="569" stroke="#d65a1a" stroke-width="4"/>
+
+  <text x="400" y="530" font-size="17" fill="#d65a1a">NICHT mit der Klinge schneiden</text>
+  <text x="400" y="553" font-size="15" fill="#d65a1a">Sie durchsticht die Haut und</text>
+  <text x="400" y="573" font-size="15" fill="#d65a1a">bringt Schmutz ins Fleisch</text>
+  <text x="400" y="598" font-size="15" fill="#111">Immer nur abziehen</text>
+</svg>

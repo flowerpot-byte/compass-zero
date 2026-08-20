@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1346" viewBox="0 0 900 1346">
+  <!-- Zum Tipp "Nach der Geburt: Nabelschnur und Nachgeburt".
+       Der Tipp sagt selbst, dass dieser Abschnitt oft vergessen wird und
+       dass hier am meisten falsch gemacht wird. Das Bild stellt deshalb die
+       Entwarnung nach vorn: Es besteht KEINE Eile.
+       Das Abbinden ist raeumlich, und die Masse sind der ganze Inhalt: zwei
+       Abbindungen, eine Handbreit voneinander, die erste eine Handbreit vom
+       Bauch, durchtrennt wird DAZWISCHEN. Als Satz muss man drei Abstaende
+       gleichzeitig im Kopf halten; als Bild sieht man sie.
+       Die beiden Handbreit sind im Bild gleich lang gezeichnet, weil sie es
+       laut Quelle auch sind. Ein Bild, in dem der eine Abstand doppelt so
+       gross waere, wuerde etwas anderes behaupten.
+       Der Starrkrampf-Hinweis stammt aus einer zweiten Quelle im selben
+       Paket und ist als solcher gekennzeichnet. Er steht rot, weil er das
+       Sauberkeitsgebot von einer Empfehlung zu einer Notwendigkeit macht.
+       Kein Baby gezeichnet, nur der Bauchansatz: Ein gezeichnetes
+       Neugeborenes traegt hier nichts bei und geht leicht daneben. -->
+  <rect width="900" height="1346" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Nach der Geburt: Nabelschnur und Nachgeburt</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Nabelschnur muss nicht sofort durchtrennt werden</text>
+  <text x="40" y="134" font-family="Georgia, serif" font-size="21" fill="#111">Ist das Baby ansprechbar — es schreit — und atmet normal, besteht KEINE Eile.</text>
+  <text x="40" y="160" font-family="Georgia, serif" font-size="21" fill="#111">Abtrocknen, warm halten, damit es nicht auskühlt. Das Durchtrennen überlässt</text>
+  <text x="40" y="186" font-family="Georgia, serif" font-size="21" fill="#111">man einer Fachkraft, wenn eine erreichbar ist. Hast ist hier gefährlich.</text>
+
+  <line x1="40" y1="222" x2="860" y2="222" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Das Abbinden ============ -->
+  <text x="40" y="262" font-family="Georgia, serif" font-size="23" fill="#111">Muss es doch sein — weil sie bei einer Wiederbelebung im Weg ist</text>
+
+  <rect x="60" y="320" width="90" height="100" rx="30" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <rect x="150" y="360" width="410" height="20" rx="10" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <circle cx="150" cy="370" r="7" fill="#111"/>
+  <rect x="264" y="348" width="12" height="44" fill="#111"/>
+  <rect x="384" y="348" width="12" height="44" fill="#111"/>
+  <line x1="330" y1="336" x2="330" y2="404" stroke="#a3231a" stroke-width="4" stroke-dasharray="9 6"/>
+  <text x="330" y="326" font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="middle">dazwischen durchtrennen</text>
+
+  <g stroke="#111" stroke-width="2" fill="none">
+    <path d="M 150 432 L 270 432"/>
+    <path d="M 150 426 L 150 438 M 270 426 L 270 438"/>
+    <path d="M 270 432 L 390 432"/>
+    <path d="M 390 426 L 390 438"/>
+  </g>
+  <text x="210" y="456" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Handbreit</text>
+  <text x="330" y="456" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Handbreit</text>
+
+  <text x="600" y="352" font-family="Georgia, serif" font-size="21" fill="#111">Zweck ist das Abbinden:</text>
+  <text x="600" y="378" font-family="Georgia, serif" font-size="21" fill="#111">Danach fließt kein Blut</text>
+  <text x="600" y="404" font-family="Georgia, serif" font-size="21" fill="#111">mehr durch die Schnur.</text>
+
+  <text x="40" y="502" font-family="Georgia, serif" font-size="21" fill="#111">An ZWEI Stellen mit einem Band abbinden, eine Handbreit voneinander entfernt.</text>
+  <text x="40" y="528" font-family="Georgia, serif" font-size="21" fill="#111">Die erste Abbindung etwa eine Handbreit vom Bauch des Babys. Durchtrennt wird</text>
+  <text x="40" y="554" font-family="Georgia, serif" font-size="21" fill="#111">ZWISCHEN den beiden Abbindungen.</text>
+
+  <line x1="40" y1="590" x2="860" y2="590" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Der Starrkrampf-Hinweis ============ -->
+  <text x="40" y="630" font-family="Georgia, serif" font-size="23" fill="#a3231a">Der Hinweis aus einer zweiten Quelle, der in einer langen Krise</text>
+  <text x="40" y="658" font-family="Georgia, serif" font-size="23" fill="#a3231a">entscheidet</text>
+  <text x="40" y="694" font-family="Georgia, serif" font-size="21" fill="#111">Unsauberes Durchtrennen und Versorgen der Nabelschnur ist ein Hauptweg für</text>
+  <text x="40" y="720" font-family="Georgia, serif" font-size="21" fill="#111">den Starrkrampf — weltweit ist die HÄLFTE aller Fälle die von Neugeborenen.</text>
+  <text x="40" y="746" font-family="Georgia, serif" font-size="21" fill="#111">Alles, was die Nabelschnur berührt — Schere, Messer, Schnur, Hände, Tücher —</text>
+  <text x="40" y="772" font-family="Georgia, serif" font-size="21" fill="#111">muss so sauber sein, wie es irgend geht. Ausgekocht, wenn möglich. Und der</text>
+  <text x="40" y="798" font-family="Georgia, serif" font-size="21" fill="#111">Nabelstumpf bleibt danach sauber und trocken.</text>
+
+  <line x1="40" y1="834" x2="860" y2="834" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Nachgeburt ============ -->
+  <text x="40" y="874" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Nachgeburt kommt von selbst</text>
+  <text x="40" y="912" font-family="Georgia, serif" font-size="21" fill="#111">Gewöhnlich innerhalb von etwa dreißig Minuten. Nicht an der Nabelschnur</text>
+  <text x="40" y="938" font-family="Georgia, serif" font-size="21" fill="#111">ziehen, nicht auf den Bauch der Frau drücken. Ziehen kann schwere Schäden</text>
+  <text x="40" y="964" font-family="Georgia, serif" font-size="21" fill="#111">anrichten. Man wartet.</text>
+
+  <text x="40" y="1004" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die Nachgeburt wird aufgehoben.</text>
+  <text x="40" y="1038" font-family="Georgia, serif" font-size="21" fill="#111">Nicht wegwerfen, nicht vergraben, sondern beiseitelegen, bis jemand geprüft</text>
+  <text x="40" y="1064" font-family="Georgia, serif" font-size="21" fill="#111">hat, ob sie vollständig ist. Bleibt ein Stück zurück, kann das später starke</text>
+  <text x="40" y="1090" font-family="Georgia, serif" font-size="21" fill="#111">Blutungen und Infektionen verursachen. Kommt niemand, wenigstens selbst</text>
+  <text x="40" y="1116" font-family="Georgia, serif" font-size="21" fill="#111">darauf achten, ob offensichtlich etwas fehlt.</text>
+
+  <line x1="40" y1="1152" x2="860" y2="1152" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1192" font-family="Georgia, serif" font-size="21" fill="#111">Eine leichte Blutung ist normal. Ist sie stark: hinlegen und warm halten.</text>
+  <text x="40" y="1218" font-family="Georgia, serif" font-size="21" fill="#a3231a">Blasse Haut, kalter Schweiß und schneller Puls nach der Geburt sind ein</text>
+  <text x="40" y="1244" font-family="Georgia, serif" font-size="21" fill="#a3231a">Notfall — auch wenn die Blutung von außen nicht dramatisch aussieht.</text>
+
+  <text x="40" y="1284" font-family="Georgia, serif" font-size="19" fill="#111">Zur Hygiene sagt die Leitlinie durchgehend dasselbe: Hände waschen, Handschuhe tragen,</text>
+  <text x="40" y="1308" font-family="Georgia, serif" font-size="19" fill="#111">wenn vorhanden, saubere Tücher unter die Mutter und zum Einwickeln des Kindes.</text>
+  <text x="40" y="1332" font-family="Georgia, serif" font-size="19" fill="#111">Nichts davon braucht ein Krankenhaus. Alles davon entscheidet mit.</text>
+</svg>

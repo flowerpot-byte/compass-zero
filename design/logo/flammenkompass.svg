@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Flammenkompass</title>
+  <ellipse cx="256" cy="256" rx="130" ry="175" fill="none" stroke="#0A0A0A" stroke-width="44"/>
+  <path d="M 256 350 C 205 328 193 265 230 220 C 246 200 282 176 296 148 C 298 186 316 204 326 232 C 344 282 314 336 256 350 Z" fill="#FF4D00"/>
+  <path d="M 256 330 C 228 316 222 284 240 260 C 250 246 262 236 268 222 C 272 244 284 254 290 272 C 300 300 286 322 256 330 Z" fill="#FFFFFF"/>
+</svg>

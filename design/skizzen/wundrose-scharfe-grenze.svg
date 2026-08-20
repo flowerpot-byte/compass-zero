@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+  <!-- Zum Tipp medizin-wundrose (Wundrose: scharf begrenzte rote Flaeche).
+       Gewaehlte Aussage: eine gewoehnliche Roetung verlaeuft weich, die
+       Wundrose hat eine Kante, die sich sogar tasten laesst. Genau das ist
+       eine Grenze, also eine Form - und Form zeigt ein Bild besser als ein
+       Satz. Begruendung: der Tipp selbst nennt diesen Unterschied als das
+       entscheidende Merkmal (im Text grossgeschrieben: SCHARF ABGRENZT).
+       Die Signalfarbe liegt deshalb genau auf dieser Kante, sonst nirgends.
+       Zweite Absicht: die Handlung zeigen, die der Tipp fuer den Ernstfall
+       nennt - die Stelle taeglich mit einem Stift umranden und beobachten,
+       ob der Rand weiterwandert. Bewusst NICHT gezeigt: Fieber, Lymphknoten,
+       die dunkel-blaeuliche Faszien-Entzuendung - das waeren weitere
+       Aussagen, hier geht es nur um die eine Kante. -->
+  <defs>
+    <radialGradient id="weicher-rand" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d9c98a" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#d9c98a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#d9c98a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="640" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Wundrose: der Rand entscheidet</text>
+  <text x="40" y="72" font-family="Georgia, serif" font-size="16" fill="#111">Eine gewöhnliche Rötung hat einen weichen Rand.</text>
+  <text x="40" y="94" font-family="Georgia, serif" font-size="16" fill="#111">Die Wundrose grenzt sich scharf ab — man kann die Kante tasten.</text>
+
+  <line x1="450" y1="120" x2="450" y2="530" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- ============ LINKS: gewoehnliche Roetung ============ -->
+  <text x="240" y="145" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#111" text-anchor="middle">gewöhnliche Rötung</text>
+
+  <path transform="translate(165,170)" d="M55,5 C30,5 20,30 22,70 C25,130 15,190 20,230 C22,255 15,270 25,285 C35,298 55,300 70,300 L95,300 C115,298 130,285 128,265 C122,230 108,190 112,130 C115,80 120,30 100,8 C90,2 70,0 55,5 Z" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+
+  <ellipse cx="240" cy="320" rx="42" ry="34" fill="url(#weicher-rand)"/>
+
+  <text x="240" y="485" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Rand verläuft weich</text>
+
+  <!-- ============ RECHTS: Wundrose ============ -->
+  <text x="660" y="145" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#111" text-anchor="middle">Wundrose</text>
+
+  <path transform="translate(585,170)" d="M55,5 C30,5 20,30 22,70 C25,130 15,190 20,230 C22,255 15,270 25,285 C35,298 55,300 70,300 L95,300 C115,298 130,285 128,265 C122,230 108,190 112,130 C115,80 120,30 100,8 C90,2 70,0 55,5 Z" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+
+  <path d="M700,320 L688,292 L660,282 L632,292 L620,320 L632,348 L660,358 L688,348 Z" fill="#d9c98a" stroke="#111" stroke-width="4"/>
+
+  <path d="M714,320 L698,282 L660,269 L622,282 L606,320 L622,358 L660,371 L698,358 Z" fill="none" stroke="#5b7f96" stroke-width="2" stroke-dasharray="5 5"/>
+  <line x1="714" y1="320" x2="720" y2="322" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="722" y="326" font-family="Georgia, serif" font-size="16" fill="#111">Stift-Rand</text>
+
+  <text x="660" y="485" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Rand ist scharf, tastbar</text>
+  <text x="660" y="507" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">täglich mit Stift nachziehen:</text>
+  <text x="660" y="527" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">wandert die Kante weiter?</text>
+  <text x="40" y="586" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Wird die Fläche dunkel oder bläulich und der Schmerz ist viel stärker, als die Haut</text>
+  <text x="40" y="610" font-family="Georgia, serif" font-size="18" fill="#d65a1a">aussieht: Das ist etwas anderes und viel gefährlicher.</text>
+</svg>

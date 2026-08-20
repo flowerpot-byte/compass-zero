@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+  <!-- Zum Tipp "Herzdruckmassage bei Erwachsenen".
+       Der lebenskritischste Handgriff im ganzen Paket hatte kein Bild. Drei
+       Dinge entscheiden ueber die Wirkung, und alle drei sind Koerperhaltung:
+       WO die Haende liegen (untere Haelfte des Brustbeins, nicht der Bauch und
+       nicht die Rippen), dass die ARME GESTRECKT sind und die SCHULTERN
+       SENKRECHT darueber stehen, und wie TIEF gedrueckt wird. Alle drei lassen
+       sich zeichnen und in Worten nur umstaendlich beschreiben. -->
+  <rect width="900" height="640" fill="#faf9f6"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="28" fill="#111">Herzdruckmassage: Ort, Haltung, Tiefe</text>
+
+  <!-- ===== LINKS: wo die Haende liegen (Brustkorb von vorn) ===== -->
+  <text x="52" y="96" font-family="Georgia, serif" font-size="22" fill="#111">Wo die Hände liegen</text>
+
+  <!-- Rumpf von vorn -->
+  <path d="M 120 130 L 300 130 Q 326 190 318 268 L 306 420 L 114 420 L 102 268 Q 94 190 120 130 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Schluesselbeine -->
+  <path d="M 132 152 Q 176 168 206 158" fill="none" stroke="#111" stroke-width="3"/>
+  <path d="M 288 152 Q 244 168 214 158" fill="none" stroke="#111" stroke-width="3"/>
+  <!-- Brustbein -->
+  <rect x="196" y="158" width="28" height="130" rx="8" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <!-- Rippenandeutung -->
+  <g stroke="#111" stroke-width="2" opacity="0.4" fill="none">
+    <path d="M 196 186 Q 150 196 128 224"/><path d="M 224 186 Q 270 196 292 224"/>
+    <path d="M 196 214 Q 146 226 124 258"/><path d="M 224 214 Q 274 226 296 258"/>
+    <path d="M 196 242 Q 148 256 128 288"/><path d="M 224 242 Q 272 256 292 288"/>
+  </g>
+  <!-- Druckpunkt: untere Haelfte des Brustbeins -->
+  <ellipse cx="210" cy="258" rx="34" ry="24" fill="#d65a1a" opacity="0.85"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="248" y1="258" x2="330" y2="240"/>
+  </g>
+  <text x="336" y="234" font-family="Georgia, serif" font-size="20" fill="#111">untere Hälfte</text>
+  <text x="336" y="258" font-family="Georgia, serif" font-size="20" fill="#111">des Brustbeins</text>
+
+  <!-- Wo NICHT -->
+  <g stroke="#111" stroke-width="2">
+    <line x1="248" y1="180" x2="330" y2="164"/>
+    <line x1="248" y1="352" x2="330" y2="368"/>
+  </g>
+  <text x="336" y="170" font-family="Georgia, serif" font-size="19" fill="#111">nicht oben</text>
+  <text x="336" y="374" font-family="Georgia, serif" font-size="19" fill="#111">nicht auf dem Bauch</text>
+
+  <!-- ===== RECHTS: Haltung von der Seite ===== -->
+  <text x="520" y="96" font-family="Georgia, serif" font-size="22" fill="#111">Haltung von der Seite</text>
+
+  <!-- Liegende Person, nur Brustkorb angedeutet -->
+  <path d="M 544 400 L 876 400 L 876 440 L 544 440 Z" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <ellipse cx="572" cy="378" rx="28" ry="24" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <path d="M 600 400 Q 672 368 744 400" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+
+  <!-- Helfer: Schultern senkrecht ueber den Haenden, Arme gestreckt -->
+  <circle cx="660" cy="180" r="34" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <path d="M 660 214 L 660 244" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+  <!-- Schulterlinie -->
+  <line x1="620" y1="252" x2="700" y2="252" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+  <!-- gestreckte Arme -->
+  <line x1="626" y1="256" x2="648" y2="378" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+  <line x1="694" y1="256" x2="670" y2="378" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+  <!-- Haende -->
+  <ellipse cx="659" cy="388" rx="26" ry="14" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <!-- Lotlinie -->
+  <line x1="660" y1="252" x2="660" y2="388" stroke="#111" stroke-width="3" stroke-dasharray="10 7"/>
+  <text x="700" y="300" font-family="Georgia, serif" font-size="20" fill="#111">Schultern</text>
+  <text x="700" y="324" font-family="Georgia, serif" font-size="20" fill="#111">senkrecht darüber</text>
+  <line x1="600" y1="310" x2="628" y2="310" stroke="#111" stroke-width="2"/>
+  <text x="486" y="304" font-family="Georgia, serif" font-size="20" fill="#111">Arme</text>
+  <text x="486" y="328" font-family="Georgia, serif" font-size="20" fill="#111">gestreckt</text>
+
+  <!-- Tiefe -->
+  <g stroke="#111" stroke-width="4" fill="none">
+    <line x1="822" y1="404" x2="822" y2="436"/>
+    <path d="M 822 436 l -9 -14 M 822 436 l 9 -14"/>
+    <path d="M 822 404 l -9 14 M 822 404 l 9 14"/>
+  </g>
+  <text x="736" y="472" font-family="Georgia, serif" font-size="20" fill="#111">5 bis 6 cm tief</text>
+
+  <text x="40" y="516" font-family="Georgia, serif" font-size="21" fill="#111">Handballen auf die Mitte des Brustkorbs, zweite Hand darauf, Finger verschränkt.</text>
+  <text x="40" y="544" font-family="Georgia, serif" font-size="21" fill="#111">100 bis 120 Mal in der Minute. Nach jedem Druck den Brustkorb ganz</text>
+  <text x="40" y="572" font-family="Georgia, serif" font-size="21" fill="#111">zurückkommen lassen — ohne die Hand abzuheben.</text>
+  <text x="40" y="610" font-family="Georgia, serif" font-size="21" fill="#111">Bei Kindern gilt eine andere Tiefe: ein Drittel des Brustkorbs.</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="550" viewBox="0 0 900 550">
+  <!-- Zum Tipp erste-hilfe-erfrierungen-erkennen.
+
+       GEZEIGTE AUSSAGE: Erfrierungen sehen frueh anders aus als spaet.
+       Wortlaut des Tipps: "Sie sind zunaechst blaeulich-rot, ... spaeter
+       weiss-gelb oder weiss-grau, manchmal mit blauroten Flecken. ... Die
+       Haut ist kalt und zuerst weich und schmerzhaft, spaeter hart und
+       gefuehllos; noch spaeter bilden sich Blasen."
+
+       Als Aufzaehlung liest sich das schnell weg. Als Bild wird daraus ein
+       Unterschied, den man auch ohne Lesen sieht: links eine dunkel
+       durchgefaerbte Kuppe, rechts eine fast weisse mit scharfer Grenze zur
+       gesunden Haut und einer Blase.
+
+       Zwei Fingerkuppen statt abstrakter Formen. Der Tipp nennt Finger,
+       Zehen, Nase, Ohren und Wangen; ein Finger steht stellvertretend, die
+       Liste selbst waere nur eine Aufzaehlung zum Abmalen.
+
+       Neubau am 05.08.2026, zwei Fehler der ersten Fassung. Erstens war die
+       fruehe Stufe mit #d9c98a gefuellt, einem warmen Sandton - unter der
+       Beschriftung "blaeulich-rot". Das Bild widersprach seiner eigenen
+       Bildunterschrift. Die Palette dieses Projekts hat kein Rot und kein
+       Blau ausser dem gedeckten #5b7f96; damit ist die fruehe Stufe jetzt
+       kuehl-dunkel und die spaete fast weiss, und die Farbwoerter stehen
+       daneben, wo sie hingehoeren. Zweitens waren beide Stufen abstrakte
+       Kleckse: "weich" und "hart" laesst sich an einem Umriss nicht zeigen,
+       und der Versuch (rund gegen kantig) sagte nichts. Jetzt tragen die
+       Bilder das, was man WIRKLICH sieht - Farbe und Grenze und Blase -,
+       und "weich" gegen "hart" steht als Wort darunter, weil es ein
+       Tastbefund ist und kein Anblick. -->
+
+  <rect width="900" height="550" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Erfrierung erkennen: früh anders als spät</text>
+  <text x="40" y="76" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Anzeichen ist ein Taubheitsgefühl. Das Schuhwerk fühlt sich zu klein an.</text>
+
+  <!-- ============ Ueberschriften der zwei Stufen ============ -->
+  <text x="250" y="132" font-family="Georgia, serif" font-size="22" fill="#111" text-anchor="middle">FRÜH</text>
+  <text x="250" y="158" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">bläulich-rot</text>
+  <text x="610" y="132" font-family="Georgia, serif" font-size="22" fill="#111" text-anchor="middle">SPÄTER</text>
+  <text x="610" y="158" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">weiß-gelb oder weiß-grau</text>
+
+  <!-- ============ Fruehe Stufe: Fingerkuppe, kuehl durchgefaerbt ============ -->
+  <g>
+    <path d="M 214,420 L 214,268 C 214,232 286,232 286,268 L 286,420 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+    <!-- die betroffene Kuppe, kuehl und dunkel -->
+    <path d="M 214,318 L 214,268 C 214,232 286,232 286,268 L 286,318 Z"
+          fill="#5b7f96" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+    <!-- Nagel -->
+    <rect x="234" y="256" width="32" height="40" rx="12" fill="#e6e2d6" stroke="#111" stroke-width="2.5" opacity="0.75"/>
+    <!-- Fingerglied -->
+    <line x1="214" y1="378" x2="286" y2="378" stroke="#111" stroke-width="2"/>
+  </g>
+  <text x="250" y="452" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">beim Anfassen weich,</text>
+  <text x="250" y="474" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">und es tut weh</text>
+
+  <!-- ============ Spaete Stufe: fast weiss, scharfe Grenze, Blase ============ -->
+  <g>
+    <path d="M 574,420 L 574,268 C 574,232 646,232 646,268 L 646,420 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+    <!-- die betroffene Kuppe, fast weiss, mit scharfer Grenze zur gesunden Haut -->
+    <path d="M 574,330 L 574,268 C 574,232 646,232 646,268 L 646,330 Z"
+          fill="#faf9f6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="574" y1="330" x2="646" y2="330" stroke="#111" stroke-width="4"/>
+    <!-- Blase, die noch spaetere Stufe -->
+    <circle cx="610" cy="252" r="13" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+    <!-- blaurote Flecken, im Text nur ein Nebensatz: klein -->
+    <circle cx="590" cy="300" r="4.5" fill="#5b7f96"/>
+    <circle cx="628" cy="292" r="4.5" fill="#5b7f96"/>
+    <circle cx="606" cy="314" r="4.5" fill="#5b7f96"/>
+    <line x1="574" y1="378" x2="646" y2="378" stroke="#111" stroke-width="2"/>
+  </g>
+
+  <line x1="628" y1="248" x2="700" y2="228" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="708" y="224" font-family="Georgia, serif" font-size="16" fill="#111">noch später: Blasen</text>
+
+  <line x1="640" y1="300" x2="700" y2="288" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="708" y="284" font-family="Georgia, serif" font-size="16" fill="#111">manchmal mit</text>
+  <text x="708" y="304" font-family="Georgia, serif" font-size="16" fill="#111">blauroten Flecken</text>
+
+  <line x1="660" y1="332" x2="700" y2="348" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="708" y="354" font-family="Georgia, serif" font-size="16" fill="#111">scharfe Grenze zur</text>
+  <text x="708" y="374" font-family="Georgia, serif" font-size="16" fill="#111">gesunden Haut</text>
+
+  <text x="610" y="452" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">beim Anfassen hart,</text>
+  <text x="610" y="474" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">und es tut nichts mehr weh</text>
+
+  <text x="40" y="518" font-family="Georgia, serif" font-size="18" fill="#111">Kalt ist die Haut in beiden Fällen. Was zu tun ist, steht im Tipp „Erfrierungen versorgen“.</text>
+</svg>

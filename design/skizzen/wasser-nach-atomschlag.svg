@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1316" viewBox="0 0 900 1316">
+  <!-- Zum Tipp "Trinkwasser nach dem Atomschlag".
+       Das Wertvollste am Tipp ist eine RANGFOLGE, und eine Rangfolge liest
+       man als Fliesstext nicht als Rangfolge, sondern als Aufzaehlung. Vier
+       nummerierte Zeilen mit Farbverlauf von gruen nach rot zeigen in einem
+       Blick, was zuerst genommen wird und was zuletzt.
+       Das Loch im Ufer ist raeumlich und deshalb im Schnitt gezeichnet: Das
+       Wasser sickert SEITLICH durch die Erde, und die Erde haelt die
+       Teilchen zurueck. Ohne Schnitt denkt man an ein Loch IM Wasser.
+       Dasselbe Loch steht im Paket schon einmal, dort gegen Schlamm.
+       Das Einruehren von Erde arbeitet umgekehrt, als man denkt, und hat
+       vier Zahlen, die alle gebraucht werden. Es steht deshalb als
+       nummerierte Folge und nicht im Satz.
+       Der Schlusssatz ist der wichtigste des ganzen Tipps: Keines dieser
+       Verfahren toetet Keime. Wer ihn ueberliest, trinkt sauber gefiltertes
+       Wasser voller Erreger. -->
+  <rect width="900" height="1316" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Trinkwasser nach dem Atomschlag</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#a3231a">Zuerst der eigene Körper: weggehen, ausziehen, waschen.</text>
+  <text x="40" y="126" font-family="Georgia, serif" font-size="21" fill="#111">Das geht allem hier voraus.</text>
+
+  <line x1="40" y1="162" x2="860" y2="162" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ A: die Rangfolge ============ -->
+  <text x="40" y="202" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Rangfolge nach Sicherheit — das Wertvollste an diesem Tipp</text>
+
+  <circle cx="60" cy="250" r="17" fill="#1d6b3a"/>
+  <text x="60" y="257" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">1</text>
+  <text x="88" y="257" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Quellen und Brunnen</text>
+  <text x="420" y="257" font-family="Georgia, serif" font-size="21" fill="#111">Das Wasser hat den Boden durchlaufen,</text>
+  <text x="420" y="283" font-family="Georgia, serif" font-size="21" fill="#111">und der filtert. Ebenso frei: was in</text>
+  <text x="420" y="309" font-family="Georgia, serif" font-size="21" fill="#111">Leitungen und Behältern steht.</text>
+
+  <circle cx="60" cy="353" r="17" fill="#1d6b3a"/>
+  <text x="60" y="360" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">2</text>
+  <text x="88" y="360" font-family="Georgia, serif" font-size="23" fill="#111">Schnee, tief gegraben</text>
+  <text x="420" y="360" font-family="Georgia, serif" font-size="21" fill="#111">Während des Niederschlags aus mindestens</text>
+  <text x="420" y="386" font-family="Georgia, serif" font-size="21" fill="#111">15 Zentimetern Tiefe geholt — die oberste</text>
+  <text x="420" y="412" font-family="Georgia, serif" font-size="21" fill="#111">Schicht fängt den Staub auf.</text>
+
+  <circle cx="60" cy="456" r="17" fill="#d65a1a"/>
+  <text x="60" y="463" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">3</text>
+  <text x="88" y="463" font-family="Georgia, serif" font-size="23" fill="#111">Bäche und Flüsse</text>
+  <text x="420" y="463" font-family="Georgia, serif" font-size="21" fill="#111">Nach einigen Tagen: Fließendes Wasser</text>
+  <text x="420" y="489" font-family="Georgia, serif" font-size="21" fill="#111">verdünnt sich selbst. Trotzdem filtern.</text>
+
+  <circle cx="60" cy="533" r="17" fill="#a3231a"/>
+  <text x="60" y="540" font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">4</text>
+  <text x="88" y="540" font-family="Georgia, serif" font-size="23" fill="#a3231a">Stehendes Wasser</text>
+  <text x="420" y="540" font-family="Georgia, serif" font-size="21" fill="#111">Seen, Teiche, Tümpel: am stärksten</text>
+  <text x="420" y="566" font-family="Georgia, serif" font-size="21" fill="#111">belastet. Lässt sich trotzdem verwenden.</text>
+
+  <line x1="40" y1="602" x2="860" y2="602" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: das Loch im Ufer ============ -->
+  <text x="40" y="642" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Das Loch im Ufer — bis zu 99 Prozent bleiben im Boden</text>
+
+  <path d="M 60 830 L 420 830 L 420 720 L 215 720 L 200 765 L 60 765 Z" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <rect x="60" y="765" width="140" height="65" fill="#a9c4d4"/>
+  <rect x="300" y="720" width="70" height="95" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+  <rect x="303" y="765" width="64" height="48" fill="#a9c4d4"/>
+  <g stroke="#a9c4d4" stroke-width="5" fill="none">
+    <path d="M 206 780 L 290 780"/>
+    <path d="M 296 780 l -14 -7 M 296 780 l -14 7"/>
+    <path d="M 206 806 L 290 806"/>
+    <path d="M 296 806 l -14 -7 M 296 806 l -14 7"/>
+  </g>
+  <rect x="294" y="708" width="82" height="12" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <text x="335" y="700" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">abgedeckt</text>
+  <g stroke="#111" stroke-width="2" fill="none">
+    <path d="M 200 852 L 300 852"/>
+    <path d="M 200 846 L 200 858 M 300 846 L 300 858"/>
+  </g>
+  <text x="250" y="876" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">ein bis zwei Schritte</text>
+
+  <text x="460" y="700" font-family="Georgia, serif" font-size="21" fill="#111">Das Wasser sickert SEITLICH durch</text>
+  <text x="460" y="726" font-family="Georgia, serif" font-size="21" fill="#111">die Erde hinein, und die Erde hält</text>
+  <text x="460" y="752" font-family="Georgia, serif" font-size="21" fill="#111">die Teilchen zurück.</text>
+  <text x="460" y="794" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Bis zu 99 Prozent der</text>
+  <text x="460" y="822" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Radioaktivität bleiben im Boden.</text>
+
+  <line x1="40" y1="916" x2="860" y2="916" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: Erde einruehren ============ -->
+  <text x="40" y="956" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Stehendes Wasser: Erde einrühren — es arbeitet umgekehrt, als man denkt</text>
+  <text x="40" y="996" font-family="Georgia, serif" font-size="21" fill="#111">· Eimer oder tiefes Gefäß zu DREI VIERTELN mit dem Wasser füllen.</text>
+  <text x="40" y="1022" font-family="Georgia, serif" font-size="21" fill="#111">· Erde aus MINDESTENS 10 ZENTIMETERN Tiefe nehmen — oben liegt der Niederschlag.</text>
+  <text x="40" y="1048" font-family="Georgia, serif" font-size="21" fill="#111">· Auf je 10 Zentimeter Wasserstand etwa 2,5 ZENTIMETER Erde einrühren.</text>
+  <text x="40" y="1074" font-family="Georgia, serif" font-size="21" fill="#111">· Rühren, bis fast alle Erdteilchen in der Schwebe sind.</text>
+  <text x="40" y="1100" font-family="Georgia, serif" font-size="21" fill="#111">· MINDESTENS SECHS STUNDEN ruhig stehen lassen.</text>
+
+  <text x="40" y="1140" font-family="Georgia, serif" font-size="21" fill="#111">Die absinkenden Erdteilchen nehmen die schwebenden radioaktiven Teilchen mit</text>
+  <text x="40" y="1166" font-family="Georgia, serif" font-size="21" fill="#111">nach unten und decken sie zu. Das klare Wasser darüber wird abgeschöpft.</text>
+
+  <line x1="40" y1="1202" x2="860" y2="1202" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1242" font-family="Georgia, serif" font-size="23" fill="#a3231a">Und über allem: Alles Wasser wird zusätzlich entkeimt.</text>
+  <text x="40" y="1276" font-family="Georgia, serif" font-size="21" fill="#111">Kein einziges dieser Verfahren tötet Keime — sie holen nur die Teilchen heraus.</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1436" viewBox="0 0 900 1436">
+  <!-- Zum Tipp "Gebaermutter zusammenziehen: anlegen, tasten, nicht ziehen".
+       Vier Dinge, die als Fliesstext nebeneinander stehen und im Bild
+       verschiedene Formen brauchen:
+       1. Das wirksamste Mittel kostet nichts und wird trotzdem als
+          Gefuehlsmoment abgetan. Steht deshalb ganz oben und allein.
+       2. Der Unterschied fest gegen weich ist ein TASTBEFUND, und einen
+          Tastbefund kann man nur durch Gegenueberstellung zeigen: links die
+          klare Kugel, rechts die weiche, ausgefranste Form.
+       3. Die zwei Verbote. Das zweite hat einen Grund, den man nur einmal
+          hoert und nie vergisst: Die Gebaermutter kann nach aussen gestuelpt
+          werden. Der Grund steht mit im Bild, sonst wirkt das Verbot
+          willkuerlich und wird im Ernstfall uebergangen.
+       4. Der Ueberwachungsplan ist das Konkreteste, was es fuer die Stunden
+          danach gibt, und als Zeitleiste sieht man in einem Blick, wie dicht
+          die erste Stunde ist. Die Abstaende stimmen: 780 Bildpunkte sind
+          vier Stunden, also 195 je Stunde; die roten Striche stehen alle
+          15 Minuten, die schwarzen alle 30.
+       Die Eingriffe fuer Ausgebildete stehen bewusst nicht im Bild. Eine
+       halbe Anleitung waere hier gefaehrlicher als keine. -->
+  <rect width="900" height="1436" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Nach der Geburt: anlegen, tasten, nicht ziehen</text>
+
+  <!-- ============ A: das wirksamste Mittel ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Das wirksamste Mittel kostet nichts</text>
+  <text x="40" y="134" font-family="Georgia, serif" font-size="23" fill="#111">Das Kind an die Brust der Mutter legen.</text>
+  <text x="40" y="168" font-family="Georgia, serif" font-size="21" fill="#111">Das hilft der Gebärmutter, sich zusammenzuziehen. Keine Nebensache und kein</text>
+  <text x="40" y="194" font-family="Georgia, serif" font-size="21" fill="#111">Gefühlsmoment, sondern die wirksamste Maßnahme, die ein Laie hat.</text>
+
+  <line x1="40" y1="230" x2="860" y2="230" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: tasten, nicht druecken ============ -->
+  <text x="40" y="270" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Tasten, nicht drücken — mit flacher Hand durch die Bauchdecke</text>
+
+  <rect x="100" y="320" width="180" height="140" rx="36" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <circle cx="190" cy="352" r="5" fill="#111"/>
+  <circle cx="190" cy="406" r="26" fill="#c9c4b4" stroke="#1d6b3a" stroke-width="5"/>
+
+  <rect x="480" y="320" width="180" height="140" rx="36" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <circle cx="570" cy="352" r="5" fill="#111"/>
+  <path d="M 526 402 q 8 -34 44 -32 q 42 2 44 32 q 2 34 -42 34 q -46 2 -46 -34 Z"
+        fill="#e8eef2" stroke="#a3231a" stroke-width="5" stroke-dasharray="9 6"/>
+
+  <text x="100" y="502" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">kleiner und fest</text>
+  <text x="100" y="534" font-family="Georgia, serif" font-size="21" fill="#111">wie eine Kugel, knapp</text>
+  <text x="100" y="560" font-family="Georgia, serif" font-size="21" fill="#111">unter dem Nabel:</text>
+  <text x="100" y="586" font-family="Georgia, serif" font-size="21" fill="#111">sie arbeitet.</text>
+
+  <text x="480" y="502" font-family="Georgia, serif" font-size="23" fill="#a3231a">größer, weich und teigig:</text>
+  <text x="480" y="534" font-family="Georgia, serif" font-size="21" fill="#111">das Warnzeichen.</text>
+
+  <text x="40" y="630" font-family="Georgia, serif" font-size="23" fill="#a3231a">Tasten ja, drücken nein.</text>
+  <text x="40" y="664" font-family="Georgia, serif" font-size="21" fill="#111">Nicht auf den Bauch der Frau drücken — weder während der Geburt noch danach.</text>
+  <text x="40" y="690" font-family="Georgia, serif" font-size="21" fill="#111">Die kräftige Massage ist ein Griff für Ausgebildete; für einen Laien überwiegt</text>
+  <text x="40" y="716" font-family="Georgia, serif" font-size="21" fill="#111">der Schaden.</text>
+
+  <line x1="40" y1="752" x2="860" y2="752" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: nicht ziehen ============ -->
+  <text x="40" y="792" font-family="Georgia, serif" font-size="23" fill="#a3231a">Nicht an der Nabelschnur ziehen</text>
+  <text x="40" y="830" font-family="Georgia, serif" font-size="21" fill="#111">Die Gebärmutter kann dabei nach außen gestülpt werden — gleichsam auf links</text>
+  <text x="40" y="856" font-family="Georgia, serif" font-size="21" fill="#111">gedreht. Das verursacht schweren Blutverlust und Schock.</text>
+  <text x="40" y="890" font-family="Georgia, serif" font-size="21" fill="#111">Stattdessen warten, bis zu dreißig Minuten, bis die Nachgeburt von selbst kommt.</text>
+  <text x="40" y="926" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Sie kommt gleich, wenn: die Gebärmutter im Bauch nach oben steigt, die</text>
+  <text x="40" y="952" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Nabelschnur länger wird und ein Schwall Blut kommt.</text>
+
+  <line x1="40" y1="988" x2="860" y2="988" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: der Ueberwachungsplan ============ -->
+  <text x="40" y="1028" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der Überwachungsplan — vier Stunden</text>
+
+  <line x1="60" y1="1086" x2="255" y2="1086" stroke="#a3231a" stroke-width="5"/>
+  <line x1="255" y1="1086" x2="840" y2="1086" stroke="#111" stroke-width="4"/>
+  <g stroke="#a3231a" stroke-width="4">
+    <line x1="60" y1="1070" x2="60" y2="1102"/>
+    <line x1="109" y1="1070" x2="109" y2="1102"/>
+    <line x1="158" y1="1070" x2="158" y2="1102"/>
+    <line x1="206" y1="1070" x2="206" y2="1102"/>
+    <line x1="255" y1="1070" x2="255" y2="1102"/>
+  </g>
+  <g stroke="#111" stroke-width="4">
+    <line x1="353" y1="1074" x2="353" y2="1098"/>
+    <line x1="450" y1="1074" x2="450" y2="1098"/>
+    <line x1="548" y1="1074" x2="548" y2="1098"/>
+    <line x1="645" y1="1074" x2="645" y2="1098"/>
+    <line x1="743" y1="1074" x2="743" y2="1098"/>
+    <line x1="840" y1="1074" x2="840" y2="1098"/>
+  </g>
+  <text x="157" y="1128" font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="middle">1. Stunde: alle 15 Minuten</text>
+  <text x="548" y="1128" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">dann 3 Stunden: alle 30 Minuten</text>
+
+  <text x="40" y="1172" font-family="Georgia, serif" font-size="21" fill="#111">Puls und Blutverlust prüfen. Wer eine Uhr hat, hat damit einen Plan. Vier Stunden</text>
+  <text x="40" y="1198" font-family="Georgia, serif" font-size="21" fill="#111">aufmerksam bleiben ist lang — aber es ist genau die Zeit, in der es kippt.</text>
+
+  <line x1="40" y1="1234" x2="860" y2="1234" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ E: wenn es stark wird ============ -->
+  <text x="40" y="1274" font-family="Georgia, serif" font-size="21" fill="#111">Wird der Blutabgang stark: hinlegen und warm halten. Blass, kalter Schweiß</text>
+  <text x="40" y="1300" font-family="Georgia, serif" font-size="21" fill="#111">und ein schneller Puls sind ein Notfall — vieles bleibt innen. Gegen die</text>
+  <text x="40" y="1326" font-family="Georgia, serif" font-size="21" fill="#111">Schwellung im Dammbereich: Kälte, 20 bis 30 Minuten, alle vier bis sechs Stunden.</text>
+
+  <text x="40" y="1368" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus der Quelle: Bleibt die Gebärmutter weich und</text>
+  <text x="40" y="1392" font-family="Georgia, serif" font-size="19" fill="#111">blutet es stark weiter, beschreibt die Quelle Eingriffe, die eine Ausbildung</text>
+  <text x="40" y="1416" font-family="Georgia, serif" font-size="19" fill="#111">voraussetzen. Sie stehen hier bewusst nicht. Was bleibt, ist alles oben.</text>
+</svg>

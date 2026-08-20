@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Tipp "erste-hilfe-zecke-entfernen".
+
+       GEZEIGTE AUSSAGE: WO man die Zecke greift. Das laesst sich in Worten
+       nur umstaendlich sagen (naeh der Hautoberflaeche, an den
+       Mundwerkzeugen bzw. am Kopf, niemals am vollgesogenen Koerper) und
+       ist im Bild ein einziger Blick: Pinzette an der schmalen Stelle nah
+       an der Haut, ein Verbotszeichen auf dem runden Koerper.
+
+       REGEL groß: die grosse Zeichnung mit Pinzette, Griffstelle und
+       Zugrichtung. AUSNAHME klein: die zwei Zeilen unten zum Fingernagel,
+       wenn kein Werkzeug da ist.
+
+       SIGNALFARBE: keine. Der Tipp setzt an keiner Stelle ein
+       Ausrufezeichen oder eine vergleichbare Dringlichkeitsmarkierung -
+       das Oel/Klebstoff-Verbot und die Antibiotika-Frage stehen im Text
+       sachlich, nicht alarmierend. Deshalb bleibt #d65a1a hier ganz weg.
+
+       Nicht gezeichnet: Borrelien-Biologie, Desinfektion, Tetanusschutz,
+       Einschicken der Zecke, Antibiotikagabe - das sind eigene Aussagen,
+       keine raeumliche. Sie stehen nicht im Bild, damit die eine Aussage
+       klar bleibt. -->
+
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="40" y="50" font-family="Georgia, serif" font-size="26" fill="#111">Zecke fassen: nah am Kopf, nicht am Körper</text>
+  <line x1="40" y1="76" x2="860" y2="76" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- Zugrichtung: Pfeil oben links im freien Feld zwischen den Griffen -->
+  <text x="40" y="105" font-family="Georgia, serif" font-size="17" fill="#111">langsam und gerade</text>
+  <text x="40" y="127" font-family="Georgia, serif" font-size="17" fill="#111">aus der Haut ziehen</text>
+  <line x1="185" y1="112" x2="380" y2="122" stroke="#5b7f96" stroke-width="1.5"/>
+  <line x1="400" y1="145" x2="400" y2="108" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="388,108 412,108 400,86" fill="#111"/>
+
+  <!-- Nicht am Koerper: Beschriftung ueber der Zecke, Zeigelinie auf das Verbotszeichen -->
+  <text x="600" y="170" font-family="Georgia, serif" font-size="17" fill="#111">nicht am Körper fassen</text>
+  <line x1="596" y1="178" x2="482" y2="192" stroke="#5b7f96" stroke-width="1.5"/>
+  <line x1="460" y1="132" x2="460" y2="176" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- Zecke: runder, vollgesogener Koerper -->
+  <ellipse cx="460" cy="230" rx="62" ry="82" fill="#7a5a3e" stroke="#111" stroke-width="4"/>
+
+  <!-- Beine, je drei je Seite. Kurz gehalten und nah am Koerper, damit
+       keines die Pinzettengriffe kreuzt. -->
+  <g stroke="#111" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M 415,180 Q 390,190 382,215"/>
+    <path d="M 405,205 Q 385,218 380,245"/>
+    <path d="M 402,230 Q 385,248 385,275"/>
+    <path d="M 505,180 Q 530,190 538,215"/>
+    <path d="M 515,205 Q 535,218 540,245"/>
+    <path d="M 518,230 Q 535,248 535,275"/>
+  </g>
+
+  <!-- Verbotszeichen auf dem Koerper: niemals hier greifen -->
+  <circle cx="460" cy="195" r="24" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="446" y1="209" x2="474" y2="181" stroke="#111" stroke-width="2.5"/>
+
+  <!-- Kopf/Mundwerkzeuge: schmale Stelle, die in die Haut fuehrt -->
+  <path d="M 438,312 L 482,312 L 468,340 L 452,340 Z" fill="#7a5a3e" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Pinzette: greift nah an der Haut, am Kopf - nicht am runden Koerper -->
+  <path d="M 355,140 L 373,140 L 373,296 L 452,322 L 436,330 L 355,306 Z" fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 565,140 L 547,140 L 547,296 L 468,322 L 484,330 L 565,306 Z" fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Haut: Oberflaeche und Gewebe darunter -->
+  <line x1="250" y1="340" x2="700" y2="340" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  <rect x="250" y="340" width="450" height="90" rx="12" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+
+  <line x1="40" y1="458" x2="860" y2="458" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- Ausnahme klein: kein Werkzeug da -->
+  <text x="40" y="490" font-family="Georgia, serif" font-size="17" fill="#111">Kein Werkzeug zur Hand? Auch mit dem Fingernagel sofort entfernen —</text>
+  <text x="40" y="514" font-family="Georgia, serif" font-size="17" fill="#111">das ist besser, als zu warten.</text>
+  <text x="40" y="578" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Auf keinen Fall vorher mit Öl oder Klebstoff beträufeln: Das reizt die Zecke,</text>
+  <text x="40" y="602" font-family="Georgia, serif" font-size="18" fill="#d65a1a">und sie gibt ihren Speichel ab.</text>
+</svg>

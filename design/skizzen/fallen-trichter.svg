@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <!-- Zu Schritt 6 der Bauanleitung "Fallen stellen": den Weg zur Falle hin
+       verengen. Ansicht VON OBEN.
+       Der Text nennt drei Masse, die zusammen erst Sinn ergeben: knapp breiter
+       als der Tierkoerper, mindestens ueber eine Koerperlaenge vor der Falle
+       durchgehalten, davor zum Trichtermund hin geoeffnet. Als Satz klingt das
+       nach Kleinkram; als Draufsicht sieht man sofort, dass die Sperre ein
+       LANGER Kanal sein muss und keine blosse Engstelle.
+       Der Grund, warum das ueberhaupt wirkt, steht in der Quelle: Die
+       wenigsten Wildtiere gehen rueckwaerts. -->
+  <rect width="900" height="560" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Den Weg zur Falle verengen — von oben gesehen</text>
+
+  <!-- Wildwechsel als heller Streifen -->
+  <path d="M 40 300 L 860 300" stroke="#e6e2d6" stroke-width="150" stroke-linecap="butt"/>
+  <path d="M 40 226 L 860 226 M 40 374 L 860 374" stroke="#cfcabb" stroke-width="2" stroke-dasharray="10 9"/>
+
+  <!-- Sperre oben: vom Rand her einwaerts, dann parallel, dann bis zur Falle -->
+  <path d="M 60 226 L 300 262 L 620 262" fill="none" stroke="#111" stroke-width="9"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 60 374 L 300 338 L 620 338" fill="none" stroke="#111" stroke-width="9"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Reisig als kurze Striche an der Sperre -->
+  <g stroke="#111" stroke-width="3" stroke-linecap="round">
+    <path d="M 110 232 L 100 212 M 170 241 L 162 220 M 230 250 L 224 229 M 290 260 L 286 238"/>
+    <path d="M 350 262 L 350 240 M 420 262 L 420 240 M 490 262 L 490 240 M 560 262 L 560 240"/>
+    <path d="M 110 368 L 100 388 M 170 359 L 162 380 M 230 350 L 224 371 M 290 340 L 286 362"/>
+    <path d="M 350 338 L 350 360 M 420 338 L 420 360 M 490 338 L 490 360 M 560 338 L 560 360"/>
+  </g>
+
+  <!-- Die Falle am engsten Punkt -->
+  <ellipse cx="640" cy="300" rx="26" ry="34" fill="none" stroke="#111" stroke-width="8"/>
+  <text x="676" y="294" font-family="Georgia, serif" font-size="22" fill="#111">Falle</text>
+  <text x="676" y="320" font-family="Georgia, serif" font-size="18" fill="#111">am engsten Punkt</text>
+
+  <!-- Tier, das hineinlaeuft -->
+  <g transform="translate(120,300)">
+    <ellipse cx="0" cy="0" rx="34" ry="19" fill="#111"/>
+    <circle cx="30" cy="-9" r="11" fill="#111"/>
+    <path d="M -34 0 L -56 -8" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round">
+    <line x1="190" y1="300" x2="248" y2="300"/>
+    <path d="M 248 300 l -16 -11 M 248 300 l -16 11"/>
+  </g>
+
+  <!-- Mass 1: Breite knapp ueber Koerperbreite -->
+  <g stroke="#5b7f96" stroke-width="3">
+    <line x1="470" y1="262" x2="470" y2="338"/>
+    <line x1="462" y1="262" x2="478" y2="262"/>
+    <line x1="462" y1="338" x2="478" y2="338"/>
+  </g>
+  <text x="332" y="410" font-family="Georgia, serif" font-size="19" fill="#5b7f96">knapp breiter als das Tier</text>
+
+  <!-- Mass 2: Laenge der Verengung -->
+  <g stroke="#5b7f96" stroke-width="3">
+    <line x1="300" y1="196" x2="620" y2="196"/>
+    <line x1="300" y1="188" x2="300" y2="204"/>
+    <line x1="620" y1="188" x2="620" y2="204"/>
+  </g>
+  <text x="308" y="180" font-family="Georgia, serif" font-size="19" fill="#5b7f96">mindestens eine Körperlänge lang</text>
+
+  <!-- Trichtermund -->
+  <text x="46" y="196" font-family="Georgia, serif" font-size="19" fill="#111">weit offen</text>
+
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="40" y="470">Die Sperre muss kein Hindernis sein — es reicht, wenn der Umweg unbequemer ist</text>
+    <text x="40" y="498">als der Weg hindurch. Sie wirkt, weil die wenigsten Wildtiere rückwärts gehen.</text>
+    <text x="40" y="534" fill="#d65a1a">Kein frisch geschnittenes Grün verbauen: Der austretende Saft riecht nach Alarm.</text>
+  </g>
+</svg>

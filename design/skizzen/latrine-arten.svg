@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp "Latrine bauen: welche Art wofuer".
+       Die aufgeschuettete Latrine ist der Fall, den man nicht errät: Bei hohem
+       Grundwasser graebt man NICHT tiefer, sondern schuettet einen Huegel auf
+       und setzt die Grube hinein. Im Querschnitt mit eingezeichnetem
+       Grundwasserstand sieht man in einem Blick, warum. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="28" fill="#111">Latrine: drei Formen im Querschnitt</text>
+
+  <!-- gemeinsame Bodenlinie -->
+  <line x1="40" y1="300" x2="860" y2="300" stroke="#111" stroke-width="4"/>
+  <!-- Grundwasser -->
+  <rect x="40" y="404" width="820" height="70" fill="#c9d9e2"/>
+  <line x1="40" y1="404" x2="860" y2="404" stroke="#111" stroke-width="3" stroke-dasharray="12 8"/>
+  <text x="46" y="452" font-family="Georgia, serif" font-size="20" fill="#111">Grundwasser</text>
+
+  <!-- ===== 1. Katzenloch ===== -->
+  <text x="70" y="118" font-family="Georgia, serif" font-size="21" fill="#111">Katzenloch</text>
+  <text x="70" y="144" font-family="Georgia, serif" font-size="18" fill="#111">für eine Nacht</text>
+  <path d="M 116 300 L 116 344 L 176 344 L 176 300 Z" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <!-- Aushub daneben -->
+  <path d="M 190 300 Q 216 272 244 300 Z" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="3" fill="none">
+    <path d="M 214 268 Q 190 246 156 274"/>
+    <path d="M 156 274 l 16 -6 M 156 274 l 2 -17"/>
+  </g>
+  <text x="60" y="230" font-family="Georgia, serif" font-size="18" fill="#111">Aushub gleich wieder</text>
+  <text x="60" y="252" font-family="Georgia, serif" font-size="18" fill="#111">hineinschieben</text>
+  <text x="90" y="380" font-family="Georgia, serif" font-size="18" fill="#111">etwa 30 cm</text>
+
+  <!-- ===== 2. Tiefe Grube ===== -->
+  <text x="340" y="118" font-family="Georgia, serif" font-size="21" fill="#111">Tiefe Grube</text>
+  <text x="340" y="144" font-family="Georgia, serif" font-size="18" fill="#111">für ein längeres Lager</text>
+  <path d="M 372 300 L 372 366 L 452 366 L 452 300 Z" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <!-- Sitz -->
+  <rect x="356" y="272" width="112" height="28" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="398" y="272" width="28" height="28" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+  <text x="330" y="256" font-family="Georgia, serif" font-size="18" fill="#111">Sitz, fliegendicht</text>
+  <g stroke="#d65a1a" stroke-width="3">
+    <line x1="470" y1="366" x2="470" y2="404"/>
+    <path d="M 470 366 l -6 10 M 470 366 l 6 10"/>
+    <path d="M 470 404 l -6 -10 M 470 404 l 6 -10"/>
+  </g>
+  <text x="482" y="392" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Abstand halten</text>
+
+  <!-- ===== 3. Aufgeschuettete Latrine ===== -->
+  <text x="620" y="118" font-family="Georgia, serif" font-size="21" fill="#111">Aufgeschüttet</text>
+  <text x="620" y="144" font-family="Georgia, serif" font-size="18" fill="#111">bei hohem Grundwasser</text>
+  <!-- Huegel -->
+  <path d="M 616 300 Q 706 196 796 300 Z" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Grube IM Huegel, endet oberhalb der Bodenlinie -->
+  <path d="M 682 232 L 682 296 L 730 296 L 730 232 Z" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <rect x="666" y="212" width="80" height="22" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <g stroke="#d65a1a" stroke-width="3">
+    <line x1="812" y1="300" x2="812" y2="404"/>
+    <path d="M 812 300 l -6 10 M 812 300 l 6 10"/>
+    <path d="M 812 404 l -6 -10 M 812 404 l 6 -10"/>
+  </g>
+  <text x="586" y="342" font-family="Georgia, serif" font-size="18" fill="#d65a1a">Grube bleibt</text>
+  <text x="586" y="364" font-family="Georgia, serif" font-size="18" fill="#d65a1a">über dem Boden</text>
+
+  <text x="40" y="516" font-family="Georgia, serif" font-size="21" fill="#111">Bei felsigem, gefrorenem Boden oder hohem Grundwasser wird nicht tiefer</text>
+  <text x="40" y="544" font-family="Georgia, serif" font-size="21" fill="#111">gegraben, sondern aufgeschüttet — oder ein Eimer benutzt und täglich geleert.</text>
+  <text x="40" y="580" font-family="Georgia, serif" font-size="21" fill="#111">Geschlossen wird, wenn 30 cm bis zur Oberfläche fehlen. Stelle markieren.</text>
+</svg>

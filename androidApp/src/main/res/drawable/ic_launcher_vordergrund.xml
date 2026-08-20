@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Erzeugt aus design/logo/app-icon-adaptiv.svg. Dort wird geaendert, nicht hier.
+     Das Motiv ist auf 66 Prozent verkleinert und mittig gesetzt, damit vom
+     Kompass nichts abgeschnitten wird, wenn das System das Icon rund zuschneidet. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <group android:translateX="256" android:translateY="256">
+        <group android:scaleX="0.66" android:scaleY="0.66">
+            <group android:translateX="-244" android:translateY="-280">
+                <path
+                    android:pathData="M40 150 C104 112 176 112 248 150 C320 112 392 112 456 150 V392 C392 354 320 354 248 392 C176 354 104 354 40 392 Z"
+                    android:fillColor="#FF0A0A0A" />
+                <path
+                    android:pathData="M248 154 V388"
+                    android:strokeColor="#FFFFFFFF"
+                    android:strokeWidth="10"
+                    android:strokeLineCap="round" />
+                <path
+                    android:pathData="M212,330 a118,118 0 1,0 236,0 a118,118 0 1,0 -236,0 Z"
+                    android:fillColor="#FFFFFFFF"
+                    android:strokeColor="#FF0A0A0A"
+                    android:strokeWidth="18" />
+                <path android:pathData="M322,242 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 Z" android:fillColor="#FF0A0A0A" />
+                <path android:pathData="M410,330 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 Z" android:fillColor="#FF0A0A0A" />
+                <path android:pathData="M322,418 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 Z" android:fillColor="#FF0A0A0A" />
+                <path android:pathData="M234,330 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0 Z" android:fillColor="#FF0A0A0A" />
+                <path android:pathData="M388,272 L318,318 L342,342 Z" android:fillColor="#FFFF4D00" />
+                <path android:pathData="M272,388 L342,342 L318,318 Z" android:fillColor="#FF0A0A0A" />
+                <path
+                    android:pathData="M320,330 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0 Z"
+                    android:fillColor="#FFFFFFFF"
+                    android:strokeColor="#FF0A0A0A"
+                    android:strokeWidth="6" />
+            </group>
+        </group>
+    </group>
+</vector>

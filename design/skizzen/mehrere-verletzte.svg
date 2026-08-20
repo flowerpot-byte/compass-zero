@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="840" viewBox="0 0 900 840">
+  <!-- Zum Tipp "Mehrere Verletzte: erst alle ansprechen".
+       Drei Schritte, und alle drei laufen dem ersten Drang zuwider. Deshalb
+       stehen sie hier untereinander und nummeriert: Man liest sie in der
+       Reihenfolge, in der man sie braucht.
+       Schritt 2 ist der Kern und im Bild der groesste Kontrast: Wer schreit,
+       atmet. Wer still ist, atmet vielleicht nicht mehr. Der erste Drang geht
+       zum Lauten; richtig ist der Stille.
+       Schritt 3 macht laut Quelle fast niemand: Die Gehfaehigen werden
+       eingespannt und druecken auf die Blutungen der anderen. Ein Helfer, der
+       selbst drueckt, ist gebunden; ein Helfer, der Drueckende einteilt,
+       versorgt viele.
+       Die Blitzschlag-Ausnahme steht als Fusszeile, weil sie die Reihenfolge
+       umdreht und man sie sonst uebersieht. -->
+  <rect width="900" height="840" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Mehrere Verletzte, ein Helfer: die Reihenfolge</text>
+
+  <!-- ============ 1. Alle gleichzeitig ansprechen ============ -->
+  <circle cx="62" cy="112" r="19" fill="#1d6b3a"/>
+  <text x="62" y="120" font-family="Georgia, serif" font-size="21" fill="#faf9f6" text-anchor="middle">1</text>
+  <text x="94" y="120" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Alle gleichzeitig laut fragen</text>
+
+  <!-- Helfer ruft -->
+  <circle cx="104" cy="176" r="20" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="88" y="198" width="34" height="60" rx="15" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#1d6b3a" stroke-width="4" fill="none">
+    <path d="M 128 164 q 14 -8 26 -4"/>
+    <path d="M 132 178 q 20 -6 34 0"/>
+    <path d="M 130 192 q 16 4 30 12"/>
+  </g>
+  <!-- Sprechblase -->
+  <rect x="176" y="140" width="230" height="46" rx="12" fill="#e8eef2" stroke="#1d6b3a" stroke-width="3"/>
+  <path d="M 176 168 l -16 10 l 16 4 Z" fill="#e8eef2" stroke="#1d6b3a" stroke-width="3"/>
+  <text x="192" y="170" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Wo seid ihr verletzt?</text>
+
+  <!-- drei Liegende -->
+  <g fill="#c9c4b4" stroke="#111" stroke-width="4">
+    <circle cx="200" cy="238" r="14"/><rect x="216" y="226" width="56" height="24" rx="11"/>
+    <circle cx="300" cy="238" r="14"/><rect x="316" y="226" width="56" height="24" rx="11"/>
+    <circle cx="400" cy="238" r="14"/><rect x="416" y="226" width="56" height="24" rx="11"/>
+  </g>
+  <line x1="176" y1="258" x2="500" y2="258" stroke="#111" stroke-width="4"/>
+
+  <text x="530" y="152" font-family="Georgia, serif" font-size="21" fill="#111">Wer sinnvoll antwortet, hat</text>
+  <text x="530" y="178" font-family="Georgia, serif" font-size="21" fill="#111">freie Atemwege, atmet und ist</text>
+  <text x="530" y="204" font-family="Georgia, serif" font-size="21" fill="#111">bei Bewusstsein.</text>
+  <text x="530" y="240" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Drei Prüfungen in einer Frage —</text>
+  <text x="530" y="266" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">bei allen auf einmal.</text>
+
+  <line x1="40" y1="294" x2="860" y2="294" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 2. Zu den Stillen ============ -->
+  <circle cx="62" cy="336" r="19" fill="#1d6b3a"/>
+  <text x="62" y="344" font-family="Georgia, serif" font-size="21" fill="#faf9f6" text-anchor="middle">2</text>
+  <text x="94" y="344" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zu den Stillen gehen, nicht zu den Lauten</text>
+
+  <!-- der Laute -->
+  <circle cx="110" cy="440" r="18" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="130" y="426" width="76" height="30" rx="14" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="80" y="382" width="130" height="34" rx="10" fill="#e8eef2" stroke="#1d6b3a" stroke-width="3"/>
+  <path d="M 106 416 l 2 12 l 14 -12 Z" fill="#e8eef2" stroke="#1d6b3a" stroke-width="3"/>
+  <text x="96" y="406" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">„Mein Bein!“</text>
+  <text x="76" y="490" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">antwortet — später</text>
+
+  <!-- der Stille -->
+  <circle cx="330" cy="440" r="18" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="350" y="426" width="76" height="30" rx="14" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- leere, durchgestrichene Sprechblase: sagt nichts -->
+  <rect x="300" y="382" width="88" height="34" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <path d="M 326 416 l 2 12 l 14 -12 Z" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <line x1="306" y1="412" x2="382" y2="386" stroke="#a3231a" stroke-width="3"/>
+  <text x="300" y="490" font-family="Georgia, serif" font-size="21" fill="#a3231a">still — ZUERST</text>
+  <line x1="60" y1="462" x2="470" y2="462" stroke="#111" stroke-width="4"/>
+  <g stroke="#a3231a" stroke-width="5" fill="none">
+    <path d="M 236 398 L 296 426"/>
+    <path d="M 296 426 l -22 -1 M 296 426 l -7 -20"/>
+  </g>
+
+  <text x="530" y="386" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wer schreit, atmet.</text>
+  <text x="530" y="414" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wer still ist, atmet</text>
+  <text x="530" y="442" font-family="Georgia, serif" font-size="23" fill="#a3231a">vielleicht nicht mehr.</text>
+  <text x="530" y="478" font-family="Georgia, serif" font-size="21" fill="#111">Der erste Drang geht zum Lauten.</text>
+  <text x="530" y="504" font-family="Georgia, serif" font-size="21" fill="#111">Richtig ist der Stille.</text>
+
+  <line x1="40" y1="532" x2="860" y2="532" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 3. Die Gehfähigen einspannen ============ -->
+  <circle cx="62" cy="574" r="19" fill="#1d6b3a"/>
+  <text x="62" y="582" font-family="Georgia, serif" font-size="21" fill="#faf9f6" text-anchor="middle">3</text>
+  <text x="94" y="582" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Gehfähigen einspannen</text>
+
+  <!-- Helfer zeigt -->
+  <circle cx="104" cy="640" r="19" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="88" y="662" width="34" height="56" rx="15" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <line x1="122" y1="676" x2="176" y2="662" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Leichtverletzter drueckt -->
+  <circle cx="228" cy="638" r="19" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="212" y="660" width="34" height="42" rx="15" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <line x1="246" y1="678" x2="298" y2="700" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <rect x="292" y="690" width="26" height="22" rx="8" fill="#a3231a"/>
+  <!-- Liegender mit Blutung -->
+  <circle cx="368" cy="708" r="17" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="286" y="712" width="120" height="26" rx="12" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <line x1="60" y1="738" x2="470" y2="738" stroke="#111" stroke-width="4"/>
+
+  <text x="530" y="620" font-family="Georgia, serif" font-size="21" fill="#111">Laut, einfach, einzeln zuweisen:</text>
+  <text x="530" y="652" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">„Du — drück hier drauf,</text>
+  <text x="530" y="680" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">hör nicht auf.“</text>
+  <text x="530" y="716" font-family="Georgia, serif" font-size="21" fill="#111">Wer selbst drückt, ist gebunden.</text>
+  <text x="530" y="742" font-family="Georgia, serif" font-size="21" fill="#111">Wer Drückende einteilt, versorgt viele.</text>
+
+  <line x1="40" y1="768" x2="860" y2="768" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="40" y="794" font-family="Georgia, serif" font-size="21" fill="#a3231a">Eine Ausnahme dreht das um: Nach einem BLITZSCHLAG geht man ZUERST</text>
+  <text x="40" y="820" font-family="Georgia, serif" font-size="21" fill="#a3231a">zu denen, die keinen Kreislauf mehr haben.</text>
+</svg>

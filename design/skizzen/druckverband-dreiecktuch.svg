@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <!-- Zum Tipp erste-hilfe-druckverband-dreiecktuch, "Druckverband ohne Binde:
+       mit Dreiecktuch".
+
+       GEZEIGTE AUSSAGE: die REIHENFOLGE DER LAGEN. Der Text nennt sie in
+       einer Reihenfolge, die man beim Lesen leicht ueberliest und die gegen
+       die Erwartung geht: Das Druckpolster kommt NICHT direkt auf die
+       Wundauflage, sondern ERST AUF DAS TUCH. Wortlaut: "Leg zuerst die
+       Wundauflage auf die Wunde. Leg dann die gefaltete Krawatte so
+       darueber, dass ein kurzes und ein langes Ende herunterhaengen, und
+       setz das Druckpolster auf den Wundbereich. Wickle das lange Ende ueber
+       das Druckpolster und verknote es mit dem kurzen."
+
+       Vier Querschnitte statt eines Bildes: Im Querschnitt liegt jede Lage
+       sichtbar ueber der vorherigen, und der Unterschied zwischen zwei
+       Schritten ist eine FLAECHE, keine Strichstaerke. Das traegt auch klein.
+
+       Keine Signalfarbe. Es gibt hier keinen Handgriff, bei dem ein Fehler
+       gefaehrlich waere; die Farbe bleibt den Stellen vorbehalten, wo das so
+       ist.
+
+       Neubau am 04.08.2026. Die erste Fassung zeigte eine Seitenansicht, in
+       der die Beschriftungen "gleiche Mitte" und "Unterarm, von der Seite"
+       auf dem Polster und auf einer Fuehrungslinie lagen, die Lagen als
+       schwebende Kaesten uebereinander standen und die Signalfarbe am Knoten
+       sass, wo kein gefaehrlicher Fehler ist. -->
+
+  <rect width="900" height="520" fill="#faf9f6"/>
+
+  <defs>
+    <g id="arm">
+      <circle cx="0" cy="0" r="60" fill="#e6e2d6" stroke="#111" stroke-width="3.5"/>
+      <path d="M-15,-58 L-8,-61 L0,-57 L9,-61 L15,-58" fill="none" stroke="#7a5a3e" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g id="auflage">
+      <rect x="-27" y="-74" width="54" height="15" rx="5" fill="#faf9f6" stroke="#111" stroke-width="2.5"/>
+    </g>
+    <g id="tuchbogen">
+      <path d="M-60,4 C-60,-50 -29,-82 0,-82 C29,-82 60,-50 60,4" fill="none" stroke="#d9c98a" stroke-width="15"/>
+      <path d="M-60,4 C-60,-50 -29,-82 0,-82 C29,-82 60,-50 60,4" fill="none" stroke="#111" stroke-width="1.6"/>
+    </g>
+    <g id="polster">
+      <rect x="-26" y="-110" width="52" height="26" rx="7" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+    </g>
+  </defs>
+
+  <g font-family="Georgia, serif">
+    <text x="450" y="44" text-anchor="middle" font-size="25" fill="#111">Dreiecktuch als Druckverband: die Reihenfolge der Lagen</text>
+    <text x="450" y="76" text-anchor="middle" font-size="17" fill="#5b7f96">Querschnitt durch den Arm. Das Polster kommt auf das Tuch, nicht darunter.</text>
+
+    <!-- ========== 1: Wundauflage ========== -->
+    <text x="120" y="368" text-anchor="middle" font-size="19" fill="#5b7f96">1</text>
+    <g transform="translate(120,258)">
+      <use href="#arm"/>
+      <use href="#auflage"/>
+    </g>
+    <text x="120" y="392" text-anchor="middle" font-size="16" fill="#111">Wundauflage</text>
+    <text x="120" y="414" text-anchor="middle" font-size="16" fill="#111">auf die Wunde</text>
+
+    <!-- ========== 2: Krawatte darueber, zwei Enden ========== -->
+    <text x="340" y="368" text-anchor="middle" font-size="19" fill="#5b7f96">2</text>
+    <g transform="translate(340,258)">
+      <use href="#arm"/>
+      <use href="#auflage"/>
+      <use href="#tuchbogen"/>
+      <path d="M-60,4 C-63,24 -59,40 -57,52" fill="none" stroke="#d9c98a" stroke-width="15" stroke-linecap="round"/>
+      <path d="M-60,4 C-63,24 -59,40 -57,52" fill="none" stroke="#111" stroke-width="1.6"/>
+      <path d="M60,4 C64,30 61,58 65,84" fill="none" stroke="#d9c98a" stroke-width="15" stroke-linecap="round"/>
+      <path d="M60,4 C64,30 61,58 65,84" fill="none" stroke="#111" stroke-width="1.6"/>
+      <text x="-74" y="58" text-anchor="end" font-size="15" fill="#5b7f96">kurz</text>
+      <text x="80" y="90" font-size="15" fill="#5b7f96">lang</text>
+    </g>
+    <text x="340" y="392" text-anchor="middle" font-size="16" fill="#111">Tuch längs gefaltet</text>
+    <text x="340" y="414" text-anchor="middle" font-size="16" fill="#111">darüberlegen</text>
+
+    <!-- ========== 3: Druckpolster auf das Tuch ========== -->
+    <text x="560" y="368" text-anchor="middle" font-size="19" fill="#5b7f96">3</text>
+    <g transform="translate(560,258)">
+      <use href="#arm"/>
+      <use href="#auflage"/>
+      <use href="#tuchbogen"/>
+      <path d="M-60,4 C-63,24 -59,40 -57,52" fill="none" stroke="#d9c98a" stroke-width="15" stroke-linecap="round"/>
+      <path d="M60,4 C64,30 61,58 65,84" fill="none" stroke="#d9c98a" stroke-width="15" stroke-linecap="round"/>
+      <use href="#polster"/>
+    </g>
+    <text x="560" y="392" text-anchor="middle" font-size="16" fill="#111">Druckpolster</text>
+    <text x="560" y="414" text-anchor="middle" font-size="16" fill="#111">auf das Tuch</text>
+
+    <!-- ========== 4: langes Ende darueber, verknoten ========== -->
+    <text x="782" y="368" text-anchor="middle" font-size="19" fill="#5b7f96">4</text>
+    <g transform="translate(782,258)">
+      <use href="#arm"/>
+      <use href="#auflage"/>
+      <use href="#tuchbogen"/>
+      <use href="#polster"/>
+      <path d="M60,4 C72,-38 48,-102 6,-116" fill="none" stroke="#d9c98a" stroke-width="15" stroke-linecap="round"/>
+      <path d="M60,4 C72,-38 48,-102 6,-116" fill="none" stroke="#111" stroke-width="1.6"/>
+      <path d="M-60,4 C-72,-38 -48,-102 -6,-116" fill="none" stroke="#d9c98a" stroke-width="15" stroke-linecap="round"/>
+      <path d="M-60,4 C-72,-38 -48,-102 -6,-116" fill="none" stroke="#111" stroke-width="1.6"/>
+      <ellipse cx="0" cy="-120" rx="17" ry="11" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+    </g>
+    <text x="782" y="392" text-anchor="middle" font-size="16" fill="#111">langes Ende darüber,</text>
+    <text x="782" y="414" text-anchor="middle" font-size="16" fill="#111">verknoten</text>
+
+    <text x="40" y="466" font-size="18" fill="#111">Wundauflage und Druckpolster brauchst du auch dann, wenn keine Binde da ist.</text>
+    <text x="40" y="496" font-size="18" fill="#111">Verbundene Körperteile werden hochgelagert.</text>
+  </g>
+</svg>

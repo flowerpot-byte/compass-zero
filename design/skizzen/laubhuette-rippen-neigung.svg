@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" font-family="Georgia, serif">
+  <!-- Zu Schritt 4 von notunterstand-laubhuette: "Rippen anlehnen".
+       Gezeigter Satz: Achte darauf, dass die Rippen breit genug sind, um
+       deinen Koerper aufzunehmen, und steil genug, um Feuchtigkeit
+       abzuleiten.
+       Zwei Querschnitte im Vergleich: links ein steiler Rippenkeil mit
+       freier Breite im Inneren, rechts ein zu flacher Rippenkeil, bei dem
+       Feuchtigkeit am Ast haengen bleibt statt abzulaufen. Die Signalfarbe
+       markiert nur diese eine gefaehrliche Stelle rechts. -->
+  <rect width="900" height="560" fill="#faf9f6"/>
+
+  <text x="450" y="45" text-anchor="middle" font-size="27" fill="#111">Rippen anlehnen</text>
+  <text x="450" y="75" text-anchor="middle" font-size="18" fill="#111">steil genug für Wasserablauf, breit genug für den Körper</text>
+
+  <!-- Linkes Feld: steiler, richtiger Rippenkeil -->
+  <text x="245" y="125" text-anchor="middle" font-size="19" fill="#5b7f96">steil genug</text>
+
+  <line x1="70" y1="500" x2="420" y2="500" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="7" stroke-linecap="round" fill="none">
+    <line x1="245" y1="170" x2="120" y2="500"/>
+    <line x1="245" y1="170" x2="370" y2="500"/>
+  </g>
+  <circle cx="245" cy="170" r="9" fill="#111"/>
+
+  <!-- Winkelbogen links: steiler Winkel zwischen Boden und Rippe -->
+  <path d="M 160 500 A 40 40 0 0 0 134 463" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <text x="88" y="440" font-size="14" fill="#5b7f96">steil</text>
+
+  <!-- Firstbalken-Beschriftung links -->
+  <line x1="256" y1="162" x2="270" y2="150" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="273" y="150" font-size="16" fill="#111">Firstbalken</text>
+
+  <!-- Rippen-Beschriftung links -->
+  <line x1="324" y1="380" x2="392" y2="340" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="395" y="340" font-size="16" fill="#111">Rippen</text>
+
+  <!-- Breite fuer den Koerper: Doppelpfeil im Inneren des Keils -->
+  <line x1="126" y1="485" x2="364" y2="485" stroke="#5b7f96" stroke-width="2.5"/>
+  <path d="M 126 485 l 10 -7 M 126 485 l 10 7 M 364 485 l -10 -7 M 364 485 l -10 7" fill="none" stroke="#5b7f96" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="245" y="462" text-anchor="middle" font-size="16" fill="#5b7f96">Breite für den Körper</text>
+
+  <!-- Rechtes Feld: zu flacher, falscher Rippenkeil -->
+  <text x="655" y="125" text-anchor="middle" font-size="19" fill="#5b7f96">zu flach</text>
+
+  <line x1="480" y1="500" x2="830" y2="500" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="7" stroke-linecap="round" fill="none">
+    <line x1="655" y1="430" x2="520" y2="500"/>
+    <line x1="655" y1="430" x2="790" y2="500"/>
+  </g>
+  <circle cx="655" cy="430" r="9" fill="#111"/>
+
+  <!-- Winkelbogen rechts: flacher Winkel zwischen Boden und Rippe -->
+  <path d="M 560 500 A 40 40 0 0 0 555 481" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <text x="514" y="493" text-anchor="end" font-size="14" fill="#5b7f96">flach</text>
+
+  <!-- Firstbalken-Beschriftung rechts -->
+  <line x1="663" y1="422" x2="678" y2="412" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="681" y="412" font-size="16" fill="#111">Firstbalken</text>
+
+  <!-- Die eine gefaehrliche Stelle: Feuchtigkeit bleibt am flachen Ast haengen -->
+  <ellipse cx="722" cy="465" rx="26" ry="9" fill="#d65a1a"/>
+  <line x1="722" y1="456" x2="790" y2="330" stroke="#d65a1a" stroke-width="1.5"/>
+  <text x="830" y="300" text-anchor="end" font-size="16" fill="#d65a1a">Feuchtigkeit dringt ein</text>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Tipp "Lawine: jemand ist verschuettet".
+       Der Text sagt: nicht senkrecht von oben graben, sondern seitlich versetzt
+       anfangen und schraeg auf die Person zu. In Worten ist das schwerfaellig,
+       im Bild sofort klar. Links der Fehler, rechts der Weg.
+       Der Grund fuer das Bild: Wer von oben graebt, steht auf der Person und
+       zerstoert die Atemhoehle, aus der sie bis dahin gelebt hat.
+       Zweite Fassung: In der ersten sah der rechte Graben wie ein schraeger
+       Schacht aus, weil seine Oeffnung genauso breit war wie unten. Jetzt ist
+       die Oeffnung schmal und deutlich seitlich versetzt. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Ausgraben: nicht von oben, sondern von der Seite</text>
+
+  <!-- ============ LINKS: so nicht ============ -->
+  <text x="40" y="92" font-family="Georgia, serif" font-size="23" fill="#a3231a">So nicht: senkrecht von oben</text>
+
+  <rect x="40" y="120" width="380" height="280" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <line x1="40" y1="120" x2="420" y2="120" stroke="#111" stroke-width="5"/>
+
+  <!-- senkrechter Schacht, genau ueber der Person -->
+  <path d="M 186 120 L 186 292 L 276 292 L 276 120" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+
+  <!-- Verschuetteter -->
+  <circle cx="200" cy="316" r="16" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="216" y="301" width="82" height="31" rx="10" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <!-- Fuesse des Retters, genau ueber dem Kopf -->
+  <g fill="#a3231a">
+    <rect x="192" y="278" width="22" height="12" rx="4"/>
+    <rect x="222" y="278" width="22" height="12" rx="4"/>
+  </g>
+
+  <!-- Verbotszeichen -->
+  <g stroke="#a3231a" stroke-width="7" fill="none">
+    <circle cx="231" cy="196" r="40"/>
+    <line x1="203" y1="168" x2="259" y2="224"/>
+  </g>
+
+  <text x="40" y="440" font-family="Georgia, serif" font-size="21" fill="#111">Der Schnee muss nach oben</text>
+  <text x="40" y="466" font-family="Georgia, serif" font-size="21" fill="#111">gehoben werden, und man steht</text>
+  <text x="40" y="492" font-family="Georgia, serif" font-size="21" fill="#a3231a">dort, wo die Atemhöhle liegt.</text>
+
+  <line x1="446" y1="120" x2="446" y2="530" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ RECHTS: so ============ -->
+  <text x="472" y="92" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">So: seitlich versetzt anfangen</text>
+
+  <rect x="472" y="120" width="388" height="280" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <line x1="472" y1="120" x2="860" y2="120" stroke="#111" stroke-width="5"/>
+
+  <!-- schraeger Graben: schmale Oeffnung links oben, endet an der Person -->
+  <path d="M 512 120 L 736 306 L 808 306 L 584 120 Z" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+
+  <!-- Verschuetteter am Grabenende -->
+  <circle cx="752" cy="330" r="16" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="768" y="315" width="76" height="31" rx="10" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <!-- Sonde steckt im ungestoerten Schnee und weist auf die Person -->
+  <line x1="790" y1="112" x2="762" y2="322" stroke="#d65a1a" stroke-width="6"/>
+  <text x="492" y="344" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Sonde stecken lassen:</text>
+  <text x="492" y="370" font-family="Georgia, serif" font-size="21" fill="#d65a1a">sie ist der Wegweiser</text>
+  <path d="M 700 356 L 752 336" stroke="#d65a1a" stroke-width="3" fill="none"/>
+  <path d="M 752 336 l -18 1 M 752 336 l -4 -14" stroke="#d65a1a" stroke-width="3" fill="none"/>
+
+  <!-- Grabrichtung im Graben -->
+  <g stroke="#1d6b3a" stroke-width="5" fill="none">
+    <path d="M 556 172 L 700 292"/>
+    <path d="M 700 292 l -36 1 M 700 292 l 1 -36"/>
+  </g>
+
+  <!-- Oeffnung ist seitlich versetzt: Hinweis -->
+  <g stroke="#1d6b3a" stroke-width="3" fill="none">
+    <line x1="512" y1="104" x2="584" y2="104"/>
+    <line x1="512" y1="98" x2="512" y2="110"/>
+    <line x1="584" y1="98" x2="584" y2="110"/>
+  </g>
+
+  <!-- Laengenmass unter dem Block -->
+  <g stroke="#111" stroke-width="3">
+    <line x1="512" y1="424" x2="808" y2="424"/>
+    <line x1="512" y1="416" x2="512" y2="432"/>
+    <line x1="808" y1="416" x2="808" y2="432"/>
+  </g>
+  <text x="472" y="466" font-family="Georgia, serif" font-size="21" fill="#111">Der Graben ist etwa doppelt</text>
+  <text x="472" y="492" font-family="Georgia, serif" font-size="21" fill="#111">so lang, wie die Person</text>
+  <text x="472" y="518" font-family="Georgia, serif" font-size="21" fill="#111">tief liegt.</text>
+
+  <!-- gemeinsame Fusszeile -->
+  <text x="40" y="574" font-family="Georgia, serif" font-size="21" fill="#111">Den Schnee nach hinten paddeln, nicht heben. Sobald die Person</text>
+  <text x="40" y="600" font-family="Georgia, serif" font-size="21" fill="#111">sichtbar wird: zuerst Kopf und Brustkorb freilegen.</text>
+</svg>

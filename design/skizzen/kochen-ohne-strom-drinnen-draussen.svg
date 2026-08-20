@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660">
+  <!-- Zum Tipp taktisch-kochen-ohne-strom (Kochen ohne Strom: drinnen oder nur
+       draussen).
+
+       GEZEIGTE AUSSAGE: der Satz, den der Text selbst als "die wichtigste
+       Aussage dieses Tipps" bezeichnet: Manches darf DRINNEN benutzt werden,
+       manches NUR DRAUSSEN - und die Verwechslung ist toedlich.
+
+       Warum so: draussen ist im Text der grosse Regelfall (Campingkocher,
+       Grill), drinnen sind ausdruecklich nur drei benannte Ausnahmen
+       (Stoevchen, Fondue-Set, zugelassener Gaskocher). Deshalb ist die
+       rechte Flaeche gross und die linke klein - Regel gross, Ausnahme
+       klein. Die Trennlinie zwischen beiden ist selbst der Kern der
+       Aussage, deshalb steht sie als durchgehende Wand in der Mitte.
+
+       Der Kasten unten gibt den vom Text als wichtigst benannten Satz
+       woertlich wieder; die Quelle stellt die Gefahrenerklaerung dazu
+       (Kohlenmonoxid, unsichtbar und geruchlos) in einen eigenen Warnkasten -
+       genau das bildet dieser gerahmte Kasten nach. Der Grill mit dem
+       Verbotszeichen darin ist die einzige Stelle mit Signalfarbe: ein
+       Grill, der drinnen benutzt wird, ist die toedliche Verwechslung.
+
+       Keine Zahlen aus dem Text (kein "112", keine Groessenangabe), weil
+       diese eine Aussage keine Zahl braucht - nur die Trennlinie zwischen
+       drinnen und draussen. -->
+
+  <rect width="900" height="660" fill="#faf9f6"/>
+
+  <text x="40" y="48" font-family="Georgia, serif" font-size="26" fill="#111">Kochen ohne Strom: drinnen oder nur draußen</text>
+  <line x1="40" y1="70" x2="860" y2="70" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- ================= Zwei Flaechen: DRINNEN (klein) / DRAUSSEN (gross) ================= -->
+
+  <rect x="40" y="90" width="250" height="370" rx="10" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+  <rect x="330" y="90" width="530" height="370" rx="10" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <line x1="310" y1="90" x2="310" y2="460" stroke="#5b7f96" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="60" y="122" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#111">DRINNEN ERLAUBT</text>
+  <text x="60" y="145" font-family="Georgia, serif" font-size="16" fill="#111">nur diese Ausnahmen</text>
+
+  <text x="350" y="122" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#111">NUR IM FREIEN</text>
+
+  <!-- Links, Reihe 1: Stoevchen mit Teelicht -->
+  <path d="M145,222 L185,222 L173,203 L157,203 L152,190 Q152,176 165,176 Q178,176 178,190 L173,203 Z" fill="#faf9f6" stroke="#111" stroke-width="2.5"/>
+  <path d="M165,155 Q172,166 165,178 Q158,166 165,155 Z" fill="#faf9f6" stroke="#111" stroke-width="2"/>
+  <text x="165" y="238" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Stövchen mit Teelicht</text>
+  <text x="165" y="258" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">wärmt nur auf</text>
+
+  <!-- Links, Reihe 2: Fondue-Set mit Brennpaste -->
+  <path d="M144,278 L186,278 L192,300 Q165,314 138,300 Z" fill="#faf9f6" stroke="#111" stroke-width="2.5"/>
+  <path d="M150,300 L146,320 L154,320 Z" fill="#faf9f6" stroke="#111" stroke-width="2"/>
+  <path d="M180,300 L184,320 L176,320 Z" fill="#faf9f6" stroke="#111" stroke-width="2"/>
+  <path d="M161,302 Q165,309 169,302 Q165,296 161,302 Z" fill="#faf9f6" stroke="#111" stroke-width="1.5"/>
+  <text x="165" y="338" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Fondue-Set</text>
+  <text x="165" y="358" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">mit Brennpaste</text>
+
+  <!-- Links, Reihe 3: Gaskocher, nur mit Zulassung fuer Innenraeume -->
+  <path d="M138,415 L192,415 L192,392 Q192,385 185,385 L145,385 Q138,385 138,392 Z" fill="#faf9f6" stroke="#111" stroke-width="2.5"/>
+  <circle cx="155" cy="385" r="6" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+  <circle cx="175" cy="385" r="6" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+  <text x="165" y="432" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Gaskocher</text>
+  <text x="165" y="452" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">nur mit Zulassung für innen</text>
+
+  <!-- Rechts, Reihe 1: Campingkocher mit Gaskartusche -->
+  <path d="M519,235 L519,183 Q519,173 530,173 Q541,173 541,183 L541,235 Z" fill="#e6e2d6" stroke="#111" stroke-width="2.5"/>
+  <path d="M541,240 L645,240 L645,215 Q645,205 635,205 L551,205 Q541,205 541,215 Z" fill="#e6e2d6" stroke="#111" stroke-width="2.5"/>
+  <path d="M560,240 L556,260 L568,260 L566,240 Z" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+  <path d="M624,240 L622,260 L634,260 L630,240 Z" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+  <text x="595" y="280" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">CAMPINGKOCHER</text>
+  <text x="595" y="300" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">mit Gaskartusche</text>
+
+  <!-- Rechts, Reihe 2: Grill, gross und dominant -->
+  <path d="M500,355 Q500,325 595,320 Q690,325 690,355 Q690,382 595,385 Q500,382 500,355 Z" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+  <line x1="520" y1="337" x2="670" y2="337" stroke="#111" stroke-width="2"/>
+  <line x1="518" y1="352" x2="672" y2="352" stroke="#111" stroke-width="2"/>
+  <line x1="522" y1="367" x2="668" y2="367" stroke="#111" stroke-width="2"/>
+  <path d="M522,380 L512,413 L524,413 L530,382 Z" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <path d="M562,384 L556,415 L568,415 L572,384 Z" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <path d="M622,384 L626,415 L638,415 L632,384 Z" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <path d="M662,380 L672,413 L684,413 L676,382 Z" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <text x="595" y="440" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#111" text-anchor="middle">GAS- ODER HOLZKOHLE-GRILL</text>
+
+  <!-- ================= Warnkasten unten: der wichtigste Satz + die einzige Signalfarbe ================= -->
+
+  <rect x="40" y="484" width="820" height="96" rx="10" fill="#faf9f6" stroke="#d65a1a" stroke-width="3"/>
+
+  <!-- kleiner Grill, drinnen benutzt: die toedliche Verwechslung -->
+  <path d="M68,540 Q68,528 100,526 Q132,528 132,540 Q132,552 100,554 Q68,552 68,540 Z" fill="#e6e2d6" stroke="#111" stroke-width="2.5"/>
+  <path d="M78,552 L74,566 L82,566 L84,552 Z" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+  <path d="M118,552 L122,566 L130,566 L124,552 Z" fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+  <circle cx="100" cy="539" r="38" fill="none" stroke="#d65a1a" stroke-width="5"/>
+  <line x1="74" y1="513" x2="126" y2="565" stroke="#d65a1a" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="160" y="525" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#d65a1a">Die Verwechslung ist tödlich</text>
+  <text x="160" y="550" font-family="Georgia, serif" font-size="16" fill="#111">Kohlenmonoxid ist unsichtbar und geruchlos –</text>
+  <text x="160" y="570" font-family="Georgia, serif" font-size="16" fill="#111">man merkt es nicht, man wird nur müde.</text>
+  <text x="40" y="620" font-family="Georgia, serif" font-size="18" fill="#111">Merkregel: Was eine Flamme hat und nicht ausdrücklich für Innenräume zugelassen ist,</text>
+  <text x="40" y="644" font-family="Georgia, serif" font-size="18" fill="#111">gehört nach draußen. Ein Grill immer — auch Keller und Garage sind Innenräume.</text>
+</svg>

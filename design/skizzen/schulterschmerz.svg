@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660">
+  <!-- Zum Tipp "Eileiterschwangerschaft: der Notfall mit wenig Blut".
+       Der Schulterschmerz ist das Zeichen, das den Unterschied macht, und er
+       ergibt in Worten keinen Sinn: Warum tut die Schulter weh, wenn die
+       Blutung im Unterbauch sitzt? Weil Blut in der Bauchhoehle das Zwerchfell
+       reizt, und der Nerv des Zwerchfells meldet das an der Schulter. Ein
+       Weg, den man zeichnen kann und der dann sitzt. -->
+  <rect width="900" height="660" fill="#faf9f6"/>
+  <text x="40" y="52" font-family="Georgia, serif" font-size="29" fill="#111">Warum die Schulter weh tut, wenn es im Bauch blutet</text>
+
+  <!-- Rumpf von vorn -->
+  <circle cx="330" cy="140" r="42" fill="#faf9f6" stroke="#111" stroke-width="5"/>
+  <path d="M 330 182 L 330 208" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 248 226 Q 200 240 194 292 L 204 470 Q 260 500 330 500
+           Q 400 500 456 470 L 466 292 Q 460 240 412 226 L 330 208 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Arme, damit die Schulter als Schulter zu erkennen ist -->
+  <path d="M 212 244 Q 138 320 150 440" fill="none" stroke="#111" stroke-width="11" stroke-linecap="round"/>
+  <path d="M 448 244 Q 522 320 510 440" fill="none" stroke="#111" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- Zwerchfell als gestrichelte Kuppel -->
+  <path d="M 208 336 Q 330 286 452 336" fill="none" stroke="#111" stroke-width="4"
+        stroke-dasharray="12 8"/>
+  <g font-family="Georgia, serif" font-size="21" fill="#111">
+    <line x1="452" y1="330" x2="520" y2="306" stroke="#111" stroke-width="1.5"/>
+    <text x="528" y="312">Zwerchfell</text>
+  </g>
+
+  <!-- Blut in der Bauchhoehle -->
+  <path d="M 218 360 Q 330 344 444 360 L 448 440 Q 330 468 212 440 Z"
+        fill="#d65a1a" opacity="0.28"/>
+  <g font-family="Georgia, serif" font-size="21" fill="#d65a1a">
+    <line x1="448" y1="404" x2="520" y2="404" stroke="#d65a1a" stroke-width="1.5"/>
+    <text x="528" y="410">Blut sammelt sich hier</text>
+  </g>
+
+  <!-- Schmerzstern im Unterbauch -->
+  <g stroke="#d65a1a" stroke-width="5" stroke-linecap="round">
+    <line x1="286" y1="432" x2="286" y2="404"/><line x1="286" y1="460" x2="286" y2="488"/>
+    <line x1="258" y1="446" x2="230" y2="446"/><line x1="314" y1="446" x2="342" y2="446"/>
+    <line x1="266" y1="426" x2="246" y2="406"/><line x1="306" y1="466" x2="326" y2="486"/>
+    <line x1="306" y1="426" x2="326" y2="406"/><line x1="266" y1="466" x2="246" y2="486"/>
+  </g>
+
+  <!-- Schmerzstern an der Schulter -->
+  <g stroke="#d65a1a" stroke-width="5" stroke-linecap="round">
+    <line x1="416" y1="232" x2="416" y2="208"/><line x1="416" y1="256" x2="416" y2="280"/>
+    <line x1="392" y1="244" x2="368" y2="244"/><line x1="440" y1="244" x2="464" y2="244"/>
+    <line x1="398" y1="226" x2="382" y2="210"/><line x1="434" y1="262" x2="450" y2="278"/>
+  </g>
+
+  <!-- Der Weg: vom Zwerchfell zur Schulter -->
+  <path d="M 424 340 Q 452 296 428 258" fill="none" stroke="#d65a1a" stroke-width="4"
+        stroke-dasharray="10 7"/>
+  <path d="M 428 258 l -3 17 M 428 258 l 13 9" fill="none" stroke="#d65a1a" stroke-width="4"/>
+
+  <g font-family="Georgia, serif" font-size="21" fill="#111">
+    <line x1="230" y1="446" x2="150" y2="470" stroke="#111" stroke-width="1.5"/>
+    <text x="40" y="500">Schmerz im</text>
+    <text x="40" y="526">Unterbauch,</text>
+    <text x="40" y="552">meist einseitig</text>
+    <line x1="464" y1="244" x2="540" y2="224" stroke="#111" stroke-width="1.5"/>
+    <text x="548" y="230">Schmerz in der</text>
+    <text x="548" y="256">Schulter</text>
+  </g>
+
+  <text x="40" y="600" font-family="Georgia, serif" font-size="22" fill="#111">Der Nerv des Zwerchfells meldet die Reizung an der Schulter — deshalb tut sie</text>
+  <text x="40" y="626" font-family="Georgia, serif" font-size="22" fill="#111">weh, obwohl dort nichts passiert ist.</text>
+  <text x="40" y="654" font-family="Georgia, serif" font-size="22" fill="#d65a1a">Nach außen kommt oft nur eine schwache Schmierblutung.</text>
+</svg>

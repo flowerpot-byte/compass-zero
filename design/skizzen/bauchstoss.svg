@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp "Ersticken beim Erwachsenen: Bauchstoesse".
+       Nach der Erfahrung mit den drei Anlaeufen beim Saeugling zeigt dieses
+       Bild bewusst nur den Rumpf und den Punkt — kein Helfer, keine Szene.
+       Was ein Bild hier besser kann als ein Satz, ist die LAGE des Punktes:
+       zwischen Nabel und unterem Ende des Brustbeins, also weder auf dem
+       Brustbein noch am Nabel. Und die RICHTUNG des Zugs, nach hinten OBEN. -->
+  <rect width="900" height="560" fill="#faf9f6"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="28" fill="#111">Bauchstöße: der Punkt zwischen Nabel und Brustbein</text>
+
+  <!-- ===== LINKS: von vorn, die Lage des Punktes ===== -->
+
+  <g transform="translate(150, -20)">
+  <path d="M 148 140 L 316 140 Q 340 196 332 268 L 322 420 L 142 420 L 132 268 Q 124 196 148 140 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Brustbein mit unterem Ende -->
+  <rect x="218" y="166" width="28" height="118" rx="8" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <!-- Rippenbogen -->
+  <path d="M 218 284 Q 174 300 156 336" fill="none" stroke="#111" stroke-width="3" opacity="0.55"/>
+  <path d="M 246 284 Q 290 300 308 336" fill="none" stroke="#111" stroke-width="3" opacity="0.55"/>
+  <!-- Nabel -->
+  <circle cx="232" cy="368" r="9" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+  <!-- Faust -->
+  <ellipse cx="232" cy="322" rx="34" ry="26" fill="#d65a1a" opacity="0.85"/>
+
+  <g stroke="#111" stroke-width="2">
+    <line x1="252" y1="284" x2="360" y2="264"/>
+    <line x1="248" y1="368" x2="360" y2="392"/>
+  </g>
+  <text x="368" y="258" font-family="Georgia, serif" font-size="19" fill="#111">unteres Ende</text>
+  <text x="368" y="280" font-family="Georgia, serif" font-size="19" fill="#111">des Brustbeins</text>
+  <text x="368" y="398" font-family="Georgia, serif" font-size="19" fill="#111">Nabel</text>
+  <g stroke="#d65a1a" stroke-width="2">
+    <line x1="268" y1="322" x2="360" y2="330"/>
+  </g>
+  <text x="368" y="336" font-family="Georgia, serif" font-size="19" fill="#d65a1a">dazwischen</text>
+
+  </g>
+  <text x="60" y="470" font-family="Georgia, serif" font-size="21" fill="#111">Nicht auf das Brustbein und nicht auf den Nabel. Person nach vorn</text>
+  <text x="60" y="498" font-family="Georgia, serif" font-size="21" fill="#111">beugen, Faust mit der anderen Hand umfassen und bis zu fünf Mal</text>
+  <text x="60" y="526" font-family="Georgia, serif" font-size="21" fill="#111">kräftig nach hinten OBEN ziehen.</text>
+
+  <text x="40" y="580" font-family="Georgia, serif" font-size="20" fill="#d65a1a">Nur bei Erwachsenen und größeren Kindern. Bei einem Baby niemals in den Bauch.</text>
+</svg>

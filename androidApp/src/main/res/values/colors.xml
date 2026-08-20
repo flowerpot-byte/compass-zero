@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Papierton wie im Normal-Modus. Der Buchkoerper des Icons ist schwarz;
+         auf dunklem Grund wuerde er verschwinden. -->
+    <color name="icon_hintergrund">#FAF9F6</color>
+</resources>

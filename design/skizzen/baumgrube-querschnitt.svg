@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+  <!-- Anleitung "Unterstand im Schnee: sechs Bauarten", Bauart 4, die
+       Baumgrube. Gezeigter Satz: "Grabe den Schnee RUND UM DEN STAMM aus ...
+       dicht am Stamm liegt der Schnee ohnehin am flachsten."
+       ERSTE FASSUNG VERWORFEN: Dort stand der Stamm als breiter schwarzer
+       Block am linken Rand und der Schnee lag nur auf EINER Seite. Das zeigte
+       einen Pfahl mit Schnee daneben, keine Grube rund um den Stamm. Jetzt
+       steht der Stamm in der Mitte, die Grube liegt beidseitig, und die
+       Schneedecke faellt zum Stamm hin ab — damit hat auch "dicht am Stamm
+       am flachsten" eine Form und ist nicht nur ein Satz.
+       Ausserdem stand "Schritt 9" im sichtbaren Text. Die Schrittnummer kommt
+       im Text der Anleitung nicht vor und gehoert deshalb hierher.
+       Schritt 6 (Schneehoehle) hat ein eigenes Bild und wird nicht gedoppelt. -->
+  <rect width="900" height="640" fill="#faf9f6"/>
+  <text x="30" y="42" font-family="Georgia, serif" font-size="26" fill="#111">Die Baumgrube: rund um den Stamm ausgehöhlt</text>
+  <text x="30" y="68" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Unterstand im Schnee — Bauart 4</text>
+  <!-- Schnee links und rechts, Oberflaeche zum Stamm hin abfallend -->
+  <path d="M60,236 L215,292 L215,560 L60,560 Z" fill="#c3d3dd" stroke="#8fa6b4" stroke-width="3"/>
+  <path d="M429,292 L584,236 L584,560 L429,560 Z" fill="#c3d3dd" stroke="#8fa6b4" stroke-width="3"/>
+  <!-- Die ausgehobene Grube: beidseits des Stammes bis auf den Boden -->
+  <path d="M215,292 L300,292 L300,560 L215,560 Z" fill="#faf9f6" stroke="#5b7f96" stroke-width="3"/>
+  <path d="M344,292 L429,292 L429,560 L344,560 Z" fill="#faf9f6" stroke="#5b7f96" stroke-width="3"/>
+  <!-- Der Stamm in der Mitte -->
+  <rect x="300" y="86" width="44" height="474" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="4" fill="none" stroke-linecap="round">
+    <line x1="300" y1="132" x2="168" y2="96"/>
+    <line x1="300" y1="168" x2="150" y2="140"/>
+    <line x1="300" y1="112" x2="206" y2="76"/>
+    <line x1="344" y1="132" x2="476" y2="96"/>
+    <line x1="344" y1="168" x2="494" y2="140"/>
+    <line x1="344" y1="112" x2="438" y2="76"/>
+  </g>
+  <path d="M452,90 L520,84" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="528" y="82" font-family="Georgia, serif" font-size="16" fill="#111">dichte, buschige Äste</text>
+  <text x="528" y="104" font-family="Georgia, serif" font-size="16" fill="#111">decken von oben</text>
+  <!-- Zweige ueber die Oeffnung, beidseits -->
+  <g stroke="#111" stroke-width="2.5">
+    <line x1="218" y1="284" x2="234" y2="300"/>
+    <line x1="218" y1="300" x2="234" y2="284"/>
+    <line x1="238" y1="284" x2="254" y2="300"/>
+    <line x1="238" y1="300" x2="254" y2="284"/>
+    <line x1="258" y1="284" x2="274" y2="300"/>
+    <line x1="258" y1="300" x2="274" y2="284"/>
+    <line x1="278" y1="284" x2="294" y2="300"/>
+    <line x1="278" y1="300" x2="294" y2="284"/>
+    <line x1="346" y1="284" x2="362" y2="300"/>
+    <line x1="346" y1="300" x2="362" y2="284"/>
+    <line x1="366" y1="284" x2="382" y2="300"/>
+    <line x1="366" y1="300" x2="382" y2="284"/>
+    <line x1="386" y1="284" x2="402" y2="300"/>
+    <line x1="386" y1="300" x2="402" y2="284"/>
+    <line x1="406" y1="284" x2="422" y2="300"/>
+    <line x1="406" y1="300" x2="422" y2="284"/>
+  </g>
+  <path d="M258,282 L214,240" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="30" y="232" font-family="Georgia, serif" font-size="16" fill="#111">Zweige über die Öffnung</text>
+  <path d="M470,282 L560,198" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="568" y="188" font-family="Georgia, serif" font-size="16" fill="#5b7f96">die Schneedecke fällt zum</text>
+  <text x="568" y="210" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Stamm hin ab: dort liegt</text>
+  <text x="568" y="232" font-family="Georgia, serif" font-size="16" fill="#5b7f96">ohnehin am wenigsten Schnee</text>
+  <path d="M322,66 L322,84" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="322" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#111">Stamm</text>
+  <!-- Rand und Innenseiten: die einzige Signalfarbe -->
+  <g stroke="#d65a1a" stroke-width="4" fill="none">
+    <line x1="215" y1="300" x2="215" y2="552"/>
+    <line x1="429" y1="300" x2="429" y2="552"/>
+  </g>
+  <text x="250" y="424" text-anchor="middle" transform="rotate(-90 250 424)" font-family="Georgia, serif" font-size="16" fill="#d65a1a">Rand und Innenseiten festklopfen,</text>
+  <text x="276" y="424" text-anchor="middle" transform="rotate(-90 276 424)" font-family="Georgia, serif" font-size="16" fill="#d65a1a">damit die Grube hält</text>
+  <g stroke="#111" stroke-width="2.5">
+    <line x1="220" y1="546" x2="234" y2="554"/>
+    <line x1="239" y1="546" x2="253" y2="554"/>
+    <line x1="258" y1="546" x2="272" y2="554"/>
+    <line x1="277" y1="546" x2="291" y2="554"/>
+    <line x1="348" y1="546" x2="362" y2="554"/>
+    <line x1="367" y1="546" x2="381" y2="554"/>
+    <line x1="386" y1="546" x2="400" y2="554"/>
+    <line x1="405" y1="546" x2="419" y2="554"/>
+  </g>
+  <path d="M462,550 L520,528" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <text x="528" y="524" font-family="Georgia, serif" font-size="16" fill="#111">Zweige auf dem Grund</text>
+  <text x="322" y="606" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">rund um den Stamm ausgehöhlt, bis auf den Boden</text>
+  <line x1="40" y1="560" x2="600" y2="560" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="1.5">
+    <line x1="50" y1="564" x2="41" y2="578"/>
+    <line x1="84" y1="564" x2="75" y2="578"/>
+    <line x1="118" y1="564" x2="109" y2="578"/>
+    <line x1="152" y1="564" x2="143" y2="578"/>
+    <line x1="186" y1="564" x2="177" y2="578"/>
+    <line x1="220" y1="564" x2="211" y2="578"/>
+    <line x1="254" y1="564" x2="245" y2="578"/>
+    <line x1="288" y1="564" x2="279" y2="578"/>
+    <line x1="322" y1="564" x2="313" y2="578"/>
+    <line x1="356" y1="564" x2="347" y2="578"/>
+    <line x1="390" y1="564" x2="381" y2="578"/>
+    <line x1="424" y1="564" x2="415" y2="578"/>
+    <line x1="458" y1="564" x2="449" y2="578"/>
+    <line x1="492" y1="564" x2="483" y2="578"/>
+    <line x1="526" y1="564" x2="517" y2="578"/>
+    <line x1="560" y1="564" x2="551" y2="578"/>
+    <line x1="594" y1="564" x2="585" y2="578"/>
+  </g>
+  <line x1="626" y1="252" x2="626" y2="600" stroke="#5b7f96" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="656" y="286" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Draufsicht</text>
+  <circle cx="762" cy="418" r="88" fill="#c3d3dd" stroke="#8fa6b4" stroke-width="3"/>
+  <circle cx="762" cy="418" r="58" fill="#faf9f6" stroke="#5b7f96" stroke-width="3"/>
+  <circle cx="762" cy="418" r="20" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="2.5">
+    <line x1="844.7" y1="448.1" x2="872.9" y2="458.4"/>
+    <line x1="777.3" y1="504.7" x2="782.5" y2="534.2"/>
+    <line x1="694.6" y1="474.6" x2="671.6" y2="493.8"/>
+    <line x1="679.3" y1="387.9" x2="651.1" y2="377.6"/>
+    <line x1="746.7" y1="331.3" x2="741.5" y2="301.8"/>
+    <line x1="829.4" y1="361.4" x2="852.4" y2="342.2"/>
+  </g>
+  <g fill="#111">
+    <circle cx="872.9" cy="458.4" r="3"/>
+    <circle cx="782.5" cy="534.2" r="3"/>
+    <circle cx="671.6" cy="493.8" r="3"/>
+    <circle cx="651.1" cy="377.6" r="3"/>
+    <circle cx="741.5" cy="301.8" r="3"/>
+    <circle cx="852.4" cy="342.2" r="3"/>
+  </g>
+  <text x="762" y="580" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">rundum freie Sicht</text>
+  <text x="762" y="604" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#5b7f96">der Vorteil bei Wache</text>
+</svg>

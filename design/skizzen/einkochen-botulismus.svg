@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1070" viewBox="0 0 900 1070">
+  <!-- Zum Tipp "Einkochen: zweimal erhitzen gegen Botulismus".
+       Der Tipp erklaert, warum eine Anweisung so aussieht, wie sie aussieht,
+       und genau das haelt man sich ohne Bild schlecht: Zu Hause ist bei
+       100 Grad physikalisch Schluss, die Sporen sterben aber erst darueber.
+       Zwei Balken auf einer Temperaturachse zeigen die Luecke in einem
+       Blick, und die Luecke ist der ganze Grund fuer das Verfahren.
+       Der Massstab stimmt: 90 bis 130 Grad ueber 600 Bildpunkte, also
+       15 Punkte je Grad; 100 Grad stehen bei x=350, 121 Grad bei x=665.
+       Darunter das Verfahren als Zeitleiste, weil der ABSTAND zwischen den
+       beiden Malen der Wirkstoff ist: Dazwischen keimen die Sporen aus, und
+       nur deshalb erwischt sie das zweite Erhitzen. Wer die beiden Male
+       kurz hintereinander macht, hat nichts gewonnen — das sieht man an
+       einer Zeitleiste und liest man in einem Satz leicht darueber hinweg.
+       Der Kasten ist die einzige Aussage im Tipp ohne Ausnahme und steht
+       deshalb als Kasten. -->
+  <rect width="900" height="1070" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Einkochen: zweimal erhitzen gegen Botulismus</text>
+
+  <!-- ============ A: warum einmal nicht reicht ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Warum einmal nicht reicht</text>
+
+  <text x="350" y="146" font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="middle">über 100 °C sterben die Sporen</text>
+  <line x1="350" y1="156" x2="350" y2="266" stroke="#a3231a" stroke-width="3" stroke-dasharray="9 6"/>
+
+  <rect x="200" y="176" width="150" height="30" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <text x="60" y="198" font-family="Georgia, serif" font-size="19" fill="#111">zu Hause</text>
+  <text x="362" y="198" font-family="Georgia, serif" font-size="19" fill="#111">100 °C — in kochendem Wasser ist Schluss</text>
+
+  <rect x="200" y="226" width="465" height="30" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <text x="60" y="248" font-family="Georgia, serif" font-size="19" fill="#111">Fabrik</text>
+  <text x="677" y="248" font-family="Georgia, serif" font-size="19" fill="#111">121 °C für 3 Minuten</text>
+
+  <line x1="200" y1="276" x2="800" y2="276" stroke="#111" stroke-width="2"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="350" y1="276" x2="350" y2="284"/><line x1="500" y1="276" x2="500" y2="284"/>
+    <line x1="650" y1="276" x2="650" y2="284"/><line x1="800" y1="276" x2="800" y2="284"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="350" y="304">100</text><text x="500" y="304">110</text>
+    <text x="650" y="304">120</text><text x="800" y="304">130 °C</text>
+  </g>
+
+  <text x="40" y="348" font-family="Georgia, serif" font-size="21" fill="#111">Die Sporen werden erst über 100 Grad unschädlich. Zu Hause ist bei 100 Grad</text>
+  <text x="40" y="374" font-family="Georgia, serif" font-size="21" fill="#111">physikalisch Schluss — deshalb wird zweimal erhitzt.</text>
+  <text x="40" y="410" font-family="Georgia, serif" font-size="21" fill="#111">Gilt für säurearme Lebensmittel: Fleisch und Gemüse, vor allem Bohnen.</text>
+
+  <line x1="40" y1="446" x2="860" y2="446" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: das Verfahren als Zeitleiste ============ -->
+  <text x="40" y="486" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zweimal auf 100 Grad, im Abstand von ein bis zwei Tagen</text>
+
+  <text x="450" y="540" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">1 bis 2 Tage, am besten bei Zimmertemperatur</text>
+  <line x1="100" y1="570" x2="800" y2="570" stroke="#111" stroke-width="4"/>
+  <circle cx="180" cy="570" r="18" fill="#1d6b3a"/>
+  <circle cx="720" cy="570" r="18" fill="#1d6b3a"/>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="180" y="577">1</text><text x="720" y="577">2</text>
+  </g>
+
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="180" y="614">Erhitzen auf 100 °C</text>
+    <text x="180" y="638">die vermehrungsfähigen</text>
+    <text x="180" y="662">Bakterien sterben</text>
+    <text x="450" y="614">dazwischen keimen</text>
+    <text x="450" y="638">die Sporen aus</text>
+    <text x="720" y="614">Erhitzen auf 100 °C</text>
+    <text x="720" y="638">was daraus geworden</text>
+    <text x="720" y="662">ist, stirbt</text>
+  </g>
+
+  <text x="40" y="716" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Vor dem Essen noch einmal auf 100 Grad erhitzen macht Gift unschädlich, das</text>
+  <text x="40" y="742" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">sich doch gebildet hat.</text>
+
+  <line x1="40" y1="778" x2="860" y2="778" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: die Regel ohne Ausnahme ============ -->
+  <rect x="40" y="798" width="820" height="118" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="62" y="836" font-family="Georgia, serif" font-size="23" fill="#a3231a">Eine Regel ohne Ausnahme</text>
+  <text x="62" y="872" font-family="Georgia, serif" font-size="21" fill="#111">Aufgetriebene Konserven und Gläser mit gewölbtem Deckel werden nicht</text>
+  <text x="62" y="898" font-family="Georgia, serif" font-size="21" fill="#111">geöffnet, sondern vernichtet.</text>
+
+  <!-- ============ D: die Zeichen ============ -->
+  <text x="40" y="962" font-family="Georgia, serif" font-size="23" fill="#a3231a">Sehstörungen, Schluckbeschwerden oder Lähmungen nach dem Essen:</text>
+  <text x="40" y="990" font-family="Georgia, serif" font-size="23" fill="#a3231a">schnellstmöglich ärztliche Hilfe.</text>
+  <text x="40" y="1026" font-family="Georgia, serif" font-size="21" fill="#111">Botulismus ist die gefährlichste Lebensmittelvergiftung durch Bakterien —</text>
+  <text x="40" y="1052" font-family="Georgia, serif" font-size="21" fill="#111">Lähmungen bis zur Atemlähmung, Todesfälle sind möglich.</text>
+</svg>

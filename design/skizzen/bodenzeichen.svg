@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Tipp "Fuenf Zeichen fuer die Luft und wie gross sie sein muessen".
+       Die fuenf Symbole sind in Worten schnell aufgezaehlt, aber die MASSE
+       sind der Grund, warum die meisten gelegten Zeichen nicht gesehen
+       werden. Deshalb steht hier neben jedem Symbol der Rahmen mit dem
+       Verhaeltnis 2 zu 3, und ganz rechts ein Groessenvergleich mit einem
+       Menschen: vier auf sechs Meter sind mehr, als man aus dem Bauch heraus
+       legt. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+  <text x="40" y="50" font-family="Georgia, serif" font-size="28" fill="#111">Fünf Zeichen, die jeder Pilot kennt</text>
+
+  <!-- ===== Die fuenf Symbole ===== -->
+  <!-- V - Hilfe -->
+  <g stroke="#111" stroke-width="16" fill="none" stroke-linecap="square">
+    <path d="M 60 110 L 96 186 L 132 110"/>
+  </g>
+  <text x="52" y="222" font-family="Georgia, serif" font-size="19" fill="#111">Hilfe</text>
+
+  <!-- X - aerztliche Hilfe, hervorgehoben -->
+  <g stroke="#d65a1a" stroke-width="16" fill="none" stroke-linecap="square">
+    <path d="M 220 110 L 292 186 M 292 110 L 220 186"/>
+  </g>
+  <text x="204" y="222" font-family="Georgia, serif" font-size="19" fill="#d65a1a">Arzt nötig</text>
+
+  <!-- N - nein -->
+  <g stroke="#111" stroke-width="16" fill="none" stroke-linecap="square">
+    <path d="M 380 186 L 380 110 L 452 186 L 452 110"/>
+  </g>
+  <text x="380" y="222" font-family="Georgia, serif" font-size="19" fill="#111">Nein</text>
+
+  <!-- Y - ja -->
+  <g stroke="#111" stroke-width="16" fill="none" stroke-linecap="square">
+    <path d="M 540 110 L 576 150 L 612 110 M 576 150 L 576 186"/>
+  </g>
+  <text x="546" y="222" font-family="Georgia, serif" font-size="19" fill="#111">Ja</text>
+
+  <!-- Pfeil - wir gehen dorthin. Der Kopf mit runden Enden, sonst steht ueber
+       der Spitze ein Zipfel vom quadratischen Abschluss. -->
+  <g stroke="#111" stroke-width="16" fill="none">
+    <path d="M 700 148 L 792 148" stroke-linecap="square"/>
+    <path d="M 758 112 L 796 148 L 758 184" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="686" y="222" font-family="Georgia, serif" font-size="19" fill="#111">Wir gehen dorthin</text>
+
+  <line x1="40" y1="252" x2="860" y2="252" stroke="#c9c4b4" stroke-width="2"/>
+
+  <!-- ===== Die Masse ===== -->
+  <text x="40" y="292" font-family="Georgia, serif" font-size="24" fill="#111">Und so groß muss es sein</text>
+
+  <!-- Rahmen 4 x 6 Meter, Massstab 40 px je Meter -->
+  <rect x="60" y="316" width="160" height="240" fill="none" stroke="#111" stroke-width="3" stroke-dasharray="10 8"/>
+  <g stroke="#111" stroke-width="26" fill="none" stroke-linecap="square">
+    <path d="M 86 340 L 140 508 L 194 340"/>
+  </g>
+  <!-- Breitenmass -->
+  <g stroke="#111" stroke-width="2" fill="none">
+    <path d="M 60 584 L 220 584 M 60 578 L 60 590 M 220 578 L 220 590"/>
+  </g>
+  <text x="94" y="606" font-family="Georgia, serif" font-size="18" fill="#111">4 Meter</text>
+  <!-- Hoehenmass -->
+  <g stroke="#111" stroke-width="2" fill="none">
+    <path d="M 240 316 L 240 556 M 234 316 L 246 316 M 234 556 L 246 556"/>
+  </g>
+  <text x="252" y="442" font-family="Georgia, serif" font-size="18" fill="#111">6 Meter</text>
+
+  <!-- Mensch als Groessenvergleich. Massstab wie beim Rahmen: 40 px je Meter,
+       also 72 px fuer 1,80 m. Scheitel bei y=484, Fuesse bei y=556. -->
+  <g stroke="#111" stroke-width="3" fill="none">
+    <circle cx="360" cy="493" r="9"/>
+    <path d="M 360 502 L 360 532 M 360 510 L 346 524 M 360 510 L 374 524 M 360 532 L 349 556 M 360 532 L 371 556"/>
+  </g>
+  <text x="330" y="580" font-family="Georgia, serif" font-size="17" fill="#111">Mensch</text>
+
+  <!-- Balkenstaerke -->
+  <text x="440" y="348" font-family="Georgia, serif" font-size="19" fill="#111">Die Balken selbst:</text>
+  <rect x="440" y="366" width="120" height="40" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="2" fill="none">
+    <path d="M 440 420 L 560 420 M 440 414 L 440 426 M 560 414 L 560 426"/>
+  </g>
+  <text x="452" y="442" font-family="Georgia, serif" font-size="17" fill="#111">1 m breit</text>
+  <text x="580" y="392" font-family="Georgia, serif" font-size="17" fill="#111">und 1 m HOCH</text>
+  <text x="580" y="416" font-family="Georgia, serif" font-size="17" fill="#111">aufgeschichtet —</text>
+  <text x="580" y="440" font-family="Georgia, serif" font-size="17" fill="#111">flach gelegt</text>
+  <text x="580" y="464" font-family="Georgia, serif" font-size="17" fill="#111">verschwindet es.</text>
+
+  <text x="440" y="512" font-family="Georgia, serif" font-size="19" fill="#d65a1a">Größer geht — dann bleibt</text>
+  <text x="440" y="536" font-family="Georgia, serif" font-size="19" fill="#d65a1a">das Verhältnis 2 zu 3.</text>
+  <text x="440" y="574" font-family="Georgia, serif" font-size="17" fill="#111">Gerade Linien und rechte Winkel</text>
+  <text x="440" y="596" font-family="Georgia, serif" font-size="17" fill="#111">kommen in der Natur nicht vor.</text>
+</svg>

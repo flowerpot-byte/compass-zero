@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="575" viewBox="0 0 900 575">
+  <!-- Zu Schritt 4 von seilwerk-flaschenzug ("Bloecke einscheren / Reeving").
+       Gezeigter Satz: "Achte darauf, dass die Scheiben des einen Blocks im
+       rechten Winkel zu den Scheiben des anderen Blocks stehen." Als Form
+       gezeigt: der eine Block hat seine Scheibenebene senkrecht (stehende
+       Linie durch die Scheibe), der andere waagrecht (liegende Linie durch
+       die Scheibe); ein kleiner Winkelzeiger zwischen beiden macht den
+       rechten Winkel sichtbar. Unten zusaetzlich ein durchgestrichenes
+       Gegenbeispiel: beide Scheiben gleich ausgerichtet, das entspricht
+       nicht der Anweisung. Die Bloecke liegen auf einer erhoehten, sauberen
+       Flaeche und nicht direkt auf dem Boden, wie es der Schritt ebenfalls
+       verlangt. Kein Seil gezeichnet, da der gewaehlte Satz nur die
+       Ausrichtung der Scheiben betrifft. -->
+  <rect width="900" height="575" fill="#faf9f6"/>
+
+  <!-- Titel -->
+  <text x="450" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#111">Blöcke einscheren: Scheiben im rechten Winkel</text>
+
+  <g transform="translate(0,-55)">
+  <!-- Hinweis "richtig" oben links -->
+  <text x="105" y="222" text-anchor="start" font-family="Georgia, serif" font-size="16" fill="#111">richtig:</text>
+
+  <!-- Block A: Scheibenebene senkrecht -->
+  <rect x="180" y="255" width="140" height="120" rx="14" fill="none" stroke="#111" stroke-width="4"/>
+  <circle cx="250" cy="315" r="38" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="250" y1="277" x2="250" y2="353" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Block B: Scheibenebene waagrecht, im rechten Winkel zu Block A -->
+  <rect x="490" y="255" width="140" height="120" rx="14" fill="none" stroke="#111" stroke-width="4"/>
+  <circle cx="560" cy="315" r="38" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="522" y1="315" x2="598" y2="315" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Winkelzeiger zwischen beiden Ausrichtungen -->
+  <line x1="405" y1="265" x2="405" y2="300" stroke="#111" stroke-width="3"/>
+  <line x1="405" y1="300" x2="440" y2="300" stroke="#111" stroke-width="3"/>
+  <polyline points="405,288 417,288 417,300" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="405" y1="228" x2="405" y2="262" stroke="#5b7f96" stroke-width="1"/>
+
+  <!-- Fuehrungslinien von den Scheiben zum Winkelzeiger -->
+  <line x1="250" y1="277" x2="405" y2="265" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="522" y1="315" x2="440" y2="300" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="5,5"/>
+
+  <g font-family="Georgia, serif" font-size="16" fill="#111">
+    <text x="250" y="245" text-anchor="middle">Scheibe senkrecht</text>
+    <text x="560" y="245" text-anchor="middle">Scheibe waagrecht</text>
+  </g>
+  <text x="405" y="222" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#111">rechter Winkel</text>
+
+  <!-- Saubere, erhoehte Flaeche statt direkt auf dem Boden -->
+  <rect x="150" y="375" width="510" height="14" fill="none" stroke="#111" stroke-width="3"/>
+  <rect x="245" y="389" width="10" height="40" fill="#111"/>
+  <rect x="555" y="389" width="10" height="40" fill="#111"/>
+  <line x1="100" y1="429" x2="860" y2="429" stroke="#111" stroke-width="3"/>
+  <g stroke="#5b7f96" stroke-width="1.5">
+    <line x1="110" y1="432" x2="120" y2="442"/>
+    <line x1="140" y1="432" x2="150" y2="442"/>
+    <line x1="170" y1="432" x2="180" y2="442"/>
+    <line x1="200" y1="432" x2="210" y2="442"/>
+    <line x1="230" y1="432" x2="240" y2="442"/>
+    <line x1="260" y1="432" x2="270" y2="442"/>
+    <line x1="290" y1="432" x2="300" y2="442"/>
+    <line x1="320" y1="432" x2="330" y2="442"/>
+    <line x1="350" y1="432" x2="360" y2="442"/>
+    <line x1="380" y1="432" x2="390" y2="442"/>
+    <line x1="410" y1="432" x2="420" y2="442"/>
+    <line x1="440" y1="432" x2="450" y2="442"/>
+    <line x1="470" y1="432" x2="480" y2="442"/>
+    <line x1="500" y1="432" x2="510" y2="442"/>
+    <line x1="530" y1="432" x2="540" y2="442"/>
+    <line x1="560" y1="432" x2="570" y2="442"/>
+    <line x1="590" y1="432" x2="600" y2="442"/>
+    <line x1="620" y1="432" x2="630" y2="442"/>
+    <line x1="650" y1="432" x2="660" y2="442"/>
+    <line x1="680" y1="432" x2="690" y2="442"/>
+    <line x1="710" y1="432" x2="720" y2="442"/>
+    <line x1="740" y1="432" x2="750" y2="442"/>
+    <line x1="770" y1="432" x2="780" y2="442"/>
+    <line x1="800" y1="432" x2="810" y2="442"/>
+    <line x1="830" y1="432" x2="840" y2="442"/>
+  </g>
+  <text x="105" y="452" text-anchor="start" font-family="Georgia, serif" font-size="14" fill="#5b7f96">Boden</text>
+  <text x="675" y="372" text-anchor="start" font-family="Georgia, serif" font-size="16" fill="#5b7f96">saubere, ebene Fläche</text>
+
+  <!-- Zusammenfassender Satz -->
+  <text x="450" y="478" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">Scheiben der beiden Blöcke stehen im rechten Winkel zueinander</text>
+
+  <!-- Gegenbeispiel: beide Scheiben gleich ausgerichtet, durchgestrichen -->
+  <circle cx="390" cy="555" r="24" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="390" y1="531" x2="390" y2="579" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="460" cy="555" r="24" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="460" y1="531" x2="460" y2="579" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  <line x1="368" y1="535" x2="482" y2="575" stroke="#d65a1a" stroke-width="5" stroke-linecap="round"/>
+  <text x="450" y="600" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#111">falsch: beide Scheiben gleich ausgerichtet</text>
+  </g>
+</svg>

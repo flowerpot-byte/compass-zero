@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <!-- Zu Tipp nahrung-kochen-ohne-topf, Absatz zu Gefaessen aus Rinde oder
+       Blaettern. Gezeigte Aussage: ein Rinden- oder Blattgefaess ueber dem
+       Feuer verbrennt nur OBERHALB der Wasserlinie, unterhalb schuetzt das
+       Wasser die Wand. Genau diese raeumliche Grenze, eine Linie mit zwei
+       Zonen und entgegengesetzter Folge, ist in Worten schwer zu fassen und
+       im Bild auf einen Blick zu sehen. Die Warnfarbe markiert einzig die
+       Brandstelle in der trockenen Zone, denn genau dort waere ein Irrtum
+       gefaehrlich. -->
+  <rect width="900" height="560" fill="#faf9f6"/>
+
+  <g font-family="Georgia, serif">
+    <text x="450" y="45" text-anchor="middle" font-size="26" fill="#111">Warum Rinde nur oberhalb der Wasserlinie verbrennt</text>
+    <text x="450" y="80" text-anchor="middle" font-size="16" fill="#5b7f96">Gefäß aus Rinde oder Blättern über dem Feuer</text>
+
+    <!-- Gefaessform: dient als Umriss fuer den Fuellungsausschnitt und als Kontur -->
+    <defs>
+      <clipPath id="gefaessform">
+        <path d="M270,190 C230,195 235,365 300,405 C345,432 555,432 600,405 C665,365 670,195 630,190 Z"/>
+      </clipPath>
+    </defs>
+
+    <g clip-path="url(#gefaessform)">
+      <!-- trockene Zone: oberhalb der Wasserlinie, y 190 bis 300 -->
+      <rect x="230" y="190" width="440" height="110" fill="#e6e2d6"/>
+      <!-- nasse Zone: unterhalb der Wasserlinie, y 300 bis 432 -->
+      <rect x="230" y="300" width="440" height="132" fill="#d9c98a"/>
+      <g stroke="#5b7f96" stroke-width="2" fill="none" opacity="0.7">
+        <path d="M230,345 q20,-12 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0"/>
+        <path d="M230,375 q20,-12 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0"/>
+        <path d="M230,405 q20,-12 40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0 t40,0"/>
+      </g>
+    </g>
+
+    <!-- Kontur des Gefaesses, oben -->
+    <path d="M270,190 C230,195 235,365 300,405 C345,432 555,432 600,405 C665,365 670,195 630,190 Z"
+          fill="none" stroke="#111" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- Wasserlinie -->
+    <line x1="270" y1="300" x2="630" y2="300" stroke="#5b7f96" stroke-width="3" stroke-dasharray="10 6"/>
+    <line x1="630" y1="300" x2="640" y2="302" stroke="#5b7f96" stroke-width="2"/>
+    <text x="645" y="305" font-size="18" fill="#5b7f96">Wasserlinie</text>
+
+    <!-- Zonenbeschriftung -->
+    <text x="450" y="225" text-anchor="middle" font-size="18" fill="#111">TROCKEN</text>
+    <text x="450" y="320" text-anchor="middle" font-size="18" fill="#111">FEUCHT</text>
+
+    <!-- Brandstelle: einzige Stelle mit der Warnfarbe, denn hier waere der
+         Fehler gefaehrlich -->
+    <path d="M245,200 L253,207 L262,199 L268,210 L260,216 L266,226 L254,222 L246,230 L244,218 Z"
+          fill="#d65a1a" stroke="#111" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="185" y1="215" x2="240" y2="212" stroke="#111" stroke-width="1.5"/>
+    <text x="40" y="220" font-size="18" fill="#111">brennt hier durch</text>
+
+    <!-- Heisse Steine im Wasser. Nachgetragen am 04.08.2026: Die Zeichnung
+         zeigte die Wasserlinie richtig, aber keine Steine, und ohne sie war
+         nicht zu erkennen, zu welchem Tipp sie gehoert. Der Satz des Tipps
+         lautet "man kocht nicht IM Feuer, sondern bringt das Feuer ins
+         Wasser" - die Steine sind dieser Satz. Sie liegen in der feuchten
+         Zone, wo sie hingehoeren. -->
+    <g fill="#7a5a3e" stroke="#111" stroke-width="2.5">
+      <ellipse cx="345" cy="388" rx="20" ry="14" transform="rotate(-12 345 388)"/>
+      <ellipse cx="420" cy="402" rx="22" ry="15" transform="rotate(7 420 402)"/>
+      <ellipse cx="500" cy="391" rx="19" ry="13" transform="rotate(-6 500 391)"/>
+    </g>
+    <line x1="176" y1="386" x2="322" y2="388" stroke="#111" stroke-width="1.5"/>
+    <text x="40" y="391" font-size="18" fill="#111">heiße Steine</text>
+
+    <!-- Aufhaengung ueber dem Feuer -->
+    <g stroke="#111" stroke-width="4" stroke-linecap="round" fill="none">
+      <line x1="350" y1="440" x2="550" y2="440"/>
+      <line x1="350" y1="440" x2="280" y2="520"/>
+      <line x1="550" y1="440" x2="620" y2="520"/>
+    </g>
+
+    <!-- Feuer darunter -->
+    <g fill="#7a5a3e" stroke="#111" stroke-width="2" stroke-linejoin="round">
+      <path d="M450,515 C425,480 450,468 446,438 C472,465 476,486 450,515"/>
+      <path d="M415,517 C400,490 415,480 413,458 C430,478 431,498 415,517"/>
+      <path d="M485,517 C470,490 485,480 483,458 C500,478 501,498 485,517"/>
+    </g>
+
+    <line x1="150" y1="520" x2="750" y2="520" stroke="#111" stroke-width="2"/>
+
+    <text x="450" y="545" text-anchor="middle" font-size="16" fill="#5b7f96">Oberhalb der Wasserlinie: feucht halten, oder das Feuer klein halten.</text>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <!-- Zum Tipp "Ersticken beim Saeugling (Baby): keine Bauchstoesse".
+       Zwei Anlaeufe mit Helferarm, Bein und Kind in einem Bild sind
+       gescheitert — alles verschmolz zu einer Form. Dieses Bild zeigt
+       deshalb nur noch das, was ein Bild besser kann als ein Satz: WO
+       geschlagen und WO gedrueckt wird, und wo ausdruecklich NICHT. Die
+       Haltung (Kopf tiefer, Unterarm auf dem Bein) steht im Text; sie ist
+       beschreibbar, die beiden Punkte sind es kaum. -->
+  <rect width="900" height="560" fill="#faf9f6"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="28" fill="#111">Baby unter einem Jahr: die zwei Punkte</text>
+
+  <!-- ================= LINKS: von hinten ================= -->
+  <text x="60" y="98" font-family="Georgia, serif" font-size="21" fill="#111">Von hinten — Schläge</text>
+
+  <circle cx="228" cy="168" r="46" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <path d="M 228 214 L 228 234" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 168 238 Q 132 250 128 292 L 138 402 Q 182 424 228 424
+           Q 274 424 318 402 L 328 292 Q 324 250 288 238 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Schulterblaetter angedeutet -->
+  <path d="M 178 274 Q 200 296 206 330" fill="none" stroke="#111" stroke-width="2.5" opacity="0.5"/>
+  <path d="M 278 274 Q 256 296 250 330" fill="none" stroke="#111" stroke-width="2.5" opacity="0.5"/>
+  <!-- Schlagpunkt -->
+  <ellipse cx="228" cy="300" rx="40" ry="26" fill="#d65a1a" opacity="0.85"/>
+  <g stroke="#d65a1a" stroke-width="6" fill="none">
+    <line x1="228" y1="454" x2="228" y2="340"/>
+    <path d="M 228 340 l -13 20 M 228 340 l 13 20"/>
+  </g>
+  <text x="60" y="490" font-family="Georgia, serif" font-size="21" fill="#111">Zwischen die Schulterblätter,</text>
+  <text x="60" y="516" font-family="Georgia, serif" font-size="21" fill="#111">bis zu fünf Mal.</text>
+
+  <line x1="452" y1="130" x2="452" y2="430" stroke="#111" stroke-width="2" opacity="0.3"/>
+
+  <!-- ================= RECHTS: von vorn ================= -->
+  <text x="510" y="98" font-family="Georgia, serif" font-size="21" fill="#111">Von vorn — Stöße</text>
+
+  <circle cx="672" cy="168" r="46" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <path d="M 672 214 L 672 234" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 612 238 Q 576 250 572 292 L 582 402 Q 626 424 672 424
+           Q 718 424 762 402 L 772 292 Q 768 250 732 238 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Brustbein -->
+  <rect x="658" y="252" width="28" height="86" rx="8" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <!-- Zwei Daumen -->
+  <g fill="#d65a1a">
+    <rect x="650" y="292" width="17" height="38" rx="8"/>
+    <path d="M 610 318 L 642 310" stroke="#d65a1a" stroke-width="4" fill="none"/>
+    <rect x="677" y="292" width="17" height="38" rx="8"/>
+  </g>
+  <g stroke="#d65a1a" stroke-width="6" fill="none">
+    <line x1="598" y1="452" x2="598" y2="318"/>
+    <path d="M 598 318 l -13 20 M 598 318 l 13 20"/>
+  </g>
+  <!-- Verbot am Bauch -->
+  <g stroke="#d65a1a" stroke-width="7" stroke-linecap="round">
+    <line x1="648" y1="356" x2="696" y2="396"/>
+    <line x1="696" y1="356" x2="648" y2="396"/>
+  </g>
+  <g stroke="#111" stroke-width="2">
+    <line x1="706" y1="376" x2="784" y2="376"/>
+  </g>
+  <text x="790" y="382" font-family="Georgia, serif" font-size="19" fill="#d65a1a">nie</text>
+  <text x="510" y="490" font-family="Georgia, serif" font-size="21" fill="#111">Beide Daumen auf das Brustbein,</text>
+  <text x="510" y="516" font-family="Georgia, serif" font-size="21" fill="#111">bis zu fünf Mal — nie in den Bauch.</text>
+
+  <text x="40" y="552" font-family="Georgia, serif" font-size="20" fill="#d65a1a">Kopf dabei immer tiefer halten als den Brustkorb. Nicht blind im Mund suchen.</text>
+</svg>

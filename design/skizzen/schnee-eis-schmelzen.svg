@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="505" viewBox="0 0 900 505" font-family="Georgia, serif">
+  <!-- Tipp: wasser-schnee-eis (Schnee und Eis: erst schmelzen, dann trinken).
+       Gezeigte Aussage: Schnee und Eis nicht roh essen, sondern erst
+       schmelzen und dann wie jedes andere gefundene Wasser behandeln.
+       Begruendung: Der Text warnt mit einem Ausrufezeichen genau davor und
+       nennt zwei Gruende, die in Worten sperrig sind, im Bild aber sofort
+       einleuchten: rohen Schnee essen kuehlt den Koerper aus UND macht
+       durstiger statt weniger durstig. Die grosse Ablauf-Zeichnung zeigt
+       den richtigen Weg (Schnee/Eis, schmelzen im Topf, behandeln wie
+       jedes andere Wasser). Der kleine Kasten rechts zeigt, klein und mit
+       Verbotszeichen, die falsche Abkuerzung und ihre zwei Folgen. -->
+
+  <rect x="0" y="0" width="900" height="505" fill="#faf9f6"/>
+
+  <!-- Grund: winterlicher Boden, damit die Leinwand ueberall gedeckt ist -->
+
+  <!-- Sparsame Schneeflecken oben, gegen leere Flaeche -->
+  <g fill="none" stroke="#5b7f96" stroke-width="1">
+    <circle cx="100" cy="112" r="2.5"/>
+    <circle cx="250" cy="122" r="2.5"/>
+    <circle cx="430" cy="106" r="2.5"/>
+    <circle cx="560" cy="120" r="2.5"/>
+    <circle cx="650" cy="108" r="2.5"/>
+    <circle cx="760" cy="100" r="2.5"/>
+    <circle cx="820" cy="128" r="2.5"/>
+    <circle cx="870" cy="112" r="2.5"/>
+  </g>
+
+  <text x="40" y="50" font-size="26" fill="#111">Schnee und Eis: erst schmelzen, dann trinken</text>
+  <text x="40" y="76" font-size="17" fill="#5b7f96">Weiß ist nicht sauber — Schneewasser wie jedes andere Wasser behandeln</text>
+  <line x1="40" y1="98" x2="860" y2="98" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- ===== Stufe A: Schnee/Eis ===== -->
+  <path d="M 62,420 Q 50,385 78,362 Q 68,322 112,315 Q 100,278 150,282 Q 168,255 198,278 Q 213,272 208,302 Q 228,312 216,342 Q 232,372 205,392 Q 210,415 178,420 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="2.5"/>
+  <text x="141" y="445" text-anchor="middle" font-size="18" fill="#111">Schnee / Eis</text>
+
+  <!-- Pfeil 1 -->
+  <line x1="245" y1="310" x2="288" y2="310" stroke="#111" stroke-width="2.5"/>
+  <polygon points="288,302 305,310 288,318" fill="#111"/>
+
+  <!-- ===== Stufe B: schmelzen im Topf ueber dem Feuer ===== -->
+  <text x="380" y="138" text-anchor="middle" font-size="22" fill="#111">SCHMELZEN</text>
+
+  <g fill="none" stroke="#5b7f96" stroke-width="1.5">
+    <path d="M 355,225 Q 348,205 358,185 Q 365,170 358,150"/>
+    <path d="M 380,225 Q 375,200 385,180 Q 392,165 383,145"/>
+    <path d="M 405,225 Q 412,205 402,185 Q 396,170 404,150"/>
+  </g>
+
+  <path d="M 335,232 Q 335,195 380,195 Q 425,195 425,232 Q 420,232 415,232 Q 415,205 380,205 Q 345,205 345,232 Q 340,232 335,232 Z"
+        fill="#111" stroke="#111" stroke-width="1"/>
+  <path d="M 305,240 L 320,355 Q 325,365 340,365 L 415,365 Q 430,365 435,355 L 450,240 Q 450,232 442,232 L 313,232 Q 305,232 305,240 Z"
+        fill="#7a5a3e" stroke="#111" stroke-width="2.5"/>
+  <path d="M 322,340 Q 380,332 435,340 L 432,358 Q 380,362 325,358 Z" fill="#5b7f96"/>
+
+  <g fill="#d9c98a" stroke="#111" stroke-width="2">
+    <path d="M 340,408 Q 325,390 335,370 Q 340,360 348,370 Q 352,385 345,400 Q 342,405 340,408 Z"/>
+    <path d="M 380,410 Q 360,385 375,355 Q 382,340 392,358 Q 400,380 388,402 Q 383,408 380,410 Z"/>
+    <path d="M 420,408 Q 405,392 412,372 Q 418,362 425,372 Q 432,388 425,402 Q 422,406 420,408 Z"/>
+  </g>
+
+  <text x="380" y="445" text-anchor="middle" font-size="16" fill="#111">im Topf über dem Feuer</text>
+
+  <!-- Pfeil 2 -->
+  <line x1="463" y1="300" x2="558" y2="300" stroke="#111" stroke-width="2.5"/>
+  <polygon points="558,292 575,300 558,308" fill="#111"/>
+
+  <!-- ===== Stufe C: behandeln wie jedes andere Wasser ===== -->
+  <path d="M 655,295 Q 680,290 680,312 Q 680,332 655,327 Q 668,325 668,312 Q 668,297 655,295 Z"
+        fill="none" stroke="#111" stroke-width="2.5"/>
+  <path d="M 575,270 L 588,358 Q 590,365 598,365 L 632,365 Q 640,365 642,358 L 655,270 Z"
+        fill="none" stroke="#111" stroke-width="2.5"/>
+  <path d="M 585,310 Q 615,302 645,310 L 640,352 Q 615,358 590,352 Z" fill="#5b7f96"/>
+
+  <text x="615" y="440" text-anchor="middle" font-size="18" fill="#111">wie jedes andere</text>
+  <text x="615" y="463" text-anchor="middle" font-size="18" fill="#111">Wasser behandeln</text>
+  <text x="615" y="488" text-anchor="middle" font-size="16" fill="#5b7f96">(siehe Wasser abkochen)</text>
+
+  <!-- ===== Kleiner Kasten: die falsche Abkuerzung, klein neben der grossen Regel ===== -->
+  <rect x="728" y="150" width="162" height="290" rx="8" fill="none" stroke="#d65a1a" stroke-width="2.5"/>
+  <text x="809" y="178" text-anchor="middle" font-size="18" fill="#d65a1a">Nicht direkt essen</text>
+
+  <path d="M 778,255 Q 778,225 800,213 Q 822,225 822,255 Q 840,265 845,295 L 845,330 L 755,330 L 755,295 Q 760,265 778,255 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="2.5"/>
+  <path d="M 826,248 Q 823,240 831,238 Q 840,236 842,245 Q 845,254 837,257 Q 828,257 826,248 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+  <circle cx="810" cy="248" r="32" fill="none" stroke="#d65a1a" stroke-width="4"/>
+  <line x1="787" y1="225" x2="833" y2="271" stroke="#d65a1a" stroke-width="4"/>
+
+  <polygon points="748,340 760,340 754,354" fill="#111"/>
+  <text x="765" y="352" font-size="16" fill="#111">kühlt aus</text>
+  <polygon points="754,376 748,390 760,390" fill="#111"/>
+  <text x="765" y="390" font-size="16" fill="#111">macht durstiger</text>
+</svg>

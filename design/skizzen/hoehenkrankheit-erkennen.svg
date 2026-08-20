@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1130" viewBox="0 0 900 1130">
+  <!-- Zum Tipp "Hoehenkrankheit erkennen".
+       Gegenstueck zur Zeichnung "Hoehenkrankheit: absteigen". Dort steht,
+       was man tut; hier, woran man es ueberhaupt erkennt.
+       Der Zeitverlauf ist der Teil, der als Satz nicht haftet: Die
+       Beschwerden fangen 3 bis 24 Stunden nach dem Aufstieg an und sind in
+       den ersten 24 bis 48 Stunden am schlimmsten. Als Leiste sieht man,
+       dass der Beginn spaet sein kann und der schlimmste Teil danach noch
+       kommt. Der Massstab stimmt: 0 bis 48 Stunden ueber 560 Bildpunkte,
+       11,67 Punkte je Stunde; 3 Stunden stehen bei x=275, 24 bei x=520.
+       Der wertvollste Abschnitt ist der Ausschluss. Vier andere Ursachen
+       sehen genauso aus, und zwei davon sind lebenswichtig. Die
+       Kohlenmonoxid-Vergiftung steht rot, weil sie nicht nur eine andere
+       Ursache ist, sondern eine, die weitertoetet, solange man sie fuer
+       Hoehenkrankheit haelt.
+       Kein Berg gezeichnet. Ein Berg waere Dekoration; die Entscheidung
+       haengt an Zeit, Hoehe und Ausschluss. -->
+  <rect width="900" height="1130" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Höhenkrankheit erkennen</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Wer aus dem Flachland schnell in große Höhe kommt und dort mehrere Stunden</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">bleibt, kann höhenkrank werden. Ursache ist der geringere Sauerstoff.</text>
+
+  <text x="40" y="162" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Schwelle: etwa 2400 bis 2700 Meter — für Menschen, die</text>
+  <text x="40" y="190" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">vorher unter rund 1500 Metern gelebt haben.</text>
+
+  <line x1="40" y1="226" x2="860" y2="226" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Der Zeitverlauf ============ -->
+  <text x="40" y="266" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wann es anfängt und wann es am schlimmsten ist</text>
+
+  <rect x="275" y="300" width="245" height="30" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="240" y="344" width="560" height="30" fill="#d65a1a" stroke="#111" stroke-width="3"/>
+  <text x="40" y="320" font-family="Georgia, serif" font-size="19" fill="#111">Beschwerden</text>
+  <text x="40" y="342" font-family="Georgia, serif" font-size="19" fill="#111">beginnen</text>
+  <text x="532" y="320" font-family="Georgia, serif" font-size="19" fill="#111">3 bis 24 Stunden</text>
+  <text x="40" y="364" font-family="Georgia, serif" font-size="19" fill="#a3231a">am schlimmsten</text>
+  <text x="812" y="364" font-family="Georgia, serif" font-size="19" fill="#a3231a">24 bis 48</text>
+
+  <line x1="240" y1="392" x2="800" y2="392" stroke="#111" stroke-width="2"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="240" y1="392" x2="240" y2="400"/><line x1="380" y1="392" x2="380" y2="400"/>
+    <line x1="520" y1="392" x2="520" y2="400"/><line x1="660" y1="392" x2="660" y2="400"/>
+    <line x1="800" y1="392" x2="800" y2="400"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="240" y="418">0</text><text x="380" y="418">12</text><text x="520" y="418">24</text>
+    <text x="660" y="418">36</text><text x="800" y="418">48 Stunden</text>
+  </g>
+  <text x="240" y="446" font-family="Georgia, serif" font-size="19" fill="#111">nach dem Aufstieg</text>
+
+  <line x1="40" y1="482" x2="860" y2="482" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Wie es sich anfuehlt ============ -->
+  <text x="40" y="522" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Es fühlt sich an wie ein schwerer Kater</text>
+  <text x="40" y="560" font-family="Georgia, serif" font-size="21" fill="#111">Kopfschmerz, oft stark · Übelkeit mit oder ohne Erbrechen · Erschöpfung ·</text>
+  <text x="40" y="586" font-family="Georgia, serif" font-size="21" fill="#111">kein Appetit · schlechter Schlaf.</text>
+  <text x="40" y="622" font-family="Georgia, serif" font-size="21" fill="#111">Sichtbar sind oft: Die Person wirkt krank, sie lässt weniger Wasser, sie</text>
+  <text x="40" y="648" font-family="Georgia, serif" font-size="21" fill="#111">schwankt beim Gehen mit Gepäck, und Hände, Füße oder Gesicht sind leicht</text>
+  <text x="40" y="674" font-family="Georgia, serif" font-size="21" fill="#111">geschwollen, besonders um die Augen.</text>
+
+  <line x1="40" y1="710" x2="860" y2="710" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Der Ausschluss ============ -->
+  <text x="40" y="750" font-family="Georgia, serif" font-size="23" fill="#a3231a">Vier andere Ursachen, bevor du es dafür hältst</text>
+  <text x="40" y="788" font-family="Georgia, serif" font-size="21" fill="#111">1. Bestanden die Beschwerden schon vor dem Aufstieg? Dann steckt</text>
+  <text x="40" y="814" font-family="Georgia, serif" font-size="21" fill="#111">    wahrscheinlich etwas anderes dahinter.</text>
+  <text x="40" y="840" font-family="Georgia, serif" font-size="21" fill="#111">2. Wurde Alkohol getrunken?</text>
+  <text x="40" y="866" font-family="Georgia, serif" font-size="21" fill="#111">3. Wurde ein Medikament genommen? Beides macht ähnliche Beschwerden.</text>
+
+  <text x="40" y="912" font-family="Georgia, serif" font-size="23" fill="#a3231a">4. Hat die Person in einem Zelt, einer Höhle oder einem Fahrzeug</text>
+  <text x="40" y="940" font-family="Georgia, serif" font-size="23" fill="#a3231a">    mit laufendem Ofen oder Motor gesessen?</text>
+  <text x="40" y="976" font-family="Georgia, serif" font-size="21" fill="#111">Dann kann es eine Kohlenmonoxid-Vergiftung sein, die genauso aussieht — und</text>
+  <text x="40" y="1002" font-family="Georgia, serif" font-size="21" fill="#111">die weiter tötet, solange man sie für Höhenkrankheit hält.</text>
+
+  <line x1="40" y1="1038" x2="860" y2="1038" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1078" font-family="Georgia, serif" font-size="21" fill="#111">Für sich allein ist die Höhenkrankheit nicht lebensbedrohlich, und sie vergeht,</text>
+  <text x="40" y="1104" font-family="Georgia, serif" font-size="21" fill="#111">wenn der Körper sich anpasst — eine Woche bis zehn Tage.</text>
+</svg>

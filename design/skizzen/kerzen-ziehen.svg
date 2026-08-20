@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp "Licht ohne Strom: Kerzen selbst ziehen".
+       Zwei Dinge, die der Text nur umstaendlich sagen kann: der Aufbau des
+       Wasserbades (Topf im Topf, nie direkt ueber der Flamme) und das
+       Dickerwerden ueber viele Tauchgaenge.
+       Das Wasserbad steht links und gross, weil es der Sicherheitsteil ist:
+       Fett und Wachs fangen leicht Feuer, und ein solcher Brand ist schwer zu
+       loeschen.
+       Die Flamme war zuerst aus zwei runden Boegen gebaut und sah aus wie zwei
+       Huegel; jetzt drei spitze Zungen, damit sie als Feuer lesbar ist. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Kerzen ziehen: Topf im Topf, viele Male tauchen</text>
+
+  <!-- ============ LINKS: der Aufbau ============ -->
+  <text x="40" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der Aufbau</text>
+
+  <!-- Stab mit vier Dochten -->
+  <line x1="128" y1="140" x2="312" y2="140" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <g stroke="#111" stroke-width="4">
+    <line x1="164" y1="140" x2="164" y2="212"/>
+    <line x1="200" y1="140" x2="200" y2="212"/>
+    <line x1="240" y1="140" x2="240" y2="212"/>
+    <line x1="276" y1="140" x2="276" y2="212"/>
+  </g>
+  <text x="322" y="146" font-family="Georgia, serif" font-size="21" fill="#111">Stab mit</text>
+  <text x="322" y="172" font-family="Georgia, serif" font-size="21" fill="#111">Dochten</text>
+
+  <!-- aeusserer Topf mit Wasser -->
+  <path d="M 108 250 L 108 380 L 332 380 L 332 250" fill="none" stroke="#111" stroke-width="5"/>
+  <rect x="112" y="268" width="216" height="108" fill="#c9d9e2"/>
+  <text x="118" y="366" font-family="Georgia, serif" font-size="21" fill="#111">Wasser</text>
+
+  <!-- innerer Topf mit Talg -->
+  <path d="M 168 236 L 168 344 L 272 344 L 272 236" fill="none" stroke="#111" stroke-width="5"/>
+  <rect x="172" y="252" width="96" height="88" fill="#c9c4b4"/>
+  <text x="176" y="304" font-family="Georgia, serif" font-size="21" fill="#111">Talg</text>
+
+  <!-- Flamme -->
+  <g fill="#d65a1a" stroke="#a3231a" stroke-width="2">
+    <path d="M 182 422 C 176 400, 194 396, 190 374 C 204 392, 210 404, 202 422 Z"/>
+    <path d="M 212 422 C 204 394, 226 388, 220 360 C 238 384, 244 402, 234 422 Z"/>
+    <path d="M 246 422 C 240 400, 258 396, 254 374 C 268 392, 274 404, 266 422 Z"/>
+  </g>
+  <line x1="120" y1="424" x2="320" y2="424" stroke="#111" stroke-width="4"/>
+
+  <!-- Warnung -->
+  <text x="40" y="472" font-family="Georgia, serif" font-size="21" fill="#a3231a">Das Fett steht NIE direkt über</text>
+  <text x="40" y="498" font-family="Georgia, serif" font-size="21" fill="#a3231a">der Flamme: es fängt leicht Feuer,</text>
+  <text x="40" y="524" font-family="Georgia, serif" font-size="21" fill="#a3231a">und der Brand ist schwer zu löschen.</text>
+
+  <line x1="446" y1="120" x2="446" y2="540" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ RECHTS: dicker werden ============ -->
+  <text x="472" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Jedes Tauchen macht sie dicker</text>
+
+  <!-- drei Stufen -->
+  <g stroke="#111" stroke-width="4">
+    <line x1="520" y1="140" x2="520" y2="176"/>
+    <line x1="640" y1="140" x2="640" y2="176"/>
+    <line x1="770" y1="140" x2="770" y2="176"/>
+  </g>
+  <rect x="512" y="176" width="16" height="130" rx="6" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="624" y="176" width="32" height="130" rx="8" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="748" y="176" width="46" height="130" rx="10" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <text x="486" y="336" font-family="Georgia, serif" font-size="21" fill="#111">1. Mal</text>
+  <text x="606" y="336" font-family="Georgia, serif" font-size="21" fill="#111">später</text>
+  <text x="732" y="336" font-family="Georgia, serif" font-size="21" fill="#111">fertig</text>
+
+  <!-- Pfeile zwischen den Stufen -->
+  <g stroke="#1d6b3a" stroke-width="4" fill="none">
+    <path d="M 552 236 L 604 236 M 604 236 l -14 -8 M 604 236 l -14 8"/>
+    <path d="M 676 236 L 728 236 M 728 236 l -14 -8 M 728 236 l -14 8"/>
+  </g>
+
+  <text x="472" y="392" font-family="Georgia, serif" font-size="21" fill="#111">Zwischen zwei Tauchgängen muss</text>
+  <text x="472" y="418" font-family="Georgia, serif" font-size="21" fill="#111">sie auskühlen. Deshalb arbeitet man</text>
+  <text x="472" y="444" font-family="Georgia, serif" font-size="21" fill="#111">mit mehreren Stäben im Wechsel.</text>
+
+  <text x="472" y="490" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Der Talg hat etwa 70 Grad.</text>
+  <text x="472" y="516" font-family="Georgia, serif" font-size="21" fill="#111">Zu heiß bleibt nichts hängen,</text>
+  <text x="472" y="542" font-family="Georgia, serif" font-size="21" fill="#111">zu kalt wird die Kerze klumpig.</text>
+</svg>

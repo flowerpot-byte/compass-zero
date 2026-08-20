@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="800" viewBox="0 0 900 800">
+  <!-- Zum Tipp "Schock erkennen: blass, kalt, schneller Puls".
+       Gezeichnet ist NICHT das Erkennen, sondern die Lagerung: eine Grundlage
+       und drei Ausnahmen, die in der Leitlinie ausdruecklich stehen. Im Text
+       stehen sie in einem Absatz hintereinander; entscheiden muss man sie aber
+       nebeneinander, und zwar in Sekunden.
+       Die vierte Tafel traegt die Bedingung im Bild: Beine anheben nur, wenn
+       sie unverletzt sind. Bei einem gebrochenen Bein wird nichts angehoben.
+       Der wichtigste Satz des Tipps steht als Fusszeile, weil er ueber allen
+       vier Lagen steht: Die beste Behandlung des Schocks ist die Behandlung
+       seiner Ursache. -->
+  <rect width="900" height="800" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Schock: die Lage — und die drei Ausnahmen</text>
+
+  <!-- ============ A: Grundlage ============ -->
+  <text x="40" y="98" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Grundlage: flach auf den Rücken</text>
+
+  <line x1="64" y1="250" x2="410" y2="250" stroke="#111" stroke-width="4"/>
+  <circle cx="106" cy="228" r="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="130" y="206" width="132" height="44" rx="20" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="262" y="222" width="116" height="28" rx="14" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Decke: als Umriss ueber dem Koerper, damit der Koerper sichtbar bleibt -->
+  <rect x="116" y="198" width="276" height="54" rx="16" fill="none" stroke="#d65a1a" stroke-width="3" stroke-dasharray="11 7"/>
+  <line x1="256" y1="196" x2="230" y2="172" stroke="#d65a1a" stroke-width="2"/>
+  <text x="60" y="150" font-family="Georgia, serif" font-size="21" fill="#d65a1a">zudecken und vom kalten</text>
+  <text x="60" y="176" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Boden abschirmen</text>
+
+  <text x="40" y="300" font-family="Georgia, serif" font-size="21" fill="#111">Auf den Rücken, warm halten, reden,</text>
+  <text x="40" y="326" font-family="Georgia, serif" font-size="21" fill="#111">Atmung im Blick behalten.</text>
+
+  <line x1="446" y1="118" x2="446" y2="340" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: Herzinfarkt ============ -->
+  <text x="472" y="98" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ausnahme 1: Herzinfarkt als Ursache</text>
+
+  <line x1="496" y1="250" x2="842" y2="250" stroke="#111" stroke-width="4"/>
+  <!-- Stuetze im Ruecken -->
+  <path d="M 520 250 L 610 250 L 610 206 Z" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <!-- Oberkoerper schraeg, Beine flach -->
+  <g stroke="#111" stroke-width="4" fill="#c9c4b4">
+    <rect x="556" y="188" width="132" height="44" rx="20" transform="rotate(-18 622 210)"/>
+    <rect x="688" y="222" width="116" height="28" rx="14"/>
+  </g>
+  <circle cx="546" cy="180" r="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <text x="472" y="300" font-family="Georgia, serif" font-size="21" fill="#111">Auf dem Rücken, aber mit leicht</text>
+  <text x="472" y="326" font-family="Georgia, serif" font-size="21" fill="#111">erhöhtem Oberkörper.</text>
+
+  <line x1="40" y1="366" x2="860" y2="366" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: Atemnot ============ -->
+  <text x="40" y="410" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ausnahme 2: Atemnot im Liegen</text>
+
+  <line x1="64" y1="586" x2="410" y2="586" stroke="#111" stroke-width="4"/>
+
+  <!-- Zweitstellung, blass: nach hinten gelehnt -->
+  <g fill="none" stroke="#b9b4a6" stroke-width="4">
+    <rect x="166" y="472" width="42" height="96" rx="20" transform="rotate(-24 187 566)"/>
+    <circle cx="148" cy="474" r="21"/>
+  </g>
+
+  <!-- Hauptstellung: nach vorn gelehnt -->
+  <rect x="172" y="548" width="120" height="28" rx="14" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="278" y="552" width="26" height="34" rx="12" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="166" y="472" width="42" height="96" rx="20" fill="#c9c4b4" stroke="#111" stroke-width="4" transform="rotate(30 187 566)"/>
+  <circle cx="234" cy="472" r="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="11" stroke-linecap="round">
+    <line x1="226" y1="504" x2="278" y2="548"/>
+  </g>
+
+  <line x1="256" y1="486" x2="316" y2="470" stroke="#d65a1a" stroke-width="2"/>
+  <text x="324" y="464" font-family="Georgia, serif" font-size="21" fill="#d65a1a">nach vorn</text>
+  <text x="324" y="490" font-family="Georgia, serif" font-size="21" fill="#d65a1a">oder nach</text>
+  <text x="324" y="516" font-family="Georgia, serif" font-size="21" fill="#d65a1a">hinten gelehnt</text>
+
+  <text x="40" y="636" font-family="Georgia, serif" font-size="21" fill="#111">Die Haltung, die der Person am</text>
+  <text x="40" y="662" font-family="Georgia, serif" font-size="21" fill="#111">angenehmsten ist — nicht die aus dem Buch.</text>
+
+  <line x1="446" y1="392" x2="446" y2="676" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: Beine anheben ============ -->
+  <text x="472" y="410" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ausnahme 3: Beine anheben</text>
+
+  <line x1="496" y1="586" x2="842" y2="586" stroke="#111" stroke-width="4"/>
+  <circle cx="538" cy="564" r="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="562" y="542" width="132" height="44" rx="20" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- angehobene Beine, gleiche Farbe wie die uebrigen Koerperteile -->
+  <rect x="700" y="558" width="132" height="28" rx="14" fill="#c9c4b4" stroke="#111" stroke-width="4" transform="rotate(-34 700 572)"/>
+  <!-- Winkelbogen zwischen Boden und Bein -->
+  <path d="M 790 586 A 90 90 0 0 0 775 536" fill="none" stroke="#d65a1a" stroke-width="3"/>
+  <line x1="782" y1="558" x2="700" y2="520" stroke="#d65a1a" stroke-width="2"/>
+  <text x="692" y="514" font-family="Georgia, serif" font-size="21" fill="#d65a1a" text-anchor="end">30–60°</text>
+
+  <text x="472" y="636" font-family="Georgia, serif" font-size="21" fill="#111">Nur wenn das Liegen geschafft ist und</text>
+  <text x="472" y="662" font-family="Georgia, serif" font-size="21" fill="#a3231a">nur wenn die Beine UNVERLETZT sind.</text>
+
+  <line x1="40" y1="700" x2="860" y2="700" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="40" y="734" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die beste Behandlung des Schocks ist die Behandlung seiner Ursache.</text>
+  <text x="40" y="766" font-family="Georgia, serif" font-size="21" fill="#a3231a">Wer beim Hinlegen mit der Blutstillung aufhört, hat es falsch herum gemacht.</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660">
+  <!-- Zum Tipp "Beckenbruch: Beine binden, Becken nie ruetteln".
+       Zwei Dinge, die der Text nur umstaendlich sagen kann: dass die
+       zusammengebundenen Beine das Becken SCHIENEN (also Behandlung sind und
+       nicht Transportvorbereitung), und wo genau gebunden wird.
+       Aufsicht statt Seitenansicht, weil nur von oben zu sehen ist, dass
+       Polster UND zwei Bindungen zusammengehoeren.
+       Links steht das Verbot, weil es in der Leitlinie als eigene Warnung
+       steht: Ein Becken wird nicht untersucht wie ein Arm. Das Ruetteln kann
+       eine Blutung, die von selbst zum Stehen gekommen ist, wieder in Gang
+       setzen. -->
+  <rect width="900" height="660" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Beckenbruch: polstern und binden, nicht anfassen</text>
+
+  <!-- ================= LINKS: so nicht ================= -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#a3231a">So nicht: prüfen, ob es weh tut</text>
+
+  <!-- Koerper von oben -->
+  <circle cx="230" cy="152" r="26" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="198" y="182" width="64" height="104" rx="16" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Becken -->
+  <rect x="190" y="286" width="80" height="52" rx="10" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Beine, leicht auseinander -->
+  <rect x="188" y="338" width="30" height="150" rx="12" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="242" y="338" width="30" height="150" rx="12" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <!-- Haende am Becken -->
+  <rect x="150" y="296" width="34" height="30" rx="8" fill="#a3231a"/>
+  <rect x="276" y="296" width="34" height="30" rx="8" fill="#a3231a"/>
+  <!-- Ruettelpfeile -->
+  <g stroke="#a3231a" stroke-width="4" fill="none">
+    <path d="M 138 288 l -18 0 M 120 288 l 8 -8 M 120 288 l 8 8"/>
+    <path d="M 322 288 l 18 0 M 340 288 l -8 -8 M 340 288 l -8 8"/>
+    <path d="M 138 334 l -18 0 M 120 334 l 8 -8 M 120 334 l 8 8"/>
+    <path d="M 322 334 l 18 0 M 340 334 l -8 -8 M 340 334 l -8 8"/>
+  </g>
+
+  <!-- Verbotszeichen, deutlich neben dem Koerper -->
+  <g stroke="#a3231a" stroke-width="7" fill="none">
+    <circle cx="366" cy="176" r="38"/>
+    <line x1="339" y1="149" x2="393" y2="203"/>
+  </g>
+
+  <text x="40" y="544" font-family="Georgia, serif" font-size="21" fill="#111">Nicht rütteln, nicht kippen, nicht</text>
+  <text x="40" y="570" font-family="Georgia, serif" font-size="21" fill="#111">drehen — auch nicht, um zu prüfen,</text>
+  <text x="40" y="596" font-family="Georgia, serif" font-size="21" fill="#111">ob es weh tut. Das kann eine Blutung,</text>
+  <text x="40" y="622" font-family="Georgia, serif" font-size="21" fill="#a3231a">die stand, wieder in Gang setzen.</text>
+
+  <line x1="446" y1="120" x2="446" y2="500" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ================= RECHTS: so ================= -->
+  <text x="472" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">So: polstern, dann binden</text>
+
+  <circle cx="662" cy="152" r="26" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="630" y="182" width="64" height="104" rx="16" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="622" y="286" width="80" height="52" rx="10" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Beine, Polster dazwischen -->
+  <rect x="612" y="338" width="30" height="150" rx="12" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="682" y="338" width="30" height="150" rx="12" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Polster: breit genug, um als Polster lesbar zu sein -->
+  <rect x="644" y="344" width="36" height="142" rx="8" fill="#f2e3d3" stroke="#d65a1a" stroke-width="4"/>
+  <g stroke="#d65a1a" stroke-width="2">
+    <line x1="648" y1="360" x2="676" y2="352"/>
+    <line x1="648" y1="392" x2="676" y2="384"/>
+    <line x1="648" y1="424" x2="676" y2="416"/>
+    <line x1="648" y1="456" x2="676" y2="448"/>
+  </g>
+
+  <!-- zwei Bindungen -->
+  <rect x="594" y="378" width="136" height="18" rx="6" fill="#1d6b3a"/>
+  <rect x="594" y="452" width="136" height="18" rx="6" fill="#1d6b3a"/>
+
+  <!-- Beschriftungen mit Bezugslinien -->
+  <line x1="678" y1="410" x2="744" y2="410" stroke="#d65a1a" stroke-width="2"/>
+  <text x="752" y="404" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Polster</text>
+  <text x="752" y="430" font-family="Georgia, serif" font-size="21" fill="#d65a1a">dazwischen:</text>
+  <text x="752" y="456" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Kleidung,</text>
+  <text x="752" y="482" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Decken</text>
+
+  <line x1="594" y1="387" x2="516" y2="387" stroke="#1d6b3a" stroke-width="2"/>
+  <text x="508" y="393" font-family="Georgia, serif" font-size="21" fill="#1d6b3a" text-anchor="end">an den Knien</text>
+  <line x1="594" y1="461" x2="516" y2="461" stroke="#1d6b3a" stroke-width="2"/>
+  <text x="508" y="467" font-family="Georgia, serif" font-size="21" fill="#1d6b3a" text-anchor="end">an den Füßen</text>
+
+  <text x="472" y="544" font-family="Georgia, serif" font-size="21" fill="#111">Auf dem Rücken, Beine gerade,</text>
+  <text x="472" y="570" font-family="Georgia, serif" font-size="21" fill="#111">stillhalten lassen. Die zusammen-</text>
+  <text x="472" y="596" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">gebundenen Beine schienen das</text>
+  <text x="472" y="622" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Becken, ohne dass man es anfasst.</text>
+</svg>

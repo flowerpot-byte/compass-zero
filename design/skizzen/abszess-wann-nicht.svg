@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Tipp medizin-abszess-eroeffnen (Kommentare ohne Umlaut, wie ueblich).
+
+       AUSSAGE: Dieser Tipp handelt vor allem vom Nichttun. Zwei Zustaende
+       verbieten das Eroeffnen unbedingt, wie der Text selbst hervorhebt:
+       eine stark durchblutete Geschwulst, und eine Beule ueber einem
+       Gelenk am Handgelenk oder an den Fingern, weil das oft ein
+       Ueberbein ist und in Sehnenscheide und Gelenkraum hineinfuehrt.
+       Alles andere, was in keine der beiden Gruppen faellt, wird
+       schonend behandelt und nicht angefasst. Das Eroeffnen selbst
+       bleibt die kleine Ausnahme, gebunden an zwei Bedingungen: kein
+       Arzt erreichbar, und die Infektion spricht nicht auf die
+       schonende Behandlung an.
+
+       BEGRUENDUNG DER FORM: Deshalb stehen die zwei Verbote gross und
+       bildlich in einem eigens markierten Feld, dessen Kopfzeile die
+       einzige Signalfarbe traegt, genau an der Stelle, an der der Text
+       selbst sagt, hier stuenden zwei Verbote, die einen Menschen
+       retten koennen. Die Bedingungen fuers Eroeffnen stehen unten
+       klein und rein als Text, in einem kleineren, andersfarbig
+       gefuellten Kasten. Die Koerperteile (Hautstelle, Unterarm mit
+       Hand) sind als durchgehende Umrisse gezeichnet, Geschwulst und
+       Beule als eigene, dunkler gefuellte Formen, die den Umriss
+       ausbeulen, nicht als Kreis mit angesetzten Strichen. -->
+
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="25" fill="#111">Abszess eröffnen: wann, und vor allem wann nicht</text>
+  <text x="40" y="76" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Der erste Satz des Tipps: Versuch das nicht, wenn ein Arzt erreichbar ist.</text>
+
+  <!-- ===================== Kopfzeile der verbotenen Zone: einzige Signalstelle ===================== -->
+  <text x="40" y="112" font-family="Georgia, serif" font-size="22" fill="#d65a1a">WANN AUF KEINEN FALL — zwei Verbote entscheiden</text>
+  <line x1="40" y1="124" x2="860" y2="124" stroke="#d65a1a" stroke-width="3"/>
+
+  <!-- ===================== Rahmen der verbotenen Zone ===================== -->
+  <rect x="40" y="140" width="820" height="290" rx="10" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+  <line x1="450" y1="158" x2="450" y2="418" stroke="#5b7f96" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- links: stark durchblutete Geschwulst -->
+  <path d="M 230,168 C 278,170 315,197 322,240 C 327,272 314,305 282,323 C 250,340 205,340 172,323 C 144,308 135,280 140,247 C 144,215 163,190 192,177 C 205,171 218,168 230,168 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 312,222 C 338,213 368,222 376,248 C 382,268 371,288 348,295 C 326,301 305,292 300,270 C 297,250 296,231 312,222 Z"
+        fill="#7a5a3e" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="none" stroke="#7a5a3e" stroke-width="4" stroke-linecap="round">
+    <path d="M 306,224 C 276,210 254,196 232,182"/>
+    <path d="M 268,204 C 258,188 250,178 236,166"/>
+    <path d="M 268,204 C 246,200 226,200 206,206"/>
+    <path d="M 298,258 C 262,256 232,258 200,266"/>
+    <path d="M 240,258 C 226,244 214,236 196,230"/>
+    <path d="M 240,258 C 224,272 214,284 208,300"/>
+    <path d="M 304,292 C 278,306 258,320 240,332"/>
+    <path d="M 268,312 C 250,314 236,320 222,330"/>
+  </g>
+  <circle cx="338" cy="257" r="28" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="318" y1="237" x2="358" y2="277" stroke="#111" stroke-width="4"/>
+  <text x="230" y="372" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">Stark durchblutete Geschwulst</text>
+  <text x="230" y="396" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">nicht eröffnen</text>
+
+  <!-- rechts: Beule über einem Gelenk am Handgelenk/Finger -->
+  <path d="M 620,165 L 690,165 C 686,195 682,222 680,245 C 715,252 738,262 735,285 C 745,300 738,315 718,318 C 725,330 715,340 700,332 C 700,345 685,350 672,340 C 668,350 645,350 638,338 C 630,348 615,345 610,332 C 595,338 582,328 588,312 C 572,305 565,288 575,265 C 572,262 618,252 630,245 C 628,222 624,195 620,165 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 705,225 C 730,215 758,222 763,245 C 768,265 755,282 733,285 C 715,287 700,278 698,260 C 696,244 693,234 705,225 Z"
+        fill="#7a5a3e" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="730" cy="253" r="30" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="708" y1="231" x2="752" y2="275" stroke="#111" stroke-width="4"/>
+  <text x="665" y="368" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">Beule über einem Gelenk</text>
+  <text x="665" y="390" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">(Handgelenk, Finger)</text>
+  <text x="665" y="412" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">nicht eröffnen</text>
+
+  <!-- ===================== Die Regel: sonst wird nicht angefasst ===================== -->
+  <text x="40" y="452" font-family="Georgia, serif" font-size="18" fill="#111">Alles andere, das in keine dieser beiden Gruppen passt,</text>
+  <text x="40" y="474" font-family="Georgia, serif" font-size="18" fill="#111">wird schonend behandelt und nicht angefasst.</text>
+
+  <!-- ===================== Die kleine Ausnahme ===================== -->
+  <rect x="40" y="492" width="820" height="120" rx="8" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <text x="58" y="518" font-family="Georgia, serif" font-size="18" fill="#111">Eröffnen nur, wenn ALLES davon zutrifft:</text>
+  <g font-family="Georgia, serif" font-size="16" fill="#111">
+    <text x="58" y="544">• Infektion spricht nicht auf schonende Behandlung an, und</text>
+    <text x="58" y="566">• kein Arzt ist erreichbar, und</text>
+    <text x="58" y="588">• keins der beiden Verbote oben trifft zu.</text>
+  </g>
+</svg>

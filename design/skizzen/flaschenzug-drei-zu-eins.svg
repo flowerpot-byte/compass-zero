@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="640" viewBox="0 0 720 640">
+  <!-- Zu Schritt 6 von seilwerk-flaschenzug: "Zaehle die Anzahl der Seillinien,
+       die die Last (bzw. den beweglichen Block) tragen. Beispiel: Drei tragende
+       Seillinien ergeben einen mechanischen Vorteil von 3:1."
+       Gezeichnet ist genau dieses Beispiel: fester Doppelblock oben, beweglicher
+       Einfachblock unten, das tote Ende am beweglichen Block. Die drei Linien,
+       die den beweglichen Block tragen, sind durchnummeriert; das Zaehlen ist
+       der Inhalt des Schrittes. Die Zugleine laeuft hier aus dem FESTEN Block
+       heraus und traegt deshalb nicht mit. -->
+  <rect width="720" height="640" fill="#faf9f6"/>
+  <!-- Balken, an dem der feste Block haengt -->
+  <rect x="150" y="40" width="440" height="26" fill="none" stroke="#111" stroke-width="5"/>
+  <g stroke="#111" stroke-width="3">
+    <line x1="165" y1="66" x2="185" y2="40"/><line x1="205" y1="66" x2="225" y2="40"/>
+    <line x1="245" y1="66" x2="265" y2="40"/><line x1="285" y1="66" x2="305" y2="40"/>
+    <line x1="325" y1="66" x2="345" y2="40"/><line x1="365" y1="66" x2="385" y2="40"/>
+    <line x1="405" y1="66" x2="425" y2="40"/><line x1="445" y1="66" x2="465" y2="40"/>
+    <line x1="485" y1="66" x2="505" y2="40"/><line x1="525" y1="66" x2="545" y2="40"/>
+    <line x1="565" y1="66" x2="585" y2="40"/>
+  </g>
+  <line x1="365" y1="66" x2="365" y2="100" stroke="#111" stroke-width="5"/>
+  <!-- Fester Doppelblock -->
+  <rect x="240" y="100" width="250" height="62" rx="16" fill="none" stroke="#111" stroke-width="5"/>
+  <circle cx="280" cy="131" r="22" fill="none" stroke="#111" stroke-width="4"/>
+  <circle cx="450" cy="131" r="22" fill="none" stroke="#111" stroke-width="4"/>
+  <!-- Beweglicher Einfachblock -->
+  <rect x="318" y="302" width="94" height="58" rx="16" fill="none" stroke="#111" stroke-width="5"/>
+  <circle cx="365" cy="331" r="22" fill="none" stroke="#111" stroke-width="4"/>
+  <!-- Seil: totes Ende am beweglichen Block, ueber beide festen Scheiben, Zug nach unten -->
+  <g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round">
+    <path d="M 322 302 L 258 131"/>
+    <path d="M 258 131 A 22 22 0 0 1 302 131"/>
+    <path d="M 302 131 L 343 331"/>
+    <path d="M 343 331 A 22 22 0 0 0 387 331"/>
+    <path d="M 387 331 L 428 131"/>
+    <path d="M 428 131 A 22 22 0 0 1 472 131"/>
+    <path d="M 472 131 L 472 560"/>
+    <path d="M 472 560 l -12 -28 M 472 560 l 12 -28"/>
+  </g>
+  <!-- Last am beweglichen Block -->
+  <line x1="365" y1="360" x2="365" y2="400" stroke="#111" stroke-width="5"/>
+  <rect x="305" y="400" width="120" height="92" fill="none" stroke="#111" stroke-width="5"/>
+  <!-- Die drei tragenden Linien, dort beschriftet, wo sie weit auseinanderliegen -->
+  <g font-family="sans-serif" font-size="27" font-weight="bold" fill="#d65a1a">
+    <text x="256" y="194" text-anchor="end">1</text>
+    <text x="330" y="194">2</text>
+    <text x="436" y="194">3</text>
+  </g>
+  <g font-family="sans-serif" font-size="26" fill="#111">
+    <text x="365" y="458" text-anchor="middle">Last</text>
+    <text x="492" y="545" fill="#d65a1a">Zug</text>
+    <text x="196" y="300" text-anchor="end">totes Ende</text>
+    <text x="360" y="608" text-anchor="middle">3 tragende Seillinien = 3 : 1</text>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="2">
+    <line x1="206" y1="295" x2="312" y2="303"/>
+  </g>
+</svg>

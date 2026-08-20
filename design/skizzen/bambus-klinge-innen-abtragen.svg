@@ -1,0 +1,89 @@
+<!-- Anleitung: Werkzeug: eine Klinge aus dem, was da ist
+     Schritt 8 (BAMBUS - DIE AUSNAHME): "Seine haerteste Schicht sitzt
+     AUSSEN. Daraus folgen zwei Regeln, die bei jedem anderen Holz genau
+     umgekehrt gelten: Trag das Material von INNEN ab, um die Klinge
+     duenner zu machen. Von der harten Aussenschicht bleibt so viel
+     stehen wie moeglich. Beim Haerten im Feuer wird NUR DAS INNERE HOLZ
+     angekohlt. Die Aussenseite wird NICHT angekohlt - sonst zerstoerst
+     du genau das, was den Bambus scharf macht."
+     Gezeigter Satz: die haerteste Schicht liegt aussen und bleibt beim
+     Duennerarbeiten stehen, waehrend von innen Material abgetragen wird;
+     beim Feuerhaerten trifft die Flamme nur die Innenseite, niemals die
+     Aussenseite - sonst ist die Schaerfe hin. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="610" viewBox="0 0 900 610">
+  <rect width="900" height="610" fill="#faf9f6"/>
+
+  <text x="40" y="48" font-family="Georgia, serif" font-size="27" fill="#111">Bambusklinge: hart außen, arbeiten von innen</text>
+  <text x="40" y="76" font-family="Georgia, serif" font-size="17" fill="#5b7f96">BAMBUS — DIE AUSNAHME: HÄRTESTE SCHICHT SITZT AUSSEN</text>
+
+  <!-- Hauptbild: Laengsschnitt der Klingenspitze. Oben die harte
+       Aussenschicht (bleibt in voller Laenge stehen), unten das
+       abgetragene Innenmaterial. Rueckseite links dick, Spitze rechts
+       duenn auslaufend. -->
+  <text x="150" y="118" font-family="Georgia, serif" font-size="19" fill="#111">AUSSEN — härteste Schicht</text>
+  <text x="150" y="140" font-family="Georgia, serif" font-size="16" fill="#111">bleibt stehen</text>
+  <line x1="220" y1="146" x2="230" y2="168" stroke="#111" stroke-width="1.5"/>
+
+  <!-- entfernte Materialflaeche (unterhalb der Arbeitsflaeche, gestrichelt begrenzt) -->
+  <path d="M140,290 L660,290 L660,160 Z" fill="#efece4" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <g stroke="#5b7f96" stroke-width="1" opacity="0.55">
+    <line x1="200" y1="290" x2="240" y2="250"/>
+    <line x1="280" y1="290" x2="330" y2="230"/>
+    <line x1="360" y1="290" x2="420" y2="215"/>
+    <line x1="440" y1="290" x2="500" y2="200"/>
+    <line x1="520" y1="290" x2="570" y2="185"/>
+    <line x1="600" y1="290" x2="635" y2="172"/>
+  </g>
+
+  <!-- verbleibender Klingenkoerper: Ruecken links dick, Spitze rechts -->
+  <path d="M140,160 L660,160 L140,290 Z" fill="#c9a876" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- harte Aussenschicht als eigener Streifen entlang der Oberkante,
+       in voller Laenge bis zur Spitze stehend -->
+  <path d="M140,160 L660,160 L596,176 L140,176 Z" fill="#8a6a3c" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Pfeile: Material wird von der Innenseite (unten) abgetragen -->
+  <g stroke="#5b7f96" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <line x1="250" y1="253" x2="250" y2="278"/>
+    <path d="M250,278 l -7,-12 M250,278 l 7,-12"/>
+    <line x1="380" y1="222" x2="380" y2="247"/>
+    <path d="M380,247 l -7,-12 M380,247 l 7,-12"/>
+    <line x1="510" y1="190" x2="510" y2="215"/>
+    <path d="M510,215 l -7,-12 M510,215 l 7,-12"/>
+  </g>
+
+  <text x="150" y="325" font-family="Georgia, serif" font-size="19" fill="#111">INNEN — hier wird abgetragen</text>
+  <line x1="260" y1="308" x2="280" y2="288" stroke="#111" stroke-width="1.5"/>
+
+  <text x="440" y="325" font-family="Georgia, serif" font-size="15" fill="#5b7f96">bei jedem anderen Holz: genau umgekehrt</text>
+
+  <!-- Trenner -->
+  <line x1="40" y1="358" x2="860" y2="358" stroke="#5b7f96" stroke-width="1" stroke-dasharray="6 6"/>
+  <text x="40" y="386" font-family="Georgia, serif" font-size="19" fill="#5b7f96">BEIM HÄRTEN IM FEUER</text>
+
+  <!-- Links: richtig. Dasselbe Stueck, flache Unterseite = Innenflaeche,
+       liegt zur Flamme hin und wird angekohlt. Die schraege Oberkante =
+       Aussenschicht bleibt als heller Streifen stehen, von der Flamme weg. -->
+  <path d="M150,410 L150,480 L350,480 Z" fill="#3a2a1a" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M150,410 L350,480 L311,480 L146,422 Z" fill="#cdb48c" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M250,482 C238,500 244,516 250,528 C256,516 262,500 250,482 Z" fill="#efece4" stroke="#5b7f96" stroke-width="1.8"/>
+  <line x1="250" y1="528" x2="250" y2="548" stroke="#5b7f96" stroke-width="2"/>
+
+  <text x="250" y="572" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">NUR INNEN ANGEKOHLT</text>
+  <text x="250" y="594" font-family="Georgia, serif" font-size="15" fill="#5b7f96" text-anchor="middle">Außenseite bleibt hell</text>
+
+  <!-- Rechts: falsch. Dasselbe Stueck liegt verkehrt herum: die flache
+       Unterseite ist jetzt die Aussenschicht, und genau sie liegt zur
+       Flamme hin und wird mit angekohlt. -->
+  <path d="M550,410 L550,480 L750,480 Z" fill="#3a2a1a" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M550,480 L750,480 L713,467 L550,467 Z" fill="#3a2a1a" stroke="#d65a1a" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="615" y1="467.5" x2="645" y2="479.5" stroke="#d65a1a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="615" y1="479.5" x2="645" y2="467.5" stroke="#d65a1a" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M650,482 C638,500 644,516 650,528 C656,516 662,500 650,482 Z" fill="#efece4" stroke="#5b7f96" stroke-width="1.8"/>
+  <line x1="650" y1="528" x2="650" y2="548" stroke="#5b7f96" stroke-width="2"/>
+
+  <text x="650" y="572" font-family="Georgia, serif" font-size="18" fill="#d65a1a" text-anchor="middle">NICHT: AUSSENSEITE ANGEKOHLT</text>
+  <text x="650" y="594" font-family="Georgia, serif" font-size="15" fill="#d65a1a" text-anchor="middle">zerstört die Schärfe</text>
+</svg>

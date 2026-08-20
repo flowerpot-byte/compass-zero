@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+  <!-- Zum Tipp "Totes Gewebe erkennen: vier Pruefungen".
+       Der Tipp zaehlt vier Merkmale auf, jedes mit zwei Auspraegungen. Als
+       Fliesstext muss man acht Angaben im Kopf gegeneinanderhalten; als
+       Gegenueberstellung liest man sie in einem Zug.
+       Die Quelle sagt ausdruecklich, dass die FARBE das unsicherste der vier
+       Merkmale ist – deshalb steht sie hier oben, aber mit dem Vermerk
+       daneben. Wer sich nur auf sie verlaesst, irrt sich am haeufigsten. -->
+  <rect width="900" height="480" fill="#faf9f6"/>
+  <text x="30" y="44" font-family="Georgia, serif" font-size="25" fill="#111">Totes Gewebe erkennen: vier Prüfungen</text>
+
+  <!-- Kopfzeile -->
+  <line x1="30" y1="86" x2="870" y2="86" stroke="#111" stroke-width="4"/>
+  <g font-family="Georgia, serif" font-size="21" fill="#111">
+    <text x="40" y="118">Prüfung</text>
+    <text x="300" y="118">lebendes Gewebe</text>
+    <text x="620" y="118">totes Gewebe</text>
+  </g>
+  <line x1="30" y1="136" x2="870" y2="136" stroke="#111" stroke-width="3"/>
+
+  <!-- Zeilen -->
+  <g font-family="Georgia, serif" font-size="20" fill="#111">
+    <text x="40" y="182">Farbe</text>
+    <text x="300" y="182">hell rotbraun</text>
+    <text x="620" y="182">dunkel, bläulich</text>
+
+    <text x="40" y="252">Festigkeit</text>
+    <text x="300" y="252">federnd</text>
+    <text x="620" y="252">matschig</text>
+
+    <text x="40" y="322">Zucken</text>
+    <text x="300" y="322">zuckt beim Kneifen</text>
+    <text x="620" y="322">zuckt nicht</text>
+
+    <text x="40" y="392">Durchblutung</text>
+    <text x="300" y="392">blutet beim Schnitt</text>
+    <text x="620" y="392">blutet nicht</text>
+  </g>
+  <g stroke="#cfc9b6" stroke-width="2">
+    <line x1="30" y1="206" x2="870" y2="206"/>
+    <line x1="30" y1="276" x2="870" y2="276"/>
+    <line x1="30" y1="346" x2="870" y2="346"/>
+  </g>
+  <line x1="280" y1="86" x2="280" y2="416" stroke="#cfc9b6" stroke-width="2"/>
+  <line x1="600" y1="86" x2="600" y2="416" stroke="#cfc9b6" stroke-width="2"/>
+  <line x1="30" y1="416" x2="870" y2="416" stroke="#111" stroke-width="3"/>
+
+  <!-- Hinweis der Quelle zur Farbe -->
+  <text x="30" y="458" font-family="Georgia, serif" font-size="19" fill="#d65a1a">Die Quelle nennt die FARBE das unsicherste der vier Merkmale — verlass dich nie auf sie allein.</text>
+</svg>

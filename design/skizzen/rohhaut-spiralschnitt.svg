@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zu Schritt 6 von seilwerk-schnur-selbst: "ROHHAUT, DER SCHNITT — und das
+       ist der eigentliche Trick: Fang in der MITTE der Haut an und schneide in
+       EINEM EINZIGEN, DURCHGEHENDEN Kreis nach außen, im Uhrzeigersinn bis zum
+       Rand. So wird aus einer Haut EIN Riemen von vielen Metern statt eines
+       Haufens kurzer Stücke. Wer geradeaus schneidet, bekommt Streifen, die
+       überall angestückelt werden müssen — und jede Stückelung ist eine
+       Sollbruchstelle." Das ist ein reiner Ablauf-/Vergleichsfall: Spirale von
+       innen nach außen gegen gerade Parallelschnitte, mit dem Ergebnis (ein
+       langer Riemen vs. mehrere kurze Stücke) direkt darunter. Deshalb zwei
+       Flächen mit demselben Umriss (Rohhaut von oben, kein Fell, keine
+       Perspektive) und darunter je eine Ergebniszeile. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+
+  <defs>
+    <marker id="pfeil" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#5b7f96"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#111">Rohhaut schneiden: ein Kreis statt vieler Schnitte</text>
+
+  <!-- ================= LINKS: der Spiralschnitt (richtig) ================= -->
+  <text x="60" y="80" font-family="Georgia, serif" font-size="21" fill="#111">1 · Spiralschnitt</text>
+
+  <path d="M 235.0,132.0 C 258.8,131.8 287.1,158.2 307.1,177.9 C 327.1,197.6 355.5,226.4 355.0,250.0 C 354.5,273.6 324.3,299.0 304.3,319.3 C 284.3,339.6 258.9,371.2 235.0,372.0 C 211.1,372.8 180.3,344.5 160.8,324.2 C 141.3,303.9 117.4,274.1 118.0,250.0 C 118.6,225.8 144.8,199.0 164.3,179.3 C 183.8,159.6 211.2,132.2 235.0,132.0 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <path d="M 235.0,250.0 L 235.8,250.5 L 236.0,251.6 L 235.2,252.8 L 233.4,253.5 L 231.2,252.8 L 229.4,250.8 L 228.8,247.7 L 230.0,244.2 L 233.2,241.6 L 237.7,240.9 L 242.4,242.6 L 245.9,246.8 L 247.1,252.7 L 245.0,258.7 L 239.9,263.4 L 232.8,265.0 L 225.3,262.9 L 219.4,257.0 L 217.0,248.6 L 219.1,239.7 L 225.5,232.5 L 235.1,229.1 L 245.6,230.9 L 254.2,237.8 L 258.7,248.4 L 257.4,260.4 L 250.3,270.6 L 238.6,276.4 L 225.2,275.8 L 213.3,268.5 L 206.2,256.1 L 205.9,241.2 L 213.0,227.7 L 226.1,218.9 L 242.3,217.6 L 257.6,224.3 L 268.0,238.0 L 270.7,255.4 L 264.5,272.4 L 250.5,284.7 L 231.9,288.8 L 213.1,283.4 L 199.0,269.3 L 193.2,249.6 L 197.7,229.2 L 211.7,213.0 L 232.2,205.4 L 254.3,208.7 L 272.5,222.5 L 282.1,243.7 L 280.2,267.4 L 267.0,287.7 L 245.2,299.3 L 220.0,299.1 L 197.6,286.5 L 183.8,264.4 L 182.2,237.9 L 193.8,213.4 L 216.0,197.3 L 243.8,193.7 L 270.3,204.0 L 288.9,226.2 L 294.6,255.0 L 285.7,283.5 L 263.9,304.6 L 234.2,312.7 L 203.7,305.4 L 180.2,284.2 L 169.6,253.8 L 174.9,221.5 L 195.4,195.4 L 226.2,182.2 L 260.2,185.4 L 288.8,204.8 L 304.8,235.9 L 304.0,271.4 L 285.9,302.5 L 254.8,321.4 L 217.9,323.1 L 184.3,306.6 L 162.5,275.7 L 158.1,237.6 L 172.7,201.7 L 203.1,176.9 L 242.1,169.6 L 280.4,182.0 L 308.2,211.7 L 318.6,251.5"
+        fill="none" stroke="#5b7f96" stroke-width="4" stroke-linecap="round" marker-end="url(#pfeil)"/>
+
+  <circle cx="235" cy="250" r="6" fill="#111"/>
+
+  <text x="60" y="400" font-family="Georgia, serif" font-size="18" fill="#111">schwarzer Punkt: MITTE der Haut —</text>
+  <text x="60" y="424" font-family="Georgia, serif" font-size="18" fill="#111">hier ansetzen</text>
+  <text x="60" y="454" font-family="Georgia, serif" font-size="18" fill="#5b7f96">blaue Linie: EIN durchgehender Schnitt,</text>
+  <text x="60" y="478" font-family="Georgia, serif" font-size="18" fill="#5b7f96">im Kreis nach außen, im Uhrzeigersinn</text>
+
+  <path d="M 60,500 C 120,485 160,515 220,500 C 280,485 320,515 410,500" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="60" y="548" font-family="Georgia, serif" font-size="19" fill="#111">→ EIN Riemen, viele Meter lang</text>
+
+  <!-- ================= RECHTS: gerade Schnitte (falsch) ================= -->
+  <text x="490" y="80" font-family="Georgia, serif" font-size="21" fill="#111">2 · gerade Schnitte</text>
+
+  <path d="M 700.0,132.0 C 723.8,131.8 752.1,158.2 772.1,177.9 C 792.1,197.6 820.5,226.4 820.0,250.0 C 819.5,273.6 789.3,299.0 769.3,319.3 C 749.3,339.6 723.9,371.2 700.0,372.0 C 676.1,372.8 645.3,344.5 625.8,324.2 C 606.3,303.9 582.4,274.1 583.0,250.0 C 583.6,225.8 609.8,199.0 629.3,179.3 C 648.8,159.6 676.2,132.2 700.0,132.0 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <g fill="none" stroke="#111" stroke-width="4" stroke-linecap="round">
+    <path d="M 660,180 L 660,320"/>
+    <path d="M 680,180 L 680,320"/>
+    <path d="M 700,180 L 700,320"/>
+    <path d="M 720,180 L 720,320"/>
+    <path d="M 740,180 L 740,320"/>
+  </g>
+
+  <text x="490" y="400" font-family="Georgia, serif" font-size="18" fill="#111">schwarze Linien: mehrere GERADE</text>
+  <text x="490" y="424" font-family="Georgia, serif" font-size="18" fill="#111">Schnitte statt eines Kreises</text>
+
+  <g fill="none" stroke="#111" stroke-width="5" stroke-linecap="round">
+    <path d="M 490,500 L 590,500"/>
+    <path d="M 610,500 L 710,500"/>
+    <path d="M 730,500 L 830,500"/>
+  </g>
+
+  <line x1="600" y1="478" x2="600" y2="493" stroke="#d65a1a" stroke-width="1.5"/>
+  <circle cx="600" cy="500" r="6" fill="#d65a1a"/>
+  <text x="600" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#d65a1a">Sollbruchstelle</text>
+
+  <text x="490" y="548" font-family="Georgia, serif" font-size="19" fill="#111">→ kurze Stücke, angestückelt</text>
+</svg>

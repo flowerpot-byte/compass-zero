@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1352" viewBox="0 0 900 1352">
+  <!-- Zum Tipp "Abbinden (Tourniquet)".
+       Drei Dinge, die unter Druck angewandt werden und als Fliesstext nicht
+       haften: die Entscheidung, die Lage am Glied und die Zahlen.
+       1. Die Entscheidung ist eine Gabelung, keine Liste. Steht die Blutung
+          unter der Hand, kommt der Druckverband. Steht sie nicht und es ist
+          eine lebensbedrohliche Blutung an Arm oder Bein, wird sofort
+          abgebunden und NICHT erst ein Druckverband probiert.
+       2. Die Lage ist raeumlich: zwischen Wunde und Rumpf, zum Koerper hin.
+          Die falsche Lage ist mitgezeichnet und durchgestrichen, weil sie
+          der naheliegende Fehler ist: man legt es dorthin, wo die Wunde
+          "aufhoert", also zur Hand hin.
+       3. Die vier Zahlen sind der eigentliche Grund fuer dieses Bild. Sie
+          stehen im Text und gehen dort unter. Als Zahlenreihe sagen sie in
+          einem Blick, warum hier KEINE Bastelanleitung steht: 70 Prozent
+          gebrochene Knebel, fast 46 Prozent gerissene Guertel, 1 von 22
+          Anlagen mit ausreichendem Druck, 27 behelfsmaessige Abbindungen in
+          Boston und keine davon als wirksam bewertet.
+       Der Schluss ist deshalb keine Notloesung, sondern die Anweisung: Wer
+       kein gekauftes Tourniquet hat, drueckt weiter mit der Hand.
+       Kein Titel eines anderen Tipps steht im Bild. Zitate in Bildern werden
+       vom Querverweis-Test nicht geprueft; ein Titel, der sich spaeter
+       aendert, wuerde hier unbemerkt falsch stehen bleiben. -->
+  <rect width="900" height="1352" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Abbinden: nur, wenn fester Druck die Blutung nicht stillt</text>
+
+  <!-- ============ A: die Gabelung ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zuerst immer: fester, direkter Druck mit der Hand auf die Wunde</text>
+
+  <rect x="230" y="120" width="440" height="56" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="450" y="156" font-family="Georgia, serif" font-size="23" fill="#111" text-anchor="middle">Steht die Blutung unter dem Druck?</text>
+
+  <g stroke="#111" stroke-width="3" fill="none">
+    <path d="M 380 176 L 232 214"/>
+    <path d="M 232 214 l 22 -6 M 232 214 l 6 -20"/>
+    <path d="M 520 176 L 668 214"/>
+    <path d="M 668 214 l -22 -6 M 668 214 l -6 -20"/>
+  </g>
+
+  <rect x="40" y="222" width="380" height="140" rx="10" fill="none" stroke="#1d6b3a" stroke-width="3"/>
+  <text x="62" y="262" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">JA</text>
+  <text x="62" y="296" font-family="Georgia, serif" font-size="21" fill="#111">Druckverband anlegen.</text>
+
+  <rect x="480" y="222" width="380" height="140" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="502" y="262" font-family="Georgia, serif" font-size="23" fill="#a3231a">NEIN</text>
+  <text x="502" y="296" font-family="Georgia, serif" font-size="21" fill="#111">Lebensbedrohlich an Arm oder</text>
+  <text x="502" y="322" font-family="Georgia, serif" font-size="21" fill="#111">Bein: sofort abbinden. Nicht erst</text>
+  <text x="502" y="348" font-family="Georgia, serif" font-size="21" fill="#111">einen Druckverband probieren.</text>
+
+  <line x1="40" y1="396" x2="860" y2="396" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: wohin sie kommt ============ -->
+  <text x="40" y="436" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wohin sie kommt: zwischen Wunde und Rumpf</text>
+
+  <rect x="50" y="486" width="56" height="130" rx="12" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <rect x="104" y="510" width="300" height="48" rx="24" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <circle cx="432" cy="534" r="30" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <ellipse cx="330" cy="534" rx="18" ry="11" fill="#a3231a"/>
+
+  <!-- richtige Lage: zum Rumpf hin -->
+  <rect x="214" y="500" width="28" height="68" rx="6" fill="#c9c4b4" stroke="#1d6b3a" stroke-width="4"/>
+  <line x1="228" y1="500" x2="228" y2="468" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <line x1="210" y1="468" x2="246" y2="468" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- falsche Lage: zur Hand hin -->
+  <rect x="372" y="500" width="28" height="68" rx="6" fill="none" stroke="#a3231a" stroke-width="3" stroke-dasharray="8 6"/>
+  <g stroke="#a3231a" stroke-width="5" fill="none">
+    <circle cx="386" cy="472" r="20"/>
+    <line x1="372" y1="458" x2="400" y2="486"/>
+  </g>
+
+  <text x="412" y="478" font-family="Georgia, serif" font-size="19" fill="#a3231a">falsch</text>
+  <g stroke="#111" stroke-width="2">
+    <line x1="228" y1="570" x2="228" y2="588"/>
+    <line x1="330" y1="548" x2="330" y2="588"/>
+  </g>
+  <text x="78" y="646" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Rumpf</text>
+  <text x="228" y="608" font-family="Georgia, serif" font-size="19" fill="#1d6b3a" text-anchor="middle">Abbindung</text>
+  <text x="330" y="608" font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="middle">Wunde</text>
+
+  <text x="500" y="500" font-family="Georgia, serif" font-size="21" fill="#111">Die Abbindung kommt zwischen</text>
+  <text x="500" y="526" font-family="Georgia, serif" font-size="21" fill="#111">Wunde und Rumpf — zum Körper</text>
+  <text x="500" y="552" font-family="Georgia, serif" font-size="21" fill="#111">hin, nicht auf der Seite von</text>
+  <text x="500" y="578" font-family="Georgia, serif" font-size="21" fill="#111">Hand oder Fuß.</text>
+  <text x="500" y="618" font-family="Georgia, serif" font-size="23" fill="#a3231a">Uhrzeit des Anlegens auf</text>
+  <text x="500" y="646" font-family="Georgia, serif" font-size="23" fill="#a3231a">die Abbindung schreiben.</text>
+  <text x="500" y="682" font-family="Georgia, serif" font-size="21" fill="#111">Sie ist das Einzige, woran später</text>
+  <text x="500" y="708" font-family="Georgia, serif" font-size="21" fill="#111">jemand sieht, wie lange sie liegt.</text>
+
+  <line x1="40" y1="750" x2="860" y2="750" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: die gemessenen Zahlen ============ -->
+  <text x="40" y="790" font-family="Georgia, serif" font-size="23" fill="#a3231a">Selbst gebaut: die gemessenen Zahlen</text>
+
+  <text x="60" y="846" font-family="Georgia, serif" font-size="34" fill="#a3231a">70 %</text>
+  <text x="60" y="884" font-family="Georgia, serif" font-size="19" fill="#111">der Knebel aus</text>
+  <text x="60" y="908" font-family="Georgia, serif" font-size="19" fill="#111">Kunststoff brach</text>
+  <text x="60" y="932" font-family="Georgia, serif" font-size="19" fill="#111">beim Anlegen</text>
+
+  <text x="262" y="846" font-family="Georgia, serif" font-size="34" fill="#a3231a">fast 46 %</text>
+  <text x="262" y="884" font-family="Georgia, serif" font-size="19" fill="#111">der Ledergürtel riss</text>
+  <text x="262" y="908" font-family="Georgia, serif" font-size="19" fill="#111">— und das mit</text>
+  <text x="262" y="932" font-family="Georgia, serif" font-size="19" fill="#111">Holzknebel</text>
+
+  <text x="464" y="846" font-family="Georgia, serif" font-size="34" fill="#a3231a">1 von 22</text>
+  <text x="464" y="884" font-family="Georgia, serif" font-size="19" fill="#111">Anlagen ohne Knebel</text>
+  <text x="464" y="908" font-family="Georgia, serif" font-size="19" fill="#111">erreichte überhaupt</text>
+  <text x="464" y="932" font-family="Georgia, serif" font-size="19" fill="#111">genug Druck</text>
+
+  <text x="666" y="846" font-family="Georgia, serif" font-size="34" fill="#a3231a">27</text>
+  <text x="666" y="884" font-family="Georgia, serif" font-size="19" fill="#111">behelfsmäßige beim</text>
+  <text x="666" y="908" font-family="Georgia, serif" font-size="19" fill="#111">Boston-Marathon,</text>
+  <text x="666" y="932" font-family="Georgia, serif" font-size="19" fill="#111">keine davon wurde als</text>
+  <text x="666" y="956" font-family="Georgia, serif" font-size="19" fill="#111">wirksam bewertet</text>
+
+  <text x="40" y="1010" font-family="Georgia, serif" font-size="23" fill="#a3231a">Deshalb steht hier keine Bastelanleitung.</text>
+  <text x="40" y="1044" font-family="Georgia, serif" font-size="21" fill="#111">Wer kein gekauftes Tourniquet hat, drückt weiter mit der Hand und lässt nicht los.</text>
+  <text x="40" y="1070" font-family="Georgia, serif" font-size="21" fill="#111">Das ist nicht die zweitbeste Lösung, sondern das Wirksame.</text>
+
+  <line x1="40" y1="1104" x2="860" y2="1104" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: wo nicht, und wie lange ============ -->
+  <text x="40" y="1144" font-family="Georgia, serif" font-size="23" fill="#a3231a">Nicht abgebunden wird an Kopf und Rumpf — und nicht bei Schlangenbiss.</text>
+  <text x="40" y="1178" font-family="Georgia, serif" font-size="21" fill="#111">An Kopf und Rumpf bleibt es beim festen Druck. Beim Schlangenbiss ist eine</text>
+  <text x="40" y="1204" font-family="Georgia, serif" font-size="21" fill="#111">Abbindung ausdrücklich verboten.</text>
+
+  <text x="40" y="1244" font-family="Georgia, serif" font-size="21" fill="#a3231a">Einmal angelegt, bleibt sie liegen. Über das Lösen entscheidet ausschließlich</text>
+  <text x="40" y="1270" font-family="Georgia, serif" font-size="21" fill="#a3231a">ärztliche Anleitung.</text>
+
+  <text x="40" y="1310" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus der Quelle: Eine Abbindung rettet das Leben und</text>
+  <text x="40" y="1334" font-family="Georgia, serif" font-size="19" fill="#111">kann den Arm oder das Bein kosten, vor allem, wenn sie zu lange liegt.</text>
+</svg>

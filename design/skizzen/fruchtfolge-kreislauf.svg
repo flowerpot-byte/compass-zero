@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <!-- Zum Agrikultur-Kapitel "Fruchtfolge und Mischkultur", Abschnitt 2
+       ("Die drei Gruppen: Zehrer, Ruher, Geber"). Die Regel aus dem Text in
+       einem Satz: Auf einen Starkzehrer folgt ein Geber, damit der Stickstoff
+       zurueckkommt, danach ein Schwachzehrer, damit der Boden sich erholt,
+       bevor wieder ein Starkzehrer kommt. Das ist ein Kreislauf ueber
+       mehrere Jahre, kein linearer Ablauf — deshalb das Dreieck mit Pfeilen,
+       die sich schliessen. Die drei Beispielketten darunter stehen wortgleich
+       im Text. Unten dazu, aus Abschnitt 3: das eine harte Verbot (gleiche
+       Pflanzenfamilie, Nachtschattengewaechse), in der Signalfarbe. -->
+  <rect width="900" height="650" fill="#faf9f6"/>
+
+  <text x="40" y="48" font-family="Georgia, serif" font-size="27" fill="#111">Fruchtfolge: drei Gruppen im Kreislauf</text>
+  <text x="40" y="76" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Auf einen Starkzehrer folgt ein Geber, dann ein Schwachzehrer —</text>
+  <text x="40" y="98" font-family="Georgia, serif" font-size="17" fill="#5b7f96">dann wieder ein Starkzehrer. Ein Kreislauf, kein Einbahnweg.</text>
+
+  <!-- Kreislauf-Dreieck: Starkzehrer -> Geber -> Schwachzehrer -> wieder Starkzehrer -->
+
+  <!-- Pfeil oben nach rechts: Starkzehrer -> Geber -->
+  <path d="M 555 220 Q 680 260 615 358" fill="none" stroke="#5b7f96" stroke-width="4"/>
+  <path d="M 615 358 l -19 -3 M 615 358 l -9 -18" fill="none" stroke="#5b7f96" stroke-width="4"/>
+
+  <!-- Pfeil unten von rechts nach links: Geber -> Schwachzehrer -->
+  <path d="M 600 448 Q 450 510 300 448" fill="none" stroke="#5b7f96" stroke-width="4"/>
+  <path d="M 300 448 l 16 -8 M 300 448 l 16 8" fill="none" stroke="#5b7f96" stroke-width="4"/>
+
+  <!-- Pfeil links nach oben: Schwachzehrer -> wieder Starkzehrer -->
+  <path d="M 285 358 Q 220 260 345 220" fill="none" stroke="#5b7f96" stroke-width="4"/>
+  <path d="M 345 220 l -19 3 M 345 220 l -9 18" fill="none" stroke="#5b7f96" stroke-width="4"/>
+  <text x="200" y="285" font-family="Georgia, serif" font-size="14" fill="#5b7f96" text-anchor="middle">wieder</text>
+
+  <!-- Box oben: Starkzehrer -->
+  <rect x="320" y="130" width="260" height="95" rx="16" fill="#e8ddc7" stroke="#111" stroke-width="4"/>
+  <text x="450" y="172" font-family="Georgia, serif" font-size="20" fill="#111" text-anchor="middle">STARKZEHRER</text>
+  <text x="450" y="200" font-family="Georgia, serif" font-size="15" fill="#5b7f96" text-anchor="middle">Tomaten · Mais · Kohl</text>
+
+  <!-- Box rechts: Geber -->
+  <rect x="580" y="355" width="260" height="95" rx="16" fill="#dbe6d3" stroke="#111" stroke-width="4"/>
+  <text x="710" y="397" font-family="Georgia, serif" font-size="20" fill="#111" text-anchor="middle">GEBER</text>
+  <text x="710" y="425" font-family="Georgia, serif" font-size="15" fill="#5b7f96" text-anchor="middle">Bohnen · Erbsen · Sojabohnen</text>
+
+  <!-- Box links: Schwachzehrer -->
+  <rect x="60" y="355" width="260" height="95" rx="16" fill="#eceae0" stroke="#111" stroke-width="4"/>
+  <text x="190" y="397" font-family="Georgia, serif" font-size="20" fill="#111" text-anchor="middle">SCHWACHZEHRER</text>
+  <text x="190" y="425" font-family="Georgia, serif" font-size="15" fill="#5b7f96" text-anchor="middle">Karotten · Rüben · Rote Bete</text>
+
+  <!-- Konkrete Beispielketten aus dem Text -->
+  <text x="450" y="474" font-family="Georgia, serif" font-size="16" fill="#5b7f96" text-anchor="middle">Beispielketten:</text>
+  <text x="450" y="500" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Tomaten → Bohnen → Karotten → wieder Tomaten</text>
+  <text x="450" y="528" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Mais → Erbsen → Rüben</text>
+  <text x="450" y="556" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Kohl → Sojabohnen → Rote Bete</text>
+
+  <!-- Sperrzeichen aus Abschnitt 3: gleiche Familie, deshalb verboten -->
+  <rect x="90" y="575" width="210" height="50" rx="10" fill="#eee9df" stroke="#111" stroke-width="3"/>
+  <text x="195" y="606" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">KARTOFFELN</text>
+
+  <rect x="600" y="575" width="210" height="50" rx="10" fill="#eee9df" stroke="#111" stroke-width="3"/>
+  <text x="705" y="606" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">TOMATEN</text>
+
+  <path d="M 300 600 L 596 600" fill="none" stroke="#d65a1a" stroke-width="5"/>
+  <path d="M 442 592 L 458 608 M 458 592 L 442 608" stroke="#d65a1a" stroke-width="5"/>
+
+  <text x="450" y="638" font-family="Georgia, serif" font-size="16" fill="#d65a1a" text-anchor="middle">Nach Kartoffeln keine Tomaten — beide Nachtschattengewächse</text>
+</svg>

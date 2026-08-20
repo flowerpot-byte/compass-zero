@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1840" viewBox="0 0 900 1840">
+  <!-- Zum Tipp "Wohnung wird kalt: womit du drinnen heizen darfst".
+       Der Sofort-Block steht ganz oben, weil er auch im Tipp zuerst steht:
+       Wer das Bild aufschlaegt, waehrend drinnen schon etwas brennt, darf
+       nicht erst eine Geraeteliste lesen.
+       Die zwei Spalten sind der Kern. Eine Aufzaehlung im Fliesstext laesst
+       offen, in welche Gruppe ein Geraet gehoert; nebeneinander ist es eine
+       Zuordnung. Die drei Geraete rechts stehen in der Quelle namentlich,
+       und der Holzkohlegrill traegt seinen Satz mit: die klassische
+       Todesursache in einem Stromausfall.
+       Der Satz in der Mitte ist die Regel, aus der beide Spalten folgen:
+       Das Geraet wird nicht harmlos, weil es klein ist — es wird gefaehrlich,
+       weil der Raum zu ist. Wer nur die Listen liest, sucht nach dem
+       kleinsten Geraet.
+       Beim Lueften steht die falsche Loesung durchgestrichen daneben. Das
+       gekippte Fenster fuehlt sich richtig an und tut das Gegenteil von
+       beidem, was es soll. -->
+  <rect width="900" height="1840" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Wohnung wird kalt: womit du drinnen heizen darfst</text>
+
+  <rect x="40" y="80" width="820" height="186" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="5"/>
+  <text x="62" y="122" font-family="Georgia, serif" font-size="26" fill="#a3231a">Brennt schon etwas drinnen, das nicht hineingehört?</text>
+  <text x="62" y="158" font-family="Georgia, serif" font-size="23" fill="#111">Alle raus an die frische Luft · Fenster und Türen von außen</text>
+  <text x="62" y="186" font-family="Georgia, serif" font-size="23" fill="#111">öffnen · NOTRUF 112. Nicht erst weiterlesen.</text>
+  <text x="62" y="222" font-family="Georgia, serif" font-size="21" fill="#111">Kohlenmonoxid siehst und riechst du nicht. Wer es merkt, merkt es meist</text>
+  <text x="62" y="248" font-family="Georgia, serif" font-size="21" fill="#111">zu spät.</text>
+
+  <text x="40" y="304" font-family="Georgia, serif" font-size="21" fill="#111">Der Rest ist für die Entscheidung VORHER.</text>
+
+  <line x1="40" y1="340" x2="860" y2="340" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="380" font-family="Georgia, serif" font-size="21" fill="#111">Fällt im Winter der Strom aus, kühlen Räume schnell aus — und die häufigste</text>
+  <text x="40" y="406" font-family="Georgia, serif" font-size="21" fill="#111">Reaktion darauf ist die, die Menschen tötet: irgendetwas hereinholen, das</text>
+  <text x="40" y="432" font-family="Georgia, serif" font-size="21" fill="#111">brennt.</text>
+  <text x="40" y="472" font-family="Georgia, serif" font-size="23" fill="#a3231a">Nicht die Kälte bringt in dieser Lage die meisten um, sondern</text>
+  <text x="40" y="500" font-family="Georgia, serif" font-size="23" fill="#a3231a">das Kohlenmonoxid.</text>
+
+  <line x1="40" y1="536" x2="860" y2="536" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die zwei Spalten ============ -->
+  <rect x="40" y="562" width="390" height="337" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <rect x="470" y="562" width="390" height="337" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+
+  <text x="62" y="604" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">DARF DRINNEN LAUFEN</text>
+  <text x="62" y="642" font-family="Georgia, serif" font-size="21" fill="#111">Gasheizer, Ethanolkamine</text>
+  <text x="62" y="668" font-family="Georgia, serif" font-size="21" fill="#111">und Petroleumöfen, die</text>
+  <text x="62" y="694" font-family="Georgia, serif" font-size="21" fill="#111">AUSDRÜCKLICH FÜR</text>
+  <text x="62" y="720" font-family="Georgia, serif" font-size="21" fill="#111">INNENRÄUME zugelassen</text>
+  <text x="62" y="746" font-family="Georgia, serif" font-size="21" fill="#111">sind.</text>
+  <text x="62" y="786" font-family="Georgia, serif" font-size="21" fill="#111">Zum Wärmen von Essen:</text>
+  <text x="62" y="812" font-family="Georgia, serif" font-size="21" fill="#111">Stövchen mit Teelicht,</text>
+  <text x="62" y="838" font-family="Georgia, serif" font-size="21" fill="#111">Fondue-Set mit Brennpaste,</text>
+  <text x="62" y="864" font-family="Georgia, serif" font-size="21" fill="#111">Gaskocher — Letzterer nur</text>
+  <text x="62" y="890" font-family="Georgia, serif" font-size="21" fill="#111">mit Zulassung.</text>
+
+  <text x="492" y="604" font-family="Georgia, serif" font-size="23" fill="#a3231a">NUR INS FREIE</text>
+  <text x="492" y="642" font-family="Georgia, serif" font-size="21" fill="#111">· Campingkocher mit</text>
+  <text x="492" y="668" font-family="Georgia, serif" font-size="21" fill="#111">  Gaskartusche</text>
+  <text x="492" y="694" font-family="Georgia, serif" font-size="21" fill="#111">· Gasgrill</text>
+  <text x="492" y="720" font-family="Georgia, serif" font-size="21" fill="#111">· Holzkohlegrill</text>
+  <text x="492" y="786" font-family="Georgia, serif" font-size="21" fill="#a3231a">Der Holzkohlegrill in der</text>
+  <text x="492" y="812" font-family="Georgia, serif" font-size="21" fill="#a3231a">Wohnung ist die klassische</text>
+  <text x="492" y="838" font-family="Georgia, serif" font-size="21" fill="#a3231a">Todesursache in einem</text>
+  <text x="492" y="864" font-family="Georgia, serif" font-size="21" fill="#a3231a">Stromausfall.</text>
+
+  <text x="40" y="946" font-family="Georgia, serif" font-size="26" fill="#111">Das Gerät wird nicht harmlos, weil es klein ist — es wird</text>
+  <text x="40" y="978" font-family="Georgia, serif" font-size="26" fill="#111">gefährlich, weil der Raum zu ist.</text>
+  <text x="40" y="1014" font-family="Georgia, serif" font-size="21" fill="#111">Bei offenem Feuer in Innenräumen entsteht Kohlenmonoxid, sobald zu wenig</text>
+  <text x="40" y="1040" font-family="Georgia, serif" font-size="21" fill="#111">Sauerstoff in der Luft ist.</text>
+
+  <line x1="40" y1="1076" x2="860" y2="1076" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Lueften ============ -->
+  <text x="40" y="1116" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Deshalb lüften — und zwar richtig</text>
+
+  <rect x="40" y="1146" width="390" height="171" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <rect x="470" y="1146" width="390" height="171" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+
+  <text x="62" y="1188" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">STOSSLÜFTEN</text>
+  <text x="62" y="1226" font-family="Georgia, serif" font-size="21" fill="#111">Fenster für wenige Minuten</text>
+  <text x="62" y="1252" font-family="Georgia, serif" font-size="21" fill="#111">ganz weit auf. Tauscht die</text>
+  <text x="62" y="1278" font-family="Georgia, serif" font-size="21" fill="#111">Luft, ohne die Wände</text>
+  <text x="62" y="1304" font-family="Georgia, serif" font-size="21" fill="#111">auskühlen zu lassen.</text>
+
+  <text x="492" y="1188" font-family="Georgia, serif" font-size="23" fill="#a3231a">DAUERHAFT GEKIPPT</text>
+  <line x1="492" y1="1180" x2="720" y2="1180" stroke="#a3231a" stroke-width="3"/>
+  <text x="492" y="1226" font-family="Georgia, serif" font-size="21" fill="#111">Tut das Gegenteil von</text>
+  <text x="492" y="1252" font-family="Georgia, serif" font-size="21" fill="#111">beidem: kühlt die Wände</text>
+  <text x="492" y="1278" font-family="Georgia, serif" font-size="21" fill="#111">aus UND tauscht die Luft</text>
+  <text x="492" y="1304" font-family="Georgia, serif" font-size="21" fill="#111">nicht wirklich.</text>
+
+  <line x1="40" y1="1353" x2="860" y2="1353" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1393" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein Melder ersetzt die eigene Wahrnehmung — denn es gibt keine</text>
+  <text x="40" y="1431" font-family="Georgia, serif" font-size="21" fill="#111">Meistens gibt es GAR KEINE Beschwerden. Bewusstlosigkeit und Tod können</text>
+  <text x="40" y="1457" font-family="Georgia, serif" font-size="21" fill="#111">ohne Vorwarnung eintreten.</text>
+  <text x="40" y="1493" font-family="Georgia, serif" font-size="21" fill="#111">Manchmal: Druck an den Schläfen, brennende Augen, Kopfschmerz,</text>
+  <text x="40" y="1519" font-family="Georgia, serif" font-size="21" fill="#111">hämmernder Puls, Müdigkeit, Übelkeit.</text>
+  <text x="40" y="1555" font-family="Georgia, serif" font-size="21" fill="#a3231a">Das einzige sichtbare Zeichen ist eine KIRSCHROTE Färbung an Lippen, Mund</text>
+  <text x="40" y="1581" font-family="Georgia, serif" font-size="21" fill="#a3231a">und Innenseite der Augenlider — und das ist ein spätes Zeichen.</text>
+  <text x="40" y="1617" font-family="Georgia, serif" font-size="21" fill="#111">Wer eines davon bemerkt, geht sofort an die frische Luft.</text>
+
+  <line x1="40" y1="1653" x2="860" y2="1653" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1695" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Heize den KLEINSTEN Raum, nicht den größten.</text>
+  <text x="40" y="1731" font-family="Georgia, serif" font-size="21" fill="#111">Ein zu großer Raum stiehlt die Körperwärme, statt sie zu halten — im</text>
+  <text x="40" y="1757" font-family="Georgia, serif" font-size="21" fill="#111">Militärhandbuch ein tödlicher Fehler beim Bau einer Winterunterkunft.</text>
+  <text x="40" y="1795" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Und für einen wirklich kleinen, geschlossenen Raum: Eine</text>
+  <text x="40" y="1823" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">EINZIGE KERZE gibt genug Wärme ab, um ihn zu wärmen.</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1566" viewBox="0 0 900 1566">
+  <!-- Zum Tipp "Angst und Panik: drei Uebungen ohne Mittel".
+       Der Satz steht vor den Uebungen, weil er laut Quelle oft mehr wirkt
+       als alle drei: dass dieser Zustand nicht lebensgefaehrlich ist und
+       dass niemand verrueckt wird. Die Angst vor der Angst ist ein grosser
+       Teil der Angst.
+       Bei jeder Uebung steht das Detail farbig, an dem sie haengt — und
+       jedes davon ist eines, das man beim Lesen ueberspringt: MITMACHEN
+       statt anweisen; das LANGSAME Loslassen statt des Anspannens;
+       MITFRAGEN statt nur auffordern. Ohne diese drei Woerter sind die
+       Uebungen dieselben und wirken nicht.
+       Der rote Kasten ist eine Stelle, an der dieses Paket der Quelle
+       widerspricht, und das gehoert sichtbar hin: keine Papiertuete. Von
+       aussen laesst sich Panik nicht sicher von Asthma, Lungenembolie oder
+       einem Herzproblem unterscheiden.
+       Die Muskelkette steht als Reihe mit Pfeilen, weil die Reihenfolge von
+       unten nach oben laeuft und man sonst in der Mitte anfaengt. -->
+  <rect width="900" height="1566" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Angst und Panik: drei Übungen ohne Mittel</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Angst, die den Körper übernimmt — Herzrasen, schnelles flaches Atmen,</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Zittern, das Gefühl, den Verstand zu verlieren — lässt sich ohne jedes</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">Medikament dämpfen.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="210" width="820" height="134" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <text x="62" y="254" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Sag ihr, dass dieser Zustand NICHT lebensgefährlich ist</text>
+  <text x="62" y="286" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">und dass sie NICHT verrückt wird.</text>
+  <text x="62" y="322" font-family="Georgia, serif" font-size="21" fill="#111">Die Angst vor der Angst ist ein großer Teil der Angst.</text>
+
+  <line x1="40" y1="380" x2="860" y2="380" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die drei Uebungen ============ -->
+  <text x="40" y="420" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Drei Übungen — und bei jeder ein Detail, an dem es hängt</text>
+
+  <g fill="#111">
+    <circle cx="60" cy="458" r="17"/><circle cx="60" cy="589" r="17"/><circle cx="60" cy="754" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="465">1</text><text x="60" y="596">2</text><text x="60" y="761">3</text>
+  </g>
+
+  <text x="88" y="465" font-family="Georgia, serif" font-size="23" fill="#111">LANGSAM UND TIEF ATMEN</text>
+  <text x="88" y="497" font-family="Georgia, serif" font-size="21" fill="#5b7f96">Nicht anweisen, sondern MITMACHEN: sich gegenübersetzen und</text>
+  <text x="88" y="523" font-family="Georgia, serif" font-size="21" fill="#5b7f96">gemeinsam atmen, bis die Person mitkommt.</text>
+  <text x="88" y="549" font-family="Georgia, serif" font-size="21" fill="#111">Die einfachste und zuverlässigste der drei.</text>
+
+  <text x="88" y="596" font-family="Georgia, serif" font-size="23" fill="#111">MUSKELN DER REIHE NACH ANSPANNEN UND LOSLASSEN</text>
+  <text x="88" y="628" font-family="Georgia, serif" font-size="21" fill="#5b7f96">Das LANGSAME Loslassen — auf fünf zählend — ist der wirksame Teil,</text>
+  <text x="88" y="654" font-family="Georgia, serif" font-size="21" fill="#5b7f96">nicht das Anspannen.</text>
+  <text x="88" y="692" font-family="Georgia, serif" font-size="21" fill="#111">Fußballen → Waden → Oberschenkel → Bauch → Hände →</text>
+  <text x="88" y="718" font-family="Georgia, serif" font-size="21" fill="#111">Arme → Schultern → Gesicht</text>
+
+  <text x="88" y="761" font-family="Georgia, serif" font-size="23" fill="#111">EINEN RUHIGEN ORT VORSTELLEN</text>
+  <text x="88" y="793" font-family="Georgia, serif" font-size="21" fill="#111">Ein Strand, das Angeln an einem kühlen Bach.</text>
+  <text x="88" y="819" font-family="Georgia, serif" font-size="21" fill="#5b7f96">Es hilft, wenn jemand MITFRAGT: Was hörst du dort? Was riechst du?</text>
+  <text x="88" y="845" font-family="Georgia, serif" font-size="21" fill="#5b7f96">Wie warm ist es?</text>
+
+  <line x1="40" y1="881" x2="860" y2="881" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Was nicht uebernommen wird ============ -->
+  <rect x="40" y="908" width="820" height="180" rx="10" fill="none" stroke="#d65a1a" stroke-width="4"/>
+  <text x="62" y="950" font-family="Georgia, serif" font-size="23" fill="#d65a1a">Was dieses Paket aus der Quelle NICHT übernimmt: die Papiertüte.</text>
+  <text x="62" y="986" font-family="Georgia, serif" font-size="21" fill="#111">Von außen lässt sich Panik nicht sicher von einem Asthmaanfall, einer</text>
+  <text x="62" y="1012" font-family="Georgia, serif" font-size="21" fill="#111">Lungenembolie oder einem Herzproblem unterscheiden — und in all diesen</text>
+  <text x="62" y="1038" font-family="Georgia, serif" font-size="21" fill="#111">Fällen ist es gefährlich, jemanden die eigene ausgeatmete Luft wieder</text>
+  <text x="62" y="1064" font-family="Georgia, serif" font-size="21" fill="#111">einatmen zu lassen. Langsames Mitatmen wirkt und kann nicht schaden.</text>
+
+  <line x1="40" y1="1124" x2="860" y2="1124" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1164" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was nebenbei wichtig ist</text>
+  <text x="40" y="1202" font-family="Georgia, serif" font-size="21" fill="#111">KEIN KOFFEIN und keine anderen aufputschenden Mittel. Kaffee, starker Tee,</text>
+  <text x="40" y="1228" font-family="Georgia, serif" font-size="21" fill="#111">Energiegetränke und Nikotin machen genau die Beschwerden, die man</text>
+  <text x="40" y="1254" font-family="Georgia, serif" font-size="21" fill="#111">loswerden will. Schlaf, Entspannung und ein geregelter Tag beugen vor.</text>
+  <text x="40" y="1292" font-family="Georgia, serif" font-size="21" fill="#111">Und weitermachen lassen: geraten wird zu normaler Betätigung, nicht zu</text>
+  <text x="40" y="1318" font-family="Georgia, serif" font-size="21" fill="#111">Bettruhe. Wer beschäftigt ist, denkt weniger nach.</text>
+
+  <line x1="40" y1="1354" x2="860" y2="1354" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1398" font-family="Georgia, serif" font-size="26" fill="#d65a1a">Nachfragen nach Plan, nicht auf Zuruf.</text>
+  <text x="40" y="1434" font-family="Georgia, serif" font-size="21" fill="#111">Häufige, FEST VEREINBARTE Nachschauen — statt eines „melde dich, wenn es</text>
+  <text x="40" y="1460" font-family="Georgia, serif" font-size="21" fill="#111">schlimmer wird“. Wer Angst hat, meldet sich oft gerade nicht.</text>
+
+  <text x="40" y="1516" font-family="Georgia, serif" font-size="21" fill="#111">Zittern hat auch andere Ursachen: Bei Kälte gehört es zum Bild der</text>
+  <text x="40" y="1542" font-family="Georgia, serif" font-size="21" fill="#111">Unterkühlung, und dann ist es kein seelisches Zeichen.</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660">
+  <!-- Kapitel agrikultur-lagern-ohne-strom, Abschnitt 6 "Welche Frucht will welche
+       Temperatur". Gezeigter Satz: "Fuer die wichtigsten Gruppen gelten deutlich
+       verschiedene Bereiche" - eine Temperaturskala mit vier nicht ueberlappenden
+       Zonen: Wurzelgemuese Null bis 4,5 Grad (mit der teuren Grenze bei 7 Grad, ab
+       der sie austreiben und holzig werden), Aepfel knapp unter Null bis Null Grad,
+       Kuerbis und Winterkuerbis sowie Suesskartoffeln 13 bis 15,5 Grad (mit der
+       teuren Grenze bei 10 Grad und darunter, ab der Suesskartoffeln Kaelteschaden
+       nehmen). Wer alles zusammen in denselben Raum legt, verliert den Teil, der
+       die falsche Zone bekommt. -->
+  <rect width="900" height="660" fill="#faf9f6"/>
+
+  <!-- Titel -->
+  <g font-family="Georgia, serif" fill="#111">
+    <text x="450" y="45" font-size="27" text-anchor="middle">Welche Frucht will welche Temperatur</text>
+    <text x="450" y="70" font-size="16" fill="#5b7f96" text-anchor="middle">Vier Gruppen, vier getrennte Bereiche auf derselben Skala</text>
+  </g>
+
+  <!-- Temperaturachse -->
+  <g stroke="#111" stroke-width="3" stroke-linecap="round">
+    <line x1="170" y1="600" x2="170" y2="130"/>
+    <path d="M 170 130 L 162 144 M 170 130 L 178 144" fill="none"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="16" fill="#111">
+    <text x="170" y="120" text-anchor="middle">wärmer</text>
+    <text x="170" y="618" text-anchor="middle">kälter</text>
+  </g>
+
+  <!-- Teilstriche und Zahlen: jede Zahl steht wortgleich im Abschnittstext -->
+  <g stroke="#111" stroke-width="2">
+    <line x1="160" y1="143" x2="178" y2="143"/>
+    <line x1="160" y1="208" x2="178" y2="208"/>
+    <line x1="160" y1="287" x2="178" y2="287"/>
+    <line x1="160" y1="365" x2="178" y2="365"/>
+    <line x1="160" y1="430" x2="178" y2="430"/>
+    <line x1="160" y1="548" x2="178" y2="548"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="end">
+    <text x="150" y="148">15,5 Grad</text>
+    <text x="150" y="213">13 Grad</text>
+    <text x="150" y="292">10 Grad</text>
+    <text x="150" y="370">7 Grad</text>
+    <text x="150" y="435">4,5 Grad</text>
+    <text x="150" y="553">Null Grad</text>
+  </g>
+
+  <!-- Spalte 1: Aepfel, knapp unter Null bis Null Grad -->
+  <rect x="200" y="548" width="110" height="26" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <g font-family="Georgia, serif" fill="#111" text-anchor="middle">
+    <text x="255" y="530" font-size="18">Äpfel</text>
+    <text x="255" y="592" font-size="16">knapp unter Null bis</text>
+    <text x="255" y="612" font-size="16">Null Grad</text>
+  </g>
+
+  <!-- Spalte 2: Wurzelgemuese, Null bis 4,5 Grad, teure Grenze bei 7 Grad -->
+  <rect x="360" y="430" width="110" height="118" fill="#8ba668" stroke="#111" stroke-width="2"/>
+  <g font-family="Georgia, serif" fill="#111" text-anchor="middle">
+    <text x="415" y="300" font-size="18">Wurzelgemüse</text>
+    <text x="415" y="322" font-size="16">(Möhren, Rüben, Pastinaken)</text>
+    <text x="415" y="566" font-size="16">Null bis 4,5 Grad</text>
+  </g>
+  <!-- Hilfslinie: ab 7 Grad treiben sie aus - Nebenschrift, kein Signal -->
+  <g stroke="#5b7f96" stroke-width="2">
+    <line x1="345" y1="365" x2="485" y2="365" stroke-dasharray="6 5"/>
+    <line x1="345" y1="361" x2="345" y2="369"/>
+    <line x1="485" y1="361" x2="485" y2="369"/>
+  </g>
+  <text x="415" y="386" font-family="Georgia, serif" font-size="16" fill="#5b7f96" text-anchor="middle">ab 7 Grad treiben sie aus</text>
+
+  <!-- Spalte 3: Kuerbis und Winterkuerbis, 13 bis 15,5 Grad -->
+  <rect x="560" y="143" width="110" height="65" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <g font-family="Georgia, serif" fill="#111" text-anchor="middle">
+    <text x="615" y="105" font-size="18">Kürbis,</text>
+    <text x="615" y="125" font-size="18">Winterkürbis</text>
+    <text x="615" y="226" font-size="16">13 bis 15,5 Grad</text>
+  </g>
+
+  <!-- Spalte 4: Suesskartoffeln, 13 bis 15,5 Grad, teure Grenze bei 10 Grad -->
+  <rect x="720" y="143" width="110" height="65" fill="#e8ddc7" stroke="#111" stroke-width="2"/>
+  <g font-family="Georgia, serif" fill="#111" text-anchor="middle">
+    <text x="775" y="125" font-size="18">Süßkartoffeln</text>
+    <text x="775" y="226" font-size="16">13 bis 15,5 Grad</text>
+  </g>
+  <!-- Signalstelle: die eine teure Grenze im Bild - Kaelteschaden unter 10 Grad -->
+  <g stroke="#d65a1a" stroke-width="2">
+    <line x1="710" y1="287" x2="840" y2="287" stroke-dasharray="6 5"/>
+    <line x1="710" y1="283" x2="710" y2="291"/>
+    <line x1="840" y1="283" x2="840" y2="291"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="17" fill="#d65a1a" text-anchor="middle">
+    <text x="775" y="307">Kälteschaden</text>
+    <text x="775" y="327">bei 10 Grad und darunter</text>
+  </g>
+</svg>

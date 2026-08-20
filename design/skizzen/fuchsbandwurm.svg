@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1420" viewBox="0 0 900 1420">
+  <!-- Zum Tipp "Fuchsbandwurm: gefaehrlich sind die Eier, nicht das Fleisch".
+       Das ganze Bild haengt an einer Verwechslung: Fast jeder haelt das
+       FLEISCH fuer den Weg und meidet Wildschwein oder Hase. Der wirkliche
+       Weg sind die EIER, und die sitzen an einer ganz anderen Stelle — im
+       Kot und im Fell. Deshalb stehen die beiden Wege nebeneinander, der
+       falsche durchgestrichen.
+       Die Temperaturen stehen als Leiste, weil das Verhaeltnis die Aussage
+       ist: Hitze wirkt schon weit unter dem Kochen, Kaelte praktisch gar
+       nicht. Minus 70 bis minus 80 Grad erreicht kein Gefrierschrank, und
+       genau das ist die Einordnung, die dieses Paket dazusetzt.
+       Die Zeitangabe fuer die Krankheit steht eigens: 5 bis 15 Jahre. Wer
+       das nicht weiss, sucht nach einer Ansteckung im letzten Monat. -->
+  <rect width="900" height="1420" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Fuchsbandwurm: gefährlich sind die Eier, nicht das Fleisch</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Der kleine Fuchsbandwurm lebt als erwachsener Wurm im Dünndarm von</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Füchsen, seltener von anderen Hundeartigen und von Katzen.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="184" width="390" height="220" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <rect x="470" y="184" width="390" height="220" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+
+  <text x="62" y="226" font-family="Georgia, serif" font-size="23" fill="#a3231a">ÜBER DAS FLEISCH</text>
+  <line x1="62" y1="218" x2="272" y2="218" stroke="#a3231a" stroke-width="3"/>
+  <text x="62" y="264" font-family="Georgia, serif" font-size="21" fill="#111">Über das Fleisch eines</text>
+  <text x="62" y="290" font-family="Georgia, serif" font-size="21" fill="#111">Zwischenwirts — etwa</text>
+  <text x="62" y="316" font-family="Georgia, serif" font-size="21" fill="#111">Wildschwein oder Hase —</text>
+  <text x="62" y="342" font-family="Georgia, serif" font-size="21" fill="#111">ist eine Übertragung</text>
+  <text x="62" y="368" font-family="Georgia, serif" font-size="21" fill="#111">NICHT möglich.</text>
+
+  <text x="492" y="226" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">ÜBER DIE EIER</text>
+  <text x="492" y="264" font-family="Georgia, serif" font-size="21" fill="#111">Ausschließlich über die</text>
+  <text x="492" y="290" font-family="Georgia, serif" font-size="21" fill="#111">Eier, die mit dem Kot</text>
+  <text x="492" y="316" font-family="Georgia, serif" font-size="21" fill="#111">ausgeschieden werden —</text>
+  <text x="492" y="342" font-family="Georgia, serif" font-size="21" fill="#111">und die auch im FELL</text>
+  <text x="492" y="368" font-family="Georgia, serif" font-size="21" fill="#111">befallener Tiere sitzen.</text>
+
+  <text x="40" y="450" font-family="Georgia, serif" font-size="26" fill="#111">Das Risiko trägt, wer einen Fuchs abbalgt oder mit Kot in</text>
+  <text x="40" y="482" font-family="Georgia, serif" font-size="26" fill="#111">Berührung kommt — nicht, wer das Fleisch isst.</text>
+
+  <line x1="40" y1="518" x2="860" y2="518" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="558" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was den Eiern etwas anhaben kann</text>
+
+  <text x="40" y="604" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">HITZE wirkt</text>
+  <text x="300" y="604" font-family="Georgia, serif" font-size="21" fill="#111">60 bis 80 Grad töten sie innerhalb von fünf</text>
+  <text x="300" y="630" font-family="Georgia, serif" font-size="21" fill="#111">Minuten. Aufkochen bei 100 Grad: sofort.</text>
+  <text x="300" y="656" font-family="Georgia, serif" font-size="21" fill="#111">Auch Austrocknung schadet ihnen.</text>
+
+  <text x="40" y="702" font-family="Georgia, serif" font-size="21" fill="#a3231a">KÄLTE kaum</text>
+  <text x="300" y="702" font-family="Georgia, serif" font-size="21" fill="#111">Sicher abgetötet erst bei minus 70 bis</text>
+  <text x="300" y="728" font-family="Georgia, serif" font-size="21" fill="#111">minus 80 Grad über Tage.</text>
+  <text x="300" y="762" font-family="Georgia, serif" font-size="21" fill="#a3231a">Solche Temperaturen erreicht kein</text>
+  <text x="300" y="788" font-family="Georgia, serif" font-size="21" fill="#a3231a">gewöhnlicher Gefrierschrank.</text>
+  <text x="300" y="814" font-family="Georgia, serif" font-size="19" fill="#111">(Einordnung dieses Pakets, nicht aus der Quelle.)</text>
+
+  <text x="40" y="856" font-family="Georgia, serif" font-size="21" fill="#111">Die Eier sind sehr widerstandsfähig gegen Umwelteinflüsse und</text>
+  <text x="40" y="882" font-family="Georgia, serif" font-size="21" fill="#111">Desinfektionsmittel.</text>
+
+  <line x1="40" y1="918" x2="860" y2="918" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="962" font-family="Georgia, serif" font-size="26" fill="#a3231a">Die Krankheit wächst langsam und unbemerkt über 5 bis</text>
+  <text x="40" y="994" font-family="Georgia, serif" font-size="26" fill="#a3231a">15 Jahre.</text>
+  <text x="40" y="1030" font-family="Georgia, serif" font-size="21" fill="#111">Sie befällt fast immer zuerst die Leber und verläuft unbehandelt tödlich.</text>
+  <text x="40" y="1056" font-family="Georgia, serif" font-size="21" fill="#111">Wer das nicht weiß, sucht die Ansteckung im letzten Monat.</text>
+
+  <line x1="40" y1="1092" x2="860" y2="1092" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1132" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Beim kleinen Hundebandwurm gilt zusätzlich</text>
+  <text x="40" y="1170" font-family="Georgia, serif" font-size="21" fill="#111">Auch mit Eiern verunreinigte Erde und Nahrungsmittel wie Beeren und Pilze</text>
+  <text x="40" y="1196" font-family="Georgia, serif" font-size="21" fill="#111">gelten als mögliche Ansteckungsquelle. Für den Fuchsbandwurm ist ein solcher</text>
+  <text x="40" y="1222" font-family="Georgia, serif" font-size="21" fill="#111">Weg über Erde, Nahrung oder Wasser zwar denkbar, bisher aber nicht</text>
+  <text x="40" y="1248" font-family="Georgia, serif" font-size="21" fill="#111">beschrieben worden.</text>
+
+  <line x1="40" y1="1284" x2="860" y2="1284" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1324" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Stark betroffene Gebiete</text>
+  <text x="40" y="1362" font-family="Georgia, serif" font-size="21" fill="#111">Bayern, Baden-Württemberg und Nordrhein-Westfalen sowie die Nordschweiz,</text>
+  <text x="40" y="1388" font-family="Georgia, serif" font-size="21" fill="#111">Westösterreich und Ostfrankreich.</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1122" viewBox="0 0 900 1122">
+  <!-- Zum Tipp "Borreliose im Fruehstadium behandeln".
+       Dieser Tipp ist im Paket der dichteste Block aus Mengen und Dauern und
+       steht dort als ein einziger langer Absatz. Genau dort passieren
+       Verwechslungen: Erwachsenen- gegen Kindermenge, Mittel gegen Dauer.
+       Als Tabelle mit drei Spalten ist jede Zeile fuer sich lesbar, und man
+       kann mit dem Finger auf einer Zeile bleiben.
+       Der Vorbehalt steht ganz oben und nicht am Rand, weil das Bild
+       Arzneimengen zeigt. Wer nur das Bild sieht, sieht ihn zuerst.
+       Die drei Dinge, die ueber Erfolg entscheiden, stehen unten und
+       nummeriert. Das dritte ist das wichtigste und am wenigsten bekannte:
+       Es wird nach der ersten Einnahme kurz schlechter, und das ist KEIN
+       Grund abzubrechen. Wer das nicht weiss, setzt genau dann ab.
+       Schwangerschaft und Stillzeit stehen rot und eigens, weil dort ein
+       Mittel ausgeschlossen ist und eine Verwechslung dort am teuersten
+       waere. -->
+  <rect width="900" height="1122" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Borreliose im Frühstadium behandeln</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#a3231a">Keine ärztliche Verordnung. Ersetzt keine Untersuchung. Ohne Gewähr.</text>
+  <text x="40" y="126" font-family="Georgia, serif" font-size="21" fill="#111">Diese Angaben stammen aus der ärztlichen Leitlinie und stehen hier, weil eine</text>
+  <text x="40" y="152" font-family="Georgia, serif" font-size="21" fill="#111">unbehandelte Borreliose bleibende Schäden hinterlässt und in einer Lage ohne</text>
+  <text x="40" y="178" font-family="Georgia, serif" font-size="21" fill="#111">Arzt sonst gar nichts geschieht.</text>
+
+  <text x="40" y="216" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Bei einer typischen Wanderröte soll die Behandlung sofort beginnen.</text>
+
+  <line x1="40" y1="252" x2="860" y2="252" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Erwachsene ============ -->
+  <text x="40" y="292" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Erwachsene</text>
+
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="40" y="330">Mittel</text><text x="350" y="330">Menge am Tag</text><text x="700" y="330">Dauer</text>
+  </g>
+  <line x1="40" y1="340" x2="860" y2="340" stroke="#c9c4b4" stroke-width="2"/>
+
+  <g font-family="Georgia, serif" font-size="21" fill="#111">
+    <text x="40" y="372">Doxycyclin (erste Wahl)</text>
+    <text x="350" y="372">2 × 100 mg oder 1 × 200 mg</text>
+    <text x="700" y="372">10 bis 14 Tage</text>
+    <text x="40" y="404">Amoxicillin (gleichwertig)</text>
+    <text x="350" y="404">3 × 500 bis 1000 mg</text>
+    <text x="700" y="404">14 Tage</text>
+    <text x="40" y="436">Cefuroximaxetil</text>
+    <text x="350" y="436">2 × 500 mg</text>
+    <text x="700" y="436">14 Tage</text>
+    <text x="40" y="468">Azithromycin</text>
+    <text x="350" y="468">2 × 250 mg</text>
+    <text x="700" y="468">5 bis 10 Tage</text>
+  </g>
+
+  <text x="40" y="510" font-family="Georgia, serif" font-size="21" fill="#111">Cefuroximaxetil und Azithromycin sind Ausweichmittel. Kommen grippeartige</text>
+  <text x="40" y="536" font-family="Georgia, serif" font-size="21" fill="#111">Beschwerden dazu oder gibt es mehrere Rötungen: 14 bis 21 Tage.</text>
+
+  <line x1="40" y1="572" x2="860" y2="572" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Kinder, Schwangerschaft ============ -->
+  <text x="40" y="612" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Kinder, Schwangerschaft, Stillzeit</text>
+  <text x="40" y="650" font-family="Georgia, serif" font-size="21" fill="#111">Doxycyclin erst ab dem 9. Lebensjahr: 4 mg je Kilogramm Körpergewicht am Tag,</text>
+  <text x="40" y="676" font-family="Georgia, serif" font-size="21" fill="#111">höchstens 200 mg. Darunter ist Amoxicillin das Mittel der Wahl: 50 mg je</text>
+  <text x="40" y="702" font-family="Georgia, serif" font-size="21" fill="#111">Kilogramm am Tag.</text>
+  <text x="40" y="740" font-family="Georgia, serif" font-size="23" fill="#a3231a">In Schwangerschaft und Stillzeit Amoxicillin — kein Doxycyclin.</text>
+
+  <line x1="40" y1="776" x2="860" y2="776" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Drei Dinge ============ -->
+  <text x="40" y="816" font-family="Georgia, serif" font-size="23" fill="#a3231a">Drei Dinge entscheiden — und alle drei werden häufig falsch gemacht</text>
+
+  <g fill="#a3231a">
+    <circle cx="60" cy="847" r="17"/><circle cx="60" cy="887" r="17"/><circle cx="60" cy="991" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="854">1</text><text x="60" y="894">2</text><text x="60" y="998">3</text>
+  </g>
+  <text x="88" y="854" font-family="Georgia, serif" font-size="21" fill="#111">Dosis und Dauer einhalten, auch wenn es besser wird.</text>
+  <text x="88" y="894" font-family="Georgia, serif" font-size="21" fill="#111">Doxycyclin wird schlechter aufgenommen, wenn gleichzeitig Milch,</text>
+  <text x="88" y="920" font-family="Georgia, serif" font-size="21" fill="#111">Milchprodukte, calciumhaltige Fruchtsäfte, stark mineralhaltige Wässer,</text>
+  <text x="88" y="946" font-family="Georgia, serif" font-size="21" fill="#111">Magnesium- oder Aluminiumpräparate gegen Sodbrennen, Eisenpräparate oder</text>
+  <text x="88" y="972" font-family="Georgia, serif" font-size="21" fill="#111">medizinische Kohle im Magen sind. Zwei bis drei Stunden Abstand halten.</text>
+  <text x="88" y="998" font-family="Georgia, serif" font-size="21" fill="#111">Innerhalb von 24 Stunden nach der ersten Einnahme kann es kurzzeitig</text>
+  <text x="88" y="1024" font-family="Georgia, serif" font-size="21" fill="#111">schlechter werden: Die Rötungen flammen auf, selten kommen schweres</text>
+  <text x="88" y="1050" font-family="Georgia, serif" font-size="21" fill="#111">Krankheitsgefühl und Fieber dazu. Das ist eine bekannte, vorübergehende</text>
+  <text x="88" y="1076" font-family="Georgia, serif" font-size="21" fill="#111">Reaktion und KEIN Grund abzubrechen — das Mittel wird weiter genommen.</text>
+
+  <text x="40" y="1112" font-family="Georgia, serif" font-size="19" fill="#111">Doxycyclin macht außerdem lichtempfindlich.</text>
+</svg>

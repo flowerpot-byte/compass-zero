@@ -1,0 +1,73 @@
+Lizenz der Inhalte in diesem Ordner
+===================================
+
+Alle Dateien unterhalb von `content/europe-de/` — Texte, Gliederung,
+Belegangaben, Schlagwörter, Skizzen und das Manifest — stehen unter
+
+    Creative Commons Namensnennung – Weitergabe unter gleichen
+    Bedingungen 4.0 International (CC BY-SA 4.0)
+
+Lizenztext (verbindlich):
+    https://creativecommons.org/licenses/by-sa/4.0/legalcode.de
+Kurzfassung zum Lesen:
+    https://creativecommons.org/licenses/by-sa/4.0/deed.de
+
+Namensnennung
+-------------
+
+Bei Weitergabe oder Bearbeitung anzugeben:
+
+    Compass Zero — Inhaltspaket europe-de, CC BY-SA 4.0
+
+dazu ein Hinweis auf Änderungen, falls welche vorgenommen wurden, und ein
+Link auf diese Lizenz. Die Belegangaben in den Einträgen dürfen dabei nicht
+entfernt werden: Sie sind Teil des Inhalts, nicht Beiwerk.
+
+Diese Lizenz gilt NICHT für den Programmcode. Der steht unter der GNU
+General Public License Version 3 (siehe `LICENSE` im Projektstamm). Beides
+liegt bewusst getrennt, damit die Bedingungen nicht vermischt werden.
+
+
+Woher die Fakten stammen
+------------------------
+
+Die Formulierung, die Auswahl, die Gliederung und die Suchfelder sind eigene
+Arbeit und stehen unter der oben genannten Lizenz. Die zugrundeliegenden
+Tatsachen stammen aus Quellen, die weitergegeben werden dürfen. Tragende
+Gruppen sind:
+
+* **Werke der US-Bundesregierung.** Nach 17 U.S.C. §105 genießen Werke, die
+  ein Bediensteter der US-Bundesregierung im Rahmen seiner Dienstpflichten
+  geschaffen hat, in den Vereinigten Staaten keinen Urheberrechtsschutz. Dazu
+  gehören etwa die Feldhandbücher des US-Heeres, das Special Operations Forces
+  Medical Handbook, Materialien der CDC und die USDA Farmers' Bulletins.
+
+* **Fachliteratur mit abgelaufener Schutzfrist.** Bei namentlich gezeichneten
+  älteren Werken wird nach Todesjahr plus siebzig Jahren gerechnet. Ist zu
+  einem Verfasser kein Sterbejahr belegt, wird das Werk nicht ausgewertet —
+  auch dann nicht, wenn es fachlich passen würde.
+
+* **Ausdrücklich frei lizenzierte Werke**, deren Bedingungen mit CC BY-SA
+  vereinbar sind.
+
+Zwei Punkte, die dazugehören:
+
+1. Die Gemeinfreiheit eines US-Bundeswerks ist eine Ableitung aus der
+   Urheberschaft, keine Aussage des Werkes selbst. Die meisten dieser
+   Dokumente tragen keinen Freigabevermerk.
+2. §105 wirkt in den Vereinigten Staaten. Wer diese Inhalte in einer anderen
+   Rechtsordnung weitergibt, prüft die dortige Lage selbst.
+
+**Der Einzelnachweis steht in `QUELLEN.md`** — je Eintrag mit Dokument,
+Fassung und Abrufdatum, dazu die Begründung, warum die Quelle verwendbar ist
+und was aus ihr bewusst nicht übernommen wurde. Diese Datei gehört zum
+Inhaltspaket, auch wenn sie aus technischen Gründen neben und nicht in der
+Paketdatei liegt.
+
+Keine Gewähr
+------------
+
+Die Inhalte sind ein Nachschlagewerk, kein Ersatz für Fachleute, und werden
+ohne Gewähr für Richtigkeit, Vollständigkeit und Aktualität weitergegeben.
+Der vollständige Hinweis steht in der `README.md` des Projekts und als Eintrag
+`hinweis-angaben-ohne-gewaehr` im Paket selbst.

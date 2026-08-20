@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="2000" viewBox="0 0 900 2000">
+  <!-- Zum Tipp "Schwarzer, teeriger Stuhl ist ein Notfall".
+       Ganz oben steht die BESCHREIBUNG und nicht das Wort. "Schwarzer Stuhl"
+       allein laesst jeden an Eisentabletten denken; teerartig schwarz, oelig
+       glaenzend und uebelriechend laesst sich pruefen. Und der Satz daneben
+       schliesst die zwei haeufigsten Ausreden aus.
+       Das Herzstueck ist der Kreislauf-Fehler: Schmerzmittel verursachen das
+       Geschwuer, und mit denselben Mitteln wird der Schmerz behandelt. Wer
+       das nicht sieht, kommt nie heraus. Der Satz steht deshalb allein in
+       einem Kasten und nicht in der Ursachenliste, wo er unterginge.
+       Die Unterscheidung Magen gegen Zwoelffingerdarm haengt an einem
+       einzigen beobachtbaren Unterschied — schlimmer beim ESSEN gegen holt
+       NACHTS aus dem Schlaf. Nebeneinander ist das ein Griff, im Fliesstext
+       zwei lange Halbsaetze.
+       Der Wiederaufbau steht als Kette mit Pfeilen, weil die Reihenfolge der
+       ganze Inhalt ist: Wer bei Schonkost anfaengt, hat einen Schritt
+       uebersprungen. -->
+  <rect width="900" height="2000" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Schwarzer, teeriger Stuhl ist ein Notfall</text>
+
+  <text x="40" y="100" font-family="Georgia, serif" font-size="26" fill="#a3231a">Teerartig schwarz, ölig glänzend, übelriechend.</text>
+  <text x="40" y="136" font-family="Georgia, serif" font-size="21" fill="#111">Das ist kein verdorbenes Essen und keine Eisentablette. Das ist verdautes</text>
+  <text x="40" y="162" font-family="Georgia, serif" font-size="21" fill="#111">Blut aus dem oberen Verdauungstrakt.</text>
+
+  <line x1="40" y1="198" x2="860" y2="198" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="240" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ebenso: Erbrechen von hellrotem Blut — oder Erbrochenes,</text>
+  <text x="40" y="268" font-family="Georgia, serif" font-size="23" fill="#a3231a">das aussieht WIE KAFFEESATZ.</text>
+  <text x="40" y="304" font-family="Georgia, serif" font-size="21" fill="#111">Beides bedeutet eine Blutung — entweder gerade jetzt oder eben gewesen.</text>
+
+  <line x1="40" y1="340" x2="860" y2="340" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="380" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die Zeichen des Blutverlusts, ohne Geräte zu sehen</text>
+  <text x="40" y="418" font-family="Georgia, serif" font-size="21" fill="#111">Blässe und Schwitzen · ein Puls über 100</text>
+  <text x="40" y="456" font-family="Georgia, serif" font-size="23" fill="#111">Und wer sich aufsetzt oder aufsteht und dabei deutlich</text>
+  <text x="40" y="484" font-family="Georgia, serif" font-size="23" fill="#111">schlechter wird: Ein Pulsanstieg um 20 Schläge ist die</text>
+  <text x="40" y="512" font-family="Georgia, serif" font-size="23" fill="#111">Grenze — dann ist viel Blut verloren.</text>
+
+  <line x1="40" y1="548" x2="860" y2="548" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Magen gegen Zwoelffingerdarm ============ -->
+  <text x="40" y="588" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wo und wann es wehtut, verrät, worum es sich handelt</text>
+  <text x="40" y="626" font-family="Georgia, serif" font-size="21" fill="#111">Beide: ein nagender Schmerz zwischen Nabel und unterem Ende des Brustbeins.</text>
+
+  <rect x="40" y="654" width="390" height="190" rx="10" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="470" y="654" width="390" height="190" rx="10" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+
+  <text x="62" y="694" font-family="Georgia, serif" font-size="21" fill="#111">IM MAGEN</text>
+  <text x="62" y="732" font-family="Georgia, serif" font-size="21" fill="#a3231a">Wird durch ESSEN</text>
+  <text x="62" y="758" font-family="Georgia, serif" font-size="21" fill="#a3231a">SCHLIMMER.</text>
+
+  <text x="492" y="694" font-family="Georgia, serif" font-size="21" fill="#111">IM ZWÖLFFINGERDARM</text>
+  <text x="492" y="732" font-family="Georgia, serif" font-size="21" fill="#a3231a">Holt NACHTS aus dem Schlaf,</text>
+  <text x="492" y="758" font-family="Georgia, serif" font-size="21" fill="#111">strahlt in die Mitte des Rückens,</text>
+  <text x="492" y="784" font-family="Georgia, serif" font-size="21" fill="#111">lässt auf säurebindende</text>
+  <text x="492" y="810" font-family="Georgia, serif" font-size="21" fill="#111">Mittel nach.</text>
+
+  <text x="40" y="896" font-family="Georgia, serif" font-size="21" fill="#111">Dazu Appetitlosigkeit, Übelkeit, Erbrechen. Die Magenschleimhautentzündung</text>
+  <text x="40" y="922" font-family="Georgia, serif" font-size="21" fill="#111">hat ein eigenes, nützliches Zeichen: KEIN FIEBER. Blass und ausgetrocknet,</text>
+  <text x="40" y="948" font-family="Georgia, serif" font-size="21" fill="#111">der Bauch weich mit höchstens mäßiger Druckempfindlichkeit oben in der Mitte.</text>
+
+  <line x1="40" y1="984" x2="860" y2="984" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Der Kreislauf-Fehler ============ -->
+  <rect x="40" y="1010" width="820" height="190" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="1056" font-family="Georgia, serif" font-size="26" fill="#a3231a">Wer sein Geschwür mit dem Mittel behandelt, das es</text>
+  <text x="62" y="1088" font-family="Georgia, serif" font-size="26" fill="#a3231a">verursacht hat, kommt nie heraus.</text>
+  <text x="62" y="1126" font-family="Georgia, serif" font-size="21" fill="#111">Der wirksamste Schritt steht an erster Stelle der Behandlung und kostet</text>
+  <text x="62" y="1152" font-family="Georgia, serif" font-size="21" fill="#111">nichts: Schmerzmittel vom Typ Acetylsalicylsäure und Ibuprofen absetzen —</text>
+  <text x="62" y="1178" font-family="Georgia, serif" font-size="21" fill="#111">und keinen Alkohol.</text>
+
+  <line x1="40" y1="1236" x2="860" y2="1236" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1276" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Ursachen — eine davon ist gut zu beeinflussen</text>
+  <text x="40" y="1314" font-family="Georgia, serif" font-size="21" fill="#111">· ein bestimmtes Magenbakterium</text>
+  <text x="40" y="1340" font-family="Georgia, serif" font-size="21" fill="#d65a1a">· SCHMERZMITTEL: Acetylsalicylsäure und entzündungshemmende wie Ibuprofen</text>
+  <text x="40" y="1366" font-family="Georgia, serif" font-size="21" fill="#111">· SCHWERE KÖRPERLICHE BELASTUNG — ausgedehnte Verletzungen,</text>
+  <text x="40" y="1392" font-family="Georgia, serif" font-size="21" fill="#111">  Verbrennungen, Hirnverletzungen</text>
+  <text x="40" y="1430" font-family="Georgia, serif" font-size="21" fill="#111">Wer schwer verletzt war, bekommt also nicht selten obendrein ein Geschwür.</text>
+  <text x="40" y="1456" font-family="Georgia, serif" font-size="21" fill="#111">Bei der Magenschleimhaut kommen Alkohol und akute Infektionen dazu.</text>
+
+  <line x1="40" y1="1492" x2="860" y2="1492" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Wiederaufbau als Kette ============ -->
+  <text x="40" y="1532" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der Wiederaufbau hat eine Reihenfolge</text>
+
+  <rect x="40" y="1560" width="240" height="70" rx="8" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="330" y="1560" width="240" height="70" rx="8" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="620" y="1560" width="240" height="70" rx="8" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+
+  <g stroke="#111" stroke-width="4">
+    <line x1="284" y1="1595" x2="318" y2="1595"/>
+    <line x1="574" y1="1595" x2="608" y2="1595"/>
+  </g>
+  <polygon points="318,1587 334,1595 318,1603" fill="#111"/>
+  <polygon points="608,1587 624,1595 608,1603" fill="#111"/>
+
+  <g font-family="Georgia, serif" font-size="21" fill="#111" text-anchor="middle">
+    <text x="160" y="1592">KLARE</text>
+    <text x="160" y="1618">FLÜSSIGKEIT</text>
+    <text x="450" y="1605">SCHONKOST</text>
+    <text x="740" y="1592">NORMALE</text>
+    <text x="740" y="1618">KOST</text>
+  </g>
+
+  <text x="40" y="1676" font-family="Georgia, serif" font-size="21" fill="#111">Alles, was die Beschwerden verschlimmert, wird weggelassen. Und viel</text>
+  <text x="40" y="1702" font-family="Georgia, serif" font-size="21" fill="#111">trinken, damit die Austrocknung durch das Erbrechen ausgeglichen wird.</text>
+
+  <line x1="40" y1="1738" x2="860" y2="1738" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1778" font-family="Georgia, serif" font-size="21" fill="#a3231a">Sind keine Darmgeräusche mehr zu hören und ist der Bauch starr, ist das</text>
+  <text x="40" y="1804" font-family="Georgia, serif" font-size="21" fill="#a3231a">Geschwür durchgebrochen.</text>
+
+  <text x="40" y="1844" font-family="Georgia, serif" font-size="21" fill="#111">Wenn niemand kommt: Ein blutendes Geschwür ist eine innere Blutung und</text>
+  <text x="40" y="1870" font-family="Georgia, serif" font-size="21" fill="#111">lässt sich von außen nicht stillen. Was bleibt: flach lagern, warm halten,</text>
+  <text x="40" y="1896" font-family="Georgia, serif" font-size="21" fill="#111">nichts Reizendes, kleine Schlucke, und die Zeichen zählen — Puls, Blässe,</text>
+  <text x="40" y="1922" font-family="Georgia, serif" font-size="21" fill="#111">Bewusstsein. Ein Geschwür, das nicht blutet, heilt dagegen oft von selbst ab,</text>
+  <text x="40" y="1948" font-family="Georgia, serif" font-size="21" fill="#111">wenn die Ursache wegfällt.</text>
+  <text x="40" y="1986" font-family="Georgia, serif" font-size="19" fill="#111">(Einordnung dieses Pakets, nicht aus der Quelle.)</text>
+</svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1064" viewBox="0 0 900 1064">
+  <!-- Zum Tipp "Nebennierenschwaeche: dunkle Handfalten, Schwindel im Stehen".
+       Diese Krankheit ist der Fall, in dem das Ausgehen der Tabletten binnen
+       Tagen toedlich wird, und kaum jemand kennt sie. Das Bild hat deshalb
+       zwei Haelften: oben ERKENNEN, unten HANDELN.
+       Oben die drei Zeichen ohne Geraet. Das dritte ist das einzige, das man
+       wirklich SIEHT und nicht erfragen muss: dunklere Haut in den Falten der
+       Handflaeche und in Narben. Deshalb ist die Hand gross gezeichnet und die
+       Falten deutlich staerker als der Umriss.
+       Unten die zwei Saetze, die in einer Krise alles bedeuten, und beide
+       stehen woertlich in der Quelle. Sie sind bewusst als zwei getrennte
+       Kaesten gesetzt, weil sie fuer zwei VERSCHIEDENE Lagen gelten und man
+       sie sonst verwechselt: kein Vorrat mehr -> sehr salzreich essen;
+       noch Vorrat, aber krank -> Tagesdosis verdoppeln.
+       Der Schlusssatz ist der eigentliche Grund fuer dieses Bild: Wer hier
+       rationiert, macht genau den Fehler, der toetet. Das ist der Reflex, den
+       eine Mangellage ausloest, und hier ist er falsch.
+       Bewusst NICHT im Bild: die Einordnung dieses Pakets zum Absetzen von
+       Kortison. Sie ist im Text ausdruecklich als Einordnung gekennzeichnet;
+       in einem Bild ginge diese Kennzeichnung verloren. -->
+  <rect width="900" height="1064" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Nebennierenschwäche: erkennen — und was in der Krise gilt</text>
+
+  <!-- ============ A: die drei Zeichen ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Drei Zeichen ohne jedes Gerät</text>
+
+  <!-- 1: Salzhunger -->
+  <path d="M 134 190 L 134 268 q 0 12 12 12 L 174 280 q 12 0 12 -12 L 186 190 Z" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <path d="M 130 190 L 190 190 L 186 166 q -26 -12 -52 0 Z" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g fill="#111">
+    <circle cx="146" cy="176" r="3"/><circle cx="160" cy="173" r="3"/><circle cx="174" cy="176" r="3"/>
+    <circle cx="204" cy="272" r="4"/><circle cx="214" cy="275" r="4"/><circle cx="209" cy="263" r="4"/><circle cx="220" cy="266" r="4"/>
+  </g>
+  <text x="60" y="326" font-family="Georgia, serif" font-size="23" fill="#a3231a">GIER NACH SALZ</text>
+  <text x="60" y="358" font-family="Georgia, serif" font-size="21" fill="#111">Geht es Ihnen besser,</text>
+  <text x="60" y="384" font-family="Georgia, serif" font-size="21" fill="#111">wenn Sie Salziges</text>
+  <text x="60" y="410" font-family="Georgia, serif" font-size="21" fill="#111">essen? Über den Urin</text>
+  <text x="60" y="436" font-family="Georgia, serif" font-size="21" fill="#111">geht Natrium verloren —</text>
+  <text x="60" y="462" font-family="Georgia, serif" font-size="21" fill="#111">der Hunger ist die</text>
+  <text x="60" y="488" font-family="Georgia, serif" font-size="21" fill="#111">Antwort darauf.</text>
+
+  <!-- 2: Schwindel beim Aufstehen -->
+  <circle cx="420" cy="152" r="18" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <rect x="402" y="174" width="36" height="62" rx="14" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M 402 188 L 386 216"/>
+    <path d="M 438 188 L 454 216"/>
+    <path d="M 410 236 L 408 280"/>
+    <path d="M 430 236 L 432 280"/>
+  </g>
+  <polyline points="422.0,112.0 422.0,114.0 420.0,115.6 416.9,115.1 414.9,112.0 415.8,107.8 420.0,105.3 425.3,106.7 428.3,112.0 426.4,118.4 420.0,121.9 412.5,119.5 408.6,112.0 411.4,103.4 420.0,99.0 429.7,102.3 434.6,112.0 430.9,122.9 420.0,128.1 408.0,124.0 402.3,112.0" fill="none" stroke="#a3231a" stroke-width="3" stroke-linejoin="round"/>
+  <text x="340" y="326" font-family="Georgia, serif" font-size="23" fill="#a3231a">SCHWINDEL</text>
+  <text x="340" y="358" font-family="Georgia, serif" font-size="21" fill="#111">beim Aufstehen. Wird es</text>
+  <text x="340" y="384" font-family="Georgia, serif" font-size="21" fill="#111">jemandem regelmäßig</text>
+  <text x="340" y="410" font-family="Georgia, serif" font-size="21" fill="#111">schwarz vor Augen, ist</text>
+  <text x="340" y="436" font-family="Georgia, serif" font-size="21" fill="#111">das das Zeichen. Mit</text>
+  <text x="340" y="462" font-family="Georgia, serif" font-size="21" fill="#111">Manschette: unter 100</text>
+  <text x="340" y="488" font-family="Georgia, serif" font-size="21" fill="#111">zu 60.</text>
+
+  <!-- 3: dunklere Haut in den Handfalten -->
+  <rect x="636" y="196" width="15" height="42" rx="7" fill="#f2ece2" stroke="#111" stroke-width="4" transform="rotate(-35 643 200)"/>
+  <rect x="668" y="136" width="15" height="46" rx="7" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <rect x="686" y="130" width="15" height="52" rx="7" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <rect x="704" y="130" width="15" height="52" rx="7" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <rect x="722" y="138" width="15" height="44" rx="7" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <rect x="664" y="178" width="78" height="84" rx="16" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M 674 204 q 28 -12 56 -2"/>
+    <path d="M 672 226 q 30 -10 60 -2"/>
+    <path d="M 678 248 q 24 -8 50 -6"/>
+  </g>
+  <text x="620" y="326" font-family="Georgia, serif" font-size="23" fill="#a3231a">DUNKLERE HAUT</text>
+  <text x="620" y="358" font-family="Georgia, serif" font-size="21" fill="#111">besonders in den Falten</text>
+  <text x="620" y="384" font-family="Georgia, serif" font-size="21" fill="#111">der Handfläche und in</text>
+  <text x="620" y="410" font-family="Georgia, serif" font-size="21" fill="#111">Narben. Einer der</text>
+  <text x="620" y="436" font-family="Georgia, serif" font-size="21" fill="#111">wenigen Befunde, die</text>
+  <text x="620" y="462" font-family="Georgia, serif" font-size="21" fill="#111">man ohne Labor sicher</text>
+  <text x="620" y="488" font-family="Georgia, serif" font-size="21" fill="#111">sieht.</text>
+
+  <text x="40" y="534" font-family="Georgia, serif" font-size="21" fill="#a3231a">Vieles davon wird für eine Depression gehalten — die häufigste Verwechslung.</text>
+
+  <line x1="40" y1="564" x2="860" y2="564" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die zwei Saetze fuer die Krise ============ -->
+  <text x="40" y="604" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zwei Sätze für zwei verschiedene Lagen — beide aus der Quelle</text>
+
+  <rect x="40" y="628" width="400" height="260" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="62" y="666" font-family="Georgia, serif" font-size="23" fill="#a3231a">Keine Tabletten mehr?</text>
+  <text x="62" y="702" font-family="Georgia, serif" font-size="21" fill="#111">SEHR SALZREICHE KOST mildert die</text>
+  <text x="62" y="728" font-family="Georgia, serif" font-size="21" fill="#111">Beschwerden, hält den Blutdruck</text>
+  <text x="62" y="754" font-family="Georgia, serif" font-size="21" fill="#111">und bewahrt die Leistungs-</text>
+  <text x="62" y="780" font-family="Georgia, serif" font-size="21" fill="#111">fähigkeit. Keine Heilung und kein</text>
+  <text x="62" y="806" font-family="Georgia, serif" font-size="21" fill="#111">Ersatz für die Tablette — aber</text>
+  <text x="62" y="832" font-family="Georgia, serif" font-size="21" fill="#111">genau der Fall, für den dieses</text>
+  <text x="62" y="858" font-family="Georgia, serif" font-size="21" fill="#111">Buch geschrieben ist.</text>
+
+  <rect x="460" y="628" width="400" height="260" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="482" y="666" font-family="Georgia, serif" font-size="23" fill="#a3231a">Noch Tabletten — und krank?</text>
+  <text x="482" y="702" font-family="Georgia, serif" font-size="21" fill="#111">TAGESDOSIS VERDOPPELN, für die</text>
+  <text x="482" y="728" font-family="Georgia, serif" font-size="21" fill="#111">Dauer der Erkrankung. Ein Infekt,</text>
+  <text x="482" y="754" font-family="Georgia, serif" font-size="21" fill="#111">ein Durchfall, eine Verletzung:</text>
+  <text x="482" y="780" font-family="Georgia, serif" font-size="21" fill="#111">Der Körper braucht dann mehr,</text>
+  <text x="482" y="806" font-family="Georgia, serif" font-size="21" fill="#111">nicht gleich viel.</text>
+  <text x="482" y="844" font-family="Georgia, serif" font-size="21" fill="#111">Nach der Erkrankung wieder die</text>
+  <text x="482" y="870" font-family="Georgia, serif" font-size="21" fill="#111">gewohnte Menge.</text>
+
+  <text x="40" y="926" font-family="Georgia, serif" font-size="21" fill="#a3231a">Bessert sich unter der doppelten Menge länger als einen Tag nichts oder kommt</text>
+  <text x="40" y="952" font-family="Georgia, serif" font-size="21" fill="#a3231a">Erbrechen dazu, braucht die Person dringend ärztliche Behandlung.</text>
+
+  <line x1="40" y1="986" x2="860" y2="986" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1030" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wer in dieser Lage rationiert, macht genau den Fehler, der tötet.</text>
+</svg>

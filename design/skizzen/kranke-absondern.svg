@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1290" viewBox="0 0 900 1290">
+  <!-- Zum Tipp "Kranke absondern: die Haende zaehlen mehr als die Tuer".
+       Der Tipp dreht die naheliegende Frage um: nicht "wohin mit ihm",
+       sondern "wie uebertraegt sich das". Deshalb steht die Frage als
+       Ueberschrift und die drei Uebertragungswege als drei Zeilen darunter,
+       jede mit ihrer eigenen Antwort. Wer den Weg kennt, hat die Massnahme.
+       Der Widerspruch zwischen den zwei Handbuechern steht offen als zwei
+       Kaesten nebeneinander, darunter die Aufloesung. So sieht man, dass
+       beide ueber die HAERTE streiten und nicht ueber die Sache, und dass
+       der gemeinsame Teil der wichtigere ist.
+       Das Gegenbeispiel Cholera gegen Typhus ist im Bild, weil es die Regel
+       gegen ein Gefuehl schuetzt: Absondern ist nicht immer richtig.
+       Bewusst ohne Sinnbilder gezeichnet. Fuer Luft, Beruehrung und
+       Ausscheidungen gaebe es Bildchen, aber sie wuerden hier nur raten
+       lassen; die drei Woerter sind eindeutiger als jedes Symbol dafuer. -->
+  <rect width="900" height="1290" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Kranke absondern: die Hände zählen mehr als die Tür</text>
+
+  <!-- ============ A: die drei Uebertragungswege ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die erste Frage ist nicht „wohin mit ihm“, sondern: wie überträgt es sich?</text>
+
+  <text x="40" y="140" font-family="Georgia, serif" font-size="23" fill="#a3231a">ÜBER DIE LUFT</text>
+  <text x="290" y="140" font-family="Georgia, serif" font-size="21" fill="#111">Abstand, und Mund und Nase bedecken. Mindestmaß:</text>
+  <text x="290" y="166" font-family="Georgia, serif" font-size="21" fill="#111">Entweder der Kranke bekommt eine Maske ODER die</text>
+  <text x="290" y="192" font-family="Georgia, serif" font-size="21" fill="#111">Pflegenden und engen Kontakte. Beides wäre besser,</text>
+  <text x="290" y="218" font-family="Georgia, serif" font-size="21" fill="#111">eines ist besser als nichts.</text>
+
+  <text x="40" y="262" font-family="Georgia, serif" font-size="23" fill="#a3231a">ÜBER BERÜHRUNG</text>
+  <text x="290" y="262" font-family="Georgia, serif" font-size="21" fill="#111">Handschuhe, wenn es welche gibt — und in jedem Fall</text>
+  <text x="290" y="288" font-family="Georgia, serif" font-size="21" fill="#111">Hände waschen, bevor man etwas anderes anfasst.</text>
+
+  <text x="40" y="332" font-family="Georgia, serif" font-size="23" fill="#a3231a">ÜBER AUS-</text>
+  <text x="40" y="358" font-family="Georgia, serif" font-size="23" fill="#a3231a">SCHEIDUNGEN</text>
+  <text x="290" y="332" font-family="Georgia, serif" font-size="21" fill="#111">Der häufigste Fall bei allem, was Gelbsucht oder dünnen</text>
+  <text x="290" y="358" font-family="Georgia, serif" font-size="21" fill="#111">Stuhl macht. Hier zählt nicht die geschlossene Tür,</text>
+  <text x="290" y="384" font-family="Georgia, serif" font-size="21" fill="#111">sondern der Umgang mit Stuhl, Geschirr, Bettzeug und</text>
+  <text x="290" y="410" font-family="Georgia, serif" font-size="21" fill="#111">Kleidung.</text>
+
+  <line x1="40" y1="446" x2="860" y2="446" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: der offengelegte Widerspruch ============ -->
+  <text x="40" y="486" font-family="Georgia, serif" font-size="23" fill="#111">Hier widersprechen sich meine beiden Quellen — offengelegt</text>
+
+  <rect x="40" y="520" width="400" height="170" rx="10" fill="none" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="62" y="558" font-family="Georgia, serif" font-size="23" fill="#111">Älteres Handbuch</text>
+  <text x="62" y="594" font-family="Georgia, serif" font-size="21" fill="#111">Strenge Absonderung nicht nötig</text>
+  <text x="62" y="620" font-family="Georgia, serif" font-size="21" fill="#111">— aber Händewaschen nach jedem</text>
+  <text x="62" y="646" font-family="Georgia, serif" font-size="21" fill="#111">Stuhlgang Pflicht, und der Stuhl</text>
+  <text x="62" y="672" font-family="Georgia, serif" font-size="21" fill="#111">muss unschädlich gemacht werden.</text>
+
+  <rect x="460" y="520" width="400" height="170" rx="10" fill="none" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="482" y="558" font-family="Georgia, serif" font-size="23" fill="#111">Neueres Handbuch</text>
+  <text x="482" y="594" font-family="Georgia, serif" font-size="21" fill="#111">Absondern bis eine Woche NACH</text>
+  <text x="482" y="620" font-family="Georgia, serif" font-size="21" fill="#111">Beginn der Gelbsucht, weil der</text>
+  <text x="482" y="646" font-family="Georgia, serif" font-size="21" fill="#111">Stuhl hochansteckend ist.</text>
+
+  <text x="40" y="730" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Beide meinen dasselbe Problem und streiten nur über die Härte. Was beide gleich</text>
+  <text x="40" y="756" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">sagen, ist der wichtigere Teil: die HÄNDE und der STUHL, nicht die Tür. Wer</text>
+  <text x="40" y="782" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">trennen kann, trennt; wer nicht trennen kann, ist deshalb nicht verloren.</text>
+
+  <line x1="40" y1="818" x2="860" y2="818" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: das Gegenbeispiel ============ -->
+  <text x="40" y="858" font-family="Georgia, serif" font-size="23" fill="#a3231a">Absondern ist nicht immer richtig — ein Gegenbeispiel</text>
+
+  <text x="40" y="898" font-family="Georgia, serif" font-size="23" fill="#111">Cholera</text>
+  <text x="290" y="898" font-family="Georgia, serif" font-size="21" fill="#111">Ausscheidungen unschädlich machen: unerlässlich.</text>
+  <text x="290" y="924" font-family="Georgia, serif" font-size="21" fill="#111">Strenge Absonderung UNNÖTIG, Quarantäne unerwünscht.</text>
+
+  <text x="40" y="966" font-family="Georgia, serif" font-size="23" fill="#111">Typhus</text>
+  <text x="290" y="966" font-family="Georgia, serif" font-size="21" fill="#111">Strenge Absonderung von Stuhl und Urin.</text>
+
+  <text x="40" y="1006" font-family="Georgia, serif" font-size="21" fill="#111">Es kommt auf die Krankheit an, nicht auf ein allgemeines Gefühl.</text>
+
+  <line x1="40" y1="1042" x2="860" y2="1042" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: ohne Diagnose ============ -->
+  <text x="40" y="1082" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wenn niemand weiß, was es ist: im Zweifel absondern, bis man mehr weiß.</text>
+  <text x="40" y="1116" font-family="Georgia, serif" font-size="21" fill="#111">Bei Verdacht auf bakterielle Hirnhautentzündung gilt strenge Absonderung, bis die</text>
+  <text x="40" y="1142" font-family="Georgia, serif" font-size="21" fill="#111">Sache geklärt ist — und nach Beginn einer Behandlung Atemwegs-Absonderung für</text>
+  <text x="40" y="1168" font-family="Georgia, serif" font-size="21" fill="#111">die ersten 24 Stunden.</text>
+
+  <text x="40" y="1208" font-family="Georgia, serif" font-size="19" fill="#111">Wie lange man Kontaktpersonen beobachtet, richtet sich nach der Zeit zwischen</text>
+  <text x="40" y="1232" font-family="Georgia, serif" font-size="19" fill="#111">Ansteckung und Ausbruch: 17 Tage bei Pocken, 21 Tage bei viralen hämorrhagischen</text>
+  <text x="40" y="1256" font-family="Georgia, serif" font-size="19" fill="#111">Fiebern. Nicht als Anleitung gedacht, sondern als Maßstab, wie lang das sein kann.</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="570" viewBox="0 0 900 570">
+  <!-- Zum Tipp "Wild ausnehmen und kuehlen" (id nahrung-wild-rasch-ausnehmen).
+       Gezeigte Aussage: "Wildkoerper duerfen beim Transport nicht
+       uebereinandergelegt werden, sonst staut sich die Waerme."
+       Das ist die einzige raeumliche Aussage im Text - die uebrigen Angaben
+       (Zielwerte in Grad, drei Einflussfaktoren, Zuckerreserven bei
+       gehetzten Tieren) sind Zahlen bzw. Kausalketten ohne Geometrie und
+       gehoeren nicht in dieses Bild.
+       Deshalb liegt der Schwerpunkt auf dem ABSTAND: oben die Regel gross -
+       drei Wildkoerper nebeneinander mit sichtbarer Luecke dazwischen.
+       Unten klein und in der Signalfarbe die Gegenprobe - zwei Wildkoerper
+       direkt uebereinander, mit aufsteigender Waerme markiert. Kein
+       erfundener Zahlenwert; die Waermestauung steht woertlich im Text. -->
+  <rect width="900" height="570" fill="#faf9f6"/>
+
+  <defs>
+    <path id="wildkoerper" d="M2,40 L10,24 L22,14 Q36,9 55,7 Q95,3 135,8 Q152,11 155,14 Q170,20 170,26 Q170,34 168,38 L158,48 L150,50 L145,66 Q140,72 136,72 Q130,72 128,68 L124,52 L95,54 L65,52 L60,50 L54,66 Q50,72 44,72 Q38,72 36,68 L33,50 L20,46 L10,42 Z"/>
+  </defs>
+
+  <text x="30" y="44" font-family="Georgia, serif" font-size="26" fill="#111">Wildkörper beim Transport: nicht übereinandergelegt</text>
+  <text x="30" y="70" font-family="Georgia, serif" font-size="16" fill="#5b7f96">sonst staut sich die Wärme</text>
+  <text x="30" y="128" font-family="Georgia, serif" font-size="19" fill="#111">Ziel beim Herunterkühlen im Kern:</text>
+  <text x="30" y="156" font-family="Georgia, serif" font-size="19" fill="#111">großes Wild wie Reh, Hirsch und Wildschwein höchstens 7 Grad Celsius,</text>
+  <text x="30" y="184" font-family="Georgia, serif" font-size="19" fill="#111">Hasen und Kaninchen höchstens 4 Grad.</text>
+  <line x1="30" y1="88" x2="870" y2="88" stroke="#cfc9b6" stroke-width="2"/>
+
+  <!-- ============ oben gross: die Regel ============ -->
+  <g fill="#e6e2d6" stroke="#111" stroke-width="1.5">
+    <line x1="70" y1="365" x2="66" y2="378"/>
+    <line x1="110" y1="365" x2="106" y2="378"/>
+    <line x1="150" y1="365" x2="146" y2="378"/>
+    <line x1="650" y1="365" x2="646" y2="378"/>
+    <line x1="690" y1="365" x2="686" y2="378"/>
+    <line x1="730" y1="365" x2="726" y2="378"/>
+  </g>
+  <circle cx="200" cy="372" r="20" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+  <circle cx="200" cy="372" r="5" fill="#111"/>
+  <circle cx="600" cy="372" r="20" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+  <circle cx="600" cy="372" r="5" fill="#111"/>
+  <rect x="50" y="330" width="700" height="22" rx="4" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+
+  <g stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="4,4">
+    <line x1="284" y1="256" x2="284" y2="330"/>
+    <line x1="516" y1="256" x2="516" y2="330"/>
+  </g>
+
+  <use href="#wildkoerper" x="0" y="0" transform="translate(76,253) scale(1.1)" fill="#7a5a3e" stroke="#111" stroke-width="2.5"/>
+  <use href="#wildkoerper" x="0" y="0" transform="translate(308,253) scale(1.1)" fill="#7a5a3e" stroke="#111" stroke-width="2.5"/>
+  <use href="#wildkoerper" x="0" y="0" transform="translate(540,253) scale(1.1)" fill="#7a5a3e" stroke="#111" stroke-width="2.5"/>
+
+  <text x="450" y="416" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">Nebeneinander liegend — nicht übereinandergelegt</text>
+
+  <line x1="30" y1="430" x2="870" y2="430" stroke="#cfc9b6" stroke-width="2"/>
+
+  <!-- ============ unten klein: die Gegenprobe, signalfarben ============ -->
+  <rect x="330" y="440" width="240" height="100" rx="8" fill="none" stroke="#d65a1a" stroke-width="2.5"/>
+  <text x="345" y="460" font-family="Georgia, serif" font-size="16" fill="#111">Falsch:</text>
+
+  <rect x="350" y="522" width="190" height="8" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <use href="#wildkoerper" x="0" y="0" transform="translate(365,491) scale(0.45)" fill="#7a5a3e" stroke="#111" stroke-width="2.5"/>
+  <use href="#wildkoerper" x="0" y="0" transform="translate(372,468) scale(0.45)" fill="#7a5a3e" stroke="#111" stroke-width="2.5"/>
+
+  <g stroke="#d65a1a" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M460,470 C466,458 452,458 458,446"/>
+    <path d="M482,470 C488,458 474,458 480,446"/>
+    <path d="M504,470 C510,458 496,458 502,446"/>
+  </g>
+
+  <text x="590" y="468" font-family="Georgia, serif" font-size="18" fill="#111">Übereinandergelegt:</text>
+  <text x="590" y="492" font-family="Georgia, serif" font-size="18" fill="#d65a1a">sonst staut sich die Wärme</text>
+</svg>

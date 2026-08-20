@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580">
+  <!-- Zum Tipp "erste-hilfe-herzdruckmassage-kind" (Herzdruckmassage bei
+       Kindern und Saeuglingen).
+       Die EINE Aussage, die ein Bild besser erklaert als Worte: die
+       Handhaltung unterscheidet sich zwischen Saeugling (Zwei-Daumen-Technik)
+       und Kind (eine oder zwei Haende), die STELLE aber nicht. Der Text
+       sagt ausdruecklich "bei jedem Alter ueber der unteren Haelfte des
+       Brustbeins". Deshalb zeigt dieses Bild zwei Koerper auf gleicher Hoehe
+       mit einer gemeinsamen Hilfslinie durch den Druckpunkt: die Haende
+       sitzen an verschiedenen Formen, aber auf derselben Linie. Die Ausnahme
+       aus dem Text (wenn die Daumen bei einem Saeugling nicht kraeftig genug
+       sind, gelten auch dort eine oder zwei Haende) steht klein unten, nicht
+       als eigenes Bild, sonst wuerde sie die Regel verdraengen.
+       Frequenz und Tiefe stehen bewusst nicht in diesem Bild, das sind
+       Zahlenangaben ohne raeumlichen Kern und gehoeren in den Text.
+       Signalfarbe wird hier nicht eingesetzt: es gibt in dieser EINEN
+       Aussage keine falsche Handlung, vor der gewarnt werden muesste, nur
+       zwei richtige Techniken je nach Alter. -->
+  <rect x="0" y="0" width="900" height="580" fill="#faf9f6"/>
+
+  <text x="450" y="46" font-family="Georgia, serif" font-size="26" text-anchor="middle" fill="#111">Herzdruckmassage bei Kindern und Säuglingen</text>
+
+  <!-- Kopfzeilen je Feld -->
+  <text x="225" y="92" font-family="Georgia, serif" font-size="21" text-anchor="middle" fill="#111">Säugling – unter einem Jahr</text>
+  <text x="675" y="92" font-family="Georgia, serif" font-size="21" text-anchor="middle" fill="#111">Kind – über einem Jahr</text>
+  <text x="225" y="118" font-family="Georgia, serif" font-size="19" text-anchor="middle" fill="#111">Zwei-Daumen-Technik</text>
+  <text x="675" y="118" font-family="Georgia, serif" font-size="19" text-anchor="middle" fill="#111">Eine oder zwei Hände</text>
+
+  <!-- Trennlinie zwischen den beiden Feldern -->
+  <line x1="450" y1="136" x2="450" y2="486" stroke="#5b7f96" stroke-width="2" opacity="0.35"/>
+
+  <!-- ===== LINKS: Säugling, Zwei-Daumen-Technik ===== -->
+  <circle cx="225" cy="192" r="38" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <line x1="225" y1="230" x2="225" y2="250" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 168 254 Q 132 266 128 306 L 138 408 Q 181 428 225 428 Q 269 428 312 408 L 322 306 Q 318 266 282 254 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- ===== RECHTS: Kind, eine oder zwei Hände ===== -->
+  <circle cx="675" cy="192" r="42" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <line x1="675" y1="234" x2="675" y2="252" stroke="#111" stroke-width="13" stroke-linecap="round"/>
+  <path d="M 604 256 Q 558 270 553 312 L 564 410 Q 620 430 675 430 Q 730 430 786 410 L 797 312 Q 792 270 746 256 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Gemeinsame Hilfslinie durch den Druckpunkt: zeigt, dass die Stelle bei
+       beiden Feldern auf derselben Höhe liegt -->
+  <line x1="140" y1="352" x2="800" y2="352" stroke="#5b7f96" stroke-width="2" stroke-dasharray="7 6" opacity="0.6"/>
+  <text x="450" y="343" font-family="Georgia, serif" font-size="16" text-anchor="middle" fill="#111">gleiche Stelle</text>
+
+  <!-- Zwei Daumen (Säugling) -->
+  <rect x="208" y="333" width="16" height="40" rx="8" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+  <rect x="224" y="333" width="16" height="40" rx="8" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+
+  <!-- Eine oder zwei Hände (Kind) -->
+  <ellipse cx="675" cy="358" rx="42" ry="24" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <ellipse cx="675" cy="346" rx="32" ry="16" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+
+  <!-- Fusszeile -->
+  <text x="450" y="472" font-family="Georgia, serif" font-size="18" text-anchor="middle" fill="#111">Der Druckpunkt liegt bei jedem Alter an derselben Stelle:</text>
+  <text x="450" y="498" font-family="Georgia, serif" font-size="18" text-anchor="middle" fill="#111">über der unteren Hälfte des Brustbeins.</text>
+
+  <text x="60" y="530" font-family="Georgia, serif" font-size="16" fill="#111">Reicht die Kraft der Daumen bei einem Säugling nicht,</text>
+  <text x="60" y="552" font-family="Georgia, serif" font-size="16" fill="#111">gilt auch dort: eine oder zwei Hände.</text>
+</svg>

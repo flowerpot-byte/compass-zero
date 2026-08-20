@@ -1,0 +1,91 @@
+<svg width="900" height="500" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif">
+<!--
+Tipp Kennung: nahrung-vorraete-oel-gegen-kaefer
+Titel: Bohnen und Samen mit Fett vor Insekten sichern
+Gezeigter Satz: der Handgriff beim Mischen entscheidet. Von Hand bleibt ein Korn ohne Schicht offen, Insekten kommen ran. Im Eimer gedreht ist jedes Korn ganz bedeckt.
+Bild: links Schale wird von Hand gemischt, rechts Eimer wird gedreht. Ein Korn ohne Schicht bekommt eine Stelle vom Insekt, das ist die Signalfarbe im Bild.
+Zahl im Bild: 5 bis 10 Milliliter Fett je Kilogramm Samen, dazu 35 Umdrehungen, beides steht so im Tipp Text.
+-->
+<defs>
+  <g id="grain">
+    <ellipse cx="0" cy="0" rx="9" ry="6" fill="#faf9f6" stroke="#111" stroke-width="1.4" stroke-dasharray="3 2"/>
+  </g>
+  <g id="sheen">
+    <ellipse cx="0" cy="0" rx="9" ry="6" fill="#7a5a3e" stroke="#111" stroke-width="1.4"/>
+    <path d="M-4,-3 Q0,-6 4,-3" stroke="#faf9f6" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  </g>
+  <g id="rollArrow">
+    <path d="M0,-22 A22,22 0 1 1 -16,16" fill="none" stroke="#111" stroke-width="3.2" stroke-linecap="round"/>
+    <polygon points="-16,16 -24,10 -8,7" fill="#111"/>
+  </g>
+</defs>
+
+<rect x="0" y="0" width="900" height="500" fill="#faf9f6"/>
+
+<text x="450" y="45" text-anchor="middle" font-size="27" font-weight="bold" fill="#111">Öl gegen Käfer: nur das Rollen deckt jedes Korn</text>
+
+<text x="245" y="112" text-anchor="middle" font-size="19" fill="#111">Schüssel: von Hand gemischt</text>
+<text x="655" y="112" text-anchor="middle" font-size="19" fill="#111">Eimer: gedreht</text>
+
+<!-- Schale links -->
+<path d="M115,170 C115,245 165,280 245,280 C325,280 375,245 375,170 L115,170 Z" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+<ellipse cx="245" cy="170" rx="130" ry="18" fill="#e8ddc7" stroke="#111" stroke-width="2.5"/>
+
+<!-- Koerner links: gemischt, nicht jedes benetzt -->
+<use href="#grain" transform="translate(160,165)"/><use href="#sheen" transform="translate(160,165)"/>
+<use href="#grain" transform="translate(180,155)"/><use href="#sheen" transform="translate(180,155)"/>
+<use href="#grain" transform="translate(200,170)"/>
+<use href="#grain" transform="translate(220,150)"/><use href="#sheen" transform="translate(220,150)"/>
+<use href="#grain" transform="translate(240,165)"/><use href="#sheen" transform="translate(240,165)"/>
+<use href="#grain" transform="translate(260,155)"/><use href="#sheen" transform="translate(260,155)"/>
+<use href="#grain" transform="translate(280,170)"/>
+<circle cx="282" cy="172" r="2.6" fill="#d65a1a"/>
+<use href="#grain" transform="translate(300,153)"/><use href="#sheen" transform="translate(300,153)"/>
+<use href="#grain" transform="translate(320,165)"/><use href="#sheen" transform="translate(320,165)"/>
+<use href="#grain" transform="translate(340,158)"/>
+<use href="#grain" transform="translate(190,178)"/><use href="#sheen" transform="translate(190,178)"/>
+<use href="#grain" transform="translate(230,180)"/>
+<use href="#grain" transform="translate(270,178)"/><use href="#sheen" transform="translate(270,178)"/>
+<use href="#grain" transform="translate(310,175)"/>
+
+<!-- geruehrt: gestrichelter Bogen um die Schale -->
+<path d="M150,150 A130,18 0 0 1 340,150" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="5,4"/>
+<polygon points="340,150 330,144 330,157" fill="#111"/>
+
+<line x1="270" y1="288" x2="282" y2="178" stroke="#111" stroke-width="1"/>
+<text x="245" y="300" text-anchor="middle" font-size="14" fill="#111">Loch vom Insekt</text>
+
+<text x="245" y="325" text-anchor="middle" font-size="17" fill="#111">helle Körner: kein Öl daran</text>
+
+<!-- Eimer rechts -->
+<path d="M545,170 L565,280 L745,280 L765,170 Z" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+<ellipse cx="655" cy="170" rx="110" ry="16" fill="#e8ddc7" stroke="#111" stroke-width="2.5"/>
+
+<!-- Koerner rechts: alle benetzt -->
+<use href="#grain" transform="translate(570,165)"/><use href="#sheen" transform="translate(570,165)"/>
+<use href="#grain" transform="translate(590,155)"/><use href="#sheen" transform="translate(590,155)"/>
+<use href="#grain" transform="translate(610,170)"/><use href="#sheen" transform="translate(610,170)"/>
+<use href="#grain" transform="translate(630,150)"/><use href="#sheen" transform="translate(630,150)"/>
+<use href="#grain" transform="translate(650,165)"/><use href="#sheen" transform="translate(650,165)"/>
+<use href="#grain" transform="translate(670,155)"/><use href="#sheen" transform="translate(670,155)"/>
+<use href="#grain" transform="translate(690,170)"/><use href="#sheen" transform="translate(690,170)"/>
+<use href="#grain" transform="translate(710,153)"/><use href="#sheen" transform="translate(710,153)"/>
+<use href="#grain" transform="translate(730,165)"/><use href="#sheen" transform="translate(730,165)"/>
+<use href="#grain" transform="translate(750,158)"/><use href="#sheen" transform="translate(750,158)"/>
+<use href="#grain" transform="translate(600,178)"/><use href="#sheen" transform="translate(600,178)"/>
+<use href="#grain" transform="translate(640,180)"/><use href="#sheen" transform="translate(640,180)"/>
+<use href="#grain" transform="translate(680,178)"/><use href="#sheen" transform="translate(680,178)"/>
+<use href="#grain" transform="translate(720,175)"/><use href="#sheen" transform="translate(720,175)"/>
+
+<use href="#rollArrow" transform="translate(500,225)"/>
+<use href="#rollArrow" transform="translate(810,225) scale(-1,1)"/>
+
+<text x="655" y="300" text-anchor="middle" font-size="16" fill="#111">35 Umdrehungen</text>
+<text x="655" y="325" text-anchor="middle" font-size="17" fill="#111">jedes Korn hat seine Schicht</text>
+
+<line x1="450" y1="145" x2="450" y2="335" stroke="#c9c4b4" stroke-width="1"/>
+
+<text x="450" y="375" text-anchor="middle" font-size="19" fill="#111">Der Handgriff beim Mischen entscheidet</text>
+<text x="450" y="402" text-anchor="middle" font-size="17" fill="#111">Von Hand erreicht nicht jedes Korn</text>
+<text x="450" y="430" text-anchor="middle" font-size="18" fill="#111">Menge: 5 bis 10 Milliliter Öl je Kilogramm Saat</text>
+</svg>

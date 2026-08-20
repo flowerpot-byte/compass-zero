@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – App-Icon, zuschnittsichere Fassung</title>
+  <!-- Android schneidet Icons rund oder abgerundet zu; sicher sichtbar ist nur
+       der innere Bereich. Das Motiv ist deshalb verkleinert und mittig gesetzt,
+       damit vom Kompass nichts abgeschnitten wird. -->
+  <g transform="translate(256,256) scale(0.66) translate(-244,-280)">
+    <path d="M 40 150 C 104 112 176 112 248 150 C 320 112 392 112 456 150 V 392 C 392 354 320 354 248 392 C 176 354 104 354 40 392 Z" fill="#0A0A0A"/>
+    <path d="M 248 154 V 388" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="330" cy="330" r="118" fill="#FFFFFF"/>
+    <circle cx="330" cy="330" r="118" fill="none" stroke="#0A0A0A" stroke-width="18"/>
+    <g fill="#0A0A0A">
+      <circle cx="330" cy="242" r="8"/>
+      <circle cx="418" cy="330" r="8"/>
+      <circle cx="330" cy="418" r="8"/>
+      <circle cx="242" cy="330" r="8"/>
+    </g>
+    <polygon points="388,272 318,318 342,342" fill="#FF4D00"/>
+    <polygon points="272,388 342,342 318,318" fill="#0A0A0A"/>
+    <circle cx="330" cy="330" r="10" fill="#FFFFFF"/>
+    <circle cx="330" cy="330" r="10" fill="none" stroke="#0A0A0A" stroke-width="6"/>
+  </g>
+</svg>

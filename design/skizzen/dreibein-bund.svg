@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="560" viewBox="0 0 820 560">
+  <!-- Zu Schritt 9 von seilwerk-grundknoten: "Um Stangen zu Dreibeinen,
+       Geruesten oder Regalen zu verbinden, brauchst du ein Lashing."
+       Was im Text nicht vorstellbar ist, ist die ZWEITE Wicklungsart: Zuerst
+       laufen die Toerns quer um alle drei Stangen (Bund), danach laufen
+       Toerns LAENGS ZWISCHEN den Stangen hindurch (Knebeltoerns). Erst die
+       zweiten ziehen den Bund fest – ein Bund ohne sie bleibt lose, und das
+       Dreibein klappt unter Last zusammen. Deshalb zeigt die Skizze beide in
+       verschiedenen Toenen und daneben das aufgestellte Ergebnis. -->
+  <rect width="820" height="560" fill="#faf9f6"/>
+
+  <!-- ================= LINKS: die Wicklung, Stangen liegend ================= -->
+  <text x="40" y="52" font-family="Georgia, serif" font-size="25" fill="#111">1 · Bund wickeln</text>
+
+  <!-- drei Stangen nebeneinander, liegend -->
+  <g fill="#e6e2d6" stroke="#111" stroke-width="5" stroke-linejoin="round">
+    <rect x="60" y="110" width="300" height="46" rx="10"/>
+    <rect x="60" y="186" width="300" height="46" rx="10"/>
+    <rect x="60" y="262" width="300" height="46" rx="10"/>
+  </g>
+
+  <!-- Quertoerns um alle drei: sieben Wicklungen, schwarz -->
+  <g fill="none" stroke="#111" stroke-width="6" stroke-linecap="round">
+    <path d="M 140 100 L 140 318"/>
+    <path d="M 168 100 L 168 318"/>
+    <path d="M 196 100 L 196 318"/>
+    <path d="M 224 100 L 224 318"/>
+    <path d="M 252 100 L 252 318"/>
+    <path d="M 280 100 L 280 318"/>
+  </g>
+
+  <!-- Knebeltoerns: laengs ZWISCHEN den Stangen, orange -->
+  <g fill="none" stroke="#d65a1a" stroke-width="7" stroke-linecap="round">
+    <path d="M 128 171 L 292 171"/>
+    <path d="M 128 247 L 292 247"/>
+    <!-- Der Uebergang von einem Zwischenraum in den anderen laeuft AUSSEN um
+         den Bund herum, nicht um eine Stange. Deshalb nur ein kurzer Bogen am
+         rechten Rand, der hinter der aeusseren Stange verschwindet. -->
+    <path d="M 292 171 C 322 171 322 247 292 247"/>
+  </g>
+
+  <text x="60" y="356" font-family="Georgia, serif" font-size="19" fill="#111">schwarz: quer um alle drei Stangen</text>
+  <text x="60" y="384" font-family="Georgia, serif" font-size="19" fill="#d65a1a">orange: in den ZWISCHENRÄUMEN,</text>
+  <text x="60" y="410" font-family="Georgia, serif" font-size="19" fill="#d65a1a">um die schwarzen Törns herum —</text>
+  <text x="60" y="436" font-family="Georgia, serif" font-size="19" fill="#d65a1a">erst sie ziehen den Bund fest</text>
+
+  <!-- ================= RECHTS: aufgestelltes Dreibein ================= -->
+  <text x="470" y="52" font-family="Georgia, serif" font-size="25" fill="#111">2 · aufstellen</text>
+
+  <!-- drei Beine, oben zusammenlaufend -->
+  <g fill="none" stroke="#111" stroke-width="12" stroke-linecap="round">
+    <path d="M 630 120 L 500 470"/>
+    <path d="M 640 120 L 770 470"/>
+    <path d="M 636 124 L 655 470"/>
+  </g>
+
+  <!-- der Bund sitzt oben, wo die Stangen zusammenlaufen -->
+  <g fill="none" stroke="#d65a1a" stroke-width="7" stroke-linecap="round">
+    <path d="M 606 152 C 636 142 646 142 668 152"/>
+    <path d="M 601 170 C 633 160 648 160 673 170"/>
+    <path d="M 596 188 C 630 178 650 178 678 188"/>
+  </g>
+
+  <!-- Boden -->
+  <line x1="450" y1="482" x2="800" y2="482" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Last am Kopf: das ist der Zweck des Dreibeins -->
+  <g fill="none" stroke="#111" stroke-width="5" stroke-linecap="round">
+    <path d="M 700 196 L 726 262"/>
+  </g>
+  <circle cx="730" cy="286" r="24" fill="none" stroke="#111" stroke-width="5"/>
+
+  <text x="470" y="524" font-family="Georgia, serif" font-size="19" fill="#111">Beine spreizen — das zieht den Bund fest</text>
+</svg>

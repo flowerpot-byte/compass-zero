@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp medizin-zahn-ausgeschlagen, "Zahn ausgeschlagen: feucht
+       halten und zuruecksetzen".
+       Gezeigte Aussage: "Schabe NICHTS ab und versuche nicht, ihn sauber-
+       zukratzen: An der Wurzel sitzen die Zellen, mit denen er wieder
+       anwachsen soll." Das ist eine raeumliche Aussage ueber EINE Stelle
+       am Zahn (Krone erlaubt, Wurzel tabu) und laesst sich schlecht in
+       Worten, aber gut in einem Bild zeigen. Zeitangabe und Ablaufliste
+       aus dem Text werden bewusst NICHT gezeichnet.
+       Links: die Finger fassen den Zahn nur oben an der Krone an, die
+       Wurzel bleibt glatt und unberuehrt. Rechts: die Finger rutschen auf
+       die Wurzel herunter, und die Wurzel selbst zeigt eine gezackte,
+       angekratzte Kontur statt einer glatten Spitze, der Unterschied ist
+       also an der Form der Wurzel UND am Abstand der Finger von der
+       Zahnhals-Linie zu erkennen, nicht nur an Farbe oder Strichstaerke.
+       Das Verbotszeichen in Signalfarbe liegt als einzige farbige Stelle
+       genau ueber dem Kontakt Finger/Wurzel rechts. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="40" y="45" font-family="Georgia, serif" font-size="26" fill="#111">Ausgeschlagener Zahn: nur an der Krone anfassen</text>
+
+  <line x1="450" y1="78" x2="450" y2="470" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- ============ LINKS: richtig ============ -->
+  <g transform="translate(40,88)">
+    <text x="0" y="20" font-family="Georgia, serif" font-size="19" fill="#111">so richtig</text>
+
+    <!-- Wurzel: glatte, unberuehrte Spitze -->
+    <path d="M140,150 L240,150 L190,300 Z" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+    <!-- Krone -->
+    <rect x="140" y="40" width="100" height="110" rx="28" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+    <!-- Zahnhals-Linie -->
+    <line x1="115" y1="150" x2="265" y2="150" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="6 5"/>
+    <text x="270" y="155" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Zahnhals</text>
+
+    <text x="190" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Krone</text>
+    <text x="90" y="205" text-anchor="end" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Wurzel</text>
+
+    <!-- Finger fassen nur oben an der Krone an -->
+    <line x1="118" y1="5" x2="118" y2="75" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="118" cy="90" rx="20" ry="38" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+    <line x1="262" y1="5" x2="262" y2="75" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="262" cy="90" rx="20" ry="38" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+
+    <text x="190" y="345" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">Krone halten</text>
+  </g>
+
+  <!-- ============ RECHTS: falsch ============ -->
+  <g transform="translate(480,88)">
+    <text x="0" y="20" font-family="Georgia, serif" font-size="19" fill="#111">so falsch</text>
+
+    <!-- Wurzel: gezackte, angekratzte Kontur statt glatter Spitze -->
+    <path d="M140,150 L150,165 L142,178 L152,195 L145,210 L155,225 L150,240 L160,255 L170,270 L180,285 L190,300 L200,285 L210,270 L220,255 L230,240 L225,225 L235,210 L228,195 L238,178 L230,165 L240,150 Z" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+    <!-- Krone -->
+    <rect x="140" y="40" width="100" height="110" rx="28" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+    <!-- Zahnhals-Linie -->
+    <line x1="115" y1="150" x2="265" y2="150" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+    <!-- Finger rutschen bis auf die Wurzel herunter -->
+    <line x1="125" y1="140" x2="125" y2="172" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="125" cy="210" rx="20" ry="38" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+    <line x1="255" y1="140" x2="255" y2="172" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="255" cy="210" rx="20" ry="38" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+
+    <!-- Verbotszeichen, einzige Stelle mit Signalfarbe -->
+    <ellipse cx="190" cy="210" rx="115" ry="75" fill="none" stroke="#d65a1a" stroke-width="6"/>
+    <line x1="85" y1="155" x2="295" y2="265" stroke="#d65a1a" stroke-width="6" stroke-linecap="round"/>
+
+    <text x="190" y="345" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">Wurzel nicht berühren</text>
+  </g>
+
+  <text x="40" y="534" font-family="Georgia, serif" font-size="18" fill="#111">Den ausgeschlagenen Zahn nur an der Krone anfassen, niemals an der Wurzel.</text>
+  <text x="40" y="560" font-family="Georgia, serif" font-size="18" fill="#111">Dort sitzen die Zellen, mit denen er wieder anwachsen soll — nicht abschaben.</text>
+</svg>

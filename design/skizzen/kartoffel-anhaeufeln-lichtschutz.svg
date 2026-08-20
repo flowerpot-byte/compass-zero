@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540">
+  <!-- Kapitel agrikultur-kartoffel (agriculture.json), Abschnitt 4,
+       "Anhaeufeln, hier widersprechen sich die Quellen". Gezeigter Satz:
+       "anhaeufeln ja, aber MAESSIG und SPAET, so viel, dass keine Knolle
+       ans Licht kommt, und nicht mehr." Als Form: zwei Quer-
+       schnitte derselben Reihe auf derselben Bodenlinie. Links liegt die
+       Knolle flach und ragt ueber die Bodenlinie hinaus, Licht erreicht
+       sie. Rechts liegt dieselbe Knolle in gleicher Tiefe, aber ein massiger
+       Damm aus zusaetzlicher Erde deckt sie vollstaendig zu, und Wasser
+       laeuft an den Flanken des Damms ab. Keine Zahl steht in diesem
+       Abschnitt der Quelle, darum enthaelt die Zeichnung auch keine. -->
+  <rect width="900" height="540" fill="#faf9f6"/>
+
+  <text x="40" y="44" font-family="Georgia, serif" font-size="26" fill="#111">Anhäufeln: gerade so viel, dass keine Knolle ans Licht kommt</text>
+  <text x="40" y="68" font-family="Georgia, serif" font-size="15" fill="#5b7f96">Kartoffeln anbauen und lagern – wo sich die Quellen widersprechen</text>
+
+  <g transform="translate(0,-150)">
+  <!-- ===================== Panel A: ohne ausreichenden Schutz ===================== -->
+  <text x="235" y="268" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Zu wenig Schutz</text>
+
+  <!-- Boden, flach -->
+  <rect x="60" y="430" width="350" height="130" fill="#e8ddc7" stroke="#111" stroke-width="4"/>
+
+  <!-- Sonnenstrahlen, die die Knolle erreichen -->
+  <g stroke="#111" stroke-width="3" stroke-linecap="round" fill="none">
+    <line x1="150" y1="300" x2="207" y2="400"/>
+    <path d="M207 400 l -11 -16 M207 400 l 4 -19"/>
+    <line x1="235" y1="288" x2="235" y2="393"/>
+    <path d="M235 393 l -11 -14 M235 393 l 11 -14"/>
+    <line x1="320" y1="300" x2="263" y2="400"/>
+    <path d="M263 400 l 11 -16 M263 400 l -4 -19"/>
+  </g>
+
+  <!-- Knolle, flach gesetzt und darum teils ueber der Bodenlinie: sie
+       bekommt Licht ab. Signalfarbe an genau dieser einen Stelle, weil
+       vergruente Knollen ungeniessbar werden. -->
+  <ellipse cx="235" cy="422" rx="32" ry="24" fill="#d65a1a" stroke="#111" stroke-width="3"/>
+
+  <text x="235" y="588" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Licht erreicht die Knolle –</text>
+  <text x="235" y="610" font-family="Georgia, serif" font-size="16" fill="#d65a1a" text-anchor="middle">sie vergrünt und wird ungenießbar</text>
+
+  <!-- ===================== Panel B: maessig angehaeufelt ===================== -->
+  <text x="665" y="268" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Mäßig angehäufelt</text>
+
+  <!-- Boden mit Damm: dieselbe Bodenlinie wie links, aber mit einer Erd-
+       aufschuettung darueber -->
+  <path d="M490,430 L560,430 L605,350 L725,350 L770,430 L840,430 L840,560 L490,560 Z"
+        fill="#e8ddc7" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Dieselbe Knolle, gleiche Tiefe wie links, aber vollstaendig vom Damm
+       bedeckt: kein Lichtstrahl erreicht sie, darum keine Strahlen hier. -->
+  <ellipse cx="665" cy="422" rx="32" ry="24" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+
+  <!-- Wasser laeuft an den Flanken des Damms ab -->
+  <g stroke="#5b7f96" stroke-width="2.5" stroke-linecap="round" fill="none" stroke-dasharray="6 5">
+    <path d="M600 356 Q 578 392 563 424"/>
+    <path d="M730 356 Q 752 392 767 424"/>
+  </g>
+  <g stroke="#5b7f96" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M563 424 L 574 416 M563 424 L 564 410"/>
+    <path d="M767 424 L 756 416 M767 424 L 766 410"/>
+  </g>
+  <path d="M484 392 L 596 360" stroke="#5b7f96" stroke-width="1.5" fill="none"/>
+  <text x="476" y="396" text-anchor="end" font-family="Georgia, serif" font-size="15" fill="#5b7f96">Wasser läuft ab</text>
+
+  <text x="665" y="588" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Erde deckt die Knolle ab,</text>
+  <text x="665" y="610" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">der Damm leitet Wasser ab</text>
+
+  <!-- ===================== Zusammenfassung ===================== -->
+  <rect x="185" y="632" width="530" height="40" rx="6" fill="none" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="450" y="657" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">so viel, dass keine Knolle ans Licht kommt – und nicht mehr</text>
+</g>
+</svg>

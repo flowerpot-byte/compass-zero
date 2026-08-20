@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="2030" viewBox="0 0 900 2030">
+  <!-- Zum Tipp "Ueberzuckerung: Durst, Harndrang und tiefes Atmen".
+       Das Herzstueck ist eine ASYMMETRIE, und Asymmetrien sieht man in einer
+       Tabelle sofort und im Fliesstext nie: Zucker geben ist in beiden
+       Faellen unbedenklich, Insulin geben ist in einem Fall toedlich. Wer
+       die vier Felder nebeneinander sieht, braucht die Regel "erst Zucker,
+       nie Insulin" nicht auswendig — er liest sie ab.
+       Im Feld Insulin/zu-viel steht NICHT "hilft", sondern "richtig, aber
+       nur mit Messung". Die Quelle sagt nicht, dass Insulin hier hilft; sie
+       sagt, dass eine Gabe OHNE MESSUNG unterbleiben soll. Der Unterschied
+       ist der ganze Punkt der Zeile.
+       Die vier klassischen Zeichen stehen als vier gleich grosse Kaesten,
+       weil die Quelle sie gleichrangig nennt und weil erst ihr ZUSAMMEN
+       auftreten die Aussage traegt.
+       Das Notfallzeichen steht eigens: Es ist das einzige, das man HOEREN
+       kann, und es zeigt den Zustand an, an dem man bei Insulinmangel
+       stirbt. -->
+  <rect width="900" height="2030" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Überzuckerung: Durst, Harndrang und tiefes Atmen</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Wenn das Insulin knapp wird oder ausgeht, steigt der Zucker — und das tötet</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">über Tage statt über Minuten. In einer Krise ist diese Richtung die</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">wahrscheinlichere.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die vier Zeichen ============ -->
+  <text x="40" y="224" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die vier klassischen Zeichen — alle ohne Gerät zu bemerken</text>
+
+  <rect x="40" y="252" width="198" height="140" rx="8" fill="#e8eef2" stroke="#111" stroke-width="2"/>
+  <rect x="246" y="252" width="198" height="140" rx="8" fill="#e8eef2" stroke="#111" stroke-width="2"/>
+  <rect x="452" y="252" width="198" height="140" rx="8" fill="#e8eef2" stroke="#111" stroke-width="2"/>
+  <rect x="658" y="252" width="198" height="140" rx="8" fill="#e8eef2" stroke="#111" stroke-width="2"/>
+
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="60" y="290">STARKER</text>
+    <text x="60" y="314">DURST</text>
+
+    <text x="266" y="290">VIEL WASSER-</text>
+    <text x="266" y="314">LASSEN,</text>
+    <text x="266" y="338">besonders</text>
+    <text x="266" y="362">NACHTS</text>
+
+    <text x="472" y="290">GEWICHTS-</text>
+    <text x="472" y="314">VERLUST trotz</text>
+    <text x="472" y="338">gesteigertem</text>
+    <text x="472" y="362">Appetit</text>
+
+    <text x="678" y="290">VERSCHWOM-</text>
+    <text x="678" y="314">MENES SEHEN</text>
+  </g>
+
+  <text x="40" y="430" font-family="Georgia, serif" font-size="21" fill="#111">Wer diese vier zusammen hat, hat sehr wahrscheinlich zu viel Zucker im Blut.</text>
+  <text x="40" y="456" font-family="Georgia, serif" font-size="21" fill="#111">Beim Wasserlassen ist auffällig, wenn jemand mehr als einmal je Nacht</text>
+  <text x="40" y="482" font-family="Georgia, serif" font-size="21" fill="#111">aufstehen muss.</text>
+
+  <line x1="40" y1="518" x2="860" y2="518" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Das Notfallzeichen ============ -->
+  <rect x="40" y="544" width="820" height="152" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="588" font-family="Georgia, serif" font-size="26" fill="#a3231a">Das Notfallzeichen kann man HÖREN:</text>
+  <text x="62" y="620" font-family="Georgia, serif" font-size="26" fill="#a3231a">auffällig schnelle, TIEFE Atmung.</text>
+  <text x="62" y="656" font-family="Georgia, serif" font-size="21" fill="#111">Der Körper versucht, die Säure über die Lunge loszuwerden. Dazu kommen</text>
+  <text x="62" y="682" font-family="Georgia, serif" font-size="21" fill="#111">Übelkeit und Erbrechen.</text>
+
+  <text x="40" y="736" font-family="Georgia, serif" font-size="21" fill="#111">Wer zuckerkrank ist, schnell und tief atmet, sich übergibt und beim Aufstehen</text>
+  <text x="40" y="762" font-family="Georgia, serif" font-size="21" fill="#111">fast umfällt, ist in Lebensgefahr — Notruf 112.</text>
+
+  <line x1="40" y1="798" x2="860" y2="798" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Asymmetrie ============ -->
+  <text x="40" y="838" font-family="Georgia, serif" font-size="23" fill="#a3231a">Der Satz, der in einer Krise über Leben entscheidet</text>
+  <text x="40" y="874" font-family="Georgia, serif" font-size="23" fill="#a3231a">Eine Insulingabe auf Verdacht, ohne Blutzuckermessung, ist</text>
+  <text x="40" y="902" font-family="Georgia, serif" font-size="23" fill="#a3231a">möglicherweise gefährlich und soll unterbleiben.</text>
+
+  <text x="330" y="952" font-family="Georgia, serif" font-size="21" fill="#111">Person hat ZU WENIG</text>
+  <text x="620" y="952" font-family="Georgia, serif" font-size="21" fill="#111">Person hat ZU VIEL</text>
+  <line x1="40" y1="966" x2="860" y2="966" stroke="#111" stroke-width="2"/>
+
+  <rect x="40" y="978" width="820" height="60" fill="#eef4ee"/>
+  <text x="60" y="1016" font-family="Georgia, serif" font-size="21" fill="#111">ZUCKER geben</text>
+  <text x="330" y="1016" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">die Behandlung</text>
+  <text x="620" y="1016" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">kaum schädlich</text>
+
+  <rect x="40" y="1046" width="820" height="86" fill="#f7ecea"/>
+  <text x="60" y="1084" font-family="Georgia, serif" font-size="21" fill="#111">INSULIN geben</text>
+  <text x="330" y="1084" font-family="Georgia, serif" font-size="23" fill="#a3231a">KANN TÖTEN</text>
+  <text x="620" y="1084" font-family="Georgia, serif" font-size="21" fill="#111">richtig — aber nur</text>
+  <text x="620" y="1112" font-family="Georgia, serif" font-size="21" fill="#111">mit Messung</text>
+
+  <text x="40" y="1176" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Deshalb im Zweifel und ohne Messgerät: erst Zucker, nie Insulin.</text>
+
+  <line x1="40" y1="1212" x2="860" y2="1212" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Was hilft ============ -->
+  <text x="40" y="1252" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was ohne Apotheke wirklich etwas bringt</text>
+  <text x="40" y="1290" font-family="Georgia, serif" font-size="26" fill="#111">Viel trinken.</text>
+  <text x="40" y="1326" font-family="Georgia, serif" font-size="21" fill="#111">Der hohe Zucker zieht Wasser über den Urin aus dem Körper, und die</text>
+  <text x="40" y="1352" font-family="Georgia, serif" font-size="21" fill="#111">Austrocknung ist es, die zuerst gefährlich wird.</text>
+  <text x="40" y="1388" font-family="Georgia, serif" font-size="21" fill="#111">Dazu: einfachen Zucker meiden zugunsten langsamerer Kohlenhydrate.</text>
+  <text x="40" y="1414" font-family="Georgia, serif" font-size="21" fill="#111">Bewegung senkt den Zucker ebenfalls — für stabile Kranke nennt die Quelle</text>
+  <text x="40" y="1440" font-family="Georgia, serif" font-size="21" fill="#111">40 bis 60 Minuten mäßige Bewegung täglich und hält zwei bis drei Kilometer</text>
+  <text x="40" y="1466" font-family="Georgia, serif" font-size="21" fill="#111">Gehen am Tag für gut verträglich.</text>
+  <text x="40" y="1502" font-family="Georgia, serif" font-size="21" fill="#a3231a">ABER NUR, solange keine Wunden an den Füßen sind.</text>
+
+  <line x1="40" y1="1538" x2="860" y2="1538" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Ohne Geraet sehen und tasten ============ -->
+  <text x="40" y="1578" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was man ohne Messgerät sehen und tasten kann</text>
+  <text x="40" y="1616" font-family="Georgia, serif" font-size="21" fill="#111">Trockene Schleimhäute im Mund · eine Hautfalte, die stehen bleibt, wenn man</text>
+  <text x="40" y="1642" font-family="Georgia, serif" font-size="21" fill="#111">sie anhebt · deutlicher Blutdruckabfall beim Aufstehen · schneller Puls ·</text>
+  <text x="40" y="1668" font-family="Georgia, serif" font-size="21" fill="#111">Geschwüre an den Fußsohlen · verlorenes Gefühl für leichte Berührung an</text>
+  <text x="40" y="1694" font-family="Georgia, serif" font-size="21" fill="#111">Unterschenkeln und Füßen.</text>
+  <text x="40" y="1730" font-family="Georgia, serif" font-size="21" fill="#111">Und zwei Fragen: Heilen Wunden schlecht, besonders an den Füßen? Fühlen</text>
+  <text x="40" y="1756" font-family="Georgia, serif" font-size="21" fill="#111">sich die Füße an, als schliefen sie? Beides zeigt, dass es schon länger geht.</text>
+
+  <line x1="40" y1="1792" x2="860" y2="1792" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1832" font-family="Georgia, serif" font-size="21" fill="#111">Wenn niemand kommt: Ein Mensch mit Typ-1-Zuckerkrankheit überlebt ohne</text>
+  <text x="40" y="1858" font-family="Georgia, serif" font-size="21" fill="#111">Insulin nicht lange — das gehört ehrlich gesagt. Was die Zeit verlängert:</text>
+  <text x="40" y="1884" font-family="Georgia, serif" font-size="21" fill="#111">trinken, so viel hineingeht; vorhandene Reste strecken statt aufbrauchen;</text>
+  <text x="40" y="1910" font-family="Georgia, serif" font-size="21" fill="#111">alles meiden, was den Bedarf hochtreibt — Infekte, Verletzungen, schnelle</text>
+  <text x="40" y="1936" font-family="Georgia, serif" font-size="21" fill="#111">Kohlenhydrate; und die Atmung beobachten.</text>
+  <text x="40" y="1972" font-family="Georgia, serif" font-size="21" fill="#111">Bei Typ 2 ist die Lage anders: Dort hilft die Ernährung wirklich, und</text>
+  <text x="40" y="1998" font-family="Georgia, serif" font-size="21" fill="#111">Bewegung und Gewichtsabnahme können den Zucker spürbar senken.</text>
+  <text x="40" y="2024" font-family="Georgia, serif" font-size="19" fill="#111">(Einordnung dieses Pakets, nicht aus der Quelle.)</text>
+</svg>

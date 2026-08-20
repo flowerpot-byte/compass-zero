@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660">
+  <!-- Zur Bauanleitung feuer-lagerfeuer-sicher, Schritt 7 ("Ueber Nacht
+       erhalten - Pyramidenfeuer"). Dieser Schritt beschreibt eine Schichtung
+       aus mehreren Lagen Holz, die von oben nach unten durchbrennt - reine
+       Aufzaehlung im Text ist schwer vorstellbar, ein Schichten-Querschnitt
+       zeigt sofort, wie die Lagen aufeinander und quer zueinander liegen.
+       Gezeichnet: die zwei Grundstaemme, die feste Querschicht darueber, die
+       weiteren, kleiner werdenden Schichten als Zone, das Startfeuer oben
+       (einzige Signalfarbe, weil ein unbeaufsichtigtes Feuer die eigentliche
+       Gefahr dieses Schrittes ist) und als Zusatz-Hinweis unten das
+       Einscharren der Glut mit Asche oder Erde. -->
+  <rect width="900" height="660" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Pyramidenfeuer: die Nacht ohne Aufsicht durchbrennen</text>
+  <text x="40" y="72" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Schicht für Schicht aufbauen, oben anzünden – brennt von selbst nach unten durch</text>
+
+  <!-- Grund -->
+  <line x1="70" y1="582" x2="830" y2="582" stroke="#7a5a3e" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Zwei Staemme, parallel auf dem Boden -->
+  <rect x="303" y="548" width="138" height="34" rx="17" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+  <rect x="459" y="548" width="138" height="34" rx="17" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+
+  <path d="M 303 565 L 205 555" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <circle cx="303" cy="565" r="3" fill="#5b7f96"/>
+  <text x="40" y="528" font-family="Georgia, serif" font-size="16" fill="#111">Zwei Stämme,</text>
+  <text x="40" y="548" font-family="Georgia, serif" font-size="16" fill="#111">parallel auf</text>
+  <text x="40" y="568" font-family="Georgia, serif" font-size="16" fill="#111">dem Boden</text>
+
+  <!-- Feste Schicht quer darueber: Lagenden als Kreise -->
+  <g fill="#d9c98a" stroke="#111" stroke-width="2.5">
+    <circle cx="340" cy="533" r="15"/>
+    <circle cx="368" cy="533" r="15"/>
+    <circle cx="395" cy="533" r="15"/>
+    <circle cx="423" cy="533" r="15"/>
+    <circle cx="450" cy="533" r="15"/>
+    <circle cx="478" cy="533" r="15"/>
+    <circle cx="505" cy="533" r="15"/>
+    <circle cx="533" cy="533" r="15"/>
+    <circle cx="560" cy="533" r="15"/>
+  </g>
+
+  <path d="M 566 526 L 648 508" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <circle cx="566" cy="526" r="3" fill="#5b7f96"/>
+  <text x="654" y="503" font-family="Georgia, serif" font-size="16" fill="#111">Feste Schicht</text>
+  <text x="654" y="523" font-family="Georgia, serif" font-size="16" fill="#111">quer darüber</text>
+
+  <!-- Die weiteren Lagen, jede kleiner und im rechten Winkel zur darunter:
+       laengs liegende Staemme als Balken von der Seite, quer liegende als
+       Kreise (man sieht das Hirnholz). Der WECHSEL ist die Aussage des
+       Schrittes; als leeres Dreieck stand sie nicht im Bild. -->
+  <g>
+    <rect x="336" y="484" width="110" height="30" rx="15" fill="#7a5a3e" stroke="#111" stroke-width="2.5"/>
+    <rect x="454" y="484" width="110" height="30" rx="15" fill="#7a5a3e" stroke="#111" stroke-width="2.5"/>
+  </g>
+  <g fill="#d9c98a" stroke="#111" stroke-width="2.5">
+    <circle cx="365" cy="455" r="13"/>
+    <circle cx="389" cy="455" r="13"/>
+    <circle cx="413" cy="455" r="13"/>
+    <circle cx="437" cy="455" r="13"/>
+    <circle cx="461" cy="455" r="13"/>
+    <circle cx="485" cy="455" r="13"/>
+    <circle cx="509" cy="455" r="13"/>
+    <circle cx="533" cy="455" r="13"/>
+  </g>
+  <g>
+    <rect x="372" y="400" width="74" height="26" rx="13" fill="#7a5a3e" stroke="#111" stroke-width="2.5"/>
+    <rect x="454" y="400" width="74" height="26" rx="13" fill="#7a5a3e" stroke="#111" stroke-width="2.5"/>
+  </g>
+  <g fill="#d9c98a" stroke="#111" stroke-width="2.5">
+    <circle cx="399" cy="374" r="11"/>
+    <circle cx="419" cy="374" r="11"/>
+    <circle cx="439" cy="374" r="11"/>
+    <circle cx="459" cy="374" r="11"/>
+    <circle cx="479" cy="374" r="11"/>
+    <circle cx="499" cy="374" r="11"/>
+  </g>
+
+  <path d="M 532 428 L 640 400" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <circle cx="532" cy="428" r="3" fill="#5b7f96"/>
+  <text x="648" y="360" font-family="Georgia, serif" font-size="16" fill="#111">Drei oder vier</text>
+  <text x="648" y="382" font-family="Georgia, serif" font-size="16" fill="#111">weitere Schichten,</text>
+  <text x="648" y="404" font-family="Georgia, serif" font-size="16" fill="#111">jede kleiner, im</text>
+  <text x="648" y="426" font-family="Georgia, serif" font-size="16" fill="#111">rechten Winkel zur</text>
+  <text x="648" y="448" font-family="Georgia, serif" font-size="16" fill="#111">Schicht darunter</text>
+
+  <!-- Startfeuer oben, brennt nach unten durch: einzige Signalfarbe -->
+  <path d="M 450 356 C 432 330 450 322 445 300 C 466 324 468 338 450 356"
+        fill="none" stroke="#d65a1a" stroke-width="5" stroke-linecap="round"/>
+
+  <path d="M 445 300 L 470 262" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <circle cx="445" cy="300" r="3" fill="#5b7f96"/>
+  <text x="478" y="256" font-family="Georgia, serif" font-size="18" fill="#111">Startfeuer entzünden,</text>
+  <text x="478" y="278" font-family="Georgia, serif" font-size="18" fill="#111">brennt von oben</text>
+  <text x="478" y="300" font-family="Georgia, serif" font-size="18" fill="#111">nach unten durch</text>
+
+  <!-- Zusatz-Hinweis: Glut einscharren -->
+  <rect x="70" y="596" width="760" height="56" rx="6" fill="#f2efe6" stroke="#111" stroke-width="2"/>
+  <path d="M 92 628 Q 110 606 128 628 Z" fill="#e8ddc7" stroke="#111" stroke-width="2"/>
+  <text x="148" y="618" font-family="Georgia, serif" font-size="16" fill="#111">Zusätzlich: Glut mit Asche oder Erde abdecken</text>
+  <text x="148" y="638" font-family="Georgia, serif" font-size="16" fill="#111">hält sie über Nacht am Leben</text>
+</svg>

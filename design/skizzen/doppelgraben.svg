@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Agrikultur-Kapitel "Boden vorbereiten: tief lockern, nicht wenden".
+       Das Doppelgraben laesst sich in Worten beschreiben, aber der eine Punkt,
+       an dem alle scheitern, ist die Wanderung der Erde: Die Erde des ERSTEN
+       Grabens wandert ans ANDERE Ende und fuellt dort ganz am Schluss den
+       letzten Graben. Dazwischen fuellt jeder neue Graben den vorigen. Wer das
+       nicht sieht, faengt an und weiss beim zweiten Graben nicht weiter. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+  <text x="40" y="52" font-family="Georgia, serif" font-size="29" fill="#111">Doppelgraben: wohin die Erde wandert</text>
+
+  <!-- Beet im Laengsschnitt -->
+
+  <!-- Bodenkoerper -->
+  <rect x="60" y="150" width="700" height="170" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <!-- gelockerter Untergrund darunter -->
+  <rect x="60" y="320" width="700" height="90" fill="#f2efe6" stroke="#111" stroke-width="4"
+        stroke-dasharray="12 8"/>
+
+  <!-- Graben 1: offen -->
+  <rect x="60" y="150" width="120" height="170" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <!-- Sohle von Graben 1 gelockert markieren -->
+  <g stroke="#d65a1a" stroke-width="3">
+    <line x1="76" y1="336" x2="164" y2="336"/>
+    <line x1="76" y1="360" x2="164" y2="360"/>
+    <line x1="76" y1="384" x2="164" y2="384"/>
+  </g>
+
+  <!-- Graben 2: offen, seine Erde geht nach links -->
+  <rect x="180" y="150" width="120" height="170" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+
+  <!-- Erdhaufen ganz rechts: die Erde aus Graben 1 -->
+  <path d="M 772 150 Q 830 96 888 150 Z" fill="#c9c4b4" stroke="#111" stroke-width="4"
+        stroke-linejoin="round"/>
+
+  <!-- Pfeil: Erde aus Graben 1 ganz nach rechts -->
+  <path d="M 120 144 Q 440 96 826 144" fill="none" stroke="#d65a1a" stroke-width="4"
+        stroke-dasharray="12 8"/>
+  <path d="M 826 144 l -16 -4 M 826 144 l -8 -15" fill="none" stroke="#d65a1a" stroke-width="4"/>
+  <text x="286" y="98" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Erde aus Graben 1 ans andere Ende</text>
+
+  <!-- Pfeil: Erde aus Graben 2 in Graben 1 -->
+  <g stroke="#d65a1a" stroke-width="4" fill="none">
+    <path d="M 240 210 Q 200 176 132 208"/>
+    <path d="M 132 208 l 4 -16 M 132 208 l 16 2"/>
+  </g>
+
+  <!-- Nummern -->
+  <g font-family="Georgia, serif" font-size="26" fill="#111">
+    <text x="106" y="250">1</text>
+    <text x="232" y="250">2</text>
+    <text x="392" y="250">3</text>
+    <text x="512" y="250">4</text>
+    <text x="632" y="250">5</text>
+  </g>
+  <g stroke="#111" stroke-width="2" opacity="0.35" stroke-dasharray="6 6">
+    <line x1="300" y1="150" x2="300" y2="320"/>
+    <line x1="420" y1="150" x2="420" y2="320"/>
+    <line x1="540" y1="150" x2="540" y2="320"/>
+    <line x1="660" y1="150" x2="660" y2="320"/>
+  </g>
+
+  <!-- Massangaben -->
+  <g stroke="#111" stroke-width="2">
+    <line x1="44" y1="150" x2="44" y2="320"/>
+    <path d="M 44 150 l -6 12 M 44 150 l 6 12"/>
+    <path d="M 44 320 l -6 -12 M 44 320 l 6 -12"/>
+    <line x1="44" y1="320" x2="44" y2="410"/>
+    <path d="M 44 410 l -6 -12 M 44 410 l 6 -12"/>
+  </g>
+  <text x="60" y="450" font-family="Georgia, serif" font-size="21" fill="#111">Graben: etwa 30 cm tief und 30 cm breit. Darunter noch einmal</text>
+  <text x="60" y="476" font-family="Georgia, serif" font-size="21" fill="#111">30 cm Sohle lockern — mit dem Spaten wippen, nicht wenden.</text>
+
+  <text x="40" y="522" font-family="Georgia, serif" font-size="21" fill="#111">Jeder neue Graben füllt den vorigen. Ganz am Schluss füllt der Haufen</text>
+  <text x="40" y="548" font-family="Georgia, serif" font-size="21" fill="#111">vom Anfang den letzten Graben.</text>
+  <text x="40" y="586" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Die Schichten bleiben, wo sie sind — es wird gelockert, nicht umgedreht.</text>
+</svg>

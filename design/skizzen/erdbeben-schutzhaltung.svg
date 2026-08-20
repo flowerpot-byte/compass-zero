@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp taktisch-erdbeben.
+
+       GEZEIGTE AUSSAGE: die Schutzhaltung. Der Text nennt sie als Reflex in
+       drei Woertern - HINLEGEN, UNTERKRIECHEN, FESTHALTEN - und schreibt
+       dazu: "HINLEGEN, auf Haende und Knie. In dieser Haltung wirft es einen
+       nicht um, und man ist kleiner als das, was fliegt." Daneben steht eine
+       Haltung, die der Text ausdruecklich als ueberholt und heute gefaehrlich
+       bezeichnet: sich in den Tuerrahmen zu stellen.
+
+       Beide Haltungen sind eine Frage der Form und nicht der Beschriftung,
+       deshalb stehen sie nebeneinander. Die Regel ist die grosse Zeichnung
+       links, die veraltete Haltung klein rechts und mit dem einzigen
+       Signalfarb-Zeichen durchgestrichen.
+
+       Neubau am 05.08.2026. Im Entwurf war die Person unter dem Tisch ein
+       Klumpen mit Kopf und einem Arm: Weder Haende noch Knie waren zu sehen,
+       obwohl genau das der Wortlaut ist. Eine Haltung, die man nicht
+       nachmachen kann, ist keine gezeigte Haltung. Ausserdem fehlte die
+       Zwei-Meter-Regel, eine der wenigen Zahlen des Tipps und die einzige,
+       die sich raeumlich fassen laesst. -->
+
+  <rect width="900" height="600" fill="#faf9f6"/>
+
+  <text x="40" y="48" font-family="Georgia, serif" font-size="26" fill="#111">Erdbeben: unter den Tisch, nicht in den Türrahmen</text>
+  <line x1="40" y1="72" x2="860" y2="72" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <line x1="590" y1="96" x2="590" y2="470" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- ================= LINKS: die Regel ================= -->
+  <text x="300" y="116" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Unter den Tisch</text>
+
+  <line x1="60" y1="458" x2="560" y2="458" stroke="#111" stroke-width="3"/>
+
+  <!-- Tisch -->
+  <rect x="150" y="230" width="330" height="22" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <rect x="158" y="252" width="20" height="206" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <rect x="452" y="252" width="20" height="206" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+
+  <!-- Person auf Haenden und Knien, Kopf gesenkt, Blick nach rechts -->
+  <!-- Rumpf -->
+  <path d="M 250,356 L 372,348" stroke="#111" stroke-width="52" stroke-linecap="round" fill="none"/>
+  <path d="M 250,356 L 372,348" stroke="#e6e2d6" stroke-width="46" stroke-linecap="round" fill="none"/>
+  <!-- Kopf, gesenkt -->
+  <circle cx="404" cy="362" r="28" fill="#e6e2d6" stroke="#111" stroke-width="3.5"/>
+  <!-- Stuetzarm: Schulter zum Handgelenk auf dem Boden -->
+  <path d="M 372,362 L 362,410 L 344,452" stroke="#111" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 372,362 L 362,410 L 344,452" stroke="#e6e2d6" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Bein: Huefte zum Knie auf dem Boden, dann Unterschenkel -->
+  <path d="M 256,362 L 244,414 L 214,452" stroke="#111" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 256,362 L 244,414 L 214,452" stroke="#e6e2d6" stroke-width="19" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Der Arm, der festhaelt: greift von unten an die Tischplatte -->
+  <path d="M 322,344 L 306,300 L 300,262" stroke="#111" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 322,344 L 306,300 L 300,262" stroke="#e6e2d6" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <ellipse cx="300" cy="258" rx="18" ry="11" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+
+  <!-- Beschriftungen, alle ausserhalb der Figur -->
+  <line x1="486" y1="336" x2="434" y2="356" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="492" y="330" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Kopf unter</text>
+  <text x="492" y="350" font-family="Georgia, serif" font-size="17" fill="#5b7f96">der Platte</text>
+
+  <line x1="196" y1="196" x2="288" y2="252" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="60" y="200" font-family="Georgia, serif" font-size="17" fill="#5b7f96">eine Hand hält fest</text>
+
+  <line x1="180" y1="470" x2="212" y2="456" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="72" y="486" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Knie am Boden</text>
+
+  <line x1="420" y1="472" x2="348" y2="456" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="426" y="478" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Hände am Boden</text>
+
+  <!-- ================= RECHTS: die veraltete Haltung ================= -->
+  <text x="730" y="116" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">Nicht mehr empfohlen</text>
+
+  <line x1="620" y1="458" x2="856" y2="458" stroke="#111" stroke-width="3"/>
+
+  <!-- Wand mit Tuer -->
+  <rect x="624" y="176" width="228" height="282" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+  <rect x="694" y="216" width="88" height="242" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+
+  <!-- stehende Person im Rahmen -->
+  <circle cx="738" cy="262" r="20" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+  <path d="M 738,282 L 738,458" stroke="#111" stroke-width="30" stroke-linecap="round" fill="none"/>
+  <path d="M 738,282 L 738,458" stroke="#e6e2d6" stroke-width="25" stroke-linecap="round" fill="none"/>
+
+  <!-- die einzige Signalstelle -->
+  <circle cx="738" cy="316" r="76" fill="none" stroke="#d65a1a" stroke-width="8"/>
+  <line x1="684" y1="262" x2="792" y2="370" stroke="#d65a1a" stroke-width="8"/>
+
+  <text x="620" y="500" font-family="Georgia, serif" font-size="17" fill="#111">Türrahmen: veraltet und heute</text>
+  <text x="620" y="522" font-family="Georgia, serif" font-size="17" fill="#111">als gefährlich eingestuft.</text>
+
+  <!-- ================= Schlusszeilen ================= -->
+  <text x="40" y="556" font-family="Georgia, serif" font-size="19" fill="#111">Hinlegen, unterkriechen, festhalten — und bereit sein mitzurücken, wenn der Tisch verrutscht.</text>
+  <text x="40" y="582" font-family="Georgia, serif" font-size="19" fill="#111">Nicht weiter als zwei Meter gehen, um irgendwohin zu kommen.</text>
+</svg>

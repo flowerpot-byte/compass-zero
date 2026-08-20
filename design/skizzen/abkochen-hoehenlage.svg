@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+  <!-- Tipp: wasser-abkochen-hoehenlage -->
+  <!-- Aussage: Ab 1000 m Hoehe (5000 Fuss) muss Wasser drei Minuten statt einer Minute sprudelnd kochen. -->
+  <!-- Begruendung: Die Schwelle "1000 m" und der Sprung von 1 auf 3 Minuten sind in Worten schwer zu -->
+  <!-- merken, aber als eine durchgehende Gelaende-Silhouette mit einer Hoehenlinie und zwei unterschiedlich -->
+  <!-- grossen Kochtoepfen sofort erfassbar: unten am Fuss die kurze Regel-Ausnahme, oben am Gipfel die -->
+  <!-- lange Hauptregel dieses Tipps. -->
+
+  <!-- Hintergrund deckt die gesamte Leinwand -->
+  <rect x="0" y="0" width="900" height="560" fill="#faf9f6"/>
+
+  <!-- Ueberschrift -->
+  <text x="40" y="50" font-family="Georgia, serif" font-size="26" fill="#111">Wasser abkochen in großer Höhe</text>
+
+  <!-- Durchgehendes Gelaende: flaches Land links, Gipfel rechts -->
+  <path d="M60,480 Q200,470 320,400 Q420,320 500,260 Q580,180 660,150 Q740,190 800,320 Q820,400 840,480 Z"
+        fill="#e6e2d6" stroke="#111" stroke-width="2"/>
+
+  <!-- Hoehenschwelle 1000 m, gestrichelt -->
+  <line x1="60" y1="300" x2="840" y2="300" stroke="#5b7f96" stroke-width="2" stroke-dasharray="10,7"/>
+  <text x="64" y="294" font-family="Georgia, serif" font-size="16" fill="#111">1000 m (5000 Fuß)</text>
+
+  <!-- Kleiner Topf unten im Flach- und Huegelland: die Ausnahme, kurz -->
+  <path d="M180,427 L220,427 L216,453 Q200,459 184,453 Z" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <ellipse cx="174" cy="440" rx="6" ry="8" fill="#faf9f6" stroke="#111" stroke-width="2"/>
+  <ellipse cx="226" cy="440" rx="6" ry="8" fill="#faf9f6" stroke="#111" stroke-width="2"/>
+  <path d="M186,427 C182,417 194,412 189,400" fill="none" stroke="#111" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M200,427 C196,417 208,412 203,400" fill="none" stroke="#111" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M214,427 C210,417 222,412 217,400" fill="none" stroke="#111" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="200" y="378" font-family="Georgia, serif" font-size="21" fill="#111" text-anchor="middle">1 Minute</text>
+
+  <!-- Grosser Topf auf dem Gipfel oberhalb der Schwelle: die Hauptregel, lang -->
+  <path d="M621,98 L699,98 L692,148 Q660,158 628,148 Z" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <ellipse cx="613" cy="123" rx="10" ry="14" fill="#faf9f6" stroke="#111" stroke-width="2"/>
+  <ellipse cx="707" cy="123" rx="10" ry="14" fill="#faf9f6" stroke="#111" stroke-width="2"/>
+  <path d="M635,98 C627,80 653,72 645,62" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+  <path d="M660,98 C652,80 678,72 670,62" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+  <path d="M685,98 C677,80 703,72 695,62" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+  <text x="734" y="125" font-family="Georgia, serif" font-size="24" fill="#111">3 Minuten</text>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1490" viewBox="0 0 900 1490">
+  <!-- Zum Tipp "Psychopharmaka: abrupt absetzen ist das Schlimmste".
+       Zwei Zahlen tragen den ganzen Tipp, und als Prozentangaben im Satz
+       gehen sie unter: 27 gegen 65 von 100. Als zwei Balken auf derselben
+       Achse sieht man, dass sich das Risiko mehr als verdoppelt. Der
+       Massstab stimmt: 0 bis 100 ueber 500 Bildpunkte, 5 Punkte je Einheit;
+       27 sind 135 Punkte, 65 sind 325.
+       Der Satz darunter ist der Grund fuer den Titel und der Teil, auf den
+       von selbst niemand kommt: Was nach dem Absetzen kommt, sieht aus wie
+       die Krankheit. Er steht deshalb gross und rot.
+       Der Tipp behandelt drei verschiedene Mittelgruppen, und Lithium ist
+       der Sonderfall: Dort ist NICHT das Absetzen die Gefahr, sondern der
+       Wassermangel. Diese Umkehrung hat deshalb einen eigenen Abschnitt mit
+       eigener Ueberschrift, damit sie nicht als weiterer Absetz-Absatz
+       gelesen wird.
+       Ohne Sinnbilder gezeichnet. -->
+  <rect width="900" height="1490" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Psychopharmaka: abrupt absetzen ist das Schlimmste</text>
+
+  <!-- ============ Die Zahlen ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Zahl, die das Ausmaß zeigt — Rückfall innerhalb eines Jahres</text>
+
+  <rect x="300" y="130" width="135" height="30" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <text x="40" y="150" font-family="Georgia, serif" font-size="19" fill="#111">weiterbehandelt</text>
+  <text x="447" y="150" font-family="Georgia, serif" font-size="19" fill="#111">27 von 100</text>
+
+  <rect x="300" y="174" width="325" height="30" fill="#a3231a" stroke="#111" stroke-width="3"/>
+  <text x="40" y="194" font-family="Georgia, serif" font-size="19" fill="#a3231a">abgesetzt</text>
+  <text x="637" y="194" font-family="Georgia, serif" font-size="19" fill="#a3231a">65 von 100</text>
+
+  <line x1="300" y1="220" x2="800" y2="220" stroke="#111" stroke-width="2"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="300" y1="220" x2="300" y2="228"/><line x1="425" y1="220" x2="425" y2="228"/>
+    <line x1="550" y1="220" x2="550" y2="228"/><line x1="675" y1="220" x2="675" y2="228"/>
+    <line x1="800" y1="220" x2="800" y2="228"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="300" y="246">0</text><text x="425" y="246">25</text><text x="550" y="246">50</text>
+    <text x="675" y="246">75</text><text x="800" y="246">100</text>
+  </g>
+
+  <text x="40" y="286" font-family="Georgia, serif" font-size="21" fill="#111">Über drei bis sechs Jahre bleibt der Abstand ähnlich: 22 gegen 63 von 100.</text>
+  <text x="40" y="312" font-family="Georgia, serif" font-size="21" fill="#a3231a">Das Risiko verdoppelt sich also mehr als.</text>
+
+  <line x1="40" y1="348" x2="860" y2="348" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Der Teil, auf den niemand kommt ============ -->
+  <text x="40" y="388" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der Teil, auf den von selbst niemand kommt</text>
+  <text x="40" y="426" font-family="Georgia, serif" font-size="23" fill="#a3231a">Was nach einem abrupten Absetzen kommt, kann man für die</text>
+  <text x="40" y="454" font-family="Georgia, serif" font-size="23" fill="#a3231a">Krankheit selbst halten — obwohl es das Absetzen ist.</text>
+  <text x="40" y="490" font-family="Georgia, serif" font-size="21" fill="#111">Der Körper hat sich an das Mittel gewöhnt; fällt es plötzlich weg, kann er</text>
+  <text x="40" y="516" font-family="Georgia, serif" font-size="21" fill="#111">überschießend reagieren. Es entstehen Zustände, die sich von einem echten</text>
+  <text x="40" y="542" font-family="Georgia, serif" font-size="21" fill="#111">Rückfall kaum unterscheiden lassen.</text>
+
+  <text x="40" y="582" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Zwei Folgen: Wer ausschleicht statt abzubrechen, hat weniger davon — den</text>
+  <text x="40" y="608" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Vorrat über Wochen zu strecken ist besser, als ihn bis zum letzten Tag voll zu</text>
+  <text x="40" y="634" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">nehmen. Und: Nicht jede Verschlechterung danach heißt, dass die Krankheit</text>
+  <text x="40" y="660" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">zurück ist.</text>
+
+  <line x1="40" y1="696" x2="860" y2="696" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Antidepressiva ============ -->
+  <text x="40" y="736" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Antidepressiva: das Absetzen ist so gut beschrieben, dass man es erkennt</text>
+
+  <text x="40" y="776" font-family="Georgia, serif" font-size="21" fill="#111">beginnt</text>
+  <text x="270" y="776" font-family="Georgia, serif" font-size="21" fill="#111">2 bis 4 Tage nach dem Absetzen</text>
+  <text x="40" y="806" font-family="Georgia, serif" font-size="21" fill="#111">vergeht</text>
+  <text x="270" y="806" font-family="Georgia, serif" font-size="21" fill="#111">in der Regel innerhalb von 2 bis 6 Wochen von allein</text>
+  <text x="40" y="836" font-family="Georgia, serif" font-size="21" fill="#111">vor allem</text>
+  <text x="270" y="836" font-family="Georgia, serif" font-size="21" fill="#111">wenn das Mittel länger als acht Wochen genommen wurde</text>
+
+  <text x="40" y="876" font-family="Georgia, serif" font-size="21" fill="#111">Kopfschmerzen oder grippeartiges Gefühl · Schlafprobleme und Albträume ·</text>
+  <text x="40" y="902" font-family="Georgia, serif" font-size="21" fill="#111">Übelkeit · Schwindel und Unsicherheit im Gleichgewicht · Angst, Reizbarkeit.</text>
+
+  <text x="40" y="942" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein Zeichen, das kein Rückfall macht: ein Gefühl wie kleine Stromschläge.</text>
+
+  <text x="40" y="978" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Was hilft: zurück auf die vorherige Menge, dann in kleineren Schritten weiter.</text>
+  <text x="40" y="1004" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Planmäßig ausgeschlichen wird über mindestens acht bis zwölf Wochen.</text>
+
+  <line x1="40" y1="1040" x2="860" y2="1040" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Lithium ============ -->
+  <text x="40" y="1080" font-family="Georgia, serif" font-size="23" fill="#a3231a">Lithium ist der gefährlichste Fall — und zwar NICHT wegen des Absetzens</text>
+  <text x="40" y="1118" font-family="Georgia, serif" font-size="21" fill="#111">Der Abstand zwischen wirksamer und giftiger Menge ist klein, und der Spiegel</text>
+  <text x="40" y="1144" font-family="Georgia, serif" font-size="21" fill="#111">steigt von allein, wenn dem Körper Wasser fehlt. Genau das bringt eine Notlage</text>
+  <text x="40" y="1170" font-family="Georgia, serif" font-size="21" fill="#111">mit sich: Durchfall, Erbrechen, hohes Fieber, Infektionen, Flüssigkeitsmangel.</text>
+  <text x="40" y="1196" font-family="Georgia, serif" font-size="21" fill="#111">Wer Lithium nimmt und austrocknet, vergiftet sich, ohne die Menge zu ändern.</text>
+
+  <text x="40" y="1236" font-family="Georgia, serif" font-size="21" fill="#a3231a">Zeichen der Vergiftung: unsicherer Stand und Gang · Zittern · Muskelzuckungen ·</text>
+  <text x="40" y="1262" font-family="Georgia, serif" font-size="21" fill="#a3231a">undeutliche Sprache · Verwirrtheit · Müdigkeit. Dann sofort unterbrechen.</text>
+
+  <text x="40" y="1302" font-family="Georgia, serif" font-size="21" fill="#111">Entwässernde Mittel und entzündungshemmende Schmerzmittel treiben den Spiegel</text>
+  <text x="40" y="1328" font-family="Georgia, serif" font-size="21" fill="#111">nach oben. Wer Lithium nimmt, nimmt also nicht ohne Weiteres Ibuprofen.</text>
+
+  <line x1="40" y1="1364" x2="860" y2="1364" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1404" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus den Quellen: Auch für Lithium gilt, dass abruptes</text>
+  <text x="40" y="1428" font-family="Georgia, serif" font-size="19" fill="#111">Weglassen keine Lösung ist. Die Antwort auf beides zugleich — Vergiftungsgefahr bei</text>
+  <text x="40" y="1452" font-family="Georgia, serif" font-size="19" fill="#111">Wassermangel und Rückfallgefahr beim Absetzen — heißt trinken, so gut es geht.</text>
+  <text x="40" y="1478" font-family="Georgia, serif" font-size="19" fill="#a3231a">Keine ärztliche Verordnung. Alle Angaben ohne Gewähr.</text>
+</svg>

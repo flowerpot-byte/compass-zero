@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1520" viewBox="0 0 900 1520">
+  <!-- Zum Tipp "Essbarkeitstest: dreizehn Schritte, ueber einen Tag".
+       Dreizehn Schritte im Fliesstext sind in der Not unbrauchbar: Man
+       verliert die Stelle und faengt in der Mitte an. Deshalb der ganze
+       Ablauf in drei Abschnitten, und der mittlere als Treppe.
+       Die Treppe ist der Teil, an dem es haengt. Im Mund geschieht viererlei
+       hintereinander, und die Reihenfolge ist der Schutz: Lippe, Zunge,
+       Kauen, Schlucken. Wer sie vertauscht oder ueberspringt, hat den Test
+       nicht abgekuerzt, sondern aufgegeben. Als Treppe sieht man, dass jede
+       Stufe auf der vorigen steht.
+       Bewusst KEIN Massstab fuer die Zeit. Acht Stunden und drei Minuten in
+       einer Leiste bedeuten, dass die drei Minuten unsichtbar werden — und
+       genau die drei Minuten an der Lippe sind der erste Schutz.
+       "Eine Viertelstunde" steht so da, wie die Quelle es sagt, und nicht
+       als "15 Minuten". Umrechnen ist schon eine kleine Aenderung.
+       Der Geruch-Satz steht rot und allein, weil er ein Irrtum ist, den
+       viele mitbringen: Riechen ist erlaubt, sagt aber nichts. -->
+  <rect width="900" height="1520" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Essbarkeitstest: dreizehn Schritte, über einen Tag</text>
+
+  <text x="40" y="98" font-family="Georgia, serif" font-size="26" fill="#a3231a">Ein Test, der eine Pflanze in fünf Minuten freigibt,</text>
+  <text x="40" y="130" font-family="Georgia, serif" font-size="26" fill="#a3231a">gibt auch Gift frei.</text>
+  <text x="40" y="166" font-family="Georgia, serif" font-size="21" fill="#111">Das Verfahren ist langsam, und genau das ist sein Sinn.</text>
+
+  <line x1="40" y1="202" x2="860" y2="202" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Vorher ============ -->
+  <text x="40" y="242" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Vorher</text>
+  <text x="40" y="280" font-family="Georgia, serif" font-size="21" fill="#111">· Nur EINEN Teil auf einmal — Blätter, Stängel, Wurzeln, Knospen und</text>
+  <text x="40" y="306" font-family="Georgia, serif" font-size="21" fill="#111">  Blüten einzeln.</text>
+  <text x="40" y="332" font-family="Georgia, serif" font-size="21" fill="#111">· ACHT STUNDEN nichts essen, bevor es losgeht.</text>
+  <text x="40" y="358" font-family="Georgia, serif" font-size="21" fill="#111">· Hautprobe in der Ellenbeuge oder am Handgelenk: eine Viertelstunde</text>
+  <text x="40" y="384" font-family="Georgia, serif" font-size="21" fill="#111">  reicht normalerweise für eine Reaktion.</text>
+  <text x="40" y="410" font-family="Georgia, serif" font-size="21" fill="#111">· Nichts in den Mund außer sauberem Wasser und dem Pflanzenteil.</text>
+  <text x="40" y="436" font-family="Georgia, serif" font-size="21" fill="#111">· Eine kleine Menge so zubereiten, wie du sie essen willst.</text>
+
+  <text x="40" y="476" font-family="Georgia, serif" font-size="21" fill="#a3231a">Riechen darfst du — aber der Geruch sagt NICHT, ob etwas essbar ist.</text>
+
+  <line x1="40" y1="512" x2="860" y2="512" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Treppe im Mund ============ -->
+  <text x="40" y="552" font-family="Georgia, serif" font-size="23" fill="#a3231a">Im Mund: jede Stufe erst nach der vorigen</text>
+  <text x="40" y="588" font-family="Georgia, serif" font-size="21" fill="#111">Weiter nur, wenn nichts brennt, juckt, taubt, sticht oder reizt.</text>
+
+  <rect x="40" y="762" width="195" height="60" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="235" y="722" width="195" height="100" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="430" y="682" width="195" height="140" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="625" y="642" width="195" height="180" fill="#1d6b3a" stroke="#111" stroke-width="3"/>
+
+  <text x="54" y="788" font-family="Georgia, serif" font-size="19" fill="#111">LIPPE außen</text>
+  <text x="54" y="812" font-family="Georgia, serif" font-size="19" fill="#111">drei Minuten</text>
+
+  <text x="249" y="748" font-family="Georgia, serif" font-size="19" fill="#111">ZUNGE, liegen</text>
+  <text x="249" y="772" font-family="Georgia, serif" font-size="19" fill="#111">lassen</text>
+  <text x="249" y="800" font-family="Georgia, serif" font-size="19" fill="#111">eine Viertelstunde</text>
+
+  <text x="444" y="708" font-family="Georgia, serif" font-size="19" fill="#111">KAUEN, im Mund</text>
+  <text x="444" y="732" font-family="Georgia, serif" font-size="19" fill="#111">behalten, NICHT</text>
+  <text x="444" y="756" font-family="Georgia, serif" font-size="19" fill="#111">schlucken</text>
+  <text x="444" y="784" font-family="Georgia, serif" font-size="19" fill="#111">eine Viertelstunde</text>
+
+  <text x="639" y="668" font-family="Georgia, serif" font-size="19" fill="#faf9f6">SCHLUCKEN</text>
+  <text x="639" y="696" font-family="Georgia, serif" font-size="19" fill="#faf9f6">erst wenn in der</text>
+  <text x="639" y="720" font-family="Georgia, serif" font-size="19" fill="#faf9f6">Viertelstunde</text>
+  <text x="639" y="744" font-family="Georgia, serif" font-size="19" fill="#faf9f6">davor nichts</text>
+  <text x="639" y="768" font-family="Georgia, serif" font-size="19" fill="#faf9f6">geschehen ist</text>
+
+  <line x1="40" y1="858" x2="860" y2="858" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Danach ============ -->
+  <text x="40" y="898" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Nach dem Schlucken</text>
+  <text x="40" y="936" font-family="Georgia, serif" font-size="21" fill="#111">ACHT STUNDEN warten. Geht es dir in dieser Zeit schlecht: Erbrechen</text>
+  <text x="40" y="962" font-family="Georgia, serif" font-size="21" fill="#111">herbeiführen und viel Wasser trinken.</text>
+  <text x="40" y="998" font-family="Georgia, serif" font-size="21" fill="#111">Bleibt alles gut: eine VIERTELTASSE desselben Teils, gleich zubereitet —</text>
+  <text x="40" y="1024" font-family="Georgia, serif" font-size="21" fill="#111">und wieder acht Stunden warten. Passiert nichts, ist dieser Teil, so</text>
+  <text x="40" y="1050" font-family="Georgia, serif" font-size="21" fill="#111">zubereitet, sicher.</text>
+
+  <line x1="40" y1="1086" x2="860" y2="1086" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Warnung ============ -->
+  <rect x="40" y="1112" width="820" height="152" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="62" y="1150" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die Warnung, die zum Test gehört</text>
+  <text x="62" y="1186" font-family="Georgia, serif" font-size="21" fill="#111">Jeden Teil einzeln testen — manche Pflanzen haben essbare und</text>
+  <text x="62" y="1212" font-family="Georgia, serif" font-size="21" fill="#111">ungenießbare Teile zugleich. Und was GEKOCHT verträglich war, ist</text>
+  <text x="62" y="1238" font-family="Georgia, serif" font-size="21" fill="#111">deshalb nicht roh verträglich — dann von vorn, roh.</text>
+
+  <text x="40" y="1304" font-family="Georgia, serif" font-size="23" fill="#111">Jeder einzelne Pflanzenteil braucht mehr als 24 Stunden.</text>
+  <text x="40" y="1338" font-family="Georgia, serif" font-size="21" fill="#111">Prüf vorher, ob überhaupt genug davon da ist — eine Pflanze zu testen, die</text>
+  <text x="40" y="1364" font-family="Georgia, serif" font-size="21" fill="#111">selten vorkommt, ist verlorene Zeit.</text>
+
+  <line x1="40" y1="1400" x2="860" y2="1400" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1440" font-family="Georgia, serif" font-size="21" fill="#111">Auch freigegeben: maßvoll essen. Große Mengen Pflanzenkost auf leeren</text>
+  <text x="40" y="1466" font-family="Georgia, serif" font-size="21" fill="#111">Magen machen dünnen Stuhl, Übelkeit oder Krämpfe — auch bei ganz</text>
+  <text x="40" y="1492" font-family="Georgia, serif" font-size="21" fill="#111">vertrauten Dingen wie unreifen Äpfeln und wilden Zwiebeln.</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg width="900" height="480" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif">
+<!-- Tipp: taktisch-baum-faellen, "Einen Baum faellen: die Rueckweiche entscheidet" -->
+<!-- Gezeigter Satz: "ENTFERNUNG GEHT VOR RICHTUNG. Lieber weit weg in eine maessig gute -->
+<!-- Richtung als ein paar Schritte in die beste." Dazu: die Rueckweiche laeuft schraeg -->
+<!-- rueckwaerts, nicht gerade nach hinten und nicht zur Seite, und muss aus dem Bereich -->
+<!-- herausfuehren, ueber den die Krone reicht. -->
+<rect x="0" y="0" width="900" height="480" fill="#faf9f6"/>
+
+<!-- Titel -->
+<text x="450" y="40" text-anchor="middle" font-size="26" font-weight="bold" fill="#111">Einen Baum fällen: die Rückweiche entscheidet</text>
+<text x="450" y="64" text-anchor="middle" font-size="15" fill="#5b7f96">(Blick von oben)</text>
+
+<!-- Kronenbereich -->
+<circle cx="470" cy="260" r="120" fill="none" stroke="#5b7f96" stroke-width="2" stroke-dasharray="7,5"/>
+<line x1="554.9" y1="175.2" x2="615" y2="135" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="4,4"/>
+<text x="625" y="130" font-size="16" fill="#111">Bereich, über den</text>
+<text x="625" y="152" font-size="16" fill="#111">die Krone reicht</text>
+
+<!-- Fallrichtung -->
+<line x1="490" y1="260" x2="636" y2="260" stroke="#111" stroke-width="2.5"/>
+<polygon points="650,260 636,253 636,267" fill="#111"/>
+<text x="570" y="290" text-anchor="middle" font-size="17" fill="#111">Fallrichtung</text>
+
+<!-- nicht gerade nach hinten -->
+<line x1="450" y1="260" x2="355" y2="260" stroke="#5b7f96" stroke-width="2" stroke-dasharray="6,5"/>
+<line x1="344" y1="254" x2="356" y2="266" stroke="#111" stroke-width="2"/>
+<line x1="344" y1="266" x2="356" y2="254" stroke="#111" stroke-width="2"/>
+<text x="335" y="246" text-anchor="end" font-size="16" fill="#111">nicht gerade</text>
+<text x="335" y="266" text-anchor="end" font-size="16" fill="#111">nach hinten</text>
+
+<!-- nicht zur Seite -->
+<line x1="470" y1="240" x2="470" y2="145" stroke="#5b7f96" stroke-width="2" stroke-dasharray="6,5"/>
+<line x1="464" y1="134" x2="476" y2="146" stroke="#111" stroke-width="2"/>
+<line x1="464" y1="146" x2="476" y2="134" stroke="#111" stroke-width="2"/>
+<text x="470" y="120" text-anchor="middle" font-size="16" fill="#111">nicht zur Seite</text>
+
+<!-- Weg A: beste Richtung, aber zu kurz -> bleibt im Kronenbereich (Fehler, gefaehrlich) -->
+<line x1="456" y1="246" x2="413" y2="203" stroke="#111" stroke-width="2.5"/>
+<line x1="406" y1="196" x2="420" y2="210" stroke="#d65a1a" stroke-width="3"/>
+<line x1="406" y1="210" x2="420" y2="196" stroke="#d65a1a" stroke-width="3"/>
+<text x="350" y="145" text-anchor="end" font-size="16" fill="#111">kurz, beste Richtung</text>
+<text x="350" y="165" text-anchor="end" font-size="16" fill="#111">bleibt im Kronenbereich</text>
+
+<!-- Weg B: maessig gute Richtung, aber weit -> fuehrt aus dem Kronenbereich heraus (richtig) -->
+<line x1="455" y1="268" x2="302" y2="376" stroke="#111" stroke-width="2.5"/>
+<polygon points="302,376 317,372 310,363" fill="#111"/>
+<text x="300" y="330" text-anchor="end" font-size="17" fill="#111">weit weg,</text>
+<text x="300" y="352" text-anchor="end" font-size="17" fill="#111">mäßig gute Richtung</text>
+
+<!-- Baum -->
+<circle cx="470" cy="260" r="20" fill="#faf9f6" stroke="#111" stroke-width="2.5"/>
+<circle cx="470" cy="260" r="12" fill="none" stroke="#111" stroke-width="1"/>
+<circle cx="470" cy="260" r="6" fill="none" stroke="#111" stroke-width="1"/>
+<text x="470" y="298" text-anchor="middle" font-size="15" fill="#111">Baum</text>
+
+<!-- Merksatz -->
+<line x1="220" y1="405" x2="680" y2="405" stroke="#5b7f96" stroke-width="1"/>
+<text x="450" y="432" text-anchor="middle" font-size="19" font-weight="bold" fill="#111">ENTFERNUNG GEHT VOR RICHTUNG</text>
+<text x="450" y="457" text-anchor="middle" font-size="16" fill="#5b7f96">Lieber weit weg in eine mäßig gute Richtung als ein paar Schritte in die beste.</text>
+</svg>

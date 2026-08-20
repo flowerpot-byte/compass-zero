@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zum Tipp "nahrung-kerbtiere-essen" (Kaefer, Larven, Heuschrecken).
+
+       GEZEIGTE AUSSAGE: der Text nennt sie selbst als "die eine Regel, die
+       zaehlt" - Kerbtiere mit HARTER Schale (Kaefer, Heuschrecken) HABEN
+       Parasiten und werden gekocht, Weichhaeutige (etwa Larven) kannst du
+       meist roh essen. Das ist eine geometrische Aussage: harte, gegliederte
+       Schale gegen weiche, glatte Haut - deshalb stehen ein hartschaliges
+       Tier und eine weichhaeutige Larve nebeneinander, mit derselben Stelle
+       darunter einmal mit Flamme (Verarbeitung noetig) und einmal leer
+       (nichts noetig). Das ist Form und Abstand, keine Fettschrift.
+
+       Der Text hebt zusaetzlich ausdruecklich hervor, welche Tiere man
+       NICHT nimmt (die stechen oder beissen, behaart oder auffaellig bunt
+       sind). Das ist die Warnung, die laut Auftrag ins Bild MUSS - deshalb
+       unten klein, mit dem einzigen Signalfarb-Zeichen durchgestrichen,
+       waehrend die Regel oben den groessten Teil der Flaeche einnimmt.
+
+       Nicht gezeichnet: die Prozentzahlen (65 bis 80 gegen 20) - das ist
+       eine zweite, eigene Aussage und wuerde die eine gezeigte Aussage
+       verwaessern. -->
+
+  <rect width="900" height="600" fill="#faf9f6"/>
+
+  <text x="40" y="48" font-family="Georgia, serif" font-size="26" fill="#111">Harte Schale: kochen. Weiche Haut: roh.</text>
+  <line x1="40" y1="72" x2="860" y2="72" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="17" fill="#111">Die eine Regel, die bei Käfern, Heuschrecken und Larven zählt:</text>
+
+  <line x1="460" y1="112" x2="460" y2="468" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- ================= LINKS: harte Schale ================= -->
+  <text x="230" y="132" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">HARTE SCHALE</text>
+  <text x="230" y="154" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Käfer, Heuschrecke</text>
+
+  <!-- Kaefer, Seitenansicht: Fluegeldecke mit Naht, Kopf, Fuehler, Beine -->
+  <ellipse cx="230" cy="245" rx="62" ry="36" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+  <line x1="230" y1="209" x2="230" y2="281" stroke="#111" stroke-width="2"/>
+  <circle cx="168" cy="240" r="22" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+  <path d="M150,222 L120,192 L126,188 L156,218 Z" fill="#111"/>
+  <path d="M198,278 L178,322 L188,324 L206,280 Z" fill="#111"/>
+  <path d="M228,281 L222,325 L232,325 L236,281 Z" fill="#111"/>
+  <path d="M258,278 L272,322 L262,324 L250,280 Z" fill="#111"/>
+
+  <line x1="230" y1="332" x2="230" y2="346" stroke="#5b7f96" stroke-width="2"/>
+  <path d="M230,352 L221,340 L239,340 Z" fill="#5b7f96"/>
+
+  <!-- Topf mit Deckel und Dampf: eindeutiger als eine Flamme, die im
+       gerenderten Bild wie ein Blatt aussah. -->
+  <path d="M196,392 L264,392 L258,430 L202,430 Z" fill="#7a5a3e" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="190" y="384" width="80" height="9" rx="4" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <path d="M214,378 C208,370 220,364 214,356" fill="none" stroke="#5b7f96" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M232,378 C226,370 238,364 232,356" fill="none" stroke="#5b7f96" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M250,378 C244,370 256,364 250,356" fill="none" stroke="#5b7f96" stroke-width="2.5" stroke-linecap="round"/>
+
+  <line x1="304" y1="272" x2="266" y2="300" stroke="#5b7f96" stroke-width="1.5"/>
+  <text x="310" y="228" font-family="Georgia, serif" font-size="16" fill="#5b7f96">vorher abmachen:</text>
+  <text x="310" y="248" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Flügel und die Beine</text>
+  <text x="310" y="268" font-family="Georgia, serif" font-size="16" fill="#5b7f96">mit den Widerhaken</text>
+
+  <text x="230" y="452" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">GEKOCHT</text>
+  <text x="230" y="472" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">wegen Parasiten in der Schale</text>
+
+  <!-- ================= RECHTS: weiche Haut ================= -->
+  <text x="665" y="132" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">WEICHHÄUTIG</text>
+  <text x="665" y="154" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">z. B. Larve</text>
+
+  <!-- Larve: glatter, weicher Bogen, kein Panzer, keine Beine -->
+  <path d="M 620,215 Q 660,195 700,215 Q 725,230 705,265 Q 690,285 655,275" fill="none" stroke="#111" stroke-width="46" stroke-linecap="round"/>
+  <path d="M 620,215 Q 660,195 700,215 Q 725,230 705,265 Q 690,285 655,275" fill="none" stroke="#e6e2d6" stroke-width="38" stroke-linecap="round"/>
+  <circle cx="614" cy="217" r="11" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <path d="M645,202 L648,224" stroke="#111" stroke-width="1.5"/>
+  <path d="M676,199 L680,222" stroke="#111" stroke-width="1.5"/>
+  <path d="M705,222 L700,244" stroke="#111" stroke-width="1.5"/>
+
+  <line x1="665" y1="300" x2="665" y2="365" stroke="#5b7f96" stroke-width="2"/>
+  <path d="M665,372 L656,358 L674,358 Z" fill="#5b7f96"/>
+
+  <!-- bewusst leer: kein Verarbeitungs-Zeichen an derselben Stelle wie links -->
+
+  <text x="665" y="452" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">ROH</text>
+  <text x="665" y="472" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">meist ohne Kochen</text>
+
+  <!-- ================= UNTEN: die Warnung, klein ================= -->
+  <line x1="40" y1="490" x2="860" y2="490" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <ellipse cx="85" cy="535" rx="20" ry="13" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+  <circle cx="62" cy="530" r="6" fill="#d9c98a" stroke="#111" stroke-width="2"/>
+  <path d="M72,545 L64,558 L70,559 L78,547 Z" fill="#111"/>
+  <path d="M98,545 L106,558 L100,559 L92,547 Z" fill="#111"/>
+
+  <!-- die einzige Signalstelle -->
+  <circle cx="85" cy="535" r="32" fill="none" stroke="#d65a1a" stroke-width="6"/>
+  <line x1="60" y1="510" x2="110" y2="560" stroke="#d65a1a" stroke-width="6"/>
+
+  <text x="135" y="528" font-family="Georgia, serif" font-size="18" fill="#111">MEIDEN</text>
+  <text x="135" y="550" font-family="Georgia, serif" font-size="16" fill="#111">Was sticht oder beißt, behaart oder auffällig bunt ist.</text>
+</svg>

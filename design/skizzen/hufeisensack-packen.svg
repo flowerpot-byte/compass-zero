@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zu Schritt 8 von seilwerk-schnur-selbst (Hufeisensack, der einfachste
+       Rucksack ohne Naehen). Gezeigte Saetze in drei Spalten:
+       Spalte 1: "Die Sachen an EINEN Rand legen. Harte Gegenstaende dabei
+       POLSTERN" - ein Rand traegt die Sachen, das uebrige Tuch bleibt frei,
+       ein hartes Stueck ist gepolstert dargestellt.
+       Spalte 2: "Das Tuch mit den Sachen zum gegenueberliegenden Rand hin
+       aufrollen" - der flache Umriss (gestrichelt) und die gerollte Scheibe
+       mit Sachen im Kern zeigen die Rollrichtung ueber die volle Laenge.
+       Spalte 3: "BEIDE ENDEN fest abbinden und zusaetzlich mehrmals ueber
+       die Laenge. Eine Schnur zwischen die beiden Enden, und die Rolle wird
+       ueber EINE Schulter getragen" - zwei Bindestellen an den Enden, drei
+       weitere entlang der Rolle, eine Schnurschlaufe ueber einem abstrakten
+       Schulterbalken (keine Menschen gezeichnet).
+       Die Ziffern 1/2/3 sind reine Spaltennummern wie im Schwesterbild
+       rohhaut-spiralschnitt.svg, keine Zahl aus dem Schritt-Text. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+
+  <defs>
+    <marker id="pfeil" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#5b7f96"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#111">Der Hufeisensack: der Rucksack in fünf Minuten</text>
+
+  <!-- ================= SPALTE 1: Sachen auflegen ================= -->
+  <text x="170" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">1 · Sachen auflegen</text>
+
+  <rect x="70" y="110" width="200" height="220" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+
+  <text x="105" y="102" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">Rand mit Sachen</text>
+  <line x1="105" y1="106" x2="105" y2="123" stroke="#111" stroke-width="1.5" marker-end="url(#pfeil)"/>
+
+  <!-- vier Gegenstaende an einem Rand -->
+  <rect x="80" y="128" width="50" height="38" rx="10" fill="#d9d2bd" stroke="#111" stroke-width="2"/>
+  <rect x="80" y="178" width="50" height="38" rx="10" fill="#d9d2bd" stroke="#111" stroke-width="2"/>
+
+  <!-- hartes Stueck: gepolstert -->
+  <rect x="74" y="222" width="62" height="50" rx="18" fill="none" stroke="#5b7f96" stroke-width="3" stroke-dasharray="7 5"/>
+  <rect x="86" y="232" width="38" height="30" rx="3" fill="#b9ae8c" stroke="#111" stroke-width="2"/>
+  <text x="142" y="252" text-anchor="start" font-family="Georgia, serif" font-size="16" fill="#111">gepolstert</text>
+  <line x1="140" y1="248" x2="126" y2="246" stroke="#111" stroke-width="1.5"/>
+
+  <rect x="80" y="278" width="50" height="38" rx="10" fill="#d9d2bd" stroke="#111" stroke-width="2"/>
+
+  <text x="200" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">übriges Tuch</text>
+
+  <text x="60" y="414" font-family="Georgia, serif" font-size="16" fill="#111">Die Sachen an einen Rand</text>
+  <text x="60" y="438" font-family="Georgia, serif" font-size="16" fill="#111">legen. Harte Gegenstände</text>
+  <text x="60" y="462" font-family="Georgia, serif" font-size="16" fill="#111">dabei polstern, sonst</text>
+  <text x="60" y="486" font-family="Georgia, serif" font-size="16" fill="#111">drücken sie später in</text>
+  <text x="60" y="510" font-family="Georgia, serif" font-size="16" fill="#111">die Schulter.</text>
+
+  <!-- ================= SPALTE 2: Aufrollen ================= -->
+  <text x="450" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">2 · Aufrollen</text>
+
+  <rect x="350" y="110" width="200" height="220" fill="none" stroke="#5b7f96" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="500" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">noch flach</text>
+
+  <circle cx="380" cy="220" r="55" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+  <circle cx="380" cy="220" r="14" fill="#b9ae8c" stroke="#111" stroke-width="2"/>
+
+  <text x="380" y="150" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">gerollt</text>
+  <line x1="380" y1="154" x2="380" y2="165" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <text x="380" y="304" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">Sachen im Kern</text>
+  <line x1="380" y1="298" x2="380" y2="238" stroke="#111" stroke-width="1.5"/>
+
+  <path d="M 440,220 L 555,220" fill="none" stroke="#5b7f96" stroke-width="4" marker-end="url(#pfeil)"/>
+  <text x="490" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">Richtung:</text>
+  <text x="490" y="269" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">gegenüberliegender Rand</text>
+
+  <text x="340" y="414" font-family="Georgia, serif" font-size="16" fill="#111">Das Tuch mit den</text>
+  <text x="340" y="438" font-family="Georgia, serif" font-size="16" fill="#111">Sachen zum gegen-</text>
+  <text x="340" y="462" font-family="Georgia, serif" font-size="16" fill="#111">überliegenden Rand</text>
+  <text x="340" y="486" font-family="Georgia, serif" font-size="16" fill="#111">hin aufrollen.</text>
+
+  <!-- ================= SPALTE 3: Enden binden, Schnur ================= -->
+  <text x="730" y="84" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#111">3 · Enden binden, Schnur</text>
+
+  <rect x="620" y="260" width="220" height="40" rx="20" fill="#e6e2d6" stroke="#111" stroke-width="3"/>
+
+  <!-- Bindestellen an beiden Enden -->
+  <g stroke="#111" stroke-width="5" stroke-linecap="round">
+    <line x1="628" y1="254" x2="628" y2="306"/>
+    <line x1="636" y1="254" x2="636" y2="306"/>
+    <line x1="824" y1="254" x2="824" y2="306"/>
+    <line x1="832" y1="254" x2="832" y2="306"/>
+  </g>
+
+  <!-- weitere Bindestellen entlang der Laenge -->
+  <g stroke="#111" stroke-width="4" stroke-linecap="round">
+    <line x1="690" y1="258" x2="690" y2="302"/>
+    <line x1="730" y1="258" x2="730" y2="302"/>
+    <line x1="770" y1="258" x2="770" y2="302"/>
+  </g>
+
+  <!-- Schulterbalken (abstrakt, keine Person) -->
+  <rect x="705" y="140" width="50" height="14" rx="7" fill="none" stroke="#5b7f96" stroke-width="3"/>
+  <text x="730" y="130" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#5b7f96">eine Schulter</text>
+
+  <!-- Schnur zwischen den beiden Enden, ueber den Schulterbalken -->
+  <path d="M 632,254 Q 730,40 828,254" fill="none" stroke="#111" stroke-width="3"/>
+
+  <text x="615" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">Schnur zwischen</text>
+  <text x="615" y="132" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">den Enden</text>
+  <line x1="625" y1="140" x2="655" y2="195" stroke="#111" stroke-width="1.5"/>
+
+  <text x="730" y="318" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">mehrmals über die Länge</text>
+  <line x1="730" y1="314" x2="730" y2="304" stroke="#111" stroke-width="1.5"/>
+
+  <text x="650" y="352" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">beide Enden</text>
+  <line x1="645" y1="347" x2="630" y2="308" stroke="#111" stroke-width="1.5"/>
+
+  <text x="620" y="414" font-family="Georgia, serif" font-size="16" fill="#111">Beide Enden fest</text>
+  <text x="620" y="438" font-family="Georgia, serif" font-size="16" fill="#111">abbinden und mehrmals</text>
+  <text x="620" y="462" font-family="Georgia, serif" font-size="16" fill="#111">über die Länge. Eine</text>
+  <text x="620" y="486" font-family="Georgia, serif" font-size="16" fill="#111">Schnur zwischen den</text>
+  <text x="620" y="510" font-family="Georgia, serif" font-size="16" fill="#111">Enden — getragen über</text>
+  <text x="620" y="534" font-family="Georgia, serif" font-size="16" fill="#111">eine Schulter.</text>
+
+  <line x1="40" y1="562" x2="860" y2="562" stroke="#c9c4b4" stroke-width="2"/>
+  <text x="450" y="588" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">Er sitzt erträglich und kostet nichts außer einer Decke.</text>
+</svg>

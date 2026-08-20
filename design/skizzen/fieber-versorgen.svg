@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1400" viewBox="0 0 900 1400">
+  <!-- Zum Tipp "Fieber: leicht anziehen, lauwarm abwaschen".
+       Der haeufigste Fehler ist hier gut gemeint, und genau deshalb haelt er
+       sich: einpacken, zudecken, warm halten. Das Bild stellt ihm die
+       richtige Handlung direkt gegenueber, statt sie nur zu beschreiben.
+       Der Widerspruch zu "warm halten" wird ausdruecklich benannt, weil er
+       im Paket wirklich besteht: Warmhalten gilt fuer Verletzte und
+       Unterkuehlte, bei Fieber nicht. Ohne diesen Satz wirkt die Sammlung
+       widerspruechlich; mit ihm ist sie es nicht mehr.
+       Die Mitte ist ein MECHANISMUS und deshalb ein Ablauf mit Pfeilen:
+       Kaeltee fuehrt ueber zwei getrennte Wege zum selben Ergebnis, naemlich
+       zu steigendem Fieber. Wer nur "kein kaltes Wasser" liest, haelt es fuer
+       eine Vorsichtsregel. Wer die beiden Wege sieht, versteht, dass kaltes
+       Wasser das Gegenteil bewirkt.
+       Der Schlussteil ist das Zeichen, das regelmaessig falsch gedeutet
+       wird: hohe Temperatur und trotzdem Frieren. Wer jetzt Decken auflegt,
+       hilft dem Anstieg. Das ist der Punkt, an dem der gut gemeinte Fehler
+       von oben tatsaechlich passiert. -->
+  <rect width="900" height="1400" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Fieber: leicht anziehen, lauwarm abwaschen</text>
+
+  <!-- ============ A: der gut gemeinte Fehler ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#a3231a">Der häufigste Fehler ist gut gemeint</text>
+
+  <rect x="90" y="250" width="280" height="14" rx="4" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <circle cx="130" cy="224" r="22" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <rect x="150" y="210" width="210" height="40" rx="16" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="150" y="190" width="210" height="30" rx="14" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <rect x="150" y="170" width="210" height="28" rx="12" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <g stroke="#a3231a" stroke-width="7" fill="none">
+    <circle cx="255" cy="212" r="78"/>
+    <line x1="200" y1="157" x2="310" y2="267"/>
+  </g>
+
+  <rect x="490" y="250" width="280" height="14" rx="4" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <circle cx="530" cy="224" r="22" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <rect x="550" y="228" width="210" height="22" rx="10" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <path d="M 690 186 l 10 14 l 22 -30" fill="none" stroke="#1d6b3a" stroke-width="7" stroke-linecap="round"/>
+
+  <text x="60" y="340" font-family="Georgia, serif" font-size="23" fill="#a3231a">NICHT überwärmen</text>
+  <text x="60" y="372" font-family="Georgia, serif" font-size="21" fill="#111">Keine Schichten von Kleidung</text>
+  <text x="60" y="398" font-family="Georgia, serif" font-size="21" fill="#111">oder Decken.</text>
+
+  <text x="460" y="340" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">LEICHT anziehen</text>
+  <text x="460" y="372" font-family="Georgia, serif" font-size="21" fill="#111">Der Körper will die Wärme</text>
+  <text x="460" y="398" font-family="Georgia, serif" font-size="21" fill="#111">loswerden.</text>
+
+  <text x="40" y="440" font-family="Georgia, serif" font-size="21" fill="#111">Warm halten gilt für Verletzte und Unterkühlte. Bei Fieber gilt es nicht — der</text>
+  <text x="40" y="466" font-family="Georgia, serif" font-size="21" fill="#111">Körper will die Wärme loswerden, und man soll ihn dabei nicht behindern.</text>
+
+  <line x1="40" y1="502" x2="860" y2="502" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die drei Schritte ============ -->
+  <text x="40" y="542" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die drei Schritte</text>
+
+  <g fill="#1d6b3a">
+    <circle cx="60" cy="579" r="17"/><circle cx="60" cy="619" r="17"/><circle cx="60" cy="659" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="586">1</text><text x="60" y="626">2</text><text x="60" y="666">3</text>
+  </g>
+  <text x="88" y="586" font-family="Georgia, serif" font-size="21" fill="#111">Ruhe, und leicht anziehen.</text>
+  <text x="88" y="626" font-family="Georgia, serif" font-size="21" fill="#111">Trinken, um zu ersetzen, was durch das Schwitzen verlorengeht.</text>
+  <text x="88" y="666" font-family="Georgia, serif" font-size="21" fill="#111">Beobachten, ob weitere Beschwerden dazukommen.</text>
+
+  <text x="40" y="710" font-family="Georgia, serif" font-size="21" fill="#111">In vielen Fällen ist gar kein Medikament nötig. Ein fiebersenkendes Mittel wird</text>
+  <text x="40" y="736" font-family="Georgia, serif" font-size="21" fill="#111">gegeben, wenn es der Person wirklich schlecht geht — nicht, weil das Thermometer</text>
+  <text x="40" y="762" font-family="Georgia, serif" font-size="21" fill="#111">eine Zahl anzeigt.</text>
+
+  <line x1="40" y1="798" x2="860" y2="798" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: warum kalt genau das Falsche ist ============ -->
+  <text x="40" y="838" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Abwaschen: lauwarm — und niemals kalt</text>
+
+  <rect x="40" y="890" width="190" height="70" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="135" y="932" font-family="Georgia, serif" font-size="23" fill="#a3231a" text-anchor="middle">kaltes Wasser</text>
+
+  <g stroke="#111" stroke-width="3" fill="none">
+    <path d="M 232 912 L 274 890"/>
+    <path d="M 280 887 l -16 1 M 280 887 l -6 15"/>
+    <path d="M 232 938 L 274 960"/>
+    <path d="M 280 963 l -16 -1 M 280 963 l -6 -15"/>
+  </g>
+
+  <rect x="288" y="856" width="320" height="66" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="306" y="884" font-family="Georgia, serif" font-size="21" fill="#111">Gefäße ziehen sich zusammen,</text>
+  <text x="306" y="910" font-family="Georgia, serif" font-size="21" fill="#111">die Wärme kann nicht weg</text>
+
+  <rect x="288" y="928" width="320" height="66" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="306" y="956" font-family="Georgia, serif" font-size="21" fill="#111">die Person zittert — und</text>
+  <text x="306" y="982" font-family="Georgia, serif" font-size="21" fill="#111">Zittern erzeugt NEUE Wärme</text>
+
+  <g stroke="#111" stroke-width="3" fill="none">
+    <path d="M 610 889 L 650 908"/>
+    <path d="M 656 911 l -16 -2 M 656 911 l -5 -15"/>
+    <path d="M 610 961 L 650 942"/>
+    <path d="M 656 939 l -16 2 M 656 939 l -5 15"/>
+  </g>
+
+  <rect x="664" y="890" width="196" height="70" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="762" y="932" font-family="Georgia, serif" font-size="23" fill="#a3231a" text-anchor="middle">Fieber steigt</text>
+
+  <text x="40" y="1036" font-family="Georgia, serif" font-size="21" fill="#111">Lauwarm abwaschen kann die Temperatur schneller sinken lassen — aber nur,</text>
+  <text x="40" y="1062" font-family="Georgia, serif" font-size="21" fill="#111">solange es der Person nicht unangenehm ist und sie davon nicht friert oder</text>
+  <text x="40" y="1088" font-family="Georgia, serif" font-size="21" fill="#111">zu zittern anfängt. Dasselbe gilt für kalte Wickel und ein kaltes Bad.</text>
+
+  <line x1="40" y1="1124" x2="860" y2="1124" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: das falsch gedeutete Zeichen ============ -->
+  <text x="40" y="1164" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein Zeichen am Anfang wird regelmäßig falsch gedeutet</text>
+  <text x="40" y="1202" font-family="Georgia, serif" font-size="21" fill="#111">Hohe Temperatur und trotzdem: „mir ist kalt“. Zittern, Zähneklappern,</text>
+  <text x="40" y="1228" font-family="Georgia, serif" font-size="21" fill="#111">Gänsehaut. Das ist kein Frieren, das ist das Fieber im Ansteigen. Wer jetzt</text>
+  <text x="40" y="1254" font-family="Georgia, serif" font-size="21" fill="#111">Decken auflegt, hilft dem Anstieg. Besser: abwarten, bis die Phase vorbei ist.</text>
+
+  <text x="40" y="1296" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus der Quelle: Wer fiebert, verliert über Schweiß und</text>
+  <text x="40" y="1320" font-family="Georgia, serif" font-size="19" fill="#111">schnellere Atmung viel mehr Flüssigkeit als sonst — bei knappem Trinkwasser ist das</text>
+  <text x="40" y="1344" font-family="Georgia, serif" font-size="19" fill="#111">der Punkt, der zuerst gefährlich wird. Kleine Mengen häufig. Und Fieber ist kein Grund,</text>
+  <text x="40" y="1368" font-family="Georgia, serif" font-size="19" fill="#111">das Essen wegzulassen: Der Körper verbraucht in dieser Zeit mehr, nicht weniger.</text>
+</svg>

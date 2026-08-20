@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1516" viewBox="0 0 900 1516">
+  <!-- Zum Tipp "Abgelaufene Medikamente: was noch wirkt und was nicht".
+       Der Tipp hat eine Bauform, die als Fliesstext schwer zu halten ist: Er
+       gibt ZWEI Antworten, die beide richtig sind, weil sie verschiedene
+       Fragen beantworten. Nebeneinandergestellt sieht man sofort, dass das
+       kein Widerspruch ist, sondern eine Fallunterscheidung.
+       Die Zahlen aus der zwanzigjaehrigen Untersuchung stehen gross, weil
+       sie das Einzige sind, was in einer Lage ohne Nachschub eine
+       Entscheidung traegt. Direkt darunter steht rot der Vorbehalt, ohne den
+       diese Zahlen zu einer Erlaubnis wuerden: Die Spanne war sehr gross,
+       fuer die einzelne Packung verspricht niemand etwas.
+       Die Rangfolge haengt an der FORM und nicht am Wirkstoff. Das ist der
+       nuetzlichste Satz des Tipps und im Text leicht zu ueberlesen, weil er
+       zwischen Beispielen steht.
+       Die drei Faelle darunter sind keine Untergruppe der Rangfolge, sondern
+       Ausnahmen von der ganzen Fragestellung: Dort ist das Alter nicht das
+       Problem. Deshalb eigene Zeile je Fall.
+       Am Schluss die Pruefung, die ueberhaupt nichts mit dem Datum zu tun
+       hat, und die Lagerung, die die guten Zahlen erst erklaert. -->
+  <rect width="900" height="1516" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Abgelaufene Medikamente: was noch wirkt</text>
+
+  <!-- ============ A: zwei Antworten ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zwei Antworten, beide richtig — sie beantworten verschiedene Fragen</text>
+
+  <rect x="40" y="130" width="400" height="140" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="62" y="168" font-family="Georgia, serif" font-size="23" fill="#111">Solange es Ersatz gibt</text>
+  <text x="62" y="204" font-family="Georgia, serif" font-size="21" fill="#111">Nach dem Datum gibt es keine</text>
+  <text x="62" y="230" font-family="Georgia, serif" font-size="21" fill="#111">Garantie mehr. Dann wird es</text>
+  <text x="62" y="256" font-family="Georgia, serif" font-size="21" fill="#111">nicht benutzt.</text>
+
+  <rect x="460" y="130" width="400" height="140" rx="10" fill="none" stroke="#1d6b3a" stroke-width="3"/>
+  <text x="482" y="168" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ohne Nachschub</text>
+  <text x="482" y="204" font-family="Georgia, serif" font-size="21" fill="#111">Die Frage lautet nicht: ist es</text>
+  <text x="482" y="230" font-family="Georgia, serif" font-size="21" fill="#111">garantiert gut, sondern: ist es</text>
+  <text x="482" y="256" font-family="Georgia, serif" font-size="21" fill="#111">besser als nichts.</text>
+
+  <line x1="40" y1="306" x2="860" y2="306" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die Zahlen ============ -->
+  <text x="40" y="346" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zwanzig Jahre Prüfung — 122 Mittel, gut 3000 Chargen</text>
+
+  <text x="40" y="406" font-family="Georgia, serif" font-size="34" fill="#a3231a">88 von 100</text>
+  <text x="40" y="442" font-family="Georgia, serif" font-size="19" fill="#111">Chargen ließen sich um</text>
+  <text x="40" y="466" font-family="Georgia, serif" font-size="19" fill="#111">mindestens ein Jahr</text>
+  <text x="40" y="490" font-family="Georgia, serif" font-size="19" fill="#111">verlängern</text>
+
+  <text x="320" y="406" font-family="Georgia, serif" font-size="34" fill="#a3231a">66 Monate</text>
+  <text x="320" y="442" font-family="Georgia, serif" font-size="19" fill="#111">im Mittel — also</text>
+  <text x="320" y="466" font-family="Georgia, serif" font-size="19" fill="#111">fünfeinhalb Jahre</text>
+
+  <text x="600" y="406" font-family="Georgia, serif" font-size="34" fill="#a3231a">keine einzige</text>
+  <text x="600" y="442" font-family="Georgia, serif" font-size="19" fill="#111">der später durchgefallenen</text>
+  <text x="600" y="466" font-family="Georgia, serif" font-size="19" fill="#111">Chargen versagte im ersten</text>
+  <text x="600" y="490" font-family="Georgia, serif" font-size="19" fill="#111">Jahr nach dem Datum</text>
+
+  <text x="40" y="536" font-family="Georgia, serif" font-size="21" fill="#a3231a">Die Spanne war aber sehr groß. Ohne Laborprüfung lässt sich für die einzelne</text>
+  <text x="40" y="562" font-family="Georgia, serif" font-size="21" fill="#a3231a">Packung nichts versprechen. Genau deshalb sagt die Behörde öffentlich, was sie sagt.</text>
+
+  <line x1="40" y1="598" x2="860" y2="598" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: die Rangfolge nach Form ============ -->
+  <text x="40" y="638" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Rangfolge hängt an der FORM, nicht am Wirkstoff</text>
+
+  <rect x="40" y="670" width="400" height="200" rx="10" fill="none" stroke="#1d6b3a" stroke-width="3"/>
+  <text x="62" y="708" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">GUT</text>
+  <text x="62" y="744" font-family="Georgia, serif" font-size="21" fill="#111">Tabletten und Kapseln, trocken</text>
+  <text x="62" y="770" font-family="Georgia, serif" font-size="21" fill="#111">und kühl gelagert — die Form,</text>
+  <text x="62" y="796" font-family="Georgia, serif" font-size="21" fill="#111">die in der Untersuchung am</text>
+  <text x="62" y="822" font-family="Georgia, serif" font-size="21" fill="#111">besten abschnitt.</text>
+
+  <rect x="460" y="670" width="400" height="200" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="482" y="708" font-family="Georgia, serif" font-size="23" fill="#a3231a">SCHLECHT, und zwar auffallend</text>
+  <text x="482" y="744" font-family="Georgia, serif" font-size="21" fill="#111">Sprays und Inhalatoren fielen</text>
+  <text x="482" y="770" font-family="Georgia, serif" font-size="21" fill="#111">durch die Bank durch — die</text>
+  <text x="482" y="796" font-family="Georgia, serif" font-size="21" fill="#111">Gruppe mit den meisten</text>
+  <text x="482" y="822" font-family="Georgia, serif" font-size="21" fill="#111">Fehlschlägen. Lösungen zum</text>
+  <text x="482" y="848" font-family="Georgia, serif" font-size="21" fill="#111">Spritzen fast ebenso schlecht.</text>
+
+  <line x1="40" y1="906" x2="860" y2="906" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: wo das Alter nicht das Problem ist ============ -->
+  <text x="40" y="946" font-family="Georgia, serif" font-size="23" fill="#a3231a">Drei, bei denen das Alter nicht das eigentliche Problem ist</text>
+
+  <text x="40" y="990" font-family="Georgia, serif" font-size="23" fill="#a3231a">Antibiotika</text>
+  <text x="280" y="990" font-family="Georgia, serif" font-size="21" fill="#111">Ein zu schwaches Antibiotikum heilt nicht und züchtet</text>
+  <text x="280" y="1016" font-family="Georgia, serif" font-size="21" fill="#111">widerstandsfähige Keime. Schlimmer als nicht behandeln.</text>
+
+  <text x="40" y="1058" font-family="Georgia, serif" font-size="23" fill="#a3231a">Flüssiges,</text>
+  <text x="40" y="1084" font-family="Georgia, serif" font-size="23" fill="#a3231a">Angebrochenes</text>
+  <text x="280" y="1058" font-family="Georgia, serif" font-size="21" fill="#111">Augentropfen, Säfte: Hier ist die Gefahr das Keimwachstum,</text>
+  <text x="280" y="1084" font-family="Georgia, serif" font-size="21" fill="#111">nicht die nachlassende Wirkung.</text>
+
+  <text x="40" y="1126" font-family="Georgia, serif" font-size="23" fill="#a3231a">Insulin</text>
+  <text x="280" y="1126" font-family="Georgia, serif" font-size="21" fill="#111">folgt eigenen Regeln, die vom Datum unabhängig sind.</text>
+
+  <line x1="40" y1="1170" x2="860" y2="1170" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ E: die Pruefung ohne Datum ============ -->
+  <text x="40" y="1210" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Worauf man statt auf das Datum schaut</text>
+  <text x="40" y="1248" font-family="Georgia, serif" font-size="21" fill="#111">Aussehen, Geruch oder Farbe verändert · Tablette bröckelt · Lösung trüb oder</text>
+  <text x="40" y="1274" font-family="Georgia, serif" font-size="21" fill="#111">mit Flocken · Packung aufgeblasen oder undicht:</text>
+  <text x="40" y="1306" font-family="Georgia, serif" font-size="23" fill="#a3231a">dann weg, ganz gleich was das Datum sagt.</text>
+
+  <text x="40" y="1348" font-family="Georgia, serif" font-size="21" fill="#111">Die guten Ergebnisse stammen aus ordentlichen Lagern, nicht aus einem</text>
+  <text x="40" y="1374" font-family="Georgia, serif" font-size="21" fill="#111">Badezimmerschrank. Kühl, trocken und dunkel hält erheblich länger als über der</text>
+  <text x="40" y="1400" font-family="Georgia, serif" font-size="21" fill="#111">Heizung oder neben der Dusche.</text>
+
+  <text x="40" y="1442" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus den Quellen: Wer rationieren muss, verteilt nicht</text>
+  <text x="40" y="1466" font-family="Georgia, serif" font-size="19" fill="#111">die Menge, sondern entscheidet, WOFÜR der Rest noch reicht. Ein halb dosiertes</text>
+  <text x="40" y="1490" font-family="Georgia, serif" font-size="19" fill="#111">Antibiotikum ist kein halber Nutzen, sondern gar keiner.</text>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="880" viewBox="0 0 900 880">
+  <!-- Zum Tipp "Notgeburt: wenn das Baby kommt".
+       Zwei Bildkerne.
+       ERSTENS das Kissen unter der RECHTEN Huefte: Die Quelle nennt es einen
+       Handgriff, der nichts kostet und den fast niemand kennt — so drueckt das
+       Kind nicht auf wichtige Blutgefaesse. Aufsicht, damit die Seite
+       eindeutig ist; die Seitenmarkierung steht wie in der Bauchschmerz-Karte
+       ausdruecklich dabei, weil rechts die Seite der FRAU meint.
+       ZWEITENS die vier Verbote, die in der Leitlinie unter einer eigenen
+       Warnung stehen. Vier Saetze im Fliesstext werden ueberlesen; vier
+       durchgestrichene Zeilen nicht.
+       Der Satz "Neugeborene sind glitschig" steht so nuechtern in der Quelle,
+       dass man ihn ueberliest — deshalb als eigene Fusszeile. -->
+  <rect width="900" height="880" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Notgeburt: Haltung, vier Verbote, das stille Baby</text>
+
+  <!-- ============ A: die Haltung ============ -->
+  <text x="40" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Haltung: aufrecht ist besser</text>
+
+  <!-- aufrecht -->
+  <line x1="60" y1="260" x2="200" y2="260" stroke="#111" stroke-width="4"/>
+  <circle cx="104" cy="146" r="20" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="86" y="168" width="38" height="58" rx="17" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="11" stroke-linecap="round">
+    <line x1="94" y1="226" x2="80" y2="258"/>
+    <line x1="116" y1="226" x2="132" y2="258"/>
+  </g>
+  <text x="60" y="292" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">aufrecht</text>
+
+  <!-- liegend, Aufsicht -->
+  <text x="248" y="128" font-family="Georgia, serif" font-size="19" fill="#111">RECHTS</text>
+  <text x="366" y="128" font-family="Georgia, serif" font-size="19" fill="#c9c4b4">LINKS</text>
+  <circle cx="322" cy="164" r="20" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="288" y="188" width="70" height="76" rx="20" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="292" y="264" width="26" height="52" rx="12" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="330" y="264" width="26" height="52" rx="12" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Kissen unter der rechten Huefte -->
+  <rect x="262" y="234" width="34" height="30" rx="10" fill="#e8eef2" stroke="#d65a1a" stroke-width="4"/>
+  <line x1="264" y1="240" x2="232" y2="226" stroke="#d65a1a" stroke-width="2"/>
+  <text x="224" y="232" font-family="Georgia, serif" font-size="21" fill="#d65a1a" text-anchor="end">Kissen</text>
+
+  <text x="40" y="336" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Liegt sie lieber: ein kleines Kissen unter</text>
+  <text x="40" y="362" font-family="Georgia, serif" font-size="21" fill="#d65a1a">die RECHTE Hüfte — so drückt das Kind</text>
+  <text x="40" y="388" font-family="Georgia, serif" font-size="21" fill="#d65a1a">nicht auf wichtige Blutgefäße.</text>
+  <text x="40" y="416" font-family="Georgia, serif" font-size="21" fill="#111">Kostet nichts und kennt fast niemand.</text>
+
+  <line x1="446" y1="110" x2="446" y2="412" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die vier Verbote ============ -->
+  <text x="470" y="94" font-family="Georgia, serif" font-size="23" fill="#d65a1a">Vier Dinge auf keinen Fall</text>
+
+  <g stroke="#d65a1a" stroke-width="5" fill="none">
+    <circle cx="492" cy="140" r="17"/><line x1="480" y1="128" x2="504" y2="152"/>
+    <circle cx="492" cy="204" r="17"/><line x1="480" y1="192" x2="504" y2="216"/>
+    <circle cx="492" cy="268" r="17"/><line x1="480" y1="256" x2="504" y2="280"/>
+    <circle cx="492" cy="332" r="17"/><line x1="480" y1="320" x2="504" y2="344"/>
+  </g>
+  <text x="524" y="147" font-family="Georgia, serif" font-size="21" fill="#111">Nicht an Kopf und Schultern ziehen.</text>
+  <text x="524" y="199" font-family="Georgia, serif" font-size="21" fill="#111">Nicht auf den Bauch der Frau drücken —</text>
+  <text x="524" y="225" font-family="Georgia, serif" font-size="21" fill="#111">weder währenddessen noch danach.</text>
+  <text x="524" y="275" font-family="Georgia, serif" font-size="21" fill="#111">Nicht an der Nabelschnur ziehen.</text>
+  <text x="524" y="327" font-family="Georgia, serif" font-size="21" fill="#111">Liegt die Schnur um den Hals: nicht</text>
+  <text x="524" y="353" font-family="Georgia, serif" font-size="21" fill="#111">reißen. Prüfen, ob sie locker ist, und</text>
+  <text x="524" y="379" font-family="Georgia, serif" font-size="21" fill="#111">vorsichtig über den Kopf streifen.</text>
+
+  <line x1="40" y1="440" x2="860" y2="440" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: ist das Baby da ============ -->
+  <text x="40" y="482" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ist das Baby da</text>
+
+  <!-- Mutter halb sitzend, Baby auf der Brust -->
+  <line x1="60" y1="640" x2="410" y2="640" stroke="#111" stroke-width="4"/>
+  <path d="M 96 640 L 176 640 L 176 580 Z" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <rect x="126" y="562" width="120" height="42" rx="19" fill="#c9c4b4" stroke="#111" stroke-width="4" transform="rotate(-22 186 584)"/>
+  <circle cx="116" cy="552" r="20" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="244" y="608" width="120" height="30" rx="14" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Baby -->
+  <rect x="150" y="536" width="60" height="34" rx="16" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <circle cx="146" cy="542" r="14" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <path d="M 134 532 q 14 -12 26 -2" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="212" y1="540" x2="252" y2="516" stroke="#111" stroke-width="2"/>
+  <text x="260" y="510" font-family="Georgia, serif" font-size="21" fill="#111">Haut an Haut auf</text>
+  <text x="260" y="536" font-family="Georgia, serif" font-size="21" fill="#111">Brust oder Bauch:</text>
+  <text x="260" y="562" font-family="Georgia, serif" font-size="21" fill="#111">die beste Wärme-</text>
+  <text x="260" y="588" font-family="Georgia, serif" font-size="21" fill="#111">quelle, die es gibt</text>
+
+  <text x="40" y="676" font-family="Georgia, serif" font-size="21" fill="#111">Abtrocknen, in ein sauberes Tuch</text>
+  <text x="40" y="702" font-family="Georgia, serif" font-size="21" fill="#111">wickeln und den KOPF MIT BEDECKEN —</text>
+  <text x="40" y="728" font-family="Georgia, serif" font-size="21" fill="#111">darüber verliert ein Neugeborenes am</text>
+  <text x="40" y="754" font-family="Georgia, serif" font-size="21" fill="#111">meisten Wärme. Die Mutter ebenfalls</text>
+  <text x="40" y="780" font-family="Georgia, serif" font-size="21" fill="#111">warm halten. Danach BEIDE prüfen:</text>
+  <text x="40" y="806" font-family="Georgia, serif" font-size="21" fill="#111">Ansprechbarkeit, Atmung, Blutverlust.</text>
+
+  <line x1="446" y1="462" x2="446" y2="800" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: bleibt es still ============ -->
+  <text x="470" y="482" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wenn das Baby still bleibt</text>
+
+  <text x="470" y="522" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Ein schreiendes Baby ist ein gutes Zeichen.</text>
+
+  <g fill="#111">
+    <circle cx="482" cy="562" r="7"/>
+    <circle cx="482" cy="616" r="7"/>
+    <circle cx="482" cy="670" r="7"/>
+  </g>
+  <text x="502" y="570" font-family="Georgia, serif" font-size="21" fill="#111">Kräftig trocken reiben.</text>
+  <text x="502" y="624" font-family="Georgia, serif" font-size="21" fill="#111">An die FUSSSOHLEN klopfen.</text>
+  <text x="502" y="678" font-family="Georgia, serif" font-size="21" fill="#111">Reagiert es weiter nicht: Atemwege öffnen</text>
+  <text x="502" y="704" font-family="Georgia, serif" font-size="21" fill="#111">und Atmung prüfen.</text>
+
+  <text x="470" y="750" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Atmet es nicht normal — Schnappatmung,</text>
+  <text x="470" y="776" font-family="Georgia, serif" font-size="21" fill="#d65a1a">unregelmäßig oder gar nicht —, kommt es auf</text>
+  <text x="470" y="802" font-family="Georgia, serif" font-size="21" fill="#d65a1a">eine feste Unterlage und wird wiederbelebt.</text>
+
+  <line x1="40" y1="824" x2="860" y2="824" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="40" y="858" font-family="Georgia, serif" font-size="23" fill="#d65a1a">Neugeborene sind glitschig. Sehr vorsichtig — und den Kopf stützen.</text>
+</svg>

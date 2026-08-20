@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1570" viewBox="0 0 900 1570">
+  <!-- Zum Tipp "Fieber: ab wann es gefaehrlich wird".
+       Der entlastende Satz steht oben und in einem gruenen Kasten, weil er
+       in der Leitlinie ausdruecklich zuerst kommt: Fieber ist eine normale
+       Antwort und meist nicht schaedlich. Wer mit Angst liest, liest die
+       Warnzeichen falsch.
+       Die Leiste traegt NUR die zwei Marken, die im Text stehen — 38 und 39.
+       Beide Enden sind offen: links ohne Zahl, rechts mit Pfeil. Ein
+       beschriftetes Achsenende waere eine erfundene Grenze, und nach oben
+       nennt die Quelle keine.
+       Der Satz "Gefaehrlich ist nicht die Zahl allein, sondern was
+       danebensteht" ist der Kern und steht deshalb gross ueber der Liste.
+       Die erste und die fuenfte Begleiterscheinung stehen rot, weil die
+       Quelle sie eigens zusammen erklaert: Fieber mit Ausschlag und Fieber
+       mit Lichtscheu plus Erbrechen sind die Hirnhaut-Muster.
+       Die letzte Frist steht gruen und in ganzer Laenge, weil sie etwas
+       erlaubt, was Menschen sich selten zugestehen: Das eigene Unbehagen
+       ist ein zulaessiger Grund, Hilfe zu holen. -->
+  <rect width="900" height="1570" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Fieber: ab wann es gefährlich wird</text>
+
+  <rect x="40" y="76" width="820" height="128" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <text x="62" y="120" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Fieber ist eine normale und häufige Antwort des Körpers</text>
+  <text x="62" y="152" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">auf eine Infektion — meist nicht schädlich.</text>
+  <text x="62" y="188" font-family="Georgia, serif" font-size="21" fill="#111">Es ist ein Zeichen, dass die Abwehr arbeitet, kein Feind für sich.</text>
+
+  <line x1="40" y1="240" x2="860" y2="240" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Leiste ============ -->
+  <text x="40" y="280" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zur Zahl selbst</text>
+
+  <g font-family="Georgia, serif" font-size="19" text-anchor="middle">
+    <text x="244" y="306" fill="#111">kein Fieber</text>
+    <text x="460" y="306" fill="#111">Fieber</text>
+    <text x="676" y="306" fill="#d65a1a">genauer hinsehen</text>
+  </g>
+  <rect x="100" y="320" width="288" height="50" fill="#e8eef2" stroke="#111" stroke-width="2"/>
+  <rect x="388" y="320" width="144" height="50" fill="#f2ece2" stroke="#111" stroke-width="2"/>
+  <rect x="532" y="320" width="288" height="50" fill="#d65a1a" stroke="#111" stroke-width="2"/>
+
+  <line x1="100" y1="384" x2="856" y2="384" stroke="#111" stroke-width="2"/>
+  <polygon points="856,378 872,384 856,390" fill="#111"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="388" y1="384" x2="388" y2="394"/><line x1="532" y1="384" x2="532" y2="394"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="388" y="416">38</text><text x="532" y="416">39</text>
+  </g>
+  <text x="100" y="444" font-family="Georgia, serif" font-size="19" fill="#111">Grad — nach rechts ohne Ende</text>
+
+  <text x="40" y="484" font-family="Georgia, serif" font-size="21" fill="#111">Von Fieber spricht man ab 38 Grad. Über 39 kann es schädlich sein und auf</text>
+  <text x="40" y="510" font-family="Georgia, serif" font-size="21" fill="#111">eine ernste Infektion hinweisen — das ist die Schwelle, ab der man genauer</text>
+  <text x="40" y="536" font-family="Georgia, serif" font-size="21" fill="#111">hinsieht, nicht die, ab der jemand stirbt.</text>
+
+  <line x1="40" y1="572" x2="860" y2="572" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Was danebensteht ============ -->
+  <text x="40" y="616" font-family="Georgia, serif" font-size="26" fill="#a3231a">Gefährlich ist nicht die Zahl allein, sondern was danebensteht.</text>
+  <text x="40" y="652" font-family="Georgia, serif" font-size="21" fill="#111">Sechs Begleiterscheinungen — bei jeder davon sofort Hilfe holen, Notruf 112:</text>
+
+  <text x="40" y="692" font-family="Georgia, serif" font-size="21" fill="#a3231a">1. ein AUSSCHLAG</text>
+  <text x="40" y="718" font-family="Georgia, serif" font-size="21" fill="#111">2. Veränderung im Wachheitszustand — Verwirrtheit, Benommenheit,</text>
+  <text x="40" y="744" font-family="Georgia, serif" font-size="21" fill="#111">    ungewöhnliches Verhalten</text>
+  <text x="40" y="770" font-family="Georgia, serif" font-size="21" fill="#111">3. Atemnot</text>
+  <text x="40" y="796" font-family="Georgia, serif" font-size="21" fill="#111">4. starke Bauchschmerzen</text>
+  <text x="40" y="822" font-family="Georgia, serif" font-size="21" fill="#a3231a">5. LICHTEMPFINDLICHKEIT zusammen mit Erbrechen</text>
+  <text x="40" y="848" font-family="Georgia, serif" font-size="21" fill="#111">6. die Zeichen eines Schocks</text>
+
+  <text x="40" y="888" font-family="Georgia, serif" font-size="21" fill="#a3231a">Die erste und die fünfte gehören zusammen gelesen: Fieber mit Ausschlag,</text>
+  <text x="40" y="914" font-family="Georgia, serif" font-size="21" fill="#a3231a">und Fieber mit Lichtscheu und Erbrechen, sind die Muster, bei denen an eine</text>
+  <text x="40" y="940" font-family="Georgia, serif" font-size="21" fill="#a3231a">Hirnhautentzündung zu denken ist.</text>
+
+  <line x1="40" y1="976" x2="860" y2="976" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1016" font-family="Georgia, serif" font-size="23" fill="#a3231a">Menschen, bei denen Fieber früher ernst wird</text>
+  <text x="40" y="1054" font-family="Georgia, serif" font-size="21" fill="#111">· ein Baby unter DREI MONATEN — immer und sofort, ohne Wenn und Aber</text>
+  <text x="40" y="1080" font-family="Georgia, serif" font-size="21" fill="#111">· ein Kind mit über 39 Grad</text>
+  <text x="40" y="1106" font-family="Georgia, serif" font-size="21" fill="#111">· jeder Mensch über 65</text>
+  <text x="40" y="1132" font-family="Georgia, serif" font-size="21" fill="#111">· jeder mit Krebserkrankung, geschwächter Abwehr, Sichelzellkrankheit oder</text>
+  <text x="40" y="1158" font-family="Georgia, serif" font-size="21" fill="#111">  Medikamenten, die die Abwehr beeinflussen</text>
+
+  <line x1="40" y1="1194" x2="860" y2="1194" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1234" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zwei Fristen, die man sich merken kann</text>
+  <text x="40" y="1272" font-family="Georgia, serif" font-size="23" fill="#111">Fieber, das trotz Behandlung nicht sinkt · Fieber länger als drei Tage</text>
+
+  <text x="40" y="1314" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Und wörtlich: wenn zusätzliche Beschwerden auftreten, die</text>
+  <text x="40" y="1342" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">einem Sorgen machen. Das eigene Unbehagen ist</text>
+  <text x="40" y="1370" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">ausdrücklich ein zulässiger Grund.</text>
+
+  <line x1="40" y1="1406" x2="860" y2="1406" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1446" font-family="Georgia, serif" font-size="21" fill="#111">Bei Kindern kann hohes Fieber einen Krampfanfall auslösen, weil ihr Körper</text>
+  <text x="40" y="1472" font-family="Georgia, serif" font-size="21" fill="#111">die Temperatur noch nicht gut regeln kann. Ein solcher Anfall KANN auf eine</text>
+  <text x="40" y="1498" font-family="Georgia, serif" font-size="21" fill="#111">ernstere Infektion hinweisen — häufig ist er aber nur die Folge des Anstiegs.</text>
+  <text x="40" y="1534" font-family="Georgia, serif" font-size="21" fill="#111">Und je nach Gegend: Wo Malaria vorkommt, soll auch ein Fieber OHNE weitere</text>
+  <text x="40" y="1560" font-family="Georgia, serif" font-size="21" fill="#111">Beschwerden ärztlich angesehen werden.</text>
+</svg>

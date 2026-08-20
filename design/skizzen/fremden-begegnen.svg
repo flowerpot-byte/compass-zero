@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1358" viewBox="0 0 900 1358">
+  <!-- Zum Tipp "Fremden begegnen: einer nach dem anderen".
+       Der Tipp hat einen Handgriff, an dem alles haengt, und er steht im
+       Fliesstext mitten im Absatz: Warte, bis nur EINE Person in der Naehe
+       ist. Im Bild steht er in der groessten Schrift und allein, mit der
+       Begruendung darunter — eine Gruppe entscheidet anders als ein Mensch.
+       Bewusst OHNE Sinnbild fuer Gruppe gegen Einzelnen. Fuenf Kreise gegen
+       einen Kreis sagen nichts, was der Satz nicht schon sagt; das waere
+       Schmuck und kein Bild.
+       Die drei Dinge, die Angst machen, stehen zusammen, weil die Quelle sie
+       zusammen nennt und weil der Grund derselbe ist: Wer Angst macht,
+       bekommt eine feindselige Antwort, nicht aus Boesheit, sondern aus
+       Notwehr.
+       "Zahl nicht zu viel" steht rot, weil es der Satz ist, den niemand
+       erwartet: Grosszuegigkeit ist hier gefaehrlich, nicht gut. -->
+  <rect width="900" height="1358" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Fremden begegnen: einer nach dem anderen</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">In einer langen Krise trifft man auf andere. Ob daraus Hilfe wird oder Gewalt,</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">entscheidet sich in den ersten Minuten — und meistens am Verhalten dessen,</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">der zuerst da ist.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="224" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zuerst beobachten, dann entscheiden</text>
+  <text x="40" y="262" font-family="Georgia, serif" font-size="21" fill="#111">Solange unklar ist, ob sie freundlich oder feindselig sind, gilt: kein Kontakt</text>
+  <text x="40" y="288" font-family="Georgia, serif" font-size="21" fill="#111">und keine Spur der eigenen Anwesenheit hinterlassen. Erst wenn du nach ruhiger</text>
+  <text x="40" y="314" font-family="Georgia, serif" font-size="21" fill="#111">Beobachtung zu dem Schluss kommst, dass sie friedlich sind — und wenn du ihre</text>
+  <text x="40" y="340" font-family="Georgia, serif" font-size="21" fill="#111">Hilfe wirklich brauchst —, gehst du hin.</text>
+
+  <line x1="40" y1="376" x2="860" y2="376" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Der eine Handgriff ============ -->
+  <text x="40" y="424" font-family="Georgia, serif" font-size="26" fill="#a3231a">Warte, bis nur eine einzige Person in der Nähe ist.</text>
+  <text x="40" y="458" font-family="Georgia, serif" font-size="23" fill="#111">Und lass, wenn es geht, diese Person den ersten Schritt tun.</text>
+
+  <text x="40" y="498" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Eine Gruppe muss sich voreinander behaupten und entscheidet anders als ein</text>
+  <text x="40" y="524" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Mensch allein. Ein Einzelner, der einem Bedürftigen gegenübersteht, hilft in</text>
+  <text x="40" y="550" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">den allermeisten Fällen.</text>
+
+  <line x1="40" y1="586" x2="860" y2="586" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Was Angst macht ============ -->
+  <text x="40" y="626" font-family="Georgia, serif" font-size="23" fill="#a3231a">Was Angst macht — und damit Gefahr erzeugt</text>
+  <text x="40" y="664" font-family="Georgia, serif" font-size="21" fill="#111">· Furcht zeigen</text>
+  <text x="40" y="690" font-family="Georgia, serif" font-size="21" fill="#111">· Waffen zeigen</text>
+  <text x="40" y="716" font-family="Georgia, serif" font-size="21" fill="#111">· plötzliche oder bedrohliche Bewegungen</text>
+  <text x="40" y="756" font-family="Georgia, serif" font-size="21" fill="#111">Wer dem anderen Angst macht, bekommt eine feindselige Antwort — nicht weil</text>
+  <text x="40" y="782" font-family="Georgia, serif" font-size="21" fill="#111">der andere böse ist, sondern weil er sich wehrt.</text>
+
+  <line x1="40" y1="818" x2="860" y2="818" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Was stattdessen ============ -->
+  <text x="40" y="858" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was stattdessen gilt</text>
+  <text x="40" y="896" font-family="Georgia, serif" font-size="21" fill="#111">Freundlich, höflich, geduldig. Langsam herangehen. Lächeln, so oft es geht.</text>
+  <text x="40" y="922" font-family="Georgia, serif" font-size="21" fill="#111">Und den Kontakt nicht überstürzen: Viele Menschen sind scheu, wirken</text>
+  <text x="40" y="948" font-family="Georgia, serif" font-size="21" fill="#111">unnahbar oder tun, als bemerkten sie einen nicht. Das ist kein Zeichen von</text>
+  <text x="40" y="974" font-family="Georgia, serif" font-size="21" fill="#111">Feindseligkeit, sondern von Vorsicht.</text>
+
+  <line x1="40" y1="1010" x2="860" y2="1010" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Beim Tauschen ============ -->
+  <text x="40" y="1050" font-family="Georgia, serif" font-size="23" fill="#a3231a">Beim Tauschen: zahl nicht zu viel.</text>
+  <text x="40" y="1084" font-family="Georgia, serif" font-size="21" fill="#111">Wer zu viel gibt, bringt den anderen in Verlegenheit — und sich selbst in</text>
+  <text x="40" y="1110" font-family="Georgia, serif" font-size="21" fill="#111">Gefahr, weil er zeigt, dass er mehr hat. Kleine, unauffällige Dinge sind die</text>
+  <text x="40" y="1136" font-family="Georgia, serif" font-size="21" fill="#111">besseren Tauschmittel: Salz, Tabak, Münzen. Und sie werden unauffällig</text>
+  <text x="40" y="1162" font-family="Georgia, serif" font-size="21" fill="#111">hervorgeholt, nicht ausgebreitet.</text>
+
+  <line x1="40" y1="1198" x2="860" y2="1198" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1238" font-family="Georgia, serif" font-size="23" fill="#a3231a">Zwei Verbote, ohne Ausnahme: niemanden herumschubsen.</text>
+  <text x="40" y="1266" font-family="Georgia, serif" font-size="23" fill="#a3231a">Niemanden auslachen.</text>
+  <text x="40" y="1302" font-family="Georgia, serif" font-size="21" fill="#111">Fehlt die Sprache: Zeichensprache und Vormachen funktionieren erstaunlich gut.</text>
+  <text x="40" y="1328" font-family="Georgia, serif" font-size="21" fill="#111">Ein paar Wörter der fremden Sprache helfen mehr als alles andere.</text>
+</svg>

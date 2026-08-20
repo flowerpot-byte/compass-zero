@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="876" viewBox="0 0 900 876">
+  <!-- Zum Tipp "Behelfskompass aus Nadel und Faden".
+       Der wichtigste Satz des Tipps ist eine Regel, die man beim Streichen
+       ohne Anleitung falsch macht: IMMER NUR IN EINE RICHTUNG. Hin und her
+       hebt die Wirkung wieder auf. Deshalb steht sie gross und mit einem
+       durchgestrichenen Hin-und-her-Pfeil daneben.
+       Die zweite Sache, die im Fliesstext untergeht: Die Nadel sagt NICHT,
+       welches Ende Norden ist. Das muss man einmal anders klaeren — mit dem
+       Schattenstock am Tag oder dem Polarstern in der Nacht. Steht deshalb
+       als eigener Kasten.
+       Die haltbarere Bauart im Querschnitt, weil nur so zu sehen ist, dass
+       die eine Nadelhaelfte als ACHSE unten durch den Behaelterboden geht und
+       die andere als Zeiger obenauf sitzt. -->
+  <rect width="900" height="876" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Behelfskompass: magnetisieren, aufhängen, ablesen</text>
+
+  <!-- ============ A: magnetisieren ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">1. Magnetisieren</text>
+
+  <!-- Nadel -->
+  <line x1="70" y1="180" x2="290" y2="180" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="290" cy="180" r="9" fill="#111"/>
+  <!-- richtig: nur in eine Richtung -->
+  <g stroke="#1d6b3a" stroke-width="5" fill="none">
+    <path d="M 96 148 L 246 148"/>
+    <path d="M 246 148 l -20 -9 M 246 148 l -20 9"/>
+    <path d="M 96 128 L 246 128"/>
+    <path d="M 246 128 l -20 -9 M 246 128 l -20 9"/>
+  </g>
+  <circle cx="286" cy="138" r="17" fill="#1d6b3a"/>
+  <g stroke="#faf9f6" stroke-width="3" fill="none"><path d="M 278 138 l 5 6 l 11 -12"/></g>
+  <text x="70" y="228" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">IMMER NUR IN EINE RICHTUNG</text>
+  <text x="70" y="256" font-family="Georgia, serif" font-size="21" fill="#111">streichen. Hin und her hebt die</text>
+  <text x="70" y="282" font-family="Georgia, serif" font-size="21" fill="#111">Wirkung wieder auf.</text>
+
+  <!-- falsch: hin und her -->
+  <line x1="70" y1="360" x2="290" y2="360" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="290" cy="360" r="9" fill="#111"/>
+  <g stroke="#a3231a" stroke-width="5" fill="none">
+    <path d="M 96 328 L 246 328"/>
+    <path d="M 246 328 l -20 -9 M 246 328 l -20 9"/>
+    <path d="M 96 328 l 20 -9 M 96 328 l 20 9"/>
+  </g>
+  <g stroke="#a3231a" stroke-width="6" fill="none">
+    <circle cx="286" cy="318" r="22"/>
+    <line x1="270" y1="302" x2="302" y2="334"/>
+  </g>
+  <text x="70" y="404" font-family="Georgia, serif" font-size="21" fill="#111">Womit: ein Magnet aus Lautsprecher</text>
+  <text x="70" y="430" font-family="Georgia, serif" font-size="21" fill="#111">oder Kopfhörer. Ohne Magnet: langsam</text>
+  <text x="70" y="456" font-family="Georgia, serif" font-size="21" fill="#111">über Seide ziehen oder vorsichtig</text>
+  <text x="70" y="482" font-family="Georgia, serif" font-size="21" fill="#111">durch das eigene Haar.</text>
+
+  <line x1="446" y1="112" x2="446" y2="618" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: aufhaengen oder schwimmen ============ -->
+  <text x="472" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">2. Aufhängen oder schwimmen lassen</text>
+
+  <!-- aufgehaengt -->
+  <line x1="546" y1="134" x2="546" y2="204" stroke="#111" stroke-width="3"/>
+  <line x1="492" y1="134" x2="600" y2="134" stroke="#111" stroke-width="4"/>
+  <line x1="502" y1="208" x2="592" y2="208" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="592" cy="208" r="9" fill="#111"/>
+  <text x="472" y="254" font-family="Georgia, serif" font-size="21" fill="#111">an einem</text>
+  <text x="472" y="280" font-family="Georgia, serif" font-size="21" fill="#111">NICHTMETALLISCHEN</text>
+  <text x="472" y="306" font-family="Georgia, serif" font-size="21" fill="#111">Faden oder Haar</text>
+
+  <!-- schwimmend -->
+  <rect x="694" y="164" width="150" height="60" rx="6" fill="#a9c4d4" stroke="#111" stroke-width="4"/>
+  <rect x="730" y="176" width="78" height="16" rx="6" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <line x1="736" y1="184" x2="802" y2="184" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="802" cy="184" r="7" fill="#111"/>
+  <text x="694" y="254" font-family="Georgia, serif" font-size="21" fill="#111">oder schwimmend</text>
+  <text x="694" y="280" font-family="Georgia, serif" font-size="21" fill="#111">auf Kork, Holz</text>
+  <text x="694" y="306" font-family="Georgia, serif" font-size="21" fill="#111">oder einem Blatt</text>
+
+  <!-- ============ C: haltbarere Bauart ============ -->
+  <line x1="472" y1="338" x2="860" y2="338" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="472" y="380" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">3. Haltbarer: mit einer Achse</text>
+
+  <path d="M 520 480 L 536 410 L 720 410 L 736 480 Z" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="520" y1="480" x2="736" y2="480" stroke="#111" stroke-width="4"/>
+  <line x1="628" y1="492" x2="628" y2="424" stroke="#a3231a" stroke-width="6"/>
+  <path d="M 615 424 L 641 424 L 628 406 Z" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <line x1="562" y1="402" x2="694" y2="402" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="694" cy="402" r="8" fill="#111"/>
+  <line x1="628" y1="492" x2="600" y2="516" stroke="#a3231a" stroke-width="2"/>
+  <text x="592" y="522" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="end">Achse: eine Hälfte</text>
+  <text x="592" y="548" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="end">der Nadel, unten bündig</text>
+  <line x1="700" y1="402" x2="760" y2="438" stroke="#111" stroke-width="2"/>
+  <text x="768" y="444" font-family="Georgia, serif" font-size="21" fill="#111">Zeiger</text>
+  <text x="472" y="584" font-family="Georgia, serif" font-size="21" fill="#111">Nadel in der Mitte durchbrechen. Die eine</text>
+  <text x="472" y="610" font-family="Georgia, serif" font-size="21" fill="#111">Hälfte wird die Achse, die andere der Zeiger —</text>
+  <text x="472" y="636" font-family="Georgia, serif" font-size="21" fill="#111">auf eine Kugelschreiberspitze geklebt.</text>
+
+  <line x1="40" y1="660" x2="860" y2="660" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Fusszeilen ============ -->
+  <rect x="40" y="680" width="820" height="76" rx="10" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="62" y="714" font-family="Georgia, serif" font-size="23" fill="#a3231a">Welches Ende Norden ist, sagt die Nadel NICHT. Das klärt man einmal anders:</text>
+  <text x="62" y="744" font-family="Georgia, serif" font-size="23" fill="#a3231a">mit dem Schattenstock am Tag oder dem Polarstern in der Nacht.</text>
+
+  <text x="40" y="796" font-family="Georgia, serif" font-size="21" fill="#111">Eisen und Strom in der Nähe ziehen die Nadel — Fahrzeuge, Werkzeug, Gürtelschnallen,</text>
+  <text x="40" y="822" font-family="Georgia, serif" font-size="21" fill="#111">Leitungen. Ein paar Schritte Abstand, bevor man abliest.</text>
+  <text x="40" y="854" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Solange der Akku hält, ist der Kompass im Gerät besser. Das hier ist für danach.</text>
+</svg>

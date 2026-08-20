@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Erzeugt aus design/logo/app-icon-einfarbig.svg. Dort wird geaendert, nicht hier.
+     Fuer die eingefaerbten Icons des Systems: ein einziger Umriss, in den Falz,
+     Kompassring und Nadel als Loecher geschnitten sind. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <group android:translateX="256" android:translateY="256">
+        <group android:scaleX="0.72" android:scaleY="0.72">
+            <group android:translateX="-248" android:translateY="-262">
+                <path
+                    android:fillColor="#FF0A0A0A"
+                    android:fillType="evenOdd"
+                    android:pathData="M40 150 C104 112 176 112 248 150 C320 112 392 112 456 150 V392 C392 354 320 354 248 392 C176 354 104 354 40 392 Z M242 156 h12 V386 h-12 Z M246 274 a90 90 0 1 0 180 0 a90 90 0 1 0 -180 0 Z M258 274 a78 78 0 1 0 156 0 a78 78 0 1 0 -156 0 Z M380 226 L348 284 L292 322 L324 264 Z M325 274 a11 11 0 1 0 22 0 a11 11 0 1 0 -22 0 Z" />
+            </group>
+        </group>
+    </group>
+</vector>

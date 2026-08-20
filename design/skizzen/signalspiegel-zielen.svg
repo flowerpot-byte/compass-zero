@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="920" viewBox="0 0 900 920">
+  <!-- Zum Tipp "Spiegel: das staerkste Signal bei Sonne".
+       Die Quelle sagt selbst: "Das Zielen ist der Teil, den man ueben muss."
+       Genau dafuer gibt es den Handgriff mit der eigenen Handflaeche und den
+       zwei gespreizten Fingern — in Worten zaeh, im Bild eine Sache von
+       Sekunden. Deshalb bekommt er die ganze obere Breite.
+       Gezeichnet sind nur Haende, Spiegel und Ziel, keine ganze Person: Es
+       kommt auf die Lage der beiden Haende zueinander an, alles andere lenkt
+       ab.
+       Zweite Fassung: In der ersten war die V-Hand ein schwarzer Klumpen, das
+       Ziel lag AUF einem Finger statt zwischen den Fingern, und zwei
+       Beschriftungen lagen auf der Zeichnung. Jetzt steht die Szene links und
+       die drei Schritte stehen als Spalte rechts daneben.
+       Die beiden Warnungen stehen in der Quelle als eigener Kasten und
+       deshalb auch hier: hektisches Geflacker wird aus der Luft fuer etwas
+       anderes gehalten, und geblendete Retter finden niemanden. -->
+  <rect width="900" height="920" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Signalspiegel: zielen, ohne den Lichtfleck zu sehen</text>
+
+  <!-- ============ A: das Zielen ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der Handgriff, der es einfach macht</text>
+
+  <!-- Sonne -->
+  <circle cx="86" cy="164" r="20" fill="#d65a1a"/>
+  <g stroke="#d65a1a" stroke-width="4" stroke-linecap="round">
+    <line x1="86" y1="130" x2="86" y2="138"/>
+    <line x1="114" y1="144" x2="107" y2="150"/>
+    <line x1="58" y1="144" x2="65" y2="150"/>
+  </g>
+  <line x1="100" y1="184" x2="142" y2="292" stroke="#d65a1a" stroke-width="4"/>
+
+  <!-- Spiegel -->
+  <rect x="120" y="290" width="56" height="20" rx="4" fill="#e8eef2" stroke="#111" stroke-width="4" transform="rotate(-28 148 300)"/>
+  <text x="96" y="348" font-family="Georgia, serif" font-size="21" fill="#111">Spiegel</text>
+
+  <!-- Widerschein auf die eigene Handflaeche -->
+  <line x1="166" y1="284" x2="212" y2="252" stroke="#d65a1a" stroke-width="4"/>
+  <path d="M 214 216 q 46 -8 58 26 q 10 36 -24 48 q -40 12 -54 -20 q -10 -34 20 -54 Z"
+        fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <circle cx="242" cy="256" r="15" fill="#d65a1a"/>
+
+  <!-- V-Hand: Handflaeche unten, zwei Finger weit gespreizt -->
+  <rect x="336" y="320" width="66" height="46" rx="16" fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="24" stroke-linecap="round" fill="none">
+    <path d="M 352 322 L 306 216"/>
+    <path d="M 386 322 L 432 216"/>
+  </g>
+  <g stroke="#f2ece2" stroke-width="14" stroke-linecap="round" fill="none">
+    <path d="M 352 322 L 306 216"/>
+    <path d="M 386 322 L 432 216"/>
+  </g>
+
+  <!-- Ziel: Fluggeraet zwischen den Fingerspitzen -->
+  <g fill="#111">
+    <rect x="346" y="242" width="62" height="12" rx="5"/>
+    <rect x="369" y="224" width="14" height="46" rx="5"/>
+  </g>
+
+  <!-- Kippbewegung -->
+  <g stroke="#a3231a" stroke-width="4" fill="none">
+    <path d="M 268 244 Q 310 208 344 240"/>
+    <path d="M 344 240 l -20 -6 M 344 240 l -6 -20"/>
+    <path d="M 268 244 l 18 -12 M 268 244 l 14 14"/>
+  </g>
+
+  <line x1="446" y1="112" x2="446" y2="440" stroke="#c9c4b4" stroke-width="3"/>
+
+  <g fill="#1d6b3a">
+    <circle cx="490" cy="152" r="17"/>
+    <circle cx="490" cy="234" r="17"/>
+    <circle cx="490" cy="316" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="490" y="159">1</text><text x="490" y="241">2</text><text x="490" y="323">3</text>
+  </g>
+  <text x="520" y="146" font-family="Georgia, serif" font-size="21" fill="#111">Den Widerschein zuerst auf die</text>
+  <text x="520" y="172" font-family="Georgia, serif" font-size="21" fill="#111">EIGENE HANDFLÄCHE fallen lassen.</text>
+  <text x="520" y="228" font-family="Georgia, serif" font-size="21" fill="#111">Die andere Hand mit zwei gespreizten</text>
+  <text x="520" y="254" font-family="Georgia, serif" font-size="21" fill="#111">Fingern wie ein V — das Ziel liegt</text>
+  <text x="520" y="280" font-family="Georgia, serif" font-size="21" fill="#111">ZWISCHEN den Fingern.</text>
+  <text x="520" y="310" font-family="Georgia, serif" font-size="21" fill="#a3231a">Den Spiegel langsam und gleichmäßig</text>
+  <text x="520" y="336" font-family="Georgia, serif" font-size="21" fill="#a3231a">von der Handfläche hoch zum Ziel und</text>
+  <text x="520" y="362" font-family="Georgia, serif" font-size="21" fill="#a3231a">wieder zurück kippen.</text>
+  <text x="520" y="400" font-family="Georgia, serif" font-size="21" fill="#111">So wandert der Lichtfleck sicher über</text>
+  <text x="520" y="426" font-family="Georgia, serif" font-size="21" fill="#111">das Ziel, ohne dass man ihn in der</text>
+  <text x="520" y="452" font-family="Georgia, serif" font-size="21" fill="#111">Ferne sehen müsste.</text>
+
+  <line x1="40" y1="486" x2="860" y2="486" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: warum es sich lohnt ============ -->
+  <text x="40" y="528" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Warum es sich lohnt</text>
+  <text x="40" y="574" font-family="Georgia, serif" font-size="28" fill="#d65a1a">bis zu 160 Kilometer</text>
+  <text x="40" y="606" font-family="Georgia, serif" font-size="21" fill="#111">weit gemeldet. Kein Feuer, kein</text>
+  <text x="40" y="632" font-family="Georgia, serif" font-size="21" fill="#111">Rauch, kein Tuch kommt in die Nähe.</text>
+  <text x="40" y="672" font-family="Georgia, serif" font-size="21" fill="#111">Ein Spiegel ist alles, was blitzt:</text>
+  <text x="40" y="698" font-family="Georgia, serif" font-size="21" fill="#111">polierte Tasse, Gürtelschnalle,</text>
+  <text x="40" y="724" font-family="Georgia, serif" font-size="21" fill="#111">Blech, Konservendose.</text>
+
+  <line x1="446" y1="500" x2="446" y2="742" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: die zwei Warnungen ============ -->
+  <text x="470" y="528" font-family="Georgia, serif" font-size="23" fill="#a3231a">Zwei Warnungen</text>
+  <g stroke="#a3231a" stroke-width="5" fill="none">
+    <circle cx="488" cy="576" r="16"/><line x1="477" y1="565" x2="499" y2="587"/>
+    <circle cx="488" cy="662" r="16"/><line x1="477" y1="651" x2="499" y2="673"/>
+  </g>
+  <text x="516" y="570" font-family="Georgia, serif" font-size="21" fill="#111">Nicht schnell und hektisch blinken.</text>
+  <text x="516" y="596" font-family="Georgia, serif" font-size="21" fill="#111">Geflacker wird aus der Luft für</text>
+  <text x="516" y="622" font-family="Georgia, serif" font-size="21" fill="#111">etwas anderes gehalten.</text>
+  <text x="516" y="656" font-family="Georgia, serif" font-size="21" fill="#111">Den Strahl nicht länger als ein paar</text>
+  <text x="516" y="682" font-family="Georgia, serif" font-size="21" fill="#111">Sekunden aufs Cockpit halten:</text>
+  <text x="516" y="708" font-family="Georgia, serif" font-size="21" fill="#a3231a">Geblendete Retter finden niemanden.</text>
+
+  <line x1="40" y1="766" x2="860" y2="766" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: bei Nacht ============ -->
+  <text x="40" y="806" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Bei Nacht: SOS mit der Taschenlampe</text>
+  <g fill="#111">
+    <circle cx="58" cy="848" r="9"/><circle cx="90" cy="848" r="9"/><circle cx="122" cy="848" r="9"/>
+    <rect x="160" y="840" width="46" height="16" rx="7"/>
+    <rect x="222" y="840" width="46" height="16" rx="7"/>
+    <rect x="284" y="840" width="46" height="16" rx="7"/>
+    <circle cx="368" cy="848" r="9"/><circle cx="400" cy="848" r="9"/><circle cx="432" cy="848" r="9"/>
+  </g>
+  <text x="466" y="856" font-family="Georgia, serif" font-size="21" fill="#111">Pause, dann von vorn.</text>
+  <text x="40" y="898" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Ist das Fluggerät nur zu HÖREN, blinkt man in die Richtung des Geräuschs.</text>
+</svg>

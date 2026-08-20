@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Blob mit Nadel</title>
+  <path d="M 262 46 C 372 40 462 118 466 232 C 470 348 396 462 268 466 C 148 470 50 384 46 262 C 42 146 150 52 262 46 Z" fill="#0A0A0A"/>
+  <polygon points="256,120 216,256 296,256" fill="#FF4D00"/>
+  <polygon points="216,256 296,256 256,392" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <!-- Zum Tipp "erste-hilfe-kohlenmonoxid-erkennen" (Kohlenmonoxid: unsichtbar
+       und geruchlos).
+       Gewaehlte Aussage: "Wo Kohlenmonoxid im Raum steht, kannst du nicht
+       erkennen, verlass dich auf keine Stelle im Raum. Sicher bist du erst
+       draussen."
+       Begruendung: Ein unsichtbares, geruchloses Gas laesst sich nicht
+       zeichnen, ohne etwas zu behaupten, das nicht im Text steht. Wonach man
+       WIRKLICH gehen kann, ist dagegen gut zu zeigen: kein Platz im Zimmer
+       ist verlaesslicher als ein anderer, deshalb helfen drei gleiche, leere
+       Merkzeichen an drei verschiedenen Stellen im Raum. Erst draussen gibt
+       es einen einzigen, klaren Ort. Der Pfeil durch die Tuer zeigt die
+       Handlung, die der Tipp verlangt, nicht das Gas in der Luft.
+       Regel gross / Ausnahme klein: die Handlungsanweisung "Sofort raus an
+       die frische Luft und Notruf 112" steht wortgleich und gross; der
+       Nachsatz "auch wenn du dir nicht sicher bist" steht wortgleich und
+       klein, so wie der Tipp ihn als Zusatz anhaengt.
+       Die Signalfarbe sitzt nur am Pfeil durch die Tuer: das ist die Stelle,
+       an der der Tipp mit "sofort raus" sein Ausrufezeichen setzt. -->
+  <rect width="900" height="520" fill="#faf9f6"/>
+
+  <text x="40" y="50" font-family="Georgia, serif" font-size="26" fill="#111">Sicher bist du erst draußen.</text>
+
+  <!-- Zimmerboden -->
+  <rect x="60" y="384" width="370" height="36" fill="#7a5a3e"/>
+  <!-- Fenster -->
+  <rect x="96" y="130" width="64" height="84" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <line x1="128" y1="130" x2="128" y2="214" stroke="#111" stroke-width="2"/>
+  <line x1="96" y1="172" x2="160" y2="172" stroke="#111" stroke-width="2"/>
+
+  <!-- Zimmerwaende mit Tueroeffnung rechts (y 300 bis 390) -->
+  <path d="M 430,300 L 430,100 L 60,100 L 60,420 L 430,420 L 430,390"
+        fill="none" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Tuerlaibung -->
+  <line x1="430" y1="300" x2="446" y2="300" stroke="#111" stroke-width="3"/>
+  <line x1="430" y1="390" x2="446" y2="390" stroke="#111" stroke-width="3"/>
+
+  <!-- Drei gleiche, leere Merkzeichen: keine Stelle im Raum sticht heraus -->
+  <rect x="90" y="260" width="20" height="20" fill="none" stroke="#111" stroke-width="2.5" transform="rotate(45 100 270)"/>
+  <rect x="360" y="130" width="20" height="20" fill="none" stroke="#111" stroke-width="2.5" transform="rotate(45 370 140)"/>
+  <rect x="90" y="350" width="20" height="20" fill="none" stroke="#111" stroke-width="2.5" transform="rotate(45 100 360)"/>
+
+  <!-- Person im Zimmer: durchgehender Umriss, Kopf und Rumpf ueberlappend -->
+  <g transform="translate(200,244)">
+    <path d="M -17,24 C -17,15 -9,10 0,10 C 9,10 17,15 17,24 L 17,120 C 17,132 9,140 0,140 C -9,140 -17,132 -17,120 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="2.5"/>
+    <circle cx="0" cy="13" r="13" fill="#e6e2d6" stroke="#111" stroke-width="2.5"/>
+  </g>
+
+  <text x="60" y="452" font-family="Georgia, serif" font-size="16" fill="#111">Verlass dich auf keine Stelle im Raum.</text>
+
+  <!-- Trennung Zimmer / draussen -->
+  <line x1="450" y1="100" x2="450" y2="420" stroke="#5b7f96" stroke-width="2" stroke-dasharray="4 6"/>
+
+  <!-- Pfeil durch die Tuer: einzige Stelle mit der Signalfarbe -->
+  <path d="M 260,338 L 430,338 L 430,322 L 470,345 L 430,368 L 430,352 L 260,352 Z" fill="#d65a1a"/>
+
+  <!-- Draussen: offener Boden, keine Wand -->
+  <rect x="470" y="384" width="390" height="36" fill="#d9c98a"/>
+  <path d="M 500,205 q 20,-10 40,0 q 20,10 40,0" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <path d="M 620,218 q 20,-10 40,0 q 20,10 40,0" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <path d="M 720,200 q 20,-10 40,0 q 20,10 40,0" fill="none" stroke="#5b7f96" stroke-width="2"/>
+
+  <!-- Person draussen: gleiche Form, gleicher durchgehender Umriss -->
+  <g transform="translate(560,244)">
+    <path d="M -17,24 C -17,15 -9,10 0,10 C 9,10 17,15 17,24 L 17,120 C 17,132 9,140 0,140 C -9,140 -17,132 -17,120 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="2.5"/>
+    <circle cx="0" cy="13" r="13" fill="#e6e2d6" stroke="#111" stroke-width="2.5"/>
+  </g>
+
+  <!-- Regel gross, wortgleich -->
+  <text x="470" y="150" font-family="Georgia, serif" font-size="24" fill="#111">Sofort raus an die frische Luft</text>
+  <text x="470" y="182" font-family="Georgia, serif" font-size="24" fill="#111">und Notruf 112.</text>
+
+  <!-- Ausnahme klein, wortgleich -->
+  <text x="470" y="452" font-family="Georgia, serif" font-size="16" fill="#111">auch wenn du dir nicht sicher bist</text>
+</svg>

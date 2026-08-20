@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <!-- Zum Tipp "Hitzschlag versorgen".
+       Der Tipp sagt es selbst: Wenn niemand kommt, ist das Kuehlen nicht die
+       Begleitmassnahme, sondern DIE Behandlung. Deshalb steht das Kuehlen hier
+       gross und nicht als Nebensatz.
+       Zwei Grenzen sind im Bild rot abgesetzt, weil beide toedlich enden
+       koennen, wenn man sie uebersieht: Eine bewusstlose Person wird NICHT ins
+       Wasser gelegt, sie kann darin ertrinken. Und das Eintauchen gilt fuer
+       Erwachsene nach koerperlicher Anstrengung; bei Kindern, alten Menschen
+       und Ueberhitzung ohne Anstrengung nennt die Quelle es nicht.
+       Die zweite Grenze ist im Tipp ausdruecklich als Abwaegung dieses Pakets
+       gekennzeichnet und nicht als Quellenaussage; im Bild steht sie deshalb
+       mit demselben Vorbehalt. -->
+  <rect width="900" height="900" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Hitzschlag: Kühlen ist die Behandlung</text>
+
+  <!-- ============ 1. Sofort ============ -->
+  <text x="40" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">1. Sofort: Schatten, Oberkörper hoch</text>
+
+  <!-- Sonnenschutz -->
+  <path d="M 60 140 L 400 140" stroke="#d65a1a" stroke-width="6"/>
+  <line x1="80" y1="140" x2="80" y2="196" stroke="#111" stroke-width="4"/>
+  <line x1="380" y1="140" x2="380" y2="196" stroke="#111" stroke-width="4"/>
+  <text x="230" y="128" font-family="Georgia, serif" font-size="19" fill="#d65a1a" text-anchor="middle">Schatten oder Rettungsdecke gegen die Sonne</text>
+
+  <!-- Boden -->
+  <line x1="40" y1="290" x2="430" y2="290" stroke="#111" stroke-width="4"/>
+  <!-- Stuetze im Ruecken -->
+  <path d="M 96 290 L 176 290 L 176 240 Z" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <!-- Person mit erhoehtem Oberkoerper -->
+  <rect x="126" y="222" width="120" height="40" rx="18" fill="#c9c4b4" stroke="#111" stroke-width="4" transform="rotate(-20 186 242)"/>
+  <circle cx="118" cy="216" r="19" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="244" y="262" width="110" height="28" rx="14" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- nasses Tuch an Kopf und Nacken -->
+  <rect x="98" y="192" width="46" height="16" rx="6" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <line x1="146" y1="200" x2="212" y2="176" stroke="#a9c4d4" stroke-width="3"/>
+  <text x="220" y="182" font-family="Georgia, serif" font-size="21" fill="#111">nasse Tücher an</text>
+  <text x="220" y="208" font-family="Georgia, serif" font-size="21" fill="#111">Kopf und Nacken</text>
+
+  <text x="40" y="336" font-family="Georgia, serif" font-size="21" fill="#111">Notruf 112. Kein Eis direkt auf die Haut.</text>
+  <text x="40" y="362" font-family="Georgia, serif" font-size="21" fill="#111">Trinken nur bei vollem Bewusstsein.</text>
+  <text x="40" y="388" font-family="Georgia, serif" font-size="21" fill="#111">Benommen? Dann auch die Beine hoch.</text>
+
+  <line x1="446" y1="110" x2="446" y2="410" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 2. Eintauchen ============ -->
+  <text x="470" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">2. Am wirksamsten: eintauchen</text>
+
+  <!-- Wanne -->
+  <path d="M 500 176 L 516 302 L 760 302 L 776 176 Z" fill="none" stroke="#111" stroke-width="4"/>
+  <path d="M 508 218 L 516 302 L 760 302 L 768 218 Z" fill="#a9c4d4"/>
+  <!-- Person bis zum Hals -->
+  <circle cx="560" cy="196" r="21" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="582" y="222" width="150" height="48" rx="22" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <line x1="500" y1="218" x2="776" y2="218" stroke="#111" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="784" y="214" font-family="Georgia, serif" font-size="19" fill="#111">Hals</text>
+
+  <text x="470" y="336" font-family="Georgia, serif" font-size="21" fill="#111">Vom Hals abwärts in kaltes Wasser von</text>
+  <text x="470" y="362" font-family="Georgia, serif" font-size="23" fill="#a3231a">1 bis 26 Grad — bis die Kerntemperatur</text>
+  <text x="470" y="388" font-family="Georgia, serif" font-size="23" fill="#a3231a">unter 39 Grad liegt.</text>
+
+  <line x1="40" y1="434" x2="860" y2="434" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 3. Wo Kältepackungen hingehören ============ -->
+  <text x="40" y="476" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">3. Geht das nicht: wo die Kälte hingehört</text>
+
+  <path d="M 150 526 L 268 526 C 280 574 282 606 274 646 C 268 686 262 714 254 736
+           L 164 736 C 156 714 150 686 144 646 C 136 606 138 574 150 526 Z"
+        fill="#f2ece2" stroke="#111" stroke-width="4"/>
+  <!-- Nacken -->
+  <rect x="182" y="510" width="54" height="20" rx="8" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <!-- Achseln -->
+  <rect x="128" y="548" width="34" height="26" rx="8" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <rect x="256" y="548" width="34" height="26" rx="8" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <!-- Leisten -->
+  <rect x="152" y="702" width="40" height="24" rx="8" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+  <rect x="226" y="702" width="40" height="24" rx="8" fill="#a9c4d4" stroke="#111" stroke-width="3"/>
+
+  <line x1="240" y1="520" x2="320" y2="506" stroke="#111" stroke-width="2"/>
+  <text x="328" y="512" font-family="Georgia, serif" font-size="21" fill="#111">Nacken</text>
+  <line x1="294" y1="560" x2="330" y2="566" stroke="#111" stroke-width="2"/>
+  <text x="338" y="572" font-family="Georgia, serif" font-size="21" fill="#111">Achseln</text>
+  <line x1="270" y1="714" x2="330" y2="708" stroke="#111" stroke-width="2"/>
+  <text x="338" y="714" font-family="Georgia, serif" font-size="21" fill="#111">Leisten</text>
+
+  <text x="470" y="522" font-family="Georgia, serif" font-size="21" fill="#111">Jede aktive Kühlung wirkt: nasse Tücher,</text>
+  <text x="470" y="548" font-family="Georgia, serif" font-size="21" fill="#111">Wasser, Kältepackungen, kalte Dusche,</text>
+  <text x="470" y="574" font-family="Georgia, serif" font-size="21" fill="#111">Hände oder Füße ins kalte Wasser, Fächeln.</text>
+
+  <text x="470" y="622" font-family="Georgia, serif" font-size="23" fill="#a3231a">Woran du merkst, dass es dringend ist:</text>
+  <text x="470" y="650" font-family="Georgia, serif" font-size="21" fill="#111">Die Person hört auf zu schwitzen, die Haut</text>
+  <text x="470" y="676" font-family="Georgia, serif" font-size="21" fill="#111">ist trocken, heiß und gerötet, sie verhält</text>
+  <text x="470" y="702" font-family="Georgia, serif" font-size="21" fill="#111">sich verwirrt, sie krampft, oder sie kann</text>
+  <text x="470" y="728" font-family="Georgia, serif" font-size="21" fill="#111">nichts trinken, ohne sich zu übergeben.</text>
+
+  <line x1="40" y1="762" x2="860" y2="762" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Zwei Grenzen ============ -->
+  <rect x="40" y="782" width="820" height="46" rx="8" fill="none" stroke="#a3231a" stroke-width="3"/>
+  <text x="62" y="812" font-family="Georgia, serif" font-size="23" fill="#a3231a">Eine bewusstlose Person wird NIE ins Wasser gelegt: Ertrinkungsgefahr.</text>
+  <text x="40" y="864" font-family="Georgia, serif" font-size="21" fill="#111">Einordnung dieses Pakets: Das Eintauchen gilt für Erwachsene nach Anstrengung. Bei</text>
+  <text x="40" y="890" font-family="Georgia, serif" font-size="21" fill="#111">Kindern, alten Menschen und Hitze ohne Anstrengung bleibt es bei äußerer Kühlung.</text>
+</svg>

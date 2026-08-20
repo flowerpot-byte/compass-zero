@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1254" viewBox="0 0 900 1254">
+  <!-- Zum Tipp "Schmerz behandeln, wenn es keine Tabletten gibt".
+       Der Grundsatz ganz oben ist der, der am meisten ausmacht, und er ist
+       eine Aussage ueber den ZEITPUNKT, nicht ueber ein Mittel: verhindern
+       statt einholen. Er steht deshalb in der groessten Schrift.
+       Der zweite Grundsatz betrifft den Helfer und nicht den Kranken. Er
+       gehoert ins Bild, weil er der Grund fuer Unterbehandlung ist: Wer
+       denkt "so schlimm kann das nicht sein", behandelt zu wenig.
+       Entspannung, Ablenkung und Massage stehen als drei Woerter in einer
+       Zeile, weil die Quelle sie ausdruecklich als BEHANDLUNG nennt und
+       nicht als Trost. In einer Lage ohne Apotheke sind sie das Einzige,
+       was unbegrenzt verfuegbar ist.
+       Die vier Schritte sind eine feste Folge und stehen nummeriert. Der
+       Zusatz danach loest einen scheinbaren Widerspruch zwischen den
+       Quellen auf: erst kalt, dann warm. Die neuere hoert nur frueher auf
+       zu erzaehlen. -->
+  <rect width="900" height="1254" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Schmerz behandeln, wenn es keine Tabletten gibt</text>
+
+  <text x="40" y="100" font-family="Georgia, serif" font-size="26" fill="#a3231a">Es ist leichter, Schmerz zu verhindern, als ihn einzuholen,</text>
+  <text x="40" y="132" font-family="Georgia, serif" font-size="26" fill="#a3231a">wenn er erst einmal da ist.</text>
+  <text x="40" y="168" font-family="Georgia, serif" font-size="21" fill="#111">Wer weiß, dass ein Verbandwechsel gleich wehtut, fängt vorher an — mit</text>
+  <text x="40" y="194" font-family="Georgia, serif" font-size="21" fill="#111">Lagerung, mit Ruhe, mit dem, was da ist. Und: Schmerz wird zu Beginn</text>
+  <text x="40" y="220" font-family="Georgia, serif" font-size="21" fill="#111">eingeschätzt und danach immer wieder neu beurteilt.</text>
+
+  <line x1="40" y1="256" x2="860" y2="256" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="296" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ein Grundsatz über den Helfer, nicht über den Kranken</text>
+  <text x="40" y="334" font-family="Georgia, serif" font-size="21" fill="#111">Er soll seine eigene Haltung zu Schmerz nicht auf den Kranken übertragen.</text>
+  <text x="40" y="360" font-family="Georgia, serif" font-size="21" fill="#111">Jeder Mensch geht anders damit um. Wer denkt „so schlimm kann das nicht</text>
+  <text x="40" y="386" font-family="Georgia, serif" font-size="21" fill="#111">sein“, behandelt zu wenig.</text>
+  <text x="40" y="426" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Und der Kranke soll wissen, dass er es SAGEN muss, wenn der Schmerz nicht</text>
+  <text x="40" y="452" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">nachlässt — sonst kann niemand etwas ändern.</text>
+
+  <line x1="40" y1="488" x2="860" y2="488" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="528" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was ohne Mittel wirkt — und zwar ausdrücklich</text>
+  <text x="40" y="570" font-family="Georgia, serif" font-size="26" fill="#111">Entspannung · Ablenkung · Massage</text>
+  <text x="40" y="608" font-family="Georgia, serif" font-size="21" fill="#111">Sie verringern Schmerz und Angst — und damit auch die Menge an Mitteln, die</text>
+  <text x="40" y="634" font-family="Georgia, serif" font-size="21" fill="#111">man bräuchte. Das ist kein Trost, sondern eine Behandlung, und in einer Lage</text>
+  <text x="40" y="660" font-family="Georgia, serif" font-size="21" fill="#111">ohne Apotheke die einzige, die unbegrenzt verfügbar ist.</text>
+
+  <text x="40" y="700" font-family="Georgia, serif" font-size="21" fill="#a3231a">Schienen ist Schmerzbehandlung. Eine Schiene wird angelegt, um Schmerz zu</text>
+  <text x="40" y="726" font-family="Georgia, serif" font-size="21" fill="#a3231a">lindern und weiteren Schaden zu verhüten — ruhiggestellt wird der Knochen,</text>
+  <text x="40" y="752" font-family="Georgia, serif" font-size="21" fill="#a3231a">das Gelenk darüber und das Gelenk darunter.</text>
+
+  <line x1="40" y1="788" x2="860" y2="788" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="828" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Bei Verstauchungen und Prellungen: vier Schritte</text>
+
+  <g fill="#1d6b3a">
+    <circle cx="60" cy="861" r="17"/><circle cx="60" cy="901" r="17"/>
+    <circle cx="60" cy="967" r="17"/><circle cx="60" cy="1033" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="868">1</text><text x="60" y="908">2</text>
+    <text x="60" y="974">3</text><text x="60" y="1040">4</text>
+  </g>
+  <text x="88" y="868" font-family="Georgia, serif" font-size="21" fill="#111">RUHE für die verletzte Stelle.</text>
+  <text x="88" y="908" font-family="Georgia, serif" font-size="21" fill="#111">KÄLTE für 24 bis 48 Stunden. Ist kein Eis da, ist kaltes Quellwasser in</text>
+  <text x="88" y="934" font-family="Georgia, serif" font-size="21" fill="#111">einer Notlage leichter zu bekommen und ausdrücklich brauchbar.</text>
+  <text x="88" y="974" font-family="Georgia, serif" font-size="21" fill="#111">DRUCK durch einen Wickel oder eine Schiene. Einen verstauchten Knöchel</text>
+  <text x="88" y="1000" font-family="Georgia, serif" font-size="21" fill="#111">lässt man nach Möglichkeit IM SCHUH — außer die Durchblutung leidet.</text>
+  <text x="88" y="1040" font-family="Georgia, serif" font-size="21" fill="#111">HOCHLAGERN.</text>
+
+  <line x1="40" y1="1076" x2="860" y2="1076" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1116" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Und der Schritt danach: erst kalt, dann warm.</text>
+  <text x="40" y="1150" font-family="Georgia, serif" font-size="21" fill="#111">Kalte Umschläge sofort und für die ersten 24 Stunden — dann Wärme, um den</text>
+  <text x="40" y="1176" font-family="Georgia, serif" font-size="21" fill="#111">Schmerz zu lindern und die Durchblutung zu fördern. Die beiden Quellen</text>
+  <text x="40" y="1202" font-family="Georgia, serif" font-size="21" fill="#111">widersprechen sich hier nicht; die neuere hört nur früher auf zu erzählen.</text>
+  <text x="40" y="1240" font-family="Georgia, serif" font-size="21" fill="#a3231a">Blutergüsse rings um das Gelenk: schwere Verstauchung, mindestens drei Wochen.</text>
+</svg>

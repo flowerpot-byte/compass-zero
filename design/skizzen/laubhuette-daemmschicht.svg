@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="540" viewBox="0 0 800 540">
+  <!-- Zu Schritt 6 von notunterstand-laubhuette: "Haeufe leichtes, wenn moeglich
+       trockenes, weiches Laub ueber das Lattenwerk, bis die Daemmschicht
+       mindestens 1 m dick ist." Querschnitt.
+       Wichtig an dieser Skizze ist das Verhaeltnis: Bei einem Meter Laub ist die
+       Schicht dicker als der Innenraum breit. Eine Zeichnung mit duennem Mantel
+       wuerde die Warnung des Schrittes unterlaufen, und eine falsche Skizze ist
+       gefaehrlicher als gar keine. Die Widerhaken des Massepfeils sind aus der
+       Pfeilrichtung gerechnet. -->
+  <rect width="800" height="540" fill="#faf9f6"/>
+  <!-- Daemmschicht: der Mantel zwischen Rippenkeil und Aussenkante -->
+  <path d="M 400 120 L 690 460 L 470 460 L 400 330 L 330 460 L 110 460 Z" fill="#e6e2d6" stroke="none"/>
+  <g fill="none" stroke="#111" stroke-width="4">
+    <path d="M 400 120 L 690 460"/>
+    <path d="M 400 120 L 110 460"/>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="5" stroke-linecap="round">
+    <line x1="40" y1="460" x2="760" y2="460"/>
+    <!-- Rippen beidseitig des Firstbalkens -->
+    <line x1="400" y1="330" x2="470" y2="460"/>
+    <line x1="400" y1="330" x2="330" y2="460"/>
+  </g>
+  <circle cx="400" cy="330" r="12" fill="#111"/>
+  <!-- Lattenwerk quer ueber die Rippen -->
+  <g fill="none" stroke="#111" stroke-width="3">
+    <line x1="424" y1="368" x2="441" y2="359"/>
+    <line x1="448" y1="412" x2="465" y2="403"/>
+    <line x1="376" y1="368" x2="359" y2="359"/>
+    <line x1="352" y1="412" x2="335" y2="403"/>
+  </g>
+  <!-- Massepfeil senkrecht durch die Daemmschicht -->
+  <g fill="none" stroke="#d65a1a" stroke-width="4" stroke-linecap="round">
+    <line x1="365" y1="395" x2="232" y2="323"/>
+    <path d="M 232 323 l 14 19 M 232 323 l 24 1"/>
+    <path d="M 365 395 l -14 -19 M 365 395 l -24 -1"/>
+  </g>
+  <g font-family="sans-serif" font-size="26" fill="#111">
+    <text x="222" y="288" text-anchor="middle" fill="#d65a1a">mind. 1 m</text>
+    <text x="430" y="322">Firstbalken</text>
+    <text x="520" y="392">Rippen</text>
+    <text x="620" y="300" text-anchor="middle">Laub</text>
+    <text x="400" y="512" text-anchor="middle">Die Dämmschicht ist dicker als der Innenraum breit.</text>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="2">
+    <line x1="516" y1="384" x2="446" y2="404"/>
+  </g>
+</svg>

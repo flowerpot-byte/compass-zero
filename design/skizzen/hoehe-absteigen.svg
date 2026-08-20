@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <!-- Zum Tipp "Hoehenkrankheit: absteigen ist die Behandlung".
+       Der Tipp hat einen Satz, der alles traegt, und drei Zahlen, die
+       vorbeugen. Der Satz steht deshalb gross und allein oben.
+       Die drei Zahlen sind zusammen ein VERLAUF ueber Tage, und genau das
+       laesst sich als Satzfolge kaum behalten: hoechstens 300 bis 600 Meter
+       am Tag, alle drei bis vier Tage ein Ruhetag, und tiefer schlafen als
+       der hoechste Punkt des Tages. Als Hoehenprofil sieht man alle drei auf
+       einmal, und man sieht auch, dass sie zusammengehoeren.
+       Die Zickzacklinie ist der Kern: Jeder Tag steigt auf einen Hochpunkt
+       und faellt zum Schlafen wieder ab. Punkte sind Tageshoehen, Quadrate
+       Schlafhoehen.
+       Der Verlauf ist ein BEISPIEL nach den drei Regeln, keine Vorschrift,
+       und steht deshalb auch so beschriftet. Die Regeln selbst stehen
+       darunter mit ihren Spannen.
+       Der Massstab stimmt: Die Achse laeuft von 2200 bis 4100 Meter ueber
+       230 Bildpunkte, 300 Meter sind 36 Punkte. Wer die Schritte im Bild
+       nachmisst, findet die Zahlen wieder, die daneben stehen. -->
+  <rect width="900" height="1100" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Höhenkrankheit: absteigen ist die Behandlung</text>
+
+  <!-- ============ A: der eine Satz ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein Satz genügt, und er gilt für alle drei Formen</text>
+  <text x="40" y="134" font-family="Georgia, serif" font-size="26" fill="#111">ABSTEIGEN IST DIE BESTE BEHANDLUNG. Alles andere ist Beiwerk.</text>
+  <text x="40" y="172" font-family="Georgia, serif" font-size="21" fill="#111">Aufstieg sofort beenden. So weit absteigen, bis die Beschwerden weg sind. Erst</text>
+  <text x="40" y="198" font-family="Georgia, serif" font-size="21" fill="#111">danach wieder aufsteigen, und langsamer als vorher.</text>
+
+  <text x="40" y="238" font-family="Georgia, serif" font-size="23" fill="#a3231a">Schon 300 bis 600 Meter können lebensrettend sein —</text>
+  <text x="40" y="266" font-family="Georgia, serif" font-size="23" fill="#a3231a">weniger, als die meisten glauben.</text>
+  <text x="40" y="300" font-family="Georgia, serif" font-size="21" fill="#111">Deshalb wartet man nicht auf besseres Wetter oder den Morgen. Ist ein Abstieg</text>
+  <text x="40" y="326" font-family="Georgia, serif" font-size="21" fill="#111">unmöglich, bleibt als Behelf: tagsüber oben bleiben, zum Schlafen tiefer gehen.</text>
+
+  <line x1="40" y1="362" x2="860" y2="362" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: das Hoehenprofil ============ -->
+  <text x="40" y="402" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Vorbeugen ist die eigentliche Antwort — drei Zahlen, ein Verlauf</text>
+
+  <rect x="430" y="440" width="100" height="250" fill="#f2ece2"/>
+  <text x="480" y="432" font-family="Georgia, serif" font-size="19" fill="#1d6b3a" text-anchor="middle">Ruhetag</text>
+
+  <g stroke="#c9c4b4" stroke-width="2">
+    <line x1="130" y1="462" x2="830" y2="462"/>
+    <line x1="130" y1="523" x2="830" y2="523"/>
+    <line x1="130" y1="583" x2="830" y2="583"/>
+  </g>
+  <line x1="130" y1="656" x2="830" y2="656" stroke="#a3231a" stroke-width="3" stroke-dasharray="10 7"/>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="end">
+    <text x="120" y="468">4000 m</text>
+    <text x="120" y="529">3500 m</text>
+    <text x="120" y="589">3000 m</text>
+  </g>
+  <text x="120" y="662" font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="end">2400 m</text>
+
+  <polyline points="130,656 180,656 230,656 280,595 330,632 380,559 430,595 480,595 530,595 580,535 630,571 680,498 730,535 780,462 830,498"
+            fill="none" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#111">
+    <circle cx="180" cy="656" r="6"/><circle cx="280" cy="595" r="6"/><circle cx="380" cy="559" r="6"/>
+    <circle cx="480" cy="595" r="6"/><circle cx="580" cy="535" r="6"/><circle cx="680" cy="498" r="6"/>
+    <circle cx="780" cy="462" r="6"/>
+    <rect x="224" y="650" width="12" height="12"/><rect x="324" y="626" width="12" height="12"/>
+    <rect x="424" y="589" width="12" height="12"/><rect x="524" y="589" width="12" height="12"/>
+    <rect x="624" y="565" width="12" height="12"/><rect x="724" y="529" width="12" height="12"/>
+    <rect x="824" y="492" width="12" height="12"/>
+  </g>
+
+  <line x1="130" y1="690" x2="830" y2="690" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="130" y1="690" x2="130" y2="698"/><line x1="230" y1="690" x2="230" y2="698"/>
+    <line x1="330" y1="690" x2="330" y2="698"/><line x1="430" y1="690" x2="430" y2="698"/>
+    <line x1="530" y1="690" x2="530" y2="698"/><line x1="630" y1="690" x2="630" y2="698"/>
+    <line x1="730" y1="690" x2="730" y2="698"/><line x1="830" y1="690" x2="830" y2="698"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="180" y="716">Tag 1</text><text x="280" y="716">2</text><text x="380" y="716">3</text>
+    <text x="480" y="716">4</text><text x="580" y="716">5</text><text x="680" y="716">6</text>
+    <text x="780" y="716">7</text>
+  </g>
+
+  <circle cx="140" cy="744" r="6" fill="#111"/>
+  <text x="156" y="750" font-family="Georgia, serif" font-size="19" fill="#111">Tageshöhe</text>
+  <rect x="294" y="738" width="12" height="12" fill="#111"/>
+  <text x="316" y="750" font-family="Georgia, serif" font-size="19" fill="#111">Schlafhöhe</text>
+  <text x="500" y="750" font-family="Georgia, serif" font-size="19" fill="#111">Beispielverlauf, keine Vorschrift</text>
+
+  <text x="40" y="794" font-family="Georgia, serif" font-size="21" fill="#111">Über etwa 2400 Metern höchstens 300 bis 600 Meter am Tag aufsteigen.</text>
+  <text x="40" y="820" font-family="Georgia, serif" font-size="21" fill="#111">Alle drei bis vier Tage ein Ruhetag ohne Aufstieg.</text>
+  <text x="40" y="846" font-family="Georgia, serif" font-size="21" fill="#111">Mindestens 300 bis 600 Meter tiefer schlafen als der höchste Punkt des Tages.</text>
+
+  <text x="40" y="890" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wer bereits Beschwerden hat, steigt NICHT weiter auf.</text>
+
+  <line x1="40" y1="926" x2="860" y2="926" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: was man nicht vorhersagen kann ============ -->
+  <text x="40" y="966" font-family="Georgia, serif" font-size="21" fill="#111">Es lässt sich nicht vorhersagen, wen es trifft. Weder Ausdauer noch Erfahrung</text>
+  <text x="40" y="992" font-family="Georgia, serif" font-size="21" fill="#111">schützen davor.</text>
+
+  <text x="40" y="1032" font-family="Georgia, serif" font-size="19" fill="#111">Zwei Medikamente gibt es auch. Mittel und Mengen stehen hier nicht, weil eine</text>
+  <text x="40" y="1056" font-family="Georgia, serif" font-size="19" fill="#111">Dosierung eine zweite, unabhängige Quelle bräuchte. Der Abstieg wirkt immer, ist</text>
+  <text x="40" y="1080" font-family="Georgia, serif" font-size="19" fill="#111">überall verfügbar und braucht keine Apotheke.</text>
+</svg>

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1880" viewBox="0 0 900 1880">
+  <!-- Zum Tipp "Viele Verletzte, wenig Haende: die Reihenfolge".
+       Der Tipp ist eine Ordnung, und eine Ordnung gehoert nummeriert. Vor
+       die drei Schritte gehoert aber noch etwas, das keine Nummer traegt und
+       trotzdem zuerst kommt: dass jemand die Leitung uebernimmt. Es steht
+       deshalb oben und in grosser Schrift, ausserhalb der Zaehlung.
+       Bei den sechs Meldeangaben stehen die dritte und die vierte rot. Die
+       Quelle sagt selbst, dass genau die im Notruf-Alltag niemand stellt —
+       und Hilfe, die nicht herankommt oder in dieselbe Gefahr faehrt, ist
+       keine Hilfe. Die beiden hervorzuheben ist der ganze Zweck der Liste.
+       Die Atemleiste ist massstaeblich: 24 Bildpunkte je Atemzug, 0 bei
+       x=100 und 30 bei x=820. Die Zehn liegt bei 340, die Zwanzig bei 580.
+       Ein Zahlenpaar "unter 10, ueber 20" merkt sich schlecht; ein schmaler
+       unauffaelliger Streifen zwischen zwei roten Feldern zeigt, wie eng der
+       normale Bereich ist.
+       "Gesichtet wird ZWEIMAL" steht eigens und farbig. Es ist der Schritt,
+       den die Quelle selbst als den vergessenen bezeichnet, und er kostet
+       nichts ausser daran zu denken. -->
+  <rect width="900" height="1880" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Viele Verletzte, wenig Hände: die Reihenfolge</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Nicht wie man prüft, sondern was vorher und danach kommt — die Ordnung,</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">in der überhaupt gearbeitet wird.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="202" font-family="Georgia, serif" font-size="26" fill="#111">Erst übernimmt jemand die Leitung.</text>
+  <text x="40" y="238" font-family="Georgia, serif" font-size="21" fill="#111">Ein Unglück mit mehreren Verletzten geht schief, wenn alle helfen und</text>
+  <text x="40" y="264" font-family="Georgia, serif" font-size="21" fill="#111">niemand einteilt. Wer die Übersicht hat, hilft mehr, indem er die Leute</text>
+  <text x="40" y="290" font-family="Georgia, serif" font-size="21" fill="#111">einteilt, als indem er sich selbst über einen Verletzten beugt.</text>
+
+  <line x1="40" y1="326" x2="860" y2="326" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="366" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Dann drei Schritte, immer in dieser Folge</text>
+
+  <g fill="#111">
+    <circle cx="60" cy="404" r="17"/><circle cx="60" cy="529" r="17"/><circle cx="60" cy="804" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="411">1</text><text x="60" y="536">2</text><text x="60" y="811">3</text>
+  </g>
+
+  <text x="88" y="411" font-family="Georgia, serif" font-size="23" fill="#111">LAGE ANSEHEN</text>
+  <text x="88" y="443" font-family="Georgia, serif" font-size="21" fill="#111">Droht weitere Gefahr? Dann kommen die Überlebenden zuerst in Sicherheit —</text>
+  <text x="88" y="469" font-family="Georgia, serif" font-size="21" fill="#111">die VERLETZTEN UND DIE UNVERLETZTEN. Ein zweiter Einsturz, ein zweiter</text>
+  <text x="88" y="495" font-family="Georgia, serif" font-size="21" fill="#111">Schuss, ein zweites Fahrzeug trifft sonst auch die Helfenden.</text>
+
+  <text x="88" y="536" font-family="Georgia, serif" font-size="23" fill="#111">HILFE HOLEN, mit allem, was geht</text>
+  <text x="88" y="572" font-family="Georgia, serif" font-size="21" fill="#111">· WO GENAU?</text>
+  <text x="88" y="598" font-family="Georgia, serif" font-size="21" fill="#111">· WAS IST PASSIERT?</text>
+  <text x="88" y="624" font-family="Georgia, serif" font-size="21" fill="#a3231a">· WELCHE GEFAHREN sind noch da?</text>
+  <text x="88" y="650" font-family="Georgia, serif" font-size="21" fill="#a3231a">· KOMMT MAN HERAN? Ist die Straße blockiert, der Weg verschüttet?</text>
+  <text x="88" y="676" font-family="Georgia, serif" font-size="21" fill="#111">· WIE VIELE Verletzte?</text>
+  <text x="88" y="702" font-family="Georgia, serif" font-size="21" fill="#111">· WAS WIRD GEBRAUCHT?</text>
+  <text x="88" y="740" font-family="Georgia, serif" font-size="21" fill="#a3231a">Die dritte und die vierte stellt im Alltag niemand — und sie entscheiden alles:</text>
+  <text x="88" y="766" font-family="Georgia, serif" font-size="21" fill="#a3231a">Hilfe, die nicht heranfährt oder in dieselbe Gefahr fährt, kommt nicht an.</text>
+
+  <text x="88" y="811" font-family="Georgia, serif" font-size="23" fill="#111">SICHTEN — die Verletzten in eine Reihenfolge bringen</text>
+
+  <rect x="88" y="838" width="772" height="72" rx="8" fill="#f2ece2" stroke="#a3231a" stroke-width="3"/>
+  <text x="110" y="870" font-family="Georgia, serif" font-size="21" fill="#a3231a">OBEN: wer SCHWER ATMET und wer STARK BLUTET —</text>
+  <text x="110" y="896" font-family="Georgia, serif" font-size="21" fill="#111">nach außen oder erkennbar nach innen.</text>
+
+  <rect x="88" y="928" width="772" height="72" rx="8" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="110" y="960" font-family="Georgia, serif" font-size="21" fill="#111">GANZ UNTEN: die GEHFÄHIGEN.</text>
+  <text x="110" y="986" font-family="Georgia, serif" font-size="21" fill="#111">Wer laufen kann, wartet — auch wenn er laut ist.</text>
+
+  <line x1="40" y1="1036" x2="860" y2="1036" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Atemleiste ============ -->
+  <text x="40" y="1076" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Woran man die Atmung als Kennzeichen nimmt</text>
+  <text x="40" y="1112" font-family="Georgia, serif" font-size="21" fill="#111">Bei einem Erwachsenen ist auffällig:</text>
+
+  <g font-family="Georgia, serif" font-size="19" text-anchor="middle">
+    <text x="220" y="1150" fill="#a3231a">weniger als 10</text>
+    <text x="460" y="1150" fill="#111">unauffällig</text>
+    <text x="700" y="1150" fill="#a3231a">mehr als 20</text>
+  </g>
+
+  <rect x="100" y="1166" width="240" height="50" fill="#a3231a" stroke="#111" stroke-width="2"/>
+  <rect x="340" y="1166" width="240" height="50" fill="#e8eef2" stroke="#111" stroke-width="2"/>
+  <rect x="580" y="1166" width="240" height="50" fill="#a3231a" stroke="#111" stroke-width="2"/>
+
+  <line x1="100" y1="1230" x2="856" y2="1230" stroke="#111" stroke-width="2"/>
+  <polygon points="856,1224 872,1230 856,1236" fill="#111"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="100" y1="1230" x2="100" y2="1240"/><line x1="340" y1="1230" x2="340" y2="1240"/>
+    <line x1="580" y1="1230" x2="580" y2="1240"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="100" y="1262">0</text><text x="340" y="1262">10</text>
+    <text x="580" y="1262">20</text>
+  </g>
+  <text x="100" y="1290" font-family="Georgia, serif" font-size="19" fill="#111">Atemzüge in der Minute — nach rechts ohne Ende</text>
+
+  <text x="40" y="1330" font-family="Georgia, serif" font-size="21" fill="#111">Auch wenn man selbst nichts dagegen tun kann — man weiß dann, wer als</text>
+  <text x="40" y="1356" font-family="Georgia, serif" font-size="21" fill="#111">Erster wegtransportiert gehört.</text>
+
+  <line x1="40" y1="1392" x2="860" y2="1392" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1436" font-family="Georgia, serif" font-size="26" fill="#d65a1a">Gesichtet wird ZWEIMAL — der Schritt, den fast alle vergessen.</text>
+  <text x="40" y="1472" font-family="Georgia, serif" font-size="21" fill="#111">Einmal für die Frage, wer zuerst BEHANDELT wird. Und später noch einmal für</text>
+  <text x="40" y="1498" font-family="Georgia, serif" font-size="21" fill="#111">die Frage, wer zuerst WEGGEBRACHT wird. Das ist nicht dieselbe Reihenfolge —</text>
+  <text x="40" y="1524" font-family="Georgia, serif" font-size="21" fill="#111">der Zustand ändert sich, und wer versorgt ist, wartet anders als der, der es</text>
+  <text x="40" y="1550" font-family="Georgia, serif" font-size="21" fill="#111">nicht ist.</text>
+
+  <line x1="40" y1="1586" x2="860" y2="1586" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="1612" width="820" height="150" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="1652" font-family="Georgia, serif" font-size="23" fill="#a3231a">Der Satz, der wehtut und trotzdem dasteht</text>
+  <text x="62" y="1688" font-family="Georgia, serif" font-size="21" fill="#111">Wo die Mittel nicht reichen, müssen schwere Entscheidungen darüber</text>
+  <text x="62" y="1714" font-family="Georgia, serif" font-size="21" fill="#111">getroffen werden, wie viel Behandlung jemand bekommt, der nicht mehr</text>
+  <text x="62" y="1740" font-family="Georgia, serif" font-size="21" fill="#111">zu retten ist.</text>
+
+  <text x="40" y="1806" font-family="Georgia, serif" font-size="21" fill="#111">Das steht da nicht, damit jemand aufgibt, sondern damit niemand allein mit</text>
+  <text x="40" y="1832" font-family="Georgia, serif" font-size="21" fill="#111">dieser Entscheidung glaubt, er habe versagt. Wer nicht mehr zu retten ist,</text>
+  <text x="40" y="1858" font-family="Georgia, serif" font-size="21" fill="#111">wird nicht allein gelassen — aber die Hände, die er bindet, fehlen den anderen.</text>
+</svg>

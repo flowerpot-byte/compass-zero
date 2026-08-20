@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1840" viewBox="0 0 900 1840">
+  <!-- Zum Tipp "Tote bergen: was auf einen zukommt".
+       Hier ist bewusst NICHTS rot. In allen anderen Zeichnungen warnt Rot
+       vor einem Fehler; hier gibt es keinen Fehler zu vermeiden, sondern
+       eine Arbeit zu tragen. Warnfarben wuerden Angst machen, wo Halt
+       gebraucht wird. Gruen steht nur an den drei Stellen, die tragen.
+       Die vier Gruende stehen ganz oben und nummeriert, weil die Quelle
+       sagt, dass man sie VOR dem Anfangen liest — sie sind das, woran man
+       sich mittendrin festhaelt. Der dritte ist hervorgehoben: den
+       Ueberlebenden Gewissheit geben. Er ist der, den man am leichtesten
+       uebersieht, und der einzige, der jahrelang nachwirkt.
+       Der Kasten in der Mitte enthaelt den Satz, den niemand erwartet: Wenn
+       man den Toten nichts ansieht, ist es SCHWERER. Wer das vorher gelesen
+       hat, erschrickt nicht ueber sich selbst.
+       Kein Diagramm, keine Symbole. Was hier hilft, ist Ordnung und die
+       Moeglichkeit, eine Stelle wiederzufinden. -->
+  <rect width="900" height="1840" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Tote bergen: was auf einen zukommt</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Es gibt Lagen, in denen niemand kommt, der das übernimmt. Dann macht es</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">jemand aus der eigenen Gruppe — und das hier ist für den, der es macht.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="198" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Warum es sein muss — vier Gründe, zu lesen BEVOR man anfängt</text>
+  <text x="40" y="236" font-family="Georgia, serif" font-size="21" fill="#111">Sie sind das, woran man sich mittendrin festhält.</text>
+
+  <g fill="#111">
+    <circle cx="60" cy="276" r="17"/><circle cx="60" cy="349" r="17"/><circle cx="60" cy="551" r="17"/>
+  </g>
+  <circle cx="60" cy="422" r="17" fill="#1d6b3a"/>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="283">1</text><text x="60" y="356">2</text>
+    <text x="60" y="429">3</text><text x="60" y="558">4</text>
+  </g>
+
+  <text x="88" y="283" font-family="Georgia, serif" font-size="21" fill="#111">Den Toten eine würdige Bestattung geben — auch wenn sie eilig sein</text>
+  <text x="88" y="309" font-family="Georgia, serif" font-size="21" fill="#111">muss und mehrere zusammen bestattet werden.</text>
+
+  <text x="88" y="356" font-family="Georgia, serif" font-size="21" fill="#111">Ihnen die Unwürdigkeit ersparen, am Boden liegen zu bleiben und zu</text>
+  <text x="88" y="382" font-family="Georgia, serif" font-size="21" fill="#111">verwesen.</text>
+
+  <text x="88" y="429" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">DEN ÜBERLEBENDEN GEWISSHEIT GEBEN, dass ihr Mensch</text>
+  <text x="88" y="457" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">tot ist — statt dass sie es JAHRELANG nicht wissen.</text>
+  <text x="88" y="491" font-family="Georgia, serif" font-size="21" fill="#111">Der Grund, den man am leichtesten übersieht und der am längsten</text>
+  <text x="88" y="517" font-family="Georgia, serif" font-size="21" fill="#111">nachwirkt.</text>
+
+  <text x="88" y="558" font-family="Georgia, serif" font-size="21" fill="#111">Eine sicherere Umgebung für die Lebenden.</text>
+
+  <line x1="40" y1="594" x2="860" y2="594" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="634" font-family="Georgia, serif" font-size="23" fill="#111">Was auf einen zukommt, unbeschönigt</text>
+  <text x="40" y="672" font-family="Georgia, serif" font-size="21" fill="#111">· Der Anblick entstellter Toter löst bei den meisten GRAUEN aus. Im selben</text>
+  <text x="40" y="698" font-family="Georgia, serif" font-size="21" fill="#111">  Satz steht der Trost: Die meisten bilden SCHNELL eine schützende innere</text>
+  <text x="40" y="724" font-family="Georgia, serif" font-size="21" fill="#111">  Hülle. Das ist keine Kälte — das ist der Schutz, den der Kopf selbst baut.</text>
+  <text x="40" y="756" font-family="Georgia, serif" font-size="21" fill="#111">· Es riecht stark nach Verwesung. Wie stark, hängt von Wärme, Klima und der</text>
+  <text x="40" y="782" font-family="Georgia, serif" font-size="21" fill="#111">  Zeit seit dem Tod ab.</text>
+
+  <rect x="40" y="816" width="820" height="186" rx="10" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <text x="62" y="856" font-family="Georgia, serif" font-size="23" fill="#111">Der Satz, den man nicht erwartet:</text>
+  <text x="62" y="892" font-family="Georgia, serif" font-size="23" fill="#111">Wenn man den Toten NICHTS ansieht, ist es SCHWERER —</text>
+  <text x="62" y="920" font-family="Georgia, serif" font-size="23" fill="#111">nicht leichter.</text>
+  <text x="62" y="956" font-family="Georgia, serif" font-size="21" fill="#111">Die schützende Hülle bildet sich dann schlechter. Wer damit rechnet,</text>
+  <text x="62" y="982" font-family="Georgia, serif" font-size="21" fill="#111">erschrickt nicht über sich selbst.</text>
+
+  <text x="40" y="1042" font-family="Georgia, serif" font-size="21" fill="#111">Tote Kinder treffen am härtesten — und besonders die, die selbst Kinder</text>
+  <text x="40" y="1068" font-family="Georgia, serif" font-size="21" fill="#111">haben. Das gilt ausdrücklich.</text>
+
+  <line x1="40" y1="1104" x2="860" y2="1104" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1144" font-family="Georgia, serif" font-size="23" fill="#111">Wie die Hinterbliebenen reagieren, ist nicht vorhersagbar</text>
+  <text x="40" y="1182" font-family="Georgia, serif" font-size="21" fill="#111">Trauer, Wut, Schock, Dankbarkeit oder ausbleibende Dankbarkeit, Erstarrung,</text>
+  <text x="40" y="1208" font-family="Georgia, serif" font-size="21" fill="#111">Gleichgültigkeit. Das kann angemessen wirken oder unangemessen — und es</text>
+  <text x="40" y="1234" font-family="Georgia, serif" font-size="21" fill="#111">färbt auf die eigenen Gefühle ab.</text>
+  <text x="40" y="1272" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Es ist kein Maßstab für den Wert eines Menschen und keiner für die eigene</text>
+  <text x="40" y="1298" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Arbeit.</text>
+
+  <line x1="40" y1="1334" x2="860" y2="1334" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1378" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Friedhofshumor ist normal.</text>
+  <text x="40" y="1414" font-family="Georgia, serif" font-size="21" fill="#111">Wer Tote trägt, macht irgendwann Witze darüber. Das ist ein natürliches</text>
+  <text x="40" y="1440" font-family="Georgia, serif" font-size="21" fill="#111">ÜBERDRUCKVENTIL für sehr unangenehme Gefühle — nicht Respektlosigkeit.</text>
+  <text x="40" y="1466" font-family="Georgia, serif" font-size="21" fill="#111">Wer es bei sich oder anderen bemerkt, muss sich dafür nicht schämen.</text>
+  <text x="40" y="1504" font-family="Georgia, serif" font-size="21" fill="#111">Daneben stehen Trauer, Bedauern, Abscheu, Ekel, Wut und das Gefühl der</text>
+  <text x="40" y="1530" font-family="Georgia, serif" font-size="21" fill="#111">Vergeblichkeit — oft alles am selben Tag.</text>
+
+  <line x1="40" y1="1566" x2="860" y2="1566" stroke="#c9c4b4" stroke-width="3"/>
+
+  <rect x="40" y="1592" width="820" height="228" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <text x="62" y="1634" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Denk an die GANZE Aufgabe, nicht an jeden Einzelnen.</text>
+  <text x="62" y="1670" font-family="Georgia, serif" font-size="21" fill="#111">Wer bei jedem Toten stehenbleibt, hört auf zu funktionieren — und dann</text>
+  <text x="62" y="1696" font-family="Georgia, serif" font-size="21" fill="#111">bleiben die anderen liegen.</text>
+  <text x="62" y="1738" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Tu, was mit den vorhandenen Mitteln getan werden kann,</text>
+  <text x="62" y="1770" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">einen Schritt nach dem anderen.</text>
+  <text x="62" y="1802" font-family="Georgia, serif" font-size="21" fill="#111">Was nicht zu ändern ist, ist nicht deine Schuld.</text>
+</svg>

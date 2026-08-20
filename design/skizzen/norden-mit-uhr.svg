@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1450" viewBox="0 0 900 1450">
+  <!-- Zum Tipp "Norden finden mit einer Uhr".
+       Der Tipp beschreibt zwei Wege zum selben Ergebnis, und im Fliesstext
+       stehen sie weit auseinander. Nebeneinander gezeichnet, mit DEMSELBEN
+       Beispiel, bestaetigen sie sich gegenseitig — wer den einen nicht
+       behaelt, rechnet mit dem anderen nach.
+       Das Beispiel ist 14 Uhr, weil die Quelle es selbst rechnet.
+       Nachgeprueft, dass beide Wege dieselbe Richtung geben: Um 14 Uhr steht
+       die Sonne 30 Grad westlich von Sued (die Sonne wandert 15 Grad je
+       Stunde). Weg 1: Zeiger auf 2, halbiert zwischen 2 und 12 sind 30 Grad
+       zurueck — genau Sued. Weg 2: die 7 auf die Sonne, dann liegt die 12
+       um 210 Grad gegen den Uhrzeigersinn davon — genau Nord. Beide stimmen.
+       Die Zifferblaetter stehen ungedreht (12 oben) und die Sonne als Pfeil
+       daneben. Ein gedrehtes Zifferblatt waere naeher an der Wirklichkeit,
+       aber schwerer zu lesen; hier zaehlt, WELCHE Linie man sucht.
+       Beschriftet sind nur die Zahlen, die im Tipp vorkommen — kein 3, 6, 9
+       auf dem Blatt. Eine Zahl im Bild, die der Text nicht kennt, ist eine
+       Behauptung, auch wenn sie nur eine Zifferblattmarke ist.
+       Die Sommerzeit-Falle steht eigens und rot: In Mitteleuropa gilt sie
+       den groesseren Teil des Jahres, und wer sie uebersieht, hat die
+       Richtung um gut fuenfzehn Grad daneben. -->
+  <rect width="900" height="1450" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Norden finden mit einer Uhr</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Mit einer Uhr mit ZEIGERN und etwas Sonne geht es in Sekunden — bei uns</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">auf der Nordhalbkugel.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="198" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Zwei Wege — hier beide für dasselbe Beispiel: 14 Uhr</text>
+
+  <text x="40" y="240" font-family="Georgia, serif" font-size="23" fill="#111">Halbieren</text>
+  <text x="40" y="272" font-family="Georgia, serif" font-size="19" fill="#111">Uhr waagerecht halten, Stundenzeiger</text>
+  <text x="40" y="296" font-family="Georgia, serif" font-size="19" fill="#111">auf die Sonne. Den Winkel zwischen</text>
+  <text x="40" y="320" font-family="Georgia, serif" font-size="19" fill="#111">Zeiger und 12 halbieren.</text>
+
+  <text x="470" y="240" font-family="Georgia, serif" font-size="23" fill="#111">Durch zwei teilen</text>
+  <text x="470" y="272" font-family="Georgia, serif" font-size="19" fill="#111">14 geteilt durch 2 ergibt 7. Die 7 auf</text>
+  <text x="470" y="296" font-family="Georgia, serif" font-size="19" fill="#111">die Sonne richten — dann zeigt die 12</text>
+  <text x="470" y="320" font-family="Georgia, serif" font-size="19" fill="#111">nach Norden.</text>
+
+  <!-- ============ Zifferblatt links: halbieren ============ -->
+  <circle cx="250" cy="520" r="130" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="250" y1="402" x2="250" y2="390"/>
+    <line x1="309" y1="418" x2="315" y2="408"/>
+    <line x1="352" y1="461" x2="363" y2="455"/>
+    <line x1="368" y1="520" x2="380" y2="520"/>
+    <line x1="352" y1="579" x2="363" y2="585"/>
+    <line x1="309" y1="622" x2="315" y2="632"/>
+    <line x1="250" y1="638" x2="250" y2="650"/>
+    <line x1="191" y1="622" x2="185" y2="632"/>
+    <line x1="148" y1="579" x2="137" y2="585"/>
+    <line x1="132" y1="520" x2="120" y2="520"/>
+    <line x1="148" y1="461" x2="137" y2="455"/>
+    <line x1="191" y1="418" x2="185" y2="408"/>
+  </g>
+  <text x="250" y="437" font-family="Georgia, serif" font-size="21" fill="#111" text-anchor="middle">12</text>
+  <text x="339" y="504" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="middle">2</text>
+
+  <!-- Stundenzeiger auf die 2, in Sonnenrichtung -->
+  <line x1="250" y1="520" x2="363" y2="455" stroke="#a3231a" stroke-width="6"/>
+  <circle cx="402" cy="433" r="16" fill="#d65a1a"/>
+  <text x="402" y="404" font-family="Georgia, serif" font-size="19" fill="#d65a1a" text-anchor="middle">Sonne</text>
+
+  <!-- Halbierungslinie: 1-Uhr-Richtung nach Sued, Gegenrichtung nach Nord -->
+  <line x1="333" y1="377" x2="167" y2="663" stroke="#1d6b3a" stroke-width="4" stroke-dasharray="12 8"/>
+  <text x="345" y="368" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">SÜD</text>
+  <text x="120" y="686" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">NORD</text>
+
+  <!-- ============ Zifferblatt rechts: durch zwei teilen ============ -->
+  <circle cx="650" cy="520" r="130" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="650" y1="402" x2="650" y2="390"/>
+    <line x1="709" y1="418" x2="715" y2="408"/>
+    <line x1="752" y1="461" x2="763" y2="455"/>
+    <line x1="768" y1="520" x2="780" y2="520"/>
+    <line x1="752" y1="579" x2="763" y2="585"/>
+    <line x1="709" y1="622" x2="715" y2="632"/>
+    <line x1="650" y1="638" x2="650" y2="650"/>
+    <line x1="591" y1="622" x2="585" y2="632"/>
+    <line x1="548" y1="579" x2="537" y2="585"/>
+    <line x1="532" y1="520" x2="520" y2="520"/>
+    <line x1="548" y1="461" x2="537" y2="455"/>
+    <line x1="591" y1="418" x2="585" y2="408"/>
+  </g>
+  <text x="650" y="437" font-family="Georgia, serif" font-size="21" fill="#1d6b3a" text-anchor="middle">12</text>
+  <text x="581" y="579" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="middle">7</text>
+
+  <!-- Gedachter Zeiger auf die 7, in Sonnenrichtung -->
+  <line x1="650" y1="520" x2="585" y2="633" stroke="#a3231a" stroke-width="6" stroke-dasharray="10 6"/>
+  <circle cx="562" cy="672" r="16" fill="#d65a1a"/>
+  <text x="562" y="706" font-family="Georgia, serif" font-size="19" fill="#d65a1a" text-anchor="middle">Sonne</text>
+
+  <line x1="650" y1="520" x2="650" y2="452" stroke="#1d6b3a" stroke-width="4" stroke-dasharray="12 8"/>
+  <line x1="650" y1="418" x2="650" y2="370" stroke="#1d6b3a" stroke-width="4" stroke-dasharray="12 8"/>
+  <text x="650" y="360" font-family="Georgia, serif" font-size="21" fill="#1d6b3a" text-anchor="middle">NORD</text>
+
+  <line x1="40" y1="740" x2="860" y2="740" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Sommerzeit-Falle ============ -->
+  <rect x="40" y="766" width="820" height="146" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="806" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die Sommerzeit-Falle</text>
+  <text x="62" y="842" font-family="Georgia, serif" font-size="21" fill="#111">Läuft die Uhr auf SOMMERZEIT, wird nicht zwischen Zeiger und 12 halbiert,</text>
+  <text x="62" y="868" font-family="Georgia, serif" font-size="21" fill="#111">sondern ZWISCHEN ZEIGER UND 1.</text>
+  <text x="62" y="894" font-family="Georgia, serif" font-size="21" fill="#111">In Mitteleuropa betrifft das den größeren Teil des Jahres.</text>
+
+  <text x="40" y="948" font-family="Georgia, serif" font-size="21" fill="#111">Wer das übersieht, liegt um eine halbe Stunde Zeigerweg daneben — also gut</text>
+  <text x="40" y="974" font-family="Georgia, serif" font-size="21" fill="#111">fünfzehn Grad.</text>
+
+  <line x1="40" y1="1010" x2="860" y2="1010" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1050" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Welches Ende der Linie Norden ist</text>
+  <text x="40" y="1088" font-family="Georgia, serif" font-size="21" fill="#111">Die Sonne steht vormittags im Osten, mittags im Süden, nachmittags im</text>
+  <text x="40" y="1114" font-family="Georgia, serif" font-size="21" fill="#111">Westen. Süden ist also die Seite, auf der die Sonne steht.</text>
+
+  <line x1="40" y1="1150" x2="860" y2="1150" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1190" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Nur eine digitale Uhr?</text>
+  <text x="40" y="1228" font-family="Georgia, serif" font-size="21" fill="#111">Ein Zifferblatt auf Papier oder in den Boden zeichnen, die Zeiger für die</text>
+  <text x="40" y="1254" font-family="Georgia, serif" font-size="21" fill="#111">aktuelle Zeit einzeichnen und genauso verfahren. Flach auf den Boden gelegt</text>
+  <text x="40" y="1280" font-family="Georgia, serif" font-size="21" fill="#111">lässt sich eine Uhr genauer ablesen als in der Hand gehalten.</text>
+
+  <line x1="40" y1="1316" x2="860" y2="1316" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1356" font-family="Georgia, serif" font-size="21" fill="#111">Je weiter man vom Äquator entfernt ist, desto genauer wird das Verfahren —</text>
+  <text x="40" y="1382" font-family="Georgia, serif" font-size="21" fill="#111">für Mitteleuropa also gut brauchbar.</text>
+  <text x="40" y="1424" font-family="Georgia, serif" font-size="23" fill="#a3231a">Trotzdem: eine ungefähre Richtung, keine Peilung.</text>
+</svg>

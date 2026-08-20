@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660">
+  <!-- Anleitung feuer-lagerfeuer-sicher, Schritt 9 (Sicherheit: Abstaende,
+       Wind, Aufsicht und Rechtslage in Deutschland).
+       Gezeigter Satz: Sicherheitsabstaende: zu Gebaeuden oder Gebaeudeteilen
+       aus brennbaren Stoffen mindestens 5 m, zu leicht entzuendbaren Stoffen
+       (z. B. Strohhaufen) mindestens 25 m, offene Feuerstaetten zusaetzlich
+       zu leicht entzuendbaren Stoffen wie Strohballen oder trockenem Schilf
+       mindestens 100 m.
+       Umgesetzt als drei konzentrische Ringe um das Feuer: je gefaehrlicher
+       das brennbare Material, desto groesser der noetige Ring/Abstand.
+       Damit steht der wachsende Abstand als Flaeche im Bild, nicht nur als
+       Zahl. Die beiden aeusseren Objekte sitzen bewusst ausserhalb aller
+       Ringe (offener Platz unten links/rechts), eine duenne Fuehrungslinie
+       beruehrt genau den Ring, der zu ihnen gehoert, so kreuzt kein
+       Objekt und keine Beschriftung einen fremden Ring. Der innerste Ring
+       (Gebaeude, 5 m) traegt die Signalfarbe, weil ein zu kurzer Abstand
+       zu einem Gebaeude der teuerste Fehler ist. -->
+  <rect width="900" height="660" fill="#faf9f6"/>
+
+  <text x="450" y="44" text-anchor="middle" font-family="Georgia, serif" font-size="27" font-weight="bold" fill="#111">Sicherheitsabstände zur offenen Feuerstätte</text>
+  <text x="450" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Je leichter entzündbar, desto größer der Mindestabstand</text>
+
+  <!-- Ringe: 5 m (Signalfarbe, engster und gefaehrlichster Abstand), 25 m, 100 m -->
+  <circle cx="450" cy="330" r="210" fill="none" stroke="#5b7f96" stroke-width="2.5" stroke-dasharray="7 7"/>
+  <circle cx="450" cy="330" r="130" fill="none" stroke="#5b7f96" stroke-width="2.5" stroke-dasharray="7 7"/>
+  <circle cx="450" cy="330" r="65" fill="none" stroke="#d65a1a" stroke-width="3" stroke-dasharray="7 7"/>
+
+  <!-- Feuer in der Mitte -->
+  <rect x="432" y="349" width="20" height="7" rx="3" fill="#7a5a3e" stroke="#111" stroke-width="1.5" transform="rotate(-18 442 352)"/>
+  <rect x="448" y="349" width="20" height="7" rx="3" fill="#7a5a3e" stroke="#111" stroke-width="1.5" transform="rotate(18 458 352)"/>
+  <path d="M 450 350 C 433 327 448 318 444 298 C 464 320 466 333 450 350 Z" fill="#e8ddc7" stroke="#111" stroke-width="2.5"/>
+
+  <!-- 5 m: Gebaeude, sitzt unmittelbar auf dem inneren Ring, Beschriftung
+       weit oben ueber dem Dach, deutlich vor dem 25-m-Ring -->
+  <polygon points="450,222 422,246 478,246" fill="#7a5a3e" stroke="#111" stroke-width="2"/>
+  <rect x="428" y="246" width="44" height="19" fill="#e8ddc7" stroke="#111" stroke-width="2"/>
+  <text x="450" y="176" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">Gebäude</text>
+  <path d="M 490 265 L 505 265" stroke="#5b7f96" stroke-width="1.5" fill="none"/>
+  <rect x="505" y="253" width="60" height="24" rx="5" fill="#faf9f6" stroke="#111" stroke-width="1.5"/>
+  <text x="535" y="270" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">5 m</text>
+
+  <!-- 25 m: Strohhaufen, ausserhalb aller Ringe unten links. Die
+       Fuehrungslinie beruehrt den 25-m-Ring bei (320, 330). -->
+  <circle cx="320" cy="330" r="3.5" fill="#5b7f96"/>
+  <path d="M 320 330 L 250 430" stroke="#5b7f96" stroke-width="1.5" fill="none"/>
+  <rect x="265" y="368" width="70" height="24" rx="5" fill="#faf9f6" stroke="#111" stroke-width="1.5"/>
+  <text x="300" y="385" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">25 m</text>
+  <path d="M 180 490 Q 215 448 250 488 Z" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+  <path d="M 195 480 Q 215 460 235 478" stroke="#7a5a3e" stroke-width="1.5" fill="none"/>
+  <text x="215" y="515" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">Strohhaufen</text>
+
+  <!-- 100 m: Strohballen und trockenes Schilf, ausserhalb aller Ringe
+       unten rechts. Die Fuehrungslinie beruehrt den 100-m-Ring bei
+       (660, 330). -->
+  <circle cx="660" cy="330" r="3.5" fill="#5b7f96"/>
+  <path d="M 660 330 L 715 425" stroke="#5b7f96" stroke-width="1.5" fill="none"/>
+  <rect x="655" y="368" width="70" height="24" rx="5" fill="#faf9f6" stroke="#111" stroke-width="1.5"/>
+  <text x="690" y="385" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">100 m</text>
+  <rect x="700" y="448" width="80" height="44" rx="10" fill="#d9c98a" stroke="#111" stroke-width="2.5"/>
+  <line x1="726" y1="448" x2="726" y2="492" stroke="#111" stroke-width="1.5"/>
+  <line x1="753" y1="448" x2="753" y2="492" stroke="#111" stroke-width="1.5"/>
+  <g stroke="#7a5a3e" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M 787 492 C 785 470 791 458 785 438"/>
+    <path d="M 800 492 C 798 468 806 456 798 436"/>
+    <path d="M 813 492 C 811 470 817 460 811 442"/>
+  </g>
+  <text x="750" y="517" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">Strohballen /</text>
+  <text x="750" y="538" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#111">trockenes Schilf</text>
+
+  <text x="450" y="628" text-anchor="middle" font-style="italic" font-family="Georgia, serif" font-size="14" fill="#5b7f96">Ringe nicht maßstäblich – nur die Reihenfolge der Abstände zählt</text>
+</svg>

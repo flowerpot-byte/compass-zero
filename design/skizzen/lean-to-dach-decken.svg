@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="680" viewBox="0 0 900 680">
+  <!-- Zur Bauanleitung notunterstand-lean-to, Schritt 7
+       ("Rahmen decken — wie Dachziegel").
+       ZWEIMAL NEU GESCHRIEBEN. Die erste Fassung zeichnete die Lagen als
+       Farbstreifen, die STUMPF aneinanderstiessen — damit fehlte genau das,
+       was der Schritt sagt: dass jede Lage die darunter UEBERLAPPT. Die
+       zweite legte die Lagen zwar uebereinander, zeichnete sie aber als
+       gleich dicke Balken; auf dem Bild sah das wieder aus wie ein
+       durchgehender Streifen mit Fugen. Jetzt ist jede Lage ein KEIL: unten
+       dick, oben duenn. Dadurch hat jede Lage am unteren Ende eine sichtbare
+       Kante, und man sieht, dass die obere auf der unteren LIEGT.
+       Die Signalfarbe steht an der einzigen Stelle, an der ein Fehler teuer
+       ist: bei der falschen Reihenfolge, durch die Wasser in die Fuge laeuft.
+       Der Schritt nennt keine Zahl, deshalb steht keine im Bild. -->
+  <rect width="900" height="680" fill="#faf9f6"/>
+  <text x="450" y="46" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#111">Decken wie Dachziegel: unten anfangen</text>
+  <text x="450" y="76" text-anchor="middle" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Jede Lage deckt die darunter zur Hälfte, dann läuft das Wasser darüber hinweg.</text>
+  <line x1="90" y1="486" x2="810" y2="486" stroke="#7a5a3e" stroke-width="8" stroke-linecap="round"/>
+  <rect x="182" y="176" width="120" height="14" rx="4" fill="#9b7d5c" stroke="#111" stroke-width="3"/>
+  <rect x="196" y="190" width="12" height="296" fill="#9b7d5c" stroke="#111" stroke-width="3"/>
+  <text x="176" y="164" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#111">Träger</text>
+  <line x1="250.0" y1="190.0" x2="700.0" y2="478.0" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+  <!-- Die Lagen, von unten nach oben gelegt -->
+  <path d="M 700.0 478.0 L 622.5 428.4 L 624.1 425.9 L 710.8 461.2 Z" fill="#8ba668" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 662.9 454.3 L 585.5 404.7 L 587.1 402.2 L 673.7 437.4 Z" fill="#a6bb87" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 625.9 430.6 L 548.4 381.0 L 550.0 378.4 L 636.7 413.7 Z" fill="#8ba668" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 588.8 406.8 L 511.3 357.3 L 512.9 354.7 L 599.6 390.0 Z" fill="#a6bb87" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 551.8 383.1 L 474.3 333.5 L 475.9 331.0 L 562.5 366.3 Z" fill="#8ba668" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 514.7 359.4 L 437.2 309.8 L 438.8 307.3 L 525.5 342.6 Z" fill="#a6bb87" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 382.5 260.5 L 392 150" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <circle cx="382.5" cy="260.5" r="3" fill="#5b7f96"/>
+  <text x="400" y="146" font-family="Georgia, serif" font-size="16" fill="#111">hier noch nicht gedeckt</text>
+  <path d="M 719.9 417.1 L 517.4 287.5" stroke="#5b7f96" stroke-width="5" fill="none"/>
+  <path d="M 517.4 287.5 l 22 -2 M 517.4 287.5 l 8 20" stroke="#5b7f96" stroke-width="5" fill="none"/>
+  <text x="726" y="436" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Arbeitsrichtung:</text>
+  <text x="726" y="456" font-family="Georgia, serif" font-size="16" fill="#5b7f96">unten anfangen</text>
+  <line x1="70" y1="512" x2="830" y2="512" stroke="#e2dfd8" stroke-width="2"/>
+  <text x="80" y="546" font-family="Georgia, serif" font-size="18" fill="#111">richtig: die obere Lage liegt DRAUF</text>
+  <text x="470" y="546" font-family="Georgia, serif" font-size="18" fill="#d65a1a">falsch: die obere Lage liegt DRUNTER</text>
+  <path d="M 90 618 L 186 584 L 186 574 L 90 604 Z" fill="#8ba668" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 146 608 L 242 574 L 242 564 L 146 590 Z" fill="#a6bb87" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 236 560 Q 190 582 124 614" stroke="#5b7f96" stroke-width="4" fill="none"/>
+  <path d="M 124 614 l 3 -18 M 124 614 l 17 6" stroke="#5b7f96" stroke-width="4" fill="none"/>
+  <text x="98" y="574" font-family="Georgia, serif" font-size="15" fill="#5b7f96">Wasser</text>
+  <path d="M 480 618 L 576 584 L 576 574 L 480 604 Z" fill="#8ba668" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 536 620 L 632 586 L 632 576 L 536 610 Z" fill="#a6bb87" stroke="#111" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 626 572 Q 584 592 544 614" stroke="#d65a1a" stroke-width="4" fill="none"/>
+  <path d="M 544 614 l 1 -18 M 544 614 l 18 3" stroke="#d65a1a" stroke-width="4" fill="none"/>
+  <text x="80" y="668" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Das Wasser läuft darüber hinweg.</text>
+  <text x="470" y="668" font-family="Georgia, serif" font-size="16" fill="#d65a1a">Das Wasser läuft in die Fuge.</text>
+</svg>

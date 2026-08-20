@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1512" viewBox="0 0 900 1512">
+  <!-- Zum Tipp "Wenn einer weggeht: fuenf Fragen vorher".
+       Die fuenf Fragen sind der ganze Tipp, und sie stehen nummeriert und
+       als FRAGEN, nicht als Merkposten. Eine Frage will beantwortet werden;
+       ein Merkposten wird abgehakt.
+       Die vierte und die fuenfte stehen rot, weil der Tipp selbst sagt, dass
+       genau sie uebersprungen werden — und weil sie die einzigen sind, die
+       nach dem Weggehen noch etwas nuetzen. Wer nur eins bis drei
+       beantwortet, hat eine Verabredung; wer vier und fuenf beantwortet, hat
+       einen Plan.
+       Die beiden langen Fragen stehen zweizeilig und VOLLSTAENDIG. Beim
+       ersten Versuch waren sie gekuerzt, damit sie in eine Zeile passen —
+       das aendert sie: "wenn er nicht zurueckkommt" allein laesst den Fall
+       weg, dass etwas passiert und jemand es meldet.
+       Das Beispiel im Kasten steht da, weil eine gute Antwort auf Frage 4
+       eine bestimmte Form hat: eine Frist, eine Handlung, eine Bedingung.
+       Ohne Beispiel antwortet man "wir sehen dann weiter", und das ist keine
+       Antwort.
+       Die drei Regeln fuer den, der geht, und die fuenf Merkmale eines
+       Rastplatzes stehen als Woerter und nicht als Bild. Ein gezeichneter
+       Rastplatz waere ein einzelner Ort; die fuenf Merkmale gelten fuer
+       jeden. -->
+  <rect width="900" height="1512" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Wenn einer weggeht: fünf Fragen vorher</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Jemand geht Wasser holen oder nachschauen, ob die Straße frei ist. Das</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">passiert jeden Tag — und es ist der Vorgang, bei dem Gruppen Menschen</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">verlieren, weil niemand vorher zwei Minuten geredet hat.</text>
+
+  <line x1="40" y1="184" x2="860" y2="184" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="224" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Alle fünf werden beantwortet — laut, vor allen</text>
+
+  <g fill="#111">
+    <circle cx="60" cy="262" r="17"/><circle cx="60" cy="302" r="17"/><circle cx="60" cy="342" r="17"/>
+  </g>
+  <g fill="#a3231a">
+    <circle cx="60" cy="382" r="17"/><circle cx="60" cy="450" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="269">1</text><text x="60" y="309">2</text><text x="60" y="349">3</text>
+    <text x="60" y="389">4</text><text x="60" y="457">5</text>
+  </g>
+  <text x="88" y="269" font-family="Georgia, serif" font-size="23" fill="#111">WER GEHT?</text>
+  <text x="88" y="309" font-family="Georgia, serif" font-size="23" fill="#111">WOHIN GENAU?</text>
+  <text x="88" y="349" font-family="Georgia, serif" font-size="23" fill="#111">WIE LANGE?</text>
+  <text x="88" y="389" font-family="Georgia, serif" font-size="23" fill="#a3231a">WAS TUN WIR, WENN ER NICHT ZURÜCKKOMMT</text>
+  <text x="88" y="417" font-family="Georgia, serif" font-size="23" fill="#a3231a">ODER ETWAS PASSIERT?</text>
+  <text x="88" y="457" font-family="Georgia, serif" font-size="23" fill="#a3231a">WOHIN GEHT DER, DEM ETWAS PASSIERT —</text>
+  <text x="88" y="485" font-family="Georgia, serif" font-size="23" fill="#a3231a">UND WOHIN GEHEN WIR?</text>
+
+  <line x1="40" y1="522" x2="860" y2="522" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="562" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die vierte und die fünfte sind die, die man überspringt — und die wichtigsten.</text>
+  <text x="40" y="596" font-family="Georgia, serif" font-size="21" fill="#111">Ohne Antwort darauf sitzt eine Gruppe im Dunkeln und streitet, ob sie losgehen</text>
+  <text x="40" y="622" font-family="Georgia, serif" font-size="21" fill="#111">soll — und wenn sie losgeht, weiß niemand wohin.</text>
+
+  <rect x="40" y="658" width="820" height="140" rx="10" fill="none" stroke="#1d6b3a" stroke-width="3"/>
+  <text x="62" y="696" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Eine brauchbare Antwort auf Frage 4 klingt so:</text>
+  <text x="62" y="732" font-family="Georgia, serif" font-size="21" fill="#111">„Wenn ich bis Sonnenuntergang nicht da bin, geht IHR NICHT SUCHEN,</text>
+  <text x="62" y="758" font-family="Georgia, serif" font-size="21" fill="#111">sondern wartet bis zum Morgen und geht dann zu zweit denselben Weg.“</text>
+  <text x="62" y="784" font-family="Georgia, serif" font-size="21" fill="#111">Eine Frist, eine Handlung, eine Bedingung.</text>
+
+  <text x="40" y="838" font-family="Georgia, serif" font-size="21" fill="#111">Oder das Gegenteil — Hauptsache, es ist vorher entschieden und nicht mitten</text>
+  <text x="40" y="864" font-family="Georgia, serif" font-size="21" fill="#111">in der Nacht.</text>
+
+  <line x1="40" y1="900" x2="860" y2="900" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="940" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Drei Regeln für den, der geht</text>
+
+  <text x="40" y="980" font-family="Georgia, serif" font-size="23" fill="#111">LANGSAM</text>
+  <text x="310" y="980" font-family="Georgia, serif" font-size="21" fill="#111">Je langsamer und vorsichtiger, desto besser. Der</text>
+  <text x="310" y="1006" font-family="Georgia, serif" font-size="21" fill="#111">Zeitgewinn durch Eile ist immer kleiner als der</text>
+  <text x="310" y="1032" font-family="Georgia, serif" font-size="21" fill="#111">Verlust durch einen Fehler.</text>
+
+  <text x="40" y="1072" font-family="Georgia, serif" font-size="23" fill="#111">HORCHHALTE</text>
+  <text x="310" y="1072" font-family="Georgia, serif" font-size="21" fill="#111">Immer wieder stehen bleiben und NUR HÖREN. Augen</text>
+  <text x="310" y="1098" font-family="Georgia, serif" font-size="21" fill="#111">und Ohren sind der beste Schutz: Menschen bemerken,</text>
+  <text x="310" y="1124" font-family="Georgia, serif" font-size="21" fill="#111">bevor sie einen selbst bemerken.</text>
+
+  <text x="40" y="1164" font-family="Georgia, serif" font-size="23" fill="#111">ERST SEHEN,</text>
+  <text x="40" y="1192" font-family="Georgia, serif" font-size="23" fill="#111">DANN GEHEN</text>
+  <text x="310" y="1164" font-family="Georgia, serif" font-size="21" fill="#111">Ein Stück des Weges von einem gedeckten Platz aus</text>
+  <text x="310" y="1190" font-family="Georgia, serif" font-size="21" fill="#111">ansehen, bevor man es betritt.</text>
+
+  <line x1="40" y1="1228" x2="860" y2="1228" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1268" font-family="Georgia, serif" font-size="21" fill="#111">Gemieden werden — auch wenn der Umweg Zeit und Kraft kostet: Straßen und</text>
+  <text x="40" y="1294" font-family="Georgia, serif" font-size="21" fill="#111">Wege, bewohnte Orte, Brücken und Übergänge, enge Stellen ohne Ausweg — und</text>
+  <text x="40" y="1320" font-family="Georgia, serif" font-size="21" fill="#111">alle Menschen, solange man nicht weiß, wer sie sind.</text>
+
+  <line x1="40" y1="1356" x2="860" y2="1356" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1396" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Ein Platz zum Ausruhen: fünf Merkmale</text>
+  <text x="40" y="1434" font-family="Georgia, serif" font-size="23" fill="#111">fügt sich ein · flach · unregelmäßig · klein · abgelegen</text>
+  <text x="40" y="1472" font-family="Georgia, serif" font-size="21" fill="#111">Ein gerader Umriss und eine glatte Kante fallen auf — in der Natur gibt es</text>
+  <text x="40" y="1498" font-family="Georgia, serif" font-size="21" fill="#111">beides nicht.</text>
+</svg>

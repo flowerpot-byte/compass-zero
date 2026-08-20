@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="480" viewBox="0 0 880 480">
+  <!-- Zum Tipp "Schneeblindheit: Sand in den Augen, aber es ist Licht".
+       Die Quelle nennt nur "Schlitze in ein Stueck Pappe, duennes Holz oder
+       Baumrinde schneiden" und gibt KEINE Masse an. Deshalb zeigt diese
+       Zeichnung das Prinzip und nicht eine Bauzeichnung: Der Schlitz laesst
+       gerade genug Licht zum Sehen und schneidet den Rest weg.
+       Die Behandlung der Schneeblindheit ist nur Warten – diese Brille ist
+       das Einzige, was wirklich hilft, und sie ist in Minuten gemacht. -->
+  <rect width="880" height="480" fill="#faf9f6"/>
+  <text x="30" y="44" font-family="Georgia, serif" font-size="25" fill="#111">Behelfsbrille gegen Schneeblindheit</text>
+
+  <!-- Die Brille von vorn -->
+  <g transform="translate(60,110)">
+    <path d="M 0 40 Q 0 0 40 0 L 320 0 Q 360 0 360 40 L 360 120 Q 360 160 320 160
+             L 40 160 Q 0 160 0 120 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Nasenaussparung -->
+    <path d="M 154 160 Q 180 118 206 160 Z" fill="#faf9f6" stroke="#111" stroke-width="5"/>
+    <!-- die beiden Schlitze -->
+    <rect x="52" y="66" width="90" height="14" rx="6" fill="#111"/>
+    <rect x="218" y="66" width="90" height="14" rx="6" fill="#111"/>
+    <!-- Band -->
+    <path d="M 0 60 C -34 60 -34 96 0 96" fill="none" stroke="#111" stroke-width="5"/>
+    <path d="M 360 60 C 394 60 394 96 360 96" fill="none" stroke="#111" stroke-width="5"/>
+  </g>
+
+  <text x="60" y="330" font-family="Georgia, serif" font-size="19" fill="#d65a1a">Die Schlitze so schmal wie möglich.</text>
+  <text x="60" y="356" font-family="Georgia, serif" font-size="19" fill="#111">Pappe, dünnes Holz oder Baumrinde.</text>
+  <text x="60" y="382" font-family="Georgia, serif" font-size="19" fill="#111">Maße nennt die Quelle nicht — es geht nur</text>
+  <text x="60" y="408" font-family="Georgia, serif" font-size="19" fill="#111">darum, das Licht auf einen Spalt zu begrenzen.</text>
+
+  <!-- Rechts: Russ unter den Augen -->
+  <g transform="translate(560,110)">
+    <ellipse cx="130" cy="86" rx="104" ry="120" fill="#faf9f6" stroke="#111" stroke-width="6"/>
+    <ellipse cx="88" cy="66" rx="19" ry="12" fill="none" stroke="#111" stroke-width="5"/>
+    <ellipse cx="172" cy="66" rx="19" ry="12" fill="none" stroke="#111" stroke-width="5"/>
+    <rect x="66" y="88" width="46" height="15" rx="7" fill="#111"/>
+    <rect x="150" y="88" width="46" height="15" rx="7" fill="#111"/>
+    <path d="M 104 150 Q 130 166 156 150" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="560" y="368" font-family="Georgia, serif" font-size="19" fill="#111">Ruß unter die Augen nimmt</text>
+  <text x="560" y="394" font-family="Georgia, serif" font-size="19" fill="#111">die Blendung von unten weg.</text>
+
+  <text x="30" y="450" font-family="Georgia, serif" font-size="19" fill="#d65a1a">Die Behandlung ist nur Warten. Diese Brille ist das Einzige, was wirklich hilft.</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <!-- Zum Tipp erste-hilfe-brustschmerzen.
+
+       GEZEIGTE AUSSAGE: eine Entscheidung, die Tempo braucht und im Text nur
+       als eingeschobener Nebensatz steht. Wortlaut: "hilf ihr, so schnell wie
+       moeglich eine Aspirin-Kautablette mit 150 bis 500 Milligramm zu nehmen,
+       waehrend ihr auf den Transport ins Krankenhaus wartet. Ausgenommen sind
+       Erwachsene mit bekannter Aspirin-Allergie - die bekommen keine."
+
+       Die Signalfarbe steht einmal, am durchgestrichenen Praeparat: Der Text
+       nennt genau eine Gruppe, die es NICHT bekommen darf.
+
+       Der Hinweis zur Menge steht ausdruecklich mit im Bild. Er gehoert dazu,
+       weil eine Zahl in einer Zeichnung sonst amtlicher wirkt, als sie ist.
+
+       Neubau am 05.08.2026. Die erste Fassung zeigte zwei Strichfiguren, von
+       denen eine der anderen eine Tablette in einem gestrichelten Bogen an den
+       Kopf warf. Die Haltungen waren unlesbar (ein knieender Koerper mit einem
+       ueberlangen Arm), und vor allem trugen sie nichts zur Aussage bei: Der
+       Inhalt ist, WELCHE Tablette, WIE VIEL und WER sie nicht bekommt. -->
+
+  <rect width="900" height="520" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="26" fill="#111">Brustschmerzen: die Aspirin-Kautablette</text>
+  <text x="40" y="76" font-family="Georgia, serif" font-size="17" fill="#5b7f96">So schnell wie möglich, während ihr auf den Transport ins Krankenhaus wartet.</text>
+
+  <line x1="560" y1="112" x2="560" y2="386" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- ================= LINKS: die Regel ================= -->
+  <text x="280" y="142" font-family="Georgia, serif" font-size="20" fill="#111" text-anchor="middle">Regel</text>
+
+  <circle cx="280" cy="252" r="82" fill="#e6e2d6" stroke="#111" stroke-width="5"/>
+  <line x1="280" y1="176" x2="280" y2="328" stroke="#111" stroke-width="3"/>
+
+  <text x="280" y="376" font-family="Georgia, serif" font-size="21" fill="#111" text-anchor="middle">Aspirin-Kautablette</text>
+  <text x="280" y="404" font-family="Georgia, serif" font-size="21" fill="#111" text-anchor="middle">150 bis 500 Milligramm</text>
+
+  <!-- ================= RECHTS: die eine Ausnahme ================= -->
+  <text x="722" y="142" font-family="Georgia, serif" font-size="20" fill="#111" text-anchor="middle">Ausnahme</text>
+
+  <circle cx="722" cy="248" r="50" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+  <line x1="722" y1="202" x2="722" y2="294" stroke="#111" stroke-width="2.5"/>
+  <circle cx="722" cy="248" r="70" fill="none" stroke="#d65a1a" stroke-width="7"/>
+  <line x1="672" y1="198" x2="772" y2="298" stroke="#d65a1a" stroke-width="7"/>
+
+  <text x="722" y="366" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">bekannte Aspirin-Allergie:</text>
+  <text x="722" y="392" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">bekommt keine</text>
+
+  <!-- ================= Der Rest, der dazugehoert ================= -->
+  <text x="40" y="442" font-family="Georgia, serif" font-size="19" fill="#111">Sitzen oder liegen, wie es ihr bequem ist. 112 rufen und bei ihr bleiben.</text>
+  <text x="40" y="468" font-family="Georgia, serif" font-size="19" fill="#111">Hat sie eine bekannte Angina pectoris und ihr Nitroglycerin dabei: dabei helfen.</text>
+  <text x="40" y="500" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Die Menge stammt aus der Leitlinie und ist keine ärztliche Verordnung.</text>
+</svg>

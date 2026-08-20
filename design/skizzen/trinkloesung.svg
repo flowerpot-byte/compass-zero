@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580">
+  <!-- Zum Tipp "Trinkloesung selbst ansetzen".
+       Diese Zeichnung ist da, um EINEN Fehler zu verhindern: zu viel Salz.
+       Ein ganzer statt ein halber Teeloeffel ist die haeufigste Verwechslung,
+       und eine zu salzige Loesung zieht Wasser AUS dem Koerper in den Darm –
+       sie verschlimmert genau das, wogegen sie gegeben wird.
+       Deshalb steht der halbe Loeffel gross und gestrichen daneben, und
+       deshalb ist das Verhaeltnis 1 zu 12 sichtbar gemacht: ein halber
+       Loeffel Salz gegen sechs Loeffel Zucker. -->
+  <rect width="900" height="580" fill="#faf9f6"/>
+
+  <text x="40" y="50" font-family="Georgia, serif" font-size="26" fill="#111">Trinklösung: auf EINEN Liter sauberes Wasser</text>
+
+  <!-- ====== Liter-Gefaess ====== -->
+  <g transform="translate(56,92)">
+    <path d="M 10 0 L 10 250 Q 10 276 40 276 L 110 276 Q 140 276 140 250 L 140 0"
+          fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 12 96 L 138 96 Q 138 250 138 250 Q 138 272 110 272 L 40 272 Q 12 272 12 250 Z"
+          fill="#e6e2d6"/>
+    <path d="M 12 96 L 138 96" stroke="#111" stroke-width="4"/>
+    <line x1="140" y1="96" x2="176" y2="96" stroke="#111" stroke-width="3"/>
+    <text x="182" y="102" font-family="Georgia, serif" font-size="22" fill="#111">1 Liter</text>
+    <text x="6" y="316" font-family="Georgia, serif" font-size="19" fill="#555">sauberes Wasser —</text>
+    <text x="6" y="340" font-family="Georgia, serif" font-size="19" fill="#555">im Zweifel abgekocht</text>
+  </g>
+
+  <!-- ====== Salz: EIN HALBER Loeffel ====== -->
+  <g transform="translate(330,110)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="22" fill="#111">SALZ</text>
+    <!-- Loeffelschale, halb gefuellt: die linke Haelfte ist voll, die rechte leer -->
+    <ellipse cx="70" cy="52" rx="56" ry="34" fill="#faf9f6" stroke="#111" stroke-width="5"/>
+    <path d="M 70 18 A 56 34 0 0 0 70 86 Z" fill="#d65a1a"/>
+    <line x1="70" y1="18" x2="70" y2="86" stroke="#111" stroke-width="4" stroke-dasharray="7 6"/>
+    <path d="M 126 52 L 210 44" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+    <text x="0" y="126" font-family="Georgia, serif" font-size="34" fill="#d65a1a">½ Teelöffel</text>
+    <text x="0" y="158" font-family="Georgia, serif" font-size="20" fill="#111">gestrichen, nicht gehäuft</text>
+  </g>
+
+  <!-- Warnzeile: der Grund fuer die halbe Portion -->
+  <g transform="translate(330,318)">
+    <rect x="-8" y="-30" width="452" height="76" rx="8" fill="#f2efe7" stroke="#d65a1a" stroke-width="3"/>
+    <text x="12" y="-2" font-family="Georgia, serif" font-size="19" fill="#111">Ein GANZER Löffel ist kein bisschen besser,</text>
+    <text x="12" y="26" font-family="Georgia, serif" font-size="19" fill="#111">sondern gefährlich. Im Zweifel zu schwach.</text>
+  </g>
+
+  <!-- ====== Zucker: sechs Loeffel ====== -->
+  <g transform="translate(330,424)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="22" fill="#111">ZUCKER</text>
+    <g fill="#e6e2d6" stroke="#111" stroke-width="4">
+      <ellipse cx="30" cy="42" rx="24" ry="15"/>
+      <ellipse cx="86" cy="42" rx="24" ry="15"/>
+      <ellipse cx="142" cy="42" rx="24" ry="15"/>
+      <ellipse cx="198" cy="42" rx="24" ry="15"/>
+      <ellipse cx="254" cy="42" rx="24" ry="15"/>
+      <ellipse cx="310" cy="42" rx="24" ry="15"/>
+    </g>
+    <text x="352" y="52" font-family="Georgia, serif" font-size="30" fill="#111">6 Löffel</text>
+    <text x="0" y="88" font-family="Georgia, serif" font-size="19" fill="#555">Ohne Zucker nimmt der Darm</text>
+    <text x="0" y="112" font-family="Georgia, serif" font-size="19" fill="#555">das Salz und das Wasser gar nicht auf.</text>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1346" viewBox="0 0 900 1346">
+  <!-- Zum Tipp "Behelfstrage aus Jacken und zwei Stangen".
+       Zwei Bauanleitungen, die als Fliesstext muehsam sind: Man muss sich
+       merken, was innen und was unten liegt, und beim Falten, welches
+       Drittel wohin kommt. Beides ist raeumlich und gehoert ins Bild.
+       Bei den Jacken sind die zwei Handgriffe, die man ohne Bild falsch
+       macht, eigens benannt: die Aermel liegen INNEN (also Jacke auf links
+       drehen) und die geschlossenen Knopfleisten liegen UNTEN. Der
+       Koerperumriss darueber zeigt, warum es zwei Jacken sein muessen: eine
+       traegt den Oberkoerper, die andere Becken und Beine.
+       Bei der Plane teilen die zwei Stangen die Flaeche in DREI GLEICHE
+       Abschnitte — im Bild sind es wirklich Drittel: Die Plane ist 220 breit,
+       die Stangen stehen bei 73 und 147.
+       Die Pruefung vor dem Beladen steht rot und allein, weil sie der
+       Schritt ist, den man ueberspringt, wenn es eilig ist — und weil ihr
+       Ausfall genau auf halbem Weg passiert.
+       Der Schlusssatz ist die Grenze der ganzen Sache: Eine weiche Plane
+       stuetzt keine Wirbelsaeule. Ohne ihn liest sich das Bild wie eine
+       Erlaubnis, jeden zu transportieren. -->
+  <rect width="900" height="1346" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Behelfstrage: aus zwei Jacken oder einer Plane</text>
+
+  <!-- ============ A: zwei Jacken ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Aus zwei Jacken</text>
+
+  <rect x="60" y="192" width="620" height="14" rx="7" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <rect x="60" y="292" width="620" height="14" rx="7" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <rect x="150" y="180" width="210" height="138" rx="10" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="380" y="180" width="210" height="138" rx="10" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="2" stroke-dasharray="8 6">
+    <line x1="150" y1="199" x2="360" y2="199"/>
+    <line x1="150" y1="299" x2="360" y2="299"/>
+    <line x1="380" y1="199" x2="590" y2="199"/>
+    <line x1="380" y1="299" x2="590" y2="299"/>
+  </g>
+  <g stroke="#111" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M 402 238 L 556 232"/>
+    <path d="M 402 260 L 556 268"/>
+  </g>
+  <g stroke="#111" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M 252 220 L 388 214"/>
+    <path d="M 252 278 L 388 284"/>
+  </g>
+  <rect x="222" y="226" width="180" height="46" rx="16" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+  <circle cx="200" cy="249" r="20" fill="#faf9f6" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="680" y1="199" x2="696" y2="196"/>
+    <line x1="596" y1="300" x2="696" y2="288"/>
+  </g>
+  <text x="700" y="196" font-family="Georgia, serif" font-size="19" fill="#111">Stangen durch</text>
+  <text x="700" y="220" font-family="Georgia, serif" font-size="19" fill="#111">die Ärmel</text>
+  <text x="700" y="278" font-family="Georgia, serif" font-size="19" fill="#111">Knopfleisten</text>
+  <text x="700" y="302" font-family="Georgia, serif" font-size="19" fill="#111">liegen unten</text>
+
+  <text x="40" y="380" font-family="Georgia, serif" font-size="21" fill="#111">Zwei feste Jacken oder Hemden zuknöpfen und AUF LINKS DREHEN, sodass die Ärmel</text>
+  <text x="40" y="406" font-family="Georgia, serif" font-size="21" fill="#111">INNEN liegen. Die Jacken hintereinander legen und zwei Stangen oder starke Äste</text>
+  <text x="40" y="432" font-family="Georgia, serif" font-size="21" fill="#111">durch die Ärmel schieben. Eine Jacke trägt den Oberkörper, die andere Becken und</text>
+  <text x="40" y="458" font-family="Georgia, serif" font-size="21" fill="#111">Beine — so liegt der ganze Körper auf. Die geschlossenen Knopfleisten unten.</text>
+
+  <line x1="40" y1="494" x2="860" y2="494" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: Plane in drei Abschnitten ============ -->
+  <text x="40" y="534" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Aus einem Poncho oder einer Plane — die Fläche in drei gleichen Teilen</text>
+
+  <rect x="60" y="580" width="220" height="120" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="127" y="570" width="12" height="140" rx="6" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+  <rect x="201" y="570" width="12" height="140" rx="6" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+
+  <rect x="320" y="580" width="220" height="120" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="387" y="580" width="74" height="120" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+  <rect x="387" y="570" width="12" height="140" rx="6" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+  <rect x="461" y="570" width="12" height="140" rx="6" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+  <g stroke="#a3231a" stroke-width="4" fill="none">
+    <path d="M 352 560 q 34 -22 68 0"/>
+    <path d="M 420 560 l -14 -6 M 420 560 l 2 -15"/>
+  </g>
+
+  <rect x="580" y="580" width="220" height="120" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="647" y="580" width="74" height="120" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+  <rect x="647" y="586" width="74" height="108" fill="#b9b4a6" stroke="#111" stroke-width="2"/>
+  <rect x="647" y="570" width="12" height="140" rx="6" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+  <rect x="721" y="570" width="12" height="140" rx="6" fill="#c9c4b4" stroke="#111" stroke-width="2"/>
+  <g stroke="#a3231a" stroke-width="4" fill="none">
+    <path d="M 762 560 q -40 -24 -80 0"/>
+    <path d="M 682 560 l 16 -6 M 682 560 l -2 -15"/>
+  </g>
+
+  <text x="60" y="730" font-family="Georgia, serif" font-size="19" fill="#111">1. Plane ausbreiten, zwei</text>
+  <text x="60" y="754" font-family="Georgia, serif" font-size="19" fill="#111">Stangen in Dritteln</text>
+  <text x="320" y="730" font-family="Georgia, serif" font-size="19" fill="#111">2. Ein Drittel über die</text>
+  <text x="320" y="754" font-family="Georgia, serif" font-size="19" fill="#111">erste Stange falten</text>
+  <text x="580" y="730" font-family="Georgia, serif" font-size="19" fill="#111">3. Das andere Drittel über</text>
+  <text x="580" y="754" font-family="Georgia, serif" font-size="19" fill="#111">die zweite, bis zur</text>
+  <text x="580" y="778" font-family="Georgia, serif" font-size="19" fill="#111">ersten</text>
+
+  <text x="40" y="820" font-family="Georgia, serif" font-size="21" fill="#111">Das Gewicht des Verletzten klemmt die Lagen fest — je mehr Last, desto fester</text>
+  <text x="40" y="846" font-family="Georgia, serif" font-size="21" fill="#111">hält die Faltung. Eine Kapuze, falls vorhanden, flach auf die Fläche ziehen.</text>
+
+  <line x1="40" y1="882" x2="860" y2="882" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: pruefen, und der Weg ohne Material ============ -->
+  <text x="40" y="922" font-family="Georgia, serif" font-size="23" fill="#a3231a">Vor dem Beladen wird jede Behelfstrage geprüft.</text>
+  <text x="40" y="956" font-family="Georgia, serif" font-size="21" fill="#111">Mit einem Unverletzten oder mit kräftigem Druck. Eine Trage, die unterwegs</text>
+  <text x="40" y="982" font-family="Georgia, serif" font-size="21" fill="#111">versagt, lässt den Verletzten genau dann fallen, wenn es am wenigsten</text>
+  <text x="40" y="1008" font-family="Georgia, serif" font-size="21" fill="#111">auszuhalten ist — auf halbem Weg.</text>
+
+  <text x="40" y="1048" font-family="Georgia, serif" font-size="21" fill="#111">Ohne Stangen und ohne Plane: zu zweit die Arme verschränken und die Person auf</text>
+  <text x="40" y="1074" font-family="Georgia, serif" font-size="21" fill="#111">diesem Sitz aus vier Händen tragen — für kürzere Strecken.</text>
+
+  <line x1="40" y1="1110" x2="860" y2="1110" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: beim Tragen, und die Grenze ============ -->
+  <text x="40" y="1150" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Beim Tragen</text>
+  <text x="40" y="1188" font-family="Georgia, serif" font-size="21" fill="#111">Füße voraus, damit der hintere Träger das Gesicht sieht. Wird die Person blass,</text>
+  <text x="40" y="1214" font-family="Georgia, serif" font-size="21" fill="#111">unruhig oder still: anhalten und prüfen. Regelmäßig absetzen, Griffe wechseln.</text>
+  <text x="40" y="1240" font-family="Georgia, serif" font-size="21" fill="#111">Zwischen Körper und Plane gehört eine Lage gegen die Kälte von unten.</text>
+
+  <text x="40" y="1288" font-family="Georgia, serif" font-size="23" fill="#a3231a">Bei Verdacht auf Rücken oder Nacken ändert eine Behelfstrage nichts:</text>
+  <text x="40" y="1318" font-family="Georgia, serif" font-size="23" fill="#a3231a">nicht bewegen. Eine weiche Plane stützt keine Wirbelsäule.</text>
+</svg>

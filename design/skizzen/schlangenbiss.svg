@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1066" viewBox="0 0 900 1066">
+  <!-- Zum Tipp "Schlangenbiss: ruhig halten, nichts aussaugen".
+       Fuenf Verbote, und alle fuenf sind Dinge, die man immer wieder sieht
+       und die aus Filmen und Erzaehlungen stammen. Sie stehen deshalb als
+       eigene Reihe und nicht als Nebensatz im Fliesstext.
+       Der wertvollste Teil des Tipps ist aber eine UNTERSCHEIDUNG, die man
+       beim Lesen leicht ueberfliegt: "kein Druckverband" heisst nicht
+       "nichts darum herum". Ein Druckverband presst auf die Wunde und soll
+       eine Blutung stoppen; hier geht es um Bewegungslosigkeit. Wer den
+       Unterschied nicht kennt, macht entweder zu viel oder gar nichts.
+       Deshalb hat diese Unterscheidung einen eigenen Abschnitt mit dem
+       Zweck in gruen darunter: nicht Druck, sondern Bewegungslosigkeit.
+       Die Druck-Ruhigstellung mit Polster steht rot und ausdruecklich als
+       das, was sie ist: etwas fuer Geuebte. Ohne diesen Satz probiert sie
+       jemand nach dem Bild aus.
+       Bewusst ohne Schlange und ohne Bisswunde gezeichnet. Beides waere
+       gegenstaendlich, schwer zu treffen und traegt nichts bei: Die
+       Handlungen haengen nicht am Aussehen der Wunde. -->
+  <rect width="900" height="1066" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Schlangenbiss: ruhig halten, nichts aussaugen</text>
+
+  <!-- ============ A: was zu tun ist ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was zu tun ist</text>
+  <text x="40" y="136" font-family="Georgia, serif" font-size="21" fill="#111">Die einzige einheimische hochgiftige Schlange in Europa ist die Kreuzotter.</text>
+
+  <text x="40" y="176" font-family="Georgia, serif" font-size="21" fill="#111">· Notruf 112. Die Person beruhigen und entspannt lagern.</text>
+  <text x="40" y="202" font-family="Georgia, serif" font-size="21" fill="#111">· Die gebissene Stelle ruhig halten und das Glied stillstellen — das kann die</text>
+  <text x="40" y="228" font-family="Georgia, serif" font-size="21" fill="#111">  Ausbreitung des Giftes verlangsamen.</text>
+  <text x="40" y="254" font-family="Georgia, serif" font-size="21" fill="#111">· Enge Kleidung, Ringe und Uhren vom betroffenen Arm oder Bein abnehmen.</text>
+  <text x="40" y="280" font-family="Georgia, serif" font-size="21" fill="#111">· Die Stelle auf Herzhöhe oder tiefer halten.</text>
+  <text x="40" y="306" font-family="Georgia, serif" font-size="21" fill="#111">· Auf ein gebissenes Bein nicht laufen, solange es anders geht — notfalls tragen.</text>
+  <text x="40" y="332" font-family="Georgia, serif" font-size="21" fill="#111">· Die Wunde mit sauberem Wasser waschen. Das senkt die Infektionsgefahr und hat</text>
+  <text x="40" y="358" font-family="Georgia, serif" font-size="21" fill="#111">  mit dem Gift nichts zu tun.</text>
+
+  <line x1="40" y1="394" x2="860" y2="394" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die fuenf Verbote ============ -->
+  <text x="40" y="434" font-family="Georgia, serif" font-size="23" fill="#a3231a">Fünf Dinge, die schaden — und die man trotzdem immer wieder sieht</text>
+
+  <g fill="none" stroke="#a3231a" stroke-width="3">
+    <rect x="40" y="464" width="148" height="90" rx="10"/>
+    <rect x="208" y="464" width="148" height="90" rx="10"/>
+    <rect x="376" y="464" width="148" height="90" rx="10"/>
+    <rect x="544" y="464" width="148" height="90" rx="10"/>
+    <rect x="712" y="464" width="148" height="90" rx="10"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="middle">
+    <text x="114" y="502">KEIN Druck-</text><text x="114" y="526">verband</text>
+    <text x="282" y="502">KEIN Eis,</text><text x="282" y="526">keine Wärme</text>
+    <text x="450" y="502">KEINE</text><text x="450" y="526">Abbindung</text>
+    <text x="618" y="502">NICHT auf-</text><text x="618" y="526">schneiden</text>
+    <text x="786" y="502">NIEMALS</text><text x="786" y="526">aussaugen</text>
+  </g>
+
+  <line x1="40" y1="590" x2="860" y2="590" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: die Unterscheidung ============ -->
+  <text x="40" y="630" font-family="Georgia, serif" font-size="23" fill="#111">„Kein Druckverband“ heißt nicht „nichts darum herum“</text>
+  <text x="40" y="668" font-family="Georgia, serif" font-size="21" fill="#111">Ein Druckverband soll eine Blutung stoppen und presst dafür fest auf die Wunde —</text>
+  <text x="40" y="694" font-family="Georgia, serif" font-size="21" fill="#111">das ist hier falsch. Für abgelegene Lagen mit langen Wartezeiten empfiehlt die</text>
+  <text x="40" y="720" font-family="Georgia, serif" font-size="21" fill="#111">internationale Leitlinie etwas anderes: das Glied mit einer NICHT dehnbaren</text>
+  <text x="40" y="746" font-family="Georgia, serif" font-size="21" fill="#111">Binde ruhigstellen, damit es sich nicht mehr bewegt. Ist keine Binde da, tut</text>
+  <text x="40" y="772" font-family="Georgia, serif" font-size="21" fill="#111">Kleidung wie eine Hose oder ein Hemd.</text>
+
+  <text x="40" y="812" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Der Zweck ist nicht Druck, sondern Bewegungslosigkeit — Bewegung verteilt das</text>
+  <text x="40" y="838" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Gift schneller im Körper.</text>
+
+  <text x="40" y="878" font-family="Georgia, serif" font-size="21" fill="#a3231a">Die Druck-Ruhigstellung mit Polster unter der Binde ist denen vorbehalten, die</text>
+  <text x="40" y="904" font-family="Georgia, serif" font-size="21" fill="#a3231a">sie gelernt haben. Wer das nicht hat, stellt nur ruhig.</text>
+
+  <line x1="40" y1="940" x2="860" y2="940" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="980" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung für den Fall, dass niemand kommt: Ein Gegenmittel gibt es nur in der Klinik.</text>
+  <text x="40" y="1004" font-family="Georgia, serif" font-size="19" fill="#111">Was bleibt, ist Ruhe, Ruhigstellung und Beobachtung — und je weniger die Person sich</text>
+  <text x="40" y="1028" font-family="Georgia, serif" font-size="19" fill="#111">bewegt, desto langsamer verteilt sich das Gift.</text>
+</svg>

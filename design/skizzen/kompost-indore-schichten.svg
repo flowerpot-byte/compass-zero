@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+  <!-- Zum Agrikultur-Kapitel "Kompost: aus Abfall wird Erde", Abschnitt 5
+       ("Schneller geht es mit mehr Arbeit"). Zeigt den großen Haufen mit
+       Luftschächten (Indore-Verfahren) im Querschnitt: unten grobes Material,
+       darüber die Schichten im Wechsel, in der Mitte die Luftschächte aus
+       Holzpfählen, dazu Maße und der Zeitplan zum Wenden. Alle Zahlen stammen
+       wörtlich aus Abschnitt 5 — ein Mengenverhältnis Grün zu Braun nennt die
+       Quelle laut Abschnitt 7 ausdrücklich nicht, deshalb fehlt es auch hier. -->
+  <rect width="900" height="650" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="27" fill="#111">Kompost: der große Haufen mit Luftschächten</text>
+  <text x="40" y="72" font-family="Georgia, serif" font-size="16" fill="#5b7f96">Indore-Verfahren — Aufbau von unten nach oben, im Querschnitt</text>
+
+  <!-- Luftschacht-Pfähle (zuerst gezeichnet, liegen unter den Schichten) -->
+  <g stroke="#8a6a45" stroke-width="8" stroke-linecap="round">
+    <line x1="520" y1="88" x2="520" y2="460"/>
+    <line x1="580" y1="88" x2="580" y2="460"/>
+    <line x1="640" y1="88" x2="640" y2="460"/>
+  </g>
+
+  <!-- Dashed-Zone: "so weiter bis 1,5 m Hoehe" -->
+  <rect x="280" y="150" width="420" height="183" fill="#f2efe6" stroke="#111" stroke-width="4" stroke-dasharray="12 8"/>
+  <text x="398" y="210" font-family="Georgia, serif" font-size="16" fill="#5b7f96" text-anchor="middle">so weiter im Wechsel</text>
+  <text x="398" y="232" font-family="Georgia, serif" font-size="16" fill="#5b7f96" text-anchor="middle">Grünzeug / Mist / Erde</text>
+  <text x="398" y="254" font-family="Georgia, serif" font-size="16" fill="#5b7f96" text-anchor="middle">bis 1,5 m Höhe</text>
+
+  <!-- Schichten, von unten nach oben -->
+  <rect x="280" y="398" width="420" height="62" fill="#d9c98a" stroke="#111" stroke-width="4"/>
+  <rect x="280" y="367" width="420" height="31" fill="#8ba668" stroke="#111" stroke-width="4"/>
+  <rect x="280" y="347" width="420" height="20" fill="#7a5a3e" stroke="#111" stroke-width="4"/>
+  <rect x="280" y="333" width="420" height="14" fill="#4a3728" stroke="#111" stroke-width="4"/>
+
+  <!-- Boden unter dem Haufen -->
+  <rect x="280" y="460" width="420" height="18" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <text x="292" y="473" font-family="Georgia, serif" font-size="13" fill="#5b7f96">Boden</text>
+
+  <!-- Die Pfaehle noch einmal ueber den Schichten: gestrichelt, weil sie hinter
+       der Schnittflaeche stehen. Ohne das sahen sie aus wie oben aufgelegt. -->
+  <g stroke="#8a6a45" stroke-width="5" stroke-dasharray="9 7" opacity="0.85">
+    <line x1="520" y1="150" x2="520" y2="458"/>
+    <line x1="580" y1="150" x2="580" y2="458"/>
+    <line x1="640" y1="150" x2="640" y2="458"/>
+  </g>
+
+  <!-- Beschriftungen der Schichten, links mit Fuehrungslinie -->
+  <g stroke="#5b7f96" stroke-width="2" fill="none">
+    <path d="M 245 350 L 280 340"/>
+    <path d="M 245 390 L 280 357"/>
+    <path d="M 245 430 L 280 382"/>
+    <path d="M 245 470 L 280 429"/>
+  </g>
+  <g fill="#5b7f96">
+    <circle cx="280" cy="340" r="3"/>
+    <circle cx="280" cy="357" r="3"/>
+    <circle cx="280" cy="382" r="3"/>
+    <circle cx="280" cy="429" r="3"/>
+  </g>
+  <text x="30" y="356" font-family="Georgia, serif" font-size="18" fill="#111">Erde – dünne Lage</text>
+  <text x="30" y="396" font-family="Georgia, serif" font-size="18" fill="#111">Mist – weniger Hühnermist</text>
+  <text x="30" y="436" font-family="Georgia, serif" font-size="18" fill="#111">Grünzeug – 15 cm</text>
+  <text x="30" y="476" font-family="Georgia, serif" font-size="18" fill="#111">Stroh/Reisig, ca. 30 cm</text>
+
+  <!-- Abstand der Pfaehle, 60 cm -->
+  <g stroke="#111" stroke-width="3">
+    <line x1="520" y1="105" x2="580" y2="105"/>
+    <path d="M 520 105 l 10 -6 M 520 105 l 10 6"/>
+    <path d="M 580 105 l -10 -6 M 580 105 l -10 6"/>
+  </g>
+  <text x="550" y="100" font-family="Georgia, serif" font-size="15" fill="#111" text-anchor="middle">60 cm</text>
+
+  <!-- Pfahl-Beschriftung mit Fuehrungslinie -->
+  <path d="M 640 130 L 712 100" stroke="#5b7f96" stroke-width="2" fill="none"/>
+  <circle cx="640" cy="130" r="3" fill="#5b7f96"/>
+  <text x="712" y="95" font-family="Georgia, serif" font-size="16" fill="#111" font-weight="bold">Holzpfahl:</text>
+  <text x="712" y="117" font-family="Georgia, serif" font-size="15" fill="#111">Ø 8–10 cm, 1,80 m lang</text>
+  <text x="712" y="137" font-family="Georgia, serif" font-size="13" fill="#5b7f96">lässt Luft in den Haufen</text>
+
+  <!-- Hoehen-Massangabe -->
+  <g stroke="#111" stroke-width="3">
+    <line x1="705" y1="150" x2="705" y2="460"/>
+    <path d="M 705 150 l -6 10 M 705 150 l 6 10"/>
+    <path d="M 705 460 l -6 -10 M 705 460 l 6 -10"/>
+  </g>
+  <text x="718" y="308" font-family="Georgia, serif" font-size="17" fill="#111">1,5 m hoch</text>
+
+  <!-- Feuchte -->
+  <path d="M 712 335 Q 706 348 712 352 Q 718 348 712 335 Z" fill="#5b7f96"/>
+  <text x="730" y="352" font-family="Georgia, serif" font-size="16" fill="#111">Jede Lage wird</text>
+  <text x="730" y="372" font-family="Georgia, serif" font-size="16" fill="#111">gewässert</text>
+
+  <!-- Breiten-Massangabe -->
+  <g stroke="#111" stroke-width="3">
+    <line x1="280" y1="490" x2="700" y2="490"/>
+    <path d="M 280 490 l 10 -6 M 280 490 l 10 6"/>
+    <path d="M 700 490 l -10 -6 M 700 490 l -10 6"/>
+  </g>
+  <text x="490" y="515" font-family="Georgia, serif" font-size="18" fill="#111" text-anchor="middle">1,5 – 3 m breit · Länge beliebig</text>
+
+  <!-- Zeitleiste: Wenden und Fertig -->
+  <text x="450" y="555" font-family="Georgia, serif" font-size="19" fill="#5b7f96" text-anchor="middle">Wenden und Fertig</text>
+
+  <g stroke="#111" stroke-width="3">
+    <line x1="210" y1="601" x2="256" y2="601"/>
+    <path d="M 256 601 l -10 -6 M 256 601 l -10 6"/>
+    <line x1="426" y1="601" x2="472" y2="601"/>
+    <path d="M 472 601 l -10 -6 M 472 601 l -10 6"/>
+    <line x1="642" y1="601" x2="688" y2="601"/>
+    <path d="M 688 601 l -10 -6 M 688 601 l -10 6"/>
+  </g>
+
+  <rect x="40" y="575" width="170" height="52" rx="6" fill="#f2efe6" stroke="#111" stroke-width="3"/>
+  <text x="125" y="598" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Aufbau</text>
+  <text x="125" y="618" font-family="Georgia, serif" font-size="13" fill="#5b7f96" text-anchor="middle">Schicht für Schicht</text>
+
+  <rect x="256" y="575" width="170" height="52" rx="6" fill="#f2efe6" stroke="#111" stroke-width="3"/>
+  <text x="341" y="598" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Wenden</text>
+  <text x="341" y="618" font-family="Georgia, serif" font-size="13" fill="#5b7f96" text-anchor="middle">nach 6 Wochen</text>
+
+  <rect x="472" y="575" width="170" height="52" rx="6" fill="#f2efe6" stroke="#111" stroke-width="3"/>
+  <text x="557" y="598" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Wenden</text>
+  <text x="557" y="618" font-family="Georgia, serif" font-size="13" fill="#5b7f96" text-anchor="middle">nach 12 Wochen</text>
+
+  <rect x="688" y="575" width="170" height="52" rx="6" fill="#f2efe6" stroke="#d65a1a" stroke-width="4"/>
+  <text x="773" y="598" font-family="Georgia, serif" font-size="16" fill="#d65a1a" text-anchor="middle">Fertig</text>
+  <text x="773" y="618" font-family="Georgia, serif" font-size="13" fill="#5b7f96" text-anchor="middle">nach ca. 3 Monaten</text>
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1606" viewBox="0 0 900 1606">
+  <!-- Zum Tipp "Sepsis: wenn eine Entzuendung den Koerper erfasst".
+       Der Tipp sagt selbst, dass hier gezaehlt und nicht geschaetzt wird.
+       Deshalb stehen die vier Grundwerte als Zahlen nebeneinander und nicht
+       im Satz.
+       Der wichtigste Satz des Tipps ist aber kein Wert, sondern eine Aussage
+       UEBER die Werte: Der Verlauf zaehlt mehr als der einzelne Wert. Ein
+       Bild kann das nur als LEERE Tabelle zeigen, die zum Ausfuellen
+       auffordert. Beispielzahlen habe ich bewusst weggelassen: Erfundene
+       Messreihen sehen aus wie Befunde.
+       Die Mitte des Bildes ist der Griff, den die Quelle als einzigen ganz
+       ohne Geraet beschreibt: mit der Hand vom Fuss aufwaerts streichen und
+       merken, wo die Haut warm wird. Drei Beine nebeneinander zeigen die
+       Beziehung, die die Quelle nennt: je weiter oben die Waerme beginnt,
+       desto schwerer der Schock. Die drei Hoehen sind KEINE Stufen mit
+       Namen; die Quelle nennt keine, und ich erfinde keine. Deshalb der
+       Pfeil statt dreier Beschriftungen.
+       Die Warnung mit dem Ausrufezeichen steht rot und gross, weil sie das
+       ganze Zahlenwerk daruber relativiert: Bei Kindern und fitten jungen
+       Erwachsenen sagen normale Werte nichts. -->
+  <rect width="900" height="1606" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Sepsis: die Werte, der Verlauf und der Griff am Bein</text>
+
+  <!-- ============ A: die vier Grundwerte ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Vier Grundwerte — mit Uhr und Thermometer zu erheben</text>
+
+  <rect x="40" y="140" width="185" height="104" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="62" y="184" font-family="Georgia, serif" font-size="23" fill="#a3231a">über 38,3 °C</text>
+  <text x="62" y="214" font-family="Georgia, serif" font-size="19" fill="#111">Temperatur</text>
+
+  <rect x="240" y="140" width="185" height="104" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="262" y="184" font-family="Georgia, serif" font-size="23" fill="#a3231a">über 90</text>
+  <text x="262" y="214" font-family="Georgia, serif" font-size="19" fill="#111">Puls je Minute</text>
+
+  <rect x="440" y="140" width="185" height="104" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="462" y="184" font-family="Georgia, serif" font-size="23" fill="#a3231a">mehr als 18</text>
+  <text x="462" y="214" font-family="Georgia, serif" font-size="19" fill="#111">Atemzüge/Minute</text>
+
+  <rect x="640" y="140" width="220" height="104" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="662" y="184" font-family="Georgia, serif" font-size="23" fill="#a3231a">unter 110 zu 60</text>
+  <text x="662" y="214" font-family="Georgia, serif" font-size="19" fill="#111">Blutdruck, wenn eine</text>
+  <text x="662" y="236" font-family="Georgia, serif" font-size="19" fill="#111">Manschette da ist</text>
+
+  <text x="40" y="286" font-family="Georgia, serif" font-size="23" fill="#a3231a">Und das Zeichen, das am schwersten wiegt: Veränderungen im Denken</text>
+  <text x="40" y="314" font-family="Georgia, serif" font-size="23" fill="#a3231a">und im Wachsein.</text>
+  <text x="40" y="348" font-family="Georgia, serif" font-size="21" fill="#111">Wer nach Tagen mit einer Entzündung Unsinn redet, das Datum nicht mehr weiß</text>
+  <text x="40" y="374" font-family="Georgia, serif" font-size="21" fill="#111">oder auffällig schläfrig wird, hat keine Verschlechterung der Laune, sondern</text>
+  <text x="40" y="400" font-family="Georgia, serif" font-size="21" fill="#111">eine des Kreislaufs.</text>
+
+  <line x1="40" y1="436" x2="860" y2="436" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: der Verlauf ============ -->
+  <text x="40" y="476" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wichtiger als jeder einzelne Wert ist der Verlauf</text>
+
+  <rect x="60" y="516" width="580" height="122" fill="none" stroke="#111" stroke-width="3"/>
+  <line x1="60" y1="548" x2="640" y2="548" stroke="#111" stroke-width="3"/>
+  <g stroke="#c9c4b4" stroke-width="2">
+    <line x1="60" y1="578" x2="640" y2="578"/>
+    <line x1="60" y1="608" x2="640" y2="608"/>
+  </g>
+  <g stroke="#111" stroke-width="2">
+    <line x1="175" y1="516" x2="175" y2="638"/>
+    <line x1="275" y1="516" x2="275" y2="638"/>
+    <line x1="375" y1="516" x2="375" y2="638"/>
+    <line x1="475" y1="516" x2="475" y2="638"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111">
+    <text x="72" y="540">Uhrzeit</text><text x="187" y="540">Puls</text><text x="287" y="540">Atem</text>
+    <text x="387" y="540">Temp.</text><text x="487" y="540">ansprechbar?</text>
+  </g>
+
+  <g stroke="#a3231a" stroke-width="4" fill="none">
+    <path d="M 690 604 L 690 546"/>
+    <path d="M 690 538 l -9 14 M 690 538 l 9 14"/>
+    <path d="M 790 546 L 790 604"/>
+    <path d="M 790 612 l -9 -14 M 790 612 l 9 -14"/>
+  </g>
+  <text x="706" y="580" font-family="Georgia, serif" font-size="19" fill="#a3231a">Puls</text>
+  <text x="806" y="580" font-family="Georgia, serif" font-size="19" fill="#a3231a">Druck</text>
+
+  <text x="40" y="678" font-family="Georgia, serif" font-size="21" fill="#111">Zweimal am Tag aufschreiben. Erst die Reihe macht sichtbar, was ein einzelner</text>
+  <text x="40" y="704" font-family="Georgia, serif" font-size="21" fill="#111">Wert verbirgt: ein steigender Puls und ein sinkender Blutdruck sind der</text>
+  <text x="40" y="730" font-family="Georgia, serif" font-size="21" fill="#111">fortschreitende Schock.</text>
+
+  <line x1="40" y1="766" x2="860" y2="766" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: der Griff am Bein ============ -->
+  <text x="40" y="806" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der Griff ohne jedes Gerät: wo wird die Haut warm?</text>
+
+  <g fill="#f2ece2" stroke="none">
+    <path d="M 116 846 L 164 846 L 162 920 L 156 1000 L 186 1024 L 186 1048 L 120 1048 L 124 1000 L 118 920 Z"/>
+    <path d="M 376 846 L 424 846 L 422 920 L 416 1000 L 446 1024 L 446 1048 L 380 1048 L 384 1000 L 378 920 Z"/>
+    <path d="M 636 846 L 684 846 L 682 920 L 676 1000 L 706 1024 L 706 1048 L 640 1048 L 644 1000 L 638 920 Z"/>
+  </g>
+  <g fill="#a9c4d4" stroke="none">
+    <path d="M 124 1000 L 156 1000 L 156 1000 L 186 1024 L 186 1048 L 120 1048 L 124 1000 Z"/>
+    <path d="M 379 930 L 421 930 L 416 1000 L 446 1024 L 446 1048 L 380 1048 L 384 1000 Z"/>
+    <path d="M 637 876 L 683 876 L 682 920 L 676 1000 L 706 1024 L 706 1048 L 640 1048 L 644 1000 L 638 920 Z"/>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="3">
+    <path d="M 116 846 L 164 846 L 162 920 L 156 1000 L 186 1024 L 186 1048 L 120 1048 L 124 1000 L 118 920 Z"/>
+    <path d="M 376 846 L 424 846 L 422 920 L 416 1000 L 446 1024 L 446 1048 L 380 1048 L 384 1000 L 378 920 Z"/>
+    <path d="M 636 846 L 684 846 L 682 920 L 676 1000 L 706 1024 L 706 1048 L 640 1048 L 644 1000 L 638 920 Z"/>
+  </g>
+  <g stroke="#d65a1a" stroke-width="4">
+    <line x1="124" y1="1000" x2="156" y2="1000"/>
+    <line x1="379" y1="930" x2="421" y2="930"/>
+    <line x1="637" y1="876" x2="683" y2="876"/>
+  </g>
+  <text x="58" y="930" font-family="Georgia, serif" font-size="19" fill="#d65a1a">warm</text>
+  <text x="58" y="1020" font-family="Georgia, serif" font-size="19" fill="#111">kalt</text>
+
+  <text x="410" y="1078" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">je weiter oben die Wärme beginnt, desto schwerer der Schock</text>
+  <g stroke="#111" stroke-width="4" fill="none">
+    <path d="M 140 1100 L 686 1100"/>
+    <path d="M 694 1100 l -16 -9 M 694 1100 l -16 9"/>
+  </g>
+
+  <text x="40" y="1146" font-family="Georgia, serif" font-size="21" fill="#111">Mit der Hand vom Fuß aufwärts über die Haut streichen und merken, wo sie warm</text>
+  <text x="40" y="1172" font-family="Georgia, serif" font-size="21" fill="#111">wird. Eine Messung, die jeder täglich machen kann und die sich mit sich selbst</text>
+  <text x="40" y="1198" font-family="Georgia, serif" font-size="21" fill="#111">vergleichen lässt. Ebenso: ein schwächer werdender Puls ist ein frühes Zeichen.</text>
+
+  <line x1="40" y1="1234" x2="860" y2="1234" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: die Warnung ============ -->
+  <text x="40" y="1274" font-family="Georgia, serif" font-size="23" fill="#a3231a">Kinder und körperlich fitte junge Erwachsene halten fast normale</text>
+  <text x="40" y="1302" font-family="Georgia, serif" font-size="23" fill="#a3231a">Werte, bis der Schock schon schwer ist.</text>
+  <text x="40" y="1336" font-family="Georgia, serif" font-size="21" fill="#111">Bei ihnen kippt es nicht langsam, sondern plötzlich. Ein junger Mensch mit</text>
+  <text x="40" y="1362" font-family="Georgia, serif" font-size="21" fill="#111">normalem Puls und einer Entzündung, der sich seltsam verhält, ist gefährlicher</text>
+  <text x="40" y="1388" font-family="Georgia, serif" font-size="21" fill="#111">einzuschätzen als ein alter mit schlechten Werten.</text>
+
+  <text x="40" y="1428" font-family="Georgia, serif" font-size="21" fill="#111">Faustregel für den Herd: Ein rotes, heißes, geschwollenes Gelenk ist ein</text>
+  <text x="40" y="1454" font-family="Georgia, serif" font-size="21" fill="#111">vereitertes Gelenk, bis das Gegenteil bewiesen ist.</text>
+
+  <text x="40" y="1494" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus der Quelle: Eine Sepsis braucht Antibiotika und</text>
+  <text x="40" y="1518" font-family="Georgia, serif" font-size="19" fill="#111">Flüssigkeit über die Vene. Ohne beides sind die Aussichten schlecht. Was bleibt: den</text>
+  <text x="40" y="1542" font-family="Georgia, serif" font-size="19" fill="#111">Herd suchen und behandeln, viel trinken lassen, flach lagern, warm halten, täglich</text>
+  <text x="40" y="1566" font-family="Georgia, serif" font-size="19" fill="#111">aufschreiben. Und das Wichtigste liegt davor: jede Verletzung sauber halten.</text>
+</svg>

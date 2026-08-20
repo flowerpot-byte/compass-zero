@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Compass Zero – Blob mit Null</title>
+  <path d="M 262 46 C 372 40 462 118 466 232 C 470 348 396 462 268 466 C 148 470 50 384 46 262 C 42 146 150 52 262 46 Z" fill="#0A0A0A"/>
+  <ellipse cx="256" cy="256" rx="100" ry="140" fill="none" stroke="#FFFFFF" stroke-width="32"/>
+  <polygon points="344,139 243,246 269,266" fill="#FF4D00"/>
+  <polygon points="168,373 269,266 243,246" fill="#FFFFFF"/>
+</svg>

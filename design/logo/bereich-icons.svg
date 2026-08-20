@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 56">
+  <title>Compass Zero – Icons der vier Bereiche</title>
+  <g fill="none" stroke="#0A0A0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(0,4)">
+      <path d="M6 8 C11 5 16 5 21 8 C26 5 31 5 36 8 V30 C31 27 26 27 21 30 C16 27 11 27 6 30 Z"/>
+      <path d="M21 8 V30"/>
+      <circle cx="31" cy="29" r="8"/>
+      <path d="M37 35 L43 41"/>
+    </g>
+    <g transform="translate(56,4)">
+      <path d="M6 12 L18 7 L30 12 L42 7 V36 L30 41 L18 36 L6 41 Z"/>
+      <path d="M18 7 V36"/>
+      <path d="M30 12 V41"/>
+    </g>
+    <g transform="translate(112,4)">
+      <path d="M6 8 H30 V24 H16 L10 30 V24 H6 Z"/>
+      <path d="M18 26 H42 V40 H36 L40 46 L32 40 H18 Z"/>
+    </g>
+    <g transform="translate(168,4)">
+      <path d="M8 12 H40"/>
+      <path d="M8 24 H40"/>
+      <path d="M8 36 H40"/>
+    </g>
+  </g>
+  <g fill="#0A0A0A">
+    <circle cx="124" cy="16" r="2"/>
+    <circle cx="130" cy="16" r="2"/>
+    <circle cx="136" cy="16" r="2"/>
+    <circle cx="196" cy="16" r="5"/>
+    <circle cx="184" cy="28" r="5"/>
+    <circle cx="202" cy="40" r="5"/>
+  </g>
+  <circle cx="192" cy="25" r="3.5" fill="#FF4D00" transform="translate(-112,0)"/>
+</svg>

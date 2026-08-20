@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Hier steht bewusst KEINE android.permission.INTERNET.
+        Ohne diese Zeile kann die App auf Betriebssystemebene nicht ins Netz —
+        das ist von jedem nachpruefbar und gilt auch fuer jede Bibliothek, die
+        spaeter dazukommt. Der Build bricht ab, wenn im zusammengefuehrten
+        Manifest eine Berechtigung steht; siehe PruefeBerechtigungen in
+        androidApp/build.gradle.kts.
+
+        Die drei Bluetooth-Rechte stehen hier seit dem 18.08.2026, von Max
+        einzeln entschieden. Sie kosten die Aussage "keine einzige
+        Berechtigung" — dafuer kann ein Inhaltspaket von Geraet zu Geraet
+        gehen, wenn kein Netz mehr da ist.
+
+        NICHT dabei sind BLUETOOTH_SCAN und BLUETOOTH_ADVERTISE: Diese App
+        sucht keine Geraete und macht sich nicht sichtbar. Gekoppelt wird in
+        den Android-Einstellungen; hier wird nur mit Geraeten gesprochen, die
+        dort schon stehen. Deshalb braucht es auch KEINE Ortungsberechtigung
+        — bis Android 30 gilt eine Geraetesuche dem System als Ortsangabe.
+
+        BLUETOOTH und BLUETOOTH_ADMIN enden bei Android 30, weil sie ab 31
+        durch BLUETOOTH_CONNECT abgeloest sind. Ohne maxSdkVersion stuenden
+        auf neuen Geraeten drei Rechte in der Liste, von denen zwei nichts
+        mehr tun.
+    -->
+
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <!--
+            android:screenOrientation="portrait": MainActivity ist eine
+            schlichte android.app.Activity ohne jede Vorkehrung fuer eine
+            Konfigurationsaenderung (kein onSaveInstanceState, kein Retained
+            Fragment, kein ViewModel) — eine Drehung reisst die Activity ab
+            und baut sie neu. Ein laufender Bluetooth-Austausch (Austausch.kt,
+            Paketfunk.kt) haengt an genau diesem Activity-Objekt: Der
+            Sendefaden meldet Fortschritt und zeigt einen Annahme-Dialog
+            weiter ueber die ALTE, dann zerstoerte Activity. Ein Dialog auf
+            einem toten Fenster wirft WindowManager.BadTokenException und
+            stuerzt die App genau in dem Moment ab, in dem zwei Geraete ein
+            Paket austauschen — ein Vorgang, der eine bis anderthalb Minuten
+            dauert und bei dem ein Geraet leicht kippt. Jede Ansicht in dieser
+            App ist ausserdem als einspaltiges Hochformat gebaut (siehe etwa
+            die feste Kartenhoehe in Karte.kt als Anteil der Bildschirmhoehe);
+            ein Querformat wurde nirgends vorgesehen. Die Sperre entfernt die
+            Ursache statt sie abzufangen.
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

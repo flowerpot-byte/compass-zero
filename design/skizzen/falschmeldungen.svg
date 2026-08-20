@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1070" viewBox="0 0 900 1070">
+  <!-- Zum Tipp "Falschmeldungen erkennen: vier Fragen".
+       Die Pruefregel steht im Bild VOR den Fragen, weil sie sonst
+       untergeht: Eine einzige Antwort mit Nein genuegt. Wer die vier Fragen
+       als Punkteliste liest, wiegt sie gegeneinander ab und gibt am Ende
+       doch weiter.
+       Die vierte Frage ist keine weitere Pruefung, sondern die Probe auf die
+       drei anderen. Sie steht deshalb mit derselben Nummerierung, aber ihr
+       Text sagt es ausdruecklich.
+       Der rote Satz danach ist der eigentliche Inhalt des Tipps und der
+       schwerste: Die wichtigste Handlung ist eine Unterlassung. Wer eine
+       falsche Meldung weiterschickt, tut das fast immer in guter Absicht.
+       Direkt darunter gruen die Umkehrung, damit das Bild nicht zu
+       "schweig lieber" verkuerzt wird: Amtliche Warnungen werden
+       weitergegeben.
+       Ohne Sinnbilder gezeichnet. Es gibt kein Bild fuer eine Falschmeldung,
+       das nicht selbst eine Behauptung waere. -->
+  <rect width="900" height="1070" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Falschmeldungen erkennen: vier Fragen</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">In einer Krise verbreiten sich Gerüchte schneller als Nachrichten. Ein Gerücht</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">kann so gefährlich sein wie die Lage selbst — es schickt Menschen in die falsche</text>
+  <text x="40" y="148" font-family="Georgia, serif" font-size="21" fill="#111">Richtung oder hält sie davon ab, zu tun, was nötig wäre.</text>
+
+  <text x="40" y="192" font-family="Georgia, serif" font-size="23" fill="#a3231a">Wird auch nur EINE der vier Fragen mit NEIN beantwortet, kann es</text>
+  <text x="40" y="220" font-family="Georgia, serif" font-size="23" fill="#a3231a">eine Falschmeldung sein — und dann wird sie NICHT weitergegeben.</text>
+
+  <line x1="40" y1="256" x2="860" y2="256" stroke="#c9c4b4" stroke-width="3"/>
+
+  <g fill="#1d6b3a">
+    <circle cx="60" cy="296" r="17"/><circle cx="60" cy="455" r="17"/>
+    <circle cx="60" cy="536" r="17"/><circle cx="60" cy="643" r="17"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#faf9f6" text-anchor="middle">
+    <text x="60" y="303">1</text><text x="60" y="462">2</text>
+    <text x="60" y="543">3</text><text x="60" y="650">4</text>
+  </g>
+
+  <text x="88" y="303" font-family="Georgia, serif" font-size="23" fill="#a3231a">WER SAGT ES?</text>
+  <text x="88" y="335" font-family="Georgia, serif" font-size="21" fill="#111">Ist das eine ernstzunehmende Nachrichtenquelle? Bei einem Profil ist ein</text>
+  <text x="88" y="361" font-family="Georgia, serif" font-size="21" fill="#111">KLARNAME ein Hinweis auf Echtheit. Bei einer Internetseite steht es im</text>
+  <text x="88" y="387" font-family="Georgia, serif" font-size="21" fill="#111">Impressum: eine Person mit vollem Namen und vollständiger Anschrift —</text>
+  <text x="88" y="413" font-family="Georgia, serif" font-size="21" fill="#111">nicht nur eine anonyme E-Mail-Adresse.</text>
+
+  <text x="88" y="462" font-family="Georgia, serif" font-size="23" fill="#a3231a">STEHEN FAKTEN DAHINTER?</text>
+  <text x="88" y="494" font-family="Georgia, serif" font-size="21" fill="#111">Werden Verweise und Quellen genannt, an denen man die Angaben prüfen kann?</text>
+
+  <text x="88" y="543" font-family="Georgia, serif" font-size="23" fill="#a3231a">SAGEN ANDERE DASSELBE?</text>
+  <text x="88" y="575" font-family="Georgia, serif" font-size="21" fill="#111">Finden sich ähnliche Berichte von vertrauenswürdigen Stellen? Eine Meldung</text>
+  <text x="88" y="601" font-family="Georgia, serif" font-size="21" fill="#111">gegen weitere Quellen zu halten, hilft immer.</text>
+
+  <text x="88" y="650" font-family="Georgia, serif" font-size="23" fill="#a3231a">WÜRDE ICH MICH DAFÜR VERANTWORTEN?</text>
+  <text x="88" y="682" font-family="Georgia, serif" font-size="21" fill="#111">Würde ich das auch dann weitergeben, wenn ich mich später dafür verantworten</text>
+  <text x="88" y="708" font-family="Georgia, serif" font-size="21" fill="#111">müsste? Diese Frage ergibt sich aus den drei anderen.</text>
+
+  <line x1="40" y1="744" x2="860" y2="744" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="784" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die wichtigste Handlung ist eine Unterlassung: nicht weitergeben.</text>
+  <text x="40" y="818" font-family="Georgia, serif" font-size="21" fill="#111">Wer eine falsche Meldung weiterschickt, tut das fast immer in guter Absicht —</text>
+  <text x="40" y="844" font-family="Georgia, serif" font-size="21" fill="#111">und richtet damit mehr Schaden an als jemand, der schweigt.</text>
+
+  <text x="40" y="886" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Umgekehrt gilt für amtliche Warnungen das Gegenteil: Die werden</text>
+  <text x="40" y="914" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">weitergegeben.</text>
+
+  <line x1="40" y1="950" x2="860" y2="950" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="990" font-family="Georgia, serif" font-size="19" fill="#111">Einordnung dieses Pakets, nicht aus der Quelle: Bei Stromausfall fällt das Nachprüfen</text>
+  <text x="40" y="1014" font-family="Georgia, serif" font-size="19" fill="#111">im Internet weg — dann bleibt der Vergleich mit dem, was das Radio sagt, und die</text>
+  <text x="40" y="1038" font-family="Georgia, serif" font-size="19" fill="#111">einfachste aller Fragen: Wer hat es mir gesagt, und woher will DER es wissen?</text>
+</svg>

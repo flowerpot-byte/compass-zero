@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1668" viewBox="0 0 900 1668">
+  <!-- Zum Tipp "Bronchitis: warum ein Antibiotikum meist nichts bringt".
+       Die Fieberleiste ist der Grund fuer dieses Bild, und zwar wegen ihrer
+       LUECKE: Die Quelle nennt 37,2 bis 38,1 als eher viral und ueber 38,9
+       als eher bakteriell. Was dazwischen liegt, sagt sie nicht. Eine
+       durchgehend eingefaerbte Leiste haette diese Luecke zugemalt und eine
+       Sicherheit behauptet, die es nicht gibt — hier steht sie offen da und
+       ist beschriftet.
+       Beide Enden sind offen, weil die Quelle weder eine Untergrenze noch
+       eine Obergrenze nennt.
+       Der Husten-Kasten ist der Ratschlag, der dem Gefuehl widerspricht:
+       einen Husten, bei dem etwas hochkommt, NICHT unterdruecken. Daneben
+       der trockene Reizhusten, bei dem das Gegenteil gilt — sonst wendet
+       jemand die Regel auf den falschen Husten an. -->
+  <rect width="900" height="1668" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Bronchitis: warum ein Antibiotikum meist nichts bringt</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">Eine akute Bronchitis ist eine Entzündung der Atemwege — nicht der</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Lungenbläschen. Der Unterschied entscheidet, ob ein Antibiotikum hilft.</text>
+
+  <rect x="40" y="188" width="820" height="154" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <text x="62" y="230" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Bei einer akuten Bronchitis werden Antibiotika im</text>
+  <text x="62" y="262" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Allgemeinen NICHT gebraucht.</text>
+  <text x="62" y="298" font-family="Georgia, serif" font-size="21" fill="#111">Angezeigt nur bei Hinweisen auf eine bakterielle Ursache — oder wenn jemand</text>
+  <text x="62" y="324" font-family="Georgia, serif" font-size="21" fill="#111">durch eine chronische Lungenkrankheit besonders gefährdet ist.</text>
+
+  <text x="40" y="382" font-family="Georgia, serif" font-size="21" fill="#111">In einer langen Krise ist jede unnötig verbrauchte Packung eine, die später</text>
+  <text x="40" y="408" font-family="Georgia, serif" font-size="21" fill="#111">jemandem fehlt.</text>
+
+  <line x1="40" y1="444" x2="860" y2="444" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="484" font-family="Georgia, serif" font-size="23" fill="#a3231a">Der Ratschlag, der dem Gefühl widerspricht</text>
+
+  <rect x="40" y="517" width="390" height="197" rx="10" fill="#eef4ee" stroke="#1d6b3a" stroke-width="4"/>
+  <rect x="470" y="517" width="390" height="197" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+
+  <text x="62" y="557" font-family="Georgia, serif" font-size="23" fill="#111">PRODUKTIVER HUSTEN</text>
+  <text x="62" y="593" font-family="Georgia, serif" font-size="21" fill="#111">— etwas kommt hoch —</text>
+  <text x="62" y="623" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">NICHT unterdrücken.</text>
+  <text x="62" y="655" font-family="Georgia, serif" font-size="21" fill="#111">Er befördert den Schleim</text>
+  <text x="62" y="681" font-family="Georgia, serif" font-size="21" fill="#111">heraus. Wer ihn abstellt,</text>
+  <text x="62" y="707" font-family="Georgia, serif" font-size="21" fill="#111">lässt ihn liegen.</text>
+
+  <text x="492" y="557" font-family="Georgia, serif" font-size="23" fill="#111">TROCKENER REIZHUSTEN</text>
+  <text x="492" y="593" font-family="Georgia, serif" font-size="21" fill="#111">ohne Auswurf.</text>
+  <text x="492" y="629" font-family="Georgia, serif" font-size="21" fill="#111">Etwas anderes — hier</text>
+  <text x="492" y="655" font-family="Georgia, serif" font-size="21" fill="#111">schadet Dämpfen nicht.</text>
+
+  <text x="40" y="754" font-family="Georgia, serif" font-size="21" fill="#111">Genau eine Ausnahme: wenn der Husten den Schlaf so stört, dass keine</text>
+  <text x="40" y="780" font-family="Georgia, serif" font-size="21" fill="#111">Erholung mehr möglich ist.</text>
+
+  <line x1="40" y1="816" x2="860" y2="816" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Fieberleiste mit Luecke ============ -->
+  <text x="40" y="856" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was das Fieber verrät — und was nicht</text>
+
+  <g font-family="Georgia, serif" font-size="19" text-anchor="middle">
+    <text x="287" y="906" fill="#111">eher viral</text>
+    <text x="532" y="906" fill="#a3231a">die Quelle sagt nichts</text>
+    <text x="733" y="906" fill="#d65a1a">eher bakteriell</text>
+  </g>
+  <rect x="158" y="920" width="259" height="50" fill="#e8eef2" stroke="#111" stroke-width="2"/>
+  <rect x="417" y="920" width="230" height="50" fill="#faf9f6" stroke="#a3231a" stroke-width="2" stroke-dasharray="8 6"/>
+  <rect x="647" y="920" width="173" height="50" fill="#d65a1a" stroke="#111" stroke-width="2"/>
+
+  <line x1="120" y1="984" x2="856" y2="984" stroke="#111" stroke-width="2"/>
+  <polygon points="856,978 872,984 856,990" fill="#111"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="158" y1="984" x2="158" y2="994"/><line x1="417" y1="984" x2="417" y2="994"/>
+    <line x1="647" y1="984" x2="647" y2="994"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="158" y="1016">37,2</text><text x="417" y="1016">38,1</text><text x="647" y="1016">38,9</text>
+  </g>
+  <text x="120" y="1044" font-family="Georgia, serif" font-size="19" fill="#111">Grad — beide Enden offen</text>
+
+  <text x="40" y="1084" font-family="Georgia, serif" font-size="21" fill="#a3231a">Zwischen 38,1 und 38,9 Grad sagt die Quelle nichts. Dieser Bereich ist im</text>
+  <text x="40" y="1110" font-family="Georgia, serif" font-size="21" fill="#a3231a">Bild leer gelassen und nicht geraten.</text>
+
+  <line x1="40" y1="1146" x2="860" y2="1146" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1188" font-family="Georgia, serif" font-size="23" fill="#a3231a">Kommen Atemnot, Schmerz beim tiefen Einatmen oder</text>
+  <text x="40" y="1216" font-family="Georgia, serif" font-size="23" fill="#a3231a">Schüttelfrost dazu, ist die Frage nicht mehr Bronchitis,</text>
+  <text x="40" y="1244" font-family="Georgia, serif" font-size="23" fill="#a3231a">sondern Lungenentzündung.</text>
+
+  <line x1="40" y1="1280" x2="860" y2="1280" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1320" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Was stattdessen hilft</text>
+  <text x="40" y="1358" font-family="Georgia, serif" font-size="21" fill="#111">Trinken, damit der Schleim dünn bleibt · feuchte Luft · nicht rauchen und</text>
+  <text x="40" y="1384" font-family="Georgia, serif" font-size="21" fill="#111">keinen Rauch einatmen · warm halten · Zeit.</text>
+  <text x="40" y="1420" font-family="Georgia, serif" font-size="21" fill="#111">Eine akute Bronchitis braucht WOCHEN, nicht Tage. Ein Husten, der nach der</text>
+  <text x="40" y="1446" font-family="Georgia, serif" font-size="21" fill="#111">Erkältung noch anhält, ist nicht gleichbedeutend mit einer verschleppten</text>
+  <text x="40" y="1472" font-family="Georgia, serif" font-size="21" fill="#111">Entzündung.</text>
+
+  <line x1="40" y1="1508" x2="860" y2="1508" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1548" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Woran man eine chronische Bronchitis erkennt</text>
+  <text x="40" y="1586" font-family="Georgia, serif" font-size="21" fill="#111">Ein hartnäckiger MORGENHUSTEN, der BESSER wird, sobald etwas abgehustet</text>
+  <text x="40" y="1612" font-family="Georgia, serif" font-size="21" fill="#111">ist. Das typische Muster. Es gehört zum Raucherhusten und verschwindet nicht</text>
+  <text x="40" y="1638" font-family="Georgia, serif" font-size="21" fill="#111">mit einer Packung Tabletten.</text>
+</svg>

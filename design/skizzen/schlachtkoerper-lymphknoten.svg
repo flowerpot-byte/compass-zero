@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+  <!-- Tipp: nahrung-tier-nach-dem-schlachten | "Nach dem Schlachten: was den
+       ganzen Koerper verwirft".
+       Gezeigter Satz: "Ein EINZELNER geschwollener Knoten heisst: nur diese
+       Stelle wegschneiden. Sind an MEHREREN Stellen Knoten geschwollen, ist
+       die Krankheit im ganzen Tier." Das ist die konkrete Anwendung der
+       Grundregel des Tipps: oertlich begrenzt darf weg, ueber den ganzen
+       Koerper verteilt verwirft das Tier.
+       Links: EIN geschwollener Knoten an einer Stelle, gestrichelt markiert
+       zum Herausschneiden, der Rest des Koerpers bleibt unveraendert und
+       verwendbar. Rechts: Knoten an VIER verschiedenen Stellen (Kopf,
+       Schulter, Flanke, Huefte) verteilt ueber den ganzen Koerper, deshalb
+       liegt ueber dem ganzen Tier das Zeichen fuer verworfen, in der
+       Signalfarbe, weil genau das der gefaehrliche Fehlschluss waere: nur
+       die sichtbaren Knoten wegschneiden statt das ganze Tier zu verwerfen. -->
+  <rect width="900" height="480" fill="#faf9f6"/>
+
+  <text x="40" y="44" font-family="Georgia, serif" font-size="26" fill="#111">Nach dem Schlachten: einzelner Fleck oder ganzer Körper?</text>
+  <text x="40" y="82" font-family="Georgia, serif" font-size="19" fill="#111">Örtlich begrenzt darf weg — über den ganzen Körper verteilt verwirft das Tier</text>
+
+  <line x1="40" y1="102" x2="860" y2="102" stroke="#5b7f96" stroke-width="2"/>
+
+  <circle cx="50" cy="124" r="7" fill="#5b7f96" stroke="#111" stroke-width="1.5"/>
+  <text x="68" y="130" font-family="Georgia, serif" font-size="16" fill="#111">= geschwollener Lymphknoten</text>
+
+  <!-- Rahmen der zwei Faelle -->
+  <rect x="40" y="146" width="390" height="292" rx="10" fill="none" stroke="#5b7f96" stroke-width="2"/>
+  <rect x="470" y="146" width="390" height="292" rx="10" fill="none" stroke="#5b7f96" stroke-width="2"/>
+
+  <text x="235" y="182" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">EIN Knoten geschwollen</text>
+  <text x="665" y="182" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">MEHRERE Stellen geschwollen</text>
+
+  <!-- Tier links: eine Stelle betroffen -->
+  <g transform="translate(235,387)">
+    <line x1="-140" y1="0" x2="160" y2="0" stroke="#5b7f96" stroke-width="2" stroke-dasharray="6 5"/>
+    <line x1="-70" y1="-55" x2="-70" y2="0" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <line x1="-50" y1="-55" x2="-50" y2="0" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <line x1="50" y1="-55" x2="50" y2="0" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <line x1="70" y1="-55" x2="70" y2="0" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <path d="M -95,-115 Q -125,-120 -118,-95" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-95" rx="100" ry="40" fill="#e8ddc7" stroke="#111" stroke-width="3"/>
+    <polygon points="55,-115 90,-170 130,-170 95,-110" fill="#e8ddc7" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="125" cy="-150" r="27" fill="#e8ddc7" stroke="#111" stroke-width="3"/>
+
+    <circle cx="75" cy="-115" r="8" fill="#5b7f96" stroke="#111" stroke-width="1.5"/>
+    <circle cx="75" cy="-115" r="20" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="4 4"/>
+  </g>
+  <text x="235" y="410" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Nur diese Stelle weg —</text>
+  <text x="235" y="430" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">der Rest bleibt verwendbar</text>
+
+  <!-- Tier rechts: vier Stellen betroffen, ueber den Koerper verteilt -->
+  <g transform="translate(665,387)">
+    <line x1="-140" y1="0" x2="160" y2="0" stroke="#5b7f96" stroke-width="2" stroke-dasharray="6 5"/>
+    <line x1="-70" y1="-55" x2="-70" y2="0" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <line x1="-50" y1="-55" x2="-50" y2="0" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <line x1="50" y1="-55" x2="50" y2="0" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <line x1="70" y1="-55" x2="70" y2="0" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <path d="M -95,-115 Q -125,-120 -118,-95" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="0" cy="-95" rx="100" ry="40" fill="#e8ddc7" stroke="#111" stroke-width="3"/>
+    <polygon points="55,-115 90,-170 130,-170 95,-110" fill="#e8ddc7" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="125" cy="-150" r="27" fill="#e8ddc7" stroke="#111" stroke-width="3"/>
+
+    <circle cx="140" cy="-150" r="8" fill="#5b7f96" stroke="#111" stroke-width="1.5"/>
+    <circle cx="75" cy="-115" r="8" fill="#5b7f96" stroke="#111" stroke-width="1.5"/>
+    <circle cx="-5" cy="-70" r="8" fill="#5b7f96" stroke="#111" stroke-width="1.5"/>
+    <circle cx="-75" cy="-115" r="8" fill="#5b7f96" stroke="#111" stroke-width="1.5"/>
+
+    <line x1="-130" y1="-170" x2="150" y2="-10" stroke="#d65a1a" stroke-width="12" stroke-linecap="round"/>
+    <line x1="150" y1="-170" x2="-130" y2="-10" stroke="#d65a1a" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <text x="665" y="410" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Mehrere Stellen zugleich:</text>
+  <text x="665" y="430" font-family="Georgia, serif" font-size="16" fill="#d65a1a" text-anchor="middle">das ganze Tier wird verworfen</text>
+</svg>

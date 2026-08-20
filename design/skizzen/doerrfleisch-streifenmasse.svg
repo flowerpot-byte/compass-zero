@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Georgia, serif">
+  <!-- Anleitung nahrung-fleisch-monate, Schritt 9 (Doerrfleisch). Gezeigt werden
+       zwei Massangaben aus dem Text: der Streifen wird mit der Faser
+       geschnitten, etwa 30 Zentimeter lang, hoechstens 2,5 Zentimeter dick und
+       1,3 Zentimeter breit (die 2,5-Zentimeter-Grenze ist rot markiert, weil
+       ein zu dicker Streifen nicht durchtrocknet); und beim Sonnentrocknen
+       haengt der Streifen etwa sechs Meter hoch, ueber der Hoehe, in der die
+       Fliegen sind. -->
+  <rect width="900" height="620" fill="#faf9f6"/>
+
+  <text x="450" y="48" text-anchor="middle" font-size="27" font-weight="bold" fill="#111">Dörrfleisch: Streifen und Trocknen in der Sonne</text>
+  <line x1="60" y1="66" x2="840" y2="66" stroke="#5b7f96" stroke-width="2"/>
+
+  <!-- Panel 1: der Streifen -->
+  <text x="450" y="100" text-anchor="middle" font-size="19" font-weight="bold" fill="#111">Der Streifen: mit der Faser geschnitten</text>
+
+  <text x="100" y="140" font-size="16" fill="#5b7f96">Fasern verlaufen der Länge nach</text>
+
+  <!-- Streifen von oben: lang, schmal, Fasern der Laenge nach -->
+  <rect x="90" y="150" width="470" height="40" fill="#e8ddc7" stroke="#111" stroke-width="4"/>
+  <g stroke="#7a5a3e" stroke-width="2">
+    <line x1="102" y1="158" x2="548" y2="158"/>
+    <line x1="102" y1="166" x2="548" y2="166"/>
+    <line x1="102" y1="174" x2="548" y2="174"/>
+    <line x1="102" y1="182" x2="548" y2="182"/>
+  </g>
+
+  <!-- Laenge: etwa 30 Zentimeter -->
+  <g stroke="#111" stroke-width="2">
+    <line x1="90" y1="210" x2="560" y2="210"/>
+    <line x1="90" y1="202" x2="90" y2="218"/>
+    <line x1="560" y1="202" x2="560" y2="218"/>
+  </g>
+  <text x="325" y="233" text-anchor="middle" font-size="17" fill="#111">etwa 30 Zentimeter</text>
+
+  <!-- Breite (Draufsicht): 1,3 Zentimeter -->
+  <g stroke="#111" stroke-width="2">
+    <line x1="580" y1="150" x2="580" y2="190"/>
+    <line x1="572" y1="150" x2="588" y2="150"/>
+    <line x1="572" y1="190" x2="588" y2="190"/>
+  </g>
+  <text x="596" y="175" font-size="16" fill="#111">1,3 Zentimeter breit</text>
+
+  <!-- Querschnitt: Dicke, hoechstens 2,5 Zentimeter -->
+  <text x="815" y="136" text-anchor="middle" font-size="16" fill="#5b7f96">Querschnitt</text>
+  <rect x="780" y="150" width="70" height="100" fill="#e8ddc7" stroke="#111" stroke-width="4"/>
+
+  <g stroke="#d65a1a" stroke-width="2.5">
+    <line x1="765" y1="150" x2="765" y2="250"/>
+    <line x1="757" y1="150" x2="773" y2="150"/>
+    <line x1="757" y1="250" x2="773" y2="250"/>
+  </g>
+  <text x="750" y="193" text-anchor="end" font-size="16" fill="#d65a1a">höchstens 2,5</text>
+  <text x="750" y="213" text-anchor="end" font-size="16" fill="#d65a1a">Zentimeter dick</text>
+
+  <g stroke="#111" stroke-width="2">
+    <line x1="780" y1="265" x2="850" y2="265"/>
+    <line x1="780" y1="257" x2="780" y2="273"/>
+    <line x1="850" y1="257" x2="850" y2="273"/>
+  </g>
+  <text x="815" y="288" text-anchor="middle" font-size="16" fill="#111">1,3 Zentimeter</text>
+
+  <text x="90" y="308" font-size="14" fill="#5b7f96">Schematisch, nicht maßstäblich</text>
+
+  <line x1="60" y1="322" x2="840" y2="322" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- Panel 2: Sonnentrocknen ueber der Fliegenzone -->
+  <text x="450" y="352" text-anchor="middle" font-size="19" font-weight="bold" fill="#111">Sonnentrocknen: über der Fliegenzone</text>
+
+  <!-- Sonne -->
+  <circle cx="760" cy="400" r="26" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="2">
+    <line x1="760" y1="362" x2="760" y2="348"/>
+    <line x1="760" y1="438" x2="760" y2="452"/>
+    <line x1="722" y1="400" x2="708" y2="400"/>
+    <line x1="798" y1="400" x2="812" y2="400"/>
+    <line x1="734" y1="374" x2="724" y2="364"/>
+    <line x1="786" y1="374" x2="796" y2="364"/>
+    <line x1="734" y1="426" x2="724" y2="436"/>
+    <line x1="786" y1="426" x2="796" y2="436"/>
+  </g>
+  <text x="760" y="470" text-anchor="middle" font-size="14" fill="#5b7f96">Sonne</text>
+
+  <!-- Querstange und haengender Streifen -->
+  <line x1="380" y1="390" x2="520" y2="390" stroke="#7a5a3e" stroke-width="6" stroke-linecap="round"/>
+  <line x1="450" y1="390" x2="450" y2="410" stroke="#111" stroke-width="2"/>
+  <rect x="435" y="410" width="30" height="55" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+
+  <!-- Hoehe ab Boden: etwa sechs Meter -->
+  <g stroke="#111" stroke-width="2">
+    <line x1="250" y1="390" x2="250" y2="580"/>
+    <line x1="242" y1="390" x2="258" y2="390"/>
+    <line x1="242" y1="580" x2="258" y2="580"/>
+  </g>
+  <text x="230" y="490" text-anchor="end" font-size="17" fill="#111">etwa sechs Meter hoch</text>
+
+  <!-- Boden -->
+  <line x1="80" y1="580" x2="820" y2="580" stroke="#111" stroke-width="3"/>
+
+  <!-- Fliegenzone: der Streifen haengt deutlich darueber -->
+  <rect x="140" y="545" width="620" height="35" fill="#8ba668" opacity="0.35"/>
+  <text x="450" y="567" text-anchor="middle" font-size="16" fill="#111">Fliegenzone</text>
+</svg>

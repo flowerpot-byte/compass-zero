@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+  <!-- Zum Tipp "Jemand bricht im Eis ein: vom Ufer aus".
+       Gegenstueck zur Selbstrettungs-Tafel; zusammen decken sie beide Seiten
+       derselben Lage ab.
+       Der Text hat eine Reihenfolge, die man unter Zeitdruck verliert: erst
+       vom LAND, dann erst aufs Eis, und dort nie stehend. Genau diese Stufen
+       sind die beiden oberen Tafeln.
+       Die untere Tafel traegt den Griff, auf den man von selbst nicht kommt:
+       Bretter oder eine Leiter UEBER die Einbruchstelle. Das tut zweierlei
+       zugleich, und beides steht im Bild: Es traegt das Eis ringsum, und die
+       eingebrochene Person kann sich SELBST herausziehen. Der Text sagt
+       ausdruecklich, dass das besser ist, als sie zu ziehen.
+       Aufsicht fuer die untere Tafel, weil nur von oben zu sehen ist, dass die
+       Bretter die Oeffnung UEBERSPANNEN. -->
+  <rect width="900" height="760" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Jemand bricht im Eis ein: die Reihenfolge</text>
+
+  <!-- ============ 1. vom Land ============ -->
+  <text x="40" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">1. Zuerst vom Land aus</text>
+
+  <!-- Wasser und Eis -->
+  <rect x="150" y="268" width="270" height="70" fill="#a9c4d4"/>
+  <rect x="150" y="250" width="140" height="18" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <rect x="362" y="250" width="58" height="18" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <!-- abgebrochene Eiskanten -->
+  <g stroke="#a3231a" stroke-width="3" fill="none">
+    <path d="M 290 250 l 10 -10 M 290 262 l 14 -6 M 362 250 l -10 -10 M 362 262 l -14 -6"/>
+  </g>
+  <!-- Ufer: Oberkante bei y=242, darauf steht der Retter -->
+  <path d="M 60 338 L 60 234 L 150 242 L 150 338 Z" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <line x1="40" y1="338" x2="420" y2="338" stroke="#111" stroke-width="4"/>
+
+  <!-- Eingebrochene Person: der Kopf ragt nur wenig ueber die Eisflaeche -->
+  <circle cx="326" cy="266" r="15" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="7" stroke-linecap="round">
+    <line x1="313" y1="258" x2="294" y2="248"/>
+    <line x1="339" y1="258" x2="358" y2="248"/>
+  </g>
+
+  <!-- Retter steht auf dem Ufer -->
+  <circle cx="100" cy="172" r="17" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="86" y="190" width="30" height="50" rx="13" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Stange -->
+  <line x1="114" y1="206" x2="304" y2="252" stroke="#d65a1a" stroke-width="8" stroke-linecap="round"/>
+
+  <text x="150" y="172" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Bretter, Stangen,</text>
+  <text x="150" y="198" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Leitern, Leinen, Äste</text>
+
+  <text x="40" y="382" font-family="Georgia, serif" font-size="21" fill="#a3231a">NICHT loslaufen: Eis, das eben unter</text>
+  <text x="40" y="408" font-family="Georgia, serif" font-size="21" fill="#a3231a">einem Menschen gebrochen ist, trägt</text>
+  <text x="40" y="434" font-family="Georgia, serif" font-size="21" fill="#a3231a">auch den Retter nicht.</text>
+
+  <line x1="446" y1="112" x2="446" y2="450" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 2. aufs Eis, liegend ============ -->
+  <text x="472" y="94" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">2. Erst dann aufs Eis — liegend</text>
+
+  <rect x="500" y="268" width="340" height="70" fill="#a9c4d4"/>
+  <rect x="500" y="250" width="240" height="18" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <rect x="792" y="250" width="48" height="18" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <line x1="470" y1="338" x2="860" y2="338" stroke="#111" stroke-width="4"/>
+
+  <!-- Eingebrochene Person -->
+  <circle cx="766" cy="256" r="15" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <!-- Retter liegt auf einem Brett -->
+  <rect x="580" y="238" width="150" height="12" rx="4" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="614" y="212" width="104" height="28" rx="13" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <circle cx="732" cy="226" r="16" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="7" stroke-linecap="round">
+    <line x1="700" y1="214" x2="742" y2="200"/>
+  </g>
+
+  <!-- Sicherungsleine zu einem zweiten Helfer -->
+  <path d="M 614 234 Q 560 226 528 214" fill="none" stroke="#1d6b3a" stroke-width="4"/>
+  <circle cx="510" cy="200" r="15" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="498" y="216" width="26" height="46" rx="12" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+
+  <text x="560" y="188" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">mit Leine gesichert</text>
+  <text x="472" y="382" font-family="Georgia, serif" font-size="21" fill="#111">NIE stehend. Liegend vorschieben, Arme</text>
+  <text x="472" y="408" font-family="Georgia, serif" font-size="21" fill="#111">weit auseinander — noch besser auf einer</text>
+  <text x="472" y="434" font-family="Georgia, serif" font-size="21" fill="#111">Tür oder einem breiten Brett.</text>
+
+  <line x1="40" y1="472" x2="860" y2="472" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ 3. Der Griff: Bretter ueber die Oeffnung ============ -->
+  <text x="40" y="514" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Der Griff, auf den man von selbst nicht kommt (von oben gesehen)</text>
+
+  <rect x="60" y="540" width="600" height="150" fill="#e8eef2" stroke="#111" stroke-width="4"/>
+  <!-- Einbruchstelle -->
+  <path d="M 336 566 C 302 570 292 596 300 622 C 310 650 350 662 380 652
+           C 410 642 418 606 404 582 C 392 562 364 560 336 566 Z"
+        fill="#a9c4d4" stroke="#111" stroke-width="5"/>
+  <!-- Bretter UEBER die Oeffnung -->
+  <rect x="200" y="576" width="300" height="20" rx="4" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <rect x="200" y="628" width="300" height="20" rx="4" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <!-- Person zwischen den Brettern -->
+  <circle cx="352" cy="612" r="15" fill="#c9c4b4" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="7" stroke-linecap="round">
+    <line x1="352" y1="600" x2="330" y2="586"/>
+    <line x1="366" y1="606" x2="386" y2="590"/>
+  </g>
+  <!-- Zugrichtung -->
+  <g stroke="#1d6b3a" stroke-width="5" fill="none">
+    <path d="M 258 612 L 190 612"/>
+    <path d="M 190 612 l 22 -9 M 190 612 l 22 9"/>
+  </g>
+
+  <line x1="440" y1="586" x2="666" y2="558" stroke="#d65a1a" stroke-width="2"/>
+  <text x="674" y="552" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Die Bretter tragen</text>
+  <text x="674" y="578" font-family="Georgia, serif" font-size="21" fill="#d65a1a">das Eis ringsum …</text>
+  <line x1="300" y1="638" x2="660" y2="638" stroke="#1d6b3a" stroke-width="2"/>
+  <text x="674" y="620" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">… und die Person</text>
+  <text x="674" y="646" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">zieht sich SELBST</text>
+  <text x="674" y="672" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">heraus — besser,</text>
+  <text x="674" y="698" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">als sie zu ziehen.</text>
+
+  <line x1="40" y1="722" x2="860" y2="722" stroke="#c9c4b4" stroke-width="3"/>
+  <text x="40" y="752" font-family="Georgia, serif" font-size="21" fill="#a3231a">Danach: waagerecht halten, kaum bewegen, Arme und Beine nicht reiben.</text>
+</svg>

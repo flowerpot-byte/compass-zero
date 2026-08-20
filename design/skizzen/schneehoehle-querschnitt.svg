@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zur Bauanleitung "Unterstand im Schnee: sechs Bauarten".
+       Zwoelf Schritte, bisher kein einziges Bild. Schritt 6 zaehlt fuenf Punkte
+       auf, die ALLE raeumlich sind — gewoelbtes Dach, Liegeflaeche hoeher als
+       der Eingang, Rinne zwischen Liegeflaeche und Wand, Sitzhoehe,
+       Wandstaerke. Als Aufzaehlung sind das fuenf Saetze; im Querschnitt sind
+       es fuenf Stellen in EINEM Bild.
+       Querschnitt und Geometrie, keine Figur. Die einzige Zahl ist die 30, und
+       die steht so in Schritt 6.
+       Zweite Fassung: In der ersten war der Hohlraum nur als Umriss gezeichnet
+       und las sich als Roehre statt als Kammer. Die Geometrie ist deshalb neu
+       geschrieben und nicht geflickt. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="30" y="42" font-family="Georgia, serif" font-size="25" fill="#111">Schneehöhle im Schnitt: die fünf Punkte auf einmal</text>
+
+  <!-- ===== Schneekoerper ===== -->
+  <path d="M40 148 C170 126 320 116 490 120 C650 124 780 138 860 154 L860 512 L40 512 Z"
+        fill="#e6edf2" stroke="#8fa6b4" stroke-width="3"/>
+  <line x1="40" y1="512" x2="860" y2="512" stroke="#7a6a52" stroke-width="7"/>
+
+  <!-- ===== Der ausgehobene Raum: Eingangsstollen tief, Kammer als Kuppel ===== -->
+  <path d="M40 472 L716 472 L716 398 C716 300 618 258 500 258 C384 258 286 300 286 392 L286 444 L40 444 Z"
+        fill="#faf9f6" stroke="#3f5c6b" stroke-width="4"/>
+
+  <!-- Liegeflaeche: hoeher als der Eingangsstollen, mit Abstand zur Wand -->
+  <rect x="384" y="396" width="298" height="76" fill="#d6e2ea" stroke="#3f5c6b" stroke-width="3"/>
+  <text x="452" y="442" font-family="Georgia, serif" font-size="21" fill="#111">Liegefläche</text>
+
+  <!-- ===== Rinne zwischen Liegeflaeche und Wand ===== -->
+  <g stroke="#2a7fa8" stroke-width="4" fill="none">
+    <line x1="699" y1="400" x2="699" y2="462"/>
+    <path d="M692 448 L699 466 L706 448"/>
+  </g>
+  <line x1="712" y1="424" x2="736" y2="424" stroke="#2a7fa8" stroke-width="2"/>
+  <text x="742" y="418" font-family="Georgia, serif" font-size="18" fill="#2a7fa8">Rinne für das</text>
+  <text x="742" y="440" font-family="Georgia, serif" font-size="18" fill="#2a7fa8">Schmelzwasser</text>
+
+  <!-- ===== Lueftungsschacht ===== -->
+  <rect x="472" y="130" width="30" height="132" fill="#faf9f6" stroke="#3f5c6b" stroke-width="3"/>
+  <line x1="508" y1="180" x2="556" y2="180" stroke="#111" stroke-width="2"/>
+  <text x="562" y="186" font-family="Georgia, serif" font-size="19" fill="#111">Lüftungsschacht</text>
+
+  <!-- ===== Wandstaerke ===== -->
+  <g stroke="#d65a1a" stroke-width="3">
+    <line x1="638" y1="152" x2="638" y2="286"/>
+    <line x1="628" y1="152" x2="648" y2="152"/>
+    <line x1="628" y1="286" x2="648" y2="286"/>
+  </g>
+  <text x="660" y="226" font-family="Georgia, serif" font-size="21" fill="#d65a1a">mindestens 30 cm</text>
+
+  <!-- ===== Sitzhoehe ueber der Liegeflaeche ===== -->
+  <g stroke="#111" stroke-width="2">
+    <line x1="530" y1="278" x2="530" y2="394"/>
+    <path d="M524 290 L530 276 L536 290" fill="none"/>
+    <path d="M524 382 L530 396 L536 382" fill="none"/>
+  </g>
+  <text x="546" y="342" font-family="Georgia, serif" font-size="18" fill="#111">aufrecht sitzen können</text>
+
+  <!-- ===== Kalte Luft sinkt in den tiefen Eingangsbereich ===== -->
+  <g stroke="#2a7fa8" stroke-width="4" fill="none">
+    <line x1="340" y1="392" x2="340" y2="452"/>
+    <path d="M332 440 L340 458 L348 440"/>
+  </g>
+  <text x="96" y="380" font-family="Georgia, serif" font-size="18" fill="#2a7fa8">kalte Luft ist schwer</text>
+  <text x="96" y="402" font-family="Georgia, serif" font-size="18" fill="#2a7fa8">und sammelt sich unten</text>
+
+  <!-- ===== Verschluss und Kochstelle ===== -->
+  <rect x="66" y="446" width="32" height="66" fill="#c3d3dd" stroke="#3f5c6b" stroke-width="3"/>
+  <line x1="82" y1="524" x2="82" y2="548" stroke="#111" stroke-width="2"/>
+  <text x="40" y="570" font-family="Georgia, serif" font-size="18" fill="#111">Eingang mit einem Schneeblock verschließen</text>
+
+  <line x1="200" y1="466" x2="200" y2="498" stroke="#111" stroke-width="2"/>
+  <text x="216" y="496" font-family="Georgia, serif" font-size="18" fill="#111">hier wird gekocht — im tiefen Teil</text>
+
+  <!-- ===== Das gewoelbte Dach ===== -->
+  <line x1="250" y1="252" x2="322" y2="290" stroke="#111" stroke-width="2"/>
+  <text x="72" y="248" font-family="Georgia, serif" font-size="19" fill="#111">Dach bleibt gewölbt</text>
+</svg>

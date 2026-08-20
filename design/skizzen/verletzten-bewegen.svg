@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1678" viewBox="0 0 900 1678">
+  <!-- Zum Tipp "Verletzten bewegen: wann gar nicht, und wie doch".
+       Der Tipp beginnt mit einem Satz, der die ganze Ordnung umdreht: Die
+       erste Frage ist nicht WIE, sondern OB. Er steht deshalb ganz oben und
+       gross, und die beiden Entscheidungen darunter kommen in der
+       Reihenfolge, in der sie zu treffen sind — erst ob ueberhaupt, dann wie
+       weit.
+       Die Griffe stehen absichtlich NUR IN WORTEN. Ein gezeichneter
+       Nackenzug oder Wiegegriff waere eine Figurenzeichnung, und die geht
+       hier regelmaessig schief; eine falsch verstandene Handhaltung ist
+       schlimmer als ein Satz, den man zweimal liest. Was das Bild leisten
+       kann, ist die Trennung: Label links, Handgriff rechts, damit man den
+       gesuchten Griff findet, ohne den ganzen Absatz zu lesen.
+       Der Kasten zum Schultertragen steht unten und eigens, weil die Quelle
+       dort etwas Seltenes tut: Sie raet von dem Griff ab, den alle aus
+       Uebungen kennen. Das ist der eigentliche Wert des Abschnitts, und im
+       Fliesstext steht es am Ende, wo es niemand mehr liest. -->
+  <rect width="900" height="1678" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Verletzten bewegen: wann gar nicht, und wie doch</text>
+
+  <text x="40" y="102" font-family="Georgia, serif" font-size="26" fill="#111">Die erste Frage ist nicht WIE, sondern OB.</text>
+
+  <line x1="40" y1="132" x2="860" y2="132" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Erste Entscheidung ============ -->
+  <rect x="40" y="158" width="820" height="152" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="200" font-family="Georgia, serif" font-size="23" fill="#a3231a">Bei Verdacht auf eine Rücken- oder Nackenverletzung</text>
+  <text x="62" y="228" font-family="Georgia, serif" font-size="23" fill="#a3231a">wird NICHT bewegt.</text>
+  <text x="62" y="264" font-family="Georgia, serif" font-size="21" fill="#111">Ausnahme: unmittelbare Lebensgefahr am Ort — genannt sind Feuer und</text>
+  <text x="62" y="290" font-family="Georgia, serif" font-size="21" fill="#111">Explosion. Nach jedem Fahrzeugunfall gilt der Verdacht von selbst.</text>
+
+  <text x="40" y="348" font-family="Georgia, serif" font-size="21" fill="#111">Muss doch bewegt werden: Kopf und Hals so ruhig wie möglich halten — am</text>
+  <text x="40" y="374" font-family="Georgia, serif" font-size="21" fill="#111">besten hält eine zweite Person nur den Kopf.</text>
+
+  <line x1="40" y1="410" x2="860" y2="410" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Zweite Entscheidung ============ -->
+  <text x="40" y="450" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die zweite Entscheidung: wie weit?</text>
+
+  <rect x="40" y="480" width="390" height="140" rx="8" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <rect x="470" y="480" width="390" height="140" rx="8" fill="#e8eef2" stroke="#111" stroke-width="3"/>
+
+  <text x="62" y="518" font-family="Georgia, serif" font-size="23" fill="#111">KURZE STRECKE</text>
+  <text x="62" y="554" font-family="Georgia, serif" font-size="21" fill="#111">In Deckung, an einen</text>
+  <text x="62" y="580" font-family="Georgia, serif" font-size="21" fill="#111">sicheren Ort, zum</text>
+  <text x="62" y="606" font-family="Georgia, serif" font-size="21" fill="#111">Fahrzeug: tragen.</text>
+
+  <text x="492" y="518" font-family="Georgia, serif" font-size="23" fill="#111">LANGE STRECKE</text>
+  <text x="492" y="554" font-family="Georgia, serif" font-size="21" fill="#111">Oder wenn Tragen die</text>
+  <text x="492" y="580" font-family="Georgia, serif" font-size="21" fill="#111">Verletzung verschlimmert:</text>
+  <text x="492" y="606" font-family="Georgia, serif" font-size="21" fill="#111">eine TRAGE bauen.</text>
+
+  <line x1="40" y1="656" x2="860" y2="656" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die Griffe, in Worten ============ -->
+  <text x="40" y="696" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Griffe — in Worten, nicht als Zeichnung</text>
+
+  <text x="40" y="740" font-family="Georgia, serif" font-size="21" fill="#111">AUS EINEM</text>
+  <text x="40" y="766" font-family="Georgia, serif" font-size="21" fill="#111">FAHRZEUG</text>
+  <text x="300" y="740" font-family="Georgia, serif" font-size="21" fill="#111">Zu zweit: einer fasst Arme und Beine, der andere</text>
+  <text x="300" y="766" font-family="Georgia, serif" font-size="21" fill="#111">stützt dabei Kopf und Hals, so gut es geht. Muss</text>
+  <text x="300" y="792" font-family="Georgia, serif" font-size="21" fill="#111">jemand nach OBEN heraus — aus einem Fahrzeug</text>
+  <text x="300" y="818" font-family="Georgia, serif" font-size="21" fill="#111">auf der Seite —, hilft ein GÜRTEL um den</text>
+  <text x="300" y="844" font-family="Georgia, serif" font-size="21" fill="#111">Brustkorb als Zuggriff.</text>
+
+  <text x="40" y="890" font-family="Georgia, serif" font-size="21" fill="#111">DER NACKENZUG</text>
+  <text x="40" y="916" font-family="Georgia, serif" font-size="21" fill="#111">kurze Strecke, wenn</text>
+  <text x="40" y="942" font-family="Georgia, serif" font-size="21" fill="#111">man selbst tief</text>
+  <text x="40" y="968" font-family="Georgia, serif" font-size="21" fill="#111">bleiben muss</text>
+  <text x="300" y="890" font-family="Georgia, serif" font-size="21" fill="#111">Die Person liegt auf dem Rücken, die Hände an</text>
+  <text x="300" y="916" font-family="Georgia, serif" font-size="21" fill="#111">den Handgelenken zusammengebunden — bei</text>
+  <text x="300" y="942" font-family="Georgia, serif" font-size="21" fill="#111">Bewusstsein kann sie sie selbst um den Nacken</text>
+  <text x="300" y="968" font-family="Georgia, serif" font-size="21" fill="#111">des Helfers verschränken. Der Helfer kniet</text>
+  <text x="300" y="994" font-family="Georgia, serif" font-size="21" fill="#111">rittlings über ihr, Gesicht zu Gesicht, legt sich</text>
+  <text x="300" y="1020" font-family="Georgia, serif" font-size="21" fill="#111">die Hände um den Nacken und KRIECHT</text>
+  <text x="300" y="1046" font-family="Georgia, serif" font-size="21" fill="#111">VORWÄRTS, den Blick nach vorn; der Oberkörper</text>
+  <text x="300" y="1072" font-family="Georgia, serif" font-size="21" fill="#111">hebt sich an und schleift mit.</text>
+  <text x="300" y="1108" font-family="Georgia, serif" font-size="21" fill="#a3231a">NICHT bei gebrochenem Arm und NICHT bei</text>
+  <text x="300" y="1134" font-family="Georgia, serif" font-size="21" fill="#a3231a">Verdacht auf Nackenverletzung.</text>
+
+  <text x="40" y="1180" font-family="Georgia, serif" font-size="21" fill="#111">DER WIEGEGRIFF</text>
+  <text x="40" y="1206" font-family="Georgia, serif" font-size="21" fill="#111">FÜR TREPPEN</text>
+  <text x="300" y="1180" font-family="Georgia, serif" font-size="21" fill="#111">Hinter dem Kopf der liegenden Person knien. Die</text>
+  <text x="300" y="1206" font-family="Georgia, serif" font-size="21" fill="#111">Hände mit den Handflächen nach oben unter ihre</text>
+  <text x="300" y="1232" font-family="Georgia, serif" font-size="21" fill="#111">Schultern schieben und UNTER DEN ACHSELN fest</text>
+  <text x="300" y="1258" font-family="Georgia, serif" font-size="21" fill="#111">fassen. Halb aufrichten; der Kopf ruht dabei auf</text>
+  <text x="300" y="1284" font-family="Georgia, serif" font-size="21" fill="#111">dem eigenen Unterarm. Halb sitzend RÜCKWÄRTS</text>
+  <text x="300" y="1310" font-family="Georgia, serif" font-size="21" fill="#111">die Treppe hinunter- oder hinaufziehen, Kopf und</text>
+  <text x="300" y="1336" font-family="Georgia, serif" font-size="21" fill="#111">Rumpf gestützt; Hüften und Beine gleiten nach.</text>
+
+  <line x1="40" y1="1372" x2="860" y2="1372" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Die ehrliche Auskunft ============ -->
+  <rect x="40" y="1398" width="820" height="152" rx="10" fill="none" stroke="#d65a1a" stroke-width="4"/>
+  <text x="62" y="1438" font-family="Georgia, serif" font-size="23" fill="#d65a1a">Die ehrliche Auskunft zum Schultertragen</text>
+  <text x="62" y="1474" font-family="Georgia, serif" font-size="21" fill="#111">Der Griff, bei dem die Person quer über den Schultern liegt, ist der, den</text>
+  <text x="62" y="1500" font-family="Georgia, serif" font-size="21" fill="#111">alle aus Übungen kennen — aber MIT EINER SCHWEREN ODER VOLL</text>
+  <text x="62" y="1526" font-family="Georgia, serif" font-size="21" fill="#111">BEPACKTEN PERSON IST ER KAUM DURCHFÜHRBAR.</text>
+
+  <text x="40" y="1588" font-family="Georgia, serif" font-size="21" fill="#111">Er verlangt eine mehrstufige Dreh- und Hebefolge und viel Kraft. Wer ihn nicht</text>
+  <text x="40" y="1614" font-family="Georgia, serif" font-size="21" fill="#111">geübt hat, plant besser mit Ziehen, mit dem Wiegegriff — oder zu zweit und mit</text>
+  <text x="40" y="1640" font-family="Georgia, serif" font-size="21" fill="#111">einer Trage.</text>
+</svg>

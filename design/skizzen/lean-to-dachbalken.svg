@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Zu Schritt 5 von notunterstand-lean-to: "Lege ein Ende der Dachbalken auf
+       eine Seite des waagerechten Traegers. Die Rueckseite muss in den Wind
+       zeigen." Querschnitt. Gezeichnet ist nur das: die beiden Stuetzen, der
+       Traeger, die Dachbalken auf EINER Seite, und der Wind, der auf die
+       geschlossene Seite trifft. Decken, Bodenisolierung und Reflektorwand
+       stehen in eigenen Schritten und gehoeren nicht in diese Skizze.
+       Die Widerhaken der Pfeile sind aus der Pfeilrichtung gerechnet, und die
+       Pfeilspitzen liegen auf der Dachflaeche, nicht daneben. -->
+  <rect width="800" height="500" fill="#faf9f6"/>
+  <g fill="none" stroke="#111" stroke-width="5" stroke-linecap="round">
+    <line x1="40" y1="398" x2="760" y2="398"/>
+    <line x1="200" y1="398" x2="200" y2="150"/>
+    <line x1="260" y1="398" x2="260" y2="150"/>
+    <line x1="176" y1="235" x2="284" y2="235" stroke-width="9"/>
+    <line x1="232" y1="230" x2="620" y2="396"/>
+    <line x1="240" y1="230" x2="560" y2="396"/>
+    <line x1="248" y1="230" x2="500" y2="396"/>
+    <line x1="256" y1="230" x2="680" y2="396"/>
+  </g>
+  <!-- Geschuetzter Raum unter den Balken -->
+  <path d="M 264 252 L 264 394 L 468 394 Z" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="10 8"/>
+  <!-- Wind auf die geschlossene Rueckseite -->
+  <g fill="none" stroke="#d65a1a" stroke-width="5" stroke-linecap="round">
+    <line x1="762" y1="256" x2="602" y2="374"/>
+    <path d="M 602 374 l 25 -5 M 602 374 l 12 -23"/>
+    <line x1="762" y1="150" x2="522" y2="320"/>
+    <path d="M 522 320 l 25 -6 M 522 320 l 11 -23"/>
+  </g>
+  <g font-family="sans-serif" font-size="25" fill="#111">
+    <text x="150" y="200" text-anchor="end">Träger</text>
+    <text x="330" y="140">Dachbalken</text>
+    <text x="300" y="378">geschützt</text>
+    <text x="770" y="110" text-anchor="end" fill="#d65a1a">Wind auf die Rückseite</text>
+  </g>
+  <g fill="none" stroke="#111" stroke-width="2">
+    <line x1="158" y1="207" x2="188" y2="228"/>
+    <line x1="380" y1="152" x2="352" y2="222"/>
+  </g>
+</svg>

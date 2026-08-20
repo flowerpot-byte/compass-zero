@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1400" viewBox="0 0 900 1400">
+  <!-- Zum Tipp "Naehen: die Regeln, an denen es scheitert".
+       Der Tipp sagt selbst, dass es an wenigen Regeln scheitert und nicht an
+       der Kunstfertigkeit. Genau diese Regeln sind raeumlich: Abstand,
+       Reihenfolge, Lage der Knoten.
+       Die Reihenfolge steht als Nummern ueber den Stichen: erst die Mitte,
+       dann nach aussen. Als Satz merkt man sich das nicht, als Nummernfolge
+       4 2 1 3 5 sieht man es.
+       Die Knoten sind bewusst NEBEN die Wundlinie gesetzt und nicht darauf.
+       Das ist eine der Regeln, und ein Bild, das sie missachtet, waere
+       schlimmer als keines.
+       Der haeufigste Fehler steht rot und mit seinem Erkennungszeichen: Wird
+       das Gewebe unter dem Faden blass, sitzt der Stich zu fest. Direkt
+       darunter gruen die Loesung, damit die Warnung nicht zur Ratlosigkeit
+       fuehrt: tiefer, nicht weiter aussen.
+       Der Widerspruch zwischen den beiden Zahlenreihen steht offen im Bild,
+       mit der Aufloesung ueber die Ursache.
+       Die Adrenalin-Warnung steht rot und zuletzt, weil sie die einzige im
+       Tipp ist, die Finger kostet. -->
+  <rect width="900" height="1400" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Nähen: die Regeln, an denen es scheitert</text>
+
+  <text x="40" y="96" font-family="Georgia, serif" font-size="21" fill="#111">An diesen wenigen Regeln entscheidet sich, ob eine Wunde heilt — nicht an der</text>
+  <text x="40" y="122" font-family="Georgia, serif" font-size="21" fill="#111">Kunstfertigkeit.</text>
+
+  <line x1="40" y1="158" x2="860" y2="158" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Abstaende und Reihenfolge ============ -->
+  <text x="40" y="198" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Abstände und Reihenfolge</text>
+
+  <line x1="140" y1="300" x2="600" y2="300" stroke="#a3231a" stroke-width="4"/>
+  <g stroke="#111" stroke-width="3">
+    <line x1="200" y1="268" x2="200" y2="332"/>
+    <line x1="290" y1="268" x2="290" y2="332"/>
+    <line x1="370" y1="268" x2="370" y2="332"/>
+    <line x1="450" y1="268" x2="450" y2="332"/>
+    <line x1="540" y1="268" x2="540" y2="332"/>
+  </g>
+  <g fill="#111">
+    <circle cx="209" cy="276" r="5"/><circle cx="299" cy="276" r="5"/><circle cx="379" cy="276" r="5"/>
+    <circle cx="459" cy="276" r="5"/><circle cx="549" cy="276" r="5"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#1d6b3a" text-anchor="middle">
+    <text x="200" y="252">4</text><text x="290" y="252">2</text><text x="370" y="252">1</text>
+    <text x="450" y="252">3</text><text x="540" y="252">5</text>
+  </g>
+
+  <g stroke="#111" stroke-width="2" fill="none">
+    <path d="M 370 356 L 450 356"/>
+    <path d="M 370 350 L 370 362 M 450 350 L 450 362"/>
+    <path d="M 182 268 L 182 300"/>
+    <path d="M 176 268 L 188 268 M 176 300 L 188 300"/>
+  </g>
+  <text x="410" y="380" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">5 bis 10 mm</text>
+  <text x="172" y="290" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="end">5 bis 10 mm</text>
+
+  <text x="660" y="280" font-family="Georgia, serif" font-size="21" fill="#111">Erst die Mitte,</text>
+  <text x="660" y="306" font-family="Georgia, serif" font-size="21" fill="#111">dann nach außen.</text>
+  <text x="660" y="346" font-family="Georgia, serif" font-size="21" fill="#111">Die Knoten liegen</text>
+  <text x="660" y="372" font-family="Georgia, serif" font-size="21" fill="#111">daneben, nicht auf</text>
+  <text x="660" y="398" font-family="Georgia, serif" font-size="21" fill="#111">der Wundlinie.</text>
+
+  <text x="40" y="434" font-family="Georgia, serif" font-size="21" fill="#111">Beide Seiten werden in derselben Tiefe und im selben Abstand zum Wundrand</text>
+  <text x="40" y="460" font-family="Georgia, serif" font-size="21" fill="#111">gefasst. Sonst schieben sich die Ränder übereinander, die Heilung verzögert</text>
+  <text x="40" y="486" font-family="Georgia, serif" font-size="21" fill="#111">sich, und es bleibt eine schlechte Narbe.</text>
+  <text x="40" y="512" font-family="Georgia, serif" font-size="21" fill="#111">Vorher wird der Hohlraum unter der Wunde herausgerollt, damit unten keine</text>
+  <text x="40" y="538" font-family="Georgia, serif" font-size="21" fill="#111">Tasche bleibt.</text>
+
+  <line x1="40" y1="574" x2="860" y2="574" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Nicht fest ziehen ============ -->
+  <text x="40" y="614" font-family="Georgia, serif" font-size="23" fill="#a3231a">Nicht fest ziehen — der häufigste und der schlimmste Fehler</text>
+  <text x="40" y="652" font-family="Georgia, serif" font-size="21" fill="#111">Wird das Gewebe unter dem Faden blass, sitzt der Stich zu fest. Ein zu fester</text>
+  <text x="40" y="678" font-family="Georgia, serif" font-size="21" fill="#111">Stich schnürt genau dort die Durchblutung ab, wo sie am nötigsten gebraucht</text>
+  <text x="40" y="704" font-family="Georgia, serif" font-size="21" fill="#111">wird — und dann stirbt der Wundrand.</text>
+  <text x="40" y="744" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Braucht man mehr Halt, geht man TIEFER, nicht weiter außen.</text>
+
+  <line x1="40" y1="780" x2="860" y2="780" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Wann die Faeden raus muessen ============ -->
+  <text x="40" y="820" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Wann die Fäden wieder raus müssen</text>
+
+  <g font-family="Georgia, serif" font-size="21" fill="#111">
+    <text x="60" y="858">Augenlid</text><text x="420" y="858">3 Tage</text>
+    <text x="60" y="888">Wange</text><text x="420" y="888">3 bis 5 Tage</text>
+    <text x="60" y="918">Nase, Stirn, Kopfhaut</text><text x="420" y="918">5 bis 7 Tage</text>
+    <text x="60" y="948">Arm, Bein, Hand, Fuß</text><text x="420" y="948">7 bis 10 Tage oder etwas länger</text>
+    <text x="60" y="978">Brust, Rücken, Bauch</text><text x="420" y="978">ebenso</text>
+  </g>
+
+  <text x="40" y="1018" font-family="Georgia, serif" font-size="21" fill="#111">Zwei Zahlenreihen in derselben Quelle widersprechen sich: für geplante</text>
+  <text x="40" y="1044" font-family="Georgia, serif" font-size="21" fill="#111">Hautschnitte nennt sie 5 Tage im Gesicht, 7 bis 10 sonst, 10 bis 14 unter</text>
+  <text x="40" y="1070" font-family="Georgia, serif" font-size="21" fill="#111">starker Spannung.</text>
+
+  <text x="40" y="1110" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Auflösen lässt sich das über die Ursache: Je mehr eine Stelle bewegt und</text>
+  <text x="40" y="1136" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">gezogen wird, desto länger bleiben die Fäden. Über Gelenken und am Rücken die</text>
+  <text x="40" y="1162" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">längeren Zeiten, im Gesicht die kürzeren — sonst bleiben Fadenspuren.</text>
+
+  <line x1="40" y1="1198" x2="860" y2="1198" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1238" font-family="Georgia, serif" font-size="21" fill="#111">Zum Faden: Ein GEFLOCHTENER Faden wirkt wie ein Docht und leitet Keime von</text>
+  <text x="40" y="1264" font-family="Georgia, serif" font-size="21" fill="#111">der Haut in die Wunde. Wo man die Wahl hat: einen glatten nehmen.</text>
+
+  <text x="40" y="1308" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein Betäubungsmittel MIT Adrenalinzusatz darf nie an Fingern, Zehen,</text>
+  <text x="40" y="1336" font-family="Georgia, serif" font-size="23" fill="#a3231a">Nase, Ohren oder Penis verwendet werden.</text>
+  <text x="40" y="1372" font-family="Georgia, serif" font-size="21" fill="#111">Der Zusatz verengt die Gefäße, und an diesen Stellen gibt es keinen Umweg.</text>
+</svg>

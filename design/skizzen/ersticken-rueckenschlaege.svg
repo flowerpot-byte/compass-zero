@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620">
+  <!-- Zum Tipp "erste-hilfe-ersticken-rueckenschlaege" (Ersticken: Schlaege
+       auf den Ruecken, Erwachsene). Der Text ist eine Handlungsanweisung mit
+       vielen Einzelschritten (Notruf, pruefen nach jedem Schlag, danach
+       Oberbauchkompression). Mit Worten schlecht zu vermitteln, mit einem
+       Bild dagegen sofort klar, ist nur EINE Sache daraus: die Koerperhaltung
+       - wie weit der Oberkoerper nach vorn geneigt wird, und die genaue
+       Stelle der Schlaege zwischen den Schulterblaettern. Deshalb zeigt das
+       Bild links die Seitenansicht mit der Beuge und rechts den Blick von
+       hinten auf die Stelle.
+
+       Die Signalfarbe steht nur beim Hinweis unten (gilt nur fuer Erwachsene,
+       bei Kindern und Saeuglingen anders). Eine falsche Uebertragung auf ein
+       Kleinkind waere der gefaehrliche Fehler, nicht ein paar Zentimeter
+       Abweichung am Ruecken.
+
+       Umbau am 04.08.2026, drei Fehler der ersten Fassung: die Beine liefen
+       durch den Bildtext, das Wort "hier" lag auf dem Zielfleck und war
+       unlesbar, und die Hintergrundflaeche endete oberhalb der letzten
+       Zeile, so dass diese auf blankem Weiss stand. Dazu hing der Stuetzarm
+       nach hinten quer ueber die Beine und der Kopf sass ohne erkennbaren
+       Hals neben der Schulter - beides las sich nicht als Mensch. -->
+
+  <rect width="900" height="620" fill="#faf9f6"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="25" fill="#111">Rückenschläge: nach vorn beugen, zwischen die Schulterblätter</text>
+
+  <defs>
+    <marker id="pfeil" markerWidth="9" markerHeight="9" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#111"/>
+    </marker>
+  </defs>
+
+  <!-- ===== LINKS: Seitenansicht, wie weit nach vorn gebeugt wird ===== -->
+  <text x="60" y="86" font-family="Georgia, serif" font-size="19" fill="#5b7f96">von der Seite: wie weit beugen</text>
+
+  <g transform="translate(60, 100)">
+    <!-- Boden -->
+    <line x1="10" y1="332" x2="330" y2="332" stroke="#5b7f96" stroke-width="2" opacity="0.5"/>
+
+    <!-- Senkrechte durch die Huefte: so stuende die Person aufrecht -->
+    <line x1="100" y1="196" x2="100" y2="40" stroke="#5b7f96" stroke-width="2.5" stroke-dasharray="6 7"/>
+    <path d="M 100 96 A 56 56 0 0 1 148 62" fill="none" stroke="#5b7f96" stroke-width="2.5"/>
+    <!-- Die Beschriftung stand zuerst rechts der Beuge und lag damit unter
+         dem Unterarm des Helfers. Jetzt steht sie ueber der Szene, wo nichts
+         sonst hinreicht. -->
+    <text x="96" y="24" font-family="Georgia, serif" font-size="17" fill="#5b7f96">weit nach vorn</text>
+    <line x1="140" y1="32" x2="132" y2="56" stroke="#5b7f96" stroke-width="1.5"/>
+
+    <!-- Beine -->
+    <line x1="86" y1="212" x2="74" y2="330" stroke="#7a5a3e" stroke-width="20" stroke-linecap="round"/>
+    <line x1="112" y1="212" x2="122" y2="330" stroke="#7a5a3e" stroke-width="20" stroke-linecap="round"/>
+    <!-- Becken -->
+    <rect x="70" y="186" width="55" height="34" rx="14" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+
+    <!-- Rumpf, weit nach vorn gebeugt: Huefte bis Schulter -->
+    <path d="M 78 198
+             C 82 146, 118 108, 190 88
+             C 208 83, 220 106, 223 116
+             C 198 130, 155 152, 120 202 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+    <!-- Hals und Kopf: der Kopf haengt tiefer als die Schulter -->
+    <path d="M 214 116 C 228 128, 238 144, 242 158" fill="none" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="262" cy="180" r="30" fill="#e6e2d6" stroke="#111" stroke-width="4"/>
+
+    <!-- Arm haengt frei nach unten, vor dem Koerper -->
+    <path d="M 205 124 C 218 170, 224 216, 222 258" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Zielstelle zwischen den Schulterblaettern, dunkler Erdton -->
+    <ellipse cx="186" cy="104" rx="17" ry="12" fill="#7a5a3e" stroke="#111" stroke-width="2.5" transform="rotate(-22 186 104)"/>
+
+    <!-- Unterarm und Hand des Helfers, von oben -->
+    <line x1="252" y1="8" x2="228" y2="42" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+    <path d="M 226 34 Q 240 30 248 40 Q 250 50 240 56 L 206 74 Q 196 70 199 60 Z" fill="#d9c98a" stroke="#111" stroke-width="3"/>
+    <line x1="200" y1="76" x2="188" y2="88" stroke="#111" stroke-width="3.5" marker-end="url(#pfeil)"/>
+
+    <text x="252" y="86" font-family="Georgia, serif" font-size="17" fill="#111">zwischen die</text>
+    <text x="252" y="107" font-family="Georgia, serif" font-size="17" fill="#111">Schulterblätter</text>
+    <line x1="250" y1="94" x2="203" y2="100" stroke="#111" stroke-width="1.5"/>
+  </g>
+
+  <!-- ===== RECHTS: Blick von hinten, genaue Stelle ===== -->
+  <text x="500" y="86" font-family="Georgia, serif" font-size="19" fill="#5b7f96">von hinten: die genaue Stelle</text>
+
+  <g transform="translate(510, 120)">
+    <!-- Ruecken-Silhouette -->
+    <path d="M 55 46
+             Q 30 46 22 74
+             L 12 300
+             Q 12 328 40 328
+             L 272 328
+             Q 300 328 300 300
+             L 290 74
+             Q 282 46 257 46 Z"
+          fill="#e6e2d6" stroke="#111" stroke-width="4" stroke-linejoin="round"/>
+
+    <!-- Wirbelsaeule als Orientierungslinie -->
+    <line x1="156" y1="58" x2="156" y2="316" stroke="#111" stroke-width="2" opacity="0.45"/>
+
+    <!-- Schulterblaetter, links und rechts davon -->
+    <path d="M 120 86 C 82 96, 70 148, 84 194 C 92 218, 120 213, 130 190 C 140 157, 138 110, 120 86 Z"
+          fill="#d9c98a" stroke="#111" stroke-width="3"/>
+    <path d="M 192 86 C 230 96, 242 148, 228 194 C 220 218, 192 213, 182 190 C 172 157, 174 110, 192 86 Z"
+          fill="#d9c98a" stroke="#111" stroke-width="3"/>
+
+    <!-- Zielflaeche zwischen den Schulterblaettern -->
+    <ellipse cx="156" cy="146" rx="23" ry="30" fill="#7a5a3e" stroke="#111" stroke-width="3"/>
+
+    <text x="156" y="34" font-family="Georgia, serif" font-size="17" fill="#111" text-anchor="middle">hier</text>
+    <line x1="156" y1="42" x2="156" y2="112" stroke="#111" stroke-width="1.5"/>
+
+    <text x="50" y="238" font-family="Georgia, serif" font-size="17" fill="#111">Schulterblatt</text>
+    <text x="196" y="238" font-family="Georgia, serif" font-size="17" fill="#111">Schulterblatt</text>
+  </g>
+
+  <text x="40" y="518" font-family="Georgia, serif" font-size="20" fill="#111">Sofort nach vorn beugen und bis zu fünf Mal zwischen die Schulterblätter schlagen,</text>
+  <text x="40" y="546" font-family="Georgia, serif" font-size="20" fill="#111">nach jedem einzelnen Schlag prüfen, ob er sich gelöst hat.</text>
+
+  <text x="40" y="592" font-family="Georgia, serif" font-size="20" fill="#d65a1a">Gilt für Erwachsene. Bei Kindern und besonders bei Säuglingen ist das anders.</text>
+</svg>

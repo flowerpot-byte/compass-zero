@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1156" viewBox="0 0 900 1156">
+  <!-- Zum Tipp "Kindbettfieber: drei Zeichen in den Tagen danach".
+       Der Kern des Tipps ist kein Zeichen, sondern ein MESSRHYTHMUS ueber
+       Tage: vier- bis fuenfmal am Tag messen und aufschreiben. Und daran
+       haengt eine Unterscheidung, die sich als Text kaum merken laesst, als
+       Kurve aber sofort einleuchtet: EIN einzelner erhoehter Wert ist noch
+       kein Beweis, DERSELBE Wert an mehreren aufeinanderfolgenden Tagen ist
+       einer. Deshalb zwei Kurven nebeneinander, gleiche Achse, gleicher
+       Grenzwert, verschiedene Antwort.
+       Der einzelne Ausreisser links ist bewusst SCHWARZ und nicht rot: Er ist
+       kein Alarm. Rot wird es erst rechts.
+       Der Pfeil "waermer" steht da, weil "oben ist hoeher" eine Konvention
+       ist und keine Selbstverstaendlichkeit. Wer das Bild unter Druck liest,
+       soll nicht raten muessen, in welche Richtung die Achse zeigt.
+       Die drei Zeichen darunter stehen alle so in der Quelle. Beim Ausfluss
+       ist der GERUCH das Zeichen und nicht die Menge; deshalb sind die
+       Geruchswellen gross und der Tropfen klein.
+       Der rote Satz darunter ist die Folge, ohne die das Erkennen nichts
+       wert waere: Kommen die drei zusammen, wird nicht abgewartet.
+       Die Zeitleiste unten ist das Warnzeichen, das schon vor der Geburt
+       entsteht und das man spaeter niemandem mehr ansieht. Die Quelle nennt
+       zwoelf Stunden; andere Werke nennen 18 oder 24 fuer ANDERE Fragen.
+       Deshalb steht der Merksatz dabei, nicht nur die Zahl. -->
+  <rect width="900" height="1156" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Kindbettfieber: messen, bevor jemand krank wirkt</text>
+
+  <!-- ============ A: der Messrhythmus ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Vier- bis fünfmal am Tag messen — und aufschreiben</text>
+
+  <!-- gemeinsame Achsenrichtung, einmal benannt -->
+  <text x="40" y="216" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle" transform="rotate(-90 40 216)">wärmer</text>
+  <g stroke="#111" stroke-width="3" fill="none">
+    <path d="M 64 272 L 64 156"/>
+    <path d="M 64 152 l -8 16 M 64 152 l 8 16"/>
+  </g>
+
+  <!-- linke Kurve: ein einzelner Wert -->
+  <text x="84" y="192" font-family="Georgia, serif" font-size="19" fill="#a3231a">37,8 °C</text>
+  <line x1="160" y1="200" x2="410" y2="200" stroke="#a3231a" stroke-width="3" stroke-dasharray="10 7"/>
+  <line x1="160" y1="280" x2="410" y2="280" stroke="#111" stroke-width="3"/>
+  <g fill="#111">
+    <circle cx="176" cy="244" r="6"/><circle cx="188" cy="158" r="6"/><circle cx="200" cy="244" r="6"/><circle cx="212" cy="244" r="6"/>
+    <circle cx="234" cy="244" r="6"/><circle cx="246" cy="244" r="6"/><circle cx="258" cy="244" r="6"/><circle cx="270" cy="244" r="6"/>
+    <circle cx="292" cy="244" r="6"/><circle cx="304" cy="244" r="6"/><circle cx="316" cy="244" r="6"/><circle cx="328" cy="244" r="6"/>
+    <circle cx="350" cy="244" r="6"/><circle cx="362" cy="244" r="6"/><circle cx="374" cy="244" r="6"/><circle cx="386" cy="244" r="6"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="194" y="306">Tag 1</text><text x="252" y="306">Tag 2</text><text x="310" y="306">Tag 3</text><text x="368" y="306">Tag 4</text>
+  </g>
+  <text x="60" y="348" font-family="Georgia, serif" font-size="21" fill="#111">Ein einzelner erhöhter Wert am</text>
+  <text x="60" y="374" font-family="Georgia, serif" font-size="21" fill="#111">Tag nach der Geburt ist noch</text>
+  <text x="60" y="400" font-family="Georgia, serif" font-size="21" fill="#111">KEIN Beweis.</text>
+
+  <!-- rechte Kurve: mehrere Tage hintereinander -->
+  <text x="504" y="192" font-family="Georgia, serif" font-size="19" fill="#a3231a">37,8 °C</text>
+  <line x1="580" y1="200" x2="830" y2="200" stroke="#a3231a" stroke-width="3" stroke-dasharray="10 7"/>
+  <line x1="580" y1="280" x2="830" y2="280" stroke="#111" stroke-width="3"/>
+  <g fill="#111">
+    <circle cx="596" cy="244" r="6"/><circle cx="608" cy="244" r="6"/><circle cx="620" cy="244" r="6"/><circle cx="632" cy="244" r="6"/>
+  </g>
+  <g fill="#a3231a">
+    <circle cx="654" cy="158" r="6"/><circle cx="666" cy="158" r="6"/><circle cx="678" cy="158" r="6"/><circle cx="690" cy="158" r="6"/>
+    <circle cx="712" cy="158" r="6"/><circle cx="724" cy="158" r="6"/><circle cx="736" cy="158" r="6"/><circle cx="748" cy="158" r="6"/>
+    <circle cx="770" cy="158" r="6"/><circle cx="782" cy="158" r="6"/><circle cx="794" cy="158" r="6"/><circle cx="806" cy="158" r="6"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">
+    <text x="614" y="306">Tag 1</text><text x="672" y="306">Tag 2</text><text x="730" y="306">Tag 3</text><text x="788" y="306">Tag 4</text>
+  </g>
+  <text x="480" y="348" font-family="Georgia, serif" font-size="21" fill="#a3231a">Derselbe Wert an mehreren</text>
+  <text x="480" y="374" font-family="Georgia, serif" font-size="21" fill="#a3231a">aufeinanderfolgenden Tagen</text>
+  <text x="480" y="400" font-family="Georgia, serif" font-size="21" fill="#a3231a">ist einer.</text>
+
+  <text x="40" y="444" font-family="Georgia, serif" font-size="23" fill="#a3231a">Deshalb wird von Anfang an gemessen — nicht erst, wenn jemand krank wirkt.</text>
+
+  <line x1="40" y1="474" x2="860" y2="474" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die drei Zeichen ============ -->
+  <text x="40" y="516" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die drei Zeichen — alle ohne Gerät zu erkennen</text>
+
+  <!-- 1: Fieber -->
+  <rect x="104" y="546" width="20" height="80" rx="10" fill="#faf9f6" stroke="#111" stroke-width="4"/>
+  <rect x="109" y="592" width="10" height="40" fill="#a3231a"/>
+  <circle cx="114" cy="638" r="17" fill="#a3231a" stroke="#111" stroke-width="4"/>
+  <g stroke="#111" stroke-width="3">
+    <line x1="128" y1="566" x2="140" y2="566"/>
+    <line x1="128" y1="586" x2="140" y2="586"/>
+    <line x1="128" y1="606" x2="140" y2="606"/>
+  </g>
+  <text x="60" y="692" font-family="Georgia, serif" font-size="23" fill="#a3231a">FIEBER</text>
+  <text x="60" y="724" font-family="Georgia, serif" font-size="21" fill="#111">über 37,8 Grad — und</text>
+  <text x="60" y="750" font-family="Georgia, serif" font-size="21" fill="#111">erst an mehreren Tagen</text>
+  <text x="60" y="776" font-family="Georgia, serif" font-size="21" fill="#111">hintereinander.</text>
+
+  <!-- 2: der Geruch, nicht die Menge -->
+  <g stroke="#a3231a" stroke-width="5" fill="none">
+    <path d="M 370 556 q 17 -14 34 0 q 17 14 34 0"/>
+    <path d="M 370 584 q 17 -14 34 0 q 17 14 34 0"/>
+    <path d="M 370 612 q 17 -14 34 0 q 17 14 34 0"/>
+  </g>
+  <path d="M 404 652 q -17 -18 0 -34 q 17 16 0 34 Z" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <text x="340" y="692" font-family="Georgia, serif" font-size="23" fill="#a3231a">ÜBELRIECHENDER</text>
+  <text x="340" y="724" font-family="Georgia, serif" font-size="21" fill="#111">Ausfluss. Wochenfluss</text>
+  <text x="340" y="750" font-family="Georgia, serif" font-size="21" fill="#111">ist normal und riecht</text>
+  <text x="340" y="776" font-family="Georgia, serif" font-size="21" fill="#111">nicht faulig. Der</text>
+  <text x="340" y="802" font-family="Georgia, serif" font-size="21" fill="#111">GERUCH ist das Zeichen,</text>
+  <text x="340" y="828" font-family="Georgia, serif" font-size="21" fill="#111">nicht die Menge.</text>
+
+  <!-- 3: druckempfindliche Gebaermutter -->
+  <line x1="644" y1="644" x2="756" y2="644" stroke="#111" stroke-width="4"/>
+  <path d="M 650 644 C 650 564 750 564 750 644 Z" fill="#f2ece2" stroke="#a3231a" stroke-width="4"/>
+  <g stroke="#a3231a" stroke-width="6" fill="none">
+    <path d="M 700 542 L 700 570"/>
+    <path d="M 700 582 l -11 -18 M 700 582 l 11 -18"/>
+  </g>
+  <text x="620" y="692" font-family="Georgia, serif" font-size="23" fill="#a3231a">DRUCK-</text>
+  <text x="620" y="720" font-family="Georgia, serif" font-size="23" fill="#a3231a">EMPFINDLICH</text>
+  <text x="620" y="752" font-family="Georgia, serif" font-size="21" fill="#111">Die Gebärmutter tut</text>
+  <text x="620" y="778" font-family="Georgia, serif" font-size="21" fill="#111">weh, wenn man von</text>
+  <text x="620" y="804" font-family="Georgia, serif" font-size="21" fill="#111">außen auf den</text>
+  <text x="620" y="830" font-family="Georgia, serif" font-size="21" fill="#111">Unterbauch drückt.</text>
+
+  <text x="40" y="874" font-family="Georgia, serif" font-size="23" fill="#a3231a">Kommen die drei zusammen, ist es eine Infektion und keine normale</text>
+  <text x="40" y="902" font-family="Georgia, serif" font-size="23" fill="#a3231a">Erschöpfung — das ist einer der Fälle, in denen nicht abgewartet wird.</text>
+
+  <line x1="40" y1="932" x2="860" y2="932" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: das Warnzeichen von vorher ============ -->
+  <text x="40" y="968" font-family="Georgia, serif" font-size="23" fill="#a3231a">Ein Warnzeichen, das schon VOR der Geburt entsteht</text>
+
+  <text x="270" y="1006" font-family="Georgia, serif" font-size="21" fill="#a3231a" text-anchor="middle">mehr als 12 Stunden</text>
+  <line x1="70" y1="1028" x2="470" y2="1028" stroke="#111" stroke-width="4"/>
+  <line x1="70" y1="1016" x2="70" y2="1040" stroke="#111" stroke-width="4"/>
+  <line x1="470" y1="1016" x2="470" y2="1040" stroke="#111" stroke-width="4"/>
+  <g stroke="#a3231a" stroke-width="5" fill="none">
+    <path d="M 494 1028 L 530 1028"/>
+    <path d="M 538 1028 l -18 -10 M 538 1028 l -18 10"/>
+  </g>
+  <text x="60" y="1066" font-family="Georgia, serif" font-size="21" fill="#111">Fruchtblase platzt</text>
+  <text x="480" y="1066" font-family="Georgia, serif" font-size="21" fill="#111" text-anchor="end">Geburt</text>
+  <text x="552" y="1020" font-family="Georgia, serif" font-size="21" fill="#a3231a">von einer Infektion</text>
+  <text x="552" y="1046" font-family="Georgia, serif" font-size="21" fill="#a3231a">ausgehen</text>
+
+  <text x="40" y="1106" font-family="Georgia, serif" font-size="21" fill="#111">Andere Werke nennen 18 oder 24 Stunden — für andere Fragen. Wer sich merkt:</text>
+  <text x="40" y="1132" font-family="Georgia, serif" font-size="21" fill="#111">ab etwa einem halben Tag wird es ernst, liegt bei allen drei Zahlen richtig.</text>
+</svg>

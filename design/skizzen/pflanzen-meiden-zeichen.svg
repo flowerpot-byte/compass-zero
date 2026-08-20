@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+  <!-- Zum Tipp "nahrung-pflanzen-meiden" (Acht Zeichen, bei denen du gar nicht erst
+       probierst). Aussage: Acht sichtbare, riechbare oder schmeckbare Merkmale reichen,
+       um eine wilde Pflanze VOR dem Test zu meiden - schon eines davon genuegt.
+       Begruendung: Der Tipp selbst hebt Punkt 5 hervor ("PUNKT 5 IST DER, DER IN EUROPA
+       TOETET"): Moehren- oder Petersilien-Laub kann Gefleckter Schierling oder
+       Wasserschierling sein. Deshalb traegt nur dieser Punkt die Signalfarbe, als
+       Warndreieck mit Ausrufezeichen. Alle acht Merkmale sind als Form gezeichnet,
+       nicht nur benannt, und das Verbotszeichen unten zeigt die Handlung: nicht
+       anfassen, nicht essen. -->
+  <rect width="900" height="700" fill="#faf9f6"/>
+
+  <text x="40" y="46" font-family="Georgia, serif" font-size="25" fill="#111">Acht Zeichen, bei denen du gar nicht erst probierst</text>
+  <text x="40" y="74" font-family="Georgia, serif" font-size="18" fill="#111">Ein einziges Merkmal reicht, um eine Pflanze zu meiden.</text>
+  <line x1="40" y1="84" x2="860" y2="84" stroke="#5b7f96" stroke-width="1.5"/>
+
+  <!-- ============ Zelle 1: Milchiger oder verfaerbter Saft ============ -->
+  <g transform="translate(40,90)">
+    <rect width="193" height="210" rx="6" fill="#e6e2d6" stroke="#111" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="15" fill="#7a5a3e"/>
+    <text x="24" y="29" font-family="Georgia, serif" font-size="16" fill="#faf9f6" text-anchor="middle">1</text>
+    <g transform="translate(96.5,97)">
+      <path d="M -7,-45 L 7,-45 L 7,-22 L 3,-17 L 8,-12 L 2,-7 L 9,-2 L 3,2 L -3,-4 L -8,2 L -2,-6 L -9,-11 L -3,-17 L -7,-22 Z" fill="#d9c98a" stroke="#111" stroke-width="1.4"/>
+      <path d="M -14,6 C -6,10 -6,26 -14,34 C -22,26 -22,10 -14,6 Z" fill="#faf9f6" stroke="#111" stroke-width="1.2"/>
+      <path d="M 12,22 C 17,25 17,36 12,42 C 7,36 7,25 12,22 Z" fill="#faf9f6" stroke="#111" stroke-width="1.2"/>
+    </g>
+    <text x="96.5" y="176" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Milchiger oder</text>
+    <text x="96.5" y="197" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">verfärbter Saft</text>
+  </g>
+
+  <!-- ============ Zelle 2: Bohnen, Zwiebeln oder Samen in Huelsen ============ -->
+  <g transform="translate(249,90)">
+    <rect width="193" height="210" rx="6" fill="#e6e2d6" stroke="#111" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="15" fill="#7a5a3e"/>
+    <text x="24" y="29" font-family="Georgia, serif" font-size="16" fill="#faf9f6" text-anchor="middle">2</text>
+    <g transform="translate(96.5,97)">
+      <path d="M -55,-5 C -40,-30 40,-30 55,-5 C 40,-13 -40,-13 -55,-5 Z" fill="#d9c98a" stroke="#111" stroke-width="1.4"/>
+      <path d="M -55,5 C -40,30 40,30 55,5 C 40,13 -40,13 -55,5 Z" fill="#d9c98a" stroke="#111" stroke-width="1.4"/>
+      <ellipse cx="-24" cy="0" rx="11" ry="8" fill="#7a5a3e" stroke="#111" stroke-width="1"/>
+      <ellipse cx="0" cy="0" rx="11" ry="8" fill="#7a5a3e" stroke="#111" stroke-width="1"/>
+      <ellipse cx="24" cy="0" rx="11" ry="8" fill="#7a5a3e" stroke="#111" stroke-width="1"/>
+    </g>
+    <text x="96.5" y="176" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Bohnen, Zwiebeln</text>
+    <text x="96.5" y="197" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">oder Samen in Hülsen</text>
+  </g>
+
+  <!-- ============ Zelle 3: Bitterer oder seifiger Geschmack ============ -->
+  <g transform="translate(458,90)">
+    <rect width="193" height="210" rx="6" fill="#e6e2d6" stroke="#111" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="15" fill="#7a5a3e"/>
+    <text x="24" y="29" font-family="Georgia, serif" font-size="16" fill="#faf9f6" text-anchor="middle">3</text>
+    <g transform="translate(96.5,97)">
+      <path d="M -62,5 C -55,-20 -25,-30 3,-5 C -20,15 -50,20 -62,5 Z" fill="#d9c98a" stroke="#111" stroke-width="1.4"/>
+      <circle cx="38" cy="-8" r="17" fill="#faf9f6" stroke="#111" stroke-width="1.3"/>
+      <circle cx="31" cy="-12" r="2" fill="#111"/>
+      <circle cx="45" cy="-12" r="2" fill="#111"/>
+      <path d="M 29,2 Q 33,-2 38,2 Q 43,-2 47,2" fill="none" stroke="#111" stroke-width="1.5"/>
+      <circle cx="54" cy="10" r="4" fill="#faf9f6" stroke="#5b7f96" stroke-width="1.2"/>
+      <circle cx="62" cy="4" r="5" fill="#faf9f6" stroke="#5b7f96" stroke-width="1.2"/>
+      <circle cx="68" cy="13" r="3.5" fill="#faf9f6" stroke="#5b7f96" stroke-width="1.2"/>
+    </g>
+    <text x="96.5" y="176" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Bitterer oder</text>
+    <text x="96.5" y="197" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">seifiger Geschmack</text>
+  </g>
+
+  <!-- ============ Zelle 4: Stacheln, feine Haerchen oder Dornen ============ -->
+  <g transform="translate(667,90)">
+    <rect width="193" height="210" rx="6" fill="#e6e2d6" stroke="#111" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="15" fill="#7a5a3e"/>
+    <text x="24" y="29" font-family="Georgia, serif" font-size="16" fill="#faf9f6" text-anchor="middle">4</text>
+    <g transform="translate(96.5,97)">
+      <path d="M 8,-50 L 20,-38 L 8,-30 L 22,-16 L 8,-8 L 20,4 L 8,14 L 24,26 L 8,36 L 18,46 L 8,50 L -8,50 L -18,46 L -8,36 L -24,26 L -8,14 L -20,4 L -8,-8 L -22,-16 L -8,-30 L -20,-38 L -8,-50 Z" fill="#7a5a3e" stroke="#111" stroke-width="1.4"/>
+    </g>
+    <text x="96.5" y="176" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Stacheln, Härchen</text>
+    <text x="96.5" y="197" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">oder Dornen</text>
+  </g>
+
+  <!-- ============ Zelle 5: Laub wie Dill, Moehre, Pastinake, Petersilie, Signalstelle ============ -->
+  <g transform="translate(40,320)">
+    <rect width="193" height="210" rx="6" fill="#e6e2d6" stroke="#111" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="15" fill="#7a5a3e"/>
+    <text x="24" y="29" font-family="Georgia, serif" font-size="16" fill="#faf9f6" text-anchor="middle">5</text>
+    <path d="M 165,8 L 183,40 L 147,40 Z" fill="#d65a1a" stroke="#111" stroke-width="1.2"/>
+    <text x="165" y="36" font-family="Georgia, serif" font-size="16" fill="#faf9f6" text-anchor="middle">!</text>
+    <g transform="translate(96.5,97)">
+      <line x1="0" y1="42" x2="0" y2="-5" stroke="#111" stroke-width="2"/>
+      <g transform="translate(0,42) rotate(-90)">
+        <path d="M 0,-3 L 30,-1.5 L 36,0 L 30,1.5 L 0,3 Z" fill="#d9c98a" stroke="#111" stroke-width="1.2"/>
+        <path d="M 0,-3 L 30,-1.5 L 36,0 L 30,1.5 L 0,3 Z" fill="#d9c98a" stroke="#111" stroke-width="1.2" transform="rotate(-18)"/>
+        <path d="M 0,-3 L 30,-1.5 L 36,0 L 30,1.5 L 0,3 Z" fill="#d9c98a" stroke="#111" stroke-width="1.2" transform="rotate(-37)"/>
+        <path d="M 0,-3 L 30,-1.5 L 36,0 L 30,1.5 L 0,3 Z" fill="#d9c98a" stroke="#111" stroke-width="1.2" transform="rotate(-56)"/>
+        <path d="M 0,-3 L 30,-1.5 L 36,0 L 30,1.5 L 0,3 Z" fill="#d9c98a" stroke="#111" stroke-width="1.2" transform="rotate(-75)"/>
+        <path d="M 0,-3 L 30,-1.5 L 36,0 L 30,1.5 L 0,3 Z" fill="#d9c98a" stroke="#111" stroke-width="1.2" transform="rotate(18)"/>
+        <path d="M 0,-3 L 30,-1.5 L 36,0 L 30,1.5 L 0,3 Z" fill="#d9c98a" stroke="#111" stroke-width="1.2" transform="rotate(37)"/>
+        <path d="M 0,-3 L 30,-1.5 L 36,0 L 30,1.5 L 0,3 Z" fill="#d9c98a" stroke="#111" stroke-width="1.2" transform="rotate(56)"/>
+        <path d="M 0,-3 L 30,-1.5 L 36,0 L 30,1.5 L 0,3 Z" fill="#d9c98a" stroke="#111" stroke-width="1.2" transform="rotate(75)"/>
+      </g>
+    </g>
+    <text x="96.5" y="176" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Feines Laub wie</text>
+    <text x="96.5" y="197" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Möhre, Petersilie</text>
+  </g>
+
+  <!-- ============ Zelle 6: Mandelgeruch in Holz und Blaettern ============ -->
+  <g transform="translate(249,320)">
+    <rect width="193" height="210" rx="6" fill="#e6e2d6" stroke="#111" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="15" fill="#7a5a3e"/>
+    <text x="24" y="29" font-family="Georgia, serif" font-size="16" fill="#faf9f6" text-anchor="middle">6</text>
+    <g transform="translate(96.5,97)">
+      <path d="M 0,-50 C 10,-44 10,-26 0,-20 C -10,-26 -10,-44 0,-50 Z" fill="#7a5a3e" stroke="#111" stroke-width="1.3"/>
+      <path d="M -25,14 Q -20,0 -25,-14 Q -30,-28 -20,-38" fill="none" stroke="#5b7f96" stroke-width="2"/>
+      <path d="M 20,12 Q 15,-2 22,-16 Q 28,-30 15,-40" fill="none" stroke="#5b7f96" stroke-width="2"/>
+      <path d="M -45,24 Q -45,16 -37,16 L -13,16 Q -5,16 -5,24 Q -5,32 -13,32 L -37,32 Q -45,32 -45,24 Z" fill="#d9c98a" stroke="#111" stroke-width="1.3"/>
+      <path d="M 5,35 C 10,20 30,15 45,30 C 30,42 12,45 5,35 Z" fill="#d9c98a" stroke="#111" stroke-width="1.2"/>
+    </g>
+    <text x="96.5" y="176" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Mandelgeruch in</text>
+    <text x="96.5" y="197" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Holz und Blättern</text>
+  </g>
+
+  <!-- ============ Zelle 7: Aehrenkoepfe mit rosa, violetten oder schwarzen Auswuechsen ============ -->
+  <g transform="translate(458,320)">
+    <rect width="193" height="210" rx="6" fill="#e6e2d6" stroke="#111" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="15" fill="#7a5a3e"/>
+    <text x="24" y="29" font-family="Georgia, serif" font-size="16" fill="#faf9f6" text-anchor="middle">7</text>
+    <g transform="translate(96.5,97)">
+      <line x1="0" y1="-45" x2="0" y2="45" stroke="#111" stroke-width="2"/>
+      <ellipse cx="-13" cy="-35" rx="7" ry="5" fill="#d9c98a" stroke="#111" stroke-width="1"/>
+      <ellipse cx="13" cy="-8" rx="7" ry="5" fill="#d9c98a" stroke="#111" stroke-width="1"/>
+      <ellipse cx="-13" cy="18" rx="7" ry="5" fill="#d9c98a" stroke="#111" stroke-width="1"/>
+      <ellipse cx="13" cy="42" rx="7" ry="5" fill="#d9c98a" stroke="#111" stroke-width="1"/>
+      <path d="M 10,-28 C 22,-30 26,-18 18,-12 C 10,-8 4,-16 6,-24 C 7,-27 8,-28 10,-28 Z" fill="#111"/>
+      <path d="M -10,17 C -22,15 -25,28 -16,33 C -8,37 -2,29 -4,21 C -5,18 -7,17 -10,17 Z" fill="#111"/>
+    </g>
+    <text x="96.5" y="176" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Ährenköpfe mit</text>
+    <text x="96.5" y="197" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">schwarzen Auswüchsen</text>
+  </g>
+
+  <!-- ============ Zelle 8: Wuchsmuster aus DREI Blaettern ============ -->
+  <g transform="translate(667,320)">
+    <rect width="193" height="210" rx="6" fill="#e6e2d6" stroke="#111" stroke-width="1.5"/>
+    <circle cx="24" cy="24" r="15" fill="#7a5a3e"/>
+    <text x="24" y="29" font-family="Georgia, serif" font-size="16" fill="#faf9f6" text-anchor="middle">8</text>
+    <g transform="translate(96.5,97)">
+      <line x1="0" y1="40" x2="0" y2="52" stroke="#111" stroke-width="2"/>
+      <g transform="translate(0,40)">
+        <path d="M 0,0 C -10,-14 -7,-32 0,-38 C 7,-32 10,-14 0,0 Z" fill="#d9c98a" stroke="#111" stroke-width="1.3"/>
+        <path d="M 0,0 C -10,-14 -7,-32 0,-38 C 7,-32 10,-14 0,0 Z" fill="#d9c98a" stroke="#111" stroke-width="1.3" transform="rotate(130)"/>
+        <path d="M 0,0 C -10,-14 -7,-32 0,-38 C 7,-32 10,-14 0,0 Z" fill="#d9c98a" stroke="#111" stroke-width="1.3" transform="rotate(-130)"/>
+      </g>
+    </g>
+    <text x="96.5" y="176" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">Wuchsmuster aus</text>
+    <text x="96.5" y="197" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">DREI Blättern</text>
+  </g>
+
+  <!-- ============ Verbindung zu Punkt 5 und Erklaerung ============ -->
+  <line x1="136.5" y1="530" x2="136.5" y2="545" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <rect x="40" y="545" width="420" height="80" rx="6" fill="none" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="56" y="568" font-family="Georgia, serif" font-size="18" fill="#111">Warum Punkt 5?</text>
+  <text x="56" y="591" font-family="Georgia, serif" font-size="16" fill="#111">Möhren-/Petersilien-Laub kann Schierling sein</text>
+  <text x="56" y="611" font-family="Georgia, serif" font-size="16" fill="#111">Gefleckter/Wasserschierling: tödlich</text>
+
+  <!-- ============ Handeln: Verbotszeichen ueber der Pflanze ============ -->
+  <rect x="480" y="545" width="380" height="80" rx="6" fill="none" stroke="#5b7f96" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <g transform="translate(520,585)">
+    <path d="M -18,10 C -14,-8 4,-14 20,-2 C 8,10 -6,16 -18,10 Z" fill="#d9c98a" stroke="#111" stroke-width="1.3"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#111" stroke-width="4"/>
+    <line x1="-19.8" y1="-19.8" x2="19.8" y2="19.8" stroke="#111" stroke-width="4"/>
+  </g>
+  <text x="565" y="568" font-family="Georgia, serif" font-size="16" fill="#111">MEIDEN: nicht anfassen,</text>
+  <text x="565" y="590" font-family="Georgia, serif" font-size="16" fill="#111">nicht essen.</text>
+  <text x="565" y="612" font-family="Georgia, serif" font-size="16" fill="#111">Ein einziges Zeichen reicht schon.</text>
+  <text x="40" y="656" font-family="Georgia, serif" font-size="17" fill="#111">Punkt 7 gilt auch für rosafarbene und violette Auswüchse, nicht nur für schwarze.</text>
+  <text x="40" y="680" font-family="Georgia, serif" font-size="17" fill="#111">Tiere sind kein Wegweiser: viele fressen Pflanzen, die für Menschen giftig sind.</text>
+</svg>

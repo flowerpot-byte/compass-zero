@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <!-- Zum Tipp "Atomschlag und Strahlung: weggehen, ausziehen, waschen".
+       Der Tipp hat einen Satz, der die ganze Reihenfolge entscheidet, und der
+       laeuft dem Bauchgefuehl zuwider: Strahlung macht keine
+       lebensbedrohlichen Sofort-Beschwerden. Wer das nicht weiss, kuemmert
+       sich um die Strahlung, waehrend jemand neben ihm nicht atmet. Deshalb
+       steht die Rangfolge oben als Kette und nicht als Nebensatz.
+       Danach die drei Schritte, die jeder kann. Sie sind der ganze Kern des
+       Tipps und stehen als drei Tafeln nebeneinander, damit keine davon
+       untergeht.
+       Die 100 Meter sind die einzige Zahl im Tipp und deshalb im Bild.
+       Der Schlusssatz ist die Einordnung, die man braucht, um nicht in
+       Panik zu geraten: Das Problem ist der Staub, nicht die Naehe an sich.
+       Der Vorbehalt darunter steht mit im Bild, weil die Leitlinie
+       durchgehend davon ausgeht, dass Fachleute kommen. Fuer die Lage, um
+       die es dieser App geht, sind die drei Schritte dann nicht weniger
+       wert, sondern alles, was es gibt. -->
+  <rect width="900" height="1200" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Strahlung: weggehen, ausziehen, waschen</text>
+
+  <!-- ============ A: die Rangfolge ============ -->
+  <text x="40" y="96" font-family="Georgia, serif" font-size="23" fill="#a3231a">Der Satz, der die Reihenfolge entscheidet</text>
+  <text x="40" y="134" font-family="Georgia, serif" font-size="23" fill="#111">Strahlung macht keine lebensbedrohlichen Sofort-Beschwerden, keinen</text>
+  <text x="40" y="162" font-family="Georgia, serif" font-size="23" fill="#111">sofortigen Tod und keine sofortigen Verbrennungen.</text>
+
+  <rect x="40" y="196" width="250" height="84" rx="10" fill="none" stroke="#1d6b3a" stroke-width="3"/>
+  <text x="60" y="230" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">1. Bewusstsein, Atmung,</text>
+  <text x="60" y="256" font-family="Georgia, serif" font-size="21" fill="#1d6b3a">Kreislauf</text>
+
+  <g stroke="#111" stroke-width="3" fill="none">
+    <path d="M 298 238 L 316 238"/>
+    <path d="M 322 238 l -12 -7 M 322 238 l -12 7"/>
+  </g>
+
+  <rect x="330" y="196" width="250" height="84" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="350" y="230" font-family="Georgia, serif" font-size="21" fill="#111">2. alles Übrige, etwa</text>
+  <text x="350" y="256" font-family="Georgia, serif" font-size="21" fill="#111">Verbrennungen</text>
+
+  <g stroke="#111" stroke-width="3" fill="none">
+    <path d="M 588 238 L 606 238"/>
+    <path d="M 612 238 l -12 -7 M 612 238 l -12 7"/>
+  </g>
+
+  <rect x="620" y="196" width="240" height="84" rx="10" fill="none" stroke="#111" stroke-width="3"/>
+  <text x="640" y="230" font-family="Georgia, serif" font-size="21" fill="#111">3. die Strahlung</text>
+
+  <text x="40" y="316" font-family="Georgia, serif" font-size="21" fill="#111">Eine Strahlenbelastung allein ist nach der Leitlinie kein medizinischer Notfall.</text>
+
+  <line x1="40" y1="352" x2="860" y2="352" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ B: die drei Schritte ============ -->
+  <text x="40" y="392" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Drei Dinge kann jeder tun — und sie sind der ganze Kern</text>
+
+  <!-- 1: weggehen -->
+  <rect x="50" y="500" width="36" height="36" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="4" fill="none">
+    <path d="M 54 492 q 14 -12 28 0"/>
+    <path d="M 54 472 q 14 -12 28 0"/>
+    <path d="M 54 452 q 14 -12 28 0"/>
+  </g>
+  <circle cx="250" cy="470" r="13" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M 250 486 L 250 516"/>
+    <path d="M 250 516 L 238 542"/>
+    <path d="M 250 516 L 266 542"/>
+    <path d="M 250 496 L 236 510"/>
+    <path d="M 250 496 L 264 508"/>
+  </g>
+  <g stroke="#111" stroke-width="2" fill="none">
+    <path d="M 92 558 L 232 558"/>
+    <path d="M 92 550 L 92 566 M 232 550 L 232 566"/>
+  </g>
+  <text x="162" y="582" font-family="Georgia, serif" font-size="19" fill="#a3231a" text-anchor="middle">über 100 m</text>
+
+  <!-- 2: ausziehen -->
+  <path d="M 410 442 L 434 430 L 466 430 L 490 442 L 478 466 L 470 462 L 470 510 L 430 510 L 430 462 L 422 466 Z"
+        fill="#e8eef2" stroke="#111" stroke-width="3"/>
+  <g stroke="#111" stroke-width="4" fill="none">
+    <path d="M 450 518 L 450 532"/>
+    <path d="M 450 540 l -8 -12 M 450 540 l 8 -12"/>
+  </g>
+  <rect x="414" y="546" width="72" height="28" rx="6" fill="#c9c4b4" stroke="#111" stroke-width="3"/>
+
+  <!-- 3: waschen -->
+  <g fill="#a9c4d4" stroke="#111" stroke-width="2">
+    <path d="M 714 452 q -7 -9 0 -16 q 7 7 0 16 Z"/>
+    <path d="M 740 440 q -7 -9 0 -16 q 7 7 0 16 Z"/>
+    <path d="M 726 480 q -7 -9 0 -16 q 7 7 0 16 Z"/>
+  </g>
+  <rect x="676" y="500" width="48" height="28" rx="14" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <rect x="728" y="500" width="48" height="28" rx="14" fill="#f2ece2" stroke="#111" stroke-width="3"/>
+  <path d="M 670 548 q 60 18 120 0" fill="none" stroke="#a9c4d4" stroke-width="5"/>
+
+  <text x="40" y="614" font-family="Georgia, serif" font-size="23" fill="#a3231a">WEGGEHEN</text>
+  <text x="40" y="646" font-family="Georgia, serif" font-size="21" fill="#111">So schnell wie möglich</text>
+  <text x="40" y="672" font-family="Georgia, serif" font-size="21" fill="#111">aus dem Bereich heraus,</text>
+  <text x="40" y="698" font-family="Georgia, serif" font-size="21" fill="#111">Verdächtiges nicht</text>
+  <text x="40" y="724" font-family="Georgia, serif" font-size="21" fill="#111">anfassen. Bei Rauch aus</text>
+  <text x="40" y="750" font-family="Georgia, serif" font-size="21" fill="#111">Brand oder Explosion:</text>
+  <text x="40" y="776" font-family="Georgia, serif" font-size="21" fill="#111">mehr als 100 m Abstand.</text>
+
+  <text x="320" y="614" font-family="Georgia, serif" font-size="23" fill="#a3231a">AUSZIEHEN</text>
+  <text x="320" y="646" font-family="Georgia, serif" font-size="21" fill="#111">Die Kleidung von jedem</text>
+  <text x="320" y="672" font-family="Georgia, serif" font-size="21" fill="#111">ablegen, der belastet</text>
+  <text x="320" y="698" font-family="Georgia, serif" font-size="21" fill="#111">sein könnte. Ein großer</text>
+  <text x="320" y="724" font-family="Georgia, serif" font-size="21" fill="#111">Teil dessen, was an einem</text>
+  <text x="320" y="750" font-family="Georgia, serif" font-size="21" fill="#111">Menschen haftet, haftet</text>
+  <text x="320" y="776" font-family="Georgia, serif" font-size="21" fill="#111">an seiner Kleidung.</text>
+
+  <text x="600" y="614" font-family="Georgia, serif" font-size="23" fill="#a3231a">WASCHEN</text>
+  <text x="600" y="646" font-family="Georgia, serif" font-size="21" fill="#111">Hände und Gesicht</text>
+  <text x="600" y="672" font-family="Georgia, serif" font-size="21" fill="#111">gründlich waschen, BEVOR</text>
+  <text x="600" y="698" font-family="Georgia, serif" font-size="21" fill="#111">man sich ins Gesicht</text>
+  <text x="600" y="724" font-family="Georgia, serif" font-size="21" fill="#111">fasst, isst, trinkt oder</text>
+  <text x="600" y="750" font-family="Georgia, serif" font-size="21" fill="#111">raucht — damit man nichts</text>
+  <text x="600" y="776" font-family="Georgia, serif" font-size="21" fill="#111">verschluckt.</text>
+
+  <line x1="40" y1="812" x2="860" y2="812" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ C: woran man es erkennen kann ============ -->
+  <text x="40" y="852" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Woran man eine Belastung erkennen kann</text>
+  <text x="40" y="890" font-family="Georgia, serif" font-size="21" fill="#111">Verbrennungen, Blasen oder offene Stellen an der Haut. Übelkeit, Erbrechen,</text>
+  <text x="40" y="916" font-family="Georgia, serif" font-size="21" fill="#111">Durchfall. Schwäche, Kopfschmerz, Schwindel, Erschöpfung.</text>
+  <text x="40" y="952" font-family="Georgia, serif" font-size="21" fill="#a3231a">Nichts davon ist beweisend — alles davon kann auch etwas anderes sein.</text>
+
+  <line x1="40" y1="988" x2="860" y2="988" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ D: was das Problem wirklich ist ============ -->
+  <text x="40" y="1028" font-family="Georgia, serif" font-size="23" fill="#a3231a">Das Problem ist der Staub, nicht die Nähe an sich.</text>
+  <text x="40" y="1062" font-family="Georgia, serif" font-size="21" fill="#111">Wer nur einer VERSCHLOSSENEN Quelle ausgesetzt war, ohne dass Material</text>
+  <text x="40" y="1088" font-family="Georgia, serif" font-size="21" fill="#111">freigesetzt wurde, muss nicht gereinigt werden.</text>
+
+  <text x="40" y="1128" font-family="Georgia, serif" font-size="19" fill="#111">Die Leitlinie geht durchgehend davon aus, dass Fachleute kommen und die Reinigung</text>
+  <text x="40" y="1152" font-family="Georgia, serif" font-size="19" fill="#111">übernehmen. Kommt niemand, bleiben genau diese drei Schritte — und sie sind dann</text>
+  <text x="40" y="1176" font-family="Georgia, serif" font-size="19" fill="#111">nicht weniger wert, sondern alles, was es gibt.</text>
+</svg>

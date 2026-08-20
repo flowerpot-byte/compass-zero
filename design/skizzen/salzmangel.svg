@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1710" viewBox="0 0 900 1710">
+  <!-- Zum Tipp "Salzmangel: Muskeln verkrampfen nach dem Schwitzen".
+       Der erste Satz ist der ganze Tipp und steht deshalb oben und gross:
+       Zu wenig getrunken fuehrt zum Austrocknen, zu wenig Salz ODER ZU VIEL
+       GETRUNKEN zum Salzmangel. Die zweite Haelfte ueberrascht, und sie
+       trifft die Gewissenhaften — wer pausenlos nachtrinkt, tut etwas, das
+       sich wie Fleiss anfuehlt.
+       KEIN Balken fuer die acht Liter. Ein Balken braucht eine
+       Vergleichsgroesse, und die Quelle nennt keine normale Trinkmenge fuer
+       zwei Stunden. Ein Balken ohne Gegenstueck sieht aus wie eine Messung
+       und ist keine — die Zahl steht deshalb als Zahl da, zusammen mit dem
+       Zeitfenster, an dem sie haengt.
+       Der Kasten unten gilt ueber diesen Tipp hinaus: Verwirrtheit nach
+       Stunden in der Sonne wird wie ein Hitzschlag behandelt, egal welche
+       Ursache dahintersteckt. Er steht am Ende, weil er die Stelle ist, an
+       der man aufhoert zu ueberlegen und anfaengt zu handeln. -->
+  <rect width="900" height="1710" fill="#faf9f6"/>
+  <text x="40" y="46" font-family="Georgia, serif" font-size="28" fill="#111">Salzmangel: Muskeln verkrampfen nach dem Schwitzen</text>
+
+  <text x="40" y="100" font-family="Georgia, serif" font-size="26" fill="#111">Zu wenig getrunken führt zum Austrocknen —</text>
+  <text x="40" y="132" font-family="Georgia, serif" font-size="26" fill="#a3231a">zu wenig Salz ODER ZU VIEL GETRUNKEN zum Salzmangel.</text>
+  <text x="40" y="168" font-family="Georgia, serif" font-size="21" fill="#111">Beides macht krank, und das zweite wird regelmäßig übersehen, weil es sich</text>
+  <text x="40" y="194" font-family="Georgia, serif" font-size="21" fill="#111">wie Fleiß anfühlt.</text>
+
+  <line x1="40" y1="230" x2="860" y2="230" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="270" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">So zeigt sich der Salzmangel zuerst</text>
+  <text x="40" y="308" font-family="Georgia, serif" font-size="21" fill="#111">Schmerzhafte, harte Verkrampfungen großer Muskeln — Beine, Bauch,</text>
+  <text x="40" y="334" font-family="Georgia, serif" font-size="21" fill="#111">Schultern — nach schwerer Arbeit in Wärme und Schwüle. Oft sieht oder fühlt</text>
+  <text x="40" y="360" font-family="Georgia, serif" font-size="21" fill="#111">man vorher ein feines MUSKELZUCKEN. Anfassen und Kneten kann den</text>
+  <text x="40" y="386" font-family="Georgia, serif" font-size="21" fill="#111">nächsten Krampf auslösen.</text>
+  <text x="40" y="424" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Abgrenzung: Wer häufig NACHTS Wadenkrämpfe hat, hat eher ein</text>
+  <text x="40" y="450" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Gefäßproblem als einen Salzmangel — das ist ein anderes Thema.</text>
+
+  <line x1="40" y1="486" x2="860" y2="486" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="526" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Behandlung ist verblüffend einfach — und wirkt rasch</text>
+  <text x="40" y="564" font-family="Georgia, serif" font-size="26" fill="#111">Eine schwach gesalzene Trinklösung.</text>
+  <text x="40" y="606" font-family="Georgia, serif" font-size="21" fill="#111">· SALZTABLETTEN werden NICHT empfohlen.</text>
+  <text x="40" y="632" font-family="Georgia, serif" font-size="21" fill="#111">· Ein Sportgetränk wird HALB MIT WASSER VERDÜNNT getrunken, nicht pur.</text>
+  <text x="40" y="658" font-family="Georgia, serif" font-size="21" fill="#111">· Der Salzvorrat wird ÜBERS ESSEN aufgefüllt — kräftig salzen über mehrere</text>
+  <text x="40" y="684" font-family="Georgia, serif" font-size="21" fill="#111">  Tage —, nicht über Salzwasser.</text>
+
+  <line x1="40" y1="720" x2="860" y2="720" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="764" font-family="Georgia, serif" font-size="26" fill="#a3231a">Zwei bis drei Tage, bevor wieder schwer in der Wärme</text>
+  <text x="40" y="796" font-family="Georgia, serif" font-size="26" fill="#a3231a">gearbeitet wird.</text>
+  <text x="40" y="832" font-family="Georgia, serif" font-size="21" fill="#111">Wer am nächsten Morgen weitermacht, steht am Mittag wieder da.</text>
+
+  <line x1="40" y1="868" x2="860" y2="868" stroke="#c9c4b4" stroke-width="3"/>
+
+  <!-- ============ Wasservergiftung ============ -->
+  <text x="40" y="908" font-family="Georgia, serif" font-size="23" fill="#a3231a">Die gefährliche Steigerung: die Wasservergiftung</text>
+  <text x="40" y="946" font-family="Georgia, serif" font-size="21" fill="#111">Sie hängt an einer einzigen Frage:</text>
+
+  <rect x="40" y="972" width="820" height="152" rx="10" fill="none" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="1014" font-family="Georgia, serif" font-size="26" fill="#111">Wie viel wurde in den letzten ZWEI STUNDEN getrunken?</text>
+  <text x="62" y="1054" font-family="Georgia, serif" font-size="26" fill="#a3231a">Viele Liter — etwa acht Liter und mehr — verdünnen das</text>
+  <text x="62" y="1086" font-family="Georgia, serif" font-size="26" fill="#a3231a">Blut so weit, dass das Salz darin nicht mehr reicht.</text>
+
+  <text x="40" y="1164" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Das Tückische: Es trifft gerade die Gewissenhaften, die bei großer</text>
+  <text x="40" y="1190" font-family="Georgia, serif" font-size="21" fill="#d65a1a">Anstrengung pausenlos nachtrinken, ohne zu essen.</text>
+
+  <line x1="40" y1="1226" x2="860" y2="1226" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1266" font-family="Georgia, serif" font-size="23" fill="#1d6b3a">Die Zeichen ähneln erst der Erschöpfung</text>
+  <text x="40" y="1304" font-family="Georgia, serif" font-size="21" fill="#111">Übelkeit · Kopfschmerz · KRIBBELN DER LIPPEN · Schwindel beim Aufstehen</text>
+
+  <rect x="40" y="1336" width="820" height="146" rx="10" fill="#f7ecea" stroke="#a3231a" stroke-width="4"/>
+  <text x="62" y="1378" font-family="Georgia, serif" font-size="26" fill="#a3231a">Wer VERWIRRT ist, wird behandelt wie ein Hitzschlag,</text>
+  <text x="62" y="1410" font-family="Georgia, serif" font-size="26" fill="#a3231a">bis das Gegenteil feststeht.</text>
+  <text x="62" y="1446" font-family="Georgia, serif" font-size="21" fill="#111">Verwirrtheit nach Stunden in der Sonne ist nie harmlos — egal, welche</text>
+  <text x="62" y="1472" font-family="Georgia, serif" font-size="21" fill="#111">Ursache dahintersteckt.</text>
+
+  <line x1="40" y1="1518" x2="860" y2="1518" stroke="#c9c4b4" stroke-width="3"/>
+
+  <text x="40" y="1560" font-family="Georgia, serif" font-size="26" fill="#1d6b3a">Wer viel schwitzt, braucht beides: Flüssigkeit UND Salz.</text>
+  <text x="40" y="1596" font-family="Georgia, serif" font-size="21" fill="#111">Und das Salz gehört ins Essen. Wer bei langer schwerer Arbeit merkt, dass er</text>
+  <text x="40" y="1622" font-family="Georgia, serif" font-size="21" fill="#111">seit Stunden nur trinkt und nichts isst, macht die nächste Pause zur Esspause.</text>
+  <text x="40" y="1658" font-family="Georgia, serif" font-size="21" fill="#111">Bei einem Krampf: aufhören, Schatten, gesalzene Trinklösung in kleinen</text>
+  <text x="40" y="1684" font-family="Georgia, serif" font-size="21" fill="#111">Schlucken, dehnen ohne Gewalt — und die zwei bis drei Tage ernst nehmen.</text>
+  <text x="40" y="1706" font-family="Georgia, serif" font-size="19" fill="#111">(Einordnung dieses Pakets, nicht aus der Quelle.)</text>
+</svg>

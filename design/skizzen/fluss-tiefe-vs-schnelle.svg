@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <!-- Zur Anleitung "Einen Fluss durchqueren", Schritt 4.
+       Der Satz, der die uebliche Vorstellung umdreht: Tiefes Wasser fliesst
+       oft langsamer und ist damit sicherer als schnelles flaches Wasser. Die
+       Tiefe allein ist kein Hinderungsgrund, solange man Stand haelt.
+       Gezeigt wird ein Querschnitt durch den Fluss (Seitenriss auf das
+       Flussbett, keine Draufsicht, keine Menschen): flach am Ufer mit
+       kurzen, engen Pfeilen fuer schnelle, unruhige Stroemung; tief in der
+       Rinne mit einem einzigen langen, weiten Pfeil fuer langsame,
+       ruhige Stroemung. Die Signalfarbe markiert nur die eine Stelle, an der
+       der Irrtum gefaehrlich ist: die flache, schnelle Stelle, die harmloser
+       aussieht, als sie ist. -->
+  <rect width="900" height="600" fill="#faf9f6"/>
+  <text x="30" y="42" font-family="Georgia, serif" font-size="26" fill="#111">Furt-Tiefe: flach und schnell täuscht, tief und langsam trägt</text>
+  <text x="30" y="70" font-family="Georgia, serif" font-size="17" fill="#5b7f96">Querschnitt durch das Flussbett, von der Seite gesehen</text>
+
+  <!-- Land links und rechts, oberhalb der Wasserlinie -->
+  <path d="M20 90 L20 190 L95 176 L20 90 Z" fill="#111" opacity="0.10"/>
+  <path d="M880 90 L880 210 L800 190 L880 90 Z" fill="#111" opacity="0.10"/>
+
+  <!-- Wasserflaeche: begrenzt oben von der Wasserlinie, unten vom Flussbett -->
+  <path d="M95 176 L95 176
+           C 160 190, 230 200, 300 214
+           C 380 232, 430 300, 470 360
+           C 510 415, 580 448, 660 448
+           C 720 448, 770 430, 800 390
+           L 800 190
+           C 730 176, 620 172, 500 172
+           C 380 172, 220 172, 95 176 Z"
+        fill="#5b7f96" opacity="0.16"/>
+
+  <!-- Wasserlinie (Oberflaeche), durchgehend -->
+  <path d="M95 176 C 220 172, 380 172, 500 172 C 620 172, 730 176, 800 190"
+        fill="none" stroke="#5b7f96" stroke-width="3"/>
+
+  <!-- Flussbett (Grund), durchgehend, deutlich dunkler als das Wasser -->
+  <path d="M95 176
+           C 160 190, 230 200, 300 214
+           C 380 232, 430 300, 470 360
+           C 510 415, 580 448, 660 448
+           C 720 448, 770 430, 800 390"
+        fill="none" stroke="#111" stroke-width="4"/>
+
+  <!-- Ufer, senkrecht angedeutet -->
+  <line x1="95" y1="176" x2="60" y2="130" stroke="#111" stroke-width="4"/>
+  <line x1="800" y1="390" x2="845" y2="130" stroke="#111" stroke-width="4"/>
+
+  <!-- Tiefen-Hilfslinien: gestrichelt von der Oberflaeche zum Grund -->
+  <line x1="170" y1="176" x2="170" y2="196" stroke="#5b7f96" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="560" y1="177" x2="560" y2="435" stroke="#5b7f96" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- Flache Zone links: kurze, enge, unruhige Pfeile -->
+  <g stroke="#111" stroke-width="3" fill="none">
+    <path d="M120 186 l14 -7 l14 7" />
+    <path d="M120 186 l14 7 l14 -7" transform="translate(0,10)"/>
+    <path d="M195 200 l14 -7 l14 7" />
+    <path d="M195 200 l14 7 l14 -7" transform="translate(0,10)"/>
+    <path d="M270 214 l14 -7 l14 7" />
+    <path d="M270 214 l14 7 l14 -7" transform="translate(0,10)"/>
+  </g>
+
+  <!-- Tiefe Zone Mitte-rechts: ein einziger langer, ruhiger Pfeil -->
+  <g stroke="#111" stroke-width="3" fill="none">
+    <line x1="420" y1="410" x2="700" y2="410"/>
+    <path d="M676 398 L702 410 L676 422"/>
+  </g>
+
+  <!-- Beschriftung flach/schnell, mit Signalfarbe an der einen gefaehrlichen Stelle -->
+  <text x="90" y="130" font-family="Georgia, serif" font-size="19" fill="#111">flach</text>
+  <text x="90" y="152" font-family="Georgia, serif" font-size="19" fill="#d65a1a">schnell, unruhig</text>
+  <text x="90" y="252" font-family="Georgia, serif" font-size="16" fill="#d65a1a">wirkt harmlos, ist es aber nicht</text>
+
+  <!-- Beschriftung tief/langsam, normale Schrift -->
+  <text x="560" y="128" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">tief</text>
+  <text x="560" y="150" font-family="Georgia, serif" font-size="19" fill="#111" text-anchor="middle">langsam, ruhig</text>
+  <text x="560" y="480" font-family="Georgia, serif" font-size="16" fill="#111" text-anchor="middle">hier hält man leichter Stand</text>
+
+  <!-- Der Satz aus dem Schritt, als Kernaussage unten -->
+  <text x="30" y="540" font-family="Georgia, serif" font-size="19" fill="#111">Tiefes Wasser fließt oft langsamer und ist damit sicherer als schnelles,</text>
+  <text x="30" y="565" font-family="Georgia, serif" font-size="19" fill="#111">flaches Wasser. Die Tiefe allein ist kein Grund, nicht hinein zu gehen.</text>
+</svg>
