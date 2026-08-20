@@ -47,8 +47,8 @@ Namensnennung (im Volltext gelesen und gesichert). Die förmliche Data Use Polic
 war am 19.08.2026 nicht abrufbar. Einzelheiten samt dem, was ausdrücklich NICHT
 belegt ist, in `work/quellen/satellit/LIZENZ.md`.
 
-**Bis zur Freigabe durch Max gilt: bauen und benutzen ja, veröffentlichen
-nein.** Der Überblick trägt dann eine eigene Nennung neben dem
+**Solange diese Freigabe aussteht, gilt: bauen und benutzen ja,
+veröffentlichen nein.** Der Überblick trägt dann eine eigene Nennung neben dem
 Copernicus-Satz.
 
 ## Warum Zoom 14 die Grenze ist
@@ -63,7 +63,7 @@ Sentinel-2 liefert **10 Meter je Bildpunkt**. Nachgerechnet bei 48 Grad Nord:
 | 15 | 3,2 | reine Vergrößerung, kein neuer Bildpunkt |
 
 **Bis zum 18.08.2026 stand hier Zoom 13 als Grenze, und das war zu streng.**
-Max hat am Gerät gesehen, dass es unscharf aussieht — zu Recht: Auf Zoom 13
+Am Gerät war zu sehen, dass es unscharf aussieht — zu Recht: Auf Zoom 13
 liegt ein Bildpunkt der Karte bei 12,8 Metern, die Aufnahme kann aber 10. Erst
 Zoom 14 holt alles heraus. Ab 15 wird nur noch vergrößert: vierfache Datei,
 kein einziger neuer Bildpunkt — das Werkzeug lehnt es ab.

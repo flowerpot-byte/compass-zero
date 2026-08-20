@@ -1,8 +1,9 @@
 # Entwurf: Schlüssel-Widerruf
 
 **Stand 11.08.2026. Das ist ein ENTWURF, kein Bauplan zum Sofort-Umsetzen.**
-Ausdrücklich zur Durchsicht gedacht. Gebaut ist nichts. Er führt eine
-**neue Dateiart** ein — das wird nicht nebenbei entschieden.
+In einer Nachtschicht entstanden, ausdrücklich zur Durchsicht.
+Gebaut ist nichts. Er führt eine **neue Dateiart** ein — das gehört in eine
+Arbeitsphase, in der Rückfragen möglich sind.
 
 Die Entscheidung ist am 28.07.2026 gefallen und steht in `RULES.md`,
 Regel 5. Das Papier setzt sie nur auseinander.
@@ -73,8 +74,8 @@ Dasselbe Prinzip trägt schon der Rückstufungs-Schutz
 
 ## Was mit entzogenen Inhalten geschieht
 
-**Sie bleiben lesbar, mit dauerhafter, nicht wegklickbarer Warnung.** Das
-ist Max' Entscheidung vom 28.07.2026, und die Begründung steht in der
+**Sie bleiben lesbar, mit dauerhafter, nicht wegklickbarer Warnung.** So
+wurde es am 28.07.2026 entschieden, und die Begründung steht in der
 ROADMAP: Wer im Ernstfall kein zweites Nachschlagewerk hat, dem nützt eine
 App nichts, die sich selbst leert.
 
@@ -99,11 +100,11 @@ das einzige Urteil, das niemals lädt.
    andere.
 8. Der Zustand überlebt einen Neustart der App und das Löschen des Pakets.
 
-## Offene Fragen für Max
+## Offene Fragen
 
 1. **Wie wird eine Erklärung in der Oberfläche sichtbar?** Eine Datei, die
-   still den Vertrauenszustand ändert, ist schwer zu durchschauen. Mein
-   Vorschlag: eine eigene Ansicht „Was dieses Gerät für gültig hält" mit
+   still den Vertrauenszustand ändert, ist schwer zu durchschauen.
+   Vorgeschlagen: eine eigene Ansicht „Was dieses Gerät für gültig hält" mit
    allen benannten und entzogenen Schlüsseln samt Datum.
 2. **Soll eine Erklärung auch beim ersten Start aus den Beigaben gelesen
    werden**, oder nur, wenn sie ausdrücklich eingespielt wird?

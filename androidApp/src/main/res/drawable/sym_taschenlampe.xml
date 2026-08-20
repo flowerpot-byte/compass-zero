@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Von Hand im Stil von design/logo/bereich-icons.svg gezeichnet: Kopf und
+     Griff der Lampe, darueber drei kurze Striche fuer den Lichtstrahl, dieselben
+     drei wie im Notsignal, das dieser Bereich auch auslösen kann. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:pathData="M10 14 L38 14 L30 26 L18 26 Z"
+        android:strokeColor="#FF0A0A0A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M18 26 H30 V42 H18 Z"
+        android:strokeColor="#FF0A0A0A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M14 9 V2"
+        android:strokeColor="#FF0A0A0A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M24 9 V2"
+        android:strokeColor="#FF0A0A0A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M34 9 V2"
+        android:strokeColor="#FF0A0A0A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

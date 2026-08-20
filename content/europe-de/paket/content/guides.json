@@ -4957,6 +4957,376 @@
         "Messer oder Saege zum Zurichten der Latten",
         "Etwas zum Anreissen der Marke am Rahmen"
       ]
+    },
+    {
+      "id": "werkzeug-loch-ohne-bohrmaschine",
+      "title": "Löcher bohren ohne Bohrmaschine: Ahle, Nagelbohrer, Bohrwinde",
+      "category": "werkzeug",
+      "summary": "Mehrere Bauanleitungen in diesem Paket verlangen ein gebohrtes Loch, ohne zu sagen, womit: „Einen Axtstiel erneuern“ nennt einen Bohrer zum Ausbohren des alten Keils, „Schubkarre und Handwagen bauen“ einen Bohrer fürs Achsloch, „Räucherkammer bauen“ einen Bohrer für die Luftlöcher, „Pumpe, Widder und Windrad“ Säge UND Bohrer — und „Ein Bett über dem Boden bauen“, „Tür und Fensterladen aus Brettern bauen“ und „Eine Leiter bauen“ brauchen gebohrte Löcher als Arbeitsschritt, ohne je zu sagen, WOMIT man ohne Strom bohrt. Diese Anleitung zeigt vier Werkzeuge von Hand: die AHLE für den ersten Stich, den NAGELBOHRER für kleine Löcher ganz ohne Bohrwinde, den BOHRER MIT BOHRWINDE für alles von sechs Millimetern bis fünf Zentimeter, und den RINGBOHRER für tiefe Löcher in schwerem Holz, wenn gar keine Bohrwinde da ist.",
+      "materials": [],
+      "tools": [
+        "Ahle (Pfriem) für kleine Vorstichlöcher",
+        "Nagelbohrer (Gimlet), für kleine Löcher ohne Bohrwinde",
+        "Bohrer mit Schraubenspitze (Bohreisen), mehrere Größen, für die Bohrwinde",
+        "Bohrwinde, falls vorhanden",
+        "Ringbohrer mit Querstange als Griff, für große Löcher ohne Bohrwinde",
+        "Spiralbohrer ohne Schraubenspitze, für Löcher nah am Rand"
+      ],
+      "difficulty": 2,
+      "sources": [
+        {
+          "name": "Frank D. Graham und Thomas J. Emery",
+          "detail": "„Audels Carpenters and Builders Guide #1“, Theo. Audel & Co., New York, 1923, Kapitel 19 „Boring Tools“, S. 291–304. Archive.org-Kennung audel.carpenter.no1.1923, Volltext gelesen am 20.08.2026; 1923 erschienen und damit gemeinfrei. BILDPRÜFUNG: Mehrere Abbildungen dieses Kapitels tragen sichtbar eingeprägte Herstellernamen im Bild. Deshalb keine Abbildung übernommen; alle Aussagen stammen aus dem Fließtext."
+        }
+      ],
+      "situations": [
+        "am-leben-bleiben"
+      ],
+      "steps": [
+        {
+          "text": "DIE AHLE: FÜR DEN ERSTEN STICH.\n\nEine Ahle ist ein spitzes Werkzeug zum Durchstechen kleiner Löcher, mit einer Schneide wie ein Schraubenzieher — man kann sie auch für kleine Schrauben als solchen benutzen. Ihre Hauptaufgabe: schnell ein Loch zum Ansetzen eines Nagels oder einer Schraube in hartem Holz vorzustechen.\n\nDER HANDGRIFF, GENAU SO IN DER QUELLE: Setze die Schneide zuerst QUER ZUR MASERUNG an, nicht längs. Treibe die Ahle ins Holz, aber DREHE SIE NICHT VOLL HERUM — gib ihr nur so viel Drehung in abwechselnde Richtungen, wie nötig ist, um die Fasern zu schneiden und zu zerdrücken. Wer die Ahle wie einen Korkenzieher voll herumdreht, reißt die Fasern statt sie zu schneiden, und das Loch wird ausgefranst."
+        },
+        {
+          "text": "DER NAGELBOHRER: KLEINE LÖCHER GANZ OHNE BOHRWINDE.\n\nEin Nagelbohrer (Gimlet) bohrt kleine Löcher allein mit Handkraft — keine Bohrwinde nötig. Es gibt zwei Bauarten: mit Drallschneide (Twist) und mit Hohlschneide (Shell); beide funktionieren nach demselben Griff.\n\nDER GRIFF: Den Griff in die rechte Hand nehmen und beim Ansetzen mit der Handfläche ins Holz drücken, der Schaft liegt dabei zwischen erstem und zweitem Finger. Danach treibt man ihn in einer Folge von HALBEN DREHUNGEN ins Holz, wobei man nach jeder halben Drehung loslässt und neu zufasst.\n\nWOFÜR DER NAGELBOHRER BESSER IST ALS DIE BOHRWINDE: wenn keine Bohrwinde griffbereit ist oder nur EIN einziges Loch gebohrt werden muss — dann spart der Nagelbohrer die Zeit, einen Bohrer erst in die Bohrwinde einzuspannen. Es gibt ihn auch in größeren Ausführungen; die heißen dann Auger-Gimlet."
+        },
+        {
+          "text": "DER BOHRER MIT BOHRWINDE: FÜR SECHS MILLIMETER BIS FÜNF ZENTIMETER.\n\nBohrer mit Schraubenspitze (in der Quelle „Auger Bit“) bohren Löcher von etwa sechs Millimetern (¼ Zoll) bis fünf Zentimeter (2 Zoll). Die Schraubenspitze zieht den Bohrer von selbst ins Holz — man muss also nicht mit Kraft drücken, sondern dreht nur die Bohrwinde. Zwei Sporne ritzen einen Kreis vor, die Schneiden darunter heben den Span heraus, und die Drallnut fördert ihn aus dem Loch.\n\nEINFACHE DRALLNUT ODER DOPPELTE: Bei einfacher Drallnut fallen die Späne in die Mitte des Lochs und kommen leichter heraus — das eignet sich am besten für TIEFE Löcher. Bei doppelter Drallnut werden die Späne an die Lochwand gedrückt und können dort klemmen, dafür bohrt diese Bauart genauer in trockenem Holz.\n\nGROBE ODER FEINE SCHRAUBE: Eine grobe Schraube (Einfachgewinde) bohrt schnell, aber gröber — für hartes oder klebriges Holz. Eine feine Schraube (Doppelgewinde) bohrt langsamer, dafür sauberer — bevorzugt für Möbel- und Tischlerarbeit."
+        },
+        {
+          "text": "WENN KEINE BOHRWINDE DA IST: DER RINGBOHRER.\n\nFür schwere Arbeit, vor allem in hartem und dickem Holz, gibt es den Ringbohrer: Ein Griff — bevorzugt aus Hartholz — wird durch einen Ring am Kopf des Bohrers gesteckt und dreht ihn ganz OHNE Bohrwinde. Auf diese Weise, so die Quelle wörtlich, erhält man eine GEWALTIGE HEBELWIRKUNG. Für noch größere Tiefen oder Durchmesser als mit gewöhnlichen Bohrern gibt es den sogenannten Mutterbohrer (Nut Auger), ebenfalls mit einem hölzernen Handgriff bedient — beide Hände bleiben dabei am Werkzeug, was bei Balken für Mühlen- oder Brückenbau besonders wichtig ist.\n\nEIN SPIRALBOHRER OHNE SCHRAUBENSPITZE eignet sich besser als ein Bohrer mit Schraubenspitze für kleine Löcher NAH AM RAND eines Werkstücks — etwa Nagellöcher durch dünne Rippen oder Planken. Ohne die einziehende Schraube besteht weniger Gefahr, dass das Holz dabei aufreißt."
+        },
+        {
+          "text": "EIN LOCH GANZ HINDURCH BOHREN, OHNE DASS DIE RÜCKSEITE AUSREISST.\n\nDie Quelle beschreibt das für das Bohren beim Zapfenloch: Soll das Loch ganz durch das Werkstück gehen, wird es BIS ZUR HÄLFTE VON JEDER SEITE gebohrt, statt in einem Zug von einer Seite aus durchzustoßen. So treffen sich beide Bohrungen in der Mitte, und die Rückseite bricht nicht unkontrolliert aus, wenn die Spitze durchbricht.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Dasselbe Vorgehen — halb von der einen, halb von der anderen Seite — hilft bei jedem dickeren Werkstück, nicht nur beim Zapfenloch, wenn eine saubere Rückseite wichtig ist, etwa bei einer Tür oder einer Sprosse."
+        },
+        {
+          "text": "WAS HIER FEHLT.\n\nWIE MAN SICH SELBST EINEN BOHRER AUS EINFACHEM MATERIAL MACHT, wenn gar kein Metallwerkzeug mehr da ist — die Quelle setzt durchweg gekaufte Bohrer und Bohrwinden voraus, sie beschreibt keinen Ersatz aus einem angespitzten Nagel oder Draht.\n\nEIN GRADMASS ODER EINE TECHNIK, UM DEN BOHRER BEIM ANSETZEN GENAU SENKRECHT ZU HALTEN. Dafür gilt dasselbe Senklot wie in der Anleitung „Waagerecht und senkrecht prüfen ohne gekauftes Werkzeug“.\n\nDAS SCHÄRFEN DIESER BOHRER — Sporne, Schneiden und Schraubenspitze stumpfen mit der Zeit ab. Die Quelle beschreibt das Schärfen zwar, es ist hier aber bewusst weggelassen, weil es ein eigenes, umfangreiches Thema ist."
+        }
+      ]
+    },
+    {
+      "id": "werkzeug-griff-hammer-meissel-feile",
+      "title": "Griff oder Stiel neu einsetzen: Hammer, Meißel und Feile",
+      "category": "werkzeug",
+      "summary": "„Einen Axtstiel erneuern“ zeigt, wie man den Stiel EINER Axt wechselt — aber ein wackliger oder gebrochener Griff trifft genauso Hammer, Meißel und Feile, und die sitzen ganz anders als eine Axt auf ihrem Holz: kein langes, verjüngtes Auge, kein vorgesägter Keilschlitz. Diese Anleitung deckt genau diese drei ab, nach der Werkzeugpflege-Vorschrift des US-Heeres: den Hammer mit seinem geraden Auge und den Keilen, den Meißel mit seiner Dülle — plus die Reparatur eines verschlagenen Meißelkopfs, ohne den ganzen Griff zu wechseln —, und die Feile, bei der ein loser Griff kein Komfortproblem, sondern eine Verletzungsgefahr ist.",
+      "materials": [
+        {
+          "item": "Griffrohling aus zähem Hartholz",
+          "amount": "1",
+          "note": "Passend zur Form der Fassung: rund fürs Hammerauge, mit Zapfen für die Meißel-Dülle, mit Angel-Loch für die Feile."
+        },
+        {
+          "item": "Holz- oder Metallkeile",
+          "amount": "1 bis 2",
+          "note": "Für das Hammerauge. Anders als bei der Axt lässt die Quelle hier ausdrücklich auch Metallkeile zu."
+        },
+        {
+          "item": "Leder- oder Fiberscheiben",
+          "amount": "mehrere",
+          "note": "Nur zur Reparatur eines verschlagenen Meißelkopfs, siehe Schritt 3."
+        },
+        {
+          "item": "Holzleim",
+          "amount": "wenig",
+          "note": "Für die Lederscheiben am Meißel."
+        }
+      ],
+      "tools": [
+        "Feinsäge oder Bügelsäge",
+        "Bohrer",
+        "Raspel oder Ziehklinge",
+        "Holzhammer oder Klöpfel",
+        "Schraubstock mit weichen Backen"
+      ],
+      "difficulty": 2,
+      "sources": [
+        {
+          "name": "US-Kriegsministerium (War Department)",
+          "detail": "„TM 9-867: Maintenance and Care of Hand Tools“, 19.04.1945, Abschnitte XII (Hammergriff erneuern und nachziehen), VIII (Meißelgriff, verschlagener Kopf) und XI (Feilengriff). Volltext gesichert als work/quellen/werkzeug/us-tm9-867-1945-hand-tools.txt, gelesen am 20.08.2026. Gemeinfreies Werk der US-Bundesregierung. Eine Maßangabe in Schritt 3 war in der Textfassung nicht sicher lesbar und wurde weggelassen statt geschätzt."
+        }
+      ],
+      "situations": [
+        "am-leben-bleiben"
+      ],
+      "steps": [
+        {
+          "text": "HAMMER, KLÖPPEL, VORSCHLAGHAMMER: DEN GRIFF WECHSELN.\n\nDas Auge eines Hammerkopfs ist gerade und durchgehend — anders als das lange, verjüngte Axt-Auge. Deshalb läuft der Wechsel anders:\n\n1. Alten Griff entfernen. Sitzt er noch fest, dicht am Hals des Kopfes absägen — mit der Feinsäge so, dass die Sägezähne den Kopf selbst nicht berühren, sonst verdirbt das den Zahnsatz der Säge.\n2. Ein Loch in den verbliebenen Stumpf im Auge bohren.\n3. Den Stumpf samt seiner Keile heraustreiben. VORHER MERKEN, WIE DIE KEILE LAGEN — die neuen kommen an dieselbe Stelle.\n4. Den neuen Griff mit Raspel oder Ziehklinge auf die Form des Kopfes zurichten.\n5. Zur Passprobe einstecken.\n6. Fest einschlagen: mit einem Klöpfel auf das ÜBERSTEHENDE Griffende schlagen, bis der Kopf sich von selbst auf den Griff zieht.\n7. Sitz prüfen.\n8. Den überstehenden Griff dicht am Kopf absägen, Schlitze für die Keile einsägen — auch hier die Sägezähne vom Kopf fernhalten.\n9. Keile eintreiben. ANDERS ALS BEIM AXTSTIEL SIND HIER AUCH METALLKEILE ZULÄSSIG, laut Quelle — bei Holzkeilen gerade gemasertes Weichholz nehmen.\n10. Das Griffende bündig mit dem Kopf abfeilen oder -schleifen."
+        },
+        {
+          "text": "WENN DER GRIFF SPÄTER WIEDER LOCKER WIRD.\n\nWird der KEIL locker: herausnehmen und einen größeren einsetzen. Bleibt der Keil fest, aber der GRIFF selbst wird locker: einen dünnen zusätzlichen Keil aus Hartholz oder Metall NEBEN den vorhandenen treiben.\n\nEIN NOTBEHELF IM GELÄNDE, AUSDRÜCKLICH ALS SOLCHER GENANNT: den Kopf in Wasser einlegen — das Holz quillt auf und sitzt vorübergehend wieder fest. Das ersetzt das Neu-Verkeilen nicht und hält nicht dauerhaft. Dieselbe Warnung steht unabhängig davon auch in „Einen Axtstiel erneuern“ für die Axt.\n\nWARNUNG AUS DER QUELLE, DIE FÜR JEDEN HAMMER GILT: Nie mit einem Hammer auf gehärteten Stahl schlagen. Kleine, scharfkantige Splitter können dabei abspringen — von Hammer UND Werkstück — und haben schon oft zu schweren Augenverletzungen geführt. Muss auf gehärteten Stahl geschlagen werden, ein Stück Kupfer, Messing, Fiber oder Holz dazwischenlegen und auf DAS weiche Material schlagen, nicht auf den Stahl.",
+          "warning": "Nie direkt mit dem Hammer auf gehärteten Stahl schlagen — Splittergefahr fürs Auge."
+        },
+        {
+          "text": "MEISSEL: GRIFF WECHSELN UND EINEN VERSCHLAGENEN KOPF RETTEN.\n\nDER GRIFF SITZT NUR AUF REIBUNG in einer Dülle — kein Keil nötig. Zum Wechseln: alten Griff aus der Dülle ziehen (ist er darin abgebrochen, ausbohren), das Ende des neuen Griffs zurichten, bis er STRAMM in die Dülle passt, die Klinge in einen Schraubstock mit weichen Backen spannen und den Griff mit leichten Schlägen einsetzen.\n\nEIN VERSCHLAGENER KOPF — das obere Griffende, auf das man mit dem Hammer schlägt, wird mit der Zeit PILZFÖRMIG AUSGEFRANST — lässt sich reparieren, OHNE den ganzen Griff zu wechseln:\n1. Griff von der Klinge nehmen. Das ausgefranste Ende dort absägen, wo es unbeschädigt weitergeht.\n2. Das Griffende dünner abdrehen oder abschneiden (die Quelle nennt hierfür ein genaues Maß, das in der gesicherten Textfassung nicht zuverlässig lesbar war — deshalb hier ausgelassen; als Richtschnur so viel abtragen, dass mehrere Lederscheiben stramm darüberpassen).\n3. Leder- oder Fiberscheiben zuschneiden, die stramm auf das abgesetzte Ende passen, im Außendurchmesser etwas größer als der Griff. So viele Scheiben zuschneiden, dass ihre Gesamtdicke die Höhe des abgesägten Stücks mindestens erreicht.\n4. Die Scheiben auf das Griffende leimen und bis zum Trocknen einspannen.\n5. Die Scheiben rundschleifen oder -schneiden, bis sie zur Form des Griffs passen.\nDas Ergebnis nimmt die Hammerschläge auf, statt dass das Holz weiter ausfranst."
+        },
+        {
+          "text": "FEILE: NIE OHNE GRIFF BENUTZEN.\n\nDIE QUELLE WARNT AUSDRÜCKLICH: Eine Feile ohne Griff zu benutzen ist gefährlich — die Angel kann bei einem Abrutschen in die Handfläche stechen.\n\nEINSETZEN: Einen Griff wählen, dessen Loch zur Angel passt. IST DAS LOCH ZU KLEIN, EIN KNIFF AUS DER QUELLE: die gleich große Angel einer alten, ausgedienten Feile erhitzen und in den Griff stecken — sie brennt das Loch auf die passende Weite. Dann die Angel der neuen Feile ANFEUCHTEN und in den Griff stecken; das HINTERE Griffende auf eine ebene Fläche klopfen, bis die Feile richtig sitzt. NIE die Feile selbst in den Griff hineinhämmern.\n\nENTFERNEN: Die Feile mit einer Hand halten, den Griff mit der anderen, und das Ringende des Griffs gegen eine Tischkante klopfen, bis er sich löst.",
+          "warning": "Eine Feile nie ohne Griff benutzen — die Angel kann in die Handfläche stechen."
+        },
+        {
+          "text": "WAS HIER FEHLT.\n\nEINE HOLZSORTEN-EMPFEHLUNG FÜR DIESE DREI WERKZEUGE. Die Quelle nennt für Hammer, Meißel und Feile keine bestimmte Holzart — anders als bei der Axt, wo beide dortigen Quellen ausdrücklich Hickory verlangen. Wer nichts Besseres hat, orientiert sich an derselben Regel wie beim Axtstiel: gerade Maserung längs zum Griff, zähes Laubholz.\n\nSPATEN, KEILHAUE UND ANDERE WERKZEUGE MIT DÜLLE ODER TÜLLE. Die Quelle behandelt nur die drei hier gezeigten Bauarten der Griffbefestigung; für Werkzeuge mit anderer Fassung — etwa eine getüllte Schaufel — gibt sie nichts her."
+        }
+      ]
+    },
+    {
+      "id": "werkzeug-leiter-anlegen",
+      "title": "Leiter richtig anlegen: Winkel, Stand und Sicherung",
+      "category": "werkzeug",
+      "summary": "„Eine Leiter bauen: Kerbleiter und Sprossenleiter“ zeigt zwei Bauarten — und benennt selbst offen, was fehlt: „der richtige Anlegewinkel und das Sichern gegen Wegrutschen … dazu schweigen beide gelesenen Quellen“. Diese Anleitung füllt genau diese Lücke, egal ob die Leiter selbst gebaut oder gekauft ist: den Winkel nach der Ein-zu-vier-Regel, den sicheren Stand von Fuß und Kopf, das Verhalten beim Steigen, und eine Liste dessen, was man mit einer Leiter NIE tun sollte.",
+      "materials": [],
+      "tools": [
+        "Maßband oder Schnur, zum Abmessen des Anlegewinkels"
+      ],
+      "difficulty": 1,
+      "sources": [
+        {
+          "name": "US-Arbeitsschutzbehörde (Occupational Safety and Health Administration, OSHA)",
+          "detail": "„Reducing Falls in Construction: Safe Use of Extension Ladders“, OSHA FactSheet, Dokument-Nr. FS-3660, Fassung 05/2013, https://www.osha.gov/sites/default/files/publications/OSHA3660.pdf, abgerufen und im Volltext gelesen am 20.08.2026. Werk der US-Bundesregierung (US-Arbeitsministerium), über den Schutzfristenvergleich frei (§ 121 Abs. 4 UrhG, 17 U.S.C. § 105)."
+        },
+        {
+          "name": "US-Arbeitsschutzbehörde (OSHA), zweite Linie",
+          "detail": "„Reducing Falls in Construction: Safe Use of Job-made Wooden Ladders“, OSHA FactSheet FS-3661, Fassung 01/2024, osha.gov, im Volltext gelesen am 20.08.2026. Gemeinfreies Werk der US-Bundesregierung. Deckt selbst gebaute Holzleitern ab und bestätigt die erste Quelle unabhängig. BILDPRÜFUNG: Die Strichzeichnung (Figure 1) trägt keine Signatur, das Foto in FS-3660 ist nicht eindeutig als Bundeswerk erkennbar. Deshalb keine Abbildung übernommen."
+        }
+      ],
+      "situations": [
+        "am-leben-bleiben"
+      ],
+      "steps": [
+        {
+          "text": "DER RICHTIGE WINKEL: DIE EIN-ZU-VIER-REGEL.\n\nWörtlich aus der Quelle: Lehnt eine Leiter an einer Wand, soll der Fuß der Leiter EIN VIERTEL DER ARBEITSLÄNGE DER LEITER von der Wand entfernt stehen. Mit „Arbeitslänge“ ist die Leiter selbst gemeint, entlang ihrer Schräge gemessen — nicht die Höhe, die sie erreicht.\n\nSO MISST MAN ES OHNE RECHNEN: Die Leiterlänge grob feststellen (bei einer Sprossenleiter reicht Sprossenzahl mal Sprossenabstand), diesen Wert durch vier teilen, und den Fuß der Leiter genau so weit von der Wand wegstellen. Bei einer 4 Meter langen Leiter sind das 1 Meter Abstand am Fuß.\n\nOB EINE LEITER FÜR IHRE LAST STARK GENUG GEBAUT IST, PRÜFT DIE QUELLE SO: Eine selbstgebaute Holzleiter soll MINDESTENS DAS VIERFACHE der höchsten zu erwartenden Last tragen können, bevor sie überhaupt eingesetzt wird."
+        },
+        {
+          "text": "DER FUSS: STANDFLÄCHE UND SICHERUNG.\n\nBeide Quellen verlangen denselben Grundsatz: Der Fuß der Leiter steht auf einer STABILEN, EBENEN Fläche, beide Holme gleichmäßig aufliegend, im rechten Winkel zu der Fläche, an die sie lehnt. Wörtlich verboten: eine Leiter auf Kisten, Fässer oder andere unsichere Unterlagen zu stellen, oder sie auf weichem oder nachgebendem Boden zu benutzen.\n\nDER FUSS WIRD ZUSÄTZLICH GESICHERT, damit er sich nicht verschiebt — wenn nötig, indem ihn jemand festhält oder er gegen ein festes Hindernis gestellt wird. Vor jedem Gebrauch wird die Leiter auf Schäden geprüft: gebrochene oder gesplitterte Holme, fehlende Sprossen, und STELLEN, DIE ÜBERSTRICHEN WURDEN — ein Hinweis, dass darunter ein Schaden versteckt sein könnte."
+        },
+        {
+          "text": "DER KOPF: ÜBERSTAND UND FESTER HALT.\n\nSoll die Leiter zu einer Fläche führen, auf die man hinaufsteigt (ein Dach, eine Bühne, einen Heuboden), MUSS DIE LEITER MINDESTENS EINEN METER ÜBER DIESE FLÄCHE HINAUSRAGEN (wörtlich: drei Fuß, rund 90 Zentimeter) — das gibt beim Ein- und Aussteigen etwas zum Festhalten. Ist dafür kein Platz, wird der Kopf der Leiter stattdessen an einer festen, unnachgiebigen Stelle gesichert.\n\nSTEHT DIE LEITER VOR EINER TÜR, WIRD DIE TÜR IMMER VERSPERRT ODER ABGESICHERT — sonst kann sie die Leiter beim Aufstoßen umwerfen."
+        },
+        {
+          "text": "BEIM STEIGEN.\n\nIMMER DREI-PUNKT-KONTAKT HALTEN: entweder zwei Hände und ein Fuß, oder zwei Füße und eine Hand — nie weniger. Der Leiter dabei zugewandt bleiben, nie mit dem Rücken zu den Sprossen steigen. Den Körper zwischen den Holmen halten, nicht seitlich über die Holme hinauslehnen.\n\nWERKZEUG NIE IN DER HAND TRAGEND STEIGEN — es in einem Gürtel tragen oder getrennt an einer Leine hochziehen. Grund, wörtlich: Jede Last, die das Gleichgewicht kosten könnte, führt zum Sturz. Eine Leiter nie verschieben oder anders ausrichten, solange jemand darauf steht."
+        },
+        {
+          "text": "WAS MAN MIT EINER LEITER NIE TUN SOLLTE.\n\nAusdrücklich aus der Quelle, als eigener Merkposten wertvoll, gerade wenn improvisiert wird:\n— NIEMALS ZWEI LEITERN ZUSAMMENBINDEN, UM SIE LÄNGER ZU MACHEN.\n— Eine Leiter nie liegend als Steg oder Plattform benutzen.\n— Eine Leiter nie mit nicht transparenter Farbe streichen — die verdeckt Risse und Schäden im Holz.\n— Eine Leiter von Öl, Fett und anderem Rutschigen freihalten.",
+          "warning": "Nie zwei Leitern zusammenbinden, um sie länger zu machen."
+        },
+        {
+          "text": "WAS HIER FEHLT.\n\nBEIDE QUELLEN BESCHREIBEN EINE LEITER, DIE AN EINER GERADEN WAND ODER KANTE LEHNT. Für das Anlehnen an eine runde oder unebene natürliche Stütze — einen Baumstamm, einen Felsen — sagen sie nichts. EINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Dieselben Grundsätze (Ein-zu-vier-Winkel nach Augenmaß, gesicherter Fuß, tragfähiger Untergrund) gelten dem Sinn nach auch dort, auch wenn keine der beiden Quellen das ausdrücklich sagt.\n\nKEINE DER QUELLEN NENNT EINE HÖCHSTLÄNGE FÜR EINE EINZELNE, NICHT AUSZIEHBARE LEITER WIE DIE KERBLEITER AUS „EINE LEITER BAUEN“. Diese Zahl bleibt offen."
+        }
+      ]
+    },
+    {
+      "id": "werkstoffe-kleber-kiefernharz",
+      "title": "Kleber und Dichtmasse aus Kiefernharz",
+      "category": "werkstoffe",
+      "summary": "Mehrere Anleitungen in diesem Paket lassen Kleber einfach da sein: „Bogen und Pfeile bauen“ nennt „Holzleim oder Harz“, „Ein Eimer aus dem, was da ist“ dichtet eine Rindenwanne „mit heißem Harz“ ab, ohne zu sagen, wie das Harz dafür überhaupt vorbereitet wird. Diese Anleitung zeigt, wie aus dem Harz eines einzigen, in Deutschland verbreiteten Baums — der Kiefer — sowohl Kleber als auch eine wasserdichte Beschichtung wird: sammeln, kochen, mit Asche verstärken, sofort verwenden.",
+      "materials": [
+        {
+          "item": "Kiefernharz",
+          "amount": "so viel wie am Baum zu bekommen ist",
+          "note": "Klebriger Baumsaft von Kiefern (Pinus-Arten); am Geruch und an der Klebrigkeit erkennbar."
+        },
+        {
+          "item": "Holzasche",
+          "amount": "eine kleine Prise, optional",
+          "note": "Fein, aus kalter, ausgekühlter Feuerstelle. Verstärkt den fertigen Kleber."
+        }
+      ],
+      "tools": [
+        "Kleines feuerfestes Gefäß zum Erhitzen des Harzes",
+        "Messer, zum Einkerben der Rinde",
+        "Glut oder kleine, kontrollierte Feuerstelle"
+      ],
+      "difficulty": 1,
+      "sources": [
+        {
+          "name": "US-Heeresministerium (Department of the Army)",
+          "detail": "FM 3-05.70 „Survival“ (17.05.2002), Appendix B, Eintrag „Pine“, S. B-65. Volltext gesichert als work/quellen/bauanleitungen/us-army-fm3-05.70-survival-2002.txt, gelesen am 20.08.2026. Gemeinfreies Werk der US-Bundesregierung (§ 121 Abs. 4 UrhG, 17 U.S.C. § 105). Wörtlich: „Use the resin to waterproof articles. Also, use it as glue. ... Put the resin in a container and heat it. The hot resin is your glue. Use it as is or add a small amount of ash dust to strengthen it. Use it immediately.“"
+        }
+      ],
+      "situations": [
+        "am-leben-bleiben"
+      ],
+      "steps": [
+        {
+          "text": "WOFÜR DAS HIER GEBRAUCHT WIRD.\n\n„Bogen und Pfeile bauen“ nennt in seiner Materialliste „Holzleim oder Harz (optional)“ für die Befiederung, „Ein Eimer aus dem, was da ist“ dichtet eine gefaltete Rindenwanne ausdrücklich „mit heißem Harz“ ab. Keine der beiden Anleitungen sagt, wie Harz dafür zu Kleber wird. Diese Anleitung schließt genau diese Lücke, mit einem einzigen Baum, der über weite Teile Deutschlands wächst: der Kiefer."
+        },
+        {
+          "text": "HARZ SAMMELN.\n\nKiefern sondern klebrigen Saft ab, erkennbar am Kiefern-typischen Geruch. Läuft nicht genug Harz von selbst aus der Rinde, hilft ein Kerbschnitt: Mit dem Messer eine Kerbe in die Rinde schneiden, damit mehr Saft heraussickert. Das austretende, angetrocknete oder noch klebrige Harz in einem Gefäß sammeln."
+        },
+        {
+          "text": "DEN KLEBER KOCHEN.\n\nDas gesammelte Harz in ein Gefäß geben und erhitzen. Das heiße, geschmolzene Harz IST bereits der Kleber. Man kann es so verwenden, oder eine kleine Menge Holzasche einrühren, um ihn zu verstärken — das steht so in der Quelle, ohne genaue Mengenangabe.\n\nDIE WICHTIGSTE EINSCHRÄNKUNG, WÖRTLICH AUS DER QUELLE: SOFORT VERWENDEN. Der Kleber härtet beim Abkühlen aus — es gibt keine offene Zeit zum Nacharbeiten. Alles, was verklebt werden soll, muss bereit und in Position sein, BEVOR das Harz von der Hitze kommt.",
+          "warning": "Sofort verwenden — der Kleber härtet beim Abkühlen sofort aus."
+        },
+        {
+          "text": "WOFÜR ES SICH LAUT QUELLE VERWENDEN LÄSST.\n\nALS KLEBER, allgemein, ohne dass die Quelle bestimmte Werkstoffe nennt. ZUM WASSERDICHTMACHEN VON GEGENSTÄNDEN — das trifft sich in diesem Paket mit der Rindenwanne aus „Ein Eimer aus dem, was da ist“ und dem Fass aus „Rinne, Fallrohr und Fass: Regen vom Dach auffangen“, auch wenn die Quelle selbst keinen der beiden Gegenstände nennt; das ist eine naheliegende, aber eigene Zuordnung dieses Pakets. ALS BEHELFS-ZAHNFÜLLUNG: ausgehärtetes Kiefernharz kann laut Quelle im Notfall eine ausgefallene Zahnfüllung ersetzen."
+        },
+        {
+          "text": "SICHERHEIT BEIM ERHITZEN.\n\nDIESER SCHRITT IST EINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Harz ist brennbar und kann über offener Flamme unkontrolliert aufkochen oder sich entzünden. In einem kleinen, feuerfesten Gefäß über Glut erhitzen, nicht über offener Flamme, und das Gefäß dabei nicht unbeaufsichtigt lassen."
+        },
+        {
+          "text": "WAS HIER FEHLT.\n\nDIE QUELLE BEHANDELT AUSSCHLIESSLICH PINUS-ARTEN (KIEFERN). Ob sich das Harz anderer heimischer Nadelbäume — etwa der Fichte — genauso verhält, sagt sie nicht, deshalb wird das hier auch nicht behauptet.\n\nEIN LEIM AUS TIERISCHEM MATERIAL (HAUT- ODER KNOCHENLEIM) UND EINE DICHTMASSE AUS WERG UND HARZ FÜR FUGEN UND NÄHTE — zum Beispiel zum Kalfatern eines Floßes — stehen in dieser Quelle nicht und sind hier bewusst nicht erfunden worden."
+        }
+      ]
+    },
+    {
+      "id": "werkzeug-verbogen-richten",
+      "title": "Werkzeug richten: Verbogenes strecken und ein verschlagenes Ende neu härten",
+      "category": "werkzeug",
+      "summary": "Ein Werkzeug muss nicht abgebrochen sein, um lebensgefährlich zu werden — ein verschlagener, pilzförmig ausgefranster Kopf an Meißel oder Durchschlag schickt bei jedem Hammerschlag scharfkantige Stahlsplitter Richtung Auge. Diese Anleitung zeigt zwei getrennte Reparaturen aus derselben Werkstatt-Vorschrift des US-Heeres wie „Griff oder Stiel neu einsetzen“: einen VERBOGENEN Teil kalt wieder gerade klopfen, ohne die Härte zu zerstören — und ein verschlagenes oder abgebrochenes Ende zurückschleifen und im Feuer neu härten. Hier geht es nicht um den Griff, sondern um das Metall selbst.",
+      "materials": [
+        {
+          "item": "Wasser",
+          "amount": "ein Eimer oder ein anderes Gefäß voll",
+          "note": "Klar und kalt zum Abschrecken beim Härten. Reicht das Gefäß nicht für das ganze Werkzeug, wird nur die betroffene Stelle eingetaucht."
+        }
+      ],
+      "tools": [
+        "Amboss oder ein flacher, harter Metallblock",
+        "Hammer — für dünne Teile besser einer aus Messing oder Kupfer",
+        "Schleifbock oder eine grobe Feile",
+        "Zange zum Halten im Feuer",
+        "Feuerstelle mit Holzkohle oder eine Esse",
+        "feines Schleiftuch oder ein Ölstein zum Nachpolieren"
+      ],
+      "difficulty": 3,
+      "sources": [
+        {
+          "name": "US-Kriegsministerium (War Department)",
+          "detail": "„TM 9-867: Maintenance and Care of Hand Tools“, 19.04.1945, Abschnitte VII (Schieblehre, verbogenes Bein), VIII und XX (verschlagener Kopf, Härten), XIV (Schaufel, Verbiegen), XXIV (Schraubendreher, Spitze). Volltext gesichert als work/quellen/werkzeug/us-tm9-867-1945-hand-tools.txt, gelesen am 20.08.2026. Gemeinfreies Werk der US-Bundesregierung, über den Schutzfristenvergleich frei (§ 121 Abs. 4 UrhG, 17 U.S.C. § 105)."
+        }
+      ],
+      "situations": [
+        "am-leben-bleiben"
+      ],
+      "steps": [
+        {
+          "text": "ZWEI VERSCHIEDENE SCHÄDEN, ZWEI VERSCHIEDENE REPARATUREN.\n\nIst ein Teil nur VERBOGEN, aber sonst heil, reicht kaltes Geraderichten — dafür wird KEIN Feuer gebraucht. Ist dagegen der Kopf eines Meißels oder Durchschlags „verschlagen“ — pilzförmig ausgefranst von tausenden Hammerschlägen —, oder ist die gehärtete Spitze eines Schraubendrehers abgebrochen oder weggeschliffen, hilft Geraderichten nichts mehr. Dann muss das Ende zurückgeschliffen und DANACH neu gehärtet werden. Beides steht unten, in dieser Reihenfolge."
+        },
+        {
+          "text": "VERBOGENES KALT RICHTEN, OHNE FEUER.\n\nDie Quelle nennt zwei Beispiele, und aus beiden folgt dieselbe Regel. Ist eine Schaufel verbogen, wird sie auf einem flachen Block oder Amboss geradegeklopft — die Quelle sagt ausdrücklich, dabei KEINE Hitze zu benutzen. Ist das Bein einer Schieblehre verbogen, wird es auf einem weichen Metallblock liegend mit einem Messinghammer in die ursprüngliche Form zurückgeklopft.\n\nDer Grund für das kalte Arbeiten: Hitze würde genau die Härte zerstören, die eine Schneide oder eine Messfläche erst brauchbar macht. Sinngemäß gilt dieselbe Regel für andere dünnwandige, verbogene Metallteile: erst kalt versuchen, mit gleichmäßigen, nicht zu harten Schlägen auf einer festen, ebenen Unterlage — nie auf einer weichen, nachgebenden."
+        },
+        {
+          "text": "WARUM EIN VERSCHLAGENER KOPF GEFÄHRLICH IST.\n\nNach vielen Hammerschlägen breitet sich das Ende eines Meißels oder Durchschlags pilzförmig aus und bekommt einen dünnen, überstehenden Rand. Die Quelle ist hier unmissverständlich: Ein Werkzeug mit verschlagenem Kopf NIE benutzen — es besteht Verletzungsgefahr durch wegspringende Stücke. Das ist derselbe Grund, aus dem nie mit dem Hammer auf bereits gehärteten Stahl geschlagen werden soll: Ein verschlagener Kopf ist genau dieses Problem, nur schon eingetreten.",
+          "warning": "Ein Werkzeug mit verschlagenem, pilzförmig ausgefranstem Kopf nie benutzen — Splittergefahr fürs Auge."
+        },
+        {
+          "text": "ZURÜCKSCHLEIFEN.\n\nDas verschlagene oder beschädigte Ende auf dem Schleifbock oder mit einer groben Feile auf die ursprüngliche Form zurückarbeiten — beim Durchschlag oder Meißel wieder flach und rechtwinklig zur Mittelachse, beim Schraubendreher wieder mit parallelen, geraden Seiten.\n\nDabei das Werkstück OFT in Wasser tauchen. Läuft der Stahl blau an, ist die Härte an dieser Stelle bereits weg, und es wurde zu lange am Stück geschliffen. Nicht mehr Material wegnehmen, als nötig ist, um Beule und Verformung zu beseitigen."
+        },
+        {
+          "text": "WANN NEU GEHÄRTET WERDEN MUSS.\n\nImmer dann, wenn die gehärtete Spitze abgebrochen oder weggeschliffen war, oder wenn das Werkzeug beim Schleifen zu heiß wurde: Der Stahl ist an dieser Stelle jetzt weich und muss neu gehärtet und angelassen werden — sonst nutzt er sich sofort wieder ab oder verschlägt gleich wieder."
+        },
+        {
+          "text": "HÄRTEN UND ANLASSEN, ERSTE METHODE — MEISSEL UND DURCHSCHLAG, BEIDE ENDEN.\n\nDas ganze Werkzeug in einer Holzkohleglut oder ähnlich heißen Flamme kirschrot erhitzen. Mit der Zange in der Mitte fassen. Das Arbeitsende etwa drei Zentimeter tief in klares, kaltes Wasser tauchen, dann das Kopfende etwa zweieinhalb Zentimeter tief. Beide Enden mit Feile oder Schleiftuch blank reiben.\n\nJetzt genau hinsehen: Die Anlassfarbe wandert von der noch heißen Mitte langsam zu den Enden zurück. Das Arbeitsende jedes Mal kurz nachtauchen, wenn es PURPUR anläuft. Das Kopfende jedes Mal kurz nachtauchen, wenn es BLAU anläuft. Sobald nirgends mehr Rotglut zu sehen ist, das ganze Werkzeug vollständig abschrecken."
+        },
+        {
+          "text": "HÄRTEN UND ANLASSEN, ZWEITE METHODE — SCHRAUBENDREHER, NUR EIN ENDE.\n\nEtwa vier Zentimeter der Spitze mit Lötlampe, Gasofen oder Holzkohleglut kirschrot erhitzen. Etwa zwei Zentimeter der Spitze in klares, kaltes Wasser tauchen. Sofort mit Schleiftuch oder Ölstein blank reiben. Die Anlassfarbe wandert vom noch heißen Teil der Klinge zurück zur Spitze. Sobald HELLBLAU die Spitze erreicht, ganz abschrecken.\n\nDie doppelseitige Methode für Meißel und Durchschlag und die einseitige für den Schraubendreher stammen aus derselben Quelle für unterschiedliche Werkzeuge; welche gemeint ist, richtet sich danach, ob ein oder zwei Enden im Gebrauch sind."
+        },
+        {
+          "text": "NACHARBEIT UND GRENZEN.\n\nNach dem Härten die Form mit Schmirgel- oder Ölstein glattziehen.\n\nDiese Reparatur funktioniert nur bei Werkzeugstahl, der ursprünglich gehärtet war — bei weichem Baustahl oder Gusseisen ändert Erhitzen und Abschrecken nichts.\n\nEin Werkzeug, das nicht nur verschlagen, sondern glatt DURCHGEBROCHEN ist — zum Beispiel eine gerissene Kette oder ein abgebrochenes Eisenstück —, braucht eine andere Reparatur: das Zusammenschmieden im Feuer, siehe „Zerbrochenes Eisen zusammenschmieden: zwei Enden verschweißen“."
+        }
+      ]
+    },
+    {
+      "id": "gelaende-schwere-last-zu-zweit",
+      "title": "Eine schwere Last zu zweit heben, tragen und absetzen",
+      "category": "gelaende",
+      "summary": "Ab einem gewissen Gewicht ist nicht mehr Kraft das Problem, sondern die Haltung. Die US-Arbeitsschutzbehörde OSHA nennt eine klare Grenze: Lasten über etwa 23 Kilogramm sollte niemand mehr allein heben, sondern zu zweit oder mit mehreren Helfern. Diese Anleitung sammelt die belegten Zahlen für Griffhöhe und Körperhaltung — und ergänzt, ausdrücklich als eigene Einordnung dieses Pakets, wie zwei Tragende sich beim Heben, Gehen und Absetzen abstimmen, ohne sich gegenseitig aus dem Tritt zu bringen.",
+      "materials": [
+        {
+          "item": "Handschuhe",
+          "amount": "ein Paar pro Person, wenn vorhanden",
+          "note": "Schützen die Finger an rauen oder scharfen Kanten und verbessern den Griff. Kein Ersatz für eine gute Griffstelle an der Last selbst."
+        }
+      ],
+      "tools": [
+        "feste, geschlossene Schuhe mit griffiger Sohle",
+        "wenn vorhanden: ein Tragegurt, Trageriemen oder eine Kiste mit festen Griffen"
+      ],
+      "difficulty": 2,
+      "sources": [
+        {
+          "name": "US-Arbeitsministerium, Arbeitsschutzbehörde (OSHA)",
+          "detail": "eTool „Solutions for Electrical Contractors — Materials Handling — Heavy Lifting“, osha.gov/etools/electrical-contractors/materials-handling/heavy, abgerufen am 20.08.2026. Gemeinfreies Werk der US-Bundesregierung. Die Seite beschreibt Lastenhandhabung allgemein am Beispiel von Elektrikerarbeiten, nicht ausdrücklich das gemeinsame Tragen zu zweit — dieser Teil ist als eigene Einordnung gekennzeichnet."
+        }
+      ],
+      "situations": [
+        "am-leben-bleiben",
+        "unterwegs"
+      ],
+      "steps": [
+        {
+          "text": "AB WANN ZU ZWEIT.\n\nDie Quelle nennt eine klare Zahl: Lasten über etwa 23 Kilogramm (50 Pfund) sollten nicht mehr von einer einzelnen Person gehoben werden, sondern zu zweit oder mit mehreren Helfern. Bei sperrigen, aber leichteren Lasten gilt sinngemäß dasselbe, sobald man die Last nicht mehr richtig fassen oder nicht mehr darüber hinwegsehen kann."
+        },
+        {
+          "text": "DIE RICHTIGE HÖHE — DIE ARBEITSZONE.\n\nDie Quelle nennt eine Zone zwischen MITTLERER OBERSCHENKELHÖHE und BRUSTMITTE als die Höhe, in der Heben am wenigsten Kraft kostet und am wenigsten dem Rücken schadet. Ein Hub sollte nicht unterhalb der Oberschenkelmitte beginnen und nicht oberhalb der Schulter enden: Von ganz unten heben belastet zusätzlich Beine, Knie und Rücken, über Schulterhöhe heben belastet Schultern, Arme und oberen Rücken."
+        },
+        {
+          "text": "HALTUNG BEIM HEBEN SELBST.\n\nIn die Knie gehen, nicht in den Rücken — das hält die Wirbelsäule gerade. Die Ellbogen nah am Körper halten und die Last so nah wie möglich am eigenen Körper tragen, nicht mit ausgestreckten Armen. Beim Drehen NICHT den Oberkörper verdrehen, sondern mit den Füßen drehen. Diese drei Regeln stehen so in der Quelle und gelten für eine Person genauso wie für zwei."
+        },
+        {
+          "text": "AUSNAHME BEI SPERRIGEN LASTEN.\n\nBei großen, unhandlichen Lasten kann es laut Quelle besser sein, in der Hüfte statt in den Knien zu beugen — Hauptsache, die Last bleibt nah am Körper. Diese Ausnahme steht in der Quelle ausdrücklich NEBEN der sonst geltenden Regel „Knie, nicht Rücken“, ohne dass die Quelle beides gegeneinander auflöst."
+        },
+        {
+          "text": "GEMEINSAM HEBEN, OHNE GEGENEINANDER ZU ARBEITEN — EINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE.\n\nDie Quelle beschreibt Lastenhandhabung allgemein, nicht ausdrücklich das Zusammenspiel zweier Tragender. Aus den genannten Grundregeln ergibt sich: Vor dem Heben absprechen, wer welches Ende nimmt, und laut zählen — zum Beispiel „drei, zwei, eins, hoch“ —, damit beide im selben Moment die Knie strecken. Nach Möglichkeit die stärkere oder größere Person an die schwerere Seite der Last stellen. Beim Tragen im gleichen Schritt gehen oder sich laufend ansagen, wenn eine Stufe, ein Hindernis oder eine Pause kommt."
+        },
+        {
+          "text": "ABSETZEN.\n\nGenauso wie beim Heben: in den Knien beugen, die Last kontrolliert bis in die Arbeitszone senken und erst danach ganz ablegen — nicht fallen lassen. Wie beim Hochheben laut zählen, damit beide im selben Moment ablegen und niemand plötzlich das ganze Gewicht allein trägt. Finger und Füße aus dem Bereich halten, in dem die Last aufkommt — auch das ist als Einordnung dieses Pakets ergänzt, nicht aus der Quelle selbst."
+        },
+        {
+          "text": "WAS HIER FEHLT.\n\nDie Quelle nennt keine Zahl dafür, wie viel zwei Personen zusammen heben dürfen, sondern nur die Grenze von 23 Kilogramm für EINE Person allein. Zu Tragestrecken, Pausenabständen oder einer Grenze für mehr als zwei Tragende sagt sie nichts. Und sie behandelt Gegenstände, nicht Menschen — für das Tragen einer verletzten Person gelten die eigenen Handgriffe der Erste-Hilfe-Tipps, etwa der Vier-Hände-Sitz und die Behelfstrage."
+        }
+      ]
+    },
+    {
+      "id": "werkzeug-schmiedeschweissen",
+      "title": "Zerbrochenes Eisen zusammenschmieden: zwei Enden verschweißen",
+      "category": "werkzeug",
+      "summary": "Ein glatt durchgebrochenes Kettenglied, ein abgerissener Haken, eine gebrochene Eisenstange: Ohne Schweißgerät bleibt nur das älteste Verfahren — das Zusammenschmieden im Feuer. Zwei Enden werden weißglühend gemacht und dann mit dem Hammer ineinandergetrieben, bis sie zu einem Stück verschmelzen. Diese Anleitung aus einem Lehrbuch für die Dorfschmiede von 1901 zeigt die Grundtechnik am Beispiel eines neuen Kettenglieds und beim Verbinden zweier loser Eisenstücke — darauf läuft jede Reparatur eines gebrochenen Eisenteils hinaus.",
+      "materials": [
+        {
+          "item": "Holzkohle",
+          "amount": "genug für eine anhaltend heiße Glut",
+          "note": "Die Quelle verlangt eine SAUBERE Glut ohne Schlacke oder alte Asche am Boden, mit gut brennendem Koks und nachgelegter Kohle ringsum. Frische Kohle darf die Eisenstücke selbst nicht berühren."
+        }
+      ],
+      "tools": [
+        "Feuerstelle oder Esse mit kräftigem Luftzug",
+        "Amboss",
+        "Schmiedehammer",
+        "Zange, für kurze Stücke besser zwei Zangen"
+      ],
+      "difficulty": 3,
+      "sources": [
+        {
+          "name": "James M. Drew, Lehrer für Schmiedearbeit, University of Minnesota",
+          "detail": "„Farm Blacksmithing“, Webb Publishing Company, St. Paul, Copyright 1901, gedruckt 1904, Abschnitte „Making Chain“ und „Welding“. Volltext: archive.org/details/farmblacksmithin00drew (Textfassung), gelesen am 20.08.2026. Digitalisiert von der Library of Congress; deren Rechteangabe nennt keine bekannte Urheberrechtsbeschränkung. Erschienen 1901, vor der 1930er-Grenze dieses Pakets für gemeinfreie Handwerksbücher."
+        }
+      ],
+      "situations": [
+        "am-leben-bleiben"
+      ],
+      "steps": [
+        {
+          "text": "WEISSGLUT ERKENNEN — DER UNTERSCHIED ZUM HÄRTEN.\n\nZum Schweißen muss Eisen viel heißer werden als zum Härten von Werkzeugstahl (siehe „Werkzeug richten: Verbogenes strecken und ein verschlagenes Ende neu härten“). Bei Schweißhitze ist das Eisen WEISS, und die Oberfläche sieht nass und schmelzend aus — die Quelle vergleicht es mit einem Schneeball, der lange in warmen Händen lag. Wer wartet, bis Funken aus dem Eisen sprühen, hat schon zu lange gewartet: Dann verbrennt das Eisen bereits, und die Stelle wird beim Schweißen brüchig statt fest."
+        },
+        {
+          "text": "DIE ENDEN VORBEREITEN.\n\nBeide Enden, die verbunden werden sollen, zuerst leicht stauchen: ein Ende erhitzen und heiß gegen den Amboss stauchen, damit es dicker wird. Das gleicht später den Materialverlust an der Schweißstelle aus — ohne dieses Stauchen wird das Eisen an der Naht dünner als der Rest, ein Fehler, der sich hinterher nicht mehr beheben lässt.\n\nDanach jedes Ende schräg flach schmieden („schränken“ oder Schrägfläche anschmieden), sodass beide Flächen später sauber aufeinanderpassen. Auf der Schweißfläche darf keine Zunderschicht und keine Asche bleiben."
+        },
+        {
+          "text": "DIE GLUT UND DIE HALTUNG.\n\nBeide Eisen mit der vorbereiteten Fläche nach UNTEN ins Feuer legen, mit glühendem Koks sowohl darüber als auch darunter. Beide Stücke gleich schnell erhitzen — wird eines schneller heiß, etwas zurückziehen. Hammer griffbereit auf dem Amboss ablegen, BEVOR die Enden aus dem Feuer kommen: Bei Schweißhitze bleibt keine Zeit zum Suchen."
+        },
+        {
+          "text": "DER SCHLAG.\n\nSobald beide Enden weißglühend sind, zügig aus dem Feuer nehmen und einmal kurz und kräftig auf die Amboss-Kante schlagen — das schüttelt Schmutz und Zunder ab. Dann die beiden vorbereiteten Flächen aufeinanderlegen und SOFORT mit einem leichten, dann einem kräftigen Hammerschlag verbinden. Danach die Naht rundherum bearbeiten, bis sie wieder die Stärke des übrigen Eisens hat.\n\nIst das Eisen zwischendurch unter Schweißhitze abgekühlt, nicht weiterschlagen — das schadet nur. Zurück ins Feuer und neu aufheizen, bis wieder Schweißhitze erreicht ist."
+        },
+        {
+          "text": "BEISPIEL: EIN FEHLENDES KETTENGLIED ERSETZEN.\n\nEin Stück Rundeisen zur Form eines „U“ biegen, beide Schenkel gleich lang absägen, die INNENSEITE beider Enden vorbereiten wie oben beschrieben, dann die Schenkel so biegen, dass sich die vorbereiteten Stellen rechtwinklig kreuzen. So verschweißt, entsteht ein neues, geschlossenes Kettenglied — genau, wie es die Quelle für das Ausbessern von Ketten mit fehlenden oder gebrochenen Gliedern und Haken beschreibt."
+        },
+        {
+          "text": "FLACHES EISEN UND WINKEL.\n\nFlaches Eisen wird genauso geschweißt wie rundes, ist aber schwerer sauber hinzubekommen, weil Kanten und Ecken nicht von selbst mitverschmelzen. Bei einer rechtwinkligen Verbindung nie eine scharfe INNENECKE stehen lassen — dort reißt die Schweißnaht später fast immer ein. Die Innenecke lieber gerundet lassen; muss sie unbedingt eckig sein, wird sie danach kalt mit der Feile nachgearbeitet, nicht warm geschmiedet."
+        },
+        {
+          "text": "GRENZEN UND WARNUNG.\n\nDiese Technik verlangt eine wirklich heiße, gleichmäßige Glut — mit einem gewöhnlichen Lagerfeuer allein ist Weißglut kaum zu erreichen, dafür braucht es angefachte Holzkohle mit kräftigem Luftzug. Weißglühendes Eisen verbrennt bei Berührung sofort und tief; Zange, Lederhandschuhe und ein freier, unbrennbarer Untergrund sind Pflicht, keine Empfehlung.\n\nFür Werkzeugstahl mit Schneide — Meißel, Axt, Messer — ist diese Technik NICHT der richtige nächste Schritt: Nach dem Schweißen müsste die Stelle noch gehärtet werden, siehe „Werkzeug richten: Verbogenes strecken und ein verschlagenes Ende neu härten“, und die Quelle selbst behandelt nur einfaches Schmiedeeisen, keine gehärteten Werkzeugstähle.",
+          "warning": "Weißglühendes Eisen verbrennt bei Berührung sofort — nur mit Zange anfassen, feste Lederhandschuhe und unbrennbaren Untergrund benutzen."
+        }
+      ]
     }
   ],
   "groups": [

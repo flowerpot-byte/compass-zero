@@ -1340,10 +1340,10 @@ class ZusammenspielTest {
         )
     }
 
-    // Max' Einwand vom 28.07.2026: Die Wiederbelebungs-Regeln setzen still
-    // voraus, dass jemand kommt und uebernimmt. Die Leitlinie denkt den Fall
-    // ohne Telefon tatsaechlich mit -- und gibt zu, dass sie keine Zahl dafuer
-    // hat. Beides muss dastehen, samt der Folgerung fuer den Fall, dass es
+    // Einwand vom 28.07.2026: Die Wiederbelebungs-Regeln setzen still voraus,
+    // dass jemand kommt und uebernimmt. Die Leitlinie denkt den Fall ohne
+    // Telefon tatsaechlich mit -- und gibt zu, dass sie keine Zahl dafuer hat.
+    // Beides muss dastehen, samt der Folgerung fuer den Fall, dass es
     // ueberhaupt keine Hilfe zu holen gibt.
     @Test
     fun derNotrufTippDenktDenEinzelnenHelferOhneTelefonMit() {

@@ -116,11 +116,11 @@ dependencies {
 // hier nicht und darf hier nie stehen. Ohne sie kann die App auf
 // Betriebssystemebene nicht ins Netz, und das ist von jedem nachpruefbar.
 //
-// Die drei Bluetooth-Rechte hat Max am 18.08.2026 einzeln entschieden, fuer den
+// Die drei Bluetooth-Rechte wurden am 18.08.2026 einzeln entschieden, fuer den
 // Paketaustausch von Geraet zu Geraet. Sie kosten die Aussage "keine einzige
 // Berechtigung"; ausdruecklich NICHT dabei sind BLUETOOTH_SCAN,
-// BLUETOOTH_ADVERTISE und jedes Ortungsrecht -- die App sucht keine Geraete und
-// macht sich nicht sichtbar, gekoppelt wird in den Android-Einstellungen.
+// BLUETOOTH_ADVERTISE und jedes Ortungsrecht -- die App sucht keine Geraete
+// und macht sich nicht sichtbar, gekoppelt wird in den Android-Einstellungen.
 //
 // Wer hier etwas ergaenzt, aendert eine Zusage der App und nicht eine
 // Einstellung. Das ist der Sinn dieser Liste.

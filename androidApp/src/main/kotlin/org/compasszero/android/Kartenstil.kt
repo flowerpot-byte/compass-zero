@@ -65,12 +65,12 @@ class Kartenstil private constructor(
     /**
      * Strichbreite in Bildpunkten der Kachel (256 je Kante).
      *
-     * DIE BREITE HAENGT AN DER ZOOMSTUFE, und der Grund steht in Max'
+     * DIE BREITE HAENGT AN DER ZOOMSTUFE, und der Grund steht in der
      * Rueckmeldung vom 18.08.2026: Bei Zoom 7 war die Karte ein weisses
-     * Gewirr. Das lag nicht an der Farbe -- auf dieser Stufe sind ALLE
-     * weissen Linien Hauptstrassen, und quer durch Deutschland ist dieses
-     * Netz von Haus aus dicht. Mit 2,4 Bildpunkten Breite wachsen die Striche
-     * dort zusammen, und aus einem Netz wird eine Flaeche.
+     * Gewirr. Das lag nicht an der Farbe -- auf dieser Stufe sind ALLE weissen
+     * Linien Hauptstrassen, und quer durch Deutschland ist dieses Netz von
+     * Haus aus dicht. Mit 2,4 Bildpunkten Breite wachsen die Striche dort
+     * zusammen, und aus einem Netz wird eine Flaeche.
      *
      * Nah dagegen ist das Umgekehrte richtig: Ein Pfad, dem man wirklich
      * folgt, darf kein Haar sein.
@@ -157,10 +157,10 @@ class Kartenstil private constructor(
             // KRAEFTIGER ALS ZUERST GEDACHT, und das ist kein Geschmack: Mit
             // rgb(126,88,128) auf 1,6 Bildpunkten waren die Grenzen auf dem
             // Geraet zwar vorhanden, aber neben den braunen Strassen so blass,
-            // dass Max sie am 05.08.2026 schlicht vermisste. Eine Staatsgrenze
-            // ist die wichtigste Linie einer Uebersichtskarte -- an ihr haengen
-            // Sprache, Notrufnummer und Recht. Sie muss die auffaelligste
-            // Linie sein, nicht die unauffaelligste.
+            // dass sie am 05.08.2026 schlicht vermisst wurden. Eine
+            // Staatsgrenze ist die wichtigste Linie einer Uebersichtskarte --
+            // an ihr haengen Sprache, Notrufnummer und Recht. Sie muss die
+            // auffaelligste Linie sein, nicht die unauffaelligste.
             strich[Kartenformat.GRENZE] = Color.rgb(104, 58, 116)
             strich[Kartenformat.GRENZE_REGION] = Color.rgb(150, 118, 156)
             breite[Kartenformat.GRENZE] = 2.6f
@@ -197,14 +197,13 @@ class Kartenstil private constructor(
             // also nie einen Stromgrund fuer die Einheitsfarbe -- nur einen
             // Denkfehler.
             //
-            // Was er angerichtet hat, steht in Max' Rueckmeldung vom
-            // 18.08.2026: "die karte ist noch absolut unuebersichtlich
-            // dadurch das alle linien nur weiss sind und sich so nicht
-            // unterscheiden lassen." Grautoene, die auf dem Bildschirm
-            // nebeneinander noch verschieden aussehen, sind es als
-            // kantengeglaettete Haarlinie nicht mehr: Der Glaettungsrand
-            // frisst genau den Helligkeitsunterschied auf, an dem man sie
-            // unterscheiden sollte.
+            // Was er angerichtet hat, steht in der Rueckmeldung vom
+            // 18.08.2026: "die karte ist noch absolut unuebersichtlich dadurch
+            // das alle linien nur weiss sind und sich so nicht unterscheiden
+            // lassen." Grautoene, die auf dem Bildschirm nebeneinander noch
+            // verschieden aussehen, sind es als kantengeglaettete Haarlinie
+            // nicht mehr: Der Glaettungsrand frisst genau den
+            // Helligkeitsunterschied auf, an dem man sie unterscheiden sollte.
             //
             // Deshalb jetzt EIGENE FARBTOENE statt eigener Helligkeiten.
             // Wasser blau, Wege warm, Grenzen violett -- die Zuordnung, die
@@ -255,7 +254,7 @@ class Kartenstil private constructor(
                 // ein SCHWARZER Rand auf schwarzem Grund genau kein heller
                 // Bildpunkt -- er loescht nur dort, wo eine Linie oder ein
                 // Punkt unter der Schrift liegt. Ohne ihn klebten die Namen
-                // aufeinander und auf den Linien; Max am 06.08.2026:
+                // aufeinander und auf den Linien; Rueckmeldung vom 06.08.2026:
                 // "vorallem im notfallmodus ist die karte unuebersichtlich."
                 beschriftungRand = Color.BLACK,
                 punktfarbeWasser = Color.rgb(255, 214, 0),

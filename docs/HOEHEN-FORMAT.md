@@ -164,7 +164,7 @@ weiterhin. Nur ist sie nicht mehr alles, was aus diesen Zahlen wird: Die
 Höhenangabe unter dem Finger kommt aus derselben Datei, und danach entscheidet
 jemand, ob er über einen Sattel geht oder außenherum. Als drei weitere Formate
 einen Umschlag bekamen, war der vierte kein Aufwand mehr, sondern nur noch eine
-Ausnahme, die man hätte erklären müssen. **Max hat sie deshalb aufgehoben.**
+Ausnahme, die man hätte erklären müssen. **Sie wurde deshalb aufgehoben.**
 
 Eine Datei ohne Umschlag wird weiterhin gelesen und als unsigniert
 gekennzeichnet — dieselbe Regel wie bei allen anderen. Näheres in

@@ -35,8 +35,8 @@ SORTEN = {
     13: "Ortsname", 14: "Grenze", 15: "Regionsgrenze",
 }
 
-# Was der Schalter weglaesst. WEG_PFAD (10) kam am 18.08.2026 dazu, von Max
-# entschieden -- die Zahl unten sagt, was das kostet.
+# Was der Schalter weglaesst. WEG_PFAD (10) kam am 18.08.2026 dazu,
+# ausdruecklich entschieden -- die Zahl unten sagt, was das kostet.
 RUHIG_WEG = {11, 10, 2, 15}
 
 

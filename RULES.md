@@ -1,6 +1,6 @@
 # Grundregeln — Compass Zero
 
-**Diese Regeln sind unumstößlich.** Sie dürfen NUR durch eine direkte, unmissverständliche Anweisung von Max geändert werden — nicht durch Ableitung, Bequemlichkeit, Zeitdruck oder die Annahme "das ergibt hier mehr Sinn". Im Zweifel: Regel befolgen und nachfragen, nicht eigenständig abweichen.
+**Diese Regeln sind unumstößlich.** Sie dürfen NUR durch eine direkte, unmissverständliche Entscheidung der Projektleitung geändert werden — nicht durch Ableitung, Bequemlichkeit, Zeitdruck oder die Annahme "das ergibt hier mehr Sinn". Im Zweifel: Regel befolgen und nachfragen, nicht eigenständig abweichen.
 
 ## 1. Qualität vor Zeit und Kosten
 

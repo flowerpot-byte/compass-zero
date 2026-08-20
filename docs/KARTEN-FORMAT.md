@@ -4,7 +4,7 @@ Stand 04.08.2026. Fassung 1.
 
 ## Lizenz der Kartendaten — ODbL, nicht CC BY-SA
 
-**Von Max entschieden am 04.08.2026.** Die Karte entsteht aus
+**Entschieden am 04.08.2026.** Die Karte entsteht aus
 OpenStreetMap-Daten. OSM steht unter der **Open Database License 1.0**. Eine
 `.czk` ist damit eine abgeleitete Datenbank im Sinne der ODbL und muss unter
 ODbL weitergegeben werden, mit dem Hinweis:

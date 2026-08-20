@@ -3,8 +3,8 @@
 beschriftet sie deutsch.
 
 WARUM ES DAS GIBT: Die Skizzen des Pakets waren aus einfachen Formen von Hand
-zusammengesetzt. Max hat am 11.08.2026 genau das beanstandet -- wenig Detail,
-und weil jede Form von Hand gesetzt ist, ist jede Form auch von Hand falsch
+zusammengesetzt. Am 11.08.2026 wurde genau das beanstandet -- wenig Detail, und
+weil jede Form von Hand gesetzt ist, ist jede Form auch von Hand falsch
 setzbar. Die Hefte, aus denen der Text stammt, enthalten dagegen echte
 Stichzeichnungen. Das Detail kommt dann vom Stecher, die Beschriftung von uns.
 

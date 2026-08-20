@@ -40,12 +40,12 @@ object Sinnbild {
 /**
  * Ein selbst gesetzter Punkt auf der Karte.
  *
- * Er darf seit dem 17.08.2026 ein Sinnbild tragen -- Max wollte die Wegpunkte
- * uebersichtlicher haben. Was dabei NICHT aufgegeben wird, ist die Trennung,
- * um die es der urspruenglichen Fassung ging: Die Punkte aus der Kartendatei
- * sind geprueft und signiert, diese hier sind eine Behauptung des Nutzers.
- * Sie duerfen einander nie aehnlich sehen -- wer im Ernstfall eine Quelle
- * sucht, muss auf einen Blick erkennen, woher der Punkt kommt.
+ * Er darf seit dem 17.08.2026 ein Sinnbild tragen -- gewuenscht war, die
+ * Wegpunkte uebersichtlicher zu haben. Was dabei NICHT aufgegeben wird, ist
+ * die Trennung, um die es der urspruenglichen Fassung ging: Die Punkte aus der
+ * Kartendatei sind geprueft und signiert, diese hier sind eine Behauptung des
+ * Nutzers. Sie duerfen einander nie aehnlich sehen -- wer im Ernstfall eine
+ * Quelle sucht, muss auf einen Blick erkennen, woher der Punkt kommt.
  *
  * Deshalb liegt der Unterschied jetzt nicht mehr im Vorhandensein eines
  * Sinnbilds, sondern in der FORM: Ein eigener Punkt steht immer in einem

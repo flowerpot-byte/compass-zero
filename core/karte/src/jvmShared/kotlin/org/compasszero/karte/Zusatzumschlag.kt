@@ -15,9 +15,9 @@ import org.compasszero.security.TrustStore
  *
  * [urteil] ist null, wenn gar kein Umschlag da ist -- die Datei liegt dann
  * blank vor und niemand steht für sie ein. Das ist erlaubt und wird angezeigt,
- * nicht abgewiesen: Von Max am 18.08.2026 so entschieden, aus demselben Grund
- * wie bei Karten -- wer sich sein Wegenetz selbst aus den Rohdaten baut, soll
- * es benutzen können.
+ * nicht abgewiesen: Am 18.08.2026 so entschieden, aus demselben Grund wie bei
+ * Karten -- wer sich sein Wegenetz selbst aus den Rohdaten baut, soll es
+ * benutzen können.
  */
 class Umschlagbefund(val versatz: Long, val laenge: Long, val urteil: PackVerdict?)
 

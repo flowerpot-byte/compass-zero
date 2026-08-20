@@ -9,8 +9,8 @@ auf -- daran wurde es gemessen. Fuer Deutschland nicht: Dort ist ein Wegstueck
 an der Staatsgrenze meist als Gemeindegrenze beschriftet (`admin_level=8`),
 und dass es zugleich Staatsgrenze ist, steht nur in der Relation.
 
-Das Ergebnis war auf dem Geraet sichtbar und Max hat es am 05.08.2026 gemeldet:
-Auf der kleinsten Zoomstufe fehlten die Laendergrenzen. Nachgemessen in der
+Das Ergebnis war auf dem Geraet sichtbar und wurde am 05.08.2026 gemeldet: Auf
+der kleinsten Zoomstufe fehlten die Laendergrenzen. Nachgemessen in der
 gebauten Kachel ueber Mitteleuropa: 303 Grenzobjekte, davon 247 kuerzer als
 eine Strichperiode, Median 6 Bildpunkte von 1024. Kuesten und Skandinavien
 waren durchgehend, das Binnenland war Konfetti.

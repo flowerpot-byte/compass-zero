@@ -8,6 +8,7 @@ import android.text.TextWatcher
 import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
+import android.view.WindowManager
 import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.FrameLayout
@@ -29,6 +30,7 @@ import org.compasszero.content.Tip
 class Lexikon(
     private val gastgeber: Activity,
     private val paket: GeladenesPaket,
+    private val gemerkt: Gemerkt,
     private val markeZeigen: (Boolean) -> Unit,
 ) : Bereich {
 
@@ -219,6 +221,21 @@ class Lexikon(
         suchtext = ""
     }
 
+    // Der wachgehaltene Bildschirm haengt am Fenster der Activity, nicht an
+    // dieser Ansicht -- er muss deshalb ausdruecklich verschwinden, wenn ein
+    // anderer Bereich uebernimmt oder die App in den Hintergrund geht. Sonst
+    // bliebe der Bildschirm an, waehrend laengst die Karte offen ist.
+    override fun anhalten() {
+        gastgeber.window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+    }
+
+    // Kommt die App aus dem Hintergrund zurueck, waehrend hier noch derselbe
+    // Erste-Hilfe-Eintrag offen ist, wurde die Ansicht nicht neu gebaut -- die
+    // Flagge muss also von Hand wiederkommen, nicht nur ueber baue().
+    override fun fortsetzen() {
+        if (::b.isInitialized) aktualisiereBildschirmwach()
+    }
+
     override fun zurueck(): Boolean = when {
         // Die Bildschau liegt ueber allem, also raeumt die Zurueck-Taste sie
         // zuerst weg -- sonst schloesse sie den Eintrag unter einem Bild, das
@@ -302,9 +319,9 @@ class Lexikon(
     //
     // AM 04.08.2026 STANDEN HIER FUER EIN PAAR STUNDEN SECHS
     // DRINGLICHKEITSKACHELN (Jetzt sofort, Verletzt, Krank, Am Leben bleiben,
-    // Unterwegs, Lage und Gefahr). Max hat sie gesehen und gesagt, sie gefallen
-    // ihm nicht -- damit sind sie weg, und zwar ohne Diskussion: In diesem
-    // Projekt schlaegt sein Urteil jede Zaehlung.
+    // Unterwegs, Lage und Gefahr). Sie wurden am Geraet gesehen und
+    // zurueckgewiesen -- damit sind sie weg, und zwar ohne Diskussion: In
+    // diesem Projekt schlaegt das Urteil aus der Rueckmeldung jede Zaehlung.
     //
     // Genau dafuer war der Umbau rueckholbar gebaut. Das Feld `situations`
     // steht weiter im Paket und stoert dort niemanden; wer die Ansicht
@@ -341,8 +358,8 @@ class Lexikon(
         // EINE Kachel traegt Vollton, und zwar die Erste Hilfe. Bis zum
         // 29.07.2026 waren alle acht gleich hell -- eine ordentliche, aber
         // hierarchielose Flaeche, auf der das Auge nirgends zuerst hinfaellt.
-        // Die Vorlage, die Max geschickt hat, setzt genau dagegen einen
-        // schwarzen Block als Anker.
+        // Die vorgegebene Vorlage setzt genau dagegen einen schwarzen Block
+        // als Anker.
         //
         // Die Wahl ist nicht nur gestalterisch: Wer diese App im Ernstfall
         // aufmacht, sucht in den allermeisten Faellen genau das. Ein Blick soll
@@ -435,7 +452,7 @@ class Lexikon(
      *
      * Bis zum 05.08.2026 fuehrte das sofort in eine Liste aller Eintraege der
      * Kategorie -- bei Erster Hilfe 144 Titel mit 26 Zwischenueberschriften.
-     * Max' Rueckmeldung dazu: unuebersichtlich. Die Einteilung war da, aber sie
+     * Die Rueckmeldung dazu: unuebersichtlich. Die Einteilung war da, aber sie
      * war eine Ueberschrift in einer langen Liste und keine Ebene, an der man
      * abbiegen kann.
      *
@@ -580,7 +597,7 @@ class Lexikon(
     // Bis zum 04.08.2026 war sie kleiner (0,8-fach) und gedaempft, die Titel
     // darunter gross und schwarz. Damit war die Gliederung schwaecher als der
     // Inhalt, und "Erste Hilfe" mit 142 Eintraegen las sich als Wand aus
-    // Titeln -- genau Max' Rueckmeldung vom 04.08.2026, die Einteilung im
+    // Titeln -- genau die Rueckmeldung vom 04.08.2026, die Einteilung im
     // Lexikon sei unuebersichtlich. Am Geraet nachgesehen und dort bestaetigt,
     // nicht aus dem Quelltext geschlossen.
     /**
@@ -874,6 +891,7 @@ class Lexikon(
         listenkopf.visibility = if (alsListe) View.VISIBLE else View.GONE
         detailRueck.visibility = if (ansicht == Ansicht.DETAIL) View.VISIBLE else View.GONE
         detail.visibility = if (ansicht == Ansicht.DETAIL) View.VISIBLE else View.GONE
+        aktualisiereBildschirmwach()
 
         // Nur beim tatsaechlichen Wechsel bewegen. zeigeSuche laeuft bei jedem
         // Tastendruck und laesst die Ansicht dabei auf LISTE stehen -- dort
@@ -887,6 +905,29 @@ class Lexikon(
                 Ansicht.DETAIL -> b.aufgehen(detail)
             }
         }
+    }
+
+    // Wer eine Herzdruckmassage oder eine andere Erste-Hilfe-Anleitung liest,
+    // soll nicht nach dreissig Sekunden vor einem schwarzen Bildschirm stehen.
+    // Deshalb bleibt der Bildschirm an, aber NUR solange genau so ein Eintrag
+    // offen ist -- alles andere (Lexikon-Kacheln, ein Kapitel Agrikultur, eine
+    // Bauanleitung) zehrt weiter normal am Akku. Im Sparmodus bleibt es aus:
+    // Der ist fuer den knappen Akku da, und ein wachgehaltener Bildschirm waere
+    // sein Gegenteil.
+    private fun aktualisiereBildschirmwach() {
+        val soll = ansicht == Ansicht.DETAIL && zeigtOffeneErsteHilfe() &&
+            gemerkt.bildschirmBeiErsteHilfeAn && !b.sparmodus
+        if (soll) {
+            gastgeber.window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        } else {
+            gastgeber.window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        }
+    }
+
+    private fun zeigtOffeneErsteHilfe(): Boolean {
+        val eintrag = offenerEintrag ?: return false
+        if (eintrag.art != ContentKind.Tip) return false
+        return paket.pack.tips.firstOrNull { it.id == eintrag.id }?.category == "erste-hilfe"
     }
 
     // Deutliche Zurueck-Zeile fuer Trefferliste und Detailansicht -- dieselbe

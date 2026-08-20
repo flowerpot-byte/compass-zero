@@ -1,7 +1,7 @@
 # Entwurf: Dateien ohne Netz austauschen (Bluetooth)
 
 Stand 17.08.2026. **Entwurf; der plattformneutrale Teil steht bereits, der
-Android-Teil ist nicht gebaut.** Max hat am 17.08.2026 gewünscht, „das ein
+Android-Teil ist nicht gebaut.** Anlass ist der Wunsch vom 17.08.2026, „das ein
 modul eingebaut wird … mit der man ohne internett also mit wlan oder blutooth
 datein der app leicht austauschen kann".
 
@@ -10,8 +10,8 @@ datein der app leicht austauschen kann".
 WLAN-Direct und Wi-Fi Aware verlangen auf Android die Berechtigung
 `INTERNET` (dazu `ACCESS_WIFI_STATE` und Ortungsrechte). Damit fiele die
 Zusage, die in Regel 2 steht und die der Berechtigungswächter in
-`androidApp/build.gradle.kts` bei jedem Bau erzwingt. **Max hat das am
-28.07.2026 selbst so entschieden:** Bluetooth ist der einzige Weg für ganze
+`androidApp/build.gradle.kts` bei jedem Bau erzwingt. **Genau so wurde es am
+28.07.2026 entschieden:** Bluetooth ist der einzige Weg für ganze
 Pakete, NFC und QR nur für Kleinstdaten. Der Wunsch „mit WLAN" ist damit nicht
 umsetzbar, ohne die Grundzusage der App aufzugeben.
 
@@ -85,10 +85,10 @@ Schnittstellen hängen.** Das ist der ganze Rest.
    Hand kopiertes — es wird erst nach bestandener Prüfung an seinen Platz
    gelegt. Ein Paket über Bluetooth ist kein vertrauenswürdigeres Paket.
 
-## Was Max entscheiden muss
+## Was noch zu entscheiden ist
 
-1. **Reicht Bluetooth für das, was er vorhat?** Wenn es ihm um Karten geht,
-   ist Kabel oder Speicherkarte der bessere Weg, und Bluetooth bleibt für die
+1. **Reicht Bluetooth für den vorgesehenen Zweck?** Geht es um Karten, ist
+   Kabel oder Speicherkarte der bessere Weg, und Bluetooth bleibt für die
    Inhaltspakete.
 2. **Koppeln in den Android-Einstellungen** — einverstanden? Die Alternative
    wäre die Ortungsberechtigung, und die widerspricht der Zusage der App.

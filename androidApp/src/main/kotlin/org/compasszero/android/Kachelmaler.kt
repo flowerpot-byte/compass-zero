@@ -32,7 +32,7 @@ class Kachelmaler(
     /**
      * Ruhige Karte: laesst die beiden dichtesten Sorten weg.
      *
-     * Max am 17.08.2026: "ich finde ist die karte mit informationen
+     * Rueckmeldung vom 17.08.2026: "ich finde ist die karte mit informationen
      * ueberladen". Was die Flaeche wirklich zustellt, sind Baeche und
      * Regionsgrenzen -- ein feines blaues Netz und ein gestricheltes Gitter
      * ueber allem, beides in Gegenden ohne jeden Orientierungswert.
@@ -50,12 +50,12 @@ class Kachelmaler(
     /**
      * Sorten, die gar nicht gezeichnet werden.
      *
-     * WARUM ES DAS GIBT (Max am 18.08.2026): "selbst mit allen ebenen aus ist
-     * immer noch extrem viele linien auf der karte zu sehen. was ist das man
-     * soll es ausschalten koennen." Die Ebenen-Schalter steuerten bis dahin
-     * nur die PUNKTE -- Quellen, Huetten, Orte. Die gezeichnete Karte selbst,
-     * also Strassen, Wege, Gewaesser und Grenzen, hatte ueberhaupt keinen
-     * Schalter; sie war einfach immer da.
+     * WARUM ES DAS GIBT (Rueckmeldung vom 18.08.2026): "selbst mit allen
+     * ebenen aus ist immer noch extrem viele linien auf der karte zu sehen.
+     * was ist das man soll es ausschalten koennen." Die Ebenen-Schalter
+     * steuerten bis dahin nur die PUNKTE -- Quellen, Huetten, Orte. Die
+     * gezeichnete Karte selbst, also Strassen, Wege, Gewaesser und Grenzen,
+     * hatte ueberhaupt keinen Schalter; sie war einfach immer da.
      *
      * Ueber einem Satellitenbild ist das der Unterschied zwischen einem Foto
      * und einem Foto unter einem Netz aus Strichen.
@@ -79,8 +79,8 @@ class Kachelmaler(
     //
     // ZWEI MUSTER, NICHT EINES. Bis zum 05.08.2026 waren Staats- und
     // Landesgrenze derselbe feine Strich in zwei aehnlichen Violettoenen. Auf
-    // dem Geraet war das Ergebnis, dass Max die Laendergrenzen schlicht
-    // vermisste -- sie WAREN da (in der gebauten Europakarte stehen auf Zoom 4
+    // dem Geraet war das Ergebnis, dass die Laendergrenzen schlicht vermisst
+    // wurden -- sie WAREN da (in der gebauten Europakarte stehen auf Zoom 4
     // bereits 1275 Grenzobjekte), aber sie waren neben den kraeftigen braunen
     // Strassen nicht als Grenze zu erkennen.
     //
@@ -194,8 +194,8 @@ class Kachelmaler(
      * teilung x teilung -- und zwar formatfuellend, also vergroessert.
      *
      * WOFUER: Der Europa-Ueberblick endet bei Zoom 10. Wer weiter hineinzoomte,
-     * sah ausserhalb Oesterreichs ab Zoom 11 nichts als Weiss (Max am
-     * 05.08.2026: "ab zoomstufe 12 die karte an vielen stellen nur noch
+     * sah ausserhalb Oesterreichs ab Zoom 11 nichts als Weiss (Rueckmeldung
+     * vom 05.08.2026: "ab zoomstufe 12 die karte an vielen stellen nur noch
      * weiss"). Das ist die schlechteste aller Antworten: Eine leere Karte sagt
      * "hier ist nichts", obwohl "hier weiss ich nichts Genaueres" gemeint ist
      * -- und wer sich im Ernstfall darauf verlaesst, sucht einen Weg, den es
@@ -364,10 +364,10 @@ class Kachelmaler(
      * NACH LAENGE ZU FILTERN GEHT NICHT -- hier stand am 18.08.2026 ein
      * Versuch, und er war falsch.
      *
-     * Die Idee: Auf Max' Bildschirmfoto war Deutschland bei Zoom 6 eine
-     * blaue Flaeche, und Fluesse sind dort gemessen 50,6 Prozent der
-     * Zeichnung. Also nur noch die langen zeichnen -- der Rhein bleibt, der
-     * Zufluss von zwei Kilometern faellt weg.
+     * Die Idee: Auf dem Bildschirmfoto aus der Rueckmeldung war Deutschland
+     * bei Zoom 6 eine blaue Flaeche, und Fluesse sind dort gemessen 50,6
+     * Prozent der Zeichnung. Also nur noch die langen zeichnen -- der Rhein
+     * bleibt, der Zufluss von zwei Kilometern faellt weg.
      *
      * WARUM ES NICHT GEHT: Die Geometrie liegt auf dieser Stufe in kurzen
      * Stuecken. Nachgemessen in der beigelegten Karte: 1547 Flussobjekte auf
@@ -415,12 +415,12 @@ class Kachelmaler(
          * aufgefallen, weil bei Zoom 6 gemessen worden war, wo es keine
          * dieser Sorten gibt.
          *
-         * WEG_PFAD kam am 18.08.2026 dazu, auf Max' Entscheidung. Vorher stand
-         * hier das Gegenteil: Pfade seien Wege, auf denen man wirklich geht,
-         * und sie wegzulassen waere der falsche Handel. Das war eine
-         * Vermutung darueber, was jemand braucht -- Max hat sie am Geraet
-         * gesehen und anders entschieden. "Ruhig" ist die Uebersicht, und
-         * wer den Steig sucht, schaltet zurueck.
+         * WEG_PFAD kam am 18.08.2026 dazu, auf ausdrueckliche Entscheidung.
+         * Vorher stand hier das Gegenteil: Pfade seien Wege, auf denen man
+         * wirklich geht, und sie wegzulassen waere der falsche Handel. Das war
+         * eine Vermutung darueber, was jemand braucht -- am Geraet nachgesehen
+         * und dann anders entschieden. "Ruhig" ist die Uebersicht, und wer den
+         * Steig sucht, schaltet zurueck.
          */
         val RUHIG_WEG = setOf(
             Kartenformat.WEG_FEIN,
@@ -433,12 +433,12 @@ class Kachelmaler(
          * Was "Ruhig" auf den UEBERSICHTSSTUFEN zusaetzlich weglaesst.
          *
          * Gemessen in der beigelegten Karte auf Zoom 6: Fluesse sind 50,6
-         * Prozent aller Stuetzpunkte, Hauptstrassen 25,1, Grenzen 15,3. Max
-         * am 18.08.2026: "auf der karte ist viel zu viel los als das man sich
-         * irgenwie zurecht findet." Der groesste einzelne Posten ist damit
-         * benannt, und auf einer Uebersicht von halb Europa hilft das
-         * Flussnetz beim Zurechtfinden nicht -- die Kueste, die grossen Seen
-         * und die Staatsgrenzen tun es.
+         * Prozent aller Stuetzpunkte, Hauptstrassen 25,1, Grenzen 15,3.
+         * Rueckmeldung vom 18.08.2026: "auf der karte ist viel zu viel los als
+         * das man sich irgenwie zurecht findet." Der groesste einzelne Posten
+         * ist damit benannt, und auf einer Uebersicht von halb Europa hilft
+         * das Flussnetz beim Zurechtfinden nicht -- die Kueste, die grossen
+         * Seen und die Staatsgrenzen tun es.
          *
          * BIS ZOOM 9, danach nicht mehr: Wer soweit hineingeht, sucht Wasser
          * und nicht Uebersicht.

@@ -36,12 +36,12 @@ EINTRAG = struct.Struct("<BIIQI")
 # docs/KARTEN-FORMAT.md; hier ist die Durchsetzung.
 # FLUSS UND WEG-HAUPT STEHEN SEIT DEM 18.08.2026 AUF 8 STATT 5 UND 6.
 #
-# Max: "auf der karte ist viel zu viel los als das man sich irgenwie zurecht
-# findet." Nachgemessen in der Uebersichtskarte auf Zoom 6: Fluesse sind 50,6
-# Prozent aller Stuetzpunkte, Hauptstrassen 25,1, Grenzen 15,3 -- zusammen
-# ueber neunzig. Auf einer Uebersicht von halb Europa hilft beim Zurechtfinden
-# aber die Kueste, der grosse See, die Staatsgrenze, der Ort. Nicht jeder Bach
-# und nicht jede Bundesstrasse.
+# Rueckmeldung: "auf der karte ist viel zu viel los als das man sich irgenwie
+# zurecht findet." Nachgemessen in der Uebersichtskarte auf Zoom 6: Fluesse
+# sind 50,6 Prozent aller Stuetzpunkte, Hauptstrassen 25,1, Grenzen 15,3 --
+# zusammen ueber neunzig. Auf einer Uebersicht von halb Europa hilft beim
+# Zurechtfinden aber die Kueste, der grosse See, die Staatsgrenze, der Ort.
+# Nicht jeder Bach und nicht jede Bundesstrasse.
 #
 # Die Zahl war nicht willkuerlich: Am Geraet liess sich das NICHT beheben. Ein
 # Laengenfilter haette, wieder nachgemessen, alle Fluesse geloescht statt der
@@ -60,8 +60,8 @@ AB_ZOOM = {
 # Was auf dieser Stufe kleiner waere als ein Bildpunkt, faellt weg.
 MINDESTMASS = 16
 
-# ... AUSSER bei Grenzen. Das ist der Fehler, den Max am 05.08.2026 als
-# "auf der kleinsten zoomstufe keine laendergrenzen" gemeldet hat.
+# ... AUSSER bei Grenzen. Das ist der Fehler, der am 05.08.2026 als "auf der
+# kleinsten zoomstufe keine laendergrenzen" gemeldet wurde.
 #
 # Eine Grenze ist in OpenStreetMap keine Linie, sondern eine KETTE aus vielen
 # kurzen Wegstuecken -- an jeder Gemeindegrenze, die daran stoesst, faengt ein
@@ -115,8 +115,9 @@ AB_ZOOM_PUNKTART = {
     # Unterstand und Apotheke kamen kein einziges Mal vor.
     #
     # Auf dem Geraet hiess das: Von den fuenf Ebenen-Schaltern taten vier
-    # nichts, weil es nichts zum Ein- oder Ausschalten gab. Max am 06.08.2026:
-    # "irgendwie machen die overlay knoepfe noch nicht wirklich viel".
+    # nichts, weil es nichts zum Ein- oder Ausschalten gab. Rueckmeldung vom
+    # 06.08.2026: "irgendwie machen die overlay knoepfe noch nicht wirklich
+    # viel".
     #
     # Die Dichte traegt das. Im Oesterreich-Detail liegen auf einer Kachel der
     # Stufe 11 im Schnitt 4,9 Quellen, 2,8 Brunnen, 2,7 Apotheken, 1,8

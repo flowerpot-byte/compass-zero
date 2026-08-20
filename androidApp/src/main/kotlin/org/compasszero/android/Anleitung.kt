@@ -12,13 +12,13 @@ import android.widget.TextView
  * Die Anleitung: wie Karten hereinkommen, wie eine neuere Ausgabe eingespielt
  * wird und wie sich pruefen laesst, ob an der App etwas veraendert wurde.
  *
- * WARUM ES DAS ALS EIGENE SEITE GIBT (Max am 17.08.2026): "ich will das ein
- * modul eingebaut wird das eine anleitung gibt wie man weitere karten reinlaedt
- * aus dem internett bzw neuere releases von mir nutzt und wie man checked ob
- * irgendwas an der app veraendert wurde." Bis dahin standen Bruchstuecke davon
- * zwischen den Einstellungen -- an einer Stelle, an der man sie nur findet, wenn
- * man ohnehin scrollt, und ohne den einen Satz, auf den es ankommt: woher die
- * Dateien ueberhaupt kommen.
+ * WARUM ES DAS ALS EIGENE SEITE GIBT (Rueckmeldung vom 17.08.2026): "ich will
+ * das ein modul eingebaut wird das eine anleitung gibt wie man weitere karten
+ * reinlaedt aus dem internett bzw neuere releases von mir nutzt und wie man
+ * checked ob irgendwas an der app veraendert wurde." Bis dahin standen
+ * Bruchstuecke davon zwischen den Einstellungen -- an einer Stelle, an der man
+ * sie nur findet, wenn man ohnehin scrollt, und ohne den einen Satz, auf den
+ * es ankommt: woher die Dateien ueberhaupt kommen.
  *
  * ERST DIE FRAGE, DANN DER TEXT. Fuenf Kapitel als Liste; man tippt die Frage
  * an, die man hat. Eine durchlaufende Seite waere kuerzer zu bauen und im

@@ -11,7 +11,7 @@ einzelnen, was sie davon hält.
 ## Warum sie eine eigene Unterschrift brauchen
 
 Die Geländeform (`.czh`) war lange die begründete Ausnahme — nur Höhenzahlen,
-und einer gefälschten Schummerung folgt niemand. Am 18.08.2026 hat Max sie
+und einer gefälschten Schummerung folgt niemand. Am 18.08.2026 wurde sie
 aufgehoben, und zu Recht: Aus denselben Zahlen kommt die Höhenangabe unter dem
 Finger, und danach entscheidet jemand, ob er über einen Sattel geht oder
 außenherum. Bei den drei anderen war der Fall von Anfang an klar:
@@ -104,7 +104,7 @@ Inhalt nicht in Ordnung.
 
 ## Unsigniert wird gekennzeichnet, nicht abgewiesen
 
-Von Max am 18.08.2026 entschieden — dieselbe Regel wie bei Karten und aus
+Am 18.08.2026 entschieden — dieselbe Regel wie bei Karten und aus
 demselben Grund: Wer sich sein Wegenetz mit `wege_bauen.py` selbst aus den
 Rohdaten baut, soll es benutzen können. Die App sagt dann dazu, dass sie die
 Herkunft nicht belegen kann.

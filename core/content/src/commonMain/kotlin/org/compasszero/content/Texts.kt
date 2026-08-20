@@ -47,8 +47,8 @@ object Texts {
     // erlaubt sein kann, und auch nur dort -- nicht in Titeln, Schlagwoertern
     // oder Quellenangaben, denn die stehen einzeilig in Listen.
     //
-    // Grund fuer die Ausnahme: Ein medizinischer Tipp von zweitausend Zeichen in
-    // einem einzigen Absatz ist unter Stress kaum zu erfassen. Von Max am
+    // Grund fuer die Ausnahme: Ein medizinischer Tipp von zweitausend Zeichen
+    // in einem einzigen Absatz ist unter Stress kaum zu erfassen. Am
     // 29.07.2026 ausdruecklich so entschieden.
     //
     // Zugelassen ist ausschliesslich U+000A. Wagenruecklauf, Zeilen- und

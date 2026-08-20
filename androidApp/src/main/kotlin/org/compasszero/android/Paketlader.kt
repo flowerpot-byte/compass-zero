@@ -43,6 +43,19 @@ class GeladenesPaket(
 sealed interface Uebernahme {
     class Angenommen(val name: String, val fassung: Int) : Uebernahme
     class Abgelehnt(val grund: String) : Uebernahme
+
+    /**
+     * Aelter als die hoechste je angenommene Fassung -- abgelehnt, aber mit
+     * Notausgang.
+     *
+     * Der Fall, fuer den er da ist: Eine neue Fassung ist defekt, und die
+     * einzige brauchbare, die noch greifbar ist, ist eine aeltere. Dann darf
+     * sie benutzt werden -- aber nur nach einer ausdruecklichen Bestaetigung,
+     * die benennt, was sie bedeutet. Die Marke sinkt dabei NICHT: Beim
+     * naechsten Mal fragt die App wieder. Der Notausgang ist die Ausnahme fuer
+     * diesen Moment, kein Umschalten in einen anderen Betriebszustand.
+     */
+    class Rueckstufung(val grund: String, val marke: Int, val angeboten: Int) : Uebernahme
 }
 
 object Paketlader {
@@ -69,10 +82,25 @@ object Paketlader {
             val eigenes = File(context.filesDir, uebernommen)
             if (eigenes.exists()) {
                 val versuch = runCatching { oeffne(eigenes, vonAussen = true) }.getOrNull()
-                if (versuch != null && istGeprueft(versuch.verdict)) return@runCatching versuch
+                if (versuch != null && istGeprueft(versuch.verdict)) {
+                    merkeGeladenes(context.filesDir, versuch)
+                    return@runCatching versuch
+                }
             }
         }
-        oeffne(beigabe, vonAussen = false)
+        val gelaufen = oeffne(beigabe, vonAussen = false)
+        merkeGeladenes(context.filesDir, gelaufen)
+        gelaufen
+    }
+
+    // Auch die Beigabe setzt eine Marke. Ohne das haette ein Geraet, auf dem
+    // noch nie ein Paket uebernommen wurde, gar keine -- und die Beigabe liesse
+    // sich durch eine aeltere, gueltig unterschriebene Fassung ersetzen.
+    // Nur GEPRUEFTE Pakete setzen sie; ein fremd signiertes darf die Marke
+    // nicht anheben.
+    private fun merkeGeladenes(ordner: File, geladen: GeladenesPaket) {
+        if (!istGeprueft(geladen.verdict)) return
+        merkeFassung(ordner, geladen.pack.manifest.version, geladen.pack.manifest.id)
     }
 
     private fun oeffne(datei: File, vonAussen: Boolean): GeladenesPaket {
@@ -109,40 +137,123 @@ object Paketlader {
      *
      * Erst danach wird die Datei umgelegt: zuerst ".teil", dann umbenannt.
      */
-    fun uebernimmEmpfangenes(context: Context, quelle: File, jetziges: LoadedPack): Uebernahme {
+    fun uebernimmEmpfangenes(
+        context: Context,
+        quelle: File,
+        jetziges: LoadedPack,
+        rueckstufungBestaetigt: Boolean = false,
+    ): Uebernahme = uebernimmEmpfangenes(
+        context.filesDir, quelle, jetziges, rueckstufungBestaetigt,
+    )
+
+    /**
+     * Dieselbe Uebernahme, aber auf einem Ordner statt auf einem Context.
+     *
+     * Nur deshalb getrennt: So laesst sich der ganze Vorgang samt Marke ohne
+     * Geraet pruefen. Der Context traegt hier nichts bei ausser `filesDir`.
+     */
+    fun uebernimmEmpfangenes(
+        ordner: File,
+        quelle: File,
+        jetziges: LoadedPack,
+        rueckstufungBestaetigt: Boolean = false,
+    ): Uebernahme {
         val gelesen = try {
             PackReader.read(quelle, vertrauensspeicher())
         } catch (fehler: Exception) {
             return Uebernahme.Abgelehnt("Die Datei ließ sich nicht lesen.")
         }
-        if (!istGeprueft(gelesen.verdict)) {
-            return Uebernahme.Abgelehnt(urteilstext(gelesen.verdict))
-        }
-        val neu = gelesen.result?.pack
-            ?: return Uebernahme.Abgelehnt("Der Inhalt des Pakets ist beanstandet worden.")
-        if (neu.manifest.id != jetziges.manifest.id) {
-            return Uebernahme.Abgelehnt(
-                "Das ist ein anderes Paket (${neu.manifest.id}). Ausgetauscht wird nur dasselbe.",
-            )
-        }
-        if (neu.manifest.version <= jetziges.manifest.version) {
-            return Uebernahme.Abgelehnt(
-                "Fassung ${neu.manifest.version} ist nicht neuer als die vorhandene " +
-                    "${jetziges.manifest.version}. Eine ältere Fassung wird nicht eingespielt.",
-            )
-        }
-        val ziel = File(context.filesDir, UEBERNOMMEN)
-        val teil = File(context.filesDir, "$UEBERNOMMEN.teil")
+        val neu = if (istGeprueft(gelesen.verdict)) gelesen.result?.pack else null
+        val entschieden = entscheide(
+            ordner = ordner,
+            verdict = gelesen.verdict,
+            neueKennung = neu?.manifest?.id,
+            neueFassung = neu?.manifest?.version,
+            jetzige = jetziges,
+            rueckstufungBestaetigt = rueckstufungBestaetigt,
+        )
+        if (entschieden !is Uebernahme.Angenommen) return entschieden
+
+        val ziel = File(ordner, UEBERNOMMEN)
+        val teil = File(ordner, "$UEBERNOMMEN.teil")
         return try {
             quelle.inputStream().use { ein -> teil.outputStream().use { ein.copyTo(it) } }
             if (ziel.exists() && !ziel.delete()) error("altes Paket ließ sich nicht ersetzen")
             if (!teil.renameTo(ziel)) error("Paket ließ sich nicht ablegen")
             quelle.delete()
-            Uebernahme.Angenommen(UEBERNOMMEN, neu.manifest.version)
+            // ERST JETZT die Marke. Vorher waere sie eine Behauptung ueber ein
+            // Paket, das gar nicht liegt. Und sie steigt nur -- eine bestaetigte
+            // Rueckstufung laesst sie ausdruecklich oben.
+            merkeFassung(ordner, entschieden.fassung, neu!!.manifest.id)
+            entschieden
         } catch (fehler: Exception) {
             teil.delete()
             Uebernahme.Abgelehnt(fehler.message ?: "Das Paket ließ sich nicht ablegen.")
         }
+    }
+
+    /**
+     * Die reine Entscheidung, ohne eine einzige Datei anzufassen.
+     *
+     * Getrennt, damit die gefaehrlichste Zeile pruefbar ist: dass ein Paket mit
+     * kaputter Unterschrift die Marke nicht einmal beruehrt. Hier wird nichts
+     * geschrieben -- wer diese Funktion aufruft, kann die Marke nicht verderben.
+     */
+    internal fun entscheide(
+        ordner: File,
+        verdict: PackVerdict,
+        neueKennung: String?,
+        neueFassung: Int?,
+        jetzige: LoadedPack,
+        rueckstufungBestaetigt: Boolean,
+    ): Uebernahme {
+        if (!istGeprueft(verdict)) return Uebernahme.Abgelehnt(urteilstext(verdict))
+        if (neueKennung == null || neueFassung == null) {
+            return Uebernahme.Abgelehnt("Der Inhalt des Pakets ist beanstandet worden.")
+        }
+        if (neueKennung != jetzige.manifest.id) {
+            return Uebernahme.Abgelehnt(
+                "Das ist ein anderes Paket ($neueKennung). Ausgetauscht wird nur dasselbe.",
+            )
+        }
+        val stand = Paketmarken.lies(ordner)
+        if (stand is Paketmarken.Stand.Unlesbar) {
+            // Lieber anhalten als weitermachen, als gaebe es keine Marke. Eine
+            // unlesbare Sicherheitsmarke ist kein Grund, den Schutz fallen zu
+            // lassen -- sonst genuegte es, sie zu verderben.
+            return Uebernahme.Abgelehnt(
+                "Die Merkliste der angenommenen Fassungen ist beschädigt (${stand.grund}) " +
+                    "Bis das geklärt ist, wird kein Paket übernommen.",
+            )
+        }
+        // Fehlt die Marke noch -- frische Installation, altes Geraet --, gilt
+        // ersatzweise die Fassung des geladenen Pakets. Der Schutz darf durch
+        // die neue Merkliste nicht SCHWAECHER werden als vorher.
+        val ausDerListe = (stand as Paketmarken.Stand.Gelesen).marken[neueKennung] ?: 0
+        val marke = maxOf(ausDerListe, jetzige.manifest.version)
+        if (neueFassung < marke) {
+            if (!rueckstufungBestaetigt) {
+                return Uebernahme.Rueckstufung(
+                    grund = "Fassung $neueFassung ist älter als die höchste, die auf diesem " +
+                        "Gerät schon einmal angenommen wurde ($marke). Berichtigte Angaben " +
+                        "würden durch ältere ersetzt.",
+                    marke = marke,
+                    angeboten = neueFassung,
+                )
+            }
+        }
+        return Uebernahme.Angenommen(UEBERNOMMEN, neueFassung)
+    }
+
+    /**
+     * Haelt fest, dass diese Fassung angenommen wurde.
+     *
+     * Wird auch beim Laden aufgerufen: Sonst bekaeme ein Geraet, auf dem nie
+     * etwas uebernommen wurde, nie eine Marke -- und die Beigabe koennte durch
+     * eine aeltere, gueltig unterschriebene Fassung ersetzt werden.
+     */
+    fun merkeFassung(ordner: File, fassung: Int, kennung: String) {
+        runCatching { Paketmarken.hebe(ordner, kennung, fassung) }
     }
 
     // Die Pruefung arbeitet auf einer Datei, weil sie den Inhalt in einem

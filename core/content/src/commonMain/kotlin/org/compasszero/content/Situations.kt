@@ -8,14 +8,15 @@ package org.compasszero.content
  * Seitenlage bis zur Geburt. Das ist keine Gliederung, das ist ein Stapel, und
  * kein Rand und keine Schrift macht 137 gleichrangige Zeilen uebersichtlich.
  *
- * WARUM NEBEN [Tip.category] UND NICHT STATT DESSEN (von Max entschieden am
- * 04.08.2026, Variante B): `category` ist EIN String, ein Tipp gehoert damit zu
- * genau EINER Kategorie. Sechs Dringlichkeitsfelder wuerden bei jedem Tipp eine
- * Entweder-oder-Entscheidung erzwingen, die es sachlich nicht gibt -- wer
- * blutet, ist "jetzt sofort" UND "verletzt". Ausserdem traegt jede Themengruppe
- * selbst eine Kategorie; weicht sie ab, laedt das Paket gar nicht mehr.
+ * WARUM NEBEN [Tip.category] UND NICHT STATT DESSEN (entschieden am
+ * 04.08.2026, Variante B): `category` ist EIN String, ein Tipp gehoert damit
+ * zu genau EINER Kategorie. Sechs Dringlichkeitsfelder wuerden bei jedem Tipp
+ * eine Entweder-oder-Entscheidung erzwingen, die es sachlich nicht gibt -- wer
+ * blutet, ist "jetzt sofort" UND "verletzt". Ausserdem traegt jede
+ * Themengruppe selbst eine Kategorie; weicht sie ab, laedt das Paket gar nicht
+ * mehr.
  *
- * Der ausschlaggebende Grund war die Rueckholbarkeit: Gefaellt Max die Ansicht
+ * Der ausschlaggebende Grund war die Rueckholbarkeit: Gefaellt die Ansicht
  * nicht, wird diese Liste zurueckgesetzt und kein Inhaltspaket zurueckgebaut.
  *
  * DIE REIHENFOLGE IST DIE ANZEIGEREIHENFOLGE und nach Dringlichkeit gesetzt:

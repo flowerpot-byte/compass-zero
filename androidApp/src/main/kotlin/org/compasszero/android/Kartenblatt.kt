@@ -119,11 +119,11 @@ class Kartenblatt(
      * Welche Ebenen im aktuellen Bild ueberhaupt etwas zu zeigen haetten.
      *
      * WARUM DAS GEBRAUCHT WIRD: Ein Schalter, der nichts schaltet, sieht kaputt
-     * aus. Max am 06.08.2026: "irgendwie machen die overlay knoepfe noch nicht
-     * wirklich viel". Er hatte recht, und der Grund lag nicht am Schalter --
-     * in der Europa-Uebersicht gab es zu vier der fuenf Ebenen schlicht keine
-     * Punkte (gemessen: 200 Kacheln der Stufe 10 enthielten 146 Punkte, und
-     * davon nur Pass und Krankenhaus).
+     * aus. Rueckmeldung vom 06.08.2026: "irgendwie machen die overlay knoepfe
+     * noch nicht wirklich viel". Das traf zu, und der Grund lag nicht am
+     * Schalter -- in der Europa-Uebersicht gab es zu vier der fuenf Ebenen
+     * schlicht keine Punkte (gemessen: 200 Kacheln der Stufe 10 enthielten 146
+     * Punkte, und davon nur Pass und Krankenhaus).
      *
      * Die Daten sind nachgezogen, aber das Grundproblem bleibt: Auf einer
      * Uebersicht ueber halb Europa gibt es keine einzelne Quelle zu sehen, und
@@ -145,8 +145,8 @@ class Kartenblatt(
      * Die Kartendatei liefert alle Orte schon ab Zoom 4 -- vom
      * Millionen-Ballungsraum bis zur Einzellage. Auf dem ganzen Kontinent
      * gezeichnet ergibt das im Ruhrgebiet und in der Po-Ebene einen
-     * schwarzen Klumpen, in dem kein Name mehr lesbar ist. Max' Rueckmeldung
-     * am 05.08.2026 dazu war schlicht: unuebersichtlich, wirkt wie im Bau.
+     * schwarzen Klumpen, in dem kein Name mehr lesbar ist. Die Rueckmeldung
+     * dazu war am 05.08.2026 schlicht: unuebersichtlich, wirkt wie im Bau.
      *
      * Also nach Groesse staffeln. Die Schwellen sind so gesetzt, dass auf
      * jeder Stufe ungefaehr gleich viele Namen im Bild stehen: Wer
@@ -281,10 +281,10 @@ class Kartenblatt(
      * Stellen, an denen KEINE Karte etwas hat.
      *
      * WARUM DAS GEBRAUCHT WIRD -- gefunden beim Nachrechnen der Ruckler, die
-     * Max am 06.08.2026 gemeldet hat: Ein Kachelplatz ohne Daten wurde nirgends
+     * am 06.08.2026 gemeldet wurden: Ein Kachelplatz ohne Daten wurde nirgends
      * vermerkt. Bei jedem Bildaufbau wurde er deshalb neu beauftragt, der
-     * Hintergrundfaden suchte ihn in jeder Kartendatei erneut, fand nichts, und
-     * beim naechsten Bild ging dasselbe von vorn los.
+     * Hintergrundfaden suchte ihn in jeder Kartendatei erneut, fand nichts,
+     * und beim naechsten Bild ging dasselbe von vorn los.
      *
      * Auf Zoom 4 faellt das ins Gewicht: Die Europakarte hat auf dieser Stufe
      * 22 Kacheln, der Bildschirm fragt aber ueber hundert Plaetze ab. Vier von
@@ -519,9 +519,9 @@ class Kartenblatt(
     /**
      * Der Mittelpunkt aller aufliegenden Finger.
      *
-     * WARUM NICHT `ereignis.x` -- das war der Fehler, den Max am 06.08.2026 als
+     * WARUM NICHT `ereignis.x` -- das war der Fehler, der am 06.08.2026 als
      * "wenn ich auf dem handy zoome springt die karte hin und her" gemeldet
-     * hat: `ereignis.x` ist immer der ERSTE Finger. Beim Zoomen liegen zwei
+     * wurde: `ereignis.x` ist immer der ERSTE Finger. Beim Zoomen liegen zwei
      * auf, und sobald einer davon abhebt, ruecken die Nummern nach -- der
      * verbliebene Finger ist ploetzlich "der erste" und steht mehrere
      * Zentimeter woanders. Der naechste Wisch rechnet dann eine Strecke, die
@@ -599,11 +599,11 @@ class Kartenblatt(
      * Zeichnet das Sinnbild einer Ebene und gibt seinen halben Platzbedarf
      * zurueck -- daran haengt, wo der Name darunter anfaengt.
      *
-     * WARUM SINNBILDER UND NICHT PUNKTE: Max am 06.08.2026: "ich finde noch
-     * unuebersichtlich welche punkte was bedeuten". Er hat recht -- eine
-     * Quelle, eine Huette und ein Krankenhaus waren derselbe Kreis. Die Farbe
-     * trug die einzige Unterscheidung, und die kennt nur zwei Werte: Wasser
-     * und alles andere.
+     * WARUM SINNBILDER UND NICHT PUNKTE: Rueckmeldung vom 06.08.2026: "ich
+     * finde noch unuebersichtlich welche punkte was bedeuten". Das trifft zu
+     * -- eine Quelle, eine Huette und ein Krankenhaus waren derselbe Kreis.
+     * Die Farbe trug die einzige Unterscheidung, und die kennt nur zwei Werte:
+     * Wasser und alles andere.
      *
      * FUENF FORMEN, NICHT NEUNZEHN. Das Kartenformat kennt neunzehn
      * Punktarten, aber neunzehn Zeichen kann sich niemand merken, und auf
@@ -1303,10 +1303,10 @@ class Kartenblatt(
                 // Zuerst wurde aus px/py gerechnet. Damit wanderte das ganze
                 // Raster beim Schieben MIT der Hand ueber die Landkarte: In
                 // jedem Bild gewann ein anderer Ort sein Feld, Namen sprangen
-                // auf und verschwanden wieder. Max am 05.08.2026: "die namen
-                // veraendern sich sehr schnell und krass wenn ich die karte
-                // bewege." Eine Karte, deren Beschriftung beim Schieben
-                // flackert, ist nicht zu lesen.
+                // auf und verschwanden wieder. Rueckmeldung vom 05.08.2026:
+                // "die namen veraendern sich sehr schnell und krass wenn ich
+                // die karte bewege." Eine Karte, deren Beschriftung beim
+                // Schieben flackert, ist nicht zu lesen.
                 //
                 // Jetzt haengt das Feld am Ort selbst -- an seiner Lage in der
                 // Welt, in Rastereinheiten der angezeigten Stufe. Beim
@@ -1378,10 +1378,10 @@ class Kartenblatt(
      * Baut das Bild fuer eine Kachelstelle, indem es ALLE Karten uebereinander
      * legt, die dazu etwas beitragen koennen.
      *
-     * WARUM ES NICHT REICHT, EINE KARTE ZU NEHMEN -- der Fehler, den Max am
+     * WARUM ES NICHT REICHT, EINE KARTE ZU NEHMEN -- der Fehler, der am
      * 05.08.2026 mit "ab zoomstufe 12 die karte an vielen stellen nur noch
-     * weiss" gemeldet hat, gemessen an seiner Stelle (48.15 N, 12.78 O, Zoom
-     * 13, Burghausen an der Salzach):
+     * weiss" gemeldet wurde, gemessen an der genannten Stelle (48.15 N, 12.78
+     * O, Zoom 13, Burghausen an der Salzach):
      *
      *   Kachel 4385/2841 -> z11 aus dem Oesterreich-Detail (Teilung 4)
      *   Kachel 4386/2842 -> z12 aus dem Oesterreich-Detail (Teilung 2)
@@ -1418,10 +1418,10 @@ class Kartenblatt(
      * Fuellt eine noch nicht fertige Kachelstelle mit dem, was schon gezeichnet
      * ist -- notfalls groeber oder feiner als verlangt.
      *
-     * WARUM: Max am 06.08.2026: "die karte wird bei jedem neuen zoom lvl kurz
-     * weiss." Das lag nicht an fehlenden Daten, sondern daran, dass jede
-     * Zoomstufe ihre EIGENEN Kacheln hat. Beim Wechsel war der Speicher fuer
-     * die neue Stufe leer, und bis die ersten fertig gebaut waren, stand
+     * WARUM: Rueckmeldung vom 06.08.2026: "die karte wird bei jedem neuen zoom
+     * lvl kurz weiss." Das lag nicht an fehlenden Daten, sondern daran, dass
+     * jede Zoomstufe ihre EIGENEN Kacheln hat. Beim Wechsel war der Speicher
+     * fuer die neue Stufe leer, und bis die ersten fertig gebaut waren, stand
      * nichts da.
      *
      * Der Nachbar ist aber da: Beim Hineinzoomen liegt die groebere Stufe noch
@@ -1545,10 +1545,10 @@ class Kartenblatt(
                 // NICHT MEHR ALS ZWEI STUFEN HOCHRECHNEN. Die Hoehendaten
                 // enden bei Zoom 10 und sind 90 Meter grob. Auf Zoom 13 achtfach
                 // vergroessert ergeben sie einen weichen grauen Schleier ueber
-                // der ganzen Karte -- genau das, was auf Max' Bildschirmfoto vom
-                // 05.08.2026 verwaschen aussah. Ein Schatten, der nichts mehr
-                // ueber das Gelaende sagt, verdeckt nur die Linien, die etwas
-                // sagen.
+                // der ganzen Karte -- genau das, was auf dem Bildschirmfoto
+                // vom 05.08.2026 verwaschen aussah. Ein Schatten, der nichts
+                // mehr ueber das Gelaende sagt, verdeckt nur die Linien, die
+                // etwas sagen.
                 if (hoehe != null && zoom - hoehe.zoom <= 2) {
                     maler.schummere(bild, zoom, x, y, hoehe)
                 }
@@ -1605,10 +1605,11 @@ class Kartenblatt(
          * Wie weit man ueber die kleinste Stufe der Karte hinaus herauszoomen
          * darf.
          *
-         * Max am 06.08.2026: "ich will noch weiter rauszoomen koennen." Auf
-         * einem Telefon im Hochformat passt Europa bei Stufe 4 nicht ins Bild.
-         * Gezeichnet wird dann weiter aus den Kacheln der Stufe 4, nur kleiner
-         * -- die Karte wird also nicht groeber, sondern nur weiter.
+         * Rueckmeldung vom 06.08.2026: "ich will noch weiter rauszoomen
+         * koennen." Auf einem Telefon im Hochformat passt Europa bei Stufe 4
+         * nicht ins Bild. Gezeichnet wird dann weiter aus den Kacheln der
+         * Stufe 4, nur kleiner -- die Karte wird also nicht groeber, sondern
+         * nur weiter.
          *
          * Zwei Stufen und nicht mehr: Bei drei waere eine Kachel noch 84
          * Bildpunkte gross, die Beschriftung unleserlich, und der Bildschirm

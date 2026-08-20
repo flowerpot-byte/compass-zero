@@ -9,7 +9,7 @@
         Manifest eine Berechtigung steht; siehe PruefeBerechtigungen in
         androidApp/build.gradle.kts.
 
-        Die drei Bluetooth-Rechte stehen hier seit dem 18.08.2026, von Max
+        Die drei Bluetooth-Rechte stehen hier seit dem 18.08.2026 und wurden
         einzeln entschieden. Sie kosten die Aussage "keine einzige
         Berechtigung" — dafuer kann ein Inhaltspaket von Geraet zu Geraet
         gehen, wenn kein Netz mehr da ist.

@@ -230,11 +230,24 @@ class AltgeraetSpeicherTest {
     }
 
     // Kurze, garantiert verschiedene Woerter.
+    /**
+     * Ein Wort je Nummer, und zwar wirklich fuer jede Nummer ein anderes.
+     *
+     * FUENF STELLEN, NICHT VIER: Mit vier Stellen zu je 26 Buchstaben gibt es
+     * 456 976 verschiedene Woerter. Wer damit ein Paket mit mehr Vorkommen baut,
+     * bekommt ab dieser Zahl WIEDERHOLUNGEN -- und misst dann nicht mehr den
+     * schlimmsten Fall, sondern einen billigeren, ohne es zu merken. Genau das
+     * war am 20.08.2026 passiert: Die Begruendung an der Grenze berief sich auf
+     * eine Messung mit "lauter verschiedenen Woertern" bei 602 400 Vorkommen,
+     * die es so nicht gegeben hatte. Fuenf Stellen ergeben 11,9 Millionen
+     * Woerter und reichen weit ueber jede Grenze hinaus, die hier je gemessen
+     * wird.
+     */
     private fun wortNummer(n: Int): String {
         val stellen = "abcdefghijklmnopqrstuvwxyz"
         var rest = n
         val sb = StringBuilder("w")
-        repeat(4) {
+        repeat(5) {
             sb.append(stellen[rest % 26])
             rest /= 26
         }
@@ -385,6 +398,57 @@ class AltgeraetSpeicherTest {
         val index = SearchIndex.build(pack)
         assertTrue(index.search("waaaa").isNotEmpty(), "der Index kennt die Kapitelwoerter nicht")
         assertTrue(index.search("fliesstext").isNotEmpty(), "die Tipps fehlen im Index")
+    }
+
+    // Die Vorwarnstufe aus PackParser.pruefeSuchtextMenge: Ab 90 % der
+    // Wortvorkommen-Grenze steht eine Warnung, aber das Paket muss trotzdem
+    // laden -- siehe MERKZETTEL.md, "Die Wand am Ende des Wortbudgets". Am
+    // 17.08.2026 lag ein fertiges, geprueftes Paket wochenlang auf Halde, weil
+    // die Grenze ohne Vorwarnung riss.
+    @Test
+    fun suchbudgetWarntAbNeunzigProzentOhneDasLadenZuVerhindern() {
+        val agricultureJson = agricultureJsonMitVorkommen(235) // rund 94 % der Grenze
+        val result = PackParser.parse(
+            mapOf(
+                "manifest.json" to agricultureManifest.encodeToByteArray(),
+                "content/agriculture.json" to agricultureJson.encodeToByteArray(),
+            ),
+            emptySet(),
+        )
+        assertTrue(
+            result.pack != null,
+            "eine Vorwarnung darf das Laden nicht verhindern: " + result.problems.map { it.code },
+        )
+        val warnung = result.problems.singleOrNull { it.code == "content-search-terms-near-limit" }
+        assertTrue(warnung != null, "erwartet content-search-terms-near-limit, war " + result.problems.map { it.code })
+        assertEquals(Severity.Warning, warnung!!.severity)
+
+        val grenze = ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN.toLong()
+        val treffer = Regex("""^(\d+) von (\d+) Wortvorkommen erreicht \(90 %\), noch (\d+) frei$""")
+            .find(warnung.detail)
+        assertTrue(treffer != null, "Text passt nicht zum erwarteten Format: ${warnung.detail}")
+        val (wortvorkommenStr, grenzeStr, freiStr) = treffer!!.destructured
+        assertEquals(grenze, grenzeStr.toLong(), "die genannte Grenze stimmt nicht")
+        assertEquals(grenze - wortvorkommenStr.toLong(), freiStr.toLong(), "der freie Rest im Text stimmt nicht")
+    }
+
+    // Gegenprobe: deutlich unter der Schwelle bleibt das Paket ganz ohne
+    // Probleme -- die Warnung darf nicht schon frueher kommen.
+    @Test
+    fun unterhalbNeunzigProzentBleibtEsOhneWarnung() {
+        val agricultureJson = agricultureJsonMitVorkommen(100)
+        val result = PackParser.parse(
+            mapOf(
+                "manifest.json" to agricultureManifest.encodeToByteArray(),
+                "content/agriculture.json" to agricultureJson.encodeToByteArray(),
+            ),
+            emptySet(),
+        )
+        assertTrue(result.pack != null, "Paket haette laden muessen: " + result.problems.map { it.code })
+        assertTrue(
+            result.problems.none { it.code == "content-search-terms-near-limit" },
+            "Warnung kam zu frueh: " + result.problems.map { it.code },
+        )
     }
 
     @Test

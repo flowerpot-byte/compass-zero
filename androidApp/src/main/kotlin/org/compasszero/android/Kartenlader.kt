@@ -91,7 +91,7 @@ object Kartenlader {
      * ist die Schummerung nicht alles, was aus diesen Zahlen wird -- die
      * Hoehenangabe unter dem Finger kommt aus derselben Datei, und danach
      * entscheidet jemand, ob er ueber einen Sattel geht oder aussenherum.
-     * Max hat es deshalb umgedreht. Was daran haengt: `docs/HOEHEN-FORMAT.md`.
+     * Deshalb wurde es umgedreht. Was daran haengt: `docs/HOEHEN-FORMAT.md`.
      */
     private fun hoehenLaden(context: Context): Pair<Hoehendatei, PackVerdict?>? {
         val eigene = eigenerOrdner(context)
@@ -120,8 +120,8 @@ object Kartenlader {
      * KAPUTTE UNTERSCHRIFT HEISST: GAR NICHT OEFFNEN. Zusatzumschlag wirft
      * dann, und der Fang unten gibt null zurueck -- die App laeuft ohne diese
      * Datei weiter. Eine Datei ohne Umschlag kommt dagegen durch, mit
-     * urteil = null; von Max am 18.08.2026 so entschieden, damit jeder seine
-     * selbst gebauten Dateien benutzen kann.
+     * urteil = null; am 18.08.2026 so entschieden, damit jeder seine selbst
+     * gebauten Dateien benutzen kann.
      */
     private fun <T> zusatzOeffnen(
         datei: File,
@@ -219,8 +219,8 @@ object Kartenlader {
      * pruefen. Fuer Europa und Oesterreich zusammen sind das 783 MB. Diese
      * Rechnung lief bisher bei JEDEM Aufbau der Kartenansicht, also bei jedem
      * Tippen auf den Reiter, und sie lief auf dem Faden der Bedienoberflaeche:
-     * Die App stand so lange still. Max am 06.08.2026: "die karte braucht sehr
-     * lange zum laden und laesst die app sehr langsam wirken."
+     * Die App stand so lange still. Rueckmeldung vom 06.08.2026: "die karte
+     * braucht sehr lange zum laden und laesst die app sehr langsam wirken."
      *
      * AN DER SICHERHEIT AENDERT DAS NICHTS. Die Unterschrift deckt den Zustand
      * der Datei beim Oeffnen ab; die Kacheln werden danach ohnehin nach und

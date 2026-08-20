@@ -7,7 +7,7 @@ der Ort, an dem steht, was das Haus nicht verlassen darf.
 Nichts hier ist eine Rechtsberatung. Wo eine Einschätzung steht, ist sie als
 solche gekennzeichnet.
 
-## Karte: zwei Lizenzen, die nicht in dieselbe Datei passen — für Max
+## Karte: zwei Lizenzen, die nicht in dieselbe Datei passen
 
 Geprüft am 04.08.2026, beide Lizenztexte selbst geladen und im Volltext
 gelesen. **Kein Rechtsrat, sondern der Befund.**
@@ -51,7 +51,7 @@ Weiterempfänger den Haftungsausschluss mitbekommt. Artikel 9 stellt klar, dass
 keine Rechte übergehen; der vorgeschriebene Hinweis endet auf „all rights
 reserved".
 
-**Das ist der Haken, und er ist Max' Entscheidung:** Ein Werk unter CC BY-SA
+**Das ist der Haken, und er ist noch zu entscheiden:** Ein Werk unter CC BY-SA
 oder ODbL verlangt, dass das GANZE abgeleitete Werk unter derselben Lizenz
 weitergegeben wird. Die Copernicus-Höhendaten können das nicht — sie bleiben
 bei ihrem eigenen Vorbehalt. Beides in **einer** Datei zu mischen ginge
@@ -62,26 +62,20 @@ Geländeform reist als **eigene Datei** neben der Karte, mit eigenem
 Lizenzhinweis, und wird von der App getrennt geladen. Dann steht jede Datei
 unter genau einer Lizenz und keine erbt die Auflagen der anderen.
 
-**Was Max entscheiden muss:**
+**Was zu entscheiden ist:**
 1. Geländeform aus Copernicus mit den Auflagen aus Artikel 6 — ja oder nein?
 2. Wenn ja: eigene Datei neben der Karte (Vorschlag) oder anders?
 3. Die Lizenzangabe der Kartendatei auf ODbL umstellen — bestätigen.
 
 ## Offene Sperre: Phrasenkatalog des Übersetzers
 
-Der Satzkatalog des Übersetzers übernimmt die 62 Sätze des „Emergency
-Multilingual Phrasebook" des British Red Cross in sechs Sprachen. Das Werk
-steht unter **keiner freien Lizenz**.
+`content/europe-de/paket/content/phrases.json` enthält die 62 Sätze des
+„Emergency Multilingual Phrasebook" des British Red Cross in sechs Sprachen.
+Das Werk steht unter **keiner freien Lizenz**.
 
-**SPERRE: Solange keine Erlaubnis vorliegt, darf kein Paket mit
-`content/phrases.json` veröffentlicht werden** — nicht als APK-Asset, nicht
-als eigenes Paket, nicht im offenen Repo. Entwicklung und lokaler Betrieb sind
-davon unberührt.
-
-**Umgesetzt:** Diese Fassung des Projekts wird ohne die Datei ausgeliefert.
-Das Basispaket führt die Art `phrases` nicht im Manifest, der Übersetzer
-meldet einen leeren Katalog. Kommt die Erlaubnis, wandern Datei und
-Manifest-Eintrag zurück.
+**SPERRE: Solange keine Erlaubnis vorliegt, darf kein Paket mit dieser Datei
+veröffentlicht werden** — nicht als APK-Asset, nicht als eigenes Paket, nicht
+im offenen Repo. Entwicklung und lokaler Betrieb sind davon unberührt.
 
 Angefragt am 28.07.2026 bei `contactus@redcross.org.uk`. Die Anfrage bittet um
 Erlaubnis für genau diese App und bietet an, den Phrasenteil von der
@@ -106,8 +100,8 @@ Läge dieser Teil in einer eigenen Datei, wäre ein Paket OHNE `phrases.json`
 veröffentlichbar — ein Übersetzer, der nur eine Richtung kann, dafür aber frei
 ist. Damit wäre die Sperre umgangen, ohne sie zu brechen.
 
-**Das ist ein Umbau am Paketformat und an der Darstellung und braucht Max'
-Entscheidung.** Der vollständige Befund samt Daten liegt in
+**Das ist ein Umbau am Paketformat und an der Darstellung und braucht eine
+ausdrückliche Entscheidung.** Der vollständige Befund samt Daten liegt in
 `work/quellen/refugee-phrasebook/BEFUND.md`.
 
 ## Verschickte Anfragen
@@ -121,8 +115,9 @@ Entscheidung.** Der vollständige Befund samt Daten liegt in
 | 28.07.2026 | Hesperian Health Guides, `permissions@hesperian.org` | A Book for Midwives, Where There Is No Dentist | Ausnahme von der Digitalsperre für diese App; Fakten in eigenen Worten mit Quellenangabe | offen |
 | 28.07.2026 | Médecins Sans Frontières, `media@london.msf.org` | Clinical Guidelines, Essential Drugs | Fakten in eigenen Worten mit Quellenangabe | offen; kein dedizierter Rechte-Kontakt auffindbar, Presse gebeten weiterzuleiten |
 
-Der Wortlaut der Anfragen liegt außerhalb des Repos, weil dort persönliche
-Kontaktdaten stehen; Kopien im Gesendet-Ordner des Postfachs.
+Die Anfragen liegen als Textdateien unter `postausgang\verschickt\` im
+Versandwerkzeug (siehe unten, „Werkzeug für weitere Anfragen"; außerhalb des
+Repos, weil dort Kontaktdaten stehen). Kopien im Gesendet-Ordner des Postfachs.
 
 ## Geprüft und ausgeschieden
 
@@ -191,8 +186,8 @@ Gemeinfreiheit, ist aber nicht dasselbe wie eine Zusage.
 
 **Was zu tun ist:** entweder eine Anfrage an das Peace Corps wie bei den
 anderen Werken, oder die fünf Kapitel auf USDA-Quellen umstellen, die
-eindeutig sind. Max entscheidet. Bis dahin ist Entwicklung und lokaler Betrieb
-unberührt — die Frage stellt sich erst bei der Weitergabe.
+eindeutig sind. Diese Entscheidung steht aus. Bis dahin sind Entwicklung und
+lokaler Betrieb unberührt — die Frage stellt sich erst bei der Weitergabe.
 
 ## OFFEN: USDA-Hefte mit namentlichem Verfasser, der nach 1955 gestorben ist
 
@@ -229,7 +224,7 @@ in der Regel auch nicht geschützt. Träfe das zu, wäre die ganze Sammlung
 unabhängig vom Verfasser frei, und die Sterbejahr-Regel wäre für
 US-Behördenwerke gegenstandslos.
 
-**Was zu tun ist:** Max entscheidet, ob für USDA-Hefte die Behörden-Regel
+**Was zu tun ist:** Es ist zu entscheiden, ob für USDA-Hefte die Behörden-Regel
 oder die Sterbejahr-Regel gilt. Fällt die Entscheidung auf die
 Behörden-Regel, können Johannisbeeren und Stachelbeeren aus Bulletin 1398
 nachgetragen werden — das Heft liegt gelesen unter
@@ -340,8 +335,8 @@ US-Militärhandbuch, damit ebenfalls gemeinfrei.
 Rechtevorbehalte nach **`permission`** UND **`courtesy`** suchen, nicht nach
 `copyright`. Der Bilder-Vorbehalt oben nennt das Wort „copyright" nicht und
 wurde bei einer Suche danach übersehen; die Tafel-Attributionen nennen weder
-„copyright" noch „permission". Beide Male hat erst die zweite, unabhängige
-Gegenprüfung sie gefunden.
+„copyright" noch „permission". Beide Male hat erst die Gegenprüfung aus der
+parallelen Arbeitsstrang gefunden.
 
 ## Fachgesellschafts-Leitlinien und Fachinformationen: Beleg ja, Weitergabe nein
 
@@ -369,7 +364,7 @@ Die vollständige Liste mit Lizenzspalte steht in
 
 ## Grundsatz für Wissen aus geschützten Büchern
 
-Von Max am 28.07.2026 entschieden: Wissen aus seinen gekauften Büchern wird
+Am 28.07.2026 entschieden: Wissen aus den gekauften Büchern wird
 genutzt, **in eigenen Worten umformuliert und als Erfahrungswissen
 gekennzeichnet**. Fakten sind nicht urheberrechtlich schützbar, nur ihre
 konkrete Ausdrucksform.
@@ -384,6 +379,14 @@ Zwei Grenzen, die dabei einzuhalten sind:
    tötet, zusätzlich eine Primärquelle.** Das ist keine Lizenzfrage, sondern
    Regel 1.
 
-Die Bücher liegen nicht digital vor. Nutzbar ist nur, was Max fotografiert;
-die Inhaltsverzeichnisse hat er am 28.07. geschickt — daraus stammt die
+Die Bücher liegen nicht digital vor. Nutzbar ist nur, was abfotografiert wird;
+die Inhaltsverzeichnisse liegen seit dem 28.07. vor — daraus stammt die
 Lückenliste in `ROADMAP.md`.
+
+## Werkzeug für weitere Anfragen
+
+Im Benutzerordner unter `werkzeuge\mailversand\` liegt ein Versandwerkzeug
+(außerhalb des Repos, weil dort Zugangsdaten liegen). Neue Anfragen als
+Textdatei in `postausgang/` legen, Aufbau steht im Kopf von `versenden.py`.
+Es fragt vor jedem Versand einzeln nach und legt eine Kopie im Gesendet-Ordner
+ab. Daneben liegt `aufraeumen.py` für das Postfach.

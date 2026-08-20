@@ -195,7 +195,7 @@ class EigenkarteTest {
     @Test
     fun eineAltePunktzeileOhneSinnbildLaedtWeiter() {
         // Genau das Format, das vor dem 17.08.2026 geschrieben wurde: fuenf
-        // Felder, kein Sinnbild. Max hat solche Punkte auf dem Handy.
+        // Felder, kein Sinnbild. Solche Punkte liegen auf echten Geraeten.
         val alt = "P\t1\t13.0000000\t47.0000000\tAlter Punkt\n"
         val karte = Eigenkarte.ausText(alt)
         assertEquals(1, karte.punkte.size)

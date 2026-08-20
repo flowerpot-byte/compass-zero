@@ -138,6 +138,33 @@ class Einstellungen(
             ),
             b.breit(),
         )
+        spalte.addView(
+            Button(gastgeber).apply {
+                text = if (gemerkt.bildschirmBeiErsteHilfeAn) {
+                    "Bildschirm bei Erste Hilfe: an lassen"
+                } else {
+                    "Bildschirm bei Erste Hilfe: normal abdunkeln"
+                }
+                textSize = b.stil.textGroesse
+                typeface = b.stil.textSchrift
+                setTextColor(b.stil.text)
+                background = b.randfeld()
+                setPadding(b.stil.abstand, b.stil.abstand / 2, b.stil.abstand, b.stil.abstand / 2)
+                setOnClickListener {
+                    gemerkt.bildschirmBeiErsteHilfeAn = !gemerkt.bildschirmBeiErsteHilfeAn
+                    neuAufbauen()
+                }
+            },
+            b.breit(),
+        )
+        spalte.addView(
+            b.nebentext(
+                "Solange ein Eintrag aus „Erste Hilfe“ offen ist, bleibt der Bildschirm an, " +
+                    "damit er nicht mitten in einer Anleitung dunkel wird. Im Sparmodus bleibt " +
+                    "diese Ausnahme aus.",
+            ),
+            b.breit(),
+        )
 
         spalte.addView(b.trennstrich(), b.strichbreit())
         spalte.addView(b.ueberschrift("Kein Netzzugang"), b.breit())

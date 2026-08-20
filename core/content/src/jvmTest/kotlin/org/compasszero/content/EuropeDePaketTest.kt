@@ -34,7 +34,7 @@ class EuropeDePaketTest {
             .toSet()
 
     @Test
-    fun basispaketDeLaedtOhneProblem() {
+    fun basispaketDeLaedtMitDerErwartetenWortbudgetwarnung() {
         val paket = File(repoRoot(), "content/europe-de/paket")
         val manifestBytes = File(paket, "manifest.json").readBytes()
         val tipsBytes = File(paket, "content/tips.json").readBytes()
@@ -52,7 +52,17 @@ class EuropeDePaketTest {
             skizzennamen(paket),
         )
 
-        assertTrue(result.problems.isEmpty(), "Unerwartete Probleme: ${result.problems}")
+        // Seit dem 20.08.2026 warnt der Parser ab 90 % des Wortbudgets (siehe
+        // PackParser.pruefeSuchtextMenge und MERKZETTEL.md, "Die Wand am Ende
+        // des Wortbudgets") -- das Basispaket liegt darueber und meldet deshalb
+        // GENAU eine Warnung, aber kein Fatal. Das gehoert hierher, nicht
+        // weggemacht: Reisst der Stand die Grenze selbst, faellt SuchbudgetTest
+        // darauf an, nicht dieser Test.
+        assertEquals(
+            listOf("content-search-terms-near-limit"),
+            result.problems.map { it.code },
+            "Unerwartete Probleme: ${result.problems}",
+        )
         val pack = result.pack ?: error("Paket wurde trotz leerer Problemliste nicht geladen")
         // Die Zahl ist eine Buchhaltungs-Schranke: Sie faellt auf, wenn ein Tipp
         // still verschwindet. Sie wird nur MIT einem bewusst hinzugefuegten Tipp
@@ -280,7 +290,89 @@ class EuropeDePaketTest {
         // (taktisch-schnell-aufbrechen).
         // 456 -> 457 am 11.08.2026: "Pfeifton oder Lichtblitz: sich verstaendigen, ohne sich zu sehen"
         // (taktisch-pfeifton-lichtzeichen).
-        assertEquals(457, pack.tips.size)
+        // 457 -> 458 am 11.08.2026: "Wenn der Kiefer nicht mehr zugeht: mit den Daumen zurueckdruecken"
+        // (erste-hilfe-kiefer-ausgerenkt).
+        // 458 -> 459 am 11.08.2026: "Kopfschlag mit Blut oder klarer Fluessigkeit aus Ohr oder Nase: sofort ernst nehmen"
+        // (erste-hilfe-kopfverletzung-warnzeichen).
+        // 459 -> 460 am 11.08.2026: "Quallenstich und Seeigel: was am Strand wirklich hilft"
+        // (erste-hilfe-quallenstich-seeigel).
+        // 460 -> 461 am 11.08.2026: "Schwindel: welche Art es ist, und was dagegen hilft"
+        // (medizin-schwindel).
+        // 461 -> 462 am 11.08.2026: "Depression und Manie: wenn die Stimmung krank wird"
+        // (medizin-depression-manie).
+        // 462 -> 463 am 11.08.2026: "Schimmel am Vorrat: wegschneiden oder ganz weg"
+        // (nahrung-schimmel-am-vorrat).
+        // 463 -> 464 am 11.08.2026: "Blaualgen: Abkochen macht das Gift nicht unschaedlich"
+        // (wasser-blaualgen-abkochen-hilft-nicht).
+        // 464 -> 465 am 11.08.2026: "Hangrichtung: Standort finden, wenn man nichts sieht"
+        // (orientierung-hangrichtung-standort).
+        // 465 -> 466 am 11.08.2026: "Verschuettet: klopfen statt rufen"
+        // (taktisch-verschuettet-klopfen).
+        // 466 -> 467 am 11.08.2026: "Kuehlschrank und Gefriertruhe im Stromausfall"
+        // (nahrung-kuehlschrank-stromausfall).
+        // 467 -> 468 am 11.08.2026: "Gasgeruch: nichts anschalten, sofort alle hinaus"
+        // (taktisch-gasgeruch-sofort).
+        // 468 -> 469 am 11.08.2026: "Notstromaggregat und Generator: sicher betreiben"
+        // (taktisch-generator-sicher-betreiben).
+        // 469 -> 470 am 11.08.2026: "Neugeborenes warm halten: Haut an Haut gegen das Auskuehlen"
+        // (medizin-neugeborenes-warm-halten).
+        // 470 -> 471 am 11.08.2026: "Neugeborenes: Gelbsucht erkennen und einen schwachen Saeugling ernaehren"
+        // (medizin-neugeborenes-gelbsucht-ernaehren).
+        // 471 -> 472 am 11.08.2026: "Hund und Katze: mitnehmen, giftige Lebensmittel und Hitze"
+        // (taktisch-haustiere-mitnehmen).
+        // 472 -> 473 am 11.08.2026: "Vom Flaechenbrand eingeschlossen: was jetzt zaehlt"
+        // (taktisch-flaechenbrand-eingeschlossen).
+        // 473 -> 474 am 11.08.2026: "Schornsteinbrand: was sofort zu tun ist"
+        // (taktisch-schornsteinbrand).
+        // 474 -> 475 am 11.08.2026: "Einen Toten begraben: Tiefe und Abstand"
+        // (medizin-tote-begraben-wie).
+        // 475 -> 476 am 11.08.2026: "Offene Druckstelle: reinigen, abdecken, beobachten"
+        // (medizin-wundliegen-versorgen).
+        // 476 -> 477 am 11.08.2026: "Umlagern im Bett: mit dem Laken ziehen, nicht schleifen"
+        // (medizin-bettlaegerige-umlagern).
+        // 477 -> 478 am 11.08.2026: "Waschen im Bett, wenn Aufstehen nicht geht"
+        // (medizin-bettlaegerige-waschen).
+        // 478 -> 479 am 11.08.2026: "Wund im Intimbereich: Feuchtigkeit statt Druck"
+        // (medizin-inkontinenz-hautpflege).
+        // 479 -> 480 am 11.08.2026: "Anweisen und wiederholen lassen: so kommt es an"
+        // (taktisch-befehl-rueckmeldung).
+        // 480 -> 481 am 11.08.2026: "Entscheiden unter Zeitdruck: besser jetzt als perfekt"
+        // (taktisch-entscheidung-zeitdruck).
+        // 481 -> 482 am 11.08.2026: "Wenn die Fuehrung ausfaellt: wer uebernimmt"
+        // (taktisch-fuehrung-vertretung).
+        // 482 -> 483 am 11.08.2026: "Wache stehen: drei Regeln und die Uebergabe"
+        // (taktisch-wache-uebergabe).
+        // 483 -> 484 am 11.08.2026: "Eine offene Stelle als Gruppe ueberqueren: erst pruefen, dann nacheinander"
+        // (taktisch-offene-stelle-gruppe-ueberqueren).
+        // 484 -> 485 am 11.08.2026: "Sich durch eine Stadt bewegen, ohne gesehen zu werden: Waende, Ecken, Fenster"
+        // (taktisch-stadt-unbemerkt-bewegen).
+        // 485 -> 486 am 11.08.2026: "Die letzte Reserve steckt im Speicher"
+        // (wasser-speicher-anzapfen).
+        // 486 -> 487 am 11.08.2026: "Hauptabsperrhahn zu, dann laeuft das Rohr leer"
+        // (wasser-rohre-haupthahn).
+        // 487 -> 488 am 11.08.2026: "Heizung und Bett: zwei Speicher, die man nicht anzapft"
+        // (wasser-heizung-bett-tabu).
+        // 488 -> 489 am 11.08.2026: "Spuelkasten, Eiswuerfel, Konservenlake: was sonst noch zaehlt"
+        // (wasser-spuelkasten-eiswuerfel-konserve).
+        // 489 -> 490 am 11.08.2026: "Pool und Zisterne: wozu die Reserve taugt, wozu nicht"
+        // (wasser-pool-zisterne-grenzen).
+        // 490 -> 491 am 11.08.2026: "Massstab und Zeichen: eine Karte wirklich lesen koennen"
+        // (orientierung-massstab-zeichen).
+        // 491 -> 492 am 11.08.2026: "Steigung berechnen: wie steil ein Hang wirklich ist"
+        // (orientierung-steigung-berechnen).
+        // 492 -> 493 am 11.08.2026: "Eine Strasse, ein Grat oder ein Bach als Leitlinie: wann man sie verlaesst"
+        // (orientierung-leitlinie).
+        // 493 -> 494 am 11.08.2026: "Wo ist das? Einen fernen Punkt, den man nur sieht, auf der Karte finden"
+        // (orientierung-fernpunkt-peilen).
+        // 494 -> 495 am 11.08.2026: "Beschaedigte Konserven: wann noch sicher, wann nicht mehr"
+        // (nahrung-konserven-beschaedigt).
+        // 495 -> 496 am 11.08.2026: "Esskastanien sammeln: die Rosskastanie sicher ausschliessen"
+        // (nahrung-esskastanien-rosskastanie).
+        // 496 -> 497 am 11.08.2026: "Gruene oder keimende Kartoffeln: was noch zu retten ist"
+        // (nahrung-kartoffeln-gruen-keimend).
+        // 497 -> 498 am 11.08.2026: "Reste wiedererhitzen: was das rettet, und was nicht"
+        // (nahrung-reste-wiedererhitzen).
+        assertEquals(498, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser
@@ -367,7 +459,21 @@ class EuropeDePaketTest {
         // (werkzeug-waagerecht-senkrecht).
         // 53 -> 54 am 11.08.2026: "Waagerecht und senkrecht pruefen ohne gekauftes Werkzeug"
         // (werkzeug-waagerecht-senkrecht).
-        assertEquals(54, pack.guides.size)
+        // 54 -> 55 am 11.08.2026: "Loecher bohren ohne Bohrmaschine: Ahle, Nagelbohrer, Bohrwinde"
+        // (werkzeug-loch-ohne-bohrmaschine).
+        // 55 -> 56 am 11.08.2026: "Griff oder Stiel neu einsetzen: Hammer, Meissel und Feile"
+        // (werkzeug-griff-hammer-meissel-feile).
+        // 56 -> 57 am 11.08.2026: "Leiter richtig anlegen: Winkel, Stand und Sicherung"
+        // (werkzeug-leiter-anlegen).
+        // 57 -> 58 am 11.08.2026: "Kleber und Dichtmasse aus Kiefernharz"
+        // (werkstoffe-kleber-kiefernharz).
+        // 58 -> 59 am 11.08.2026: "Werkzeug richten: Verbogenes strecken und ein verschlagenes Ende neu haerten"
+        // (werkzeug-verbogen-richten).
+        // 59 -> 60 am 11.08.2026: "Eine schwere Last zu zweit heben, tragen und absetzen"
+        // (gelaende-schwere-last-zu-zweit).
+        // 60 -> 61 am 11.08.2026: "Zerbrochenes Eisen zusammenschmieden: zwei Enden verschweissen"
+        // (werkzeug-schmiedeschweissen).
+        assertEquals(61, pack.guides.size)
         // 27 -> 35 am 10.08.2026: Bienenvolk halten, Einen Brunnen anlegen und
         // schuetzen, Obstbaeume schneiden und veredeln, Beerenobst, Zaeune,
         // Nutztiere (Klauen, Euter, Wuermer), Seife und Waesche ohne Nachschub,
@@ -435,7 +541,25 @@ class EuropeDePaketTest {
         // (agrikultur-huhn-schlachten).
         // 67 -> 68 am 11.08.2026: "Salz gewinnen: Sole sieden und Steinsalz erkennen"
         // (agrikultur-salz-gewinnen).
-        assertEquals(68, pack.agriculture.size)
+        // 68 -> 69 am 11.08.2026: "Sonnenblumen anbauen: fuer die eigene Oelsaat"
+        // (agrikultur-sonnenblumen-anbauen).
+        // 69 -> 70 am 11.08.2026: "Zucht ohne Inzucht: eine kleine Herde ueber Jahre halten"
+        // (agrikultur-zucht-ohne-inzucht).
+        // 70 -> 71 am 11.08.2026: "Verwaistes Lamm oder Zicklein aufziehen: Amme oder Flasche"
+        // (agrikultur-jungtier-verwaist).
+        // 71 -> 72 am 11.08.2026: "Ein Tier anbinden, ohne dass es sich erwuergen kann"
+        // (agrikultur-tier-sicher-anbinden).
+        // 72 -> 73 am 11.08.2026: "Ein groesseres Tier niederlegen und fuer eine Behandlung festhalten"
+        // (agrikultur-tier-niederlegen-behandeln).
+        // 73 -> 74 am 11.08.2026: "Sauren Boden erkennen und mit Kalk verbessern"
+        // (agrikultur-boden-saeure).
+        // 74 -> 75 am 11.08.2026: "Wenn der Frost zu frueh kommt: Beet schuetzen, Ernte retten"
+        // (agrikultur-fruehfrost).
+        // 75 -> 76 am 11.08.2026: "Moehre, Kohl und Ruebe ueberwintern fuer eigenes Saatgut"
+        // (agrikultur-saatgut-ueberwintern).
+        // 76 -> 77 am 11.08.2026: "Saatgut ueber Jahre halten und die Keimprobe machen"
+        // (agrikultur-saatgut-lagern).
+        assertEquals(77, pack.agriculture.size)
         val ids = pack.tips.map { it.id }
         assertEquals(ids.toSet().size, ids.size, "doppelte Tipp-ID")
         val anleitungsIds = pack.guides.map { it.id }

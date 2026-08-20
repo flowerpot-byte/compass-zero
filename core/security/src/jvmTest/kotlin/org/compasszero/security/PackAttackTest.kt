@@ -216,6 +216,24 @@ class PackAttackTest {
         assertIs<PackVerdict.BadSignature>(PackVerifier(trust).open(pack).verdict)
     }
 
+    // Eine Signatur, die auf null gesetzt wurde -- als stuende gar keine da.
+    // Der Header bleibt formal gueltig (richtige Laenge, richtiger Schluessel),
+    // nur die 64 Signaturbytes fehlen inhaltlich. Ergaenzt neben dem
+    // erschoepfenden Bit-fuer-Bit-Test in ZufallsangriffTest, weil "Signatur
+    // ganz entfernt" ein eigener, benannter Angriffsfall ist und nicht nur
+    // implizit in einer Fuzzing-Schleife auftauchen soll.
+    @Test
+    fun zeroedOutSignatureIsBadSignature() {
+        val pack = packOf(zipOf("manifest.json" to ByteArray(64) { 5 }))
+        val bytes = pack.readBytes()
+        // Signaturfeld liegt bei Offset 38..102, siehe PackFormat.parseHeader.
+        for (i in 38 until 38 + PackFormat.SIGNATURE_SIZE) bytes[i] = 0
+        pack.writeBytes(bytes)
+        val opened = PackVerifier(trust).open(pack)
+        assertIs<PackVerdict.BadSignature>(opened.verdict)
+        assertTrue(opened.contentFiles.isEmpty())
+    }
+
     @Test
     fun lyingDeclaredSizesAreIgnored() {
         // Deklarierte Groesse im lokalen Header auf 0xFFFFFFFF setzen, echte Bytes bleiben klein.

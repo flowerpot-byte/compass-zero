@@ -60,29 +60,42 @@ object ContentLimits {
     // Ein einziger neuer Eintrag machte das Paket unlesbar, und fertige,
     // gepruefte Eintraege lagen auf Halde.
     //
-    // WAS AM 20.08.2026 GEMESSEN WURDE, und warum die Zahl steigen darf:
+    // WAS AM 20.08.2026 GEMESSEN WURDE -- und was an der ersten Messung
+    // desselben Tages falsch war:
     //
-    // Die alte Begruendung nannte 596 573 als gemessenen Rahmen und behielt ein
-    // Viertel davon als Reserve "fuer Formen, die niemand nachgemessen hat".
-    // Genau diese Reserve ist jetzt nachgemessen. Ein Paket mit 602 400
-    // Wortvorkommen, bei dem JEDES WORT VERSCHIEDEN ist, laedt und indiziert
-    // bei 96 MB Heap. Das ist nicht irgendeine Form, das ist die TEUERSTE:
-    // Der Speicher haengt am Wortverzeichnis, und lauter verschiedene Woerter
-    // sind der schlimmste Fall, den ein Paket bieten kann.
+    // Die erste Fassung dieser Begruendung nannte "602 400 Wortvorkommen, jedes
+    // Wort verschieden". Das stimmte nicht. Der Wortbaukasten des Messtests
+    // hatte vier Stellen zu je 26 Buchstaben, also 456 976 moegliche Woerter.
+    // Ab dieser Zahl WIEDERHOLTEN sich die Woerter, und gemessen wurde nicht
+    // mehr der teuerste Fall, sondern ein billigerer. Der Baukasten hat seither
+    // fuenf Stellen (11,9 Millionen Woerter); die Messung wurde wiederholt.
     //
-    // Das echte Europa-Paket liegt weit darunter: 448 572 Wortvorkommen, aber
-    // nur 31 026 VERSCHIEDENE Woerter -- jedes Wort kommt im Schnitt 14,5 mal
-    // vor. Sein Verzeichnis ist damit rund zwanzigmal kleiner als das des
-    // Messpakets bei gleicher Vorkommenszahl.
+    // Nachgemessen bei 96 MB Heap, jedes Wort wirklich verschieden, je Stufe
+    // viermal:
+    //   550 391 / 600 004 / 610 008 / 620 010 Vorkommen -> laedt und indiziert
+    //   630 012 und darueber                            -> Speicherueberlauf
+    //                                                       beim Bau des Index
+    // Die Wand steht also zwischen 620 010 und 630 012.
     //
-    // 500 000 bleibt also rund ein Sechstel unter dem gemessenen SCHLIMMSTEN
-    // Fall -- und der wirkliche Fall ist um ein Vielfaches billiger. Hoeher
-    // wurde bewusst nicht gegangen: Bei n=350 im Messpaket greift die
-    // JSON-Groessengrenze, dort endet diese Messreihe.
+    // Das echte Europa-Paket liegt bei 477 698 Wortvorkommen, aber nur rund
+    // 32 000 VERSCHIEDENEN Woertern -- jedes Wort kommt im Schnitt fuenfzehnmal
+    // vor. Sein Wortverzeichnis ist damit rund zwanzigmal kleiner als das des
+    // Messpakets bei gleicher Vorkommenszahl; gemessen wurden 35 MB fuer Laden
+    // und Index zusammen.
     //
-    // Wer weiter anheben will, misst wieder so: ein Paket aus lauter
-    // verschiedenen Woertern bauen, bei 96 MB Heap laden UND indizieren.
-    // AltgeraetSpeicherTest tut genau das an der jeweils geltenden Grenze.
+    // 500 000 liegt rund ein Fuenftel unter der gemessenen Wand des teuersten
+    // denkbaren Pakets, und der wirkliche Fall ist um ein Vielfaches billiger.
+    //
+    // WER WEITER ANHEBEN WILL, sollte wissen, dass diese Grenze das FALSCHE misst.
+    // Der Speicher haengt an der Zahl der VERSCHIEDENEN Woerter, nicht an der
+    // Zahl der Vorkommen. Eine Grenze auf die Verschiedenheit waere naeher an der
+    // Sache und liesse echten Inhalt viel weiter wachsen, ohne ein aufgeblaehtes
+    // Paket durchzulassen. Das ist eine Aenderung an einer Schutzgrenze und
+    // gehoert deshalb entschieden, nicht nebenbei gemacht.
+    //
+    // Gemessen wird so: ein Paket aus lauter verschiedenen Woertern bauen, bei
+    // 96 MB Heap laden UND indizieren. AltgeraetSpeicherTest tut genau das an
+    // der jeweils geltenden Grenze.
     const val MAX_SUCHINDEX_WORTVORKOMMEN = 500_000
     const val MAX_POIS = 10_000
     const val MAX_PHRASE_GROUPS = 40

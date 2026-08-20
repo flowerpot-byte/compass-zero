@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """Holt Abbildungen aus den Quellheften, aus denen auch der Text stammt.
 
-WARUM: Die Skizzen des Pakets sind von Hand aus SVG zusammengesetzt, und Max
-hat am 11.08.2026 gesagt, dass viele davon schlecht gemalt und schlecht zu
+WARUM: Die Skizzen des Pakets sind von Hand aus SVG zusammengesetzt, und am
+11.08.2026 wurde beanstandet, dass viele davon schlecht gemalt und schlecht zu
 erkennen sind. Die Hefte, aus denen der Text kommt, enthalten dagegen echte
 Stiche und technische Schnitte -- von Zeichnern gemacht, mit beschrifteten
 Einzelteilen, und in einer Qualitaet, die freihaendig nicht zu erreichen ist.

@@ -1,8 +1,8 @@
 # Entwurf: Satellitenbilder als eigenes Paket
 
-Stand 17.08.2026. **Entwurf, nichts davon ist gebaut.** Max hat am 17.08.2026
-gewünscht, dass man „wie als eigenes Paket auch Satellitenbilder für die Karte
-runterladen kann". Bevor daran gebaut wird, stehen hier die zwei Fragen, an
+Stand 17.08.2026. **Entwurf, nichts davon ist gebaut.** Anlass ist der Wunsch
+vom 17.08.2026, dass man „wie als eigenes Paket auch Satellitenbilder für die
+Karte runterladen kann". Bevor daran gebaut wird, stehen hier die zwei Fragen, an
 denen es scheitern kann — Lizenz und Größe —, mit gerechneten Zahlen.
 
 ## Die Lizenz entscheidet, welche Bilder überhaupt in Frage kommen
@@ -107,7 +107,7 @@ Als **unterste Schicht**, die Vektorkarte darüber. Dafür spricht dreierlei:
    Schalter „Ruhig" wirkt weiter auf die Linien darüber.
 3. Fehlt das Bildpaket, ändert sich nichts — genau wie bei der Höhendatei.
 
-## Was Max entscheiden muss
+## Was noch zu entscheiden ist
 
 1. **Sentinel-2 als Quelle?** Wenn ja, ist die Lizenzfrage dieselbe wie bei
    der Geländeform und damit geklärt.

@@ -596,7 +596,7 @@ class NotfallSucheTest {
      * jemand wirklich tippt.
      *
      * SIE LAGEN SECHS WOCHEN AUF HALDE, weil das Wortbudget voll war; eingebaut
-     * wurden sie erst, als Max die Grenze auf 450 000 gesetzt hat. Genau bei
+     * wurden sie erst, als die Grenze auf 450 000 gesetzt wurde. Genau bei
      * einem solchen Schwung ist die Suchprobe faellig: Ein Eintrag, den man
      * unter Druck nicht findet, ist nicht geschrieben.
      *

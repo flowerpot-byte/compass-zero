@@ -24,7 +24,7 @@ Begruendung steht in `bilder_bauen.py` fuer die Wolkengrenze.
 RECHTE: NASA-Bilder sind gemeinfrei; die NASA bittet um Namensnennung. Der
 Ueberblick traegt deshalb eine EIGENE Nennung, die nichts mit Copernicus zu tun
 hat. Einzelheiten und der genaue Wortlaut in `work/quellen/satellit/LIZENZ.md`.
-Solange Max den Satz nicht freigegeben hat, ist diese Datei nicht zur
+Solange der Satz nicht freigegeben ist, ist diese Datei nicht zur
 Veroeffentlichung bestimmt.
 
 NICHTS DAVON LAEUFT IM GERAET. Bauwerkzeug fuer den Rechner.

@@ -83,9 +83,10 @@ class MainActivity : Activity() {
         if (gemerkt.eigenesPaket.isNotBlank() && !paket.vonAussen) gemerkt.eigenesPaket = ""
 
         bereiche = listOf(
-            Lexikon(this, paket, ::zeigeMarke),
+            Lexikon(this, paket, gemerkt, ::zeigeMarke),
             Karte(this, gemerkt),
             Uebersetzer(this, paket) { baueOberflaeche() },
+            Taschenlampe(this),
             Einstellungen(this, paket, { sparmodus }, ::sparmodusUmschalten, gemerkt) {
                 baueOberflaeche()
             },
@@ -104,10 +105,34 @@ class MainActivity : Activity() {
         }
         setContentView(rahmen)
         baueOberflaeche()
+        zeigeHaftungshinweisFallsNoetig()
         // Das Laden endet in aller Regel NACH onResume. Wer dort einen Sensor
         // anwirft, kaeme also nie dran -- deshalb hier nachholen, aber nur,
         // wenn die App gerade wirklich vorn ist.
         if (sichtbar) bereiche[aktiv].fortsetzen()
+    }
+
+    /**
+     * Zeigt den Haftungshinweis einmalig beim allerersten Start und laesst ihn
+     * bestaetigen.
+     *
+     * Der Text steht schon als Tipp im Paket (Kategorie "hinweis") und in
+     * Lexikon.kt dauerhaft unter den Kacheln -- ueber die Suche erreichbar zu
+     * sein reicht rechtlich aber nicht. Deshalb hier derselbe Wortlaut, nicht
+     * neu geschrieben, und ohne Weg, ihn wegzuwischen, ohne ihn zu bestaetigen.
+     */
+    private fun zeigeHaftungshinweisFallsNoetig() {
+        if (gemerkt.haftungshinweisBestaetigt) return
+        val hinweis = paket.pack.tips.firstOrNull { it.category == "hinweis" } ?: return
+        android.app.AlertDialog.Builder(this)
+            .setTitle(hinweis.title)
+            .setMessage(hinweis.body)
+            .setCancelable(false)
+            .setPositiveButton("Verstanden") { fenster, _ ->
+                gemerkt.haftungshinweisBestaetigt = true
+                fenster.dismiss()
+            }
+            .show()
     }
 
     // Was waehrend des Ladens auf dem Bildschirm steht. Es behauptet NICHTS

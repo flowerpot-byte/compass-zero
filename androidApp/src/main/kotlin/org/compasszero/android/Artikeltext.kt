@@ -3,11 +3,11 @@ package org.compasszero.android
 /**
  * Liest die Gliederung, die ein Eintragstext schon mit sich traegt.
  *
- * WARUM ES DAS GIBT (Max am 04.08.2026): "Die Uebersichtlichkeit der einzelnen
- * Artikel ist sehr wichtig, da man sich schnell zurechtfinden muss." Bis dahin
- * kippte die Detailansicht den ganzen `body` in EINE TextView -- bei einem Tipp
- * regelmaessig ueber zweitausend Zeichen am Stueck, ohne jede Stufe. Wer im
- * Ernstfall den einen Absatz sucht, der zaehlt, liest eine Wand.
+ * WARUM ES DAS GIBT (Rueckmeldung vom 04.08.2026): "Die Uebersichtlichkeit der
+ * einzelnen Artikel ist sehr wichtig, da man sich schnell zurechtfinden muss."
+ * Bis dahin kippte die Detailansicht den ganzen `body` in EINE TextView -- bei
+ * einem Tipp regelmaessig ueber zweitausend Zeichen am Stueck, ohne jede
+ * Stufe. Wer im Ernstfall den einen Absatz sucht, der zaehlt, liest eine Wand.
  *
  * DER INHALT WIRD DAFUER NICHT ANGEFASST. Die Texte tragen ihre Ordnung laengst:
  *   - Absaetze als Leerzeile,

@@ -78,11 +78,24 @@ object PackParser {
                 "$zeichen Zeichen, erlaubt sind ${ContentLimits.MAX_SUCHTEXT_ZEICHEN}",
             )
         }
-        if (wortvorkommen > ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN) {
+        val grenzeWoerter = ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN
+        if (wortvorkommen > grenzeWoerter) {
             problems.fatal(
                 "content-too-many-search-terms",
                 "pack",
-                "$wortvorkommen Wortvorkommen, erlaubt sind ${ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN}",
+                "$wortvorkommen Wortvorkommen, erlaubt sind $grenzeWoerter",
+            )
+        } else if (wortvorkommen >= grenzeWoerter.toLong() * 9 / 10) {
+            // Vorwarnstufe statt einer harten Wand: Am 17.08.2026 lag ein
+            // fertiges, geprueftes Paket wochenlang auf Halde, weil die Grenze
+            // ohne Vorwarnung riss (siehe MERKZETTEL.md, "Die Wand am Ende des
+            // Wortbudgets"). Eine Warnung darf das Laden nicht verhindern --
+            // deshalb problems.warn und nicht fatal.
+            val frei = grenzeWoerter - wortvorkommen
+            problems.warn(
+                "content-search-terms-near-limit",
+                "pack",
+                "$wortvorkommen von $grenzeWoerter Wortvorkommen erreicht (90 %), noch $frei frei",
             )
         }
     }

@@ -11,9 +11,9 @@ import android.graphics.drawable.Drawable
 // ausduennt, und eine grosse organische Flaeche, die von rechts hereinragt und
 // aus dem Bild laeuft.
 //
-// Das sind die beiden Mittel der Vorlage, die Max geschickt hat: ein
-// Punktraster von grob nach fein und eine selbstbewusste weiche Vollflaeche.
-// Beides zusammen gibt der Marke ein Bild statt nur einer Zeile.
+// Das sind die beiden Mittel der vorgegebenen Vorlage: ein Punktraster von
+// grob nach fein und eine selbstbewusste weiche Vollflaeche. Beides zusammen
+// gibt der Marke ein Bild statt nur einer Zeile.
 //
 // ALS DRAWABLE UND NICHT ALS VIEW. Ein Hintergrund bekommt seine Groesse vom
 // Element, das ihn traegt. Als eigene View in einem FrameLayout hat die Grafik

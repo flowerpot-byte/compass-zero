@@ -410,6 +410,25 @@ class CommandsTest {
         assertTrue(!target.exists(), "kein Paket bei ungeprueftem Inhalt")
     }
 
+    // Die Gegenrichtung zu signLehntNichtAngemeldeteInhaltsdateienAb: das
+    // Manifest meldet eine Art an ("guides"), die zugehoerige Datei fehlt aber
+    // im Inhaltsordner. PackParser gibt dafuer "content-missing" als fatal
+    // zurueck; hier wird geprueft, dass diese generische Fatal-Meldung auch am
+    // Werkzeug wirklich ankommt und pack() blockiert, statt ein Paket zu bauen,
+    // das die App dann gar nicht erst laedt.
+    @Test
+    fun packLehntFehlendeAberAngemeldeteInhaltsdateiAb() {
+        val dir = contentDir().also {
+            File(it, "manifest.json").writeBytes(
+                """{"schema":1,"id":"org.compasszero.test","version":1,"language":"de","title":"Testpaket","kinds":["tips","guides"]}""".encodeToByteArray()
+            )
+        }
+        val (code, text) = run("pack", "--in", dir.absolutePath, "--out", File(tempDir(), "p.zip").absolutePath)
+        assertEquals(2, code)
+        assertTrue("content-missing" in text, text)
+        assertTrue("guides" in text, text)
+    }
+
     @Test
     fun signVerweigertGleicheQuelleUndZiel() {
         val keys = tempDir()

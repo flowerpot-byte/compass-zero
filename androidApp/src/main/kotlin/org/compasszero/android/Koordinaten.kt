@@ -5,10 +5,10 @@ import kotlin.math.abs
 /**
  * Liest eine Ortsangabe, so wie ein Mensch sie aufschreibt.
  *
- * WARUM ES DAS GIBT (Max am 18.08.2026): "ich will auch per suchfunktion nach
- * staedten, doerfern, laendern, koordinaten ... suchen koennen." Koordinaten
- * sind davon der Teil, der ohne jedes Verzeichnis auskommt -- er ist reines
- * Rechnen.
+ * WARUM ES DAS GIBT (Rueckmeldung vom 18.08.2026): "ich will auch per
+ * suchfunktion nach staedten, doerfern, laendern, koordinaten ... suchen
+ * koennen." Koordinaten sind davon der Teil, der ohne jedes Verzeichnis
+ * auskommt -- er ist reines Rechnen.
  *
  * WARUM SO VIELE SCHREIBWEISEN: Weil eine Koordinate im Ernstfall abgelesen
  * und abgetippt wird -- von einem Zettel, aus einem Funkspruch, von einem

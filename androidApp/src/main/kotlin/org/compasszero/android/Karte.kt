@@ -167,8 +167,8 @@ class Karte(private val gastgeber: Activity, private val gemerkt: Gemerkt) : Ber
      * ganze Datei durchgerechnet, sonst laesst sich die Unterschrift nicht
      * pruefen. Bei einer Europakarte und einem Detailpaket sind das zusammen
      * 783 MB. Das lief hier auf dem Faden der Bedienoberflaeche, und die App
-     * stand so lange still -- Max am 06.08.2026: "die karte braucht sehr lange
-     * zum laden und laesst die app sehr langsam wirken."
+     * stand so lange still -- Rueckmeldung vom 06.08.2026: "die karte braucht
+     * sehr lange zum laden und laesst die app sehr langsam wirken."
      *
      * Beim zweiten Mal ist es umsonst, weil der Kartenlader die geoeffnete
      * Karte merkt; dann wird sie sofort gezeigt und nichts blinkt auf. Nur der
@@ -309,12 +309,12 @@ class Karte(private val gastgeber: Activity, private val gemerkt: Gemerkt) : Ber
         //
         // DER ZUSTAND STEHT AM SCHALTER, nicht nur in seiner Farbe. Zuerst war
         // der Unterschied allein die Textfarbe -- gedaempftes Grau gegen
-        // Schwarz, beides auf demselben grauen Knopf. Max am 05.08.2026: "ich
-        // weiss nicht ob die overlays funktionieren weil die tasten kein
-        // visuelles feedback geben ob sie an sind." Er hatte recht, und der
-        // Fehler wiegt schwer: Wer nicht sieht, dass die Ebene "Wasser"
-        // ausgeschaltet ist, haelt eine Karte ohne Quellen fuer eine Gegend
-        // ohne Quellen.
+        // Schwarz, beides auf demselben grauen Knopf. Rueckmeldung vom
+        // 05.08.2026: "ich weiss nicht ob die overlays funktionieren weil die
+        // tasten kein visuelles feedback geben ob sie an sind." Das traf zu,
+        // und der Fehler wiegt schwer: Wer nicht sieht, dass die Ebene
+        // "Wasser" ausgeschaltet ist, haelt eine Karte ohne Quellen fuer eine
+        // Gegend ohne Quellen.
         //
         // Der gefuellte Punkt ist an, der leere aus. Das ist die uebliche
         // Anzeige fuer einen Schalter, sie braucht keine Farbe und keine
@@ -332,15 +332,15 @@ class Karte(private val gastgeber: Activity, private val gemerkt: Gemerkt) : Ber
         // Zeichens gesetzt. Damit war die zweite Auskunft da, aber die erste
         // weg: Wer auf einen leeren Schalter tippte, sah gar nichts
         // passieren -- weder auf der Karte (dort liegt ja nichts) noch am
-        // Knopf. Max danach: "also die overlays kann man jetzt einfach nicht
-        // anzeigen lassen." Ein Knopf, der eine Beruehrung nicht quittiert,
-        // ist schlimmer als einer, der zu wenig erklaert.
+        // Knopf. Die Rueckmeldung danach: "also die overlays kann man jetzt
+        // einfach nicht anzeigen lassen." Ein Knopf, der eine Beruehrung nicht
+        // quittiert, ist schlimmer als einer, der zu wenig erklaert.
         // DIE SCHALTER STEHEN NICHT MEHR IN DER LEISTE, SONDERN IN EINER
         // AUSWAHL DAHINTER.
         //
-        // Max am 18.08.2026: "die steuerung kommt mir uebrigens noch extrem
-        // unuebersichtlich vor." Mit dem achten Schalter (Satellit) gaben
-        // 1080 Bildpunkte noch 135 je Stueck her, und die Beschriftungen
+        // Rueckmeldung vom 18.08.2026: "die steuerung kommt mir uebrigens noch
+        // extrem unuebersichtlich vor." Mit dem achten Schalter (Satellit)
+        // gaben 1080 Bildpunkte noch 135 je Stueck her, und die Beschriftungen
         // standen als "Wass...", "Gelaen...", "Satellit" da -- ein Schalter,
         // dessen Namen man raten muss, ist keiner.
         //
@@ -408,12 +408,12 @@ class Karte(private val gastgeber: Activity, private val gemerkt: Gemerkt) : Ber
         // Schalter, der nichts schalten kann, ist eine Verabredung, die die
         // App nicht einhaelt -- und im Ernstfall sucht niemand nach dem Grund.
         // DIE GEZEICHNETE KARTE SELBST -- Strassen, Gewaesser, Grenzen,
-        // Flaechen. Max am 18.08.2026: "selbst mit allen ebenen aus ist immer
-        // noch extrem viele linien auf der karte zu sehen. was ist das man
-        // soll es ausschalten koennen." Die Schalter darueber steuern nur die
-        // PUNKTE; die Zeichnung hatte ueberhaupt keinen. Ueber einem
-        // Satellitenbild ist das der Unterschied zwischen einem Foto und
-        // einem Foto unter einem Netz aus Strichen.
+        // Flaechen. Rueckmeldung vom 18.08.2026: "selbst mit allen ebenen aus
+        // ist immer noch extrem viele linien auf der karte zu sehen. was ist
+        // das man soll es ausschalten koennen." Die Schalter darueber steuern
+        // nur die PUNKTE; die Zeichnung hatte ueberhaupt keinen. Ueber einem
+        // Satellitenbild ist das der Unterschied zwischen einem Foto und einem
+        // Foto unter einem Netz aus Strichen.
         for ((name, sorten) in zeichnungsgruppen()) {
             wahl.add(
                 Triple(
@@ -741,11 +741,11 @@ class Karte(private val gastgeber: Activity, private val gemerkt: Gemerkt) : Ber
     /**
      * Das Suchfeld ueber der Standzeile.
      *
-     * Heute versteht es Koordinaten. Max am 18.08.2026 will damit auch nach
-     * Orten, Krankenhaeusern und Quellen suchen koennen -- dafuer braucht es
-     * ein Namensverzeichnis neben der Karte, und das kommt als eigenes
-     * Stueck. Die Zeile sagt deshalb geradeheraus, was sie heute kann, statt
-     * eine Suche vorzutaeuschen, die nichts findet.
+     * Heute versteht es Koordinaten. Gewuenscht ist seit dem 18.08.2026, damit
+     * auch nach Orten, Krankenhaeusern und Quellen suchen zu koennen -- dafuer
+     * braucht es ein Namensverzeichnis neben der Karte, und das kommt als
+     * eigenes Stueck. Die Zeile sagt deshalb geradeheraus, was sie heute kann,
+     * statt eine Suche vorzutaeuschen, die nichts findet.
      */
     private fun suchleiste(b: Bausteine, blatt: Kartenblatt, verzeichnis: org.compasszero.karte.Namensdatei?): View {
         val reihe = b.reihe().apply { setPadding(0, b.stil.abstand / 4, 0, 0) }
@@ -945,8 +945,8 @@ class Karte(private val gastgeber: Activity, private val gemerkt: Gemerkt) : Ber
      * DER FEHLER, DEN DAS BEHEBT: Im Sparmodus ist die Schrift hell -- der
      * Knopf behielt aber den hellgrauen Standardgrund von Android. Helles auf
      * Hellem: Auf dem Bildschirm war "Gelände 0" ueberhaupt nicht mehr zu
-     * sehen, und auch "GANZ" und "NORD" waren kaum zu lesen. Max am 06.08.2026:
-     * "vorallem im notfallmodus ist die karte unuebersichtlich."
+     * sehen, und auch "GANZ" und "NORD" waren kaum zu lesen. Rueckmeldung vom
+     * 06.08.2026: "vorallem im notfallmodus ist die karte unuebersichtlich."
      *
      * Schwarz mit dünnem hellem Rahmen ist hier ausserdem das Richtige und
      * nicht nur das Lesbare: Auf einem OLED-Schirm kostet eine schwarze Flaeche

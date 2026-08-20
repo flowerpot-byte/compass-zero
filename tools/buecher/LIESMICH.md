@@ -1,9 +1,10 @@
 # Gescannte Bücher einlesen
 
-Max besitzt drei gedruckte Bücher, die als Themenlandkarte dienen (siehe
-`LIZENZANFRAGEN.md`, Abschnitt „Grundsatz für Wissen aus geschützten
-Büchern"). Er scannt sie mit einer Scanner-App auf dem Telefon. Dieses
-Werkzeug holt die Scans ab und macht sie durchsuchbar.
+Für das Projekt stehen drei gedruckte Bücher zur Verfügung, die als
+Themenlandkarte dienen (siehe `LIZENZANFRAGEN.md`, Abschnitt „Grundsatz für
+Wissen aus geschützten Büchern"). Sie werden mit einer Scanner-App auf dem
+Telefon abfotografiert. Dieses Werkzeug holt die Scans ab und macht sie
+durchsuchbar.
 
 ## Warum es das gibt
 
@@ -14,15 +15,13 @@ hier auf dem Rechner mit Tesseract.
 
 ## Voraussetzungen
 
-- **Tesseract.** Unter Windows wird es an der üblichen Stelle
-  (`C:\Program Files\Tesseract-OCR\tesseract.exe`) gesucht; liegt es
-  woanders, den Pfad in die Umgebungsvariable `TESSERACT` schreiben.
-  Sprachen: `eng` genügt, die Bücher sind englisch.
+- **Tesseract** unter `C:\Program Files\Tesseract-OCR\tesseract.exe`
+  (Sprachen: `eng` ist installiert, `deu` nicht — die Bücher sind englisch).
   Falls es fehlt: `winget install --id UB-Mannheim.TesseractOCR`
 - **Telefon per Kabel**, USB-Debugging eingeschaltet, Rückfrage auf dem
-  Telefon bestätigt. `adb` wird über `ANDROID_HOME` gefunden (dieselbe
-  Variable wie beim Gradle-Bau), sonst im `PATH`. Prüfen mit
-  `adb devices` — das Telefon muss neben `emulator-5554` auftauchen.
+  Telefon bestätigt. Prüfen mit
+  `& "$env:USERPROFILE\Android\Sdk\platform-tools\adb.exe" devices` — das
+  Telefon muss neben `emulator-5554` auftauchen.
 - Die Scans müssen **auf dem Telefon liegen**, nicht nur in der Cloud der App.
   In der Scanner-App: Teilen → „Kopie speichern", dann landen sie unter
   `/sdcard/Download`.
@@ -38,12 +37,13 @@ eingelesen ist. Der zweite holt alles Neue und liest es ein. Bereits
 eingelesene Dateien werden übersprungen — ein zweiter Lauf kostet nichts. Wer
 eine Datei neu einlesen will, löscht ihre `.txt`.
 
-Aufgerufen wird aus dem Projektordner. Unter Windows/PowerShell vorher:
+Vor jedem Aufruf in PowerShell:
 
+    Set-Location <Projektordner>
     $env:PYTHONIOENCODING = "utf-8"
-    $env:ANDROID_HOME = "<Pfad zum Android-SDK>"
 
-Steht `python` nicht im `PATH`, mit vollem Pfad aufrufen.
+und Python mit vollem Pfad aufrufen
+(`$env:LOCALAPPDATA\Programs\Python\Python312\python.exe`).
 
 ## Was dabei herauskommt
 

@@ -78,10 +78,10 @@ class TextsTest {
         assertFalse(Texts.isUsable("halb\uDC00"))
     }
 
-    // Absaetze im Fliesstext: von Max am 29.07.2026 entschieden, weil ein
-    // medizinischer Tipp von zweitausend Zeichen in einem einzigen Absatz unter
-    // Stress kaum zu erfassen ist. Die Ausnahme ist eng, und diese Tests halten
-    // sie eng.
+    // Absaetze im Fliesstext: am 29.07.2026 entschieden, weil ein
+    // medizinischer Tipp von zweitausend Zeichen in einem einzigen Absatz
+    // unter Stress kaum zu erfassen ist. Die Ausnahme ist eng, und diese Tests
+    // halten sie eng.
     @Test
     fun absaetzeSindNurErlaubtWoSieAusdruecklichZugelassenSind() {
         val mitAbsatz = "Erster Absatz.\n\nZweiter Absatz."

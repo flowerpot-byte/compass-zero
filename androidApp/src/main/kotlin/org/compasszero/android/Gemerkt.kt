@@ -5,11 +5,11 @@ import android.content.Context
 /**
  * Was die App sich ueber einen Neustart hinweg merkt.
  *
- * WARUM ES DAS GIBT (Max am 17.08.2026): Bis dahin merkte die App sich NICHTS
- * -- nach jedem Start war der Sparmodus wieder aus, die Karte wieder voll und
- * jede abgeschaltete Ebene wieder da. Wer im Dunkeln mit halbem Akku den
- * Sparmodus einschaltet, schaltet ihn nach dem naechsten Start wieder ein,
- * und so weiter.
+ * WARUM ES DAS GIBT (Rueckmeldung vom 17.08.2026): Bis dahin merkte die App
+ * sich NICHTS -- nach jedem Start war der Sparmodus wieder aus, die Karte
+ * wieder voll und jede abgeschaltete Ebene wieder da. Wer im Dunkeln mit
+ * halbem Akku den Sparmodus einschaltet, schaltet ihn nach dem naechsten Start
+ * wieder ein, und so weiter.
  *
  * WAS HIER NICHT PASSIERT: Es geht nichts ins Netz und nichts an einen
  * Anbieter. `getSharedPreferences` legt eine kleine Datei im PRIVATEN Ordner
@@ -45,6 +45,16 @@ class Gemerkt(context: Context) {
         get() = lies(SATELLIT, false)
         set(wert) = schreibe(SATELLIT, wert)
 
+    /**
+     * Ob der Bildschirm anbleibt, solange ein Eintrag der Kategorie
+     * "erste-hilfe" geoeffnet ist -- siehe Lexikon.aktualisiereBildschirmwach.
+     * Voreinstellung an: Wer eine Herzdruckmassage nach Anleitung macht, soll
+     * nicht nach dreissig Sekunden vor einem schwarzen Bildschirm stehen.
+     */
+    var bildschirmBeiErsteHilfeAn: Boolean
+        get() = lies(BILDSCHIRM_ERSTE_HILFE, true)
+        set(wert) = schreibe(BILDSCHIRM_ERSTE_HILFE, wert)
+
     /** Ob eine Gruppe der gezeichneten Karte gezeigt wird. */
     fun zeichnungAn(gruppe: String): Boolean = lies(ZEICHNUNG + gruppe, true)
 
@@ -61,6 +71,16 @@ class Gemerkt(context: Context) {
         lies(EBENE + ebene.name, voreinstellung)
 
     fun setzeEbene(ebene: Kartenblatt.Ebene, an: Boolean) = schreibe(EBENE + ebene.name, an)
+
+    /**
+     * Ob der Haftungshinweis beim ersten Start bestaetigt wurde -- siehe
+     * MainActivity.zeigeHaftungshinweisFallsNoetig. Ueber die Suche erreichbar
+     * zu sein reicht rechtlich nicht: Er muss einmal aktiv bestaetigt worden
+     * sein, danach nie wieder gezeigt werden.
+     */
+    var haftungshinweisBestaetigt: Boolean
+        get() = lies(HAFTUNGSHINWEIS, false)
+        set(wert) = schreibe(HAFTUNGSHINWEIS, wert)
 
     /**
      * Der Dateiname eines empfangenen Inhaltspakets, das statt der Beigabe
@@ -109,5 +129,7 @@ class Gemerkt(context: Context) {
         const val SATELLIT = "satellitenbild"
         const val ZEICHNUNG = "zeichnung-"
         const val PAKET = "eigenes-paket"
+        const val BILDSCHIRM_ERSTE_HILFE = "bildschirm-erste-hilfe"
+        const val HAFTUNGSHINWEIS = "haftungshinweis-bestaetigt"
     }
 }

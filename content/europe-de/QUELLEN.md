@@ -130,10 +130,10 @@ Nicht-Übernahmen.** Aufgenommen wurden:
 - **Suizidgedanken** (S. 237). Braucht keine Ausrüstung, nur Worte — und in einer
   langen Krise mit Isolation ist das kein Randthema.
 
-**Zunächst nicht übernommen — auf Max' ausdrückliche Weisung am 28.07.2026 doch
-aufgenommen.** Meine Begründungen für das Weglassen stehen unten; Max hat
-entschieden, dass alles mit medizinischer Notwendigkeit ins Paket gehört, und
-das ist seine Entscheidung. Die drei Tipps tragen deshalb ausdrücklich, wo die
+**Zunächst nicht übernommen — auf ausdrückliche Weisung am 28.07.2026 doch
+aufgenommen.** Die Begründungen für das Weglassen stehen unten; entschieden
+wurde, dass alles mit medizinischer Notwendigkeit ins Paket gehört, und dabei
+bleibt es. Die drei Tipps tragen deshalb ausdrücklich, wo die
 Leitlinie dünn ist: Der Schlaganfall-Tipp sagt selbst, dass die Quelle zur
 Überbrückung ohne Rettungsdienst nichts hergibt; der Asthma-Tipp sagt, dass die
 Leitlinie nicht mehr enthält als den einen Satz; der Opioid-Tipp sagt, dass
@@ -220,8 +220,8 @@ Stadium II und Hitzschlag. Beide verweisen jetzt.
   fanden **gar nichts**; `stich` führte zur Brustwunde statt zum Insektenstich im
   Rachen; `arm ab` und `bein ab` fanden den Amputat-Tipp nicht.
 
-**Eine Grundsatzfrage, die dieser Durchgang aufgeworfen hat und die Max
-entscheiden muss:** Quer durch das Erste-Hilfe-Kapitel enden Anweisungen mit
+**Eine Grundsatzfrage, die dieser Durchgang aufgeworfen hat und die noch zu
+entscheiden ist:** Quer durch das Erste-Hilfe-Kapitel enden Anweisungen mit
 „Notruf 112“, „bis der Rettungsdienst übernimmt“, „zum Arzt“, „ins Krankenhaus“.
 Das ist quellentreu und muss so bleiben. Aber es ist die Standardannahme einer
 Leitlinie für ein Land mit funktionierendem Rettungsdienst — und die
@@ -600,7 +600,8 @@ Ausnahme für das Bein hätte er sich als generelles Abbindeverbot gelesen, und
 zwar für den einen Körperteil, an dem die Abbindung Leben rettet. Berichtigt und
 mit `derKopfUndRumpfTippSchicktAmBeinZumAbbinden` festgehalten.
 
-**Schlangenbiss (S. 254 f.), eingebaut am 28.07.2026 auf Max' Weisung.** Die
+**Schlangenbiss (S. 254 f.), eingebaut am 28.07.2026 auf ausdrückliche
+Weisung.** Die
 Leitlinie bestätigt alle vier Verbote des Pakets (keine Abbindung, kein
 Aussaugen, keine Kälte, kein Aufschneiden). Sie verlangt aber zusätzlich und
 ausdrücklich für abgelegene Lagen etwas, das fehlte: das betroffene Glied mit
@@ -670,7 +671,7 @@ Verbrennungsgefahr an einer gefühllosen Stelle; nicht reiben; danach keimfreie
 Gaze, bei mehreren Fingern oder Zehen Gaze **zwischen** jeden einzelnen; danach
 vor erneutem Gefrieren schützen.
 
-**Dosierung, nach Max' Vorgabe mit eigenem Vorbehalts-Absatz:** hohe Dosis
+**Dosierung, mit eigenem Vorbehalts-Absatz wie vorgegeben:** hohe Dosis
 Ibuprofen 400–800 mg, ersatzweise niedrige Dosis Acetylsalicylsäure 75–80 mg,
 „this may improve healing". Der Vorbehalt nennt ausdrücklich, dass die Quelle an
 dieser Stelle **keine** Kinderdosis angibt — dann bleibt es beim Aufwärmen ohne
@@ -698,7 +699,7 @@ Zittern aufhört. Es ging also um dieselbe Person mit gegenteiliger Anweisung.
 
 ### Wilderness Medical Society (WMS) — und wie der Widerspruch aufgelöst wurde
 
-Nach Max' Weisung vom 28.07.2026 wird bei widersprüchlichen Quellen nicht mehr
+Nach der Weisung vom 28.07.2026 wird bei widersprüchlichen Quellen nicht mehr
 nur der Widerspruch vermerkt, sondern nachgeschlagen, bis eine Entscheidung
 möglich ist. Dafür geladen und im Volltext gelesen:
 
@@ -727,7 +728,7 @@ applied to the axillae, chest, and back."
 
 Damit stehen zwei unabhängige Fachquellen (IFRC 2020, WMS 2019) gegen eine
 verkürzte Laien-Anleitung, und die eine Quelle liefert zugleich die Erklärung für
-die andere. **Entschieden und umgesetzt**, statt Max vorgelegt: Der Tipp verbietet
+die andere. **Entschieden und umgesetzt**, statt vorgelegt: Der Tipp verbietet
 jetzt genau das, was belegt schadet — Wärme an den Gliedmaßen, warmes Bad,
 Reiben, unnötige Bewegung —, und verlangt genau das, was belegt hilft: Wärme an
 Achseln, Brust und Rücken, waagerechte Lage, Isolierung mit wasserdichter Schicht
@@ -1006,7 +1007,7 @@ Waage. Mehrere Tests sichern das ab.
 **Was weiterhin offen ist:** Für den Zucker gibt es kein einheitliches
 Haushaltsmaß — das Handbuch nennt 18 Gramm je Liter, die Anleitung für die
 Allgemeinheit sechs Teelöffel. Beide Angaben stehen im Tipp und sind beide von
-der WHO; welche vorgehen soll, ist eine Entscheidung für Max und steht in der
+der WHO; welche vorgehen soll, ist noch zu entscheiden und steht in der
 Roadmap.
 
 **Ebenfalls ergänzt:** Der selbst angesetzten Lösung fehlt das Kalium, das die
@@ -1202,7 +1203,7 @@ falsch herum, deshalb ist an der Wiederbelebung **nichts geändert** worden. Die
 Frage dahinter ist aber echt — bei Erstickungs-bedingtem Stillstand zählt
 Sauerstoff, und das Paket kennt diese Ausnahme für Kinder bereits. Ob sie auch
 für Erwachsene nach Rauchgas gelten soll, gehört in den aktuellen GRC-Text
-nachgeschlagen und ist eine Entscheidung für Max, keine nebenbei zu treffende.
+nachgeschlagen und ist ausdrücklich zu entscheiden, nicht in einer Nachtschicht.
 
 Ebenfalls offen, und für dieses Projekt die schmerzhafteste Lücke:
 **Wundversorgung ohne erreichbaren Arzt.** Alle deutschen Laienquellen enden
@@ -1376,8 +1377,8 @@ Zweck und Voraussetzung, einen für die Handgriffe.
 
 Sauberer wäre die Struktur von `guides.json` mit echten `steps`. Dem stand
 entgegen, dass eine Bauanleitung dort eine Materialliste erzwang (mindestens ein
-Eintrag), und eine Erste-Hilfe-Maßnahme braucht kein Material. **Entschieden von
-Max am 28.07.2026 und umgesetzt: `materials` ist optional.** Damit können die
+Eintrag), und eine Erste-Hilfe-Maßnahme braucht kein Material. **Entschieden am
+28.07.2026 und umgesetzt: `materials` ist optional.** Damit können die
 mehrteiligen Abläufe — stabile Seitenlage, Wiederbelebung, Ersticken — als
 Anleitungen mit echten Schritten geführt werden statt als aufgeteilter
 Fließtext. Umgestellt ist noch keiner; die Tipps stehen unverändert.
@@ -1467,13 +1468,13 @@ Nummer zu nennen.
 `SourceRef.detail` war bis zum 28.07.2026 eine Kann-Angabe: geprüft wurde nur,
 dass mindestens eine Quelle da ist und der Name lesbar. „Dokument und
 Abrufdatum" war damit Disziplin, keine erzwungene Zusage — und genau solche
-Angaben verrotten still. **Entschieden von Max am 28.07.2026 und umgesetzt:
+Angaben verrotten still. **Entschieden am 28.07.2026 und umgesetzt:
 `detail` ist Pflicht.** Ein Paket, dessen Quelle das Feld nicht trägt, lädt gar
 nicht mehr; ein leeres `detail` endet als `source-detail-missing`. Alle 89
 Tipps trugen die Angabe bereits, geprüft vor dem Umstellen — der Bestand musste
 nicht angefasst werden.
 
-### Offene Frage an Max
+### Offene Frage
 
 Soll die Kategorie einen einleitenden Hinweis tragen, dass sie keinen
 Erste-Hilfe-Kurs ersetzt? Das wäre keine Tatsachenbehauptung aus einer Quelle,
@@ -1542,7 +1543,7 @@ Wer im Ernstfall auf ein Penicillin-Präparat aus dem Schrank setzt, verliert
 Zeit. Die wirksamen Gruppen sind ebenfalls genannt (Doxycyclin, Ciprofloxacin),
 ausdrücklich ohne Dosierung, weil die Quelle keine für die Selbstanwendung
 nennt. Dieselbe Linie fährt bereits der Tipp „Antibiotika-Reste aus dem
-Schrank: was bei Ruhr nie wirkt". **Für Max zur Prüfung**, ob das so bleiben
+Schrank: was bei Ruhr nie wirkt". **Zur Prüfung offen**, ob das so bleiben
 soll.
 
 ### Warum diese Kategorie überhaupt nötig ist
@@ -1723,7 +1724,7 @@ Alle drei geladen und im Volltext gelesen.
 
 ### Warum hier zum ersten Mal Dosierungen im Paket stehen
 
-Auf Max' Weisung vom 28.07.2026 sollen fehlende Angaben, insbesondere
+Nach der Weisung vom 28.07.2026 sollen fehlende Angaben, insbesondere
 Dosierungen, aus weiteren Quellen ergänzt werden. Der Tipp
 `erste-hilfe-borreliose-behandeln` nennt deshalb Mittel, Tagesdosis und Dauer
 aus Tabelle 5 der Leitlinie, einschließlich der abweichenden Regeln für Kinder
@@ -1782,8 +1783,8 @@ Zeckenstich bei Haustieren zu tun ist.
 
 ## Kategorie: Taktisch
 
-Angelegt am 28.07.2026 auf Max' Auftrag vom selben Tag. Der Zuschnitt stammt
-von ihm: **Kern ist nicht der Kampf, sondern das Nichtstattfinden** — Lagen
+Angelegt am 28.07.2026 auf Auftrag vom selben Tag. Der Zuschnitt war
+vorgegeben: **Kern ist nicht der Kampf, sondern das Nichtstattfinden** — Lagen
 erkennen, Sichtbarkeit vermeiden, deeskalieren, Fluchtwege, Umgang mit
 Verletzungen durch Gewalt.
 
@@ -1867,39 +1868,89 @@ Treffer. Verschoben haben sich nur die Plätze zwei und drei bei `sicherheit`,
 
 ## Übersetzer: Phrasenkatalog (content/phrases.json)
 
-Der Übersetzer ist gebaut, sein Satzkatalog gehört aber **nicht zu dieser
-Veröffentlichung**. Die dafür vorgesehene Vorlage — das „Emergency
-Multilingual Phrasebook" des British Red Cross, 62 Sätze für die
-Verständigung zwischen Helfer und Patient ohne gemeinsame Sprache — steht
-unter keiner freien Lizenz. Eine Nutzungsanfrage läuft; bis eine Antwort
-vorliegt, wird `content/phrases.json` nicht weitergegeben. Einzelheiten in
-[`../../LIZENZANFRAGEN.md`](../../LIZENZANFRAGEN.md).
+Angelegt am 28.07.2026 auf Entscheidung vom selben Tag: Der Katalog
+übernimmt das „Emergency Multilingual Phrasebook" des British Red Cross.
 
-Das Basispaket führt die Art `phrases` deshalb nicht im Manifest. Der
-Übersetzer-Bereich bleibt bedienbar und sagt es offen: „Dieses Inhaltspaket
-enthält keinen Phrasenkatalog." Wer einen eigenen, frei lizenzierten Katalog
-mitbringt, legt ihn als `content/phrases.json` in ein Paket und trägt
-`phrases` in die Arten des Manifests ein; das Format steht in
-[`../../docs/PACK-FORMAT.md`](../../docs/PACK-FORMAT.md).
+### Quelle
 
-Geprüft und verworfen als Ersatz: das **Refugee Phrasebook** (Open Knowledge
-Foundation Deutschland, CC0). Es ist frei, deckt aber die Gegenrichtung ab —
-es lässt den Betroffenen sprechen („Ich muss zum Arzt"), nicht den Helfer
-fragen („Haben Sie Schmerzen? Zeigen Sie bitte, wo"). Von 62 Sätzen hat genau
-einer eine Entsprechung. Als eigener, zusätzlicher Katalog wäre es brauchbar;
-als Ersatz nicht.
+**British Red Cross mit Unterstützung des National Health Service, „Emergency
+Multilingual Phrasebook", Druckfassung vom 23.01.2004** (Datum aus den
+Satzmarken der Druckdateien). 62 nummerierte Sätze für die Verständigung
+zwischen medizinischem Personal und Patienten ohne gemeinsame Sprache,
+ursprünglich in 36 Sprachen. Bezogen als je eine PDF-Datei pro Sprache über die
+Spiegelung der Raunds & District Emergency Medical Services
+(raems.com/multi.html), abgerufen am 28.07.2026; die Originalseiten von NHS
+Confederation und weiteren Trägern waren an diesem Tag nicht abrufbar (401
+bzw. 403). Alle sechs übernommenen Sprachdateien (Englisch, Deutsch,
+Französisch, Spanisch, Italienisch, Polnisch) liegen unter
+`work/quellen/brc-phrasebook/` und wurden im Volltext gelesen.
+
+### LIZENZ UNGEKLÄRT — Sperre vor Veröffentlichung
+
+Das Phrasebook steht unter KEINER freien Lizenz. Die Nutzungserlaubnis wird
+direkt beim British Red Cross geklärt (Anschrift aus dem Faltblatt:
+UK Office, 9 Grosvenor Crescent, London SW1X 7EJ, redcross.org.uk; Registered
+Charity 220949). **Bis die Erlaubnis vorliegt, darf kein Paket mit
+`content/phrases.json` das Haus verlassen** — nicht als APK-Asset einer
+veröffentlichten Version, nicht als eigenes Paket, nicht im offenen Repo. Die
+Entwicklung und der lokale Betrieb sind davon unberührt.
+
+### Übernahme-Entscheidungen
+
+- **Wortlaut je Sprache unverändert übernommen**, auch wo sich die
+  Übersetzungen einer Nummer stilistisch unterscheiden (die spanische Fassung
+  von Satz 5 bittet ums Aufschreiben, die deutsche fragt nur; die deutsche
+  Fassung von Satz 2 lässt „in English" weg). Die Quelle hat je Sprache eigene
+  Übersetzer benutzt; das wird nicht geglättet.
+- **Normalisiert wurde nur Mechanik der PDF-Extraktion**, protokolliert in
+  `work/phrasen-fixlog.txt` (80 Einträge): zerrissene Anfangsbuchstaben
+  („T elefonnummer"), fehlende Leerzeichen nach polnischen Kommas, die
+  Schmerzskala („)234567891 0(" → „) 2 3 4 5 6 7 8 9 10 („) und die im Druck
+  hochgestellten Optionsnummern, die beim Extrahieren am Folgewort kleben
+  („1doctor") — sie stehen jetzt einheitlich als „(1) ", weil das Zeigen auf
+  nummerierte Optionen die Bedienung des Faltblatts ist.
+- **Italienisch:** Die Extraktion hat die hochgestellten Optionsnummern in den
+  Sätzen 22, 26, 27, 33, 34, 45, 46 ganz verschluckt (erkennbar an doppelten
+  Leerzeichen an genau diesen Stellen). Wiederhergestellt aus der
+  Parallelstruktur der übrigen fünf Sprachen — gleiche Optionsliste, gleiche
+  Reihenfolge.
+- **Ein Fußzeilenrest entfernt:** In Satz 31 (en) war beim Extrahieren das
+  alleinstehende Wort „Movement" aus dem Rotkreuz-Vereinstext in den Satz
+  gerutscht. Gegen das PDF geprüft und entfernt.
+- **Gruppierung ist eigene Zutat.** Das Faltblatt ist eine flache Liste 1–62
+  mit einer einzigen eigenen Zwischenüberschrift („Questions from patients",
+  ab Satz 58). Die acht Gruppen samt Titeln in sechs Sprachen sind
+  Navigations-Beschriftung von uns; nur Gruppe 8 trägt die Überschrift der
+  Quelle. Die Satznummern der Quelle stehen je Gruppe in der Belegangabe.
+- **Nichts weggelassen:** alle 62 Sätze sind übernommen, auch die
+  UK-spezifischen (Satz 32 fragt nach Aufenthalt außerhalb Großbritanniens,
+  Sätze 51/58/59 passen auf eine Notaufnahme). Sie kosten nichts und sind
+  genau dann nützlich, wenn jemand im Ausland in eine Klinik gerät.
+
+### Eigenheiten der Quelle, bewusst nicht geglättet
+
+- **Satz 15 auf Polnisch fragt mit gedrehter Polarität:** „Czy oddycha
+  Pan/Pani swobodnie?" (Atmen Sie frei?), während Englisch „Are you short of
+  breath?" fragt. Ein Ja bedeutet also je nach Sprache das Gegenteil. Das ist
+  der Wortlaut der Quelle; die Oberfläche zeigt immer beide Sprachen
+  nebeneinander, damit beide Seiten dieselbe Frage sehen.
+- **Satz 50 auf Polnisch ist als Frage formuliert** („Czy może Pan/Pani
+  wstać.": Können Sie aufstehen), Englisch als Erlaubnis („You may get up
+  now."). Ebenfalls Quelle.
+- **Satz 38 auf Polnisch nennt konkret ein EKG**, wo Englisch allgemein „test
+  your heart" sagt.
 
 ### Suche
 
-Phrasen gehören BEWUSST NICHT in den Suchindex. Sätze wie „Haben Sie
-Schmerzen?" oder „Haben Sie Blutungen?" würden mit hoher Gewichtung die
-Notfall-Handlungs-Tipps verdrängen — eine solche Verdrängung war beim Einbau
-der Kategorie Taktisch schon zweimal gemessen worden. Ob und wie ein Katalog
-durchsuchbar wird, ist eine eigene, zu messende Entscheidung.
+Die Phrasen sind BEWUSST NICHT im Suchindex. Sätze wie „Haben Sie Schmerzen?"
+oder „Haben Sie Blutungen?" würden mit hoher Gewichtung die
+Notfall-Handlungs-Tipps verdrängen (gemessene Verdrängung war beim Einbau der
+Kategorie Taktisch schon zweimal der Fall). Ob und wie der Katalog durchsuchbar
+wird, ist eine eigene, zu messende Entscheidung.
 
 ## Trinken bei geschlucktem Gift (erste-hilfe-gift-geschluckt-trinken)
 
-Max' Weisung vom 28.07.2026: so viele Quellen wie möglich, daraus eine
+Weisung vom 28.07.2026: so viele Quellen wie möglich, daraus eine
 belastbare Aussage. Gesammelt wurden am 28.07.2026 elf Quellen im Volltext
 (alle unter `work/quellen/medizin-luecken/gift-trinken/`, Auswertung mit
 Gegenüberstellungstabelle in `work/recherche-medizin-luecken/quellenlage.md`);
@@ -1924,7 +1975,7 @@ Einig sind sich ausnahmslos alle: kein Erbrechen auslösen, kein Salzwasser
 nicht Wachen nichts einflößen (Berlin knüpft das Trinken bei Verätzung
 ausdrücklich an „Wenn der Patient wach ist").
 
-### Die Entscheidung, nach Max' Widerspruchsregel
+### Die Entscheidung, nach der Widerspruchsregel
 
 Der Tipp folgt der Linie der deutschen Giftinformationszentren (1) und legt
 die DGUV-Gegenposition (2) im Text offen. Begründung: Die
@@ -2013,7 +2064,7 @@ Für ein eigenständiges Tipp zu Warnzeichen verunreinigten Wassers (trüb,
 Geruch, Fundort z. B. nahe Landwirtschaft/Industrie) wurde keine belastbare
 BBK- oder WHO-Primärquelle gefunden, die das eigenständig und zitierfähig
 behandelt. Bewusst nicht ergänzt, um keine unbelegte Faustregel in die App zu
-schreiben — offener Punkt für eine spätere Recherche, siehe
+schreiben — offener Punkt für eine spätere Recherchesitzung, siehe
 [`../../ROADMAP.md`](../../ROADMAP.md).
 
 Das Deutsche Rote Kreuz (drk.de) hat für dieses Thema keine eigenständige
@@ -2087,7 +2138,7 @@ Paket ausgeliefert.**
   Stundenlinien hängen von der geografischen Breite ab. Lücke ausgewiesen statt
   gefüllt.
 - **Getreide mahlen.** Ebenfalls geprüft, ebenfalls keine freie Quelle. Bleibt
-  ein echter Punkt für Max' Buchscans.
+  ein echter Punkt für die Buchscans.
 - **Die Tötungsstellen je Tierart** und **die Salpetermengen beim Pökeln** —
   unverändert draußen, siehe die früheren Abschnitte.
 
@@ -2161,8 +2212,8 @@ siebzig Jahre, nicht das Erscheinungsjahr. Das ist mehrfach hart geworden:
 
 Dazu kommen die Nebenquellen, die aus demselben Grund draußen blieben:
 T. E. Woodward (Silage), R. T. Hall (Brennholz im Krieg) und mehrere weitere.
-**Beide offenen Grundsatzfragen dazu stehen in `LIZENZANFRAGEN.md` und
-gehören Max.**
+**Beide offenen Grundsatzfragen dazu stehen in `LIZENZANFRAGEN.md` und sind
+noch nicht entschieden.**
 
 ### Der Gegenbeweis, dass die Prüfung sich lohnt
 
@@ -2763,7 +2814,8 @@ Notfall-Tipp wurde nicht verdrängt.
 # OFFENER PUNKT VOR JEDER VERÖFFENTLICHUNG: die Begründung „US-Bundeswerk"
 
 **Aufgefallen am 11.08.2026.** Das ist kein Einzelfall, sondern eine Frage,
-die quer durch das ganze Paket geht, und sie muss von Max entschieden werden.
+die quer durch das ganze Paket geht, und sie muss ausdrücklich entschieden
+werden.
 
 ## Der Befund
 
@@ -2799,7 +2851,7 @@ Es gibt gute Argumente dafür, dass ein Werk, das in seinem Ursprungsland nie
 Schutz hatte, auch hier keinen genießt.
 
 **Das Projekt hat sich aber ausdrücklich für den vorsichtigen Weg
-entschieden** — die Regel steht in `RULES.md` und weiter oben in dieser
+entschieden** — die Merkzettel-Regel steht weiter oben in dieser
 Datei: bei alten Werken zählt Todesjahr plus 70, und „US-Bundeswerk" allein
 trägt nicht. An dieser Regel gemessen sind die oben genannten Einträge nicht
 gedeckt.
@@ -2813,7 +2865,7 @@ Erscheinungsjahr plus 70, und das ist bei allen abgelaufen. Ebenfalls sauber:
 Stiles (gestorben 1941), Smith (1934), Langworthy (1932), Hunt (1927),
 Voorhees (1911) — dort ist das Todesjahr belegt.
 
-## Die drei Wege, und die Entscheidung gehört Max
+## Die drei Wege — die Entscheidung steht aus
 
 1. **Beim vorsichtigen Weg bleiben.** Für jeden benannten Verfasser das
    Todesjahr belegen. Wo es sich nicht belegen lässt, die Quelle ersetzen
@@ -2933,7 +2985,7 @@ schlämmen) stehen jetzt im ersten Satz des Tünche-Abschnitts.
 
 ## Entscheidung zum offenen Punkt „US-Bundeswerk" (11.08.2026)
 
-Max hat die Entscheidung mir überlassen, mit einer Vorgabe: **Die App soll
+Die Entscheidung war hier zu treffen, mit einer Vorgabe: **Die App soll
 veröffentlicht werden können, quelloffen.** Danach richtet sich, was folgt.
 
 ### Die Entscheidung: die Werke bleiben, die Begründung wird ersetzt
@@ -2986,8 +3038,9 @@ ist die Prüfung bereits geführt und in den jeweiligen Abschnitten belegt.
 ### Was weiterhin die Veröffentlichung blockiert
 
 Nur noch ein Punkt: **das Phrasenbuch des Britischen Roten Kreuzes** im
-Übersetzer. Das klärt Max selbst. Bis dahin ist der Übersetzer der einzige
-Teil, der einer Veröffentlichung im Weg steht — nicht mehr das ganze Paket.
+Übersetzer. Das wird direkt beim Rechteinhaber geklärt. Bis dahin ist der
+Übersetzer der einzige Teil, der einer Veröffentlichung im Weg steht — nicht
+mehr das ganze Paket.
 
 ### Und die Trennung, die eine quelloffene Veröffentlichung braucht
 
@@ -2996,13 +3049,13 @@ unter eine gewöhnliche quelloffene Lizenz. Die Texte des Pakets sind
 Eigenleistung — sie sind aus den Quellen NEU geschrieben, nicht übernommen;
 Tatsachen selbst sind nicht geschützt. Sie können deshalb unter eine
 Lizenz gestellt werden, die Weitergabe und Veränderung erlaubt, solange die
-Quellenangaben mitlaufen. Welche genau, entscheidet Max; die Belegliste in
-dieser Datei ist die Grundlage dafür.
+Quellenangaben mitlaufen. Welche genau, ist noch zu entscheiden; die
+Belegliste in dieser Datei ist die Grundlage dafür.
 
 ## BERICHTIGUNG derselben Entscheidung, noch am 11.08.2026
 
 Ich habe oben zu streng berichtet, und das gehört richtiggestellt, weil es
-Max' Entscheidung betrifft.
+eine offene Entscheidung betrifft.
 
 ### Der Fehler in meiner Darstellung
 
@@ -3039,7 +3092,7 @@ Belege völlig unproblematisch — sie werden zitiert, nicht abgedruckt.
 2. **Das Phrasenbuch des Britischen Roten Kreuzes** im Übersetzer. Dort
    werden Formulierungen als solche übernommen — das ist der Zweck eines
    Phrasenbuchs und damit genau der Fall, in dem es auf die Lizenz ankommt.
-   **Das bleibt der Blockierer, und ihn klärt Max.**
+   **Das bleibt der Blockierer, und er ist beim Rechteinhaber zu klären.**
 3. **Ganze Tabellen und vollständige Zahlenreihen** aus einer einzelnen
    Quelle. Eine Sammlung kann als solche geschützt sein, auch wenn die
    einzelnen Zahlen es nicht sind. Wo ein Eintrag praktisch die komplette
@@ -3066,8 +3119,8 @@ ohne Krug kein Wasserholen, ohne Vorratsgefäß kein Vorrat.
 ### Quelle
 
 - **Charles F. Binns, „The Potter's Craft"**, zweite Auflage 1922 (erste
-  1910). Verfasser 1857 bis 1934, Schutzfrist 2004 abgelaufen. Das Todesjahr
-  ist doppelt belegt.
+  1910). Verfasser 1857 bis 1934, Schutzfrist 2004 abgelaufen. Das Todesjahr ist
+  doppelt belegt.
 
 **Aus zwei Kapiteln wurde ausdrücklich NICHTS übernommen:** Binns schreibt im
 Vorwort, dass „Clay-Working for Children" von Elsie Binns und der Abschnitt
@@ -3617,9 +3670,9 @@ wirklich eingibt, ist unverändert richtig. Nachgemessen:
 | schlaganfall | Schlaganfall |
 | bewusstlos | Entscheidung nach der Atemkontrolle |
 
-Betroffen ist allein der nackte Wortstamm „hirn". **Max soll das wissen und
-darf anders entscheiden** — dann bliebe nur, das Fachwort im ganzen Kapitel zu
-vermeiden, und dafür ist der Preis höher als der Gewinn.
+Betroffen ist allein der nackte Wortstamm „hirn". **Das gehört offen benannt,
+und es darf anders entschieden werden** — dann bliebe nur, das Fachwort im
+ganzen Kapitel zu vermeiden, und dafür ist der Preis höher als der Gewinn.
 
 ### Was das Kapitel bewusst NICHT behauptet
 
@@ -3761,7 +3814,7 @@ Alle Notfall-Wörter halten Platz eins: „fuß" führt auf „Blase am Fuß", �
 und „stiefel" auf den Grabenfuß, „blase" auf die Blase, „naht" und „nähen" auf
 das Wundennähen.
 
-**Eine Verschiebung, die ich stehen lasse und die Max kennen soll:** Bei
+**Eine Verschiebung, die stehen bleibt und die bekannt sein soll:** Bei
 „schuh" und „schuhe" steht jetzt die neue Anleitung vor „Blase am Fuß". Die
 Projekt-Tests beanstanden das nicht — „schuh" gehört nicht zu den Wörtern, für
 die dort ein Notfall-Tipp festgeschrieben ist, anders als beim Schornstein,
@@ -4563,7 +4616,7 @@ Zeichnung beschriftet genau diese Strecke mit **„100 METERS"**. Nachgerechnet
 stimmt der Text: 10 Grad mal 18 Meter je 1000 Meter sind 180 Meter. Die Zahl
 in der Zeichnung ist falsch.
 
-Das ist der Beleg für Max' Regel in ihrer schärfsten Form. Die Zahl wäre am
+Das ist der Beleg für die Hausregel in ihrer schärfsten Form. Die Zahl wäre am
 Seitenbild NICHT als Erkennungsfehler aufgefallen — sie steht dort sauber
 gedruckt. Sie ist im Original falsch. Wer die Figur übernimmt, übernimmt den
 Fehler mit, und zwar in einem Bild, das niemand mehr gegenprüft.
@@ -5384,8 +5437,8 @@ Nordamerika nennt. Für ein Paket namens `europe-de` ist das zu wenig.
 
 „Risiko Vergiftungsunfälle bei Kindern", **Bundesinstitut für Risikobewertung
 (BfR)**. Lag schon auf der Platte, unter
-`work/quellen/medizin-luecken/gift-trinken/` — sie war früher für die
-Gift-Einträge geladen worden, der Pflanzenteil blieb unausgewertet.
+`work/quellen/medizin-luecken/gift-trinken/` — ein früherer Durchgang hatte sie
+für die Gift-Einträge geladen und den Pflanzenteil nicht ausgewertet.
 
 Die eigentliche Liste steht auf Seite 78 und ist ein im Anhang abgedrucktes
 **Merkblatt des Giftnotruf Berlin** (Berliner Betrieb für Zentrale
@@ -5583,8 +5636,8 @@ Knollenblätterpilz stammen, hat auf Seite 20 einen eigenen Abschnitt dazu.
 
 **Merksatz daraus: Bevor man draußen sucht, das eigene Quellenverzeichnis
 durchsuchen.** `work/quellen/` enthält über siebzig Ordner aus früheren
-Durchgängen; was dort für ein Thema geladen wurde, deckt oft auch das
-Nachbarthema ab.
+Durchgängen; was dort für ein Thema geladen wurde, deckt oft auch das Nachbarthema
+ab.
 
 ### Was übernommen wurde, am Seitenbild geprüft
 
@@ -5641,8 +5694,8 @@ hat, den meine eigene Wortprobe nicht auf dem Zettel hatte.**
 Weitere Lücke aus der ersten Wortprobe geschlossen. Und wieder lag die Quelle
 schon auf der Platte: **das WHO-Kinderhandbuch** („Pocket book of hospital
 care for children", 2. Auflage 2013), im Volltext unter
-`work/quellen/medizin-luecken/`. Es war früher geladen worden; die Masern
-darin waren nie ausgewertet.
+`work/quellen/medizin-luecken/`. Ein früherer Durchgang hatte es geladen; die
+Masern darin waren nie ausgewertet.
 
 Das ist der zweite Beleg an einem Tag für denselben Merksatz: **erst das
 eigene Quellenverzeichnis durchsuchen.**
@@ -5893,7 +5946,7 @@ Fleck ist die lebensbedrohliche Bedeutung des Wortes.** Der
 Schimmelfleisch-Eintrag steht auf Platz zwei, also auf demselben Bildschirm.
 
 Beide Zeilen stehen jetzt im Dauertest, mit der ganzen Geschichte als
-Kommentar — damit beim nächsten Mal niemand wieder von vorn abwägt.
+Kommentar — damit der nächste Durchgang nicht wieder von vorn abwägt.
 
 ## 13.08.2026 — Schwer unterernährt: was in den ersten zwei Tagen tötet
 
@@ -5966,7 +6019,7 @@ Quelle fehlte.
 **Sie lag längst auf der Platte** — zum dritten Mal derselbe Fall.
 `work/quellen/medizin-luecken/kinder-hitze/` enthält zwei Artikel des Magazins
 „KinderKinder" der Deutschen Gesetzlichen Unfallversicherung, Ausgabe 02/2024.
-Sie waren früher für die Hitze-Einträge geladen worden; der Teil zum
+Ein früherer Durchgang hatte sie für die Hitze-Einträge geladen; der Teil zum
 Sonnenstich war nie ausgewertet.
 
 ### Warum der Eintrag nötig war
@@ -7770,7 +7823,7 @@ Anfang an mehr getrunken wird, lange bevor ein Zeichen auftritt.
 
 Abgesichert in `derAustrocknungsTippLaesstNiemandenAufgeben`.
 
-## 17.08.2026 — Max' Einwand zur Wiederbelebung ohne Rettungsdienst: geklärt
+## 17.08.2026 — der Einwand zur Wiederbelebung ohne Rettungsdienst: geklärt
 
 Der Vermerk stand seit dem 28.07.2026 in der ROADMAP und war als „der
 schwerste Einzelfall“ bezeichnet:
@@ -8228,9 +8281,9 @@ nicht zweimal gemacht wird.
 
 **Erst den Bestand durchsucht** (Merkzettel-Regel): Das SOF-Handbuch nennt
 Fremdkörper im Ohr nur im Zusammenhang mit Explosionsverletzungen und
-gerissenem Trommelfell („Do not attempt removal of foreign debris"), Max'
-Survival-Buch behandelt Gehörgangsentzündung, Mittelohrentzündung und den
-Ohrenschmalzpfropf — nicht den Fremdkörper. Im Paket selbst gibt es
+gerissenem Trommelfell („Do not attempt removal of foreign debris"), das
+gedruckte Survival-Buch behandelt Gehörgangsentzündung, Mittelohrentzündung
+und den Ohrenschmalzpfropf — nicht den Fremdkörper. Im Paket selbst gibt es
 „Ohrenschmerz: Umschlag ja, Stäbchen nein", „Ohrentzündung: drei
 verschiedene Sachen mit einem Namen" und „Fremdkörper in der Wunde", aber
 nichts zu etwas, das im Gehörgang steckt. Die Lücke war echt.
@@ -8477,7 +8530,7 @@ Nebenhöhle ins Gewebe um das Auge.
 ### Zwei Fallen beim Schreiben, beide gefangen
 
 Der Entwurf verwies auf **„Verstauchung und Zerrung"** — einen Eintrag, der
-selbst noch wartet. Hätte Max nur einen Teil der wartenden eingebaut, wäre der
+selbst noch wartet. Wäre nur ein Teil der wartenden eingebaut worden, wäre der
 Verweis ins Leere gelaufen. Jetzt steht die Kühlregel ausgeschrieben da, und
 der Eintrag steht für sich. Und der Verweis auf eine „Kopfverletzung" ging auf
 einen Titel, den es nicht gibt; der Eintrag heißt „Gehirnerschütterung
@@ -8564,7 +8617,7 @@ Panik: drei Übungen ohne Mittel", auf das der Eintrag verweist.
 
 ## 19.08.2026 — Wasser: die Trübung messen, und ein Brunnen nach Hochwasser
 
-Auftrag von Max in der Nacht: weiter an Artikeln. Wasser war mit 21 Einträgen
+Auftrag für die Nacht: weiter an Artikeln. Wasser war mit 21 Einträgen
 die dünnste Kategorie, und der Bestand hatte eine Lücke, die man erst sieht,
 wenn man ihn hintereinander liest: In fünf Tipps steht „trübes Wasser zuerst
 absetzen und filtern" — und in keinem steht, **woran man merkt, dass es klar
@@ -9031,7 +9084,8 @@ Gegengemessen vor dem Schreiben: `nachtsicht`, `marschtempo`,
 ### Quelle und Rechtslage
 
 **SAS Survival Handbook (John Wiseman)**, Kapitel „On the Move", Buchseiten
-377–381, aus Max' Ausgabe eingescannt, am 19.08.2026 im Volltext gelesen.
+377–381, aus der gedruckten Ausgabe eingescannt, am 19.08.2026 im Volltext
+gelesen.
 
 Geschützt (Wiseman/HarperCollins), Lizenzanfrage weiterhin offen. Es gilt der am
 04.08.2026 festgelegte Grundsatz: **Tatsachen in eigenen Worten, eigene
@@ -9384,8 +9438,9 @@ Der Fall, in dem man **nicht herauskommt**: gekentertes Boot, Hochwasser, Sturz
 ohne Eiskante zum Festhalten. Dazu stand nichts im Paket.
 
 Quelle: **Alton, „The Ultimate Survival Medicine Guide"**, Skyhorse Publishing,
-Kapitel zu Umwelteinflüssen, Buchseiten 106 f., aus Max' eingescannter Ausgabe
-am 19.08.2026 gelesen. Geschützt — Tatsachen in eigenen Worten.
+Kapitel zu Umwelteinflüssen, Buchseiten 106 f., aus der eingescannten
+gedruckten Ausgabe am 19.08.2026 gelesen. Geschützt — Tatsachen in eigenen
+Worten.
 
 ### „Nicht schwimmen, treiben: Kleidung an, Knie an die Brust"
 
@@ -10257,9 +10312,9 @@ eingetippt:
 
 ## 19.08.2026 — Elf Einträge parallel, jeder aus genau einer benannten Quelle
 
-Max wollte Tempo und Breite, vor allem bei Agrikultur, Bauanleitungen und
-Taktik. Zwölf Einträge entstanden nebeneinander — aber nach denselben Regeln
-wie sonst auch: **eine benannte Quelle je Eintrag, im Volltext gelesen, nichts
+Gefordert waren Tempo und Breite, vor allem bei Agrikultur, Bauanleitungen und
+Taktik. Gearbeitet wurde an zwölf Strängen gleichzeitig — aber nach denselben
+Regeln wie sonst auch: **eine benannte Quelle je Eintrag, im Volltext gelesen, nichts
 aus dem Gedächtnis.** Vorher wurde mit der Suche gemessen, dass es die Themen
 noch nicht gibt.
 
@@ -10370,8 +10425,8 @@ einem Brunnen wäre genau die Sorte Fehler, die dieses Handbuch nicht machen dar
 
 ## 19.08.2026 — Ein Entwurf, den ich verworfen habe
 
-Ein Entwurf „Wäsche waschen ohne Maschine" lag vor, begründet damit, das
-Kapitel „Seife und Wäsche ohne Nachschub" sei zwar ausführlich, es fehle aber
+Vorgelegt wurde ein Entwurf „Wäsche waschen ohne Maschine" mit der
+Begründung, das Kapitel „Seife und Wäsche ohne Nachschub" sei zwar ausführlich, es fehle aber
 die kurze Nachschlage-Fassung — mit Verweis auf das vorhandene Paar
 `hygiene-seife-selbst` (Tipp) und `agrikultur-seife` (Kapitel).
 
@@ -10387,7 +10442,7 @@ Kapitel. Es gibt also weder eine Inhalts- noch eine Findbarkeitslücke.
 nicht größer, sondern unübersichtlicher — und bei zwei Fassungen derselben Sache
 weiß niemand mehr, welche gepflegt wird.
 
-## 19.08.2026 — Zweiter Durchgang: drei Einträge, zwei Bilder, zwei Berichtigungen
+## 19.08.2026 — Zweite Runde: drei Einträge, zwei Bilder, zwei Berichtigungen
 
 ### Neu aufgenommen
 
@@ -10483,10 +10538,10 @@ sucht:
 aus Heft 447 („Handling the frame", ein Rähmchen in zwei Händen) liess sich
 auch bei sechsfacher Vergrösserung an keiner Stelle als signiert nachweisen.
 Da aber im selben Heft mehrere Signaturen an unerwarteten Stellen versteckt
-sind, wäre eine Übernahme eine Wette. **Das entscheidet Max, nicht der
-Redigierende.**
+sind, wäre eine Übernahme eine Wette. **Das ist ausdrücklich zu entscheiden,
+nicht in der Nachtschicht.**
 
-Was bliebe, wenn er sie will: nachzeichnen statt übernehmen.
+Was bliebe, wenn die Figur gewollt ist: nachzeichnen statt übernehmen.
 
 ## Regen vom Dach: Rinne, Fallrohr, Fass (20.08.2026)
 

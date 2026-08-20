@@ -7,8 +7,8 @@ import kotlinx.serialization.Serializable
  *
  * WARUM ES DIESE ART GIBT: Das Paket ist bewusst in einfacher Sprache
  * geschrieben, aber ganz ohne Fachwoerter geht es nicht -- ein Bauchfell heisst
- * Bauchfell, und eine Sehne ist keine Ader. Max am 06.08.2026: "fach begriffe
- * wie z.b. regenbogenhaut muessen erklaert werden."
+ * Bauchfell, und eine Sehne ist keine Ader. Rueckmeldung vom 06.08.2026: "fach
+ * begriffe wie z.b. regenbogenhaut muessen erklaert werden."
  *
  * Nachgezaehlt im Bestand: Es sind wenige, aber sie stehen an entscheidenden
  * Stellen -- Bauchfell 14 Mal, Sehne 11, Schleimhaut 6, dazu Rippenfell,
@@ -43,18 +43,37 @@ internal object TermsCheck {
             problems.fatal("schema-unsupported", where, "terms schema ${file.schema}")
             return
         }
+        // Dieselbe Grenze wie bei tips/guides: eine Glossarliste ist genauso ein
+        // flaches Feld voller kleiner Eintraege, und die Zahl ist fuer diese Form
+        // schon nachgemessen. Ohne diese Grenze war terms.json die einzige
+        // Inhaltsdatei ohne Obergrenze -- sie zaehlt ausserdem nicht in
+        // pruefeSuchtextMenge mit, das zweite Sicherheitsnetz greift hier also
+        // nicht.
+        if (file.terms.size > ContentLimits.MAX_ITEMS_PER_FILE) {
+            problems.fatal("too-many-items", where, "${file.terms.size}")
+            return
+        }
         val gesehen = HashSet<String>()
         for (term in file.terms) {
             if (term.wort.isBlank()) {
                 problems.fatal("term-empty", where, "ein Fachwort ohne Wort")
                 continue
             }
+            // wort/auch sind benennende Felder wie Schlagwoerter: kurz, ohne
+            // Umbruch, aber auch ohne Fuellzeichen. Vorher pruefte hier nur
+            // isBlank() -- ein Wort aus lauter Nullbreiten-Leerzeichen ist nicht
+            // "blank" und kam unlesbar durch.
+            Checks.benennendesFeld(term.wort, ContentLimits.MAX_KEYWORD_LENGTH, "term-invalid", where, problems)
             // Kleingeschrieben vergleichen: "Sehne" und "sehne" waeren sonst
             // zwei Eintraege, und im Text traefe mal der eine, mal der andere.
             if (!gesehen.add(term.wort.lowercase())) {
                 problems.fatal("term-duplicate", where, term.wort)
             }
+            if (term.auch.size > ContentLimits.MAX_KEYWORDS) {
+                problems.fatal("term-invalid", where, "${term.wort}: ${term.auch.size} weitere Schreibungen")
+            }
             for (weitere in term.auch) {
+                Checks.benennendesFeld(weitere, ContentLimits.MAX_KEYWORD_LENGTH, "term-invalid", where, problems)
                 if (!gesehen.add(weitere.lowercase())) {
                     problems.fatal("term-duplicate", where, "${term.wort} -> $weitere")
                 }
@@ -63,6 +82,7 @@ internal object TermsCheck {
             if (term.erklaerung.length < 15) {
                 problems.fatal("term-short", where, term.wort)
             }
+            Checks.text(term.erklaerung, ContentLimits.MAX_NOTE_LENGTH, "term-invalid", where, problems)
         }
     }
 }

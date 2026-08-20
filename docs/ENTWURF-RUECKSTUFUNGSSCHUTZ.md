@@ -1,7 +1,8 @@
 # Entwurf: Rückstufungs-Schutz
 
 **Stand 10.08.2026. Das ist ein ENTWURF, kein Bauplan zum Sofort-Umsetzen.**
-Er ist ausdrücklich zur Durchsicht gedacht. Gebaut ist nichts.
+Er ist in einer Nachtschicht entstanden und ausdrücklich zur Durchsicht
+gedacht. Gebaut ist nichts.
 
 Die Entscheidung selbst ist am 28.07.2026 gefallen und steht in `RULES.md`,
 Regel 5:
@@ -42,13 +43,13 @@ Konkret etwa `filesDir/paketmarken.txt`, je Zeile eine Paket-Kennung und die
 höchste je angenommene Version. Textform, damit sie im Fehlerfall lesbar ist
 und niemand einen Parser braucht, um zu verstehen, was das Gerät denkt.
 
-**Was dabei zu bedenken ist, und was ich NICHT entscheiden kann:**
+**Was dabei zu bedenken ist und hier NICHT entschieden werden kann:**
 
 * Wird die App deinstalliert, ist auch `filesDir` weg. Die Marke überlebt
   also das Löschen des PAKETS, nicht das Löschen der APP. Ob das genügt, ist
-  eine Wertungsfrage für Max. Meine Einschätzung: Ja — wer die App
-  neuinstalliert, fängt bewusst bei null an; wer ein Paket austauscht, tut
-  das oft beiläufig.
+  eine Wertungsfrage und hier nicht zu entscheiden. Die Einschätzung dieses
+  Entwurfs: Ja — wer die App neuinstalliert, fängt bewusst bei null an; wer
+  ein Paket austauscht, tut das oft beiläufig.
 * Ein Sicherungs-/Wiederherstellungsvorgang von Android könnte `filesDir`
   mitnehmen und damit auch die Marke. Das ist erwünscht, aber es heißt auch:
   Eine alte Sicherung kann eine alte Marke zurückbringen. **Das ist der
@@ -80,7 +81,7 @@ greifbar ist, ist eine ältere.
   die App wieder. Das ist Absicht — der Notausgang ist eine Ausnahme für
   diesen Moment, kein Umschalten in einen anderen Betriebszustand.
 * **Und die Warnung bleibt sichtbar**, solange die ältere Fassung in Gebrauch
-  ist. Das entspricht der Linie, die Max beim Schlüssel-Widerruf gezogen hat:
+  ist. Das entspricht der Linie, die beim Schlüssel-Widerruf gezogen wurde:
   lesbar lassen mit dauerhafter Warnung statt sperren.
 
 ### 4. Welche Tests sichern das ab?
@@ -112,10 +113,10 @@ Ohne diese Tests ist das Ganze nichts wert. Sie gehören in
 * **Zeitstempel.** Regel 5 schließt sie ausdrücklich als Anker aus, und zu
   Recht: Ein Gerät ohne Netz hat keine verlässliche Uhr.
 * **Den Schlüssel-Widerruf.** Der ist der größere Bruder und braucht ein
-  eigenes Papier — er führt eine neue Dateiart ein und wird nicht nebenbei
-  entschieden.
+  eigenes Papier — er führt eine neue Dateiart ein und gehört in eine
+  Arbeitsphase, in der Rückfragen möglich sind.
 
-## Offene Fragen für Max
+## Offene Fragen
 
 1. Genügt es, dass die Marke das Löschen des Pakets überlebt, aber nicht die
    Deinstallation der App?

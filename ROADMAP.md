@@ -4,14 +4,14 @@ Stand: 2026-07-27. Das Grundgerüst der Kernbibliotheken steht und ist getestet.
 
 > **BLOCKIEREND seit 17.08.2026: Das Europa-Paket ist an seiner Wortgrenze
 > angekommen — noch rund ein Eintrag Platz.** Zahlen und die Entscheidung, die
-> nur Max treffen kann, stehen unten unter
+> dazu ansteht, stehen unten unter
 > „Das Wortbudget des Europa-Pakets ist voll".
 
 ## Version 1 (alle Punkte sind V1-Ziel, kein reduzierter MVP)
 
 ### Zielplattformen
 
-**Von Max am 28.07.2026 festgelegt: GrapheneOS ist Pflichtziel, nicht Beiwerk.**
+**Am 28.07.2026 festgelegt: GrapheneOS ist Pflichtziel, nicht Beiwerk.**
 Die App soll nicht nur auf gewöhnlichem Android (und später PC) laufen, sondern
 ausdrücklich auch auf GrapheneOS. Das passt zur Zielgruppe: Wer GrapheneOS
 installiert, will genau das, was dieses Projekt verspricht — keine
@@ -43,12 +43,12 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
 - [x] Format für Inhalts-Pakete festgelegt und dokumentiert (siehe [`docs/PACK-FORMAT.md`](docs/PACK-FORMAT.md))
 - [x] `core/security` — Signaturprüfung in einem einzigen Lesedurchlauf, Vertrauensspeicher, gehärteter Container
 - [x] `tools/packsign` — Werkzeug zum Erzeugen, Signieren und Prüfen von Paketen (deterministisch, prüft Inhalte vor dem Signieren)
-- [ ] `core/transfer` — Geräte-zu-Geräte-Austausch, durchgängig über `core/security` geprüft. Rahmenformat und Codec stehen (plattformneutral, ohne SDK testbar); Zustandsmaschinen und der Android-Transport fehlen noch. **Entschieden am 28.07.2026 durch Max:** Bluetooth ist der einzige Weg für ganze Pakete, NFC und QR nur für Kleinstdaten. WLAN-Direct und Wi-Fi Aware sind ausgeschlossen, weil sie die Internet-Berechtigung verlangen; Regel 2 ist entsprechend geändert. Damit ist der Android-Transport nicht mehr blockiert
+- [ ] `core/transfer` — Geräte-zu-Geräte-Austausch, durchgängig über `core/security` geprüft. Rahmenformat und Codec stehen (plattformneutral, ohne SDK testbar); Zustandsmaschinen und der Android-Transport fehlen noch. **Entschieden am 28.07.2026:** Bluetooth ist der einzige Weg für ganze Pakete, NFC und QR nur für Kleinstdaten. WLAN-Direct und Wi-Fi Aware sind ausgeschlossen, weil sie die Internet-Berechtigung verlangen; Regel 2 ist entsprechend geändert. Damit ist der Android-Transport nicht mehr blockiert
 
 ### Inhalte (Fakten aus geprüften öffentlichen Quellen, siehe RULES.md #4)
 - [x] **LÜCKENLISTE aus dem Inhaltsverzeichnis von „The Ultimate Survival
-      Medicine Guide"** (Max hat am 28.07.2026 Fotos des Inhaltsverzeichnisses
-      geschickt; ein Inhaltsverzeichnis ist kein geschütztes Werk, übernommen
+      Medicine Guide"** (Fotos des Inhaltsverzeichnisses lagen am 28.07.2026
+      vor; ein Inhaltsverzeichnis ist kein geschütztes Werk, übernommen
       ist ausschließlich die Themenliste, kein Satz Text). Abgeglichen mit
       unseren 123 Tipps — **diese Themen fehlen bei uns komplett** und sind
       nach Nutzen für die Grundannahme „niemand kommt, jahrelang" sortiert:
@@ -90,12 +90,12 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       als Themen: Notgepäck/Überlebensausrüstung, Lager einrichten,
       Werkzeugbau, Nahrungssuche, sowie „zu Hause überleben, wenn alle
       Versorgung ausfällt"
-- [ ] **Max' drei gekaufte Bücher: Wissen umformuliert nutzen — ENTSCHIEDEN
-      von Max am 28.07.2026.** Max besitzt „The Self-Sufficient Life and How
+- [ ] **Drei gekaufte Bücher: Wissen umformuliert nutzen — ENTSCHIEDEN
+      am 28.07.2026.** Vorhanden sind „The Self-Sufficient Life and How
       to Live It" (Seymour), „The Ultimate Survival Medicine Guide" (Alton)
-      und das „SAS Survival Handbook" (Wiseman). Seine Weisung: Inhalte in
+      und das „SAS Survival Handbook" (Wiseman). Die Weisung: Inhalte in
       eigenen Worten umformulieren und als Erfahrungswissen kennzeichnen.
-      Seine Begründung, die trägt: Fakten und Wissen sind nicht
+      Die Begründung, die trägt: Fakten und Wissen sind nicht
       urheberrechtlich schützbar, nur die konkrete Ausdrucksform — wer liest,
       lernt und eigenständig formuliert, verletzt nichts.
       **Zwei Grenzen, die dabei einzuhalten sind:** (a) Auch *Auswahl und
@@ -106,9 +106,9 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       tötet, zusätzlich eine Primärquelle heranziehen. Das ist keine
       Lizenzfrage, sondern Regel 1.
       **Praktisch:** Die Bücher liegen nicht digital vor. Nutzbar ist nur, was
-      Max fotografiert; die Inhaltsverzeichnisse hat er am 28.07. geschickt
-      (Lückenliste oben), die Bücher selbst sind in ein paar Tagen wieder bei
-      ihm.
+      abfotografiert wird; die Inhaltsverzeichnisse liegen seit dem 28.07. vor
+      (Lückenliste oben), die Bücher selbst sind in ein paar Tagen wieder
+      verfügbar.
       **Freie Gegenstücke, am 28.07.2026 geprüft — und das Ergebnis ist
       ernüchternd** (Auswertung in `work/recherche-grosswerke/quellenlage.md`):
       *Hesperian* („Where There Is No Doctor"/„…No Dentist") untersagt
@@ -123,13 +123,13 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       nachweislich auch geschützte Werke (u. a. Seymours „Self-Sufficient
       Gardener") — solche Sammlungen sind KEIN Lizenzbeleg, jede Datei einzeln
       prüfen
-- [ ] **Dauerauftrag von Max (28.07.2026): Die Datenbank muss EXTREM umfangreich
+- [ ] **Dauerauftrag (28.07.2026): Die Datenbank muss EXTREM umfangreich
       werden.** Begründung wörtlich: nach einer Katastrophe kann die App der
       einzige Wissenszugang sein, „und das für Jahre". Der heutige Bestand ist
-      ein Anfang, kein Zustand. Wer nichts Dringenderes hat,
+      ein Anfang, kein Zustand. Jeder Durchgang, der nichts Dringenderes hat,
       baut Inhalt aus — unter unveränderter Quellenpflicht (Regel 4): lieber
       stetig und belegt wachsen als schnell und erfunden
-- [ ] **Bilder und Skizzen — von Max am 28.07.2026 zweimal angemahnt, zuletzt
+- [ ] **Bilder und Skizzen — am 28.07.2026 zweimal angemahnt, zuletzt
       ausdrücklich für die Bauanleitungen: „mir gefällt nicht, dass es
       keinerlei Skizzen gibt, sowas hilft oft enorm".**
       **Teil (a) und (b) sind am 28.07.2026 erledigt, (c) ist angefangen:**
@@ -171,8 +171,8 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       geprüft, bevor sie hineinkommt — eine falsche Skizze ist gefährlicher
       als keine
 - [ ] Überlebens-Tipps-Datenbank: Inhalt sammeln, kuratieren, Quellen dokumentieren. **Stand 17.08.2026: 384 Tipps, 37 Bauanleitungen, 45 Agrikultur-Kapitel = 466 Einträge** (Erste Hilfe 158, Medizin 109, Nahrung 43, Taktisch 36, Wasser 21, Orientierung 16). Der Dauerauftrag bleibt offen, die Zahl darunter ist der Stand. Alter Stand 28.07.2026: 114 Tipps in `content/europe-de/paket/` (9 Wasser, 89 Erste Hilfe, 15 Nahrung, 1 Hinweis), jede Angabe am Original gegengelesen und von unabhängigen Prüfdurchgängen gegen die Quellen gehalten. Der packbare Teil liegt in `paket/`, die Quellendokumentation daneben — sonst lässt sich das Paket nicht packen
-- [ ] **Inhaltsbereich „Jagen, Fischen, Tiere ausnehmen und zubereiten"** (von
-      Max am 28.07.2026 beauftragt). **Angefangen am 28.07.2026** mit acht
+- [ ] **Inhaltsbereich „Jagen, Fischen, Tiere ausnehmen und zubereiten"** (am
+      28.07.2026 beauftragt). **Angefangen am 28.07.2026** mit acht
       Tipps zu Wild und Wildfleisch aus drei BfR-Dokumenten (Stellungnahme
       045/2018 zu Parasiten, 047/2006 zur sensorischen Beurteilung, Information
       01/2006 für Jäger), alle im Volltext gelesen; neue Kategorie `nahrung`.
@@ -271,12 +271,12 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       sondern das Wirksame. Eingearbeitet in `erste-hilfe-abbinden`
 - [x] ~~**Weitere Themen aus dem ERC-Erste-Hilfe-Kapitel**~~ — erledigt am
       28.07.2026: Unterzuckerung, Anaphylaxie, Brustschmerzen und Suizidgedanken
-      sind eingebaut. Schlaganfall, Asthma und Opioid-Überdosierung auf Max'
-      Weisung ebenfalls — er hat entschieden, dass alles mit medizinischer
-      Notwendigkeit hineingehört. Damit ist das
+      sind eingebaut. Schlaganfall, Asthma und Opioid-Überdosierung auf
+      ausdrückliche Weisung ebenfalls — entschieden wurde, dass alles mit
+      medizinischer Notwendigkeit hineingehört. Damit ist das
       Erste-Hilfe-Kapitel der ERC-Leitlinie 2025 ausgewertet
 - [ ] **Zweiten Zweig „niemand kommt" in alle betroffenen Tipps einarbeiten.**
-      ENTSCHIEDEN am 28.07.2026 durch Max und in `RULES.md` (Regel 4)
+      ENTSCHIEDEN am 28.07.2026 und in `RULES.md` (Regel 4)
       aufgenommen: Endet ein Inhalt bei „Notruf", „bis der Rettungsdienst
       übernimmt" oder „zum Arzt", bekommt er einen zweiten Zweig, ausdrücklich
       als Einordnung gekennzeichnet.
@@ -308,7 +308,7 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       sieben brauchen andere Quellen oder bleiben ohne zweiten Zweig
       (Einzelheiten in QUELLEN.md, Abschnitt IFRC)
 - [x] ~~**Schlangenbiss: Ruhigstellung fehlt.**~~ — erledigt am 28.07.2026 auf
-      Max' ausdrückliche Weisung, samt Erklärung des Unterschieds. Der Tipp
+      ausdrückliche Weisung, samt Erklärung des Unterschieds. Der Tipp
       verbietet den Druckverband weiterhin und sagt jetzt dazu, warum das nicht
       „nichts darum herum" heißt: Ein Druckverband soll eine Blutung stoppen und
       presst dafür; die ruhigstellende, **nicht dehnbare** Binde soll nur
@@ -319,7 +319,7 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       laufen, notfalls tragen. Festgehalten in
       `derSchlangenbissTippTrenntDruckverbandVonRuhigstellung`
 - [x] ~~**Aktives Wärmen bei Unterkühlung ab Stadium II.**~~ — **aufgelöst am
-      28.07.2026 durch eine dritte Quelle**, nach Max' Weisung, bei
+      28.07.2026 durch eine dritte Quelle**, nach der Weisung, bei
       widersprüchlichen Quellen weiterzusuchen statt den Widerspruch nur zu
       vermerken. Geladen und gelesen: die Praxisleitlinie der Wilderness Medical
       Society zur Unterkühlung außerhalb des Krankenhauses (Fassung 2019). Sie
@@ -334,7 +334,7 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       am geschützten Ort und aufgeschnitten, ab diesem Stadium nichts mehr zu
       essen und zu trinken. Der Titel hieß „nicht mehr aufwärmen" und behauptete
       damit das Gegenteil des eigenen Textes — er ist mitgeändert
-- [x] **Herzdruckmassage ohne Rettungsdienst — GEKLÄRT am 17.08.2026.** Max' Einwand vom 28.07.2026:
+- [x] **Herzdruckmassage ohne Rettungsdienst — GEKLÄRT am 17.08.2026.** Der Einwand vom 28.07.2026:
       Die Regel „ohne Übung nur drücken" geht stillschweigend davon aus, dass
       Rettungskräfte kommen und übernehmen. Trifft das nicht zu, ändert sich die
       Abwägung möglicherweise — ebenso bei „wann darf man aufhören". Im
@@ -363,7 +363,7 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       der Initiative und alles bewusst Weggelassene in `content/europe-de/QUELLEN.md`,
       Abschnitt „Kohlenmonoxid-Warnmelder"
 - [x] ~~**Trinken bei geschlucktem Gift?**~~ — **erledigt am 28.07.2026** nach
-      Max' Weisung „so viele Quellen wie möglich": elf Quellen im Volltext
+      der Weisung „so viele Quellen wie möglich": elf Quellen im Volltext
       gesammelt, drei belegte, einander widersprechende Linien gefunden
       (deutsche Giftzentren: kleine Schlucke, keine Milch / DGUV+BVKJ: nichts
       ohne Fachstelle / USA: Wasser ODER Milch bei Ätzendem). Entschieden für
@@ -402,13 +402,13 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       die Wundversorgung ist das in `QUELLEN.md` als Lücke festgehalten — es
       zieht sich aber durch die ganze Kategorie und ist keine Sammlung von
       Einzelstellen, sondern eine Entscheidung auf Paketebene
-- [ ] **Bauanleitungen als eigener Bereich** (von Max am 28.07.2026 beauftragt).
+- [ ] **Bauanleitungen als eigener Bereich** (am 28.07.2026 beauftragt).
       Das Datenmodell dafür steht seit dem Grundgerüst (`Guides.kt`,
       Materialliste optional, Schritte Pflicht) und die Suche deckt es bereits
       ab — Inhalt gibt es noch keinen. Gewünscht sind ausdrücklich:
       Unterstand/Shelter, Seilzug, Töpfern, Wasserfilter, Generator, und
       **Werkzeugbau: Bogen, Messer und Ähnliches**.
-      **Begründung und Grenze, mit Max am 28.07.2026 besprochen:** Ein Bogen und
+      **Begründung und Grenze, am 28.07.2026 besprochen:** Ein Bogen und
       ein Messer sind zuerst Werkzeuge — Jagd und Wildverarbeitung stehen schon
       als Kategorie im Paket, und das Gerät dazu fehlt. Dass ein solches Werkzeug
       im Notfall auch der Abwehr eines Tieres oder eines Angreifers dient, ist
@@ -442,7 +442,7 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       Kontext „Conflict" (S. 38 ff.) und einen Abschnitt „De-escalation
       techniques for violent behaviour" (S. 120). Dazu kommt der Schutz vor
       Tieren, der zum Werkzeugbau gehört
-- [ ] **Lexikon als Übersicht, nicht nur als Suchfeld** (von Max am 28.07.2026
+- [ ] **Lexikon als Übersicht, nicht nur als Suchfeld** (am 28.07.2026
       beauftragt). Im Ernstfall weiß niemand, welches Wort er tippen soll. Die
       Startansicht bekommt Kategorie-Kacheln mit den Icons aus
       `design/logo/bereich-icons.svg`, die Suche bleibt darüber. Kategorien:
@@ -454,7 +454,7 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       Medizin die Woche danach (Wundinfektion, Vorräte, Dosierungen). Vor dem
       Umhängen die Suche messen, sonst verschieben sich die Notfall-Treffer
 - [x] ~~**Titel und Gruppierung im Lexikon**~~ — **erledigt am 28.07.2026.**
-      Anlass war Max' Rückmeldung, die Überschriften seien unübersichtlich,
+      Anlass war die Rückmeldung, die Überschriften seien unübersichtlich,
       schlecht sortiert und wirkten „mehr wie der gesamte Inhalt anstatt eine
       Überschrift, nach der man sucht". 91 Titel umgestellt (Stichwort vorn,
       kein Satz; sicherheitskritische Unterscheidungen bleiben ausdrücklich
@@ -480,11 +480,11 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
 - [ ] Offline-Karte: Basis-Kartendaten Europa + POI-Datensatz (Wasserstellen, Aussichtspunkte, Wegpunkte), Lizenzprüfung
 
 ### Karte
-- [ ] **Wie groß darf die Europa-Karte werden? — Max' Frage vom 29.07.2026,
-      mit gemessenen Zahlen beantwortet.** Max' Vorgabe dazu: „die app darf
+- [ ] **Wie groß darf die Europa-Karte werden? — die Frage vom 29.07.2026,
+      mit gemessenen Zahlen beantwortet.** Die Vorgabe dazu: „die app darf
       auch in die paar hundert megabyte gehen wenn benötigt aber grundsätzlich
-      natürlich je kleiner desto besser". Skizzen sind ihm wichtig und beim
-      Platz ausdrücklich kein Problem.
+      natürlich je kleiner desto besser". Skizzen sind wichtig und beim Platz
+      ausdrücklich kein Problem.
       **Gemessen am 29.07.2026** (HTTP-Kopfabfrage bei Geofabrik, keine
       Schätzung): Europa als OSM-Rohdaten **32,3 GB**, Deutschland 4,5 GB,
       Österreich 0,75 GB, Schweiz 0,50 GB.
@@ -508,7 +508,7 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       **Aufteilung:** Ein Europa-Überblickspaket, das immer dabei ist, plus
       Detailpakete je Region zum Danebenlegen. So bleibt die App klein und wer
       seine Gegend genau braucht, holt sie sich dazu
-- [ ] **Regionen-Wissen mit Kartenbezug — von Max in der Nacht zum 29.07.2026
+- [ ] **Regionen-Wissen mit Kartenbezug — in der Nacht zum 29.07.2026
       beauftragt.** Wörtlich: „eine weitere Datenbank info die sinvoll wäre und
       zur karte verknüpft werden könnte wäre wo man welche nahrung (pilze tiere
       usw) findet sowie andere sicherheits und überlebens wichtige infos zu
@@ -538,7 +538,7 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
 - [ ] Navigation mit vier Bereichen: Lexikon/Suche (Tipps + Bauanleitungen + Landwirtschaft mit Filtern), Karte, Übersetzer, Einstellungen/Verbindung (beschlossen 27.07.2026); Icons: `design/logo/bereich-icons.svg`
 - [x] Wortmarke (`design/logo/wortmarke.svg`) und App-Icon (`design/logo/app-icon.svg`, für Android zusätzlich `app-icon-adaptiv.svg`) stehen fest
 - [x] Icon-Dateien für Android erzeugen (**erledigt, geprüft am 17.08.2026: mipmap-mdpi bis -xxxhdpi und mipmap-anydpi-v26 mit ic_launcher.xml liegen vor**) (Launcher-Icon in allen Größen aus `app-icon.svg`, adaptives Icon aus `app-icon-adaptiv.svg` mit hellem Hintergrund; die einfarbige Fassung für Themed Icons liegt als `app-icon-einfarbig.svg` bereit) — gehört in die Baustufe mit `androidApp`
-- [x] ~~**Gestaltung: Max' Rückmeldung vom 28.07.2026 — „sieht grafisch noch
+- [x] ~~**Gestaltung: Rückmeldung vom 28.07.2026 — „sieht grafisch noch
       sehr schlecht aus".**~~ — **erster Durchgang erledigt am 28.07.2026.**
       Alle vier benannten Lücken sind zu: eine Kopfzone mit eigener Fläche, die
       bis an beide Blattränder läuft, darunter ein Streifen aus dem Punktraster
@@ -548,9 +548,9 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       Trenner vor dem Quellenblock; Serife für Kachelnamen und feste
       Zeichenbreite mit weiten Abständen für Zahlen und Zustandsangaben.
       Sparmodus unangetastet und am Gerät dagegengehalten.
-      **Max' Urteil steht noch aus** — wenn es ihm weiterhin nicht gefällt,
+      **Die Beurteilung steht noch aus** — wenn es weiterhin nicht gefällt,
       wird zurückgebaut, nicht verteidigt
-- [x] ~~**Bewegung, aber sparsam** (von Max am 28.07.2026 gewünscht)~~ —
+- [x] ~~**Bewegung, aber sparsam** (am 28.07.2026 gewünscht)~~ —
       **erledigt am 28.07.2026.** Antipp-Rückmeldung über den
       `StateListAnimator` des Systems (kein eigener Berührungshorcher, damit
       die Bedienungshilfen unberührt bleiben) an Kacheln, Bereichsleiste und
@@ -570,17 +570,15 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
 - [ ] Umschaltung zwischen Normal- und Sparmodus
 
 ### Übersetzer (am 27.07.2026 aus dem Backlog in V1 vorgezogen)
-- [x] ~~**Entscheidung: Woher kommen die Übersetzungen?**~~ — **ENTSCHIEDEN von
-      Max am 28.07.2026:** Das „Emergency Multilingual Phrasebook" des British
-      Red Cross wird übernommen; Max klärt die Lizenz selbst direkt beim
-      British Red Cross. **SPERRE: Vor der Lizenz-Zusage wird nichts
-      veröffentlicht, was den Phrasenkatalog enthält; vor jeder
-      Veröffentlichung ist das zu prüfen.** Umgesetzt am 28.07.2026:
+- [x] ~~**Entscheidung: Woher kommen die Übersetzungen?**~~ — **ENTSCHIEDEN
+      am 28.07.2026:** Das „Emergency Multilingual Phrasebook" des British
+      Red Cross wird übernommen; die Lizenz wird direkt beim Rechteinhaber
+      geklärt. **SPERRE: Vor der Lizenz-Zusage wird nichts
+      veröffentlicht, was den Phrasenkatalog enthält — vor jeder
+      Veröffentlichung ausdrücklich daran erinnern.** Umgesetzt am 28.07.2026:
       62 Sätze in sechs Sprachen (de/en/fr/es/it/pl) in
       `content/europe-de/paket/content/phrases.json`, Übernahme-Entscheidungen
       und Quirks in `content/europe-de/QUELLEN.md`, Abschnitt „Übersetzer".
-      **Die Datei gehört wegen der Sperre nicht zu diesem Repo** — das
-      Basispaket führt die Art `phrases` deshalb nicht im Manifest.
       Weitere 30 Sprachdateien liegen auf derselben Spiegelung bereit
       (raems.com), wenn mehr Sprachen gewünscht sind.
       Der ursprüngliche Befund (Fachlichkeit und freie Lizenz schließen sich
@@ -619,7 +617,7 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
 
 ### Build & Vertrieb
 - [x] ~~**Tote Fracht im APK**~~ — gefunden und ausgeräumt am 28.07.2026, als
-      Max nach der voraussichtlichen App-Größe fragte. Gemessen war die
+      die Frage nach der voraussichtlichen App-Größe aufkam. Gemessen war die
       Release-Fassung 4,23 MB; davon waren **1,2 MB Nachschlagetabellen des
       Post-Quanten-Verfahrens Picnic** aus der Krypto-Bibliothek — mehr als ein
       Viertel der App für etwas, das nirgends benutzt wird. Aus der ganzen
@@ -641,14 +639,14 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
 - [ ] Signierte Release-Pipeline (APK-Signierung, SHA-256-Prüfsummen)
 - [ ] Reproduzierbare Builds einrichten und dokumentieren
 - [ ] GitHub-Repo vorbereiten (README, Open-Source-Veröffentlichung).
-      **Lizenz entschieden am 28.07.2026 durch Max: GPLv3 für den Code, CC BY-SA
+      **Lizenz entschieden am 28.07.2026: GPLv3 für den Code, CC BY-SA
       für die Inhaltspakete.** GPLv3 verhindert, dass jemand eine geschlossene
       Bezahlversion daraus macht, ohne die Verbreitung einzuschränken; CC BY-SA
       passt zu Inhalten, die aus öffentlichen Quellen zusammengetragen sind.
       Beim Anlegen: `LICENSE` (GPLv3) und eine eigene Lizenzangabe für
       `content/`, damit die beiden nicht vermischt werden
 - [ ] **Vertriebsweg: APK-Direktverteilung, kein Play Store** (entschieden am
-      28.07.2026 durch Max). Kostet nichts. Drei Folgen, die daran hängen:
+      28.07.2026). Kostet nichts. Drei Folgen, die daran hängen:
       (a) Die signierte Release-Pipeline mit SHA-256-Prüfsummen ist damit die
       **einzige** Echtheitsprüfung, die Nutzer haben — es gibt keine Store-Instanz,
       die dazwischensteht. Der Punkt oben wird dadurch wichtiger, nicht
@@ -660,9 +658,9 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
       erlauben. Das gehört in eine kurze, verständliche Anleitung neben den
       Download — samt Anleitung, wie die SHA-256-Prüfsumme geprüft wird.
       F-Droid bliebe als kostenlose Alternative offen (verlangt reproduzierbare
-      Builds, die ohnehin auf der Liste stehen) — von Max nicht gewünscht, hier
+      Builds, die ohnehin auf der Liste stehen) — nicht gewünscht, hier
       nur der Vollständigkeit halber vermerkt
-- [ ] Veröffentlichungs-Export: die Veröffentlichung erfolgt als kuratierter Export ohne interne Arbeitsdateien und ohne die bisherige Git-Historie. Vor dem Export ist zu entscheiden, wie mit `RULES.md` und dem Zielgruppen-Absatz in `docs/DESIGN.md` umgegangen wird — beide benennen Regel 3 ausdrücklich und würden sie beim Veröffentlichen selbst verletzen (Entscheidung liegt bei Max)
+- [ ] Veröffentlichungs-Export: die Veröffentlichung erfolgt als kuratierter Export ohne interne Arbeitsdateien und ohne die bisherige Git-Historie. Vor dem Export ist zu entscheiden, wie mit `RULES.md` und dem Zielgruppen-Absatz in `docs/DESIGN.md` umgegangen wird — beide benennen Regel 3 ausdrücklich und würden sie beim Veröffentlichen selbst verletzen (diese Entscheidung steht aus)
 
 - [x] ~~**Signalfarbe in alten Zeichnungen prüfen**~~ — **erledigt am
       04.08.2026.** Sieben Zeichnungen hatten drei oder mehr getrennte Stellen
@@ -697,7 +695,7 @@ Was daraus folgt und beim Bau der Android-Stufe zu beachten ist:
 - [ ] iOS-Version
 - [ ] Weitere Regionen-/Sprachpakete über Europa hinaus (Welt, Kontinente, einzelne Länder)
 
-## Sicherheits-Entscheidungen — von Max am 28.07.2026 entschieden, noch nicht gebaut
+## Sicherheits-Entscheidungen — am 28.07.2026 entschieden, noch nicht gebaut
 
 Die Entscheidungen sind gefallen und stehen jetzt verbindlich in `RULES.md`
 (Regel 5). **Gebaut ist davon nichts.** Was hier steht, ist die Bauaufgabe.
@@ -828,7 +826,7 @@ Offen:
 - [x] ~~**`SourceRef.detail` zur Pflicht machen.**~~ — erledigt am 28.07.2026.
       Feld ohne Vorgabewert, dazu eine eigene Meldung `source-detail-missing`
       für ein leeres `detail`. Vor dem Umstellen geprüft: alle 89 Tipps trugen
-      die Angabe bereits, am Bestand war nichts zu ändern. **Offen für Max:**
+      die Angabe bereits, am Bestand war nichts zu ändern. **Noch offen:**
       Ein Paket ohne `detail` ist damit ungültig, obwohl `schema` weiter auf `1`
       steht. Da noch kein Paket veröffentlicht ist, ist das folgenlos; würde
       später etwas verteilt, wäre eine solche Verschärfung ein Schema-Wechsel
@@ -843,7 +841,7 @@ Offen:
       erreichbar zu sein reicht rechtlich aber nicht — er muss **beim ersten
       Start** gezeigt und bestätigt werden und in der Erste-Hilfe-Kategorie
       dauerhaft sichtbar sein. Gehört in die UI-Baustufe.
-      **Zwei Punkte für Max:** (a) Der Text ist von Laien geschrieben; vor einer
+      **Zwei offene Punkte:** (a) Der Text ist von Laien geschrieben; vor einer
       Veröffentlichung sollte ein Anwalt draufschauen, insbesondere zu
       Produkthaftung und zu den Grenzen des Haftungsausschlusses nach § 309
       BGB. (b) Sauberer als ein Tipp wäre ein eigenes Pflichtfeld im
@@ -882,7 +880,8 @@ nur die eine, die am Ende hart abweist.
 ausgeschriebener Begründung: Nachgemessen wurden am 28.07.2026 **596 573**
 Wortvorkommen, die bei 96 MB Heap sauber durchlaufen — die Grenze liegt also
 mit Absicht bei gut der Hälfte des Gemessenen, weil nur *eine* Paketform
-gemessen wurde. Das ist eine Formatentscheidung und gehört Max.
+gemessen wurde. Das ist eine Formatentscheidung und muss ausdrücklich
+getroffen werden.
 
 **Zur Auswahl (Empfehlung zuerst):**
 
@@ -993,7 +992,7 @@ Karte — die den größten Teil des Bildes einnimmt und zum Wischen einlädt �
 verschiebt man die Karte statt die Seite. Wer das nicht weiß, sieht die
 Lageanzeige nie vollständig und den Kompass gar nicht.
 
-Zwei Punkte für Max, beide seine Entscheidung:
+Zwei offene Punkte, beide noch zu entscheiden:
 
 1. **Die Namensnennung.** ODbL verlangt sie; sie ist vorhanden, aber im
    Auslieferungszustand unsichtbar. Ob das reicht, gehört auf die Liste vor
@@ -1042,9 +1041,10 @@ Verweis nach dem ersten Schritt stehengeblieben.
   davor und hätte den Fehler als **Bild** wieder hereingeholt.
 
 Beide Eintrage haben derzeit **kein** Bild. Ob sie eines bekommen sollen, ist
-eine Gestaltungsentscheidung und gehört Max — deshalb nicht nachts eingehängt.
-Zum Fertigmachen fehlen nur zwei Schritte: rastern (Chrome headless) nach
-`content/europe-de/paket/assets/`, dann das Feld `image`
+eine Gestaltungsentscheidung, die noch aussteht — deshalb nicht nachts
+eingehängt.
+Zum Fertigmachen fehlen nur zwei Schritte: rastern (Chrome headless, siehe
+`SNAPSHOT.md`) nach `content/europe-de/paket/assets/`, dann das Feld `image`
 im jeweiligen Tipp setzen und `bilder_pruefen.py` nochmal laufen lassen.
 **Das Wortbudget steht dem nicht im Weg** — `image` zählt nicht in den
 Suchindex.
@@ -1130,8 +1130,8 @@ und es ist die Voraussetzung dafür, dass F-Droid überhaupt in Frage kommt.
 
 ## Offene Fragen für später
 
-- ~~Konkretes Dateiformat/Bibliothek für Kartenrendering~~ — **entschieden von
-  Max am 04.08.2026: eigenes Format, eigener Renderer auf Android-Canvas.**
+- ~~Konkretes Dateiformat/Bibliothek für Kartenrendering~~ — **entschieden am
+  04.08.2026: eigenes Format, eigener Renderer auf Android-Canvas.**
   Einzelheiten in [`docs/KARTEN-FORMAT.md`](docs/KARTEN-FORMAT.md).
   MapLibre ist mit Beleg ausgeschieden: seine Bibliothek deklariert `INTERNET`,
   `ACCESS_NETWORK_STATE`, `ACCESS_WIFI_STATE` und beide Ortungsrechte, woran
@@ -1151,7 +1151,7 @@ und es ist die Voraussetzung dafür, dass F-Droid überhaupt in Frage kommt.
   weniger auf, weil die Küstenlinie die Form trägt. Grenzen wären eine SIEBTE
   Datensorte (`boundary=administrative`, `admin_level=2`) und damit eine
   Erweiterung der in dieser Roadmap festgelegten sechs — deshalb nicht auf
-  eigene Faust gebaut. Entscheidung liegt bei Max
+  eigene Faust gebaut. Diese Entscheidung steht aus
 - **Geländeform ist noch nicht gemessen.** Sie ist die sechste Datensorte,
   kommt aber aus einem Höhenmodell und nicht aus OpenStreetMap. Weder ihr
   Platzbedarf noch die Lizenz der in Frage kommenden Höhendaten sind geprüft

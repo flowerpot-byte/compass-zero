@@ -57,10 +57,10 @@ object PackFormat {
     /**
      * `CZH1` Gelaendeform.
      *
-     * Sie ist am 18.08.2026 dazugekommen, auf Max' Entscheidung hin. Die
-     * Begruendung, warum sie zuerst OHNE Unterschrift blieb, war eng gefasst
-     * und stimmt fuer sich genommen weiter: Eine gefaelschte Schummerung fuehrt
-     * niemanden in die Irre, weil man ihr nicht folgt.
+     * Sie ist am 18.08.2026 dazugekommen, auf ausdrueckliche Entscheidung hin.
+     * Die Begruendung, warum sie zuerst OHNE Unterschrift blieb, war eng
+     * gefasst und stimmt fuer sich genommen weiter: Eine gefaelschte
+     * Schummerung fuehrt niemanden in die Irre, weil man ihr nicht folgt.
      *
      * Nur ist die Schummerung nicht mehr alles, was in der Datei steht. Aus
      * denselben Hoehen kommt die Hoehenangabe unter dem Finger, und danach

@@ -6,15 +6,16 @@ import kotlin.math.min
 /**
  * Die Rechnerei hinter der Bildlupe: Einpassung, Drehung, Grenzen.
  *
- * WARUM ES DIE LUPE GIBT (Max am 04.08.2026): "Bei den Artikeln gibt es noch
- * viel zu wenig wirklich sinnvolle Zeichnungen, vor allem bei Bauanleitungen
- * und Knoten -- kann man wenig oder schlecht erkennen." Der zweite Teil des
- * Satzes ist der schwerere. Am 04.08.2026 am Geraet nachgemessen: Eine Skizze
- * ist 900 Bildpunkte breit und steht im Artikel in einer Spalte von rund 1000
- * Bildpunkten. Eine Beschriftung, die in der Zeichnung 13 Punkte hoch ist,
- * kommt damit bei etwa 14 Punkten heraus -- auf einem Telefon in der Hand ist
- * das an der Grenze. NOCH EINE ZEICHNUNG MEHR AENDERT DARAN NICHTS: es ist
- * dieselbe Groesse. Deshalb zuerst das Vergroessern, dann weitere Bilder.
+ * WARUM ES DIE LUPE GIBT (Rueckmeldung vom 04.08.2026): "Bei den Artikeln gibt
+ * es noch viel zu wenig wirklich sinnvolle Zeichnungen, vor allem bei
+ * Bauanleitungen und Knoten -- kann man wenig oder schlecht erkennen." Der
+ * zweite Teil des Satzes ist der schwerere. Am 04.08.2026 am Geraet
+ * nachgemessen: Eine Skizze ist 900 Bildpunkte breit und steht im Artikel in
+ * einer Spalte von rund 1000 Bildpunkten. Eine Beschriftung, die in der
+ * Zeichnung 13 Punkte hoch ist, kommt damit bei etwa 14 Punkten heraus -- auf
+ * einem Telefon in der Hand ist das an der Grenze. NOCH EINE ZEICHNUNG MEHR
+ * AENDERT DARAN NICHTS: es ist dieselbe Groesse. Deshalb zuerst das
+ * Vergroessern, dann weitere Bilder.
  *
  * DIE DREHUNG IST DER ERSTE SCHRITT, DAS ZOOMEN DER ZWEITE. Fast jede Skizze
  * im Paket ist querformatig (900 breit, 560 bis 680 hoch), das Telefon ist

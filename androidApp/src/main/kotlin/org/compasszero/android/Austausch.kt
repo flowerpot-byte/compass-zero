@@ -223,14 +223,61 @@ class Austausch(
         return ja
     }
 
+    /**
+     * Der Notausgang: eine aeltere Fassung doch einspielen.
+     *
+     * Wofuer er da ist: Eine neue Fassung ist defekt, und die einzige
+     * brauchbare, die noch greifbar ist, ist eine aeltere. Dann muss das gehen.
+     *
+     * ABER NICHT BEILAEUFIG. Die Frage benennt, was sie bedeutet -- dass
+     * berichtigte Angaben durch aeltere ersetzt werden --, und die
+     * zustimmende Schaltflaeche heisst nicht „OK". Die Marke sinkt dabei
+     * nicht: Beim naechsten Mal wird wieder gefragt.
+     */
+    private fun frageRueckstufung(urteil: Uebernahme.Rueckstufung): Boolean {
+        val sperre = java.util.concurrent.CountDownLatch(1)
+        var ja = false
+        zurueck.post {
+            AlertDialog.Builder(gastgeber)
+                .setTitle("Ältere Fassung einspielen?")
+                .setMessage(
+                    urteil.grund + "\n\nDas ist nur dann richtig, wenn die neuere Fassung " +
+                        "defekt ist und diese hier die einzige brauchbare ist. Sonst " +
+                        "verlierst du Berichtigungen, die schon einmal auf diesem Gerät " +
+                        "waren.",
+                )
+                .setPositiveButton("Trotzdem einspielen") { _, _ -> ja = true; sperre.countDown() }
+                .setNegativeButton("Abbrechen") { _, _ -> sperre.countDown() }
+                .setOnCancelListener { sperre.countDown() }
+                .show()
+        }
+        sperre.await()
+        return ja
+    }
+
     /** Die Signaturpruefung nach dem Empfang -- dieselbe wie bei der Beigabe. */
-    private fun pruefeUndUebernimm(datei: File): String =
-        when (val urteil = Paketlader.uebernimmEmpfangenes(gastgeber, datei, paket.pack)) {
+    private fun pruefeUndUebernimm(datei: File, rueckstufungBestaetigt: Boolean = false): String =
+        when (
+            val urteil = Paketlader.uebernimmEmpfangenes(
+                gastgeber, datei, paket.pack, rueckstufungBestaetigt,
+            )
+        ) {
             is Uebernahme.Angenommen -> {
                 gemerkt.eigenesPaket = urteil.name
                 "Angenommen und geprüft: Fassung ${urteil.fassung}. Beim nächsten Start " +
                     "der App ist sie da."
             }
+
+            // Aelter als die hoechste je angenommene Fassung. Nicht weglegen,
+            // nicht stillschweigend nehmen -- fragen, und zwar mit dem, was auf
+            // dem Spiel steht.
+            is Uebernahme.Rueckstufung ->
+                if (frageRueckstufung(urteil)) {
+                    pruefeUndUebernimm(datei, rueckstufungBestaetigt = true)
+                } else {
+                    datei.delete()
+                    "Nicht übernommen: ${urteil.grund}"
+                }
 
             is Uebernahme.Abgelehnt -> {
                 // Was nicht durchkommt, bleibt nicht liegen. Eine abgelehnte

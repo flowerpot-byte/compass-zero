@@ -66,6 +66,31 @@ UMSCHRIFT = re.compile(
     r'kuehl\w*|fuer|ueber\w*|waehrend|laesst|haelt|heiss\w*|fuesse|groesse|'
     r'spaeter|zurueck|moeglich|naechst\w*|waerme|kaelte|hoehe|grosse)\b', re.I)
 
+# Dieselbe Liste wie FUELLZEICHEN in Texts.kt: Zeichen, die Unicode als
+# Buchstaben fuehrt, die aber nichts anzeigen.
+FUELLZEICHEN = {0x115F, 0x1160, 0x3164, 0xFFA0, 0x2800, 0x180E, 0xFFFD}
+
+# Dieselben Unicode-Hauptkategorien, die Texts.isUsable ablehnt (siehe
+# SearchText.jvm.kt, VERBOTENE_TYPEN: CONTROL, FORMAT, SURROGATE,
+# PRIVATE_USE, LINE_SEPARATOR, PARAGRAPH_SEPARATOR). Nullbreiten-Zeichen
+# (U+200B), Schreibrichtungs-Steuerzeichen (RLO/LRO/RLI/LRI/...), weiche
+# Trennstriche (U+00AD) und die C1-Steuerzeichen (U+0080-U+009F) fallen alle
+# darunter -- die alte Pruefung unten ("ord(zeichen) < 32") sieht keines
+# davon, weil sie nur die klassischen ASCII-Steuerzeichen kennt. Gefunden
+# am 20.08.2026 beim Suchen nach einem vierten Fall neben den drei, die in
+# derselben Nacht schon durchgerutscht waren.
+UNSICHTBARE_KATEGORIEN = {'Cc', 'Cf', 'Cs', 'Co', 'Zl', 'Zp'}
+
+# Dasselbe Zeichenpaar wie Verweiszitate.AUF/ZU in Kotlin. Der
+# Querverweis-Waechter, der beim vollen Testlauf nach ausgeschriebenen
+# Verweisen sucht ("siehe „Tipp X“"), erkennt nur genau dieses Paar. Ein
+# gerades oder falsches Schlusszeichen macht den Verweis fuer ihn
+# unsichtbar, ohne dass irgendetwas rot wird -- das war einer der drei
+# Faelle der Nacht (Commit 08722b0), und dieses Werkzeug kannte ihn bisher
+# nicht.
+ANFUEHRUNG_AUF = '„'
+ANFUEHRUNG_ZU = '“'
+
 
 def ausgeben(text):
     kodierung = getattr(sys.stdout, 'encoding', None) or 'utf-8'
@@ -110,8 +135,11 @@ def pruefe(eintrag, art):
 
     for pfad, wert in texte(eintrag):
         for zeichen in wert:
-            if ord(zeichen) < 32 and zeichen != '\n':
-                fehler.append('%s enthaelt das Steuerzeichen %r' % (pfad, zeichen))
+            if zeichen == '\n':
+                continue
+            if ord(zeichen) in FUELLZEICHEN or unicodedata.category(zeichen) in UNSICHTBARE_KATEGORIEN:
+                fehler.append('%s enthaelt das unsichtbare oder verbotene Zeichen U+%04X (%s)'
+                              % (pfad, ord(zeichen), unicodedata.name(zeichen, 'unbenannt')))
                 break
         # GROSSGESCHRIEBENE Woerter sind ausgenommen: In Versalien wird das ss
         # fuer ein scharfes s korrekt geschrieben ("HEISSEN"), und das Handbuch
@@ -131,6 +159,21 @@ def pruefe(eintrag, art):
         if len(wert) > grenze:
             fehler.append('%s ist %d Zeichen lang, erlaubt sind %d' % (pfad, len(wert), grenze))
 
+    # Nur in den Feldern, die der Querverweis-Waechter tatsaechlich einliest
+    # (Verweiszitate.texteJeEintrag): Tipp-Fliesstext, Anleitungs-Kurzfassung
+    # und -Schritte, Kapitelabschnitte. Ein einzelnes „ in einer Quellenangabe
+    # waere kein Fund dieser Art.
+    def anfuehrung(pfad, wert):
+        auf = wert.count(ANFUEHRUNG_AUF)
+        zu = wert.count(ANFUEHRUNG_ZU)
+        if auf != zu:
+            fehler.append(
+                '%s oeffnet %d Anfuehrungen (%s) und schliesst %d davon richtig (%s) -- ein '
+                'gerades oder falsches Schlusszeichen macht einen Verweis fuer den '
+                'Querverweis-Waechter unsichtbar, er kann dann ins Leere zeigen, ohne dass es '
+                'jemand merkt' % (pfad, auf, ANFUEHRUNG_AUF, zu, ANFUEHRUNG_ZU),
+            )
+
     zu_lang('title', eintrag.get('title', ''), GRENZEN['title'])
     for i, q in enumerate(eintrag.get('sources', [])):
         zu_lang('sources[%d].name' % i, q.get('name', ''), GRENZEN['name'])
@@ -138,12 +181,14 @@ def pruefe(eintrag, art):
 
     if art == 'guide':
         zu_lang('summary', eintrag.get('summary', ''), GRENZEN['summary'])
+        anfuehrung('summary', eintrag.get('summary', '') if isinstance(eintrag.get('summary'), str) else '')
         for i, s in enumerate(eintrag.get('steps', [])):
             if not isinstance(s.get('text'), str):
                 fehler.append('steps[%d].text ist kein Text, sondern %s'
                               % (i, type(s.get('text')).__name__))
                 continue
             zu_lang('steps[%d].text' % i, s['text'], GRENZEN['step'])
+            anfuehrung('steps[%d].text' % i, s['text'])
             if 'warning' in s:
                 zu_lang('steps[%d].warning' % i, s['warning'], GRENZEN['note'])
         for i, m in enumerate(eintrag.get('materials', [])):
@@ -159,6 +204,8 @@ def pruefe(eintrag, art):
             zu_lang('tools[%d]' % i, w, GRENZEN['tool'])
     elif art == 'tip':
         zu_lang('body', eintrag.get('body', ''), GRENZEN['body'])
+        if isinstance(eintrag.get('body'), str):
+            anfuehrung('body', eintrag['body'])
         for i, s in enumerate(eintrag.get('keywords', [])):
             zu_lang('keywords[%d]' % i, s, GRENZEN['keyword'])
         if len(eintrag.get('keywords', [])) > 20:
@@ -177,8 +224,12 @@ def pruefe(eintrag, art):
                 fehler.append('sections[%d].body ist kein Text, sondern %s -- fast immer ein '
                               'nachlaufendes Komma hinter der Klammer'
                               % (i, type(a.get('body')).__name__))
+            else:
+                anfuehrung('sections[%d].body' % i, a['body'])
             if not isinstance(a.get('heading'), str):
                 fehler.append('sections[%d].heading ist kein Text' % i)
+            else:
+                anfuehrung('sections[%d].heading' % i, a['heading'])
 
     # Kennungsfelder muessen ASCII bleiben. Die Umschrift-Pruefung oben nimmt
     # sie aus (sonst meldete sie "doerre" in jeder zweiten Kennung) -- damit
@@ -194,6 +245,23 @@ def pruefe(eintrag, art):
             fehler.append('%s ist ein Kennungsfeld und muss ASCII sein, '
                           'enthaelt aber %s'
                           % (pfad, ' '.join(repr(c) for c in fremd)))
+
+    # Leere Felder. Am 20.08.2026 kam ein Entwurf mit "image": null durch --
+    # laengenmaessig unauffaellig, weil texte() nur Zeichenketten einsammelt.
+    # Das Ergebnis war dasselbe wie bei einem fehlenden Pflichtfeld: Das ganze
+    # Paket liess sich nicht mehr laden ("Expected string literal but 'null'").
+    # Ein Feld ohne Inhalt gehoert weggelassen, nicht auf null gesetzt.
+    def leere(obj, weg):
+        if obj is None:
+            fehler.append('%s ist null -- ein Feld ohne Inhalt wird weggelassen, '
+                          'nicht auf null gesetzt' % weg.lstrip('.'))
+        elif isinstance(obj, dict):
+            for k, v in obj.items():
+                leere(v, weg + '.' + k)
+        elif isinstance(obj, list):
+            for i, v in enumerate(obj):
+                leere(v, '%s[%d]' % (weg, i))
+    leere(eintrag, '')
 
     # Pflichtfelder. Am 20.08.2026 ging eine Anleitung OHNE "category" und
     # "difficulty" durch diese Pruefung und liess danach das ganze Paket nicht

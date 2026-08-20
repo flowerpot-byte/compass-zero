@@ -10,8 +10,8 @@ einzelne Stuecke. Einzeln weitergereicht macht das drei Sorten Aerger:
 
   1. Der Kleinobjekt-Filter des Kartenbaus verschluckt sie. Auf Zoom 4 sind
      seine 16 Rastereinheiten rund zehn Kilometer -- gemessen wuerden 97 % der
-     Stuecke wegfallen. Das war der Grund, warum Max am 05.08.2026 auf der
-     kleinsten Zoomstufe keine Laendergrenzen sah.
+     Stuecke wegfallen. Das war der Grund, warum am 05.08.2026 auf der
+     kleinsten Zoomstufe keine Laendergrenzen zu sehen waren.
   2. Das Vereinfachen (Douglas-Peucker) kann an einem 2-km-Stueck nichts
      sparen. An einer 900-km-Kette spart es sehr viel.
   3. Das Strichmuster faengt bei JEDEM Stueck von vorn an. Aus einer

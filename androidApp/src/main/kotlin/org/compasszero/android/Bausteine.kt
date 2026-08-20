@@ -57,8 +57,8 @@ class Bausteine(private val gastgeber: Activity, val stil: Stil, val sparmodus: 
      * „Ausspuelen statt auswischen“" steht dutzendfach im Paket, und ein Test
      * erzwingt sogar, dass jeder zitierte Titel wirklich existiert. Nur konnte
      * man ihm nicht folgen: Man musste den Namen lesen, zurueckgehen, suchen,
-     * tippen. Max am 06.08.2026: "hyerlinks waeren sinnvoll wenn in einem der
-     * artikel auf einen anderen verwiesen wird."
+     * tippen. Rueckmeldung vom 06.08.2026: "hyerlinks waeren sinnvoll wenn in
+     * einem der artikel auf einen anderen verwiesen wird."
      *
      * [kennt] entscheidet, ob ein in Anfuehrungszeichen gesetzter Text ein
      * Eintragstitel ist -- Anfuehrungszeichen stehen im Paket auch um blosse
