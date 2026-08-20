@@ -36,7 +36,18 @@ object DeterministicZip {
     // Erst daneben schreiben, dann verschieben: scheitert das Lesen einer Datei
     // mitten im Lauf, bleibt sonst ein Torso am Zielpfad liegen.
     fun write(dir: File, out: File): List<String> {
-        val entwurf = File(out.absoluteFile.parentFile, out.name + ".unfertig")
+        val ordner = out.absoluteFile.parentFile
+        // Ein fehlender Zielordner wird BENANNT und nicht angelegt. Angelegt
+        // wuerde er auch bei einem vertippten Pfad, und dann liegt das Paket
+        // irgendwo, wo es niemand sucht. Vorher meldete das Werkzeug hier
+        // "Datei nicht schreibbar ... Pfad nicht gefunden" -- das klingt nach
+        // fehlenden Rechten und sagt nicht, was zu tun ist.
+        if (ordner != null && !ordner.isDirectory) {
+            throw IllegalArgumentException(
+                "Zielverzeichnis gibt es nicht: $ordner -- erst anlegen, dann noch einmal"
+            )
+        }
+        val entwurf = File(ordner, out.name + ".unfertig")
         try {
             val namen = schreibe(dir, entwurf)
             java.nio.file.Files.move(

@@ -4511,7 +4511,7 @@
       "difficulty": 2,
       "steps": [
         {
-          "text": "WOFÜR DAS HIER TAUGT — UND WAS NICHT DRINSTEHT.\n\nDAFÜR: zwei Bauarten, für die sich in diesem Paket bislang keine eigene Anleitung fand, obwohl mehrere andere Einträge das Steigen auf eine Leiter schon voraussetzen. ERSTENS die KERBLEITER aus einem einzigen Stamm, beidseitig gekerbt — aus einem Handbuch für den Bau von Blockhütten und Baumhäusern. ZWEITENS die grundsätzliche Bauweise einer SPROSSENLEITER aus zwei Holmen mit eingebundenen oder verbolzten Sprossen, mit genauen Maßen — aus einer Rüstungsvorschrift des US-Heeres, die dort eigentlich Seil-Leitern für die Kletterrettung beschreibt.\n\nNICHT DAFÜR: Keine der beiden gelesenen Quellen beschreibt den Bau einer vollständig starren Zwei-Holm-Leiter aus Kanthölzern mit gezapften Sprossen — nur eine kennt diese Bauart überhaupt, und nur mit einem einzigen Satz, ohne Maße. Auch das Anlegen — Winkel, Überstehen oben, Sichern gegen Wegrutschen und Wegkippen an Dach, Dachboden oder Schachtrand — steht in keiner der beiden Quellen. Wer eine Leiter in einen gegrabenen Brunnenschacht braucht, findet die Einordnung dazu, warum ein Sitzbrett dort sicherer ist als jede Leiter, im Kapitel „Einen Brunnen von Hand graben: Schacht sichern und heben“, Schritt „Das Heben von Menschen“ — hier nicht noch einmal. Für das Arbeiten auf dem Dach selbst gilt weiterhin die Warnung aus „Dach decken: Stroh, Reet oder Holzschindeln“, nie allein zu decken. Zum Anbinden der Sprossen gehören Knoten aus „Grundknoten und Lashings fürs Überleben“ — Mastwurf und Überhandknoten werden dort erklärt, nicht hier."
+          "text": "WOFÜR DAS HIER TAUGT — UND WAS NICHT DRINSTEHT.\n\nDAFÜR: zwei Bauarten, für die sich in diesem Paket bislang keine eigene Anleitung fand, obwohl mehrere andere Einträge das Steigen auf eine Leiter schon voraussetzen. ERSTENS die KERBLEITER aus einem einzigen Stamm, beidseitig gekerbt — aus einem Handbuch für den Bau von Blockhütten und Baumhäusern. ZWEITENS die grundsätzliche Bauweise einer SPROSSENLEITER aus zwei Holmen mit eingebundenen oder verbolzten Sprossen, mit genauen Maßen — aus einer Rüstungsvorschrift des US-Heeres, die dort eigentlich Seil-Leitern für die Kletterrettung beschreibt.\n\nNICHT DAFÜR: Keine der beiden gelesenen Quellen beschreibt den Bau einer vollständig starren Zwei-Holm-Leiter aus Kanthölzern mit gezapften Sprossen — nur eine kennt diese Bauart überhaupt, und nur mit einem einzigen Satz, ohne Maße. Auch das Anlegen — Winkel, Überstehen oben, Sichern gegen Wegrutschen und Wegkippen — steht in keiner der beiden Quellen; es steht dafür auf eigenen Belegen in „Leiter richtig anlegen: Winkel, Stand und Sicherung“. Wer eine Leiter in einen gegrabenen Brunnenschacht braucht, findet die Einordnung dazu, warum ein Sitzbrett dort sicherer ist als jede Leiter, im Kapitel „Einen Brunnen von Hand graben: Schacht sichern und heben“, Schritt „Das Heben von Menschen“ — hier nicht noch einmal. Für das Arbeiten auf dem Dach selbst gilt weiterhin die Warnung aus „Dach decken: Stroh, Reet oder Holzschindeln“, nie allein zu decken. Zum Anbinden der Sprossen gehören Knoten aus „Grundknoten und Lashings fürs Überleben“ — Mastwurf und Überhandknoten werden dort erklärt, nicht hier."
         },
         {
           "text": "DIE KERBLEITER AUS EINEM STAMM (Einbaumleiter).\n\nDIE ÄLTESTE LEITER ÜBERHAUPT, sagt die Quelle: Seit Menschen Werkzeug mit Schneide besitzen, machen sie Leitern oder Stufen, indem sie Stämme kerben. Gebraucht wird dafür nur eine Axt und ein gerader, gesunder Stamm ohne Astlöcher, so lang wie der Aufstieg.\n\nSO ENTSTEHT SIE: Der Stamm wird aufrecht gestellt und AUF BEIDEN SEITEN gekerbt — mit Einschnitten, die auf den beiden Seiten GEGENEINANDER VERSETZT sitzen (so zeigt es die Zeichnung der Quelle, im Original betitelt: The pioneer log ladder). Zum Steigen wird der Stamm mit der Hand UMKLAMMERT, während je ein Fuß auf eine der beiden Kerbenreihen tritt — Hand und Fuß wechseln sich ab wie beim Klettern an einem Baum.\n\nWOFÜR DIE QUELLE SIE NENNT: Schon die Vorfahren nutzten sie, um zum Schlafboden über ihrer Blockhütte hinaufzukommen. Sie taugt ebenso als Leiter für Baumhäuser und ist — so wörtlich die Quelle — erstklassig für unterirdische Unterkünfte mit einem Einstieg von oben statt von der Seite. Und wer eine Scheune mit Heuboden hat, kann mit ihr genau dorthin steigen.\n\nWAS DIE QUELLE NICHT SAGT: Weder eine Holzart noch einen Mindestdurchmesser des Stammes nennt sie an dieser Stelle — nur die Wörter pole or log, auf Deutsch Stange oder Stamm.",
@@ -5327,6 +5327,171 @@
           "warning": "Weißglühendes Eisen verbrennt bei Berührung sofort — nur mit Zange anfassen, feste Lederhandschuhe und unbrennbaren Untergrund benutzen."
         }
       ]
+    },
+    {
+      "id": "unterkunft-zugluft-finden",
+      "title": "Zugluft finden: wo es im Raum wirklich zieht",
+      "category": "unterkunft",
+      "summary": "Ein Raum bleibt nur warm, wenn die Wärme nicht sofort wieder hinausströmt. Die undichten Stellen liegen selten dort, wo man sie vermutet, und sind oft so klein, dass ein bloßer Blick sie nicht findet. Fünf Prüfwege mit Haushaltsmitteln, alle ohne Werkzeug oder Strom, um genau diese Stellen aufzuspüren, bevor geheizt oder abgedichtet wird.",
+      "materials": [
+        {
+          "item": "Ein Räucherstäbchen oder eine dünne Kerze",
+          "note": "Macht Luftbewegung als Rauchfahne sichtbar, die man sonst nicht bemerkt."
+        },
+        {
+          "item": "Ein Blatt Papier oder ein Geldschein",
+          "note": "Für den Klemmtest an Tür und Fenster."
+        },
+        {
+          "item": "Kreide oder Klebeband",
+          "note": "Um gefundene Stellen zu markieren, damit man sie später beim Abdichten wiederfindet."
+        }
+      ],
+      "tools": [
+        "Taschenlampe, für den Test bei Dunkelheit",
+        "Ein Ventilator oder ein laufender Abluftventilator (Bad, Dunstabzug), falls"
+      ],
+      "difficulty": 1,
+      "steps": [
+        {
+          "text": "WOZU DAS GUT IST, BEVOR GEHEIZT WIRD. Ein abgeschlossener, geheizter Raum hält seine Wärme nur, wenn er tatsächlich dicht ist. Wie man einen Raum heizt, ohne sich zu vergiften, steht in „Wohnung wird kalt: womit du drinnen heizen darfst“ — dieser Eintrag hier geht einen Schritt davor: er zeigt, WO ein Raum Wärme verliert, damit die Mühe des Abdichtens nicht an der falschen Stelle ansetzt. Wie die gefundenen Stellen geschlossen werden, steht in „Fenster und Türen gegen Kälte abdichten“."
+        },
+        {
+          "text": "SICHTPRÜFUNG VON AUSSEN, wenn das Gebäude zugänglich ist: Alle Hausecken, Wasserhähne an der Außenwand, die Stelle, an der Verkleidung oder Putz auf den Schornstein trifft, und der Übergang zwischen Fundament und Wand. An all diesen Stellen treffen zwei unterschiedliche Baustoffe aufeinander — genau dort reißen Fugen zuerst auf."
+        },
+        {
+          "text": "SICHTPRÜFUNG VON INNEN, die überall geht, auch zur Miete: Steckdosen und Lichtschalter an Außenwänden, Tür- und Fensterrahmen, Fußleisten, vorhandene Dichtungen an Türen (ob sie noch schließen), eine Kaminklappe, eine Dachbodenluke, ein Fenster- oder Wandklimagerät, Stellen, an denen Kabel durch die Wand geführt sind, Lüftungsschlitze und Ventilatoren, Stellen, an denen Rohre oder Leitungen durch Wand oder Boden gehen, und ein Briefschlitz in der Tür. Auch prüfen, ob eine vorhandene Dichtung noch sauber anliegt oder schon rissig, hart oder zusammengedrückt ist."
+        },
+        {
+          "text": "WACKELTEST UND TAGESLICHTTEST an Fenstern und Türen: Lässt sich der Rahmen bei geschlossenem Fenster oder geschlossener Tür noch bewegen (rütteln), sitzt dort wahrscheinlich eine undichte Stelle. Lässt sich bei Tageslicht ein Lichtspalt am Rahmen sehen, ist die Stelle undicht."
+        },
+        {
+          "text": "PAPIER- ODER GELDSCHEIN-TEST: Ein Blatt Papier oder einen Geldschein in die geschlossene Tür oder das geschlossene Fenster einklemmen und herausziehen. Geht das ohne spürbaren Widerstand, schließt die Stelle nicht dicht."
+        },
+        {
+          "text": "UNTERDRUCK ERZEUGEN, um kleine Lecks spürbar zu machen: An einem kühlen, windigen Tag alle Fenster, Außentüren und die Kaminklappe schließen. Alle Abluftventilatoren einschalten, die nach draußen blasen (Bad, Dunstabzug, Wäschetrockner), oder einen Ventilator in ein leicht geöffnetes Fenster stellen, der die Raumluft nach draußen drückt. Das senkt den Luftdruck im Raum, und durch jede undichte Stelle strömt jetzt spürbar Luft nach.",
+          "warning": "Diesen Test niemals durchführen, während ein Ofen, Kamin, eine Kerze oder ein anderes offenes Feuer brennt, und niemals in einem Raum mit Kohlenmonoxid-Risiko. Der Unterdruck kann Rauch oder Abgase in den Raum zurückziehen, statt sie abzuführen. Was Kohlenmonoxid anrichtet, steht in „Kohlenmonoxid: unsichtbar und geruchlos“."
+        },
+        {
+          "text": "RAUCHTEST UND HANDRÜCKEN-TEST, während des Unterdrucks oder auch so bei spürbarem Wind: Ein brennendes Räucherstäbchen oder eine Kerze langsam an den oben gefundenen Stellen entlangführen. Flackert die Flamme, oder zieht der Rauch zur Seite, hinein oder heraus, ist dort eine Zugluftstelle. Ohne Räucherstäbchen geht es auch mit einem angefeuchteten Handrücken: Zugluft fühlt sich dort kühl an.",
+          "warning": "Offene Flamme nicht in die Nähe von Vorhängen, Papier oder anderem bringen, was brennen kann."
+        },
+        {
+          "text": "NACHTTEST MIT TASCHENLAMPE: Bei Dunkelheit von innen langsam mit einer Taschenlampe über Fensterrahmen, Türrahmen und andere verdächtige Stellen leuchten, während eine zweite Person von draußen beobachtet. Große Risse zeigen sich als Lichtstrahlen, die nach außen dringen. Für ganz kleine Risse taugt dieser Test nicht — dafür bleiben der Rauch- und der Papiertest genauer."
+        },
+        {
+          "text": "JEDE GEFUNDENE STELLE MARKIEREN, mit Kreide oder einem Stück Klebeband, solange man noch weiß, wo sie war. Wie diese Stellen geschlossen werden, steht in „Fenster und Türen gegen Kälte abdichten“."
+        }
+      ],
+      "sources": [
+        {
+          "name": "US-Energieministerium (DOE), Office of Energy Efficiency and Renewable Energy",
+          "detail": "„Detecting Air Leaks“, energy.gov/energysaver/detecting-air-leaks, US-Energieministerium (DOE), Office of Energy Efficiency and Renewable Energy. Live-Seite liefert seit Umbau der Website keinen Inhalt mehr; gelesen als Internet-Archiv-Fassung vom 31.12.2023 (web.archive.org), Volltext am 20.08.2026 geladen und gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        },
+        {
+          "name": "US-Energieministerium (DOE)",
+          "detail": "„Air Sealing Your Home“, energy.gov/energysaver/air-sealing-your-home, US-Energieministerium (DOE). Internet-Archiv-Fassung vom 31.12.2023 (web.archive.org), da die Live-Seite unter dieser Adresse keinen Inhalt mehr liefert; Volltext am 20.08.2026 geladen und gelesen. Werk der US-Bundesregierung, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "am-leben-bleiben",
+        "lage-und-gefahr"
+      ],
+      "note": "Ein Ventilator oder ein laufender Abluftventilator (Bad, Dunstabzug), falls vorhanden, für den Unterdrucktest"
+    },
+    {
+      "id": "unterkunft-fenster-tuer-abdichten",
+      "title": "Fenster und Türen gegen Kälte abdichten",
+      "category": "unterkunft",
+      "summary": "Nicht das ganze Haus warm halten, sondern einen einzigen Raum — das spart Brennstoff, den niemand nachliefert. Diese Anleitung zeigt, wie ein Raum mit einfachen Mitteln gegen Kälte abgedichtet wird: Türspalten stopfen, Fenster abdichten oder ersetzen, einen ungenutzten Kaminabzug sicher verschließen. Wo die Zugluft herkommt, findet „Zugluft finden: wo ein Raum wirklich Wärme verliert“ zuerst.",
+      "materials": [
+        {
+          "item": "Alte Handtücher, Lumpen oder zusammengerollte Kleidung",
+          "amount": "je nach Zahl der Türen",
+          "note": "Für den Türspalt, unten und an den Seiten."
+        },
+        {
+          "item": "Plastikfolie (Malerfolie oder ähnlich reißfeste Folie)",
+          "amount": "eine Bahn je Fenster, mit Rand zum",
+          "note": "Über die Fensteröffnung gespannt, dichtet sie auch eine fehlende oder zerbrochene Scheibe ab."
+        },
+        {
+          "item": "Klebeband, möglichst breites Gewebeband",
+          "amount": "reichlich",
+          "note": "Zum ringsum dichten Ankleben der Folie am Rahmen."
+        },
+        {
+          "item": "Wolldecken oder dicke Vorhänge",
+          "note": "Nachts vor das Fenster gehängt, halten sie zusätzlich Wärme im Raum."
+        },
+        {
+          "item": "Selbstklebendes Schaumstoff- oder Filz-Dichtband (Fensterdichtband)",
+          "amount": "nach Rahmenlänge",
+          "note": "Handelsübliches Zubehör; Schaumstoff ist billig und passt sich unregelmäßigen Spalten an, hält aber nicht sehr lange. Filz ist ebenfalls billig, verträgt aber keine Nässe und keine Reibung."
+        },
+        {
+          "item": "Ein stabiler Plastiksack, gefüllt mit Dämmwolle-Resten oder zerknülltem Papier",
+          "note": "Als Stopfen für einen Kaminabzug, der gerade nicht benutzt wird."
+        },
+        {
+          "item": "Eine reißfeste Schnur mit einem auffälligen Anhänger",
+          "note": "Am Kaminstopfen befestigt, damit niemand vergisst, dass der Abzug blockiert ist."
+        }
+      ],
+      "tools": [
+        "Schere"
+      ],
+      "difficulty": 1,
+      "steps": [
+        {
+          "text": "NICHT BENÖTIGTE RÄUME SCHLIESSEN, statt das ganze Haus zu heizen — unnötiges Öffnen von Türen und Fenstern vermeiden. Welcher Raum sich am ehesten eignet und warum es dabei der kleinste, nicht der bequemste sein sollte, steht in „Wohnung wird kalt: womit du drinnen heizen darfst“. Zieht der gewählte Raum an einer Tür zu einem ungeheizten Flur oder Zimmer, gehört dort als Erstes eine Decke oder ein dickes Tuch vor die Tür — notfalls über eine Leine gehängt, wenn keine feste Tür vorhanden ist."
+        },
+        {
+          "text": "TÜRSPALT STOPFEN: Alte Handtücher, Lumpen oder zusammengerollte Kleidung unter jede Tür legen, die zu einem ungeheizten Bereich führt, und ebenso an Türen nach draußen. Wo dauerhaft mehr Halt gebraucht wird, kommt selbstklebendes Schaumstoff- oder Filzband rings um den Türrahmen, dort, wo Rahmen und Türblatt beim Schließen aufeinandertreffen — und ein zusätzlicher Streifen unten quer über die Schwelle, als Ersatz für eine Türbürste."
+        },
+        {
+          "text": "FENSTER NACHTS ZUSÄTZLICH ABDECKEN: Vorhänge zuziehen oder eine dicke Wolldecke vor das Fenster hängen. Das hält zusätzlich Wärme im Raum, besonders in der Nacht, wenn draußen die Temperatur am tiefsten liegt."
+        },
+        {
+          "text": "FENSTERRAHMEN DAUERHAFT ABDICHTEN: Selbstklebendes Dichtband an der Stelle anbringen, an der Rahmen und Fensterflügel aufeinandertreffen. Das Band muss beim Schließen des Fensters zusammengedrückt werden, darf das Öffnen aber nicht behindern. Vorher die Fläche säubern und trocknen — auf feuchtem oder verschmutztem Untergrund hält kein Klebeband."
+        },
+        {
+          "text": "EIN GANZES FENSTER MIT FOLIE ABDICHTEN, wenn der Rahmen selbst undicht ist, ein Austausch zu teuer oder gerade nicht möglich ist: Eine Bahn reißfeste Plastikfolie stramm über die gesamte Fensteröffnung spannen und ringsum mit Klebeband am Rahmen befestigen, ohne Lücken. Einordnung dieses Pakets, nicht aus der Quelle: Die Folie wirkt wie ein zweites Fenster — zwischen ihr und der Scheibe steht eine ruhige Luftschicht, die schlechter Wärme leitet als bewegte Zugluft."
+        },
+        {
+          "text": "DASSELBE, WENN EINE SCHEIBE FEHLT ODER ZERBROCHEN IST — EINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Dieselbe Folie dichtet auch eine Fensteröffnung ohne Glas ab. Ist die Öffnung zu groß, um die Folie allein zu tragen, zuerst ein Stück Pappe, Sperrholz oder eine andere feste Platte einpassen und ringsum abdichten, und erst darüber oder als Ersatz die Folie anbringen. Scharfe Glasreste an den Rändern vorher vorsichtig entfernen."
+        },
+        {
+          "text": "EINEN NICHT GENUTZTEN KAMINABZUG VERSCHLIESSEN: Ein Kamin, der gerade nicht brennt, lässt trotzdem Wärme durch seinen offenen Zug entweichen. Die vorhandene Klappe fest schließen. Fehlt eine Klappe oder schließt sie nicht mehr dicht, einen stabilen Plastiksack mit Dämmwolle-Resten oder zerknülltem Papier füllen und von unten in den Kaminabzug stopfen. Wie ein Schornstein und ein Ofenrohr richtig gebaut und angeschlossen werden, steht in „Schornstein bauen und das Rohr richtig anschließen“; was bei einem Schornsteinbrand zu tun ist, in „Schornsteinbrand: was sofort zu tun ist“.",
+          "warning": "Diesen Stopfen IMMER an einer gut sichtbaren Schnur mit auffälligem Anhänger befestigen, der aus dem Kamin heraushängt, und ihn VOR JEDEM Anzünden eines Feuers wieder herausnehmen. Wer ihn vergisst, zündet ein Feuer mit blockiertem Abzug — Rauch und Kohlenmonoxid haben dann keinen Weg nach draußen."
+        },
+        {
+          "text": "WAS DAS HIER NICHT ERSETZT: Ein abgedichteter Raum bleibt trotzdem ein Raum, in dem geheizt wird — wie das sicher geht, steht in „Wohnung wird kalt: womit du drinnen heizen darfst“, und regelmäßiges Stoßlüften bleibt dabei nötig, gegen Kohlenmonoxid genauso wie gegen Feuchtigkeit. Was Feuchtigkeit und Schimmel in einem zu dicht gehaltenen, geheizten Raum anrichten und wie man ihnen vorbeugt, steht in „Feuchtigkeit und Schimmel im geheizten Raum“. Und diese Anleitung ist nicht dasselbe wie „Abgedichteter Raum: bei Chemie nach oben, sonst nach unten“ — jener Raum wird für einige Stunden bei einer Gefahrstoffwolke komplett luftdicht gemacht, dieser hier bleibt Wochen bewohnt und braucht deshalb weiter Luftaustausch."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Centers for Disease Control and Prevention (CDC)",
+          "detail": "CDC, „Extreme Cold: A Prevention Guide to Promote Your Personal Health and Safety“ (2005), stacks.cdc.gov/view/cdc/5689, Abschnitt „Conserve Heat“. PDF vollständig geladen und gelesen am 20.08.2026. Werk der US-Bundesregierung, gemeinfrei."
+        },
+        {
+          "name": "US-Energieministerium (DOE)",
+          "detail": "„Weatherstripping“, energy.gov/energysaver/weatherstripping, US-Energieministerium (DOE). Internet-Archiv-Fassung vom 01.01.2024 (web.archive.org), da die Live-Seite keinen Inhalt mehr liefert; Volltext am 20.08.2026 geladen und gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        },
+        {
+          "name": "US-Energieministerium (DOE)",
+          "detail": "„Air Sealing Your Home“, energy.gov/energysaver/air-sealing-your-home (Internet-Archiv-Fassung vom 31.12.2023, web.archive.org); Absatz zum Kaminabzug-Stopfen aus Plastiksack und Dämmstoff-Resten samt Anhänger-Schnur als Erinnerung. Volltext am 20.08.2026 gelesen. Werk der US-Bundesregierung, gemeinfrei."
+        },
+        {
+          "name": "US-Katastrophenschutzbehörde (FEMA)",
+          "detail": "„Are You Ready? An In-depth Guide to Citizen Preparedness“, Kapitel „Winter Storms and Extreme Cold“, S. 81: Wohnhaus winterfest machen durch Dämmen, Abdichten und Isolierband an Türen und Fenstern sowie Sturmfenster oder Fensterfolie. Bereits für dieses Paket gelesen; hier erneut herangezogen am 20.08.2026."
+        }
+      ],
+      "situations": [
+        "am-leben-bleiben",
+        "lage-und-gefahr"
+      ],
+      "note": "eine Bahn je Fenster, mit Rand zum Überlappen"
     }
   ],
   "groups": [

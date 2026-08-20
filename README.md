@@ -37,6 +37,45 @@ export ANDROID_HOME=/pfad/zu/android-sdk
 Einzelheiten, auch zum Beisteuern von Inhalten, in
 [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+## Eine App mit Inhalt bauen
+
+`./gradlew build` allein ergibt eine App **ohne Handbuch**: Der Inhalt reist als
+signiertes Paket (`.czp`), und das liegt nicht im Repo — nur die Quelltexte
+unter `content/europe-de/paket/`. Das Paket entsteht in drei Schritten, und der
+Schlüssel dafür ist deiner:
+
+```
+./gradlew :tools:packsign:installDist
+P=tools/packsign/build/install/packsign/bin/packsign
+
+mkdir -p work/build
+$P keygen --dir work/devkey --name entwicklung
+$P pack   --in content/europe-de/paket --out work/build/europe-de.zip
+$P sign   --key work/devkey/entwicklung.secret \
+          --in work/build/europe-de.zip --out work/build/europe-de.czp
+
+./gradlew :androidApp:assembleDebug
+```
+
+Der Bau kopiert `work/build/europe-de.czp` selbst in die App-Beigaben; von Hand
+in `androidApp/src/main/assets/` zu kopieren bringt nichts, das wird
+überschrieben. Fehlt die Datei ganz, baut die App trotzdem — sie startet dann
+ohne Handbuch.
+
+**Was oben in der App steht, wenn du selbst signiert hast:** `UNBEKANNTER
+SIGNIERER` und der Fingerabdruck deines Schlüssels. Das ist kein Fehler,
+sondern die ehrliche Auskunft: Alle 600-und-mehr Einträge sind da und
+durchsuchbar, aber die App kennt deinen Schlüssel nicht. Sie kennt genau einen,
+und der steht als `SCHLUESSEL_ENTWICKLUNG` im Quelltext. Wer will, dass sein
+eigenes Paket als geprüft gilt, trägt dort seinen öffentlichen Schlüssel aus
+`work/devkey/entwicklung.public` ein.
+
+Die Unterschrift entscheidet **nicht** darüber, ob ein mitgeliefertes Paket
+geladen wird — sie sagt nur, woher es kommt. Anders bei einem Paket, das von
+einem anderen Gerät hereinkommt: Das muss von einem bekannten Schlüssel
+stammen, dieselbe Paketkennung tragen und neuer sein als das, was schon da ist.
+Die Einzelheiten stehen in [`SECURITY.md`](SECURITY.md).
+
 ## Ein Inhaltspaket prüfen
 
 Ein Paket (`.czp`) ist ein signierter Container, der ausschließlich Daten

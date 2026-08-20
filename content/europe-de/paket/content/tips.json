@@ -7927,7 +7927,7 @@
         "matratze",
         "durchliegen"
       ],
-      "body": "Ein Mensch, der nicht aufstehen kann, bekommt nach wenigen Tagen offene Stellen an den Stellen, mit denen er aufliegt. Das ist kein Randproblem: Solche Wunden gehen tief, heilen schlecht und werden zum Eintrittstor für eine Blutvergiftung — bei jemandem, der ohnehin schon geschwächt ist.\n\nDIE EINE ZAHL, DIE DAGEGEN HILFT: alle ZWEI STUNDEN drehen. Das gehört zu einem behelfsmäßigen Krankenlager, und es dient ausdrücklich einem Zweck — Wundliegen zu verhindern. Sie rät dabei zu etwas, an das man vorher denken muss: das Lager so bauen, dass sich der Mensch überhaupt wenden LÄSST, ohne dass man ihn hochheben muss.\n\nALLE ZWEI STUNDEN heißt auch nachts. Wer jemanden über Wochen pflegt, muss das einteilen — allein hält das niemand durch. Das ist einer der Punkte, an denen sich entscheidet, ob eine Gruppe einen Bettlägerigen durchbringt oder nicht.\n\nEIN ANDERER RHYTHMUS AUS DERSELBEN QUELLE, den man nicht verwechseln darf: Bewusstlose und Halbbewusstlose werden alle 20 MINUTEN von einer Seite auf die andere gedreht, und wenn der Zustand stabiler wird, reicht stündlich. Das hat einen ANDEREN Grund — es geht dabei um die Atemwege und darum, dass nichts in die Lunge läuft, nicht um die Haut. Wer bewusstlos ist, braucht also den engeren Takt.\n\nWAS IN MEINEN QUELLEN NICHT STEHT, und das ist eine große Lücke: Wie man ein bereits offenes Druckgeschwür behandelt, sagt keines der beiden Handbücher. Es gibt dort keinen eigenen Abschnitt dazu, nur verstreute Sätze zur Vorbeugung. Was für jede Wunde gilt, gilt auch hier — sauber halten, Druck von der Stelle nehmen, auf Zeichen einer Infektion achten; siehe die Tipps „Ausspülen statt auswischen“ und „Wunde bedecken“. Aber eine eigene, belegte Anleitung für Wundliegegeschwüre kann ich aus diesen Quellen nicht geben, und ich erfinde keine.",
+      "body": "Ein Mensch, der nicht aufstehen kann, bekommt nach wenigen Tagen offene Stellen an den Stellen, mit denen er aufliegt. Das ist kein Randproblem: Solche Wunden gehen tief, heilen schlecht und werden zum Eintrittstor für eine Blutvergiftung — bei jemandem, der ohnehin schon geschwächt ist.\n\nDIE EINE ZAHL, DIE DAGEGEN HILFT: alle ZWEI STUNDEN drehen. Das gehört zu einem behelfsmäßigen Krankenlager, und es dient ausdrücklich einem Zweck — Wundliegen zu verhindern. Sie rät dabei zu etwas, an das man vorher denken muss: das Lager so bauen, dass sich der Mensch überhaupt wenden LÄSST, ohne dass man ihn hochheben muss.\n\nALLE ZWEI STUNDEN heißt auch nachts. Wer jemanden über Wochen pflegt, muss das einteilen — allein hält das niemand durch. Das ist einer der Punkte, an denen sich entscheidet, ob eine Gruppe einen Bettlägerigen durchbringt oder nicht.\n\nEIN ANDERER RHYTHMUS AUS DERSELBEN QUELLE, den man nicht verwechseln darf: Bewusstlose und Halbbewusstlose werden alle 20 MINUTEN von einer Seite auf die andere gedreht, und wenn der Zustand stabiler wird, reicht stündlich. Das hat einen ANDEREN Grund — es geht dabei um die Atemwege und darum, dass nichts in die Lunge läuft, nicht um die Haut. Wer bewusstlos ist, braucht also den engeren Takt.\n\nWENN DIE STELLE SCHON OFFEN IST, steht hier nichts mehr — das gehört in „Offene Druckstelle: reinigen, abdecken, beobachten“. Dieser Tipp hier ist die Vorbeugung: drehen, bevor etwas aufgeht. Die beiden Handbücher, auf denen er beruht, haben zur Behandlung eines fertigen Druckgeschwürs keinen eigenen Abschnitt, nur verstreute Sätze zur Vorbeugung — der Behandlungstipp steht deshalb auf anderen Quellen. Was für jede Wunde gilt, gilt auch hier: sauber halten, Druck von der Stelle nehmen, auf Zeichen einer Infektion achten; siehe die Tipps „Ausspülen statt auswischen“ und „Wunde bedecken“.",
       "sources": [
         {
           "name": "US Army",
@@ -15996,6 +15996,87 @@
           "name": "US-Landwirtschaftsministerium (USDA), Food Safety and Inspection Service (FSIS)",
           "detail": "„Leftovers and Food Safety“, fsis.usda.gov, zuletzt aktualisiert 31.07.2020, im Volltext gelesen (Abschnitte „Keep Food out of the Danger Zone“, „Reheat Leftovers Safely“, „Reheating Leftovers without Thawing“) am 20.08.2026. Werk der US-Bundesregierung, gemeinfrei."
         }
+      ]
+    },
+    {
+      "id": "taktisch-lagerplatz-waehlen",
+      "title": "Einen Lagerplatz wählen: was der Platz selbst mitbringt",
+      "category": "taktisch",
+      "group": "taktisch-grundsatz",
+      "keywords": [
+        "lagerplatz",
+        "lagerplatz wählen",
+        "zeltplatz",
+        "wo campen",
+        "wo schlafen im freien",
+        "standort wählen",
+        "platz zum bleiben",
+        "sturzflut",
+        "trockenes bachbett",
+        "wildbach",
+        "hochwassermarke",
+        "lawinengebiet",
+        "steinschlag",
+        "totholz über dem lager",
+        "herabfallende äste",
+        "wilde tiere am lager",
+        "mücken",
+        "stehendes wasser meiden",
+        "bliss regel",
+        "unauffälliger platz"
+      ],
+      "body": "Wer einen Platz zum Bleiben sucht, für eine Rast, eine Nacht oder länger, achtet zuerst darauf, was er selbst braucht: Wasser in der Nähe, ebenen Boden, Material für einen Unterstand. Genauso wichtig ist die andere Richtung: was der Platz selbst an Gefahren mitbringt. Ein Platz, der auf den ersten Blick bequem wirkt, ist genau deshalb oft der falsche.\n\nZWEI GRUNDANFORDERUNGEN GELTEN IMMER. Der Platz muss genug Material für den geplanten Unterstand hergeben, oder wenigstens genug natürliche Deckung, wenn nicht gebaut wird. Und er muss groß genug und eben genug sein, um bequem liegen zu können, aber nicht größer. Ein zu großer Unterstand lässt sich schlechter warmhalten.\n\nDIE GEFAHREN, DIE DER PLATZ SELBST MITBRINGT, WERDEN VORHER GEPRÜFT, NICHT ERST, WENN ES ZU SPÄT IST. Gemieden werden Gebiete, in denen sich bei Regen Sturzfluten bilden können, vor allem am Fuß von Hügeln und Bergen und in trockenen Bachbetten. Genau diese trockenen Betten wirken besonders einladend zum Liegen, eben, sandig, frei von Gestrüpp, und sind gerade deshalb gefährlich: Sie können sich in Minuten in reißende Ströme verwandeln, ohne dass am eigenen Platz auch nur ein Tropfen Regen fällt. Es reicht, dass es weiter oben im Gelände regnet; das Wasser sammelt sich in Rinnen und Schluchten und kommt als Welle. Wer am Wasser bleiben will, sollte deutlich über der Hochwassermarke liegen, die an Gras- oder Schlammresten in Ästen und an Uferböschungen erkennbar ist, und schon bei einem spürbaren, wenn auch kleinen Anstieg des Wasserstands sofort höher gehen. Ebenso gemieden werden Lawinen- und Steinschlaggebiete im Bergland. Die Quelle nennt diese Gefahr nur mit einem Satz, ohne sie weiter zu erklären; Warnzeichen für in Bewegung geratenen Boden stehen in „Hangrutschung: Warnzeichen erkennen, seitlich weg“. Der Platz sollte außerdem Schutz vor wilden Tieren bieten und frei sein von Steinen und toten Bäumen oder Ästen, die herabfallen könnten, sowie von Insekten, Reptilien und giftigen Pflanzen. Für die Insekten heißt das konkret: nicht direkt neben stehendem Wasser lagern, das Mücken zum Brüten anzieht, und dichtes hohes Gras oder Gestrüpp direkt um den Platz herum meiden oder kurz halten. Bei aufziehendem Gewitter kommt eine weitere Regel dazu: einzelne hohe Bäume und offene Kuppen oder Grate ziehen Blitze an und werden verlassen.\n\nDIE JAHRESZEIT VERSCHIEBT DIE WAHL. Im Winter zählt Schutz vor Kälte und Wind, dazu Brennstoff und Wasser in erreichbarer Nähe. Im Sommer zählt vor allem eine Wasserquelle, dazu ein möglichst insektenfreier Platz.\n\nWER ZUSÄTZLICH NICHT GESEHEN WERDEN WILL, PRÜFT DEN PLATZ NACH DER BLISS-REGEL. Der Merkspruch „Der Weg zum Versteck: hingehen, ohne verfolgt zu werden“ erwähnt bereits, dass für ein gebautes Unterschlupf-Gerüst dieselbe Regel gilt, ohne sie auszubuchstabieren. Sie besteht aus fünf Buchstaben:\nB wie Blend in, in der Umgebung aufgehen: keine Farben, Formen oder Materialien, die zur Umgebung nicht passen.\nL wie Low silhouette, niedrige Silhouette: nicht höher bauen als nötig, damit nichts gegen den Himmel oder eine helle Fläche absticht.\nI wie Irregular, unregelmäßige Form: keine geraden Linien und keine rechten Winkel, die als von Menschen gemacht auffallen.\nS wie Small, klein: nur so groß wie unbedingt gebraucht.\nS wie Secluded, abgelegen: fernab von Wegen, Wasserläufen und bewohnten Stellen, die andere ebenfalls nutzen würden.\n\nOb die kalte Nachtluft im Tal oder die Höhe der richtige Platz ist, steht nicht hier, sondern in „Wo die Nacht verbracht wird: Talgrund oder oben bleiben“, ebenso die Reihenfolge Wind, Boden, Nässe für den eigentlichen Schlafplatz.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Die Quelle beschreibt diese Regeln für ein militärisches Umfeld und nennt zusätzlich getarnte Fluchtwege und Eignung für Signale als Auswahlkriterien; das wurde weggelassen, weil es einen Auftrag und eine Rettungskette voraussetzt, die eine Familie in einer Katastrophenlage so nicht hat. Was bleibt und für jeden gilt, der draußen bleiben muss: Die Gefahrenliste gilt immer, unabhängig davon, ob überhaupt ein Grund besteht, sich zu verstecken. Die BLISS-Regel dagegen lohnt sich nur, wenn tatsächlich Grund besteht, vor anderen Menschen nicht gesehen zu werden; wer nur vor Wetter und Gelände Schutz sucht, kann einen Platz offener wählen und muss ihn nicht zusätzlich tarnen.",
+      "sources": [
+        {
+          "name": "US Army / US Marine Corps",
+          "detail": "FM 3-05.70 (MCRP 3-02F) „Survival“, Mai 2002, Kapitel 5 „Shelters“, Abschnitt „Shelter Site Selection“ Nr. 5-1 bis 5-6 (Anforderungen, Gefahren, BLISS-Regel), und Kapitel 20 Nr. 20-18/20-19 (BLISS beim Versteck, wortgleich). Volltext von archive.org geladen, am 20.08.2026 gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        },
+        {
+          "name": "National Weather Service (NOAA)",
+          "detail": "Merkblatt „Flooding Safety: Be Aware That Flooding Can Occur While Camping & Hiking“, Wetteramt Blacksburg/Roanoke, ohne Datumsangabe im Dokument. Geladen von weather.gov/media/rnk/outdoors/Flood_Safety_Camping_Hiking.pdf und am 20.08.2026 gelesen. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        },
+        {
+          "name": "US Army / US Marine Corps",
+          "detail": "FM 21-10/MCRP 4-11.1D „Field Hygiene and Sanitation“, 21.06.2000, Kapitel 3 Abschnitt III, „Minimize Exposure to Arthropod, Rodent, and Animal Threat“ (stehendes Wasser und dichten Bewuchs am Lagerplatz meiden). Von archive.org geladen, am 20.08.2026 gelesen. Werk der US-Bundesregierung, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "unterwegs",
+        "lage-und-gefahr",
+        "am-leben-bleiben"
+      ]
+    },
+    {
+      "id": "taktisch-schimmel-geheizter-raum",
+      "title": "Feuchtigkeit und Schimmel im geheizten Raum",
+      "category": "taktisch",
+      "group": "taktisch-kaelte",
+      "keywords": [
+        "schimmel",
+        "feuchtigkeit",
+        "kondenswasser",
+        "fenster beschlagen",
+        "stoßlüften",
+        "querlüften",
+        "sporen",
+        "asthma",
+        "allergie",
+        "nasse wand"
+      ],
+      "body": "EIN DICHT GEMACHTER, GEHEIZTER RAUM TAUSCHT SEINE LUFT KAUM NOCH AUS — und genau das kann ihn krank machen, wenn niemand gegensteuert. Wie man einen Raum gegen Kälte abdichtet, steht in „Fenster und Türen gegen Kälte abdichten“; dieser Eintrag handelt davon, was dabei zusätzlich beachtet werden muss.\n\nWOHER DIE FEUCHTIGKEIT KOMMT: Atmen, Kochen, nasse Kleidung — und die Heizquelle selbst. Verbrennung erzeugt Wasserdampf. Ein Petroleumofen oder Gasheizer, wie er in „Wohnung wird kalt: womit du drinnen heizen darfst“ als drinnen zulässig beschrieben ist, setzt beim Brennen Feuchtigkeit in die Raumluft frei, wenn er nicht nach draußen entlüftet ist. In einem abgedichteten Raum hat diese Feuchtigkeit keinen Weg mehr hinaus.\n\nWARUM SICH DAS AUSGERECHNET AM FENSTER ZEIGT: Warme Luft hält mehr Feuchtigkeit als kalte. Trifft die feuchte Raumluft auf eine kalte Fläche, kann sie die Feuchtigkeit dort nicht mehr halten, und Wasser schlägt sich nieder. Im Winter ist die Fensterscheibe fast immer die kälteste Fläche im Raum — deshalb beschlägt sie zuerst. Dieselbe Nässe bildet sich aber auch an Außenwänden, besonders hinter Möbeln, die dicht an einer Außenwand stehen, weil dort kaum Luft zirkuliert.\n\nDAS WARNZEICHEN, DAS NICHT IGNORIERT WERDEN SOLLTE: Beschlagene Scheiben, feuchte Wände oder Wassertropfen an Rohren sind ein Zeichen für zu hohe Luftfeuchtigkeit. Wer das sieht, sollte zügig handeln — die feuchte Stelle abtrocknen und die Feuchtigkeitsquelle verringern —, bevor sich Schimmel bildet.\n\nWAS DAGEGEN HILFT:\n— KURZ UND KRÄFTIG LÜFTEN statt Fenster dauerhaft zu kippen. Was Stoßlüften ist und warum es auch gegen Kohlenmonoxid nötig bleibt, steht in „Wohnung wird kalt: womit du drinnen heizen darfst“.\n— Wo möglich, beim Kochen oder Waschen ein Fenster öffnen oder einen Abluftventilator laufen lassen, statt die Feuchtigkeit im Raum zu belassen.\n— Beschlagene Scheiben abwischen, statt das Wasser stehen und in den Rahmen einziehen zu lassen.\n— Möbel nicht dicht an eine Außenwand stellen, wenn sich das vermeiden lässt — dahinter bildet sich als Erstes Feuchtigkeit, unbemerkt.\n\nWENN SCHIMMEL SCHON DA IST: Kleine Flecken, deutlich unter einem Quadratmeter, lassen sich selbst behandeln: mit Wasser und Reinigungsmittel abschrubben und die Fläche danach vollständig trocknen. Nicht überstreichen oder mit Dichtmasse verschließen, solange der Schimmel nicht entfernt und die Fläche nicht trocken ist — die Farbe blättert sonst wieder ab. Weiche oder poröse Materialien wie Teppich oder Pappe müssen bei Befall meist entsorgt werden, weil sich Schimmel in ihren Poren festsetzt und nicht mehr vollständig herausgeht. Zum eigenen Schutz beim Saubermachen: Handschuhe, wenn vorhanden eine dicht sitzende Atemschutzmaske — welche Maske wofür taugt, steht in „FFP1, FFP2, FFP3: welche Maske wen schützt“ — und eine Schutzbrille ohne Lüftungslöcher. Chlorreiniger NIEMALS mit einem Reiniger mischen, der Ammoniak enthält — dabei entstehen giftige Dämpfe.\n\nWANN ES ÜBER SELBSTHILFE HINAUSGEHT: Bei einer befallenen Fläche von mehr als etwa einem Quadratmeter, bei Schimmel nach Kontakt mit Abwasser, oder wenn jemand dabei gesundheitliche Beschwerden bekommt, reicht Abschrubben allein nicht mehr — das ist ein Fall für einen Fachbetrieb. Einordnung dieses Pakets, nicht aus der Quelle: Kommt in einer Krise kein Fachbetrieb, bleibt nur, den Raum weiter so gut wie möglich zu lüften, den Bereich zu meiden und die Feuchtigkeitsquelle abzustellen, bis wieder gehandelt werden kann — der Belag selbst wird dadurch nicht ungefährlicher, nur die Ausbreitung langsamer.",
+      "sources": [
+        {
+          "name": "US-Umweltbehörde (EPA)",
+          "detail": "EPA, „A Brief Guide to Mold, Moisture, and Your Home“ (EPA 402-K-02-003, Neuauflage 09/2012), epa.gov/sites/default/files/2016-10/documents/moldguide12.pdf. Vollständig geladen und gelesen am 20.08.2026. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105)."
+        },
+        {
+          "name": "US-Energieministerium (DOE)",
+          "detail": "„Moisture Control“, energy.gov/energysaver/moisture-control, US-Energieministerium (DOE), nur der Absatz zum Taupunkt verwendet. Internet-Archiv-Fassung vom 09.12.2023 (web.archive.org), da die Live-Seite keinen Inhalt mehr liefert; Volltext am 20.08.2026 gelesen. Werk der US-Bundesregierung, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "am-leben-bleiben",
+        "lage-und-gefahr"
       ]
     }
   ],

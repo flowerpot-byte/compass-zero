@@ -40,13 +40,20 @@ object ContentLimits {
     // bleiben weit darunter und sprengen trotzdem das Wortverzeichnis, weil jedes
     // Wort dort einen eigenen Eintrag braucht.
     //
-    // Nachgemessen am 28.07.2026 mit einem Paket, das GLEICHZEITIG alle uebrigen
+    // Am 28.07.2026 nachgemessen mit einem Paket, das GLEICHZEITIG alle uebrigen
     // Grenzen ausschoepft (5 000 Tipps, 200 Kapitel mit je 10 Abschnitten,
-    // 10 000 POIs) und dessen Woerter im ganzen Paket einmalig sind -- der
-    // schlimmste Fall zugleich fuer Vorkommen und Verschiedenheit. Bei 96 MB
-    // Heap: 596 573 Wortvorkommen und 3 986 078 Suchzeichen laden und bauen den
-    // Index sauber durch, mit 17 MB lebendem Modell. Darueber greift die
-    // Zeichengrenze, bevor die Wortzahl ueberhaupt kritisch wird.
+    // 10 000 POIs). Bei 96 MB Heap: 596 573 Wortvorkommen und 3 986 078
+    // Suchzeichen laden und bauen den Index sauber durch, mit 17 MB lebendem
+    // Modell.
+    //
+    // ACHTUNG, DIESE MESSUNG WAR NICHT DER SCHLIMMSTE FALL, obwohl sie sich
+    // dafuer ausgab: Sie behauptete, die Woerter seien im ganzen Paket
+    // einmalig. Der Wortbaukasten des Messtests konnte damals aber nur
+    // 456 976 verschiedene Woerter bilden (vier Stellen zu je 26 Buchstaben)
+    // und wiederholte sich stillschweigend darueber. Von den 596 573
+    // Vorkommen waren also rund 140 000 Wiederholungen, und das Wortverzeichnis
+    // war entsprechend billiger als angenommen. Gemessen wurde damit ein
+    // gemischter Fall, nicht der teuerste. Aufgefallen am 20.08.2026.
     //
     // Die frueheren 400 000 stammten aus einer Messung an einem Paket aus lauter
     // Agrarkapiteln; damals starb ein volles Paket schon bei rund 368 000. Den
@@ -55,10 +62,11 @@ object ContentLimits {
     // werden, und die Zuordnung Wort zu Nummer wird vor dem Bau des
     // Verzeichnisses freigegeben.
     //
-    // 500 000 seit dem 20.08.2026. Davor 450 000 (17.08.2026), davor 300 000 --
-    // und beide Male war die Zahl erreicht, bevor jemand nachgemessen hatte:
-    // Ein einziger neuer Eintrag machte das Paket unlesbar, und fertige,
-    // gepruefte Eintraege lagen auf Halde.
+    // Die Zahl war 300 000, dann 450 000 (17.08.2026), dann 500 000
+    // (20.08.2026) -- und jedes Mal war sie erreicht, bevor jemand nachgemessen
+    // hatte: Ein einziger neuer Eintrag machte das Paket unlesbar, und fertige,
+    // gepruefte Eintraege lagen auf Halde. Seit dem 20.08.2026 ist sie nur noch
+    // die grobe zweite Schranke; die Hauptgrenze zaehlt darunter den Wortschatz.
     //
     // WAS AM 20.08.2026 GEMESSEN WURDE -- und was an der ersten Messung
     // desselben Tages falsch war:

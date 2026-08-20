@@ -263,11 +263,22 @@ class AltgeraetSpeicherTest {
         return sb.toString()
     }
 
+    /**
+     * Wie viele Buchstaben ein Testwort nach dem "w" traegt.
+     *
+     * DIESE ZAHL STEHT NUR EINMAL, und der Baukasten wie seine Selbstpruefung
+     * lesen beide von hier. Stuenden sie getrennt, koennte jemand den Baukasten
+     * verkleinern, ohne dass die Pruefung es merkt -- und die Pruefung deckte
+     * dann genau den Fehler nicht mehr auf, gegen den sie geschrieben wurde.
+     * Fuenf Stellen ergeben 11 881 376 verschiedene Woerter.
+     */
+    private val WORTNUMMER_STELLEN = 5
+
     private fun wortNummer(n: Int): String {
         val stellen = "abcdefghijklmnopqrstuvwxyz"
         var rest = n
         val sb = StringBuilder("w")
-        repeat(5) {
+        repeat(WORTNUMMER_STELLEN) {
             sb.append(stellen[rest % 26])
             rest /= 26
         }
@@ -340,6 +351,32 @@ class AltgeraetSpeicherTest {
                 append("""],"sources":[{"name":"Beispielquelle","detail":"Abschnitt 1"}]}""")
             }
             append("]}")
+        }.also { json ->
+            // ZWEI STILLE FEHLSCHLAEGE, GEGEN DIE SICH DER BAUKASTEN SELBST
+            // ABSICHERT -- beide sind wirklich passiert:
+            //
+            // 1. Reicht der Wortvorrat nicht, wiederholen sich die Woerter ab
+            //    dort, ohne dass etwas auffaellt. Der Test misst dann einen
+            //    billigeren Fall und behauptet trotzdem, jedes Wort sei
+            //    verschieden. Genau das stand von Juli bis zum 20.08.2026 als
+            //    "gemessen" in ContentLimits.kt.
+            // 2. Wird die Datei groesser als MAX_JSON_BYTES, greift die
+            //    Bytegrenze -- und der Test meldet eine ganz andere Grenze als
+            //    die, die er pruefen sollte.
+            if (wortschatz == 0) {
+                var moeglich = 1
+                repeat(WORTNUMMER_STELLEN) { moeglich *= 26 }
+                check(zaehler <= moeglich) {
+                    "Der Wortvorrat reicht nicht: $zaehler Woerter gebraucht, $moeglich moeglich. " +
+                        "Ohne mehr Stellen in wortNummer misst dieser Test keine lauter " +
+                        "verschiedenen Woerter mehr, sondern eine Mischung."
+                }
+            }
+            check(json.length <= ContentLimits.MAX_JSON_BYTES) {
+                "Das Testpaket ist ${json.length} Bytes gross, erlaubt sind " +
+                    "${ContentLimits.MAX_JSON_BYTES}. Dann greift die Bytegrenze und der Test " +
+                    "prueft nicht mehr, was er soll -- weniger Woerter je Abschnitt nehmen."
+            }
         }
     }
 

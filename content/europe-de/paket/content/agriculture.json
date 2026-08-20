@@ -4802,6 +4802,130 @@
         "lage-und-gefahr"
       ],
       "group": "ernte"
+    },
+    {
+      "id": "agrikultur-frischkaese",
+      "title": "Frischkäse machen: dicklegen, abtropfen, salzen",
+      "group": "hof",
+      "situations": [
+        "lage-und-gefahr"
+      ],
+      "sources": [
+        {
+          "name": "US-Landwirtschaftsministerium (USDA)",
+          "detail": "„Farmers' Bulletin No. 960: Neufchatel and Cream Cheese, Farm Manufacture and Use“, K. J. Matheson und F. R. Cammack, Dairy Division, Bureau of Animal Industry, USDA, Fassung August 1922 (Erstausgabe Juli 1918). Volltext über archive.org, Kennung farmbul960unit, gelesen am 20.08.2026. Werk der US-Bundesregierung, frei über den Schutzfristenvergleich (§ 121 Abs. 4 UrhG, 17 U.S.C. § 105). Unabhängig von Bulletin 166, das „Käse machen: gerinnen lassen, formen, reifen“ zugrunde liegt."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ein anderer Käse: schnell statt wochenlang",
+          "body": "„Käse machen: gerinnen lassen, formen, reifen“ beschreibt den Käse, der wochenlang reift und deshalb monatelang hält. Dieses amerikanische Heft von 1918 beschreibt einen zweiten, ganz anderen Käse: einen weichen Frischkäse, ähnlich dem, was hierzulande als Quark bekannt ist, der in etwa anderthalb Tagen fertig ist. Er braucht dieselbe Zutat wie der reifende Käse, ein Gerinnungsmittel, aber weder Käsepresse noch Holzform noch Wochen der Pflege. Wer Milch übrig hat, die sonst umkommt, und schnell etwas Sättigendes daraus machen will, findet hier den kürzeren Weg. Er hält dafür auch viel kürzer."
+        },
+        {
+          "heading": "Was hinein muss: Milch und ein Gerinnungsmittel",
+          "body": "Die Quelle rechnet mit einer Kanne von knapp 13,5 Kilogramm Milch, umgerechnet gut 13 Liter — das ist nur die Menge, mit der im Heft gerechnet wird, kleinere Ansätze sollten genauso funktionieren. Die Milch muss frisch sein, darf nicht angesäuert oder abgestanden riechen. Ein Säuerungsmittel (eine kleine Menge bereits saurer Milch, etwa ein halbes bis ein ganzes Hundertstel der Menge) beschleunigt und vergleichmäßigt die Sache, ist für den Eigenbedarf laut Quelle aber nicht nötig — dann lässt man die Milch vor dem Gerinnungsmittel einfach ein paar Stunden länger stehen. Als Gerinnungsmittel nennt die Quelle drei Wege: acht bis zehn Tropfen flüssiges Lab, vorher in einem halben Becher kaltem Wasser verdünnt; ersatzweise Pepsinpulver in der Größe einer halben Erbse, gelöst in einem Becher kaltem Wasser; oder eine Lab-Tablette, aufgelöst in zehn Esslöffeln kaltem Wasser, wovon drei Esslöffel verwendet werden. Fehlt jedes dieser Mittel ganz, hilft auch dieses Kapitel nicht weiter — dieselbe Grenze wie bei „Käse machen: gerinnen lassen, formen, reifen“."
+        },
+        {
+          "heading": "Dicklegen: die Temperatur und die lange Ruhe",
+          "body": "Die Milch auf 26 Grad erwärmen (für den fetteren Rahmkäse auf 27 Grad, dafür wird der Milch vorher etwas Rahm zugesetzt). Das Säuerungsmittel, falls verwendet, einrühren, dann das verdünnte Gerinnungsmittel einrühren. Danach ungestört bei GLEICHBLEIBENDER Temperatur stehen lassen, fünfzehn bis achtzehn Stunden — am einfachsten über Nacht, mit einem Tuch abgedeckt, wenn kein Deckel da ist. Zeichen einer guten Gerinnung: Auf der Oberfläche hat sich eine dünne Schicht Molke gesammelt, manchmal mit feinem weißem Schaum darauf. Wölbt sich die Masse stattdessen nach oben und bleibt kaum Molke sichtbar, ist die Gärung ungewöhnlich verlaufen — laut Quelle nicht zwangsläufig ungenießbar, aber schlechter in Geschmack und Ausbeute. Dann lohnt es, die nächste Charge in saubereren Gefäßen anzusetzen."
+        },
+        {
+          "heading": "Abtropfen und pressen",
+          "body": "Die geronnene Masse auf ein straffes, dicht gewebtes Tuch schütten (ungebleichtes Baumwolltuch eignet sich laut Quelle am besten), das Tuch über einen Eimer oder Bottich gespannt. Drei bis vier Stunden ungestört abtropfen lassen, dann den Bruch zur Mitte des Tuchs zusammenschieben, damit es schneller geht. Weiter abtropfen, bis der Bruch spürbar trockener wirkt, dann die vier Ecken des Tuchs zusammenbinden. Für den Eigenbedarf darf länger abgetropft werden als fürs Marktgeschäft, besonders wenn nicht gekühlt wird. Wer kann, kühlt den Beutel ein paar Stunden auf Eis — macht den Bruch fester und presst leichter Molke aus, ist aber laut Quelle nicht zwingend. Danach mehrere Beutel zwischen zwei Brettern stapeln und mit rund 23 Kilogramm Gewicht (die Quelle nennt fünfzig amerikanische Pfund) über Nacht pressen. Aus 13 Litern Milch werden auf diese Weise etwa zwei bis zweieinhalb Kilogramm gepresster Bruch."
+        },
+        {
+          "heading": "Salzen, verarbeiten und aufbewahren",
+          "body": "Den gepressten Bruch mit einem Kartoffelstampfer oder durch einen Fleischwolf glatt arbeiten. Dabei Salz einarbeiten, etwa 12 bis 16 Gramm je Kilogramm Bruch — das macht ihn zugleich geschmeidiger. Für den Eigenbedarf muss nicht geformt werden: einfach in ein sauberes Steingut- oder Porzellangefäß füllen. So kühl wie möglich lagern, am besten nahe 10 Grad — dort hält er sich laut Quelle sechs bis zwölf Tage. Bei 16 bis 21 Grad wird er schon nach wenigen Tagen unangenehm sauer. Am mildesten schmeckt er gleich nach der Herstellung."
+        },
+        {
+          "heading": "Was hier fehlt",
+          "body": "EIN WEG OHNE LAB ODER ERSATZ fehlt — dieselbe Lücke wie im Kapitel „Käse machen: gerinnen lassen, formen, reifen“. WIE SICH KLEINERE ODER GRÖSSERE MENGEN VERHALTEN, sagt die Quelle nicht; sie rechnet durchgehend mit der einen Kanne. WIE SICH KÄLTERE UMGEBUNGEN AUSWIRKEN, etwa ein kühler Keller statt der amerikanischen Küche von 1918, in der das Heft entstand, steht dort nicht — die angegebenen fünfzehn bis achtzehn Stunden gelten für die genannte Temperatur, nicht für kältere Räume. Die im Heft beschriebenen Zusätze wie Paprika oder Kräuter sind reine Geschmackssache und deshalb hier weggelassen."
+        }
+      ]
+    },
+    {
+      "id": "agrikultur-wurst-machen",
+      "title": "Wurst machen: Brät mischen, würzen, abfüllen",
+      "group": "schlachten",
+      "situations": [
+        "lage-und-gefahr"
+      ],
+      "sources": [
+        {
+          "name": "US-Landwirtschaftsministerium (USDA)",
+          "detail": "„Farmers' Bulletin No. 1186: Pork on the Farm, Killing, Curing, and Canning“, F. G. Ashbrook und G. A. Anthony (Bureau of Animal Industry), USDA, Ausgabe 1921, Abschnitt „Making Sausage“. Archiv-Kennung farmbul1186rev1921, Volltext (OCR) am 20.08.2026 gelesen. Werk der US-Bundesregierung, frei über den Schutzfristenvergleich (§ 121 Abs. 4 UrhG, 17 U.S.C. § 105). Dieselbe Ausgabe wie in „Fett und Öl ohne Handel“ und „Pökeln nach Gewicht“, hier der Wurst-Abschnitt, dort ungenutzt."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Warum sich das lohnt",
+          "body": "Beim Schlachten bleiben Schnippel und Stücke übrig, die weder als Braten noch als Kotelett taugen — normalerweise Abfall. Zu Wurst verarbeitet, geht nichts davon verloren. Dieses Kapitel setzt da an, wo „Ein Schwein schlachten: der ganze Ablauf“ und „Pökeln nach Gewicht: Salz, Zucker und Salpeter in der richtigen Menge“ aufhören: bei dem, was von den guten Stücken übrig bleibt. Gebraucht wird laut Quelle nicht mehr als ein Fleischwolf, am besten mit Füllvorsatz, dazu ein Messer, etwas Schnur und eine Hülle für die Masse."
+        },
+        {
+          "heading": "Die Hülle: Naturdarm oder ein Beutel aus Stoff",
+          "body": "Wie man Därme vom Schlachten so reinigt, dass sie als Wursthülle taugen, hat dieses Paket bisher nicht belegt — das bleibt eine offene Lücke. Die Quelle nennt aber einen einfacheren Weg, der keine besondere Übung braucht: einen Beutel aus Baumwollstoff, etwa 30 Zentimeter lang und 5 Zentimeter im Durchmesser, mit der Wurstmasse gefüllt und zugebunden. Nach dem Füllen wird der Beutel in geschmolzenes Paraffin getaucht — das Wachs- oder Fettschmelzen im Wasserbad, sicher gegen Brand, steht in „Licht ohne Strom: Kerzen selbst ziehen“. Laut Quelle hält Wurst in einem paraffinierten Stoffbeutel LÄNGER und BESSER als in Naturdarm. Kühl gelagert, in Steingutgefäßen oder Blechschalen mit einer Schicht heißem Fett oder Paraffin obenauf, hält sie sich gut."
+        },
+        {
+          "heading": "Reines Schweinebrät: das Verhältnis",
+          "body": "Auf zwei Teile mageres Fleisch etwas mehr als ein Teil Fett (die Quelle nennt 65 zu 35). Auf ein Kilogramm dieser Mischung: 15 Gramm Salz, gut 1 Gramm Salbei, eine gute halbe Gramm Muskat, 2,5 Gramm Pfeffer. Das Fleisch klein schneiden, die Gewürze untermischen, dann durch die feine Scheibe des Wolfs drehen. Nach dem Wolfen noch einmal gründlich durchmischen, damit die Würzung überall gleich ankommt. Kein Wasser zugeben, wenn die Wurst lose gelagert wird; nur wer sie in Hülle oder Beutel füllt, gibt etwas Wasser dazu, damit die Masse leichter hineingleitet."
+        },
+        {
+          "heading": "Geräuchert statt frisch",
+          "body": "Soll die Wurst geräuchert werden, kommt zuerst das Pökeln — die Mengen dafür stehen in „Pökeln nach Gewicht: Salz, Zucker und Salpeter in der richtigen Menge“ und werden hier nicht wiederholt. Erst danach wird gefüllt und in einem kühlen Rauch geräuchert, bis eine dunkle Farbe entsteht — wie das geht, steht in „Räucherkammer bauen und Fisch räuchern“. Räuchern allein macht eine Wurst nicht sicher zum Rohessen. Gegart wird sie so oder so."
+        },
+        {
+          "heading": "Durchgaren: die Zahl, die zählt",
+          "body": "EINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE VON 1921: Die Quelle verlangt nur gründliches Durchgaren, ohne Gradzahl. Dieses Paket nennt dieselbe Schwelle wie „Trichinen: Einfrieren tötet sie nicht“: mindestens 72 Grad im Kern der Wurst, zwei Minuten lang. Das gilt unabhängig davon, ob die Wurst vorher geräuchert wurde oder nicht, und unabhängig davon, ob das Fleisch vom Hausschwein oder von Wild stammt."
+        },
+        {
+          "heading": "Was hier bewusst nicht drin ist",
+          "body": "TROCKENE, ROH GEGESSENE WURST — Salami-artige Ware, rohe Frankfurter — fehlt hier mit Absicht. Die Quelle selbst warnt: rohes oder unzureichend gegartes Schwein kann Trichinen übertragen, und solche Erzeugnisse gehören deshalb nicht auf den Hof, weil dort die Kontrolle einer Fabrik fehlt. Mehr dazu, auch der Krankheitsausbruch von 2013 durch genau so eine Wurst, steht in „Trichinen: Einfrieren tötet sie nicht“. In dieses Kapitel gehört nur Wurst, die am Ende durchgegart wird."
+        },
+        {
+          "heading": "Was diese Quelle nicht hergibt",
+          "body": "NUR SCHWEIN. Dieselbe Einschränkung wie in „Pökeln nach Gewicht: Salz, Zucker und Salpeter in der richtigen Menge“ und „Fett und Öl ohne Handel: Ölsaaten pressen und Schmalz auslassen“: Die Quelle behandelt ausschließlich Schweinefleisch. Verhältnisse für Rind-, Schaf- oder Ziegenwurst nennt sie nicht, und dieses Paket schätzt sie nicht. WIE LANGE FRISCHE WURST UNGEKÜHLT HÄLT, sagt die Quelle nicht. WIE MAN NATURDÄRME REINIGT, bleibt offen — dieses Paket hat dafür noch keine geprüfte Quelle."
+        }
+      ]
+    },
+    {
+      "id": "agrikultur-talg-auslassen",
+      "title": "Talg auslassen: was aus Rinder- und Schaffett wird",
+      "group": "ernte",
+      "situations": [
+        "lage-und-gefahr"
+      ],
+      "sources": [
+        {
+          "name": "Lydia Maria Child",
+          "detail": "„The American Frugal Housewife“, 12. Auflage, S. S. & W. Wood, New York, 1841 (Erstausgabe 1829; Autorin gestorben 1880, gemeinfrei). Abschnitte zu Talg, Kerzen und Fleischgüte. Volltext über archive.org, Kennung americanfrugalh00chilgoog, Status NOT_IN_COPYRIGHT, gelesen am 20.08.2026. Unabhängig von den Quellen in „Seife selbst machen aus Fett und Asche“ und „Licht ohne Strom: Kerzen selbst ziehen“."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Warum Talg etwas anderes ist als Schmalz",
+          "body": "„Fett und Öl ohne Handel: Ölsaaten pressen und Schmalz auslassen“ behandelt ausschließlich Schweinefett und sagt selbst, dass für Rindertalg und Schaftalg keine eigene Zahl vorliegt. Diese Lücke lässt sich nicht vollständig schließen, aber teilweise: Eine unabhängige Quelle von 1829 bestätigt, dass dasselbe Grundverfahren auch bei Rindertalg funktioniert — nur wird das Ergebnis anders. Talg wird bei Zimmerwärme fest, wo Schmalz weich bleibt, und er ist deshalb die bessere Wahl für Kerzen, während Schmalz sich eher zum Kochen und für Seife eignet."
+        },
+        {
+          "heading": "Auslassen: dieselbe Grundregel, jetzt bestätigt",
+          "body": "Wie Fett grundsätzlich ausgelassen wird, klein schneiden, mit etwas Wasser langsam auskochen, häufig rühren, das flüssige Fett abgießen und fest werden lassen, steht bereits in „Seife selbst machen aus Fett und Asche“. Die Quelle von 1829 beschreibt für Rindertalg denselben Weg mit eigenen Worten: von Häuten und Adern befreien, in Wasser bei mäßiger Hitze schmelzen, abkühlen lassen, bis es zu einem festen Kuchen wird, dann trockenwischen und in Papier und Leinenbeutel packen. Eine genaue Temperatur oder Zeit nennt sie nicht — dieses Paket schätzt hier keine."
+        },
+        {
+          "heading": "Woran man gutes Fett erkennt",
+          "body": "Die Quelle von 1829 nennt eine Farbprobe, die ohne Werkzeug auskommt: Fleisch mit einem angenehmen, rötlichen Farbton und klarem, WEISSEM Talg ist gut. GELBER Talg deutet auf schlechtere Qualität hin. Das gilt als Anhaltspunkt beim Schlachten, nicht als letzte Sicherheit."
+        },
+        {
+          "heading": "Aufbewahren, ohne es gleich auszulassen",
+          "body": "Wer den Talg nicht sofort auslassen kann, hält ihn laut derselben Quelle das ganze Jahr über, wenn er klein gehackt und in ein Steingutgefäß gepackt und mit Melasse (dickem Zuckersirup) bedeckt wird. Das ist kein Ersatz fürs Auslassen, sondern eine Zwischenlösung, bis dafür Zeit ist."
+        },
+        {
+          "heading": "Wofür Talg gebraucht wird",
+          "body": "Zum Kerzenziehen steht das ganze Verfahren in „Licht ohne Strom: Kerzen selbst ziehen“. Die Quelle von 1829 nennt dort eine Verbesserung, die härtere, hellere Kerzen ergibt: auf zehn Teile Talg vier Teile Bienenwachs, zwei Teile Alaun und einen viertel Teil Kampfer, zusammen geschmolzen. Diese beiden Stoffe hat nicht jeder im Haus — ohne sie funktionieren die Kerzen trotzdem, nur nicht ganz so hart und hell. Zur Seife siehe „Seife selbst machen aus Fett und Asche“; dort taugt auch ranziger Talg noch."
+        },
+        {
+          "heading": "Was hier fehlt",
+          "body": "EINE GENAUE TEMPERATUR UND ZEIT FÜRS AUSLASSEN VON TALG fehlt in dieser wie in der Schmalz-Quelle — gesucht, nicht gefunden. KLAUENÖL, DAS FETT AUS RINDERFÜSSEN FÜR DIE LEDERPFLEGE, das „Gerben mit Eichenrinde: aus einer Tierhaut wird Leder“ als offene Lücke nennt, bleibt auch hier offen: Für dieses Paket wurde keine rechtlich freie Quelle mit einer nachvollziehbaren Anleitung gefunden. WIE LANGE AUSGELASSENER TALG HÄLT UND WORAN MAN RANZIGKEIT ERKENNT, sagt die Quelle nicht."
+        }
+      ]
     }
   ],
   "groups": [

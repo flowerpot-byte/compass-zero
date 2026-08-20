@@ -65,9 +65,46 @@ for strom in (sys.stdout, sys.stderr):
         pass
 
 
+# An diesem Rechner haengt regelmaessig NEBEN dem Emulator ein echtes Telefon.
+# Ein adb-Aufruf ohne Geraeteangabe scheitert dann mit "more than one device"
+# -- und weil hier nur die Standardausgabe gelesen wurde, kam eine LEERE
+# Antwort zurueck. Das Werkzeug meldete daraufhin "Text nicht gefunden", also
+# einen Befund ueber die App, obwohl es die App nie gefragt hatte. Genau davor
+# warnt der Kopf dieser Datei, nur eine Ebene tiefer.
+#
+# ANDROID_SERIAL ist die Variable, die adb selbst versteht; sie hat Vorrang.
+# Ohne sie wird nur weitergemacht, wenn genau EIN Geraet da ist -- auf das
+# falsche Geraet zu tippen waere schlimmer als abzubrechen.
+def geraetewahl():
+    gewuenscht = os.environ.get("ANDROID_SERIAL", "").strip()
+    if gewuenscht:
+        return ["-s", gewuenscht]
+    p = subprocess.run([ADB, "devices"], capture_output=True,
+                       env=dict(os.environ, MSYS_NO_PATHCONV="1"))
+    zeilen = [z for z in p.stdout.decode("utf-8", "replace").splitlines()[1:] if z.strip()]
+    angeschlossen = [z.split()[0] for z in zeilen if z.split()[-1] == "device"]
+    if len(angeschlossen) > 1:
+        raise SystemExit(
+            "MEHRERE GERAETE ANGESCHLOSSEN: " + ", ".join(angeschlossen) + ". "
+            "Welches gemeint ist, muss dastehen -- sonst landet ein Tipp auf dem "
+            "falschen Geraet. Setze ANDROID_SERIAL, zum Beispiel: "
+            "ANDROID_SERIAL=emulator-5554 python tools/app/klick.py liste"
+        )
+    return []
+
+
+WAHL = geraetewahl()
+
+
 def adb(*args, binaer=False):
     umgebung = dict(os.environ, MSYS_NO_PATHCONV="1")
-    p = subprocess.run([ADB, *args], capture_output=True, env=umgebung)
+    p = subprocess.run([ADB, *WAHL, *args], capture_output=True, env=umgebung)
+    if p.returncode != 0:
+        fehler = p.stderr.decode("utf-8", "replace").strip() or "ohne Meldung"
+        raise SystemExit(
+            "adb " + " ".join(args[:2]) + " ist fehlgeschlagen: " + fehler + " -- "
+            "das ist KEIN Befund ueber die App, die Frage kam gar nicht an."
+        )
     return p.stdout if binaer else p.stdout.decode("utf-8", "replace")
 
 
