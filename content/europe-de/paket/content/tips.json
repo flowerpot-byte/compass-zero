@@ -9315,7 +9315,7 @@
     },
     {
       "id": "taktisch-dokumente-sichern",
-      "title": "Dokumentenmappe: sieben Arten von Papier",
+      "title": "Dokumentenmappe: welche Papiere du griffbereit brauchst",
       "category": "taktisch",
       "group": "taktisch-vorher",
       "keywords": [
@@ -16430,6 +16430,388 @@
         }
       ],
       "situations": [
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-bodenkampf-grundpositionen",
+      "title": "Bodenkampf: die vier Grundpositionen",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "bodenkampf",
+        "grundposition",
+        "grundpositionen",
+        "guard",
+        "reitsitz",
+        "rückenkontrolle",
+        "seitenkontrolle",
+        "dominante position",
+        "am boden kämpfen",
+        "unten festgehalten",
+        "vorbeigehen an den beinen",
+        "gegner am boden kontrollieren",
+        "wer liegt oben"
+      ],
+      "body": "Dieser Tipp gehört zu derselben eng begrenzten Lage wie „Grundhaltung: Hände oben und offen“: Der Angriff läuft bereits, und Weglaufen ist gerade keine Option. Landet ein solcher Kampf am Boden — weil du geworfen wurdest, gestürzt bist oder dich absichtlich dorthin bewegt hast, um dich aus einem Würgegriff zu befreien, siehe „Würgegriff lösen: vorn, hinten, am Boden“ —, zählt laut einer US-Heeresvorschrift zum Nahkampf eines mehr als alles andere: die Position. Bevor irgendeine wirksame Technik überhaupt ansetzt, muss zuerst eine der vier Grundpositionen erreicht sein. Wer aus der falschen Position heraus etwas versucht, hat bei einem Fehlschlag meist verloren; wer aus einer guten Position heraus scheitert, versucht es einfach noch einmal.\n\nRÜCKENKONTROLLE, DIE STÄRKSTE POSITION. Du liegst hinter dem Gegner oder er auf dir, beide Beine um ihn geschlungen, die Fersen in seinen Kniekehlen eingehakt, ein Arm unter seiner Achsel hindurch, der andere um seinen Hals, beide Hände ineinander verschränkt. Aus dieser Position kann sich der Gegner kaum wehren oder etwas zurückschlagen. Die Quelle warnt ausdrücklich: die eigenen Füße dabei niemals kreuzen — das gibt dem Gegner die Gelegenheit, dir den Knöchel zu brechen.\n\nREITSITZ, DIE ZWEITSTÄRKSTE POSITION. Du sitzt rittlings auf dem Oberkörper des Gegners, die Knie so weit wie möglich in Richtung seiner Achseln geschoben. Von hier aus lassen sich Schläge landen, ohne dass wirkungsvolle Gegenschläge zurückkommen, und die Hebeltechniken aus „Hebel an Arm, Handgelenk und Schulter“ setzen genau hier an.\n\nGUARD, WENN DU UNTEN LIEGST. Landest du auf dem Rücken, ist der Guard die einzige Position, aus der heraus noch Verteidigung und Angriff möglich sind: Beide Beine um den Rücken des Gegners schließen und die Füße hinter ihm verschränken. Das verhindert, dass er einfach deine Knie herunterdrückt und darüber steigt. Aus dem Guard heraus lässt sich derselbe Armhebel ansetzen wie aus dem Reitsitz, siehe „Hebel an Arm, Handgelenk und Schulter“.\n\nSEITENKONTROLLE, HÄUFIG, ABER NICHT DOMINANT. Du liegst quer über dem Gegner, ein Ellbogen in der Kuhle zwischen seinem Kopf und seiner Schulter, die andere Hand flach auf dem Boden. Das dem Kopf des Gegners nähere Bein bleibt gestreckt, das andere angewinkelt mit dem Knie nah an seiner Hüfte. Wichtig: den eigenen Kopf tief halten, sonst trifft ihn ein Knie des Gegners.\n\nVORBEIGEHEN AN DEN BEINEN. Steckst du im Guard des Gegners fest — also zwischen seinen um dich geschlossenen Beinen —, kommst du von dort aus nicht direkt an ihn heran. Eine Möglichkeit laut derselben Vorschrift: seine Beine oberhalb der Knie fassen, einen Schritt zurücktreten und beide Knie kräftig nach unten drücken. Sobald sich der Griff seiner Beine löst, sofort mit beiden Beinen nach vorn in den Reitsitz springen.\n\nWIEDER AUFSTEHEN. Wie du dich sicher vom Boden erhebst, ohne die eigene Deckung aufzugeben, steht bereits vollständig in „Fallen ohne Verletzung, und sofort wieder hoch“ — hier nicht noch einmal wiederholt. Welche der folgenden Techniken aus einer dieser Positionen heraus überhaupt angemessen ist, hängt von der Lage ab, nicht von der Position allein: siehe dazu „Gewaltstufen: Kontrolle vor Schaden“ und „Notwehr: was das Gesetz erlaubt“.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 Combatives, US-Heer, 18.01.2002, Abschnitt 3-1 bis 3-4 „Dominant Body Position“ (Back Mount, Front Mount, Guard, Side Control, Figuren 3-1 bis 3-4) sowie Abschnitt 4-2.b „Push the Knees“ (vereinfachte Fassung von Vorbeigehen an den Beinen). Volltext gelesen am 20.08.2026, archive.org-Kennung milmanual-fm-3-25.150-combatives. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. §105)."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-wuergegriff-anwenden",
+      "title": "Würgegriff ansetzen: Wirkung und Zeit",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "würgegriff ansetzen",
+        "würgen",
+        "erwürgen",
+        "strangulieren",
+        "strangulation",
+        "halsschlagader",
+        "luftröhre zudrücken",
+        "kehlkopf drücken",
+        "gegner würgen",
+        "jemanden bewusstlos würgen",
+        "rear naked choke"
+      ],
+      "body": "Dieser Tipp beschreibt eine der wirksamsten und zugleich gefährlichsten Techniken in dieser ganzen Reihe. Lies zuerst „Notwehr: was das Gesetz erlaubt“ — was hier steht, darf nur so weit gehen, wie es tatsächlich nötig ist, um einen laufenden Angriff zu beenden, nicht weiter. Die Technik setzt außerdem eine gehaltene Position voraus, meist Rückenkontrolle oder Guard, siehe „Bodenkampf: die vier Grundpositionen“ — sie ist kein Mittel, um einen Streit zu eröffnen, sondern eines, um einen bereits laufenden Angriff zu beenden.\n\nDREI ARTEN, UND WIE SCHNELL SIE WIRKEN. Eine US-Heeresvorschrift zum Nahkampf unterscheidet ausdrücklich drei verschiedene Wirkweisen, mit unterschiedlicher Geschwindigkeit. ERSTENS, Druck auf die Luftröhre selbst, unterhalb des Kehlkopfs: Die Quelle nennt das eine der schnellsten und zugleich gefährlichsten Methoden überhaupt, weil sie die Luftröhre knicken kann. ZWEITENS, Druck auf den Knorpel der Luftröhre von außen, der die Atmung blockiert, ohne die Luftröhre selbst zu knicken: Bewusstlosigkeit kann laut Quelle innerhalb von ein bis zwei Minuten eintreten — bei einem kräftigen Gegner oder einem dicken Hals wirkt das aber oft nicht zuverlässig. DRITTENS, Druck auf die Halsschlagadern seitlich am Hals, der die Blutzufuhr zum Gehirn unterbricht: Das wirkt mit Abstand am schnellsten. Die Quelle nennt Bewusstlosigkeit innerhalb von drei bis acht Sekunden — und, hält der Druck an, den Tod innerhalb von dreißig bis vierzig Sekunden.\n\nWIE ANGESETZT, AUS DEN GRUNDPOSITIONEN HERAUS. Aus der Rückenkontrolle: den starken Arm um den Hals des Gegners und unter sein Kinn legen, dann den Bizeps des anderen Arms unter die haltende Hand schieben, die zweite Hand hinter seinen Kopf legen und den Griff schließen, indem du den Brustkorb weitest — das presst beide Unterarme gegen den Hals zusammen. Die Quelle nennt genau diesen Griff den wirksamsten Weg, einen Gegner kampfunfähig zu machen. Kommt dir stattdessen der Kopf des Gegners entgegen, etwa weil er sich nach vorn wirft: aus dem Guard heraus einen Arm um seinen Hals und unter sein Kinn legen, mit der anderen Hand den ersten Arm sichern, nach oben ziehen und gleichzeitig die eigenen Beine um seinen Rücken schließen, um mit der Hüfte gegenzudrücken.\n\nWANN LOSLASSEN. Ein Würgegriff hat gegenüber einem Schlag einen entscheidenden Unterschied: Er lässt sich in jedem Moment stoppen, während ein Schlag, sobald er trifft, nicht mehr zurückgeholt werden kann. Genau das verlangt das Gesetz auch: aufhören, sobald der Angriff vorbei ist, siehe „Notwehr: was das Gesetz erlaubt“. Wehrt sich der Gegner nicht mehr oder wird er bewusstlos, ist das der Moment zum Loslassen — nicht zum Weitermachen.\n\nWIRD JEMAND BEWUSSTLOS. Sobald jemand durch einen Würgegriff die Besinnung verliert — egal ob du selbst oder, nachdem sich die Lage gedreht hat, der Angreifer —, gilt ab diesem Moment das Vorgehen in „Bewusstlos: atmet oder atmet nicht“. Und wie schon in „Würgegriff lösen: vorn, hinten, am Boden“ festgehalten: Auch nach einem gelösten Würgegriff sollte jemand mit medizinischem Wissen später den Hals ansehen, sobald das wieder möglich ist.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 3-2 „Strangulation“ a bis c (Crushing, Respiratory und Sanguineous Strangulation, mit Zeitangaben bis Bewusstlosigkeit und Tod). Volltext gelesen am 20.08.2026, archive.org-Kennung CombativesFieldManualFM21150. Werk der US-Bundesregierung, gemeinfrei."
+        },
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 Combatives, US-Heer, 18.01.2002, Abschnitt 3-6.a „Rear Naked Choke“ (Figuren 3-36/3-37, aus der Rückenkontrolle) und 3-6.c „Front Guillotine Choke“ (Figuren 3-42 bis 3-44, aus dem Guard). Volltext gelesen am 20.08.2026, archive.org-Kennung milmanual-fm-3-25.150-combatives. Werk der US-Bundesregierung, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-gelenkhebel",
+      "title": "Hebel an Arm, Handgelenk und Schulter",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "gelenkhebel",
+        "armhebel",
+        "ellbogenhebel",
+        "schulterhebel",
+        "handgelenkhebel",
+        "arm verdrehen",
+        "arm brechen",
+        "gegner fixieren",
+        "kontrollgriff",
+        "hebeltechnik",
+        "gegner am boden festhalten"
+      ],
+      "body": "Auch diese Technik gehört zu den Mitteln, die dauerhaften Schaden anrichten können — lies vorher „Notwehr: was das Gesetz erlaubt“. Sie setzt eine gehaltene Position voraus, meist Reitsitz oder Guard, siehe „Bodenkampf: die vier Grundpositionen“. Eine US-Heeresvorschrift zum Nahkampf erklärt, warum gerade die großen Gelenke das Ziel sind: Ellbogen, Schulter und Knie tun bei den meisten Hebeln schon lange weh, bevor tatsächlich etwas reißt — das erlaubt, den Druck rechtzeitig zu spüren und aufzuhören, bevor Schaden entsteht. Eine ausdrückliche Ausnahme nennt dieselbe Quelle: Am Handgelenk und beim verdrehten Knie kommt der Schmerz zu spät, um noch zu warnen. Aus genau diesem Grund gehört zu diesem Tipp eine doppelte Vorsicht.\n\nARMHEBEL AM GESTRECKTEN ARM, GEGEN DEN ELLBOGEN. Aus dem Reitsitz: den Arm des Gegners am Handgelenk fassen, das eigene Bein über seinen Kopf schwingen, seinen Arm zwischen den eigenen Oberschenkeln einklemmen. Dann mit den Hüften nach oben drücken, während der Arm am Handgelenk nach unten gezogen wird — der Ellbogen wird dabei über das normale Bewegungsmaß hinaus gestreckt. Aus dem Guard heraus funktioniert derselbe Hebel, nur seitenverkehrt: den Arm oberhalb des Ellbogens sichern, die eigenen Beine über den Kopf des Gegners schwingen und mit den Hüften gegen den Ellbogen drücken. Die Quelle beschreibt das Ergebnis ohne Umschweife: Wird die Bewegung durchgezogen, bricht sie den Arm.\n\nSCHULTERHEBEL AM ANGEWINKELTEN ARM. Hier bleibt der Arm des Gegners angewinkelt statt gestreckt: seinen Ellbogen in die Kuhle zwischen Schlüsselbein und Kopf drücken, mit der anderen Hand unter seinem Arm hindurchgreifen und das eigene Handgelenk fassen. Hebst du dann seinen Ellbogen an, während die andere Hand nach unten geführt wird, dreht sich sein Arm gegen die Schulter. Auch hier ist die Quelle eindeutig über das Ergebnis, wenn durchgezogen wird: Es bricht den Arm an der Schulter.\n\nHANDGELENKHEBEL ALS KONTROLLGRIFF. Das Prinzip aus „Gepackt, gegriffen, umklammert: sich lösen“ — die Daumenlücke ist die schwache Seite jedes Griffs — lässt sich auch umgekehrt nutzen: Statt loszulassen, hältst du dabei fest und drehst weiter zur Daumenseite hin. Weil hier der Schmerz zu spät kommt, um zu warnen, ist dieser Griff nicht als Mittel gedacht, um bewusst etwas zu brechen, sondern nur, um jemanden für einen Moment festzuhalten oder von der Stelle zu bewegen.\n\nWANN NACHLASSEN. Genau wie beim Würgegriff wirkt ein Hebel schon durch den Schmerz, lange bevor überhaupt etwas bricht. Sobald der Gegner aufgibt, sich nicht mehr wehrt oder du dich lösen und weglaufen kannst, ist das der Moment zum Nachlassen — Weiterdrehen, obwohl der Widerstand vorbei ist, ist keine Notwehr mehr, siehe „Notwehr: was das Gesetz erlaubt“.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 Combatives, US-Heer, 18.01.2002, Abschnitt 1-4.e „Joint Locks“ (Schmerz vor Verletzung bei den meisten Gelenken, Ausnahme Handgelenk und verdrehtes Knie). Volltext gelesen am 20.08.2026, archive.org-Kennung milmanual-fm-3-25.150-combatives. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. §105)."
+        },
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 Combatives, Abschnitt 3-6.d „Bent Arm Bar from the Mount and Cross Mount“ (Schulterhebel, Figuren 3-45 bis 3-47) sowie 3-6.e/f „Straight Arm Bar from the Mount“/„from the Guard“ (Ellbogenhebel, Figuren 3-48 bis 3-56). Volltext gelesen am 20.08.2026, archive.org-Kennung milmanual-fm-3-25.150-combatives."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-wuerfe-zu-boden-bringen",
+      "title": "Würfe: einen Angreifer kontrolliert zu Boden bringen",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "wurf",
+        "würfe",
+        "hüftwurf",
+        "schulterwurf",
+        "werfen",
+        "zu boden werfen",
+        "zu boden bringen",
+        "angreifer werfen",
+        "niederwerfen",
+        "wurftechnik"
+      ],
+      "body": "Beide Würfe in diesem Tipp setzen laut einer US-Heeresvorschrift zum Nahkampf denselben Moment voraus: Der Angreifer schlägt gerade zu. Wie bei jeder Technik in dieser Reihe gilt: Wer sich lösen und weglaufen kann, tut das — ein Wurf ist für den Fall gedacht, dass das gerade nicht geht. Die Quelle betont außerdem, worauf es bei jedem Wurf ankommt: die eigene Balance während der ganzen Bewegung nicht zu verlieren.\n\nHÜFTWURF. Der Angreifer schlägt mit der rechten Faust. Du trittst mit dem linken Fuß nach vorn und blockst den Schlag mit dem linken Unterarm. Dann drehst du dich um 180 Grad auf dem Ballen deines vorderen Fußes, legst deinen rechten Arm um seine Hüfte und greifst seinen Gürtel oder seine Hose. Mit den Hüften stößt du dich in ihn hinein, hältst dabei seinen Ellbogen fest, streckst die Knie durch und ziehst ihn über deine Hüfte nach vorn zu Boden.\n\nSCHULTERWURF. Der Angreifer greift mit einem geraden Stoß an. Du blockst mit dem linken Unterarm, drehst dich um 180 Grad auf dem vorderen Fußballen und gehst mit deiner Schulter tief unter seine rechte Achsel. Von dort greifst du weit nach hinten seinen Kragen oder die Haare, hältst engen Körperkontakt und behältst mit der anderen Hand seinen Arm am Handgelenk oder Ärmel unter Kontrolle. Dann beugst du dich in der Hüfte nach vorn, hältst ihn eng am eigenen Körper, streckst die Knie durch und wirfst ihn über deine Schulter zu Boden.\n\nNACH DEM WURF. Die Quelle nennt als Möglichkeit, den am Boden liegenden Angreifer zusätzlich mit einem Tritt oder Stampfer außer Gefecht zu setzen. Genau hier verläuft die Grenze aus „Notwehr: was das Gesetz erlaubt“: Kann sich der Angreifer nach dem Wurf nicht mehr wehren oder ist der Abstand da, um wegzulaufen, ist der Moment für Notwehr vorbei — nicht der Moment, um nachzusetzen. Bleibt der Angreifer dagegen weiter am Boden ein Risiko, befindest du dich meist bereits in einer der Positionen aus „Bodenkampf: die vier Grundpositionen“ — von dort aus gelten die dort beschriebenen Techniken.\n\nWIRST DU SELBST GEWORFEN. Gerät ein Wurf schief oder wehrt sich der Angreifer erfolgreich dagegen, entscheidet in diesem Moment dieselbe Fallschule, die schon in „Fallen ohne Verletzung, und sofort wieder hoch“ beschrieben ist — nicht mit den Armen abfangen, sondern über die fleischigen Stellen des Körpers abrollen.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 3-1 „Throws and Takedowns“ (1) Hip Throw und (2) Over-the-Shoulder Throw (Figuren 3-1/3-2, jeweils als Konter gegen einen Fauststoß). Volltext gelesen am 20.08.2026, archive.org-Kennung CombativesFieldManualFM21150. Werk der US-Bundesregierung, gemeinfrei."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-schlaege-tritte-koerperwaffen",
+      "title": "Schläge und Tritte: die Waffen des Körpers",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "schläge",
+        "tritte",
+        "körperwaffen",
+        "faust",
+        "ellbogen schlagen",
+        "knie schlagen",
+        "hammerfaust",
+        "handkante",
+        "kniekick",
+        "kniebruch tritt",
+        "schläfe schlagen",
+        "hinterkopf schlagen",
+        "genick schlagen",
+        "kehle schlagen",
+        "halsschlagader schlag",
+        "tödlicher schlag",
+        "wohin schlagen mit kraft"
+      ],
+      "body": "Dieser Tipp baut auf „Trefferstellen ohne Kraft: nur um loszukommen“ auf und geht bewusst über dessen vier harmlose Ziele hinaus. Er beschreibt, was dieselbe US-Heeresvorschrift zum Nahkampf über die Werkzeuge des eigenen Körpers sagt — und über Ziele, die mehr bewirken als ein paar Sekunden Ablenkung, bis hin zu den Zielen, die die Quelle selbst ausdrücklich als möglicherweise tödlich bezeichnet. Lies vor allem Weiteren „Notwehr: was das Gesetz erlaubt“: Was hier steht, ist nur das mildeste Mittel, wenn es reicht, nicht das wirkungsvollste. Bei den vier harmlosen Zielen aus dem anderen Tipp bleiben, solange sie reichen — hierher erst wechseln, wenn wirklich nichts Leichteres mehr hilft.\n\nDIE WERKZEUGE DES KÖRPERS. Faust: Kraft kommt aus dem ganzen Körper in Bewegung, nicht aus dem Arm allein, gut geeignet für den Solarplexus. Handkante und Handballen: treffen mit der Handkante oder dem Handballen statt mit den Knöcheln, das schützt die eigene Hand vor Brüchen an harten Zielen wie dem Kiefer. Hammerfaust: die geschlossene Faust von der Seite oder von oben geführt, geeignet für Schläfe, Ohr oder Seite des Halses. Ellbogen: nach der Quelle eine der wirkungsvollsten Waffen überhaupt, solange er nah am eigenen Körper bleibt und in einer Linie mit der Schulter geführt wird — die Spitze des Ellbogens ist die Aufprallfläche. Knie: ebenso wirkungsvoll und schwer abzuwehren, die Spitze des Knies trifft, angetrieben aus der Hüfte. Tritte: Ein Tritt seitlich oder von vorn gegen das Knie des Angreifers kann laut Quelle das Kniegelenk brechen und den Angriff sofort stoppen; ein Fersentritt gegen die Innenseite des Oberschenkels oder die Leiste und ein Schienbeintritt gegen Wade oder Außenseite des Oberschenkels legen ein Bein für Sekunden lahm.\n\nZIELE, DIE MEHR BEWIRKEN ALS DIE VIER HARMLOSEN. Solarplexus: ein kräftiger Treffer nimmt für einen Moment die Luft und kann laut Quelle sogar Bewusstlosigkeit auslösen. Schwimmende Rippen: brechen leicht, weil sie nicht am Brustkorb befestigt sind, und können dabei die Lunge verletzen. Nieren: ein kräftiger Treffer kann einen Schock und innere Blutungen auslösen. Knie seitlich getroffen: kann auskugeln, weil es dann in eine Richtung belastet wird, für die es nicht gebaut ist. All das ordnet die Quelle selbst in dieselbe Kategorie ein wie die vier Ziele aus dem anderen Tipp: selten tödlich, aber stark schädigend — nur mit stärkerer und länger anhaltender Wirkung.\n\nZIELE, DIE DIE QUELLE SELBST ALS MÖGLICHERWEISE TÖDLICH NENNT. Das gehört zur vollständigen Quelle und wird hier nicht verschwiegen: Ein kräftiger Schlag gegen die Schädeldecke oder die Stirn kann laut Quelle eine Hirnblutung auslösen und zum Tod führen. Ein Treffer an der Schläfe kann die dort verlaufende Arterie reißen lassen, mit derselben Folge. Ein kräftiger Schlag gegen die Vorderseite des Halses kann die Luftröhre zerdrücken und dadurch tödlich enden. Ein Treffer seitlich am Hals gegen die Halsschlagader lässt einen Gegner nach Quelle oft sofort zusammenbrechen — schon ein schwächerer Treffer verursacht dort unwillkürliche Muskelkrämpfe und starken Schmerz. Und ein kräftiger Schlag gegen den Hinterkopf, die Schädelbasis oder die obersten Halswirbel kann laut Quelle einen Genickbruch und den Tod verursachen — je härter der Schlag, desto wahrscheinlicher dieser Ausgang, so die Quelle wörtlich.\n\nWARUM DAS HIER TROTZDEM STEHT, UND WAS DAS BEDEUTET. Diese App verschweigt keine Tatsache, nur weil sie unbequem ist — aber eine Tatsache ist kein Rat, sie loszuschlagen. Genau diese Ziele sind es, vor denen das Erforderlichkeits-Gebot aus „Notwehr: was das Gesetz erlaubt“ warnt: das schwerste Mittel zu wählen, wo ein leichteres gereicht hätte, ist strafbar, selbst in einer echten Notwehrlage. Diese Ziele gehören deshalb nur dorthin, wo tatsächlich Lebensgefahr besteht und nichts Leichteres mehr wirkt — nicht in jede Rangelei.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 4-1.a „Vital Targets, High Section“ (1)/(2)/(3)/(11)/(12)/(13), zu Schädeldecke, Stirn, Schläfe, Kehle, Seite und Rückseite des Halses, jeweils mit ausdrücklicher Todesfolge. Volltext gelesen am 20.08.2026, archive.org-Kennung CombativesFieldManualFM21150. Werk der US-Bundesregierung, gemeinfrei."
+        },
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, Abschnitt 4-1.b/c (Solarplexus, schwimmende Rippen, Nieren, Knie) sowie 4-3 „Short Punches and Strikes“ und 5-2 „Kicks“ (Faust, Handkante, Hammerfaust, Ellbogen, Knie, Tritte gegen Knie/Oberschenkel/Schienbein). Volltext gelesen am 20.08.2026, archive.org-Kennung CombativesFieldManualFM21150."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-gewaltstufen-einordnung",
+      "title": "Gewaltstufen: Kontrolle vor Schaden",
+      "category": "taktisch",
+      "group": "taktisch-grundsatz",
+      "keywords": [
+        "gewaltstufen",
+        "wie viel gewalt",
+        "eskalation nahkampf",
+        "verhältnismäßigkeit",
+        "mildestes mittel",
+        "kontrolle vor gewalt",
+        "wann welche technik",
+        "gewalt einordnen"
+      ],
+      "body": "Die Tipps zu Bodenkampf, Würgegriff, Hebeln, Würfen sowie Schlägen und Tritten beschreiben Mittel von sehr unterschiedlichem Gewicht. Das ist kein Zufall: Schon die US-Heeresvorschrift, aus der sie stammen, unterscheidet selbst zwischen Gewaltstufen und sagt, wovon die Wahl abhängt. Diese Einordnung gehört ebenso zur Quelle wie die Techniken selbst, deshalb steht sie hier eigens.\n\nWAS DIE QUELLE SELBST DAZU SAGT. Soldaten müssten darauf vorbereitet sein, unterschiedliche Gewaltstufen einzusetzen, weil sich eine Lage innerhalb weniger Stunden von gering zu hoch entwickeln könne, schreibt die Vorschrift einleitend. Viele Einsätze schränkten den Einsatz besonders schwerer Mittel sogar ausdrücklich ein. Im Kapitel zu mehreren Beteiligten unterscheidet sie ausdrücklich zwischen Lagen, in denen auch das schwerste Mittel zulässig ist, und Lagen, in denen bewusst eingeschränkt gilt — und sagt klar, wovon der Unterschied abhängt: von der Lage selbst, nicht von der Vorliebe des Einzelnen.\n\nKONTROLLE VOR ABSCHLUSS. Für den Fall, dass sich zwei Menschen tatsächlich am Boden gegenüberstehen, nennt dieselbe Vorschrift eine klare Reihenfolge: zuerst KONTROLLE — die Bewegung des Gegners einschränken, eine der Positionen aus „Bodenkampf: die vier Grundpositionen“ halten. Erst danach, wenn nötig, eine abschließende Technik. Und selbst dazu sagt die Vorschrift wörtlich, ausgerechnet als Kampfanleitung für Soldaten: Bei abschließenden Techniken solle ein sehr zurückhaltender Ansatz gewählt werden.\n\nWARUM WÜRGEGRIFF UND HEBEL ANDERS SIND ALS EIN SCHLAG. Ein Würgegriff oder ein Hebel lässt sich in jedem Moment stoppen — die Hand löst sich, der Druck lässt nach. Ein Schlag oder Tritt dagegen ist in der Sekunde, in der er trifft, bereits geschehen; er lässt sich nicht zurückholen. Das ist keine bloße Vorliebe der Vorschrift, sondern trifft sich genau mit dem, was das Gesetz von einer Notwehr-Handlung verlangt: das mildeste Mittel, das tatsächlich reicht, und aufhören in dem Moment, in dem es reicht. Ausführlich dazu: „Notwehr: was das Gesetz erlaubt“.\n\nWEGLAUFEN GEHT VOR. Auch das steht in derselben Vorschrift: Ist noch Abstand da, um zu entkommen, ist Entkommen die bessere Wahl als jede Technik in dieser Reihe. Genau das ist bereits der erste Gedanke in „Grundhaltung: Hände oben und offen“: Abstand und Deeskalation gehen jeder Technik vor, solange sie noch möglich sind.\n\nEIN WICHTIGER UNTERSCHIED. Diese Vorschrift ist für Soldaten im Gefecht geschrieben, nicht für eine Notwehrlage im Alltag. Was ein militärischer Einsatzbefehl erlaubt, ist nicht dasselbe wie das, was das Strafgesetz einem Einzelnen im Zivilleben erlaubt — die tatsächliche Grenze für dich ist nicht, was ein Vorgesetzter freigibt, sondern das, was in „Notwehr: was das Gesetz erlaubt“ steht. Die Reihenfolge oben — erst Kontrolle, dann zurückhaltend abschließen, und weglaufen immer zuerst — ist trotzdem ein brauchbarer Rahmen: Sie zwingt dazu, sich vor jeder Technik zu fragen, ob sie gerade wirklich nötig ist, und genau das verlangt auch das Gesetz.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 Combatives, US-Heer, 18.01.2002, Abschnitt 1-2 „Purposes of Combatives Training“ (unterschiedliche Gewaltstufen je nach Lage, teils eingeschränkter Einsatz schwerer Mittel). Volltext gelesen am 20.08.2026, archive.org-Kennung milmanual-fm-3-25.150-combatives. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. §105)."
+        },
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 Combatives, Kapitel 9 „Group Tactics“, Abschnitt 9-1 bis 9-3 (Range, Control, Finishing — zurückhaltender Ansatz bei abschließenden Techniken) sowie Section I/II (Lethal Force Scenarios / Restrictive Force Scenarios, je nach Lage). Volltext gelesen am 20.08.2026, archive.org-Kennung milmanual-fm-3-25.150-combatives."
+        }
+      ],
+      "situations": [
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-wuerge-takedown-hinten",
+      "title": "Würge-Takedown von hinten: endet mit Genickbruch",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "genickbruch",
+        "genick brechen",
+        "würge takedown",
+        "von hinten angreifen",
+        "hals brechen",
+        "rear strangle takedown",
+        "toedlichste technik",
+        "gegner töten",
+        "letzte stufe"
+      ],
+      "body": "Dies ist die schwerste Technik in dieser ganzen Reihe: Ihr Ziel laut Quelle ist der Tod des Gegners durch einen Genickbruch, nicht das Loskommen. Lies zwingend vorher „Notwehr: was das Gesetz erlaubt“ — bei keiner anderen Technik in diesem Paket ist die Hürde der Erforderlichkeit so hoch: Ein Mittel, das auf den Tod zielt, ist nur zulässig, wenn nichts Schwächeres den Angriff noch abwenden kann und der Angriff selbst lebensbedrohlich ist.\n\nEINE BESONDERHEIT DIESER TECHNIK, DIE HIER NICHT VERSCHWIEGEN WIRD. Anders als bei den übrigen Würfen in derselben Vorschrift — Hüftwurf und Schulterwurf setzen ausdrücklich einen Faustschlag des Gegners voraus, siehe „Würfe: einen Angreifer kontrolliert zu Boden bringen“ — beschreibt die Quelle diese Technik ohne eine solche Vorbedingung: Sie beginnt damit, dass der Verteidiger den Gegner von hinten angreift, nicht damit, dass der Gegner in diesem Moment zuschlägt oder würgt. Für die Notwehr-Frage ist das entscheidend: Notwehr setzt einen GEGENWÄRTIGEN Angriff voraus, siehe „Notwehr: was das Gesetz erlaubt“ — nicht einen früheren, nicht einen befürchteten. Wird jemand tatsächlich von hinten gewürgt, kann das in dem Moment, in dem gewürgt wird, mit den in „Würgegriff lösen: vorn, hinten, am Boden“ beschriebenen Mitteln beantwortet werden. Diese Technik hier — von hinten selbst zum Angreifer werden — ist mit einer Notwehrlage nur vereinbar, wenn der Angriff des Gegners in genau diesem Moment noch andauert und lebensbedrohlich ist, nicht danach und nicht vorsorglich.\n\nDIE TECHNIK, WIE DIE QUELLE SIE BESCHREIBT. Erster Schritt: ein Unterarmschlag von hinten gegen den Hals des Gegners, gegen die Halsschlagader. Zweiter Schritt: den rechten Arm um den Hals des Gegners legen, so dass Kehlkopf und Luftröhre in der Kuhle des eigenen Ellbogens eingeschlossen sind, mit der rechten Hand den eigenen linken Bizeps fassen und die linke Hand hinter seinen Kopf legen; dann den rechten Arm heranziehen und beugen, wodurch der Kopf des Gegners nach vorn gedrückt wird. Dritter und letzter Schritt: die eigenen Beine nach hinten wegschlagen, den Würgegriff am Hals halten und den Gegner nach hinten ziehen. Die Quelle beendet den Ablauf mit diesem einen Satz: Der Zug nach hinten hält an, bis dem Gegner das Genick bricht.\n\nWAS DAS BEDEUTET, UND WAS NICHT. Diese Technik gehört zum vollständigen Stoff der Quelle und wird deshalb hier nicht ausgelassen. Sie ist aber nicht dasselbe wie das Ausschalten eines nichts ahnenden Postens — dort greift niemand an. Hier tut er es, als Voraussetzung jeder Notwehr, gerade und lebensbedrohlich, und nichts Schwächeres reicht mehr. Diese doppelte Bedingung macht den ganzen Unterschied. Fehlt sie, ist das hier keine Notwehr mehr, sondern eine Straftat, siehe „Notwehr: was das Gesetz erlaubt“ und, zur Einordnung der Stufen insgesamt, „Gewaltstufen: Kontrolle vor Schaden“.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 3-1(5) „Rear Strangle Takedown“ (Figur 3-5, Schritte 1 bis 3, Abschluss ausdrücklich mit Genickbruch). Volltext gelesen am 20.08.2026, archive.org-Kennung CombativesFieldManualFM21150. Werk der US-Bundesregierung, gemeinfrei. In FM 3-25.150 keine entsprechende Technik gefunden."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-abstand-und-waffe",
+      "title": "Reichweite entscheidet fast immer",
+      "category": "taktisch",
+      "group": "taktisch-grundsatz",
+      "keywords": [
+        "waffe in der hand",
+        "bewaffneter angreifer",
+        "zehn fuss",
+        "drei meter",
+        "reaktionsabstand",
+        "letztes mittel",
+        "nicht auf die waffe starren"
+      ],
+      "body": "Die folgenden Einträge in diesem Paket handeln von einem Stock oder Stab in der Hand, von einem Messer, von der Entwaffnung eines Bewaffneten und von Dingen wie einem Spaten oder einem Riemen, die im Ernstfall zur Waffe werden können. Bevor irgendeine dieser Techniken zählt, zählt eine einzige Zahl: der Abstand. Eine US-Heeresvorschrift zum Nahkampf stellt sie an den Anfang des ganzen Kapitels über bewaffnete Gegner, und das aus gutem Grund.\n\nZWEI ZONEN, ZWEI ZAHLEN. Dieselbe Vorschrift beschreibt eine Zone um jeden Menschen, innerhalb derer noch Zeit bleibt, eine Bewegung zu erkennen und darauf zu reagieren. Gegenüber einem unbewaffneten Angreifer beträgt dieser Sicherheitsabstand im Schnitt etwa zwei Meter (sechs Fuß). Gegenüber einem Angreifer mit einer Waffe wächst dieselbe Zone auf mindestens drei Meter (zehn Fuß) plus die Länge der Waffe selbst. Ein Messer mit dreißig Zentimeter Klinge oder ein Stock verschiebt die sichere Grenze also noch einmal um genau diese Länge nach außen.\n\nWARUM DIESE ZAHL SO GROSS IST: Sie ist nicht die Reichweite der Waffe, sondern die Strecke, die ein Angreifer braucht, um von seinem jetzigen Stand aus zuzuschlagen, bevor der Verteidiger reagieren kann. Wer diesen Abstand hält oder sogar vergrößert, gewinnt genau die Sekunden, die jede der folgenden Techniken erst möglich machen. Wer ihn verliert, hat sie schon verloren, bevor die erste Bewegung beginnt.\n\nDIE VORSCHRIFT SAGT ES OHNE UMSCHWEIFE: Ein unbewaffneter Verteidiger ist einem bewaffneten Gegner immer im klaren Nachteil. Unbewaffnete Verteidigung gegen einen Bewaffneten soll deshalb nur das letzte Mittel sein, nicht die erste Wahl. Das gilt für jede Technik, die in den folgenden Einträgen beschrieben ist — sie sind für den Moment gedacht, in dem der Abstand schon weg ist und kein anderer Weg mehr bleibt.\n\nWAS SICH TUN LÄSST, WÄHREND DER ABSTAND NOCH DA IST: Die Vorschrift rät, feste Gegenstände zwischen sich und den Angreifer zu bringen — einen Tisch, ein Auto, eine Wand. Sie warnt außerdem davor, den Blick allein auf die Waffe zu richten: Der Angreifer hat auch Fäuste, Füße und Zähne, und es kann eine zweite Person geben, die man noch nicht gesehen hat.\n\nEINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Ohne Maßband hilft eine grobe Eselsbrücke mehr als die genaue Zahl — etwa drei große Schritte plus noch einmal die Länge des Gegenstands in der Hand des anderen. Wer weiter weggeht, verliert nie etwas. Wer näher herangeht, gibt genau das auf, was diesen Vorsprung ausmacht. Wie man sich schon früher, bevor überhaupt eine Waffe zu sehen ist, aus einer bedrohlichen Lage herauslöst, steht in „Der erste und wichtigste Schritt zurück“. Was danach an Recht und Grenze gilt, steht in „Notwehr: was das Gesetz erlaubt“ — beides bleibt auch dann wahr, wenn der Gegner eine Waffe trägt und nicht nur die eigenen Hände.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 (FM 21-150) Combatives, US-Heer, 18.01.2002, Abschnitt 8-3 „Defense Against an Armed Opponent“ (Trennungsabstand zehn Fuß plus Waffenlänge, letztes Mittel, bewegliche Deckung, Warnung vor weiteren Angreifern), wortgleich mit FM 21-150, 30.09.1992, Abschnitt 5-3. Volltext gelesen 20.08.2026, archive.org milmanual-fm-3-25.150-combatives. US-Bundeswerk, gemeinfrei."
+        },
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 6-2 „Bridging the Gap Between Ranges“ (Reaktionsabstand sechs Fuß gegen Unbewaffnete, zehn Fuß plus Waffenlänge gegen Bewaffnete). Dieser Abschnitt fehlt in der Fassung 2002. Volltext gelesen 20.08.2026, archive.org CombativesFieldManualFM21150. Gemeinfrei."
+        }
+      ],
+      "situations": [
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-stock-und-stab",
+      "title": "Stock und Stab: halten, schlagen, abwehren",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "stock verteidigung",
+        "stab verteidigung",
+        "knueppel",
+        "gehstock als waffe",
+        "wanderstock",
+        "besenstiel",
+        "stock schlagen",
+        "stock stechen",
+        "stock gegen messer",
+        "behelfswaffe stock"
+      ],
+      "body": "Ein Stock von etwa einem Meter Länge oder ein Stab von knapp zwei Metern lässt sich fast überall finden — ein Ast, ein Besenstiel, eine Zeltstange, ein Wanderstock. Eine US-Heeresvorschrift zum Nahkampf beschreibt beide als vollwertige Behelfswaffen. Sie gehören in dieselbe Reihe wie „Unbewaffnet gegen eine Waffe: entwaffnen als letzter Ausweg“ — auch wer einen Stock in der Hand hat, ist gegenüber einer echten Waffe nicht plötzlich im Vorteil, siehe „Reichweite entscheidet fast immer“.\n\nDER GRIFF BEIM KURZEN STOCK (ETWA EINEN METER). Die Vorschrift rät, den Stock nicht am äußersten Ende zu fassen, sondern ein Stück davor, in der V-förmigen Vertiefung zwischen Daumen und Zeigefinger — wie bei einem Handschlag. Beide Hände können ihn ebenso halten.\n\nDREI ARTEN ZU SCHLAGEN, UND WORAUF ES ANKOMMT: Nicht die Armkraft trägt den Schlag, sondern das eigene Körpergewicht, das dahintersteht. Die Vorschrift nennt drei Grundbewegungen. STOSSEN: der Stock wird mit beiden Händen gerade nach vorn getrieben, der ganze Körper folgt. SCHWINGEN: eine Hand führt den Stock in einer kreisenden Bewegung, auch hier trägt die Drehung des ganzen Körpers die Wucht. KURZE, HARTE STÖSSE: kein langer Schwung, sondern ein knapper, überraschender Treffer, wieder mit Gewicht hinter dem letzten Stück. Wirksam trifft in jedem Fall nur das letzte Stück des Stocks — die vorderen fünf Zentimeter tragen den eigentlichen Treffer.\n\nWOHIN: Gegen harte Stellen — Handgelenk, Hand, Knie und andere Knochen dicht unter der Haut — bricht ein Treffer leicht etwas. Gegen weiche Stellen — seitlich am Hals, die Kehlkopfgrube, den Solarplexus — wirkt ein Stoß mit der Spitze, nicht ein Schlag mit der Breitseite.\n\nDER LANGE STAB (ETWA ZWEI METER). Mopstiel, Zeltstange, ein zurechtgeschnittener Ast — seine Länge gibt einen Abstandsvorteil, den kein kurzer Gegenstand hat. Er verlangt dafür Bewegung mit dem ganzen Körper, nicht nur den Armen. Zwei Techniken: SCHWINGEN, wieder mit den letzten fünf Zentimetern als wirksamstem Punkt, und STOSSEN entlang der eigenen Achse, mit dem vollen Körpergewicht dahinter.\n\nGEGEN EINEN ANGRIFF MIT EINER KLINGE beschreibt die Vorschrift dasselbe Grundmuster wie bei der bloßen Hand: aus der Angriffslinie heraustreten, mit dem Stock den angreifenden Arm — Handgelenk oder Unterarm — nach unten abwehren, und erst danach mit der Spitze des Stocks nachsetzen. Die Vorschrift hält ausdrücklich fest, unter Anspannung seien kleine Ziele wie die Kehle schwer zu treffen — größere Ziele wie der Solarplexus oder die Hüfte träfen zuverlässiger. Das gilt genauso, wenn kein Training, sondern ein wirklicher Angriff vorliegt.\n\nWORUM ES DABEI GEHT, NICHT AUS DER QUELLE: Auch der Stock trifft am Ende dort, wo es lebensgefährlich sein kann, wenn ein Angriff so weit gekommen ist, dass nichts anderes mehr bleibt — die Quelle beschreibt ihn ausdrücklich als Waffe, die in echter Not tödlich wirken kann. Ziel bleibt trotzdem, sich Raum zu schaffen, nicht möglichst viel Schaden anzurichten. Sobald der Angreifer sich löst, gilt: weg, nicht weiterkämpfen — wie in „Trefferstellen ohne Kraft: nur um loszukommen“ beschrieben. Was danach an Recht gilt, steht in „Notwehr: was das Gesetz erlaubt“.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 (FM 21-150) Combatives, US-Heer, 18.01.2002, Abschnitt 7-7 „Three-Foot Stick“ (Griff, Stoßen/Schwingen/kurze Schläge, Ziele, gegen ein Messer) und Abschnitt 7-8 „Six-Foot Pole“ (Schwingen/Stoßen, Hinweis auf schwer zu treffende kleine Ziele unter Stress). Volltext gelesen 20.08.2026, archive.org milmanual-fm-3-25.150-combatives. Gemeinfrei."
+        },
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 5-12 „Three-Foot Stick“ und 5-14 „Six-Foot Pole“, wortgleicher Vorläufer der Fassung 2002. Volltext gelesen 20.08.2026, archive.org CombativesFieldManualFM21150. Gemeinfrei."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-messer-griff-abwehr",
+      "title": "Messer: Griff, Stand und Abwehr",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "messer",
+        "messerangriff",
+        "angreifer mit messer",
+        "bedroht mit messer",
+        "messer abwehr",
+        "messer griff",
+        "messerstich",
+        "messerschnitt",
+        "klinge",
+        "stichwaffe"
+      ],
+      "body": "Dieser Eintrag hat zwei Hälften, weil eine US-Heeresvorschrift zum Nahkampf beide zusammen behandelt: wie man selbst ein Messer sicher in der Hand hält, und wie man sich gegen ein Messer in der Hand eines anderen verteidigt. Was zuerst gilt, in beiden Fällen: der Abstand aus „Reichweite entscheidet fast immer“ — kein Griff und keine Abwehrbewegung ersetzt ihn, sie greifen erst, wenn er schon weg ist.\n\nDEN GRIFF HALTEN. Die Vorschrift nennt zwei Grundgriffe. GERADER GRIFF: das Messer liegt wie bei einem Handschlag in der V-förmigen Vertiefung zwischen Daumen und Zeigefinger, der Griff diagonal quer über der Handfläche, die Klinge zeigt nach vorn. Dieser Griff dient zum Stoßen und Schneiden. UMGEKEHRTER GRIFF: die Klinge liegt parallel zum eigenen Unterarm, die Schneide nach außen. Dieser Griff verdeckt das Messer vor fremdem Blick und gibt beim Stoßen die meiste Kraft.\n\nSTAND UND HALTUNG. Füße etwa schulterbreit, das stärkere Bein hinten, das Gewicht zu etwa zwei Dritteln auf dem vorderen Fuß, auf den Fußballen stehend. Die freie Hand bleibt dicht am eigenen Körper — griffbereit, aber geschützt, nicht ausgestreckt und offen für einen Treffer.\n\nWENN DIR EIN MESSER GEGENÜBERSTEHT, sagt dieselbe Vorschrift etwas sehr Nüchternes zuerst: Wer unbewaffnet einem Messer gegenübersteht, muss sich darauf einstellen, geschnitten zu werden. Das ist keine Übertreibung, sondern die Grundlage jeder Abwehrbewegung, die danach kommt — sie zielt nicht darauf, jeden Schnitt zu verhindern, sondern den schlimmsten. Ein Schnitt ist meist nicht lebensbedrohlich. Ein Stich dagegen kann innere Organe, Adern und Arterien treffen und sofort zu Schock oder Bewusstlosigkeit führen. Deshalb gilt: dem Stich auszuweichen ist wichtiger, als jeden Schnitt zu vermeiden.\n\nFÜNF ARTEN VON MESSERANGRIFFEN nennt die Vorschrift: der STOSS, gerade und stoßend, der häufigste und gefährlichste; der SCHNITT, ein ziehender Hieb, von einer feinen Linie bis zu einer tiefen Wunde; das ZIEHEN, ein reißender Schnitt, die Klingenspitze über den Körper gezogen; das HACKEN, mit der Klinge geschlagen wie mit einem stumpfen Gegenstand; und der SCHLAG MIT DEM GRIFF, ohne die Klinge selbst.\n\nDIE ABWEHRBEWEGUNG, DIE SICH DURCH ALLE FÄLLE ZIEHT: der Körper geht seitlich aus der Angriffslinie, nicht rückwärts. Der eigene Unterarm trifft und bremst den angreifenden Arm nahe dem Handgelenk, die zweite Hand folgt sofort nach, um den Messerarm zu übernehmen und zur eigenen Körperseite zu ziehen — je näher am eigenen Körper, desto mehr Kontrolle. Von dort geht es weiter wie in „Unbewaffnet gegen eine Waffe: entwaffnen als letzter Ausweg“ beschrieben.\n\nNACH EINEM SCHNITT ODER STICH: Blutung stillen und Schockzeichen prüfen — steht in „Blutung stillen“ und „Schock erkennen: blass, kalt, schneller Puls“. Was danach an Recht gilt, steht in „Notwehr: was das Gesetz erlaubt“.\n\nWAS DIESER TEXT BEWUSST NICHT ZEIGT, NICHT AUS DER QUELLE: Die Vorschrift beschreibt im Anschluss auch, wie zwei Bewaffnete mit dem Messer gegeneinander kämpfen — mit Schnitten auf Kehle, Achsel und Bauch, bis der Gegner kampfunfähig ist. Das gehört hier nicht hinein: Dieses Paket zeigt, wie man ein Messer sicher hält und sich gegen eines verteidigt, nicht, wie man mit einem Messer gezielt einen Menschen angreift.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 (FM 21-150) Combatives, US-Heer, 18.01.2002, Abschnitt 7-3 „Bayonet/Knife“ (Griffe, Stand, Reichweite) und Abschnitt 8-4 „Defense Against a Knife“ (Angriffsarten, Abwehr entlang der Angriffswinkel Nr. 1 bis 4). Volltext gelesen 20.08.2026, archive.org milmanual-fm-3-25.150-combatives. Gemeinfrei. Absichtlich ausgelassen: Abschnitt 7-4 „Knife-Against-Knife Sequence“."
+        },
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 5-8 „Bayonet/Knife“ und Abschnitt 5-5 „Defense Against a Knife“ (nennt zusätzlich den Angriff „Flick“, in der Fassung 2002 entfallen). Volltext gelesen 20.08.2026, archive.org CombativesFieldManualFM21150. Gemeinfrei."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-entwaffnen-letzter-ausweg",
+      "title": "Unbewaffnet gegen eine Waffe: entwaffnen als letzter Ausweg",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "entwaffnen",
+        "bewaffneter gegner",
+        "waffe abnehmen",
+        "unbewaffnet gegen waffe",
+        "waffe entreissen",
+        "letzter ausweg",
+        "gegner mit waffe",
+        "waffenarm kontrollieren"
+      ],
+      "body": "Dieser Eintrag beschreibt, was eine US-Heeresvorschrift zum Nahkampf für den Moment vorsieht, in dem der Abstand aus „Reichweite entscheidet fast immer“ schon weg ist und ein Bewaffneter direkt vor einem steht — egal ob mit einem Messer, einem Stock oder etwas anderem. Die Vorschrift beginnt mit einem Satz, der so wichtig ist, dass er hier stehen bleibt: Wer unbewaffnet einem Bewaffneten gegenübersteht, ist immer im klaren Nachteil. Unbewaffnete Verteidigung gegen einen Bewaffneten soll deshalb nur das letzte Mittel sein — nicht der erste Versuch, sondern das, was übrig bleibt, wenn nichts anderes mehr geht: nicht wegkommen, nicht ausweichen, kein Gegenstand als Behelfswaffe griffbereit.\n\nDIE FÜNF SCHRITTE, DIE DIE VORSCHRIFT NENNT, WENN ES SO WEIT IST:\n\n— DEN KÖRPER AUS DER ANGRIFFSLINIE BRINGEN. Zur Seite treten, nicht rückwärts — oder den Schlag so umlenken, dass er am eigenen Körper vorbeigeht, statt ihn frontal aufzuhalten.\n— DIE WAFFE UNTER KONTROLLE BRINGEN. Den angreifenden Arm an Hand, Handgelenk, Ellbogen oder Oberarm festhalten, wenn möglich mit einem Hebel am Gelenk.\n— DEN ANGREIFER MIT EINEM GEGENSCHLAG AUS DER BALANCE BRINGEN. Schnell und entschlossen, kein zögerlicher Versuch — ein unerwarteter, kraftvoller Tritt oder ein gebrochener Gelenkhebel nimmt dem Angriff die Wucht.\n— DEN ANGREIFER ZU BODEN BRINGEN, wenn möglich, weil sich von dort aus leichter weiter kontrollieren lässt.\n— DIE WAFFE ABNEHMEN. Über einen Hebel am Gelenk oder Schmerz die Hand zum Loslassen bringen.\n\nDIE VORSCHRIFT WARNT AUSDRÜCKLICH VOR ZWEI DINGEN DABEI. Erstens: nicht die ganze Aufmerksamkeit auf die Waffe richten — der Angreifer hat auch Fäuste, Füße und Zähne, und es kann eine zweite Person geben, die man noch nicht gesehen hat. Zweitens, und das steht schon oben: Das ist ein Vorgehen für den äußersten Notfall, kein Trick, den man einfach versucht, weil er hier beschrieben steht. Selbst mit jahrelangem Training bleibt der Unbewaffnete im Nachteil — ohne jedes Training ist das Risiko, dabei selbst schwer verletzt zu werden, größer, als es sich in Worten ausdrücken lässt.\n\nWAS AUS DER HAND WIRD, WENN DIE ENTWAFFNUNG GELINGT, IST NICHT DAS ZIEL. Die Vorschrift beschreibt den letzten Schritt auch als Möglichkeit, den Angreifer damit endgültig kampfunfähig zu machen. Für dieses Paket zählt nur der erste Teil davon: die Waffe aus der Hand bekommen und den Moment nutzen, um wegzukommen — wie in „Trefferstellen ohne Kraft: nur um loszukommen“ und „Fallen ohne Verletzung, und sofort wieder hoch“ beschrieben. Sobald die Waffe nicht mehr in der Hand des Angreifers ist, ist der Angriff im Sinne des Gesetzes vorbei — was das für die eigene Grenze bedeutet, steht in „Notwehr: was das Gesetz erlaubt“.\n\nFür Stock und Messer gilt dasselbe Grundmuster, nur mit eigenen Griffen und Zielen — siehe „Stock und Stab: halten, schlagen, abwehren“ und „Messer: Griff, Stand und Abwehr“.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 (FM 21-150) Combatives, US-Heer, 18.01.2002, Abschnitt 8-3.b „Unarmed Defense“ (fünf Schritte: Angriffslinie verlassen, Waffe kontrollieren, betäuben, zu Boden bringen, entwaffnen) und 8-3.c „Precaution“. Wortgleich mit FM 21-150, 30.09.1992, Abschnitt 5-3.b/c. Volltext gelesen 20.08.2026, archive.org milmanual-fm-3-25.150-combatives. Gemeinfrei."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
+        "lage-und-gefahr"
+      ]
+    },
+    {
+      "id": "taktisch-behelfsgegenstaende",
+      "title": "Spaten, Riemen, Helm: Schutz aus dem, was da ist",
+      "category": "taktisch",
+      "group": "taktisch-akut",
+      "keywords": [
+        "spaten verteidigung",
+        "klappspaten",
+        "riemen als waffe",
+        "guertel verteidigung",
+        "helm als schutz",
+        "behelfswaffe",
+        "werkzeug verteidigung",
+        "schild behelfsmaessig",
+        "rucksack als schutz",
+        "sand in die augen"
+      ],
+      "body": "Was gerade in Reichweite liegt, kann im Ernstfall mehr wert sein als leere Hände. Eine US-Heeresvorschrift zum Nahkampf zählt eine ganze Reihe von Alltagsgegenständen auf, die sich zur Not zur Verteidigung nutzen lassen: ein Klappspaten, ein Gürtel oder Schnürsenkel, ein harter Helm oder eine gepolsterte Jacke, sogar ein Kugelschreiber oder eine Feldflasche an einer Schnur. Der Grundgedanke dahinter steht in der Quelle klar: Was sich zur Waffe machen lässt, ist nur durch die eigene Einfallsgabe begrenzt.\n\nDER SPATEN. Fast jeder militärische Klappspaten lässt sich gerade ausgeklappt und arretiert oder mit der Schaufel im rechten Winkel zum Stiel verriegelt benutzen. Die Vorschrift beschreibt ihn als vollwertige Waffe: Die Schaufelkante fängt den angreifenden Arm ab und bremst ihn, der Griff schützt dabei die eigene Hand durch seine Form. In der abgewinkelten Stellung lässt sich mit der Kante zusätzlich ein Treffer auf den angreifenden Arm setzen, der ihn spürbar lähmt. EINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Die Vorschrift führt diese Bewegungen in ihren eigenen Beispielen bis zum tödlichen Treffer am Hals weiter, weil sie für Soldaten gegen einen Angreifer mit aufgepflanztem Bajonett geschrieben ist. Für dieses Paket zählt nur der erste Teil: den Arm abfangen, den Angriff stoppen, den Moment zum Wegkommen nutzen.\n\nDER RIEMEN. Ein Gürtel, ein zusammengerolltes Kleidungsstück, Schnürsenkel oder ein Tragriemen — straff zwischen beiden Händen gehalten, wird daraus fast ein kurzer Stock, mit dem sich ein Schlag abfangen oder ein angreifender Arm umschlingen lässt. Locker gehalten und dann mit einem scharfen Ruck der Hände auseinandergezogen, trifft er wie eine Peitsche. EINORDNUNG DIESES PAKETS, NICHT AUS DER QUELLE: Auch hier geht die Quelle weiter, bis hin zum Würgen um den Hals — das gehört in eine echte Lebensgefahr und nicht in eine allgemeine Beschreibung. Wer so weit gehen muss, findet die Grenzen dazu in „Notwehr: was das Gesetz erlaubt“.\n\nDER HELM UND ALLES, WAS SICH VORHALTEN LÄSST. Die Vorschrift nennt den eigenen Helm als Schild gegen eine Klinge, ebenso eine dicke Jacke oder eine Ausrüstung vor dem Körper. Was hart oder gepolstert ist und sich hochhalten lässt — ein Rucksack, ein zusammengefaltetes Buch, ein Kochtopf, eine Pfanne — kann denselben Dienst tun: einen Stich oder Schlag abfangen, bevor er den Körper trifft. Ausdrücklich genannt wird auch das Werfen von Sand, Erde oder Kies in die Augen des Angreifers, um ihn für einen Moment abzulenken — ein einfaches Mittel ohne jede Übung.\n\nIN JEDEM DIESER FÄLLE GILT DASSELBE WIE BEIM STOCK UND BEIM MESSER: Ziel ist, sich Raum zu schaffen und wegzukommen, nicht möglichst viel Schaden anzurichten. Was danach kommt, steht in „Unbewaffnet gegen eine Waffe: entwaffnen als letzter Ausweg“, „Trefferstellen ohne Kraft: nur um loszukommen“ und „Notwehr: was das Gesetz erlaubt“.",
+      "sources": [
+        {
+          "name": "US Army",
+          "detail": "FM 3-25.150 (FM 21-150) Combatives, US-Heer, 18.01.2002, Abschnitt 7-6 „Entrenching Tool“ und Abschnitt 8-3.d „Expedient Aids“ (Helm als Schild, Jacke/Ausrüstung als Schutz, Sand in die Augen). Volltext gelesen 20.08.2026, archive.org milmanual-fm-3-25.150-combatives. Gemeinfrei."
+        },
+        {
+          "name": "US Army",
+          "detail": "FM 21-150 Combatives, US-Heer, 30.09.1992, Abschnitt 5-13 „Three-Foot Rope“ (Gürtel/Schnürsenkel als Behelfswaffe, straff oder peitschenartig geführt, Umschlingen). Fehlt in der Fassung 2002. Volltext gelesen 20.08.2026, archive.org CombativesFieldManualFM21150. Gemeinfrei."
+        }
+      ],
+      "situations": [
+        "jetzt-sofort",
         "lage-und-gefahr"
       ]
     }

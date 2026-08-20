@@ -398,7 +398,31 @@ class EuropeDePaketTest {
         // (taktisch-trefferstellen-abstand).
         // 509 -> 510 am 20.08.2026: "Notwehr: was das Gesetz erlaubt"
         // (taktisch-notwehr-rechtslage).
-        assertEquals(510, pack.tips.size)
+        // 510 -> 511 am 20.08.2026: "Bodenkampf: die vier Grundpositionen"
+        // (taktisch-bodenkampf-grundpositionen).
+        // 511 -> 512 am 20.08.2026: "Wuergegriff ansetzen: Wirkung und Zeit"
+        // (taktisch-wuergegriff-anwenden).
+        // 512 -> 513 am 20.08.2026: "Hebel an Arm, Handgelenk und Schulter"
+        // (taktisch-gelenkhebel).
+        // 513 -> 514 am 20.08.2026: "Wuerfe: einen Angreifer kontrolliert zu Boden bringen"
+        // (taktisch-wuerfe-zu-boden-bringen).
+        // 514 -> 515 am 20.08.2026: "Schlaege und Tritte: die Waffen des Koerpers"
+        // (taktisch-schlaege-tritte-koerperwaffen).
+        // 515 -> 516 am 20.08.2026: "Gewaltstufen: Kontrolle vor Schaden"
+        // (taktisch-gewaltstufen-einordnung).
+        // 516 -> 517 am 20.08.2026: "Wuerge-Takedown von hinten: endet mit Genickbruch"
+        // (taktisch-wuerge-takedown-hinten).
+        // 517 -> 518 am 20.08.2026: "Abstand und Waffe: was fast immer entscheidet"
+        // (taktisch-abstand-und-waffe).
+        // 518 -> 519 am 20.08.2026: "Stock und Stab: halten, schlagen, abwehren"
+        // (taktisch-stock-und-stab).
+        // 519 -> 520 am 20.08.2026: "Messer: Griff, Stand und Abwehr"
+        // (taktisch-messer-griff-abwehr).
+        // 520 -> 521 am 20.08.2026: "Unbewaffnet gegen eine Waffe: entwaffnen als letzter Ausweg"
+        // (taktisch-entwaffnen-letzter-ausweg).
+        // 521 -> 522 am 20.08.2026: "Spaten, Riemen, Helm: Schutz aus dem, was da ist"
+        // (taktisch-behelfsgegenstaende).
+        assertEquals(522, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser
