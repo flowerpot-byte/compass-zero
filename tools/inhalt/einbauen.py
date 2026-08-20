@@ -36,6 +36,7 @@ Tipps. Was fehlte, war nicht Bequemlichkeit: Ein von Hand eingesetzter
 Quellennachweis war 537 Zeichen lang (erlaubt sind 500) und ist erst im
 Gradle-Lauf aufgefallen. Die Pruefungen hier gelten jetzt fuer alle drei Arten.
 """
+import datetime
 import io
 import json
 import re
@@ -350,7 +351,10 @@ def main():
     entwurf = json.load(io.open(sys.argv[1], encoding='utf-8'))
     nur_pruefen = '--pruefen-ohne-schreiben' in sys.argv
     art = entwurf.pop('art')
-    datum = entwurf.pop('datum', '11.08.2026')
+    # Ohne eigene Angabe gilt HEUTE. Vorher stand hier fest der 11.08.2026 --
+    # das Datum, an dem dieses Werkzeug entstand. Jeder seither eingebaute
+    # Eintrag bekam es still verpasst, und die Buchfuehrung im Test log.
+    datum = entwurf.pop('datum', datetime.date.today().strftime('%d.%m.%Y'))
 
     if art == 'gruppe':
         datei = entwurf.pop('datei')
