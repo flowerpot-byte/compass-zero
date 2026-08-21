@@ -368,6 +368,17 @@ dort eine Roestgrube, kein Portraet.
 
 ## Abgelehnt wegen fremdsprachigem Text, der Information traegt
 
+**werkzeug-laengen-ohne-zollstock** ("Laengen abnehmen und uebertragen ohne
+Zollstock") -- beide Abbildungen aus Daniel Carter Beard, "Shelters, Shacks,
+and Shanties" (1914), Fig. 180 und Fig. 49, geholt und geprueft. Der Zeichner
+hat die englischen Wortlabel ("Measuring Stick", "Rafter", "End Plate" u. a.)
+unmittelbar ENTLANG der gezeichneten Linien gesetzt; sie lassen sich nicht
+wegschneiden, ohne die Zeichnung nachzuziehen. Loudons einschlaegige Textstelle
+(Paragraf 2998 bis 3003) nennt als einzige Stelle der ganzen Quelle keine
+Figurnummer -- ein Hinweis darauf, dass es dort gar keine Abbildung gibt.
+*Brauchbar waere:* dieselbe Darstellung in einer Quelle ohne eingebaute
+Wortlabel.
+
 **werkzeug-verbogen-richten** ("verschlagener Kopf", Schritt ZURUECKSCHLEIFEN)
 -- TM 9-867, Seite 35, Figur "MUSHROOMED HEAD" (RA PD 87252): zeigt genau das
 gesuchte Vorher/Nachher (Kopf verschlagen, gestrichelte Linie zeigt die
@@ -958,6 +969,32 @@ beim Füttern eines Lamms oder Zickleins zeigt, oder eine Zeichnung des
 Fell-Tricks beim Unterschieben bei einer Amme -- in keiner der geprüften
 Quellen in brauchbarer Bildqualität und ohne störende Überlagerung
 vorhanden.
+
+## Bewusst ohne Bild: Kapitel, die vom Abwaegen handeln
+
+Diese drei Kapitel bleiben ohne Abbildung, und das ist eine Entscheidung, keine
+Luecke. Sie stellen Gruende gegeneinander, statt einen Gegenstand oder einen
+Handgriff zu beschreiben -- und dafuer ist Fliesstext das bessere Mittel als
+ein Schaubild, das Genauigkeit vortaeuschen wuerde, wo die Quellen keine haben.
+
+- **agrikultur-auswahl-womit-anfangen** ("Was zuerst anbauen, wenn Flaeche und
+  Kraft knapp sind")
+- **agrikultur-ausfallsicherheit-vergleich** ("Ausfallsicherheit vergleichen")
+  -- ueberwiegend Aussagen in Worten ("robust", "verwundbar"); die einzige
+  harte Zahl ist die Pfirsich-Angabe "drei von fuenf Jahren". Aus einem
+  Zahlenwert und fuenf Einschaetzungen ein Balkenbild zu bauen, hiesse fuenf
+  Schaetzungen als Messwerte zeichnen.
+- **agrikultur-werkzeug-arbeit-vergleich** ("Arbeit und Werkzeug")
+
+**Womit sie ein Bild bekaemen:** wenn eine Quelle dazu belastbare Zahlen
+liefert -- Ertrag je Flaeche, Arbeitsstunden je Beet, Ausfallhaeufigkeit ueber
+Jahre. Die bisher gelesenen tun das nicht, und das Paket rechnet solche Zahlen
+ausdruecklich nicht selbst aus (siehe den Abschnitt "Warum hier keine Kalorien
+je Quadratmeter stehen" im Kapitel zu Kalorien und Eiweiss).
+
+Zum Vergleich: Wo die Zahlen DA sind, hat dieses Paket sehr wohl gezeichnet --
+Naehrwerte, Wartezeiten bis zur ersten Ernte, Heustapel, das Dreieck 3-4-5 und
+die drei Stapelformen fuer Brennholz sind alle eigene Blaetter.
 
 ## Ersatzquelle statt Fehlanzeige gefunden
 
