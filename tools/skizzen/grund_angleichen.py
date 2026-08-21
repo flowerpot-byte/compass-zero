@@ -10,11 +10,18 @@ Helligkeitswert um einen Betrag angehoben, der beim Papierton voll wirkt und
 zur Tinte hin auf null auslaeuft. Dunkle Linien bleiben also, wo sie sind,
 feine Schraffuren behalten ihren Abstand zum Papier.
 
-WARUM DIE BEREICHE VON HAND KOMMEN: Eine erste Fassung suchte sie selbst und
-griff dabei auch nach dem Kasten der Fusszeile -- einem Gestaltungselement,
-das genau denselben Grauton hat. Ein Werkzeug, das die Gestaltung verstellt,
-ist schlimmer als der Fehler, den es beheben soll. Die Bereiche misst man mit
-einem Blick auf das Blatt; raten muss hier niemand.
+WARUM DIE BEREICHE VON HAND KOMMEN: Zweimal versucht, sie selbst zu finden,
+zweimal danebengegriffen. Der erste Anlauf nahm den Kasten der Fusszeile mit
+-- ein Gestaltungselement mit genau demselben Grauton. Der zweite bekam die
+Fusszeile in den Griff, zog die Grenzen aber bis in die Beschriftung hinein,
+weil deren Kantenglaettung dieselben Grauwerte hat; danach lag im Bereich
+mehr Blattgrund als Scan-Papier, und angehoben wurde am Ende gar nichts.
+
+Beides ist schlimmer als die zwei Zahlen, die man von Hand hinschreibt: Das
+eine verstellt die Gestaltung, das andere tut still nichts und sieht dabei
+aus, als haette es gearbeitet. Wer es doch noch einmal versuchen will, muss
+Scan-Papier von Kantenglaettung unterscheiden koennen -- ueber die Flaeche
+zusammenhaengender Bereiche, nicht ueber den Grauwert allein.
 
 Aufruf:
   python tools/skizzen/grund_angleichen.py <blatt.png> <ziel.png> x0,y0,x1,y1 [...]
@@ -132,10 +139,13 @@ def main():
     px = bild.load()
     grund = blattgrund(bild)
     print("Blattgrund: %d" % grund)
+    bereiche = []
     for angabe in sys.argv[3:]:
-        kasten = tuple(int(t) for t in angabe.split(","))
-        if len(kasten) != 4:
+        teile = tuple(int(t) for t in angabe.split(","))
+        if len(teile) != 4:
             raise SystemExit("Bereich braucht vier Zahlen: x0,y0,x1,y1")
+        bereiche.append(teile)
+    for kasten in bereiche:
         papier = papierton(px, kasten)
         n = anheben(px, kasten, papier, grund)
         print("   %s  Papier %d -> %d, %d Pixel angehoben"

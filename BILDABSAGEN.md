@@ -43,21 +43,48 @@ passende Figur traegt "(adapted from H. C. Wilkie)".
 inhaltlich besser gewesen als die verwendete Figur 5, traegt aber ein
 handgezeichnetes Monogramm unter der Zeichnung.
 
+**agrikultur-milben-laeuse** ("Milben und Läuse am Huhn erkennen und
+loswerden") -- einzige Quelle USDA Farmers' Bulletin 801, "Mites and Lice on
+Poultry" (Bishopp/Wood, rev. 1939), alle 29 Seiten als Bild gerendert und
+einzeln angesehen, nicht nur der OCR-Text. Die sechs inhaltlich besten
+Kandidaten -- Figur 8 (Kopflaus-Eier am Federchen), Figur 9 (Kopflaus,
+Männchen), Figur 10/11 (Körperlaus Männchen/Weibchen) und vor allem Figur 12
+("Mass of body-louse eggs attached to feather", passt genau zum Text: Eier
+haengen in Klumpen am Federansatz unterhalb der Kloake) sowie Figur 13
+(Schaftlaus) -- tragen ALLE am rechten unteren Bildrand dasselbe
+handgezeichnete Monogramm des Zeichners (erst beim Heranzoomen der Bildecke
+sichtbar, in der Bildunterschrift selbst nicht erwaehnt). Figur 14 (Große
+Hühnerlaus) und Figur 15 (Große Putenlaus) tragen zusaetzlich den gedruckten
+Zusatz "(Herrick)" in der Unterschrift -- derselbe Fall wie das bereits an
+anderer Stelle dieser Liste dokumentierte "(After Herrick)". Figur 6 (Foto
+ausgerupfter Federn vor schwarzem Grund, "infested with the feather mite")
+zeigt den behaupteten schmutzigen Befall auf dem Scan nicht überzeugend, ohne
+Vergleich zu sauberen Federn oder Bezug zur Koerperstelle. Figur 7 (Mann
+taucht die Fuesse eines Huhns in ein Gefaess) faellt unter die
+Portraetfoto-Regel und zeigt ausserdem Behandlung statt Erkennen. Figur 4
+(Sitzstangen-Bauplan) und Figur 5 (Nestboxen) zeigen Stallbau, nicht das
+Erkennen. Zum Erntemilben-Abschnitt gibt es keine Abbildung. Figuren 1-3
+(Rote Milbe) sind fachlich ausserhalb dieses Eintrags, weil die Rote Milbe
+laut Einleitung des Eintrags bereits im Kapitel "Hühner halten" behandelt
+wird.
+*Brauchbar waere:* Figur 12 (Eiklumpen der Körperlaus am Federansatz) oder
+eine gleichwertige unsignierte Abbildung, die zeigt, wo die Milben/Läuse
+sitzen oder wie die Arten sich unterscheiden.
+
 ## Zurueckgestellt, nicht verworfen
 
 **werkzeug-waagerecht-senkrecht** ("Der rechte Winkel: das Dreieck mit festem
-Seitenverhaeltnis") -- Ausschnitt aus USDA Farmers' Bulletin 1480 (1926),
-Fig. 1, S. 9. Rechte und Beschriftung in Ordnung, Zoll-Masze sauber
-umgerechnet. Trotzdem raus: Der Ausschnitt zeigt zwei dicke Fluchtlinien, drei
-lose Buchstaben und die handgeschriebenen Masze der Quelle durcheinander. Wer
-das Dreieck 3-4-5 noch nicht kennt, versteht es hier nicht -- und wer es kennt,
-braucht kein Bild.
-*Brauchbar waere hier ausnahmsweise kein Stich, sondern ein selbst
-gezeichnetes Schema* (`tools/skizzen/schema_zeichnen.py`): drei Seiten, drei
-Maszahlen, ein rechter Winkel. Reine Geometrie ist nichts, was aus einer
-Quelle stammen muesste.
-
-
+Seitenverhaeltnis") -- ERLEDIGT, aber nicht mit einem Stich. Der Ausschnitt aus
+USDA Farmers' Bulletin 1480 (1926), Fig. 1, war rechtlich einwandfrei und
+sauber umgerechnet, zeigte aber zwei dicke Fluchtlinien, drei lose Buchstaben
+und die handgeschriebenen Masze der Quelle durcheinander -- wer das Dreieck
+3-4-5 noch nicht kennt, versteht es dort nicht. Stattdessen als eigenes Schema
+gezeichnet (`tools/skizzen/schema_zeichnen.py dreieck345`). Reine Geometrie
+muss aus keiner Quelle stammen; das Verfahren wird belegt, die Zeichnung ist
+unsere.
+**Merksatz daraus:** Bevor ein Stich gesucht wird, kurz fragen, ob der Inhalt
+ueberhaupt gegenstaendlich ist. Winkel, Abstaende und Verhaeltnisse sind es
+nicht.
 
 **werkstoffe-gerben-ohne-rinde** ("Die Werkzeuge, und woraus sie sein
 koennen") -- Schaber und Blackfoot-Flescher nach Clark Wissler, "Material
@@ -196,3 +223,31 @@ aber als Foto einer einzelnen, im Bild nicht genannten Frau -- passt nicht in
 ein Paket aus Stichzeichnungen von Gegenstaenden, keine Portraetfotos realer
 Personen. *Brauchbar waere:* eine reine Konstruktionszeichnung des
 Rauchgestells ohne Person darin.
+
+**agrikultur-dreschen-worfeln** ("Dreschen und Worfeln: von der Garbe zum
+sauberen Korn") -- beide zugewiesenen Quellen geprueft, keine Abbildung vom
+Dreschflegel oder vom Worfeln:
+- USDA Farmers' Bulletin No. 756, "Culture of Rye in the Eastern Half of the
+  United States" (Leighty, 1916/1917, archive.org `CAT87202405`, alle 7
+  Abbildungen gesichtet). Die einzige inhaltlich nahe Figur ist Fig. 7,
+  Seite 15 ("A thrashing machine constructed to thrash rye without breaking
+  or twisting the straw") -- zeigt aber die im Text erwaehnte MASCHINE
+  ("Beater"), nicht den Dreschflegel, und der Text selbst sagt ausdruecklich,
+  dass es zum Dreschflegel nur einen Satz und keine Abbildung gibt. Die volle
+  Bildunterschrift (erst ohne den `_x1400`-Zuschnitt lesbar) traegt zudem
+  einen eigenen Fotografennachweis: "Photographed by H. B. Derr." -- damit
+  waere sie auch unabhaengig vom Inhalt an Stufe (b) gescheitert.
+- USDA Farmers' Bulletin No. 2145, "Growing Rye" (Briggle, 1959, archive.org
+  `CAT87205229`). Der Abschnitt "Harvesting" (Seite 11) behandelt
+  ausschliesslich Maehdrescher und Bindemaschine; die einzige Abbildung dort
+  ("Plowing under rye for green manure", Bildcode TENN-03-290) zeigt einen
+  Traktor beim Unterpfluegen als Gruenduengung -- weder zum Dreschen noch
+  zum Worfeln passend.
+
+Beide Hefte sind fuer Hoefe mit Maschinen geschrieben; das deckt sich mit dem,
+was der Eintragstext selbst unter "Was diese Quellen nicht hergeben" schon
+einraeumt.
+*Brauchbar waere:* eine Zeichnung oder ein firmen-/fotografenfreies Foto, das
+die Haltung und Bewegung beim Schwingen des Dreschflegels zeigt, oder eines,
+das den Wind-/Wurfweg beim Worfeln zeigt (Korn faellt senkrecht, Spreu wird
+seitlich weggetragen).

@@ -364,7 +364,74 @@ def zielmarken(ziel):
     return bild.size
 
 
-FIGUREN = {'zielmarken': zielmarken, 'hoehenlinien': hoehenlinien, 'versatz': versatz, 'hindernis': hindernis, 'kreuzpeilung': kreuzpeilung}
+
+
+def dreieck345(ziel):
+    """Der rechte Winkel ueber das Seitenverhaeltnis 3-4-5."""
+    bild, z = blatt(1100, 800)
+    klein = schrift(17)
+    E = 4 * 110                       # vier Teile waagerecht
+    A = (330, 560)                    # die Ecke, die geprueft wird
+    B = (A[0] + E, A[1])              # vier Teile in die eine Richtung
+    C = (A[0], A[1] - 3 * 110)        # drei Teile in die andere
+
+    # Die beiden Schenkel laufen ueber die Marken hinaus weiter: Geprueft
+    # wird die Ecke eines Bauwerks, nicht ein freistehendes Dreieck.
+    for x in range(B[0], B[0] + 90, 22):
+        z.line([(x, A[1]), (x + 11, A[1])], fill=HILFE, width=3)
+    for y in range(C[1] - 90, C[1], 22):
+        z.line([(A[0], y), (A[0], y + 11)], fill=HILFE, width=3)
+
+    z.line([A, B], fill=TINTE, width=5)
+    z.line([A, C], fill=TINTE, width=5)
+    z.line([B, C], fill=WEG, width=5)
+
+    # Das Winkelzeichen in der Ecke.
+    z.rectangle([(A[0], A[1] - 30), (A[0] + 30, A[1])], outline=TINTE, width=3)
+
+    # Die drei Marken.
+    for punkt in (A, B, C):
+        z.ellipse([(punkt[0] - 8, punkt[1] - 8), (punkt[0] + 8, punkt[1] + 8)],
+                  fill=TINTE)
+    z.text((A[0] - 18, A[1] + 16), "die Ecke", font=schrift(19, True),
+           fill=TINTE, anchor="ra")
+
+    # Die drei Seiten, jeweils ausserhalb des Dreiecks beschriftet.
+    z.text(((A[0] + B[0]) // 2, A[1] + 26), "4 Teile", font=schrift(21, True),
+           fill=TINTE, anchor="ma")
+    z.text(((A[0] + B[0]) // 2, A[1] + 54), "in der Quelle 8 Fuß = 2,44 m",
+           font=klein, fill=LEISE, anchor="ma")
+
+    z.text((A[0] - 26, (A[1] + C[1]) // 2 - 12), "3 Teile", font=schrift(21, True),
+           fill=TINTE, anchor="rm")
+    z.text((A[0] - 26, (A[1] + C[1]) // 2 + 14), "in der Quelle 6 Fuß = 1,83 m",
+           font=klein, fill=LEISE, anchor="rm")
+
+    mitte = ((B[0] + C[0]) // 2, (B[1] + C[1]) // 2)
+    z.line([(mitte[0] + 14, mitte[1] - 14), (mitte[0] + 120, mitte[1] - 76)],
+           fill=WEG, width=2)
+    z.text((mitte[0] + 130, mitte[1] - 92), "5 Teile", font=schrift(21, True), fill=WEG)
+    z.text((mitte[0] + 130, mitte[1] - 64), "in der Quelle 10 Fuß = 3,05 m",
+           font=klein, fill=WEG)
+    z.text((mitte[0] + 130, mitte[1] - 38), "Stimmt dieses Maß, ist die",
+           font=klein, fill=WEG)
+    z.text((mitte[0] + 130, mitte[1] - 16), "Ecke rechtwinklig.", font=klein, fill=WEG)
+
+    z.text((550, 640), "Ein Teil ist frei wählbar, solange es für alle drei Seiten "
+                       "dasselbe ist:", font=schrift(19, True), fill=TINTE, anchor="ma")
+    z.text((550, 670), "30-40-50 cm  ·  60-80-100 cm  ·  3-4-5 m. Je größer das "
+                       "Dreieck, desto genauer.", font=klein, fill=LEISE, anchor="ma")
+
+    rahmen(z, bild, "Der rechte Winkel ohne Winkelmesser",
+           "drei Längen im Verhältnis 3 zu 4 zu 5 — mehr braucht es nicht",
+           "3x3 + 4x4 = 5x5, also 9 + 16 = 25",
+           "Verfahren nach M. C. Betts und T. A. H. Miller, USDA Farmers' Bulletin 1480 "
+           "(1926), Seite 9 -- Zeichnung neu gesetzt, siehe Werkzeugkommentar")
+    bild.save(ziel)
+    return bild.size
+
+
+FIGUREN = {'zielmarken': zielmarken, 'hoehenlinien': hoehenlinien, 'versatz': versatz, 'hindernis': hindernis, 'kreuzpeilung': kreuzpeilung, 'dreieck345': dreieck345}
 
 if __name__ == '__main__':
     if len(sys.argv) < 3 or sys.argv[1] not in FIGUREN:
