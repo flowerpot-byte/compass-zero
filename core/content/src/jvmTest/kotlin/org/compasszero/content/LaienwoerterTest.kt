@@ -498,4 +498,27 @@ class LaienwoerterTest {
         fuehrtAuf(index, "gerben", "agrikultur-gerben")
         fuehrtAuf(index, "garn", "agrikultur-garn-machen")
     }
+
+    // Sieben Bauanleitungen fuehren eine Wasserwaage in ihrer Werkzeugliste,
+    // ohne im Text zu sagen, was man ohne sie tut: Stampflehmwand,
+    // Feldsteinmauer, Schornstein, Wasserrad, Brunnen, Pumpe, Tisch und Bank.
+    // Im SNAPSHOT stand das als offene Luecke ("Offen: Wasserwaage (7)").
+    //
+    // Sie ist KEINE Luecke: "Waagerecht und senkrecht pruefen ohne gekauftes
+    // Werkzeug" gibt es, und die Suche fuehrt von jedem naheliegenden Wort
+    // dorthin -- gemessen am 21.08.2026. Damit ist der Weg von der
+    // Bauanleitung zur Ersatzloesung die SUCHE, nicht ein Satz im Text. Genau
+    // deshalb stehen die Wege hier: Wer den Titel dieser Anleitung aendert,
+    // kappt die Verbindung fuer alle sieben auf einmal, ohne dass ein
+    // Querverweis kaputtgeht -- es gibt naemlich keinen.
+    @Test
+    fun ohneWasserwaageFuehrtJedesWortZurErsatzanleitung() {
+        val index = index()
+        fuehrtAuf(index, "wasserwaage", "werkzeug-waagerecht-senkrecht")
+        fuehrtAuf(index, "waagerecht", "werkzeug-waagerecht-senkrecht")
+        fuehrtAuf(index, "senkrecht", "werkzeug-waagerecht-senkrecht")
+        fuehrtAuf(index, "senklot", "werkzeug-waagerecht-senkrecht")
+        fuehrtAuf(index, "schlauchwaage", "werkzeug-waagerecht-senkrecht")
+        fuehrtAuf(index, "rechter winkel", "werkzeug-waagerecht-senkrecht")
+    }
 }
