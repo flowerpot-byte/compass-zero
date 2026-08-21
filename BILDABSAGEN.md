@@ -13,6 +13,13 @@ Die Regeln selbst gehoeren nicht hierher -- die Rechtepruefung in zwei Stufen
 der Umgang mit Signaturen und der mit fremdsprachigem Text im Bild. Hier steht
 nur, was ihre Anwendung im Einzelfall ergeben hat.
 
+**Wie diese Liste zu lesen ist:** Jeder Eintrag ist eine Aussage ueber eine
+QUELLE, nicht ueber den Eintrag im Paket. Ein Kapitel kann hier stehen und
+trotzdem ein Bild haben -- aus einer anderen Quelle oder aus einer eigenen
+Zeichnung. Ob es eines hat, steht im Paket selbst, nicht hier. Wer eine
+Ersatzloesung findet, schreibt sie in denselben Eintrag dazu, statt einen
+neuen anzulegen.
+
 ---
 
 ## Abgelehnt, weil die Rechte nicht reichen
@@ -211,6 +218,9 @@ Abbildung.
 Sitz des Hammerstiels, in einer anderen Quelle als TM 9-867 -- innerhalb
 dieses Eintrags aber nicht zulässig, weil die zitierten Abschnitte keine
 liefern.
+ERSATZ GEFUNDEN: Der Schritt traegt inzwischen die Figur zu Teilschritt 9
+derselben Quelle (Seite 49, RA PD 87279) -- die Keile beim Eintreiben in den
+Stiel. Sie zeigt nicht Falsch gegen Richtig, aber den Handgriff selbst.
 
 **werkzeug-griff-hammer-meissel-feile** ("Meißel: Griff wechseln", Abschnitt
 zur Dülle des Tischlermeißels) -- der Abschnitt "REPLACING HANDLE
