@@ -585,7 +585,81 @@ def wartezeiten(ziel):
     return bild.size
 
 
-FIGUREN = {'zielmarken': zielmarken, 'hoehenlinien': hoehenlinien, 'versatz': versatz, 'hindernis': hindernis, 'kreuzpeilung': kreuzpeilung, 'dreieck345': dreieck345, 'naehrwerte': naehrwerte, 'wartezeiten': wartezeiten}
+
+
+def heustapel(ziel):
+    """Die drei Masze am Heustapel: Ueberwurf, Breite, Laenge."""
+    bild, z = blatt(1250, 820)
+    klein = schrift(16)
+
+    # LINKS: der Stapel von der Seite. Der Ueberwurf ist der Weg, den ein
+    # Massband nimmt -- er laesst sich in Worten kaum vorstellen, deshalb
+    # ueberhaupt dieses Blatt.
+    CX, BODEN, RX, RY = 370, 480, 155, 175
+    umriss = []
+    for grad in range(0, 181, 4):
+        w = math.radians(grad)
+        umriss.append((CX + RX * math.cos(w), BODEN - RY * math.sin(w)))
+    z.polygon(umriss + [(CX + RX, BODEN), (CX - RX, BODEN)], fill=(233, 228, 216),
+              outline=TINTE)
+    for i in range(0, len(umriss) - 1):
+        z.line([umriss[i], umriss[i + 1]], fill=TINTE, width=3)
+    z.line([(CX - RX, BODEN), (CX + RX, BODEN)], fill=TINTE, width=3)
+    z.line([(CX - RX - 90, BODEN), (CX + RX + 90, BODEN)], fill=HILFE, width=2)
+
+    # Das Massband: derselbe Bogen, nur weiter aussen.
+    band = []
+    for grad in range(0, 181, 4):
+        w = math.radians(grad)
+        band.append((CX + (RX + 26) * math.cos(w), BODEN - (RY + 26) * math.sin(w)))
+    for i in range(0, len(band) - 1, 2):
+        z.line([band[i], band[i + 1]], fill=WEG, width=4)
+    pfeil(z, band[3], (CX + RX + 26, BODEN + 4), WEG, breite=3, spitze=11)
+    pfeil(z, band[-4], (CX - RX - 26, BODEN + 4), WEG, breite=3, spitze=11)
+    z.text((CX, BODEN - RY - 92), "ÜBERWURF", font=schrift(21, True), fill=WEG,
+           anchor="ma")
+    z.text((CX, BODEN - RY - 64), "vom Boden über die Kuppe bis zum Boden",
+           font=klein, fill=WEG, anchor="ma")
+
+    z.line([(CX - RX, BODEN + 34), (CX + RX, BODEN + 34)], fill=TINTE, width=2)
+    for x in (CX - RX, CX + RX):
+        z.line([(x, BODEN + 26), (x, BODEN + 42)], fill=TINTE, width=2)
+    z.text((CX, BODEN + 50), "BREITE", font=schrift(19, True), fill=TINTE, anchor="ma")
+    z.text((CX, BODEN + 78), "von der Seite gesehen", font=klein, fill=LEISE,
+           anchor="ma")
+
+    # RECHTS: derselbe Stapel von oben -- dort ist die Laenge zu sehen.
+    LX, RXX, OB, UN = 830, 990, 290, 530
+    z.rectangle([(LX, OB), (RXX, UN)], fill=(233, 228, 216), outline=TINTE, width=3)
+    z.line([(LX, OB - 34), (RXX, OB - 34)], fill=TINTE, width=2)
+    for x in (LX, RXX):
+        z.line([(x, OB - 42), (x, OB - 26)], fill=TINTE, width=2)
+    z.text(((LX + RXX) // 2, OB - 62), "BREITE", font=schrift(19, True), fill=TINTE,
+           anchor="ma")
+    z.line([(RXX + 34, OB), (RXX + 34, UN)], fill=TINTE, width=2)
+    for y in (OB, UN):
+        z.line([(RXX + 26, y), (RXX + 42, y)], fill=TINTE, width=2)
+    z.text((RXX + 52, (OB + UN) // 2), "LÄNGE", font=schrift(19, True), fill=TINTE,
+           anchor="lm")
+    z.text(((LX + RXX) // 2, UN + 50), "von oben gesehen", font=klein, fill=LEISE,
+           anchor="ma")
+
+    z.text((625, 620), "ÜBERWURF × BREITE × LÄNGE × 23 = Kilogramm",
+           font=schrift(26, True), fill=TINTE, anchor="ma")
+    z.text((625, 656), "alle drei Maße in Metern", font=klein, fill=LEISE, anchor="ma")
+    z.text((625, 688), "Beispiel: 8 m × 4 m × 6 m × 23 ≈ 4.400 Kilogramm, also rund "
+                       "4,4 Tonnen", font=schrift(19), fill=WEG, anchor="ma")
+
+    rahmen(z, bild, "Einen Heustapel wiegen ohne Waage",
+           "ein Maßband genügt — die Zahl 23 macht daraus Kilogramm",
+           "Nur für lose aufgesetztes Heu — für Ballen gilt sie nicht",
+           "Faustregel nach USDA Farmers' Bulletin 2052 „Better Feeding of Livestock“ "
+           "(1952); Umrechnung ins Metrische ist Rechnung dieses Pakets")
+    bild.save(ziel)
+    return bild.size
+
+
+FIGUREN = {'zielmarken': zielmarken, 'hoehenlinien': hoehenlinien, 'versatz': versatz, 'hindernis': hindernis, 'kreuzpeilung': kreuzpeilung, 'dreieck345': dreieck345, 'naehrwerte': naehrwerte, 'wartezeiten': wartezeiten, 'heustapel': heustapel}
 
 if __name__ == '__main__':
     if len(sys.argv) < 3 or sys.argv[1] not in FIGUREN:
