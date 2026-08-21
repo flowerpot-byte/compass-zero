@@ -643,7 +643,39 @@ class EuropeDePaketTest {
         // (taktisch-sirenensignale-at-ch).
         // 631 -> 632 am 21.08.2026: "Akku strecken: was wirklich hilft und was es kostet"
         // (taktisch-akku-strecken).
-        assertEquals(632, pack.tips.size)
+        // 632 -> 633 am 21.08.2026: "Hartkaese ja, Gekochtes nein: so wird Kuehlware sortiert"
+        // (nahrung-kuehlware-sortieren).
+        // 633 -> 634 am 21.08.2026: "Angetautes Gefriergut: was noch einmal in die Truhe darf"
+        // (nahrung-gefriergut-angetaut).
+        // 634 -> 635 am 21.08.2026: "Der Balkon als Notkuehlung: kurz ja, dauerhaft nein"
+        // (nahrung-kaltstellen-ohne-strom).
+        // 635 -> 636 am 21.08.2026: "Handflaeche auflegen: was mitzaehlt und was nicht"
+        // (erste-hilfe-verbrennung-handflaeche).
+        // 636 -> 637 am 21.08.2026: "Beim Kleinkind stimmen die Anteile nicht"
+        // (erste-hilfe-verbrennung-kleinkind).
+        // 637 -> 638 am 21.08.2026: "Hausmittel auf der Brandstelle: gut gemeint und schaedlich"
+        // (erste-hilfe-verbrennung-hausmittel).
+        // 638 -> 639 am 21.08.2026: "Chemikalie als Pulver: erst abbuersten"
+        // (erste-hilfe-veraetzung-pulver).
+        // 639 -> 640 am 21.08.2026: "Jemanden ueber Wochen betreuen, ohne Abloesung"
+        // (medizin-betreuung-erschoepfung).
+        // 640 -> 641 am 21.08.2026: "Wenn eine Gruppe aneinandergeraet: was vorher verabredet werden muss"
+        // (taktisch-streit-in-der-gruppe).
+        // 641 -> 642 am 21.08.2026: "Einnaessen, klammern, verstummen: Rueckschritte nach Wochen"
+        // (medizin-junge-menschen-rueckschritte).
+        // 642 -> 643 am 21.08.2026: "Schreckhaft und voller Bilder: die Wochen nach einem schweren Ereignis"
+        // (medizin-nach-dem-ereignis).
+        // 643 -> 644 am 21.08.2026: "Turnhalle und Sammelunterkunft: wie viel Platz ein Mensch braucht"
+        // (taktisch-sammelunterkunft-platz).
+        // 644 -> 645 am 21.08.2026: "Viele auf engem Raum: was die Ansteckung wirklich bremst"
+        // (hygiene-sammelunterkunft-ansteckung).
+        // 645 -> 646 am 21.08.2026: "Wenn viele sich einen Waschraum teilen: Zahl, Weg und Licht"
+        // (hygiene-sammelunterkunft-sanitaer).
+        // 646 -> 647 am 21.08.2026: "Familien in der Halle: fester Ablauf und eine eigene Ecke"
+        // (medizin-sammelunterkunft-familien).
+        // 647 -> 648 am 21.08.2026: "Zusammenleben in der Sammelunterkunft: was am ersten Abend verabredet wird"
+        // (taktisch-sammelunterkunft-regeln).
+        assertEquals(648, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser

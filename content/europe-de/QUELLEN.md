@@ -11206,3 +11206,237 @@ amtliches Werk und damit gemeinfrei.
 - Seite „Akkulaufzeit von Android-Geräten optimieren“ (support.google.com/android), im Volltext abgerufen am 21.08.2026: Displayhelligkeit senken, Display früher abschalten, Tastaturtöne und Vibration aus, dunkles Design; Energiesparmodus schränkt Hintergrundaktivitäten ein; Flugmodus, wenn das Mobilfunknetz nicht gebraucht wird; heißer Akku entlädt sich deutlich schneller und nimmt Schaden; ein volles Entladen und Aufladen ist für die Kapazitätsanzeige nicht nötig.
 
   Verwendet für: `taktisch-akku-strecken`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### FoodSafety.gov, US-Gesundheitsministerium (HHS)
+
+- „Food Safety During Power Outage“, foodsafety.gov, Stand 08.08.2024, Tabelle „Refrigerated Food and Power Outages: When to Save It and When to Throw It Out“: Ware für Ware Behalten oder Wegwerfen nach mehr als 2 Stunden bei 4 Grad Celsius oder darüber; Kühlschrank hält rund 4 Stunden; nach einem Ausfall nie kosten, jedes Stück einzeln beurteilen. Tabelle und Fliesstext am 21.08.2026 vollständig gelesen. Werk der US-Bundesregierung, frei.
+
+  Verwendet für: `nahrung-kuehlware-sortieren`.
+
+- „Food Safety During Power Outage“, foodsafety.gov, Stand 08.08.2024, Tabelle „Frozen Food and Power Outages: When to Save It and When to Throw It Out“: je Warengruppe zwei Spalten, „enthält noch Eiskristalle und fühlt sich kühlschrankkalt an“ und „mehr als 2 Stunden bei 4 Grad Celsius oder darüber“; volle Truhe rund 48 Stunden, halbvolle rund 24; nie kosten. Am 21.08.2026 vollständig gelesen. Werk der US-Bundesregierung, frei.
+
+  Verwendet für: `nahrung-gefriergut-angetaut`.
+
+### Verbraucherzentrale
+
+- „Was tun bei Stromausfall? Gut vorbereitet und richtig handeln“, verbraucherzentrale.de, am 21.08.2026 vollständig gelesen: Kühl- und Gefrierschrank möglichst geschlossen halten, damit die Kälte länger erhalten bleibt und Lebensmittel nicht so schnell verderben; Vorrat an haltbaren Lebensmitteln für 3 bis 5 Tage, die ohne Kühlung und ohne Kochen auskommen; nach dem Ausfall Lebensmittel entsorgen, die verdorben sein könnten.
+
+  Verwendet für: `nahrung-kaltstellen-ohne-strom`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### NSW Agency for Clinical Innovation (Australien)
+
+- „Transfer and retrieval of burn patients: Clinical practice guide“, Fassung Juni 2026, Abschnitte „Total body surface area“ (Hand mit Fingern rund 1 Prozent), „Calculating TBSA in children“ (bloße Rötung wird nicht mitgezählt), „Wound appearance“ und „Gastrointestinal care“, aci.health.nsw.gov.au, Volltext gelesen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-verbrennung-handflaeche`.
+
+- „Transfer and retrieval of burn patients: Clinical practice guide“, Fassung Juni 2026, Abschnitte „Calculating TBSA in children“ (Altersrechnung, die beim Säugling mit Kopf 18 und je Bein 13,5 beginnt und mit rund zehn Jahren die Erwachsenenwerte erreicht) und „Cooling the burn wound“ (20 Minuten, innerhalb der ersten 3 Stunden; die Stelle kühlen, den Menschen wärmen; Reihenfolge gegen Unterkühlung), aci.health.nsw.gov.au, Volltext gelesen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-verbrennung-kleinkind`.
+
+- „Transfer and retrieval of burn patients: Clinical practice guide“, Fassung Juni 2026, Abschnitt „Preventing hypothermia“: nasse Auflagen entfernen und Reste von Creme oder Auflagenmaterial abwischen, bevor abgedeckt und zugedeckt wird, aci.health.nsw.gov.au, Volltext gelesen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-verbrennung-hausmittel`.
+
+- „Transfer and retrieval of burn patients: Clinical practice guide“, Fassung Juni 2026, Abschnitt „Chemical burns“: Säuren erzeugen eine Gerinnungsnekrose, Laugen eine verflüssigende Nekrose; trockene Pulver zuerst abbürsten; danach reichlich ständig laufendes Wasser über mehr als eine Stunde; Laugen und Teer noch länger spülen als andere Chemikalien, aci.health.nsw.gov.au, Volltext gelesen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-veraetzung-pulver`.
+
+### Merck Manual, Fassung für Fachkreise
+
+- Artikel „Burns“, Abschnitt „Evaluation“: nur teilweise und vollständig tiefe Verbrennungen werden gezählt; die ganze geöffnete Hand des Patienten, ausdrücklich nicht nur der Handteller, entspricht etwa 1 Prozent, und dieses Verfahren eignet sich für verstreute Stellen, merckmanuals.com, Volltext gelesen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-verbrennung-handflaeche`.
+
+- Artikel „Burns“, Abschnitt „Treatment“: bei Verlegung saubere trockene Auflagen verwenden, weil Brandsalben die spätere Beurteilung der Wunde behindern; zum Reinigen Wasser mit Raumtemperatur oder wärmer, um keine Unterkühlung auszulösen, merckmanuals.com, Volltext gelesen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-verbrennung-hausmittel`.
+
+### The Royal Children's Hospital Melbourne
+
+- Leitlinie „Burns - acute management“, Stand April 2026, Abschnitte „Key points“ (epidermale Verbrennungen zählen nicht mit), „Background“ (die Tiefe ist früh schwer zu beurteilen) und „Treatment“ (nichts über den Mund; Magen-Darm-Lähmung als Komplikation), rch.org.au, Volltext gelesen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-verbrennung-handflaeche`.
+
+- Leitlinie „Burns - acute management“, Stand April 2026, Abschnitte „Background“ (dünnere Haut, daher tiefere Verbrennung; junge Kinder sind beim Kühlen durch Unterkühlung gefährdet; 20 Minuten wirksam innerhalb von 3 Stunden), „First aid“ (abschnittsweise kühlen, Kühlen darf pausiert werden, nasse Auflagen entfernen, Kind warm halten) und „Management“ (schwere Verbrennung ab 10 Prozent), rch.org.au, Volltext gelesen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-verbrennung-kleinkind`.
+
+- Leitlinie „Burns - acute management“, Stand April 2026, Abschnitt „First aid“: niemals Eis auftragen; Frischhaltefolie längs auflegen, nicht ringsum wickeln, nicht ins Gesicht und nicht auf eine Verätzung, rch.org.au, Volltext gelesen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-verbrennung-hausmittel`.
+
+- Leitlinie „Burns - acute management“, Abschnitt „Chemical burns“, Stand April 2026: Schutzausrüstung für den Helfer (Handschuhe, Maske, Kittel, Augenschutz); verunreinigte Kleidung entfernen; pulverförmiges Mittel von der Haut bürsten; so spülen, dass das verunreinigte Wasser ablaufen kann und keinen weiteren Schaden anrichtet; bei Lauge im Auge 2 bis 4 Stunden ununterbrochen spülen, bis der Schmerz aufhört, rch.org.au, Volltext gelesen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-veraetzung-pulver`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### Inter-Agency Standing Committee (IASC)
+
+- „IASC Guidelines on Mental Health and Psychosocial Support in Emergency Settings“, Ausgabe 2007, Aktionsblatt 9.1 zur Nahrungshilfe. Volltext gelesen am 21.08.2026. Daher: aggressives Verhalten bei als ungerecht empfundener Verteilung, Zusammenbruch von Ordnung und Recht als Kampf um Vorräte, Preisgeben schwächerer Familienmitglieder als Verhalten unter Druck, und die Warnung, dass schlechte Planung, unklare Listen und zurückgehaltene Nachrichten Spannungen bis hin zu Gewalt erzeugen.
+
+  Verwendet für: `taktisch-streit-in-der-gruppe`.
+
+- Dieselbe Ausgabe 2007, Einleitungskapitel sowie die Aktionsblätter 3.2 (soziale Schutzmaßnahmen) und 6.5 (Alkohol und andere Suchtmittel). Volltext gelesen am 21.08.2026. Daher: mehr Gewalt gegen Frauen als Folge einer Notlage; das Wiederingangsetzen vorhandener Wege der Streitschlichtung als Schutzmaßnahme; und die Maßnahmen gegen starken Alkoholgebrauch, darunter begrenzte Ausschankzeiten und ein Waffenverbot dort, wo getrunken wird.
+
+  Verwendet für: `taktisch-streit-in-der-gruppe`.
+
+### Brooks u. a., The Lancet, Band 395, Heft 10227 (2020)
+
+- „The psychological impact of quarantine and how to reduce it: rapid review of the evidence“, Seiten 912-920, 24 eingeschlossene Untersuchungen. Volltext gelesen am 21.08.2026. Daher: die Dauer mit der Zehn-Tage-Beobachtung; Langeweile und Frust durch Wegfall von Tagesablauf und Kontakt; zu wenig Vorrat als eigene Belastung mit Ärger und Angst noch vier bis sechs Monate danach; Unklarheit lässt das Schlimmste annehmen; jede Verlängerung verschlimmert; Freiwilligkeit trägt besser als Zwang.
+
+  Verwendet für: `taktisch-streit-in-der-gruppe`.
+
+### Deutschsprachige Gesellschaft für Psychotraumatologie (DeGPT)
+
+- S3-Leitlinie „Posttraumatische Belastungsstörung“, AWMF-Register 155/001, Langfassung Version 7.0 vom 27.02.2026, Kapitel 3.1 und die Empfehlungen 2.1 und 3.1. Volltext gelesen am 21.08.2026. Daher: rund 70 Prozent erleben mindestens ein möglicherweise traumatisches Ereignis; 1,5 Prozent Ein-Monats-Häufigkeit in Deutschland; akute Belastungsreaktionen häufig selbstbegrenzend und die Störung nicht der Regelfall; aktives Erfragen; Gesprächsbedingungen; kurzzeitiger Anstieg der Belastung.
+
+  Verwendet für: `medizin-nach-dem-ereignis`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### UNHCR
+
+- Emergency Handbook (4. Auflage), Eintrag „Camp planning standards (planned settlements)“, Fassung 1.0 vom 14.07.2016, PDF im Volltext gelesen am 21.08.2026. Daher: 3,5 Quadratmeter überdachte Wohnfläche je Person (kaltes Klima und Stadt 4,5 bis 5,5), lichte Höhe mindestens 2 Meter. Geschützter Text: nur Tatsachen und Zahlen übernommen, Formulierung eigene.
+
+  Verwendet für: `taktisch-sammelunterkunft-platz`.
+
+- Emergency Handbook (4. Auflage), Eintrag „Camp planning standards (planned settlements)“, Fassung 1.0 vom 14.07.2016, PDF im Volltext gelesen am 21.08.2026. Daher: eine Toilette je 20 Personen im Notfall, getrennte Bereiche, nicht weiter als 50 und nicht näher als 6 Meter, Dusche je 50, 20 Liter je Person und Tag, Zapfstelle je 80, Wasser höchstens 200 Meter, Beleuchtung vorrangig an Toiletten und Waschbereichen.
+
+  Verwendet für: `hygiene-sammelunterkunft-sanitaer`.
+
+### UNHCR und IOM (CCCM-Cluster)
+
+- „Collective Centre Guidelines“, 2010, Abschnitte 9.2 und 9.3 (Schutzrisiken, dunkle Bereiche, Beleuchtung, Größe der Unterkunft, Bereiche nur für Frauen und Kinder) und 12.2 (Flächenmaße je Person), PDF im Volltext gelesen am 21.08.2026. Geschützter Text: nur Tatsachen übernommen, Formulierung eigene.
+
+  Verwendet für: `taktisch-sammelunterkunft-platz`.
+
+- „Collective Centre Guidelines“, 2010, Abschnitte 9.2, 9.3 und 9.5, PDF im Volltext gelesen am 21.08.2026. Daher: dunkle Bereiche, unbeleuchtete Gänge und abgelegene Keller als zusätzliche Bedrohung besonders für Frauen, Kinder, Menschen mit Behinderung und alte Menschen; Beleuchtungspflicht und Absperren; Kartierung der Risikostellen durch die Bewohner selbst.
+
+  Verwendet für: `hygiene-sammelunterkunft-sanitaer`.
+
+- „Collective Centre Guidelines“, 2010, Abschnitte 9.2, 9.3 und 9.5, PDF im Volltext gelesen am 21.08.2026. Daher: Selbstregelung sinkt mit der Größe, Einheiten bis etwa 100 Personen, Selbstverwaltung so früh wie möglich, ungleiche Verteilung als Risikofaktor, Beleuchtungspflicht und Absperren, Anonymität als Risiko, gemeinsames Tun, Bereiche nur für Frauen und Kinder.
+
+  Verwendet für: `taktisch-sammelunterkunft-regeln`.
+
+### Länder-Arbeitskreis zur Erstellung von Rahmenhygieneplänen
+
+- Rahmen-Hygieneplan gemäß § 36 IfSG „Gemeinschaftsunterkünfte für Flüchtlinge, Asylbewerber, Spätaussiedler und Obdachlose“, Stand Oktober 2015, Abschnitte 3.1.1 und 3.1.2, im Volltext gelesen am 21.08.2026. Daher: 6 Quadratmeter je Erwachsenem, vier bis sechs je Raum, Geschlechtertrennung, 1 Quadratmeter je Person im Aufenthaltsraum, Krankenzimmer vorhalten.
+
+  Verwendet für: `taktisch-sammelunterkunft-platz`.
+
+- Rahmen-Hygieneplan gemäß § 36 IfSG „Gemeinschaftsunterkünfte für Flüchtlinge, Asylbewerber, Spätaussiedler und Obdachlose“, Stand Oktober 2015, Abschnitte 2.1, 3.2, 3.3, 3.4 und der Abschnitt zu Skabies, im Volltext gelesen am 21.08.2026. Daher: Übertragungsrisiko, mehrmals tägliches Quer- und Stoßlüften, Wäsche bei 60 Grad, kein Matratzenlager.
+
+  Verwendet für: `hygiene-sammelunterkunft-ansteckung`.
+
+- Rahmen-Hygieneplan gemäß § 36 IfSG „Gemeinschaftsunterkünfte für Flüchtlinge, Asylbewerber, Spätaussiedler und Obdachlose“, Stand Oktober 2015, Abschnitte 3.1.1, 3.1.2 und 3.4, im Volltext gelesen am 21.08.2026. Daher: Waschbecken je 5, Dusche je 10, Toilette je 10 Frauen und je 15 Männer, Sichtschutz, Reinigung, Kalk.
+
+  Verwendet für: `hygiene-sammelunterkunft-sanitaer`.
+
+- Rahmen-Hygieneplan gemäß § 36 IfSG „Gemeinschaftsunterkünfte für Flüchtlinge, Asylbewerber, Spätaussiedler und Obdachlose“, Stand Oktober 2015, Abschnitt 3.1.1 (Gemeinschaftsräume und Außenanlagen: mindestens ein Spielzimmer, auch für Hausaufgaben, Freiflächen für Sport und Spiel), im Volltext gelesen am 21.08.2026.
+
+  Verwendet für: `medizin-sammelunterkunft-familien`.
+
+- Rahmen-Hygieneplan gemäß § 36 IfSG „Gemeinschaftsunterkünfte für Flüchtlinge, Asylbewerber, Spätaussiedler und Obdachlose“, Stand Oktober 2015, Abschnitte 3.1.1 und 3.1.2 (Grundausstattung je Bewohner, darunter ein abschließbarer Schrank oder ein abschließbares Schrankfach), im Volltext gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-sammelunterkunft-regeln`.
+
+### US-Seuchenbehörde CDC
+
+- „Infection Control Guidance for Community Evacuation Centers Following Disasters“ (Stand 05.09.2017) und „How to Prevent the Spread of Respiratory Illnesses in Disaster Evacuation Centers“ (Stand 29.01.2019), archive.cdc.gov, im Volltext gelesen am 21.08.2026. Daher: wenigstens 3 Fuß zwischen den Liegen, 3 bis 6 Fuß gegen Tröpfchen. Werk der US-Bundesregierung, gemeinfrei.
+
+  Verwendet für: `taktisch-sammelunterkunft-platz`.
+
+- „Infection Control Guidance for Community Evacuation Centers Following Disasters“, Stand 05.09.2017, archive.cdc.gov, im Volltext gelesen am 21.08.2026. Daher: Händedesinfektion am Anfang der Essensschlange und vor den Toiletten, Seife statt Gel für Küchenkräfte, sechs Zeichen beim Einzug, getrennte Bereiche je Krankheit, 3 Fuß zwischen den Liegen, Reinigungsrhythmus.
+
+  Verwendet für: `hygiene-sammelunterkunft-ansteckung`.
+
+- „How to Prevent the Spread of Respiratory Illnesses in Disaster Evacuation Centers“, Stand 29.01.2019, archive.cdc.gov, im Volltext gelesen am 21.08.2026. Daher: 3 bis 6 Fuß zwischen den Liegen gegen Tröpfchen, Abstand für Erkrankte, die nicht verlegt werden können, Trennung bis 24 Stunden nach dem Ende der Zeichen. Werk der US-Bundesregierung, gemeinfrei.
+
+  Verwendet für: `hygiene-sammelunterkunft-ansteckung`.
+
+- „Infection Control Guidance for Community Evacuation Centers Following Disasters“, Stand 05.09.2017, archive.cdc.gov, im Volltext gelesen am 21.08.2026, Abschnitt zu Gebäuden, die nicht zum Wohnen gebaut sind. Daher: beaufsichtigte Reinigung, stündliches Wischen, Steuerung des Zutritts, Nachschub an Seife und Papier, kurze Nutzungsdauer. Werk der US-Bundesregierung, gemeinfrei.
+
+  Verwendet für: `hygiene-sammelunterkunft-sanitaer`.
+
+### Landesuntersuchungsamt Rheinland-Pfalz
+
+- (Muster-)Hygieneplan für Notfallunterkünfte für Flüchtlinge, Asylbewerberinnen und Asylbewerber und sonstige Massenunterkünfte gemäß § 36 IfSG, Stand 05/2024, Abschnitte 2, 3, 5, 7 und 9, im Volltext gelesen am 21.08.2026. Daher: Lüften, Flüssigseifenspender, personengebundene Handtücher, Verhalten Erkrankter, Müll und Schädlingsvorbeugung.
+
+  Verwendet für: `hygiene-sammelunterkunft-ansteckung`.
+
+### UNICEF und Bundesinitiative Schutz von geflüchteten Menschen in Flüchtlingsunterkünften
+
+- Praxisleitfaden zu Mindeststandard 4 „Prävention und Umgang mit Gewalt- und Gefährdungssituationen/Risikomanagement“, Oktober 2019, Abschnitt 2.2 (bauliche Empfehlungen von Polizei und Ländern), im Volltext gelesen am 21.08.2026. Daher: abschließbare Türen zu Wohneinheiten und Sanitäranlagen, Rückzugs- und Schutzräume.
+
+  Verwendet für: `hygiene-sammelunterkunft-sanitaer`.
+
+- Praxisleitfaden zu Mindeststandard 4 „Prävention und Umgang mit Gewalt- und Gefährdungssituationen/Risikomanagement“, Oktober 2019, Abschnitte 2.2 und 2.2.1 (kinderfreundliche Orte, Normalität und Kontinuität, wenig Personalwechsel, Entlastung der Eltern), im Volltext gelesen am 21.08.2026.
+
+  Verwendet für: `medizin-sammelunterkunft-familien`.
+
+- Praxisleitfaden zu Mindeststandard 4 „Prävention und Umgang mit Gewalt- und Gefährdungssituationen/Risikomanagement“, Oktober 2019, Einleitung (Gewaltbegriffe samt Diebstahl), Abschnitt 2.2 mit Infobox 3 und 4 (Enge, Rückzugsorte, bauliche Empfehlungen, Aufenthaltsräume rund um die Uhr) und der Abschnitt zur Hausordnung, im Volltext gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-sammelunterkunft-regeln`.
+
+### World Vision International und IFRC-Referenzzentrum für psychosoziale Unterstützung
+
+- „Operational Guidance for Child Friendly Spaces in Humanitarian Settings“, Kopenhagen 2018, Kapitel 1 bis 3 (Wirkung von Struktur und Kontinuität, Anforderungen an den Ort, Ausstattung, Betreuungsschlüssel aus den Mindeststandards für Kinderschutz 2012, Beständigkeit im Ablauf), PDF im Volltext gelesen am 21.08.2026. Geschützter Text: nur Tatsachen und Zahlen übernommen.
+
+  Verwendet für: `medizin-sammelunterkunft-familien`.
