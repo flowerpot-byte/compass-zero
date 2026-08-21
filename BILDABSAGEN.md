@@ -261,6 +261,67 @@ schlecht geführtem Teig nebeneinander, ein Krumenschnitt (zu dicht, zu grob,
 richtig), oder ein Backofen im Schnitt -- keine der geprüften Quellen zeigt
 das.
 
+**agrikultur-salz-gewinnen** ("Salz gewinnen: Sole sieden und Steinsalz
+erkennen") -- einzige Quelle ist W. C. Phalen, „Technology of Salt Making in
+the United States", Bureau of Mines Bulletin 146, 1917 (archive.org
+`dli.ernet.211793`, 130 Seiten plus 24 Fototafeln und 10 Textfiguren).
+Vorgeschlagen war die Siedepfanne oder das Gradierwerk; beide wurden gezielt
+gesucht, dazu die Mineralogie-Abbildung fürs Würfel-Erkennen.
+
+Die vollständige „List of Illustrations" (Volltext geprüft, alle 10 Fig.- und
+24 Plate-Beschriftungen einzeln gelesen) wurde gegen die vier Themen des
+Eintragstexts gehalten (Vorkommen, Mineralogie, Sonnenverdunstung,
+Kesselsieden):
+
+- **Kesselsieden** (Abschnitt „Sole sieden: das älteste Verfahren", die
+  Quelle für Kesselmaß, Bittern-Pfanne und Ziehen des Salzes): der
+  komplette Abschnitt „EVAPORATION IN OPEN KETTLES" (Seite 52-55, im
+  Volltext gelesen) ist reiner Fließtext ohne jede Abbildung. Die einzige
+  Textfigur, die eine Pfanne mit Kammern zeigt (Fig. 1, „Plan and sections
+  of pan block", Seite 55/56: FRONT PAN FIRST SECTION / FRONT PAN SECOND
+  SECTION / BACK PAN), gehört zum GANZ ANDEREN, im Eintragstext nicht
+  behandelten OPEN-PAN-Verfahren -- flache, genietete Eisenpfannen von 30
+  bis 35 Metern Länge, nicht die im Text beschriebenen einzelnen runden
+  Kessel von rund 1,2 Metern Durchmesser. Ein Bild dieser Pfanne unter der
+  Überschrift „Kessel" hätte ein anderes Gerät gezeigt, als der Text
+  beschreibt.
+- **Mineralogie** (Abschnitt „Steinsalz erkennen: Würfel, Härte, Geschmack,
+  Farbe"): der Abschnitt „MINERALOGY OF SALT" (Seite 8/9) ist ebenfalls
+  reiner Fließtext, keine Zeichnung des Würfelhabitus, keine Fotografie
+  eines Handstücks. Die offizielle Bildliste enthält an keiner Stelle ein
+  Mineral- oder Kristallmotiv.
+- **Vorkommen**: Plate I (Seite gegenüber 30/31, als Bild angesehen) zeigt
+  zwei Landschaftsfotos verwitterter Täler in Utah („Unique occurrence of
+  salt at surface") -- grobkörniger Halbton-Scan aus großer Entfernung,
+  auf dem weder Würfelform noch sonst etwas vom Mineral selbst zu erkennen
+  ist, nur helle Flecken im Gelände. Keine Personen im Bild, aber inhaltlich
+  ohne Aussagekraft für das Erkennen von Steinsalz.
+- **Sonnenverdunstung**: Plate II (als Bild angesehen) zeigt zwei Fotos der
+  hölzernen Verdunstungsbecken bei Syracuse, B „Salt vats with roofs
+  removed" zeigt die Reihe der Becken recht klar. Aber: die drei im
+  Eintragstext benannten Beckentypen (tiefe Becken, Kalkbecken, Salzbecken)
+  sehen auf dem Foto identisch aus -- keines der drei ist von den anderen
+  zu unterscheiden, das Bild zeigt also nicht den Unterschied, auf den es
+  im Text ankommt. Auch hier keine Personen erkennbar.
+
+Alle vier Kandidaten sind zusätzlich reine Halbton-Fotografien, keine
+Stichzeichnungen -- ein Stilbruch zu allen bisher im Paket verwendeten
+Blättern, und durch die 32-Farben-Reduktion des Speicherwerkzeugs
+(`stich_beschriften.speichern()`) würden sie zu grobem Fleckenmuster
+zerfallen, wie es bei Strichzeichnungen nicht passiert. Gezielt auch nach
+einer Ersatzquelle außerhalb des Eintrags gesucht (wie es die Regeln
+erlauben): keine spezifische, im Volltext geprüfte US-Bundesquelle mit
+einer Würfel-Kristallzeichnung von Halit gefunden; eine Web-Suche lieferte
+nur allgemeine Verweise ohne konkrete, prüfbare Fundstelle -- ohne eigenes
+Lesen der Originalseite wird so etwas hier nicht verwendet (Regel 4).
+
+*Brauchbar wäre:* eine Strichzeichnung eines einzelnen Kessels mit
+eingehängter Bittern-Pfanne (Haushaltsmaßstab, nicht der Kesselblock), eine
+einfache Würfel-Kristallzeichnung von Halit aus einem US-Bundeswerk, oder
+eine Zeichnung/ein firmenfreies Foto des Drei-Becken-Systems, auf der sich
+die drei Beckentypen optisch unterscheiden lassen -- keines davon liefert
+diese Quelle.
+
 ## Portraetfotos wirklicher Menschen: grundsaetzlich nicht
 
 Das Paket besteht aus Stichzeichnungen von Gegenstaenden und Handgriffen.
