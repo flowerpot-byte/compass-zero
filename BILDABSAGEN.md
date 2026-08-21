@@ -428,3 +428,48 @@ binns-potters-craft-1910.txt`) systematisch nach "FIG."/"PLATE" durchsucht:
 *Brauchbar waere:* eine Zeichnung des spiraligen Wulstaufbaus oder ein
 Schnitt durch eine mit Daumen und Fingern geformte Schale -- diese Quelle
 liefert zu beidem nichts Bildliches, nur Text.
+
+**agrikultur-mahlen** ("Korn zu Mehl: mahlen ohne Mühle"), Abschnitt "Die
+Wege, die ohne Mühle bleiben" (Stampfen im hohlen Holz, zwei von Hand
+geführte Steine, Handmühle, Kaffeemühle, Fleischwolf) -- gesucht wurde der
+Schnitt durch zwei Mahlsteine mit der Hauung, ein Stampfmörser oder eine
+Handmühle im Schnitt, wie es fürs Zeigen des Mahlvorgangs selbst nötig wäre.
+Alle drei zugewiesenen Quellen vollständig durchsucht (Volltext + gezielt als
+Bild angesehen, keine reine OCR-Suche):
+- USDA Farmers' Bulletin 565, "Corn Meal as a Food and Ways of Using It"
+  (1914/1919): genau eine Abbildung im ganzen Heft, Fig. 1 "Corn-meal fish
+  balls" -- ein Foto vom fertigen Gericht, keine Mahlausrüstung.
+- USDA Farmers' Bulletin 807, "Bread and Bread Making in the Home" (1917):
+  zwei Abbildungen, Fig. 1 (Back-Utensilien: Löffel, Messer, Backformen) und
+  Fig. 2 (Foto von fertigem Brot) -- beide ohne Bezug zum Mahlen, obwohl der
+  Fließtext (S. 18) die Kaffeemühle zum Weizenmahlen ausdrücklich nennt; genau
+  an dieser Stelle steht keine Figur.
+- USDA Farmers' Bulletin 955, "Use of Wheat Flour Substitutes in Baking"
+  (1918): keine einzige Abbildung im ganzen Heft (Volltextsuche nach "Fig",
+  "illustrat", "plate", "cut", "diagram", "photograph" ergab null Treffer),
+  obwohl gerade dieses Kriegsheft die Handmühle für Hühnerfutter ausdrücklich
+  als Hausmittel zum Mehlmahlen nennt (Fußnote S. 20).
+
+Der Eintragstext räumt selbst schon ein: "KEINE BAUANLEITUNG. Weder
+Handmühle noch Mahlstein noch Mörser werden beschrieben." Eine frühere
+Prüfung in dieser Schicht (siehe `content/europe-de/QUELLEN.md`, Abschnitt
+"Was in dieser Schicht bewusst NICHT geschrieben wurde") kam für den ganzen
+Themenbereich "Getreide mahlen" schon zu keiner freien Quelle.
+
+Zusätzlich als zweifelsfrei gemeinfreie US-Bundeswerke außerhalb der drei
+zugewiesenen Quellen gesucht (wie es die Regeln für dieses Blatt erlauben):
+kein Treffer. Geprüft und ohne brauchbare Abbildung verworfen bzw. gar nicht
+erst gefunden: der USDA-Bulletin-Index nach "mill"/"grinding"/"corn meal",
+die Wikimedia-Commons-Kategorie "Farmers' Bulletin (USDA)", eine gezielte
+Suche nach Bureau-of-Agricultural-Engineering-Heften zu Getreidemühlen, und
+das US-Heer-Feldhandbuch FM 3-05.70 "Survival" (2002) -- Letzteres beschreibt
+im Kapitel Nahrungsbeschaffung keinen Mahlvorgang. Ein 1837er US-Patent
+("Mill for Grinding Bark, Corn, &c.", Patent Nr. 484) wäre zwar bildlich
+passend und uralt-gemeinfrei, fällt aber nicht unter "USDA Farmers' Bulletin,
+War-Department-Handbuch und Ähnliches" -- eine Patentschrift ist kein
+Behörden-Merkblatt, sondern eine private Erfindungsanmeldung, nur von der
+Behörde veröffentlicht; deshalb nicht verwendet.
+*Brauchbar wäre:* eine Zeichnung im Schnitt durch zwei Mahlsteine mit
+sichtbarer Hauung, ein Stampfmörser oder eine Handmühle im Schnitt, aus einem
+Buch-Scan, der (anders als die drei Hefte hier) das Mahlen selbst zeigt --
+keine der geprüften Quellen liefert das.

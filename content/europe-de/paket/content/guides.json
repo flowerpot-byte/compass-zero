@@ -4993,12 +4993,14 @@
       ],
       "steps": [
         {
+          "image": "assets/ahle-wechselnde-drehung.png",
           "text": "DIE AHLE: FÜR DEN ERSTEN STICH.\n\nEine Ahle ist ein spitzes Werkzeug zum Durchstechen kleiner Löcher, mit einer Schneide wie ein Schraubenzieher — man kann sie auch für kleine Schrauben als solchen benutzen. Ihre Hauptaufgabe: schnell ein Loch zum Ansetzen eines Nagels oder einer Schraube in hartem Holz vorzustechen.\n\nDER HANDGRIFF, GENAU SO IN DER QUELLE: Setze die Schneide zuerst QUER ZUR MASERUNG an, nicht längs. Treibe die Ahle ins Holz, aber DREHE SIE NICHT VOLL HERUM — gib ihr nur so viel Drehung in abwechselnde Richtungen, wie nötig ist, um die Fasern zu schneiden und zu zerdrücken. Wer die Ahle wie einen Korkenzieher voll herumdreht, reißt die Fasern statt sie zu schneiden, und das Loch wird ausgefranst."
         },
         {
           "text": "DER NAGELBOHRER: KLEINE LÖCHER GANZ OHNE BOHRWINDE.\n\nEin Nagelbohrer (Gimlet) bohrt kleine Löcher allein mit Handkraft — keine Bohrwinde nötig. Es gibt zwei Bauarten: mit Drallschneide (Twist) und mit Hohlschneide (Shell); beide funktionieren nach demselben Griff.\n\nDER GRIFF: Den Griff in die rechte Hand nehmen und beim Ansetzen mit der Handfläche ins Holz drücken, der Schaft liegt dabei zwischen erstem und zweitem Finger. Danach treibt man ihn in einer Folge von HALBEN DREHUNGEN ins Holz, wobei man nach jeder halben Drehung loslässt und neu zufasst.\n\nWOFÜR DER NAGELBOHRER BESSER IST ALS DIE BOHRWINDE: wenn keine Bohrwinde griffbereit ist oder nur EIN einziges Loch gebohrt werden muss — dann spart der Nagelbohrer die Zeit, einen Bohrer erst in die Bohrwinde einzuspannen. Es gibt ihn auch in größeren Ausführungen; die heißen dann Auger-Gimlet."
         },
         {
+          "image": "assets/bohrkopf-schraubenspitze.png",
           "text": "DER BOHRER MIT BOHRWINDE: FÜR SECHS MILLIMETER BIS FÜNF ZENTIMETER.\n\nBohrer mit Schraubenspitze (in der Quelle „Auger Bit“) bohren Löcher von etwa sechs Millimetern (¼ Zoll) bis fünf Zentimeter (2 Zoll). Die Schraubenspitze zieht den Bohrer von selbst ins Holz — man muss also nicht mit Kraft drücken, sondern dreht nur die Bohrwinde. Zwei Sporne ritzen einen Kreis vor, die Schneiden darunter heben den Span heraus, und die Drallnut fördert ihn aus dem Loch.\n\nEINFACHE DRALLNUT ODER DOPPELTE: Bei einfacher Drallnut fallen die Späne in die Mitte des Lochs und kommen leichter heraus — das eignet sich am besten für TIEFE Löcher. Bei doppelter Drallnut werden die Späne an die Lochwand gedrückt und können dort klemmen, dafür bohrt diese Bauart genauer in trockenem Holz.\n\nGROBE ODER FEINE SCHRAUBE: Eine grobe Schraube (Einfachgewinde) bohrt schnell, aber gröber — für hartes oder klebriges Holz. Eine feine Schraube (Doppelgewinde) bohrt langsamer, dafür sauberer — bevorzugt für Möbel- und Tischlerarbeit."
         },
         {
