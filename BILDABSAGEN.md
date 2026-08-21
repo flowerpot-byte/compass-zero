@@ -20,6 +20,12 @@ Zeichnung. Ob es eines hat, steht im Paket selbst, nicht hier. Wer eine
 Ersatzloesung findet, schreibt sie in denselben Eintrag dazu, statt einen
 neuen anzulegen.
 
+**Und: einsortiert wird nach GRUND, nicht nach Lauf.** Die Abschnitte unten
+sind die Gruende. Wer eine eigene Ueberschrift fuer seinen Durchgang anlegt,
+macht die Liste unbrauchbar -- gesucht wird hier immer nach einem Eintrag
+oder nach einem Grund, nie danach, wer wann gesucht hat. (Am 21.08.2026
+einmal passiert und wieder eingeraeumt.)
+
 ---
 
 ## Abgelehnt, weil die Rechte nicht reichen
@@ -77,6 +83,83 @@ wird.
 *Brauchbar waere:* Figur 12 (Eiklumpen der Körperlaus am Federansatz) oder
 eine gleichwertige unsignierte Abbildung, die zeigt, wo die Milben/Läuse
 sitzen oder wie die Arten sich unterscheiden.
+
+**agrikultur-gartenplan** ("Den Garten planen: erst rechnen, dann säen") --
+die einzige belegte Quelle im Kapitel ist FAO, „A vegetable garden for all"
+(5. Auflage 2014). Schon Stufe (a) scheitert, bevor überhaupt eine
+Abbildung angesehen wurde: Das Impressum (Titelseiten, Volltext geprüft)
+trägt „© FAO, 2014" und erlaubt Vervielfältigung ausdrücklich nur „for
+private study, research and teaching purposes, or for use in
+non-commercial products or services" mit Namensnennung -- keine
+CC-BY-Lizenz, keine Übertragung in die Gemeinfreiheit, und die FAO ist
+keine US-Bundesbehörde. Die für dieses Bild-Paket geltende Regel verlangt
+aber „US-Bundeswerk oder erschienen vor 1930". Die FAO-Quelle fällt unter
+keine der beiden Ausnahmen und scheidet damit für Abbildungen komplett
+aus -- unabhängig davon, ob und was für Bilder darin stehen (Volltext des
+Kapitels „Garden plan" zusätzlich durchsucht: kein einziger Treffer für
+„figure"/„diagram"/„photo"/„image", auch inhaltlich also nichts
+Einschlägiges).
+
+Zusätzlich gesucht, wie es die Projektregeln erlauben, nach einem
+zweifelsfrei gemeinfreien US-Bundeswerk mit einem Gartenplan/Beetplan: USDA
+Farmers' Bulletin 818, „The Small Vegetable Garden" (April 1917, archive.org
+`CAT87202730`, Volltext gelesen) -- in diesem Projekt bereits als gemeinfrei
+bestätigt (kein benannter Verfasser, nur „Prepared under the Direction of
+the Bureau of Plant Industry", siehe `content/europe-de/QUELLEN.md`,
+Abschnitt „Mistbeet und Frühbeet"). Abschnitt „THE GARDEN DIAGRAM" trägt
+genau die Empfehlung unseres Kapitels ("erst planen, dann säen") und zeigt
+dazu Fig. 2, „A typical back-yard garden plan, showing a possible
+arrangement for permanent and annual plants" (Seite 7, als Bild angesehen).
+Rechtlich sauber: keine Signatur, kein Courtesy-Vermerk (Bildecken und
+Bereich um die Bildunterschrift herangezoomt geprüft). Trotzdem verworfen:
+Der Plan trägt an die 25-30 einzelne englische Beschriftungen fest in der
+Zeichnung -- HOUSE, PAVEMENT, GRASS, dreimal WALK, rund zwanzig
+Reihen-Bezeichnungen (SWEET PEAS, PEAS EXTRA EARLY/EARLY/LATE, ONION SETS,
+ONION SEED, TOMATO PLANTS, SPINACH, BEANS, BEETS, CARROTS, 2ND CROP LATE
+CABBAGE, LETTUCE, PARSNIPS, RADISH, 2ND CROP LATE BEANS BETWEEN PARSNIPS,
+ASPARAGUS) und eine dreiteilige Legende (EXPLANATION: STRAWBERRIES, GRAPES,
+CURRANTS). Das ist ein Vielfaches der Textmenge, die im bisher einzigen
+erfolgreichen Fall dieser Art (`obstbaum-astschnitt.png`, zwei kurze
+Phrasen mit je einer direkt danebenstehenden deutschen Zeile) noch mit dem
+Beschriftungswerkzeug sauber einzudeutschen war -- hier bliebe entweder ein
+Grossteil der Wörter unübersetzt oder es entstünde de facto eine zweite,
+komplette Beschriftungsebene über der ganzen Zeichnung. Auch inhaltlich
+zeigt Fig. 2 mehr, als unser Text behauptet: ein sehr konkretes New Yorker
+Hinterhof-Beispiel mit Rasenfläche, Weinreben am Zaun und Pflasterweg,
+während unser Kapitel bewusst abstrakt bleibt (Bedarf, Klima, bekannte
+Pflanzen, Platzbedarf, Frühjahrslücke) und kein Beispielgarten ist.
+
+**Prüfung auf ein selbst gezeichnetes Schema (nicht gebaut, nur beurteilt):**
+Der Kapiteltext selbst enthält so gut wie keine konkreten Zahlen, die ein
+bemasstes Beetplan-Schema tragen könnten. Durchsucht wurden alle fünf
+Abschnitte; gefunden wurden genau zwei Zahlenangaben, und keine davon ist
+eine Abstands- oder Flächenangabe für ein Beet:
+1. Die drei Höhenstufen der FAO-Quelle (bis 1000 Meter, 1000 bis 2000,
+   2000 bis 3000) -- das sind Klimazonen für den tropischen
+   Ursprungskontext, keine europäische Entsprechung wird im Text genannt
+   (statt einer Zahl verweist der Text auf „Frag Nachbarn, die hier schon
+   lange pflanzen"). Für ein Beetplan-Schema ungeeignet, weil es keine
+   Fläche und keinen Abstand beschreibt, sondern eine Standortklasse.
+2. Die Messmethode „Miss ab, wie viel eine Reihe von zehn Metern einer
+   Sorte bei dir tatsächlich bringt" -- das ist eine Anleitung ZUM Messen,
+   keine fertige Abstands- oder Flächenzahl zum Zeichnen.
+Keine Reihenabstände, keine Beetbreiten, keine Pflanzabstände stehen im
+Text. Die einzige textlich belegte Aussage zum Platzbedarf ist rein
+qualitativ: „Viel Platz brauchen Kürbis, Kartoffeln und Bohnen. Wenig Platz
+brauchen Blattgemüse und Möhren." Ein bemasstes Beetplan-Schema wäre an
+dieser Stelle nicht durch den Kapiteltext gedeckt, sondern müsste erfundene
+Zahlen zeigen. Was der Text dagegen hergibt, ohne irgendetwas zu erfinden:
+ein reines Ablauf-/Checklisten-Schema der fünf Schritte in ihrer
+Reihenfolge (Bedarf aufschreiben -- Klima/Frosttermine prüfen -- mit
+bekannten Pflanzen anfangen -- Platzbedarf einschätzen, viel/wenig -- die
+Frühjahrslücke im Blick behalten), ohne Massangaben. Ob ein solches
+Prozess-Schema (statt eines bemassten Beetplans) gewünscht ist, ist eine
+Entscheidung, die hier nicht getroffen wurde -- nur die Zahlenlage ist
+festgehalten.
+*Brauchbar wäre:* ein Gartenplan/Beetplan aus einer anderen gemeinfreien
+US-Bundesquelle mit deutlich weniger eingebautem Fliesstext (im Idealfall
+nur Ziffern statt Pflanzennamen in den Feldern, mit einer separaten
+Legende) -- diese beiden geprüften Quellen liefern das nicht.
 
 ## Durchschlag von der Rueckseite: erst sichtbar, wenn der Grund stimmt
 
@@ -705,145 +788,6 @@ Mörtelansatzes, oder eine Abbildung des Tünche-Auftrags mit dem Pinsel -- aus
 einer illustrierten Quelle zu BAU-Kalk (Mörtel/Tünche), nicht zu
 landwirtschaftlichem Streukalk. Keine der geprüften Quellen liefert das.
 
-## Die einzige Quelle ist kein Bundeswerk: agrikultur-gartenplan
-
-**agrikultur-gartenplan** ("Den Garten planen: erst rechnen, dann säen") --
-die einzige belegte Quelle im Kapitel ist FAO, „A vegetable garden for all"
-(5. Auflage 2014). Schon Stufe (a) scheitert, bevor überhaupt eine
-Abbildung angesehen wurde: Das Impressum (Titelseiten, Volltext geprüft)
-trägt „© FAO, 2014" und erlaubt Vervielfältigung ausdrücklich nur „for
-private study, research and teaching purposes, or for use in
-non-commercial products or services" mit Namensnennung -- keine
-CC-BY-Lizenz, keine Übertragung in die Gemeinfreiheit, und die FAO ist
-keine US-Bundesbehörde. Die für dieses Bild-Paket geltende Regel verlangt
-aber „US-Bundeswerk oder erschienen vor 1930". Die FAO-Quelle fällt unter
-keine der beiden Ausnahmen und scheidet damit für Abbildungen komplett
-aus -- unabhängig davon, ob und was für Bilder darin stehen (Volltext des
-Kapitels „Garden plan" zusätzlich durchsucht: kein einziger Treffer für
-„figure"/„diagram"/„photo"/„image", auch inhaltlich also nichts
-Einschlägiges).
-
-Zusätzlich gesucht, wie es die Projektregeln erlauben, nach einem
-zweifelsfrei gemeinfreien US-Bundeswerk mit einem Gartenplan/Beetplan: USDA
-Farmers' Bulletin 818, „The Small Vegetable Garden" (April 1917, archive.org
-`CAT87202730`, Volltext gelesen) -- in diesem Projekt bereits als gemeinfrei
-bestätigt (kein benannter Verfasser, nur „Prepared under the Direction of
-the Bureau of Plant Industry", siehe `content/europe-de/QUELLEN.md`,
-Abschnitt „Mistbeet und Frühbeet"). Abschnitt „THE GARDEN DIAGRAM" trägt
-genau die Empfehlung unseres Kapitels ("erst planen, dann säen") und zeigt
-dazu Fig. 2, „A typical back-yard garden plan, showing a possible
-arrangement for permanent and annual plants" (Seite 7, als Bild angesehen).
-Rechtlich sauber: keine Signatur, kein Courtesy-Vermerk (Bildecken und
-Bereich um die Bildunterschrift herangezoomt geprüft). Trotzdem verworfen:
-Der Plan trägt an die 25-30 einzelne englische Beschriftungen fest in der
-Zeichnung -- HOUSE, PAVEMENT, GRASS, dreimal WALK, rund zwanzig
-Reihen-Bezeichnungen (SWEET PEAS, PEAS EXTRA EARLY/EARLY/LATE, ONION SETS,
-ONION SEED, TOMATO PLANTS, SPINACH, BEANS, BEETS, CARROTS, 2ND CROP LATE
-CABBAGE, LETTUCE, PARSNIPS, RADISH, 2ND CROP LATE BEANS BETWEEN PARSNIPS,
-ASPARAGUS) und eine dreiteilige Legende (EXPLANATION: STRAWBERRIES, GRAPES,
-CURRANTS). Das ist ein Vielfaches der Textmenge, die im bisher einzigen
-erfolgreichen Fall dieser Art (`obstbaum-astschnitt.png`, zwei kurze
-Phrasen mit je einer direkt danebenstehenden deutschen Zeile) noch mit dem
-Beschriftungswerkzeug sauber einzudeutschen war -- hier bliebe entweder ein
-Grossteil der Wörter unübersetzt oder es entstünde de facto eine zweite,
-komplette Beschriftungsebene über der ganzen Zeichnung. Auch inhaltlich
-zeigt Fig. 2 mehr, als unser Text behauptet: ein sehr konkretes New Yorker
-Hinterhof-Beispiel mit Rasenfläche, Weinreben am Zaun und Pflasterweg,
-während unser Kapitel bewusst abstrakt bleibt (Bedarf, Klima, bekannte
-Pflanzen, Platzbedarf, Frühjahrslücke) und kein Beispielgarten ist.
-
-**Prüfung auf ein selbst gezeichnetes Schema (nicht gebaut, nur beurteilt):**
-Der Kapiteltext selbst enthält so gut wie keine konkreten Zahlen, die ein
-bemasstes Beetplan-Schema tragen könnten. Durchsucht wurden alle fünf
-Abschnitte; gefunden wurden genau zwei Zahlenangaben, und keine davon ist
-eine Abstands- oder Flächenangabe für ein Beet:
-1. Die drei Höhenstufen der FAO-Quelle (bis 1000 Meter, 1000 bis 2000,
-   2000 bis 3000) -- das sind Klimazonen für den tropischen
-   Ursprungskontext, keine europäische Entsprechung wird im Text genannt
-   (statt einer Zahl verweist der Text auf „Frag Nachbarn, die hier schon
-   lange pflanzen"). Für ein Beetplan-Schema ungeeignet, weil es keine
-   Fläche und keinen Abstand beschreibt, sondern eine Standortklasse.
-2. Die Messmethode „Miss ab, wie viel eine Reihe von zehn Metern einer
-   Sorte bei dir tatsächlich bringt" -- das ist eine Anleitung ZUM Messen,
-   keine fertige Abstands- oder Flächenzahl zum Zeichnen.
-Keine Reihenabstände, keine Beetbreiten, keine Pflanzabstände stehen im
-Text. Die einzige textlich belegte Aussage zum Platzbedarf ist rein
-qualitativ: „Viel Platz brauchen Kürbis, Kartoffeln und Bohnen. Wenig Platz
-brauchen Blattgemüse und Möhren." Ein bemasstes Beetplan-Schema wäre an
-dieser Stelle nicht durch den Kapiteltext gedeckt, sondern müsste erfundene
-Zahlen zeigen. Was der Text dagegen hergibt, ohne irgendetwas zu erfinden:
-ein reines Ablauf-/Checklisten-Schema der fünf Schritte in ihrer
-Reihenfolge (Bedarf aufschreiben -- Klima/Frosttermine prüfen -- mit
-bekannten Pflanzen anfangen -- Platzbedarf einschätzen, viel/wenig -- die
-Frühjahrslücke im Blick behalten), ohne Massangaben. Ob ein solches
-Prozess-Schema (statt eines bemassten Beetplans) gewünscht ist, ist eine
-Entscheidung, die hier nicht getroffen wurde -- nur die Zahlenlage ist
-festgehalten.
-*Brauchbar wäre:* ein Gartenplan/Beetplan aus einer anderen gemeinfreien
-US-Bundesquelle mit deutlich weniger eingebautem Fliesstext (im Idealfall
-nur Ziffern statt Pflanzennamen in den Feldern, mit einer separaten
-Legende) -- diese beiden geprüften Quellen liefern das nicht.
-
-## Ersatzquelle statt Fehlanzeige gefunden
-
-**agrikultur-zugpferd**, Abschnitt "Das Kummet entscheidet: warum die
-Passform die Zugkraft macht" -- gesuchtes Motiv: Kummet/Geschirr-Passform,
-welcher Riemen wo sitzt, woran zu enges Geschirr zu erkennen ist. Beide
-zitierten Quellen (Farmers' Bulletin 1419 "Care and Management of Farm Work
-Horses", alle Fassungen 1924/1929/1940, sowie Farmers' Bulletin 1368
-"Breaking and Training Colts" von 1923 und dessen Vorgänger FB 667 von 1915)
-sind komplett fotografisch illustriert -- auch die Kummet-Passform-Figuren
-(FB 1419, Fig. 8/9, Seite 14) sind Fotos einer Hand am Pferdehals. FB 1419s
-einzige Strichzeichnung (Fig. 1, Stallgrundriss) hat keinen Bezug zum
-Geschirr. Gesucht und nicht gefunden: ein eigenes USDA-Bundeswerk zu
-Kummet-/Geschirranpassung (Suchbegriffe u. a. "Farmers' Bulletin harness",
-"collar fitting", "hames"; auch Heeresvorschriften zu Zuggeschirr für
-Artillerie-Gespanne durchsucht -- nichts Einschlägiges als US-Bundeswerk
-gefunden). Ein Merkblatt von 1916 mit denselben Autoren wie FB 1419
-("Sore Shoulders", State College of Washington und USDA gemeinsam) kam in
-Frage, ist aber laut Impressum ein Washington-State-Extension-Heft, kein
-reines USDA-Bundeswerk -- nicht verwendet.
-*Für diesen Abschnitt selbst also Fehlanzeige.* Bebildert wurde stattdessen
-ein anderer Abschnitt desselben Eintrags ("Pflege, an der es hakt: Schulter,
-Hufe und Zähne"), für den der Eintragstext fast wortgleich eine Aussage aus
-FB 1419 übernimmt (Hufwinkel/Sehnenspannung), die dort ebenfalls nur als
-Foto vorliegt, aber in einem anderen USDA Farmers' Bulletin (Nr. 179,
-"Horseshoeing", 1903) als Stich existiert -- siehe Bericht des Laufs b-seil.
-*Brauchbar wäre für Kummet/Geschirr selbst:* eine Strichzeichnung mit
-benannten Riemen (Kummet, Kumtstege, Zugstränge, Bauchgurt) aus einem noch
-nicht gefundenen US-Bundeswerk -- am ehesten in einem Heeres- oder
-Quartiermeister-Handbuch zu Zuggeschirr, falls eines mit Illustrationen
-auftaucht.
-
-**agrikultur-mais-mehl**, Abschnitt "Der Keim entscheidet über die
-Haltbarkeit" -- gesuchtes Motiv laut Auftrag: die Mahlgrade nebeneinander.
-Die einzige zitierte Quelle (Farmers' Bulletin 565, "Corn Meal as a Food
-and Ways of Using It") enthält im GANZEN Heft nur eine einzige Abbildung
-(Fig. 1, Seite 21, Foto eines Tellers "Corn-meal fish balls" -- ein
-fertiges Gericht); der Abschnitt "STRUCTURE OF THE CORN KERNEL" (Seite 5)
-ist reiner Fließtext, als Seite eigens gegengeprüft: kein Diagramm.
-Mahlgrade nebeneinander zeigt diese Quelle nirgends.
-
-Gefunden wurde stattdessen, wie es die Projektregeln erlauben (Abbildung
-aus einem zweifelsfrei gemeinfreien US-Bundeswerk außerhalb der belegten
-Quellen), USDA Farmers' Bulletin 112, "Bread and the Principles of Bread
-Making" (Helen W. Atwater, Fassung 1906, archive.org `CAT31127348`), Seite
-14, Figur 5: "Diagrammatic section of grain of corn" -- eine bemaßungsfreie
-Anatomiezeichnung des Maiskorns (Schale, Häutchen, Keimling, Schildchen,
-Mehlkörper), ohne Signatur oder Fremdvermerk (im Unterschied zu den
-Nachbarfiguren 3/4 desselben Hefts, die "(After Cobb.)" tragen). Das ist
-NICHT die gesuchte Mahlgrade-Gegenüberstellung, zeigt aber genau den
-Mechanismus, den der Abschnitt in Worten erklärt: wo im Korn der fettreiche
-Keimling sitzt, der beim Vermahlen entfernt oder belassen wird und damit
-die Haltbarkeit bestimmt. Bewusst als Ersatz verwendet und in der Fußzeile
-des Blattes offengelegt, dass die Zeichnung aus einem anderen Heft stammt
-als der Kapiteltext. Gebautes Blatt: `mais-kern-im-schnitt.png`.
-*Brauchbar wäre für die ursprünglich gesuchten Mahlgrade selbst:* ein Foto
-oder eine Zeichnung, die grobes/wassergemahlenes und feines/granuliertes
-Maismehl nebeneinander zeigt -- in keiner der geprüften Quellen vorhanden.
-
-## Weitere Fehlanzeigen (Lauf b-zucht, 21.08.2026)
-
 **agrikultur-zucht-ohne-inzucht**, Abschnitt "Die Drei-Linien-Drehung: die
 wirksamste Methode ohne Zuchtbuch" -- gesucht wurde eine Rotations-/
 Gruppenwechsel-Grafik zum Text (Weibchen A x Männchen B -> Töchter AB x
@@ -937,3 +881,61 @@ beim Füttern eines Lamms oder Zickleins zeigt, oder eine Zeichnung des
 Fell-Tricks beim Unterschieben bei einer Amme -- in keiner der geprüften
 Quellen in brauchbarer Bildqualität und ohne störende Überlagerung
 vorhanden.
+
+## Ersatzquelle statt Fehlanzeige gefunden
+
+**agrikultur-zugpferd**, Abschnitt "Das Kummet entscheidet: warum die
+Passform die Zugkraft macht" -- gesuchtes Motiv: Kummet/Geschirr-Passform,
+welcher Riemen wo sitzt, woran zu enges Geschirr zu erkennen ist. Beide
+zitierten Quellen (Farmers' Bulletin 1419 "Care and Management of Farm Work
+Horses", alle Fassungen 1924/1929/1940, sowie Farmers' Bulletin 1368
+"Breaking and Training Colts" von 1923 und dessen Vorgänger FB 667 von 1915)
+sind komplett fotografisch illustriert -- auch die Kummet-Passform-Figuren
+(FB 1419, Fig. 8/9, Seite 14) sind Fotos einer Hand am Pferdehals. FB 1419s
+einzige Strichzeichnung (Fig. 1, Stallgrundriss) hat keinen Bezug zum
+Geschirr. Gesucht und nicht gefunden: ein eigenes USDA-Bundeswerk zu
+Kummet-/Geschirranpassung (Suchbegriffe u. a. "Farmers' Bulletin harness",
+"collar fitting", "hames"; auch Heeresvorschriften zu Zuggeschirr für
+Artillerie-Gespanne durchsucht -- nichts Einschlägiges als US-Bundeswerk
+gefunden). Ein Merkblatt von 1916 mit denselben Autoren wie FB 1419
+("Sore Shoulders", State College of Washington und USDA gemeinsam) kam in
+Frage, ist aber laut Impressum ein Washington-State-Extension-Heft, kein
+reines USDA-Bundeswerk -- nicht verwendet.
+*Für diesen Abschnitt selbst also Fehlanzeige.* Bebildert wurde stattdessen
+ein anderer Abschnitt desselben Eintrags ("Pflege, an der es hakt: Schulter,
+Hufe und Zähne"), für den der Eintragstext fast wortgleich eine Aussage aus
+FB 1419 übernimmt (Hufwinkel/Sehnenspannung), die dort ebenfalls nur als
+Foto vorliegt, aber in einem anderen USDA Farmers' Bulletin (Nr. 179,
+"Horseshoeing", 1903) als Stich existiert -- siehe Bericht des Laufs b-seil.
+*Brauchbar wäre für Kummet/Geschirr selbst:* eine Strichzeichnung mit
+benannten Riemen (Kummet, Kumtstege, Zugstränge, Bauchgurt) aus einem noch
+nicht gefundenen US-Bundeswerk -- am ehesten in einem Heeres- oder
+Quartiermeister-Handbuch zu Zuggeschirr, falls eines mit Illustrationen
+auftaucht.
+
+**agrikultur-mais-mehl**, Abschnitt "Der Keim entscheidet über die
+Haltbarkeit" -- gesuchtes Motiv laut Auftrag: die Mahlgrade nebeneinander.
+Die einzige zitierte Quelle (Farmers' Bulletin 565, "Corn Meal as a Food
+and Ways of Using It") enthält im GANZEN Heft nur eine einzige Abbildung
+(Fig. 1, Seite 21, Foto eines Tellers "Corn-meal fish balls" -- ein
+fertiges Gericht); der Abschnitt "STRUCTURE OF THE CORN KERNEL" (Seite 5)
+ist reiner Fließtext, als Seite eigens gegengeprüft: kein Diagramm.
+Mahlgrade nebeneinander zeigt diese Quelle nirgends.
+
+Gefunden wurde stattdessen, wie es die Projektregeln erlauben (Abbildung
+aus einem zweifelsfrei gemeinfreien US-Bundeswerk außerhalb der belegten
+Quellen), USDA Farmers' Bulletin 112, "Bread and the Principles of Bread
+Making" (Helen W. Atwater, Fassung 1906, archive.org `CAT31127348`), Seite
+14, Figur 5: "Diagrammatic section of grain of corn" -- eine bemaßungsfreie
+Anatomiezeichnung des Maiskorns (Schale, Häutchen, Keimling, Schildchen,
+Mehlkörper), ohne Signatur oder Fremdvermerk (im Unterschied zu den
+Nachbarfiguren 3/4 desselben Hefts, die "(After Cobb.)" tragen). Das ist
+NICHT die gesuchte Mahlgrade-Gegenüberstellung, zeigt aber genau den
+Mechanismus, den der Abschnitt in Worten erklärt: wo im Korn der fettreiche
+Keimling sitzt, der beim Vermahlen entfernt oder belassen wird und damit
+die Haltbarkeit bestimmt. Bewusst als Ersatz verwendet und in der Fußzeile
+des Blattes offengelegt, dass die Zeichnung aus einem anderen Heft stammt
+als der Kapiteltext. Gebautes Blatt: `mais-kern-im-schnitt.png`.
+*Brauchbar wäre für die ursprünglich gesuchten Mahlgrade selbst:* ein Foto
+oder eine Zeichnung, die grobes/wassergemahlenes und feines/granuliertes
+Maismehl nebeneinander zeigt -- in keiner der geprüften Quellen vorhanden.
