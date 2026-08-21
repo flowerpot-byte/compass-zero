@@ -626,4 +626,38 @@ class LaienwoerterTest {
         fuehrtAuf(index, "bodenkampf", "taktisch-bodenkampf-grundpositionen")
         fuehrtAuf(index, "hebel", "taktisch-gelenkhebel")
     }
+
+    // Siebte Messrunde, 21.08.2026: Woerter, wie sie jemand tippt, der die
+    // Umlaut-Taste nicht benutzt. Von 51 solchen Woertern fanden vorher 37 im
+    // ganzen Paket NICHTS -- die Faltung macht aus "ö" ein "oe", und wer "o"
+    // tippt, trifft damit keinen Wortanfang.
+    //
+    // Seitdem gibt es in SearchIndex eine RUECKFALLEBENE: ein zweites, kleines
+    // Wortverzeichnis mit den umlautfreien Schreibweisen, das erst befragt wird,
+    // wenn die normale Suche gar nichts findet. Deshalb aendert sich an keiner
+    // Reihenfolge etwas, die vorher stimmte -- geprueft von allen Zeilen oben.
+    //
+    // Ein erster Versuch, beide Schreibweisen gleichrangig ins Hauptverzeichnis
+    // zu legen, ist verworfen worden: Dann traf "hoch" jedes "hoechstens",
+    // "kalt" jedes "Kaelte" und "gefahr" jedes "gefaehrdet", und vier
+    // festgenagelte Notfall-Wege fielen sofort um.
+    @Test
+    fun woerterOhneUmlautFindenTrotzdemIhrenEintrag() {
+        val index = index()
+        fuehrtAuf(index, "wurgegriff", "taktisch-wuergegriff-anwenden")
+        fuehrtAuf(index, "lause", "medizin-laeuse")
+        fuehrtAuf(index, "krauter", "medizin-heilpflanzen-grenzen")
+        fuehrtAuf(index, "flussigkeit", "wasser-falsche-fluessigkeiten")
+        fuehrtAuf(index, "offnen", "erste-hilfe-atemwege-oeffnen")
+        fuehrtAuf(index, "prufen", "erste-hilfe-atmung-pruefen")
+        fuehrtAuf(index, "ubernachten", "unterwegs-nachtlager-hoehe")
+        fuehrtAuf(index, "dungen", "agrikultur-duenger")
+        fuehrtAuf(index, "schadel", "erste-hilfe-kopfverletzung-warnzeichen")
+        fuehrtAuf(index, "fussgelenk", "taktisch-beinhebel")
+        // Gegenprobe: Die Schreibweise MIT Umlaut und die mit "ue" fuehren
+        // weiterhin genau dorthin, wo sie hingehoeren.
+        fuehrtAuf(index, "würgegriff", "taktisch-wuergegriff-anwenden")
+        fuehrtAuf(index, "wuergegriff", "taktisch-wuergegriff-anwenden")
+        fuehrtAuf(index, "läuse", "medizin-laeuse")
+    }
 }

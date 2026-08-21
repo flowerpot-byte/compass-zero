@@ -13,6 +13,25 @@ internal object Tokenizer {
         'ä' to "ae", 'ö' to "oe", 'ü' to "ue", 'ß' to "ss",
     )
 
+    // DIE ZWEITE FALTUNG, seit dem 21.08.2026. Sie deckt den Fall ab, dass
+    // jemand die Umlaut-Taste gar nicht benutzt: "korper" statt "Körper",
+    // "gefahrlich" statt "gefährlich", "notig" statt "nötig".
+    //
+    // WARUM DAS NOETIG WAR: Gemessen an 51 Woertern, die ein Mensch ohne
+    // Umlaut-Taste tippen wuerde, fanden 37 im ganzen Paket NICHTS -- darunter
+    // korper, gefahrlich, notig, flussigkeit, oberflache, erkaltung, ubelkeit,
+    // krauter, gemuse, uberleben. Die erste Faltung macht aus "ö" ein "oe";
+    // wer stattdessen "o" tippt, trifft damit keinen Wortanfang.
+    //
+    // WARUM BEIDE FORMEN INS VERZEICHNIS GEHEN und nicht nur die zweite: "Müller"
+    // wird oft "Mueller" geschrieben. Wer so tippt, muss den Text weiterhin
+    // finden. Beide Formen kosten zusammen rund 7 500 zusaetzliche Woerter und
+    // 51 000 zusaetzliche Vorkommen -- gemessen am Europa-Paket vom 21.08.2026,
+    // also 14 % des Wortschatz-Budgets und weit innerhalb der Vorkommensgrenze.
+    private val FOLD_OHNE_UMLAUT = mapOf(
+        'ä' to "a", 'ö' to "o", 'ü' to "u", 'ß' to "ss",
+    )
+
     // Schriften, die keine Wortabstaende setzen. Dort findet eine Suche nach
     // Wortanfaengen nur den Satzanfang, deshalb laufen sie ueber den Volltext.
     // Koreanisch fehlt hier bewusst: es setzt Wortabstaende wie europaeische
@@ -46,9 +65,27 @@ internal object Tokenizer {
 
     // Eine einzige Aufbereitung fuer alles: Wortliste, Volltext und Anfrage. Waeren
     // sie unterschiedlich, faende ein abgetippter Titel sich selbst nicht.
-    fun suchform(text: String): String? {
+    fun suchform(text: String): String? = suchformen(text)?.mitUmlaut
+
+    /**
+     * Beide Schreibweisen aus EINEM Durchlauf.
+     *
+     * WARUM IN EINEM DURCHLAUF UND NICHT NACHTRAEGLICH: Aus der fertigen ersten
+     * Form laesst sich die zweite nicht mehr sauber gewinnen. Dort steht "ue"
+     * sowohl fuer ein "ü" als auch fuer ein echtes "u" gefolgt von "e" -- aus
+     * "Quelle" wuerde "qulle", aus "Feuer" "feur", aus "bauen" "baun". Hier ist
+     * beim Falten noch bekannt, welches Zeichen wirklich dastand.
+     *
+     * ohneUmlaut ist null, wenn der Text gar keinen Umlaut enthaelt. Dann gibt
+     * es nichts Zweites zu speichern.
+     */
+    fun suchformen(text: String): Suchformen? {
         val vereinheitlicht = Texts.suchform(text) ?: return null
         val out = StringBuilder(vereinheitlicht.length)
+        // ERST BEIM ERSTEN UMLAUT ANLEGEN: Die allermeisten Felder haben keinen.
+        // Ein zweiter Puffer je Feld kostete beim Bau eines Pakets an der Grenze
+        // mehr Speicher, als am Ende uebrig war.
+        var ohne: StringBuilder? = null
         var i = 0
         while (i < vereinheitlicht.length) {
             val (codePunkt, weite) = codePunktBei(vereinheitlicht, i)
@@ -57,16 +94,53 @@ internal object Tokenizer {
             if (weite == 1) {
                 val klein = vereinheitlicht[i - 1].lowercaseChar()
                 val gefaltet = FOLD[klein]
-                if (gefaltet != null) out.append(gefaltet) else out.append(klein)
+                if (gefaltet != null) {
+                    val zweite = FOLD_OHNE_UMLAUT.getValue(klein)
+                    if (ohne == null && zweite != gefaltet) {
+                        ohne = StringBuilder(vereinheitlicht.length).append(out)
+                    }
+                    out.append(gefaltet)
+                    ohne?.append(zweite)
+                } else {
+                    out.append(klein)
+                    ohne?.append(klein)
+                }
             } else {
                 // Auch oberhalb der Grundebene gibt es Gross- und Kleinschreibung
                 // (Deseret, Adlam, Warang Citi). Wuerde das Zeichen hier
                 // unveraendert durchgereicht, faende eine kleingeschriebene
                 // Anfrage grossgeschriebenen Text nicht.
-                out.append(vereinheitlicht.substring(i - weite, i).lowercase())
+                val gesenkt = vereinheitlicht.substring(i - weite, i).lowercase()
+                out.append(gesenkt)
+                ohne?.append(gesenkt)
             }
         }
-        return out.toString()
+        return Suchformen(out.toString(), ohne?.toString())
+    }
+
+    class Suchformen(val mitUmlaut: String, val ohneUmlaut: String?)
+
+    /**
+     * Aus der zweiten Schreibweise nur die Woerter, die sich von der ersten
+     * wirklich unterscheiden.
+     *
+     * WARUM DAS NOETIG IST: Die zweite Form entsteht fuer das GANZE Feld, sobald
+     * darin irgendwo ein Umlaut steht. Wuerde sie ungefiltert mitgezaehlt, ginge
+     * jedes Wort dieses Feldes ein zweites Mal ins Verzeichnis -- auch die ohne
+     * Umlaut. Am 21.08.2026 hat genau das die Wortvorkommen von 554 115 auf
+     * 1 094 089 getrieben und das Paket unlesbar gemacht.
+     *
+     * Beide Formen entstehen aus demselben Text, und keine der beiden Faltungen
+     * aendert etwas an den Wortgrenzen. Die Listen sind deshalb gleich lang und
+     * stehen Wort fuer Wort untereinander.
+     */
+    fun nurAbweichende(erste: List<String>, ohneUmlaut: String?): List<String> {
+        if (ohneUmlaut == null) return emptyList()
+        val zweite = tokensAusSuchform(ohneUmlaut)
+        if (zweite.size != erste.size) return zweite
+        val out = ArrayList<String>()
+        for (i in erste.indices) if (zweite[i] != erste[i]) out.add(zweite[i])
+        return out
     }
 
     fun tokens(text: String): List<String> {
@@ -130,11 +204,39 @@ class SearchIndex private constructor(
     private val trefferGewicht: IntArray,
     private val docs: List<Doc>,
     private val volltext: Map<Int, List<Pair<String, Int>>>,
+    // Die Rueckfallebene fuer Anfragen ohne Umlaut, siehe suche unten. Beide
+    // Felder sind nach dem Wort sortiert und gleich lang: termsOhneUmlaut haelt
+    // die umlautfreie Schreibweise, zeigtAuf die Nummer des Wortes im
+    // Hauptverzeichnis. Die Trefferlisten werden NICHT verdoppelt.
+    private val termsOhneUmlaut: Array<String>,
+    private val zeigtAuf: IntArray,
 ) {
 
     internal class Doc(val kind: ContentKind, val id: String, val title: String)
 
+    /**
+     * Sucht erst wie immer. Findet das nichts, wird die Anfrage ein zweites Mal
+     * gegen die umlautfreien Schreibweisen gehalten.
+     *
+     * WARUM ALS RUECKFALL UND NICHT GLEICHRANGIG: Gleichrangig macht die Suche
+     * unschaerfer, nicht besser. Am 21.08.2026 gemessen: Werden beide
+     * Schreibweisen zusammen ins Hauptverzeichnis gelegt, trifft "hoch"
+     * ploetzlich jedes "hoechstens", "kalt" jedes "Kaelte", "gefahr" jedes
+     * "gefaehrdet" -- vier festgenagelte Notfall-Wege sind sofort umgefallen.
+     * Als Rueckfall aendert sich an keiner Reihenfolge etwas, die heute stimmt;
+     * es kommt nur etwas dort dazu, wo vorher gar nichts stand.
+     *
+     * WOFUER DAS DA IST: Wer die Umlaut-Taste nicht benutzt, tippt "korper",
+     * "gefahrlich", "notig", "erkaltung", "krauter". Von 51 solchen Woertern
+     * fanden am 21.08.2026 37 im ganzen Paket NICHTS.
+     */
     fun search(query: String, limit: Int = 20): List<SearchHit> {
+        val treffer = sucheMit(query, limit, false)
+        if (treffer.isNotEmpty()) return treffer
+        return sucheMit(query, limit, true)
+    }
+
+    private fun sucheMit(query: String, limit: Int, ohneUmlaut: Boolean): List<SearchHit> {
         if (limit <= 0) return emptyList()
         val worte = Tokenizer.tokens(query)
         if (worte.isEmpty()) return emptyList()
@@ -148,7 +250,7 @@ class SearchIndex private constructor(
             val treffer = if (Tokenizer.enthaeltOhneWortabstand(token)) {
                 matchVolltext(token)
             } else {
-                matchPrefix(token)
+                matchPrefix(token, ohneUmlaut)
             }
             // Ein Wort, das im ganzen Handbuch nirgends vorkommt, ist ein
             // Tippfehler oder gehoert nicht hierher. Dann bleibt die Anfrage leer:
@@ -245,18 +347,26 @@ class SearchIndex private constructor(
     // Das Vokabular ist sortiert, deshalb reicht die Einstiegsstelle und ein Lauf,
     // solange das Praefix passt. Ein Vollscan bei jedem Tastendruck waere auf
     // alten Geraeten sofort spuerbar.
-    private fun matchPrefix(token: String): Map<Int, Int> {
+    // Die Ebene wird DURCHGEREICHT und nicht in einem Feld gemerkt. Ein Feld
+    // waere ein stiller Fehler, sobald zwei Suchen gleichzeitig laufen -- die
+    // eine wuerde der anderen die Ebene unter den Fuessen wegziehen, und heraus
+    // kaeme ein Ergebnis, das niemand nachvollziehen kann.
+    private fun matchPrefix(token: String, rueckfall: Boolean): Map<Int, Int> {
+        val liste = if (rueckfall) termsOhneUmlaut else terms
         var low = 0
-        var high = terms.size
+        var high = liste.size
         while (low < high) {
             val mid = (low + high) / 2
-            if (terms[mid] < token) low = mid + 1 else high = mid
+            if (liste[mid] < token) low = mid + 1 else high = mid
         }
         val matches = HashMap<Int, Int>()
         var i = low
-        while (i < terms.size && terms[i].startsWith(token)) {
-            val bonus = if (terms[i] == token) 1 else 0
-            for (t in termStart[i] until termStart[i + 1]) {
+        while (i < liste.size && liste[i].startsWith(token)) {
+            val bonus = if (liste[i] == token) 1 else 0
+            // In der Rueckfallebene steht hier nur die Nummer des Wortes im
+            // Hauptverzeichnis; die Trefferliste ist dieselbe.
+            val wort = if (rueckfall) zeigtAuf[i] else i
+            for (t in termStart[wort] until termStart[wort + 1]) {
                 val score = trefferGewicht[t] + bonus
                 val doc = trefferDoc[t]
                 if (score > (matches[doc] ?: 0)) matches[doc] = score
@@ -282,6 +392,12 @@ class SearchIndex private constructor(
             // bei sich wiederholendem Text ein Vielfaches.
             val wortNummer = HashMap<String, Int>()
             val worte = ArrayList<String>()
+            // Die Rueckfallebene: umlautfreie Schreibweise -> Nummer des Wortes
+            // im Hauptverzeichnis. Sie wird beim Bauen gefuellt, weil nur dort
+            // noch bekannt ist, ob ein "ue" aus einem "ü" stammt oder aus einem
+            // echten "u" gefolgt von "e" -- aus dem fertigen Wort "quelle" liesse
+            // sich das nicht mehr unterscheiden.
+            val ohneUmlautZuWort = HashMap<String, Int>()
             var paarWort = IntArray(1024)
             var paarDoc = IntArray(1024)
             var paarGewicht = IntArray(1024)
@@ -314,9 +430,18 @@ class SearchIndex private constructor(
                 val proEintrag = HashMap<Int, Int>()
                 for ((teile, weight) in felder) {
                     for (teil in teile) {
-                        val aufbereitet = Tokenizer.suchform(teil) ?: continue
+                        val formen = Tokenizer.suchformen(teil) ?: continue
+                        val aufbereitet = formen.mitUmlaut
                         if (Tokenizer.enthaeltOhneWortabstand(aufbereitet)) volleTeile.add(aufbereitet to weight)
-                        for (token in Tokenizer.tokensAusSuchform(aufbereitet)) {
+                        val ersteTokens = Tokenizer.tokensAusSuchform(aufbereitet)
+                        // Die umlautfreie Schreibweise wird hier nur GEMERKT, nicht
+                        // ins Hauptverzeichnis gelegt: Beide Listen entstehen aus
+                        // demselben Text, keine der beiden Faltungen verschiebt eine
+                        // Wortgrenze, also stehen sie Wort fuer Wort untereinander.
+                        val zweiteTokens = formen.ohneUmlaut
+                            ?.let { Tokenizer.tokensAusSuchform(it) }
+                            ?.takeIf { it.size == ersteTokens.size }
+                        for ((stelle, token) in ersteTokens.withIndex()) {
                             // Woerter aus Schriften ohne Wortabstand sind ganze Saetze.
                             // Als Wortliste kosten sie viel Speicher und finden nur
                             // Satzanfaenge — die deckt der Volltext ab. Gemischte Felder
@@ -328,6 +453,8 @@ class SearchIndex private constructor(
                             }
                             val bisher = proEintrag[nummer]
                             if (bisher == null || weight > bisher) proEintrag[nummer] = weight
+                            val ohne = zweiteTokens?.get(stelle)
+                            if (ohne != null && ohne != token) ohneUmlautZuWort[ohne] = nummer
                         }
                     }
                 }
@@ -384,7 +511,7 @@ class SearchIndex private constructor(
             // Megabytes und lebte bisher waehrend des gesamten Indexaufbaus
             // weiter -- genau in der Spitze, in der der Speicher knapp wird.
             wortNummer.clear()
-            return baue(worte, paarWort, paarDoc, paarGewicht, paare, docs, volltext)
+            return baue(worte, paarWort, paarDoc, paarGewicht, paare, docs, volltext, ohneUmlautZuWort)
         }
 
         // Ordnet die Woerter alphabetisch und legt die Treffer in
@@ -398,6 +525,7 @@ class SearchIndex private constructor(
             paare: Int,
             docs: List<Doc>,
             volltext: Map<Int, List<Pair<String, Int>>>,
+            ohneUmlautZuWort: Map<String, Int>,
         ): SearchIndex {
             // Der Rang wird ueber eine sortierte Reihenfolge der Nummern bestimmt,
             // nicht ueber eine zweite Wortkarte. Eine solche Karte haette jedes
@@ -424,7 +552,42 @@ class SearchIndex private constructor(
                 trefferGewicht[stelle] = paarGewicht[i]
             }
 
-            return SearchIndex(terms, start, trefferDoc, trefferGewicht, docs, volltext)
+            // Die Rueckfallebene: fuer jedes Wort mit Umlaut die umlautfreie
+            // Schreibweise, sortiert, mit Verweis auf das Wort selbst. Woerter,
+            // deren umlautfreie Form es ohnehin schon gibt, bleiben weg -- die
+            // findet die normale Suche.
+            // GEPRUEFT WIRD MIT BINAERER SUCHE, NICHT MIT EINER MENGE: Ein
+            // HashSet ueber alle Woerter haelt bei 300 000 Woertern zweistellige
+            // Megabytes -- und zwar genau in der Spitze des Indexaufbaus, in der
+            // auf alten Geraeten der Speicher knapp wird. Am 21.08.2026 sind die
+            // beiden Grenzwert-Tests genau daran gestorben. terms ist sortiert,
+            // also kostet die Frage nichts.
+            fun istSchonWort(wort: String): Boolean {
+                var low = 0
+                var high = terms.size - 1
+                while (low <= high) {
+                    val mid = (low + high) / 2
+                    val c = terms[mid].compareTo(wort)
+                    if (c == 0) return true
+                    if (c < 0) low = mid + 1 else high = mid - 1
+                }
+                return false
+            }
+            val paareOhne = ArrayList<Pair<String, Int>>(ohneUmlautZuWort.size)
+            for ((ohne, nummer) in ohneUmlautZuWort) {
+                // Gibt es die umlautfreie Schreibweise ohnehin als eigenes Wort,
+                // findet sie die normale Suche schon -- dann waere der Eintrag
+                // hier nur Ballast.
+                if (istSchonWort(ohne)) continue
+                paareOhne.add(ohne to rangVon[nummer])
+            }
+            paareOhne.sortBy { it.first }
+            val termsOhne = Array(paareOhne.size) { paareOhne[it].first }
+            val zeigtAuf = IntArray(paareOhne.size) { paareOhne[it].second }
+
+            return SearchIndex(
+                terms, start, trefferDoc, trefferGewicht, docs, volltext, termsOhne, zeigtAuf,
+            )
         }
     }
 }
