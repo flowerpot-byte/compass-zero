@@ -476,10 +476,11 @@ class AltgeraetSpeicherTest {
     // die Grenze ohne Vorwarnung riss.
     @Test
     fun suchbudgetWarntAbNeunzigProzentOhneDasLadenZuVerhindern() {
-        // 542 400 Vorkommen bei nur rund 2 000 verschiedenen Woertern: reichlich
-        // ueber 90 % der Vorkommensgrenze und weit unter der Wortschatz-Grenze,
-        // damit wirklich die gemeinte Warnung geprueft wird.
-        val agricultureJson = agricultureJsonMitVorkommen(270, wortschatz = 2_000)
+        // 682 400 Vorkommen bei nur rund 2 000 verschiedenen Woertern: reichlich
+        // ueber 90 % der Vorkommensgrenze (675 000) und weit unter der
+        // Wortschatz-Grenze, damit wirklich die gemeinte Warnung geprueft wird.
+        // Am 21.08.2026 mit der Grenze von 600 000 auf 750 000 mitgewandert.
+        val agricultureJson = agricultureJsonMitVorkommen(340, wortschatz = 2_000)
         val result = PackParser.parse(
             mapOf(
                 "manifest.json" to agricultureManifest.encodeToByteArray(),
@@ -554,8 +555,8 @@ class AltgeraetSpeicherTest {
     @Test
     fun zuVieleWortvorkommenWerdenVorDemIndexbauAbgelehnt() {
         // Der Fund des neunten Pruefdurchgangs: das Zeichenbudget schuetzt nicht
-        // vor sehr vielen kurzen Woertern. Ein Paket mit 602 400 Wortvorkommen
-        // (200 * 10 * 300 plus Ueberschriften/Titel) liegt ueber der
+        // vor sehr vielen kurzen Woertern. Ein Paket mit 762 400 Wortvorkommen
+        // (200 * 10 * 380 plus Ueberschriften/Titel) liegt ueber der
         // Grenze — und muss abgelehnt werden, bevor SearchIndex.build
         // ueberhaupt aufgerufen wird. Genau das war der Fehler: ein Paket, das
         // die dokumentierten Grenzen einhaelt, aber beim Indexaufbau real den
@@ -563,7 +564,7 @@ class AltgeraetSpeicherTest {
         //
         // Die Zahl haengt an ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN und muss
         // bei jeder Aenderung mitwandern, sonst prueft der Test nichts mehr.
-        val agricultureJson = agricultureJsonMitVorkommen(300, wortschatz = 2_000)
+        val agricultureJson = agricultureJsonMitVorkommen(380, wortschatz = 2_000)
         val result = PackParser.parse(
             mapOf(
                 "manifest.json" to agricultureManifest.encodeToByteArray(),
@@ -576,5 +577,154 @@ class AltgeraetSpeicherTest {
             "content-too-many-search-terms" in result.problems.map { it.code },
             "erwartet content-too-many-search-terms, war " + result.problems.map { it.code },
         )
+    }
+
+    /**
+     * Testwort mit frei waehlbarer Laenge: "w" plus n Buchstaben.
+     *
+     * WOZU EINE DRITTE FORM NEBEN wortKurz UND wortNummer: Die beiden alten
+     * treiben je eine Groesse (Vorkommen bzw. Wortschatz) und legen die anderen
+     * still fest. Fuer die Messungen unten braucht es beides zugleich am
+     * Anschlag, und dafuer muss die Wortlaenge einstellbar sein: Sie entscheidet,
+     * wie viele ZEICHEN auf ein Vorkommen kommen.
+     */
+    private fun wortMitLaenge(n: Int, buchstaben: Int): String {
+        val stellen = "abcdefghijklmnopqrstuvwxyz"
+        var rest = n
+        val sb = StringBuilder("w")
+        repeat(buchstaben) {
+            sb.append(stellen[rest % 26])
+            rest /= 26
+        }
+        return sb.toString()
+    }
+
+    /**
+     * Baut ein Paket aus zwei Dateien, misst nach, dass es wirklich am Anschlag
+     * liegt, und laedt und indiziert es dann bei 96 MB.
+     *
+     * WARUM ZWEI DATEIEN: Ein einzelnes agriculture.json mit mehreren Millionen
+     * Zeichen waere groesser als MAX_JSON_BYTES (4 MiB). Dann griffe die
+     * Bytegrenze, und die Messung meldete eine ganz andere Grenze als die
+     * gemeinte -- derselbe stille Fehlschlag, gegen den sich der Baukasten
+     * weiter oben schon absichert.
+     */
+    private fun messeAmBudget(buchstaben: Int, woerterJeAbschnitt: Int, woerterJeTipp: Int) {
+        val wortschatz = 299_000
+        var zaehler = 0
+        fun woerter(anzahl: Int): String = buildString {
+            repeat(anzahl) {
+                if (it > 0) append(' ')
+                append(wortMitLaenge(zaehler % wortschatz, buchstaben))
+                zaehler++
+            }
+        }
+
+        val kapitel = buildString {
+            append("""{"schema":1,"chapters":[""")
+            for (k in 1..ContentLimits.MAX_CHAPTERS) {
+                if (k > 1) append(',')
+                append("""{"id":"kapitel-$k","title":"Kapitel","sections":[""")
+                for (a in 1..10) {
+                    if (a > 1) append(',')
+                    append("""{"heading":"Abschnitt","body":"""").append(woerter(woerterJeAbschnitt)).append(""""}""")
+                }
+                append("""],"sources":[{"name":"Beispielquelle","detail":"Abschnitt 1"}]}""")
+            }
+            append("]}")
+        }
+        val tipps = buildString {
+            append("""{"schema":1,"tips":[""")
+            for (i in 1..ContentLimits.MAX_ITEMS_PER_FILE) {
+                if (i > 1) append(',')
+                append("""{"id":"tipp-$i","title":"Tipp","category":"wasser","body":"""")
+                append(woerter(woerterJeTipp))
+                append("""","sources":[{"name":"Beispielquelle","detail":"Abschnitt 1"}]}""")
+            }
+            append("]}")
+        }
+        check(kapitel.length <= ContentLimits.MAX_JSON_BYTES) {
+            "agriculture.json ist ${kapitel.length} Bytes gross, erlaubt sind " +
+                "${ContentLimits.MAX_JSON_BYTES} -- dann greift die Bytegrenze statt der gemeinten."
+        }
+        check(tipps.length <= ContentLimits.MAX_JSON_BYTES) {
+            "tips.json ist ${tipps.length} Bytes gross, erlaubt sind ${ContentLimits.MAX_JSON_BYTES}."
+        }
+
+        val manifest = """{"schema":1,"id":"org.compasszero.test","version":1,"language":"de",""" +
+            """"title":"Testpaket","kinds":["tips","agriculture"]}"""
+        val result = PackParser.parse(
+            mapOf(
+                "manifest.json" to manifest.encodeToByteArray(),
+                "content/agriculture.json" to kapitel.encodeToByteArray(),
+                "content/tips.json" to tipps.encodeToByteArray(),
+            ),
+            emptySet(),
+        )
+        val pack = result.pack
+        assertTrue(
+            pack != null,
+            "Paket am Budget muss laden: " + result.problems.take(3).map { it.code },
+        )
+
+        var zeichen = 0L
+        var vorkommen = 0L
+        val verschiedene = HashSet<String>()
+        fun zaehle(text: String) {
+            zeichen += text.length.toLong()
+            for (wort in text.split(' ')) {
+                if (wort.isEmpty()) continue
+                vorkommen++
+                verschiedene.add(wort)
+            }
+        }
+        for (t in pack.tips) { zaehle(t.title); zaehle(t.body); t.keywords.forEach(::zaehle) }
+        for (c in pack.agriculture) { zaehle(c.title); c.sections.forEach { zaehle(it.heading); zaehle(it.body) } }
+        println("Budget-Messung: $zeichen Zeichen, $vorkommen Vorkommen, ${verschiedene.size} verschiedene")
+
+        assertTrue(
+            verschiedene.size >= ContentLimits.MAX_SUCHINDEX_VERSCHIEDENE_WOERTER * 9 / 10,
+            "misst nicht am Anschlag: nur ${verschiedene.size} von " +
+                "${ContentLimits.MAX_SUCHINDEX_VERSCHIEDENE_WOERTER} verschiedenen Woertern",
+        )
+        assertTrue(
+            zeichen >= ContentLimits.MAX_SUCHTEXT_ZEICHEN * 9 / 10 ||
+                vorkommen >= ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN * 9 / 10,
+            "misst nicht am Anschlag: $zeichen Zeichen und $vorkommen Vorkommen",
+        )
+
+        val index = SearchIndex.build(pack)
+        assertTrue(index.search("waaaa").isNotEmpty(), "der Index kennt die Woerter nicht")
+    }
+
+    // DIE MESSUNG ZU MAX_SUCHTEXT_ZEICHEN, angelegt am 21.08.2026.
+    //
+    // WARUM ES SIE VORHER NICHT GAB: Die Zeichengrenze stand seit Juli als
+    // "gemessen" da, aber kein Test hat je ein Paket gebaut, das sie zusammen
+    // mit dem vollen Wortschatz ausreizt. einPaketAnAllenGrenzenLaedtUndIndiziert
+    // kommt nicht in die Naehe -- es fuellt agriculture mit kurzen Woertern und
+    // bleibt bei rund einem Drittel des Zeichenbudgets.
+    //
+    // WAS DIE MESSUNG AM 21.08.2026 ERGEBEN HAT (96 MB Heap, Wortschatz 299 003):
+    //   3 712 400 Zeichen / 467 200 Vorkommen -> laedt und indiziert
+    //   4 472 400 Zeichen / 562 200 Vorkommen -> laedt und indiziert
+    //   4 792 400 Zeichen / 602 200 Vorkommen -> laedt und indiziert
+    //   5 320 400 Zeichen / 668 200 Vorkommen -> OutOfMemoryError
+    //   5 792 400 Zeichen / 727 200 Vorkommen -> OutOfMemoryError
+    // Die Wand steht also zwischen 4 792 400 und 5 320 400 Zeichen, SOLANGE der
+    // Wortschatz voll ausgereizt ist. Die Grenze von 4 500 000 liegt rund ein
+    // Sechstel unter dem letzten Stand, der noch getragen hat.
+    @Test
+    fun einPaketAmZeichenbudgetLaedtUndIndiziert() {
+        messeAmBudget(buchstaben = 6, woerterJeAbschnitt = 150, woerterJeTipp = 51)
+    }
+
+    // Der andere schlimmste Fall: viele VORKOMMEN bei vollem Wortschatz, aber
+    // kurzen Woertern. Die alten Vorkommens-Tests messen mit einem Wortschatz von
+    // 2 000 -- dort kostet das Verzeichnis fast nichts. Erst beides zusammen
+    // zeigt, ob MAX_SUCHINDEX_WORTVORKOMMEN traegt.
+    @Test
+    fun vieleVorkommenBeiVollemWortschatzLadenUndIndizieren() {
+        messeAmBudget(buchstaben = 4, woerterJeAbschnitt = 190, woerterJeTipp = 70)
     }
 }

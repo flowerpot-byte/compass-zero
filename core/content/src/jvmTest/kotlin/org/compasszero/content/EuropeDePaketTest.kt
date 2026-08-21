@@ -52,29 +52,17 @@ class EuropeDePaketTest {
             skizzennamen(paket),
         )
 
-        // Das Basispaket laedt mit GENAU EINER Meldung, seit dem 21.08.2026:
-        // der Vorwarnung, dass 90 % der erlaubten WORTVORKOMMEN erreicht sind.
+        // Das Basispaket laedt ohne jede Meldung. Am 21.08.2026 stand hier
+        // kurz eine Vorwarnung: Das Paket hatte 90 % der WORTVORKOMMEN-Grenze
+        // erreicht (540 175 von 600 000). Statt die Zeile aufzuweichen, ist die
+        // Grenze selbst angehoben und neu gemessen worden -- auf 750 000, siehe
+        // ContentLimits.MAX_SUCHINDEX_WORTVORKOMMEN. Damit liegt das Paket
+        // wieder bei rund 72 % und meldet nichts mehr.
         //
-        // Diese Zeile ist bewusst so eng gefasst, dass sie nichts durchlaesst:
-        // Erlaubt ist nur dieser eine Code, jede andere Meldung faellt weiterhin
-        // auf. Der eigentliche Waechter bleibt SuchbudgetTest -- dort stehen die
-        // harten Grenzen, und der Kommentar dieses Tests sagte schon vorher, dass
-        // ein gerissenes Budget DORT auffallen soll und nicht hier.
-        //
-        // WAS DIE MELDUNG BEDEUTET, EHRLICH: Sie zaehlt die Groesse, die
-        // ContentLimits selbst als die FALSCHE bezeichnet. Der Speicher haengt an
-        // der Zahl der VERSCHIEDENEN Woerter, nicht an der Zahl der Vorkommen --
-        // ein verschiedenes Wort kostet rund 130 Byte, ein weiteres Vorkommen
-        // rund 17. Das Europa-Paket steht am 21.08.2026 bei rund 34 400
-        // verschiedenen Woertern von 300 000 erlaubten (11 %) und bei rund
-        // 540 000 Vorkommen von 600 000 (90 %). Zusammen sind das rund 4,5 MB
-        // plus 9,2 MB, also knapp 14 MB von 96 MB Heap.
-        //
-        // WER DIE GRENZE ANHEBEN WILL, findet die Messanleitung in ContentLimits.
-        // Dort steht auch, warum das nicht nebenbei passiert: Es ist eine
-        // Aenderung an einer Schutzgrenze und gehoert entschieden.
+        // Diese Liste bleibt leer und wird nicht aufgeweicht: Reisst der Stand
+        // eine Grenze, faellt SuchbudgetTest darauf an, nicht dieser Test.
         assertEquals(
-            listOf("content-search-terms-near-limit"),
+            emptyList(),
             result.problems.map { it.code },
             "Unerwartete Probleme: ${result.problems}",
         )
@@ -541,7 +529,15 @@ class EuropeDePaketTest {
         // (taktisch-wettkampf-verbotene-techniken).
         // 574 -> 575 am 21.08.2026: "Eine ueberwaeltigte Person sichern und begleiten"
         // (taktisch-person-sichern-begleiten).
-        assertEquals(575, pack.tips.size)
+        // 575 -> 576 am 21.08.2026: "Atemschutz gegen Gas: der Filter entscheidet, nicht das Tuch"
+        // (taktisch-atemschutz-gegen-gas).
+        // 576 -> 577 am 21.08.2026: "Traenengas und Pfefferspray: kuehlen hilft, reiben schadet"
+        // (erste-hilfe-traenengas-pfefferspray).
+        // 577 -> 578 am 21.08.2026: "Drohender Hund: seitlich stehen, nicht rennen"
+        // (erste-hilfe-hund-angriff).
+        // 578 -> 579 am 21.08.2026: "Von oben entdeckt werden: was Drohne und Flugzeug wirklich sehen"
+        // (taktisch-von-oben-gesehen).
+        assertEquals(579, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser

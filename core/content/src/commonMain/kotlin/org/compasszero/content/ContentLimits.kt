@@ -33,9 +33,36 @@ object ContentLimits {
     // Mehr Dringlichkeitsfelder als es gibt, kann ein Eintrag nicht tragen.
     const val MAX_SITUATIONS = 6
     // Der durchsuchbare Text liegt beim Suchen vollstaendig im Speicher. Diese
-    // Grenze haelt den Suchindex auf alten Geraeten tragbar und ist gemessen,
-    // nicht geschaetzt.
-    const val MAX_SUCHTEXT_ZEICHEN = 4_000_000
+    // Grenze haelt den Suchindex auf alten Geraeten tragbar.
+    //
+    // AM 21.08.2026 VON 4 000 000 AUF 4 500 000 ANGEHOBEN -- und dabei stellte
+    // sich heraus, dass die alte Zahl zwar "gemessen" hiess, aber nie ein Test
+    // sie zusammen mit dem vollen Wortschatz ausgereizt hat.
+    // einPaketAnAllenGrenzenLaedtUndIndiziert fuellt agriculture mit kurzen
+    // Woertern und bleibt bei rund einem Drittel des Zeichenbudgets.
+    //
+    // Jetzt gemessen, bei 96 MB Heap und 299 003 verschiedenen Woertern, mit
+    // einem Paket aus zwei Dateien (ein einzelnes agriculture.json waere
+    // groesser als MAX_JSON_BYTES):
+    //   3 712 400 Zeichen / 467 200 Vorkommen -> laedt und indiziert
+    //   4 472 400 Zeichen / 562 200 Vorkommen -> laedt und indiziert
+    //   4 792 400 Zeichen / 602 200 Vorkommen -> laedt und indiziert
+    //   5 320 400 Zeichen / 668 200 Vorkommen -> OutOfMemoryError
+    //   5 792 400 Zeichen / 727 200 Vorkommen -> OutOfMemoryError
+    // Die Wand steht zwischen 4 792 400 und 5 320 400 Zeichen, solange der
+    // Wortschatz voll ausgereizt ist. 4 500 000 liegt rund ein Sechstel unter
+    // dem letzten Stand, der noch getragen hat.
+    //
+    // DIE DREI GRENZEN HAENGEN ZUSAMMEN, das war vorher nirgends festgehalten:
+    // Wer die Zeichen deckelt, deckelt die Vorkommen mit -- bei kurzen Woertern
+    // von fuenf Zeichen passen in 4 500 000 Zeichen hoechstens 750 000
+    // Vorkommen. Genau dieser Fall ist am 21.08.2026 mitgemessen worden:
+    //   4 412 400 Zeichen / 737 200 Vorkommen / 299 003 verschiedene -> traegt.
+    //
+    // WER WEITER ANHEBEN WILL, misst mit AltgeraetSpeicherTest.messeAmBudget:
+    // Wortlaenge, Woerter je Abschnitt und Woerter je Tipp einstellen, bis die
+    // gemeinte Groesse am Anschlag liegt, dann bei 96 MB laden UND indizieren.
+    const val MAX_SUCHTEXT_ZEICHEN = 4_500_000
     // Das Zeichenbudget allein schuetzt nicht: kurze, lauter verschiedene Woerter
     // bleiben weit darunter und sprengen trotzdem das Wortverzeichnis, weil jedes
     // Wort dort einen eigenen Eintrag braucht.
@@ -104,7 +131,33 @@ object ContentLimits {
     // Gemessen wird so: ein Paket aus lauter verschiedenen Woertern bauen, bei
     // 96 MB Heap laden UND indizieren. AltgeraetSpeicherTest tut genau das an
     // der jeweils geltenden Grenze.
-    const val MAX_SUCHINDEX_WORTVORKOMMEN = 600_000
+    //
+    // AM 21.08.2026 VON 600 000 AUF 750 000 ANGEHOBEN, auf Max' ausdrueckliche
+    // Ansage. Warum das jetzt traegt und im Juli nicht:
+    //   - Die alte Zahl stammte aus der Zeit, als es NUR diese eine Grenze gab.
+    //     Damals war jedes zusaetzliche Vorkommen im teuersten Fall zugleich ein
+    //     zusaetzliches VERSCHIEDENES Wort, und genau daran ist der Speicher
+    //     gestorben (die Wand lag zwischen 620 010 und 630 012).
+    //   - Seit dem 20.08.2026 gibt es die eigene Grenze auf die Verschiedenheit
+    //     (300 000). Der teure Fall von damals ist damit gar nicht mehr baubar:
+    //     Ein Paket mit 750 000 lauter verschiedenen Woertern wird schon von
+    //     MAX_SUCHINDEX_VERSCHIEDENE_WOERTER abgelehnt, lange bevor der Index
+    //     gebaut wird.
+    //   - Der schlimmste Fall, den es noch gibt, ist beides gleichzeitig am
+    //     Anschlag: 300 000 * 130 Byte + 750 000 * 17 Byte = rund 52 MB von
+    //     96 MB. Vorher waren es rund 49 MB -- der Zuwachs kostet also gut
+    //     2,5 MB, kein Vielfaches.
+    // Nachgemessen am 21.08.2026 mit den Tests dieser Datei bei 96 MB Heap:
+    //   682 400 Vorkommen (90 % der neuen Grenze) -> laedt mit Vorwarnung
+    //   762 400 Vorkommen (ueber der neuen Grenze) -> wird abgelehnt
+    //   Paket an allen Grenzen zugleich            -> laedt und indiziert
+    //
+    // WAS DAMIT NICHT ANGEHOBEN IST: MAX_SUCHTEXT_ZEICHEN. Fuer das echte
+    // Europa-Paket ist das seit dem 21.08.2026 die engste Grenze (3,6 von
+    // 4 Millionen Zeichen). Eine Anhebung dort braucht eine eigene Messung mit
+    // einem Testpaket, das die Zeichen ueber mehrere Dateien verteilt -- ein
+    // einzelnes agriculture.json stoesst vorher an MAX_JSON_BYTES.
+    const val MAX_SUCHINDEX_WORTVORKOMMEN = 750_000
 
     // UND DIE GRENZE, DIE WIRKLICH DEN SPEICHER BESCHREIBT: wie viele
     // VERSCHIEDENE Woerter im Wortverzeichnis stehen duerfen.
