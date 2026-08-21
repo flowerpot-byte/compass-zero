@@ -541,4 +541,32 @@ class LaienwoerterTest {
         fuehrtAuf(index, "entkeimungstabletten", "wasser-chlor-entkeimung")
         fuehrtAuf(index, "chlortabletten", "wasser-chlor-entkeimung")
     }
+
+    // Fuenfte Messrunde, 21.08.2026: sechzig Alltagswoerter aus dem taktischen
+    // Bereich -- mit 120 Eintraegen der groesste, der nie abgesucht war.
+    //
+    //   "pluendern"  fand GAR NICHTS. Der Eintrag heisst "Aufruhr und
+    //                Pluenderung", und "pluendern" ist kein Wortanfang davon --
+    //                die beiden trennen sich beim achten Buchstaben.
+    //   "bunker"     fuehrte auf "Minen in der Gegend". Wer das tippt, will
+    //                wissen, wohin er sich in Sicherheit bringt, und genau das
+    //                beantwortet "Hoch, tief oder raus".
+    @Test
+    fun alltagswoerterFuerLageUndGefahrFuehrenZumRichtigenEintrag() {
+        val index = index()
+        fuehrtAuf(index, "plündern", "taktisch-aufruhr-pluenderung")
+        fuehrtAuf(index, "plünderer", "taktisch-aufruhr-pluenderung")
+        fuehrtAuf(index, "randale", "taktisch-aufruhr-pluenderung")
+        fuehrtAuf(index, "bunker", "taktisch-wohin-schutz")
+        fuehrtAuf(index, "schutz suchen", "taktisch-wohin-schutz")
+        // Gegenprobe: die Minen haben ihren eigenen Treffer behalten.
+        fuehrtAuf(index, "minen", "taktisch-minen-gegenden")
+        // Diese waren schon richtig und sollen es bleiben.
+        fuehrtAuf(index, "gedränge", "taktisch-gedraenge")
+        fuehrtAuf(index, "sirene", "taktisch-sirene-verstehen")
+        fuehrtAuf(index, "erdbeben", "taktisch-erdbeben")
+        fuehrtAuf(index, "entführt", "taktisch-entfuehrung")
+        fuehrtAuf(index, "notwehr", "taktisch-notwehr-rechtslage")
+        fuehrtAuf(index, "abschleppen", "taktisch-fahrzeug-abschleppen")
+    }
 }
