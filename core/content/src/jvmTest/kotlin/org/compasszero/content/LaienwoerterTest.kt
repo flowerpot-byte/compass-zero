@@ -568,5 +568,12 @@ class LaienwoerterTest {
         fuehrtAuf(index, "entführt", "taktisch-entfuehrung")
         fuehrtAuf(index, "notwehr", "taktisch-notwehr-rechtslage")
         fuehrtAuf(index, "abschleppen", "taktisch-fahrzeug-abschleppen")
+        // "notunterkunft" fuehrte am 21.08.2026 auf Gerstenkorn, Madenwurm und
+        // Masern. Es gibt drei Notunterstand-Anleitungen, aber "Notunterkunft"
+        // ist kein Wortanfang von "Notunterstand" -- und Anleitungen haben kein
+        // Schlagwortfeld, also musste es in den Titel.
+        fuehrtAuf(index, "notunterkunft", "notunterstand-lean-to")
+        fuehrtAuf(index, "laubhütte", "notunterstand-laubhuette")
+        fuehrtAuf(index, "schnee unterstand", "notunterstand-schnee")
     }
 }

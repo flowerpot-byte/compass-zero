@@ -438,7 +438,7 @@ class QuerverweiseTest {
         // 02.08.2026 konnte dieser Test sie gar nicht ausdruecken, weil er nur
         // Tipps kannte -- sie standen also voellig ungeprueft da.
         Triple("notunterstand-schnee", "erste-hilfe-kohlenmonoxid-erkennen", "Kohlenmonoxid: unsichtbar und geruchlos"),
-        Triple("notunterstand-schnee", "notunterstand-lean-to", "Behelfs-Lean-to aus Naturmaterial"),
+        Triple("notunterstand-schnee", "notunterstand-lean-to", "Notunterkunft aus Naturmaterial: der Lean-to"),
         Triple("notunterstand-schnee", "taktisch-gruppe-einteilen", "Eine Gruppe einteilen: Aufgaben, Wache, Buch"),
         Triple("wasser-nach-atomschlag", "wasser-schnee-eis", "Schnee und Eis: erst schmelzen, dann trinken"),
         Triple("werkzeug-klinge-behelfsmaessig", "seilwerk-grundknoten", "Knoten und Lashings fürs Überleben: die Grundknoten"),
