@@ -10770,3 +10770,76 @@ amtliches Werk und damit gemeinfrei.
 - Brian Post, Peter Welch: „How To Build a Sturdy Dry Stone Wall“ (The FIVE Basic Rules Of Dry Stone Walling), The Stone Trust, Dummerston, Vermont, ©2018, thestonetrust.org. Gemeinnützige Organisation zur Erhaltung des Trockenmauer-Handwerks. Vollständig gelesen und abgerufen am 21.08.2026. Urheberrechtlich geschütztes Merkblatt, keine gemeinfreie Quelle; nur Tatsachen übernommen, Wortlaut und Gliederung eigen, keine Abbildung übernommen.
 
   Verwendet für: `taktisch-trockenmauer-bauen`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### US Army / US Special Operations Command
+
+- „ST 31-91B Special Forces Medical Handbook“, 1982, Abschnitt 2-31 CHOLERA: explosiver Beginn, häufiger, wässriger, geruch- und farbloser Stuhl bis 1 Liter je Stunde, rasche Austrocknung mit Schock; Unschädlichmachung der Ausscheidungen unerlässlich, strenge Absonderung unnötig, Quarantäne unerwünscht. Volltext work/quellen/werke-frei/us-army-st31-91b-sf-medical-handbook-1982-fulltext.txt, gelesen 21.08.2026. US-Bundesregierung, frei nach § 121 Abs. 4 UrhG, 17 U.S.C. § 105.
+
+  Verwendet für: `medizin-cholera`.
+
+### Ärzte ohne Grenzen (MSF)
+
+- MSF Medical Guidelines, Cholera-Leitlinie, Anhang 15 „Preparation and use of chlorine solutions“, medicalguidelines.msf.org, abgerufen am 21.08.2026: 0,2 % Chlorlösung für Böden, Flächen, Material, Schürzen, Stiefel, Geschirr sowie Eimer für Stuhl und Erbrochenes; 0,05 % für Hände und Wäsche; 15 Minuten Einwirkzeit; Verdünnungsformel für Flüssigbleiche (Prozent Chlor in Bleiche geteilt durch gewünschte Prozentzahl, minus eins ergibt Wasserteile je Bleicheteil).
+
+  Verwendet für: `hygiene-chlor-flaechen`.
+
+### TRBA 250 (Technische Regel für Biologische Arbeitsstoffe)
+
+- „Biologische Arbeitsstoffe im Gesundheitswesen und in der Wohlfahrtspflege“, wiedergegeben auf abfallmanager-medizin.de, „Sichere Entsorgung von Spritzen“, abgerufen am 21.08.2026: kein Recapping (Schutzkappe nicht zurückstecken), Kanüle nicht verbiegen oder abknicken, durchstich- und bruchfeste, fest verschließbare Behälter nötig.
+
+  Verwendet für: `hygiene-nadeln-entsorgen`.
+
+### entsorgen.org
+
+- „Spritzen entsorgen“, entsorgen.org, abgerufen am 21.08.2026: bruchfeste, verschließbare Behelfsbehälter aus dem Haushalt wie eine Blechdose für Kaffee oder Tee; Einwickeln allein reicht nicht; volle Behälter zu Arztpraxis oder Apotheke, ersatzweise fest verschlossen in die Restmülltonne.
+
+  Verwendet für: `hygiene-nadeln-entsorgen`.
+
+### Apotheken Umschau
+
+- „So entsorgen Sie Ihren Diabetes-Müll“, apotheken-umschau.de, abgerufen am 21.08.2026: lose Nadeln und Lanzetten im Müllbeutel können andere verletzen; Apotheken bieten Sammelboxen; Nadelknipser als Werkzeug; leere Teststreifendosen lassen sich für gebrauchte Lanzetten und Streifen weiterverwenden.
+
+  Verwendet für: `hygiene-nadeln-entsorgen`.
+
+### Wikipedia (deutschsprachig)
+
+- Artikel „Herbstzeitlose“: Abschnitte zur Giftigkeit für Tierarten, Colchicin-Gehalt nach Pflanzenteil, Erhalt beim Trocknen, Übergang ins Milch. Vollständig gelesen, abgerufen am 21.08.2026. CC BY-SA 4.0, Versionsgeschichte als Autorennachweis.
+
+  Verwendet für: `nahrung-tier-gift-heu-weide`.
+
+- Artikel „Jakobs-Greiskraut“ (dort auch als Jakobs-Kreuzkraut geführt): Abschnitte Inhaltsstoffe und Giftigkeit sowie Verwechslung mit anderen Pflanzen. Vollständig gelesen, abgerufen am 21.08.2026. CC BY-SA 4.0.
+
+  Verwendet für: `nahrung-tier-gift-heu-weide`.
+
+- Artikel „Eiben“ (Weiterleitung von „Eibe“): Abschnitt Inhaltsstoffe, giftige Pflanzenteile und dokumentierte tödliche Vergiftungsfälle bei Rindern und Pferden. Vollständig gelesen, abgerufen am 21.08.2026. CC BY-SA 4.0.
+
+  Verwendet für: `nahrung-tier-gift-heu-weide`.
+
+- Artikel „Glutinleim“ (Weiterleitung von „Knochenleim“ und „Hautleim“): Herkunft aus tierischen Abfällen durch Auskochen, Unterscheidung von Knochen-, Haut-, Fisch- und Hasenleim, Verwendung im Musikinstrumentenbau wegen der Lösbarkeit mit Wärme. Vollständig gelesen, abgerufen am 21.08.2026. CC BY-SA 4.0.
+
+  Verwendet für: `nahrung-knochenleim-hautleim`.
+
+- Artikel „Dengeln“: Verfahren, Werkzeuge (Dengelhammer mit 250–600 g Kopfgewicht, Dengelamboss, Dengelleier, Schlagdengler), Breite des Dengels von 3–7 mm, Zusammenspiel von flacher und spitzer Seite, Befestigung im Pflock oder Dengelstock. Vollständig gelesen, abgerufen am 21.08.2026. CC BY-SA 4.0, Versionsgeschichte als Autorennachweis.
+
+  Verwendet für: `taktisch-sense-dengeln`.
+
+### Wikipedia (englischsprachig)
+
+- Artikel „Animal glue“, Abschnitte „Hide glue“ und „Production“: Herstellung durch Einweichen und Erhitzen auf rund 70 °C in mehreren Durchgängen, Verarbeitungstemperatur rund 60 °C, kurze offene Zeit von rund einer Minute, Wiederverwendbarkeit nach erneutem Erwärmen, Kühllagerung gegen Verkeimung. Vollständig gelesen, abgerufen am 21.08.2026. CC BY-SA 4.0, Versionsgeschichte als Autorennachweis.
+
+  Verwendet für: `nahrung-knochenleim-hautleim`.

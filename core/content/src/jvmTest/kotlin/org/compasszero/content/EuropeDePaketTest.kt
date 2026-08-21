@@ -575,7 +575,21 @@ class EuropeDePaketTest {
         // (taktisch-notbiwak-biwaksack).
         // 597 -> 598 am 21.08.2026: "Trockenmauer ohne Moertel: Anlaufschraege und Fuellung"
         // (taktisch-trockenmauer-bauen).
-        assertEquals(598, pack.tips.size)
+        // 598 -> 599 am 21.08.2026: "Cholera: der Durchfall, der binnen Stunden toetet"
+        // (medizin-cholera).
+        // 599 -> 600 am 21.08.2026: "Flaechen, Eimer und Krankenbedarf mit Chlor entkeimen"
+        // (hygiene-chlor-flaechen).
+        // 600 -> 601 am 21.08.2026: "Ruhr erkennen: schleimiger Stuhl, Fieber und Kraempfe"
+        // (medizin-ruhr).
+        // 601 -> 602 am 21.08.2026: "Gebrauchte Nadeln und Kanuelen sicher wegwerfen"
+        // (hygiene-nadeln-entsorgen).
+        // 602 -> 603 am 21.08.2026: "Herbstzeitlose, Kreuzkraut, Eibe: drei Gifte fuers Vieh"
+        // (nahrung-tier-gift-heu-weide).
+        // 603 -> 604 am 21.08.2026: "Knochenleim und Hautleim aus Schlachtresten kochen"
+        // (nahrung-knochenleim-hautleim).
+        // 604 -> 605 am 21.08.2026: "Eine Sense dengeln statt nur schleifen"
+        // (taktisch-sense-dengeln).
+        assertEquals(605, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser
