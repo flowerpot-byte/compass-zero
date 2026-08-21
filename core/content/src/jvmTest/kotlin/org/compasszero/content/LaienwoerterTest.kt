@@ -535,5 +535,10 @@ class LaienwoerterTest {
         // in den Schlagwoertern des Waldbrand-Eintrags, obwohl es genau das
         // beschreibt, was dort steht.
         fuehrtAuf(index, "brandschneise", "taktisch-waldbrand-schutzstreifen")
+        // "entkeimungstabletten" fand am 21.08.2026 GAR NICHTS, obwohl der
+        // Eintrag zu Chlortabletten existiert -- das zusammengesetzte Wort
+        // passte auf keinen Wortanfang im Verzeichnis.
+        fuehrtAuf(index, "entkeimungstabletten", "wasser-chlor-entkeimung")
+        fuehrtAuf(index, "chlortabletten", "wasser-chlor-entkeimung")
     }
 }
