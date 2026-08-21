@@ -537,7 +537,17 @@ class EuropeDePaketTest {
         // (erste-hilfe-hund-angriff).
         // 578 -> 579 am 21.08.2026: "Von oben entdeckt werden: was Drohne und Flugzeug wirklich sehen"
         // (taktisch-von-oben-gesehen).
-        assertEquals(579, pack.tips.size)
+        // 579 -> 580 am 21.08.2026: "Einbrecher in der eigenen Wohnung: bemerkbar machen, nicht stellen"
+        // (taktisch-einbrecher-in-der-wohnung).
+        // 580 -> 581 am 21.08.2026: "Absperrung und Sperrzone: erkennen, wozu sie da ist"
+        // (taktisch-absperrung-sperrzone).
+        // 581 -> 582 am 21.08.2026: "Schlagstock und Totschlaeger: wo die Grenze verlaeuft"
+        // (taktisch-schlagstock-totschlaeger).
+        // 582 -> 583 am 21.08.2026: "Gefesselt: Finger und Zehen bewegen, Haltung wechseln"
+        // (taktisch-gefesselt-koerper).
+        // 583 -> 584 am 21.08.2026: "Eingesperrt: Luft, Hitze und Kaelte in einem geschlossenen Raum"
+        // (taktisch-eingesperrt-enger-raum).
+        assertEquals(584, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser

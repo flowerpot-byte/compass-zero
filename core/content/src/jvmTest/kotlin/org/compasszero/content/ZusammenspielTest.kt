@@ -753,12 +753,19 @@ class ZusammenspielTest {
     // Jeder Tipp, der zum Notruf auffordert, muss die Nummer nennen. Sie ist das
     // Einzige, was in diesem Moment wirklich gebraucht wird, und niemand sucht
     // dafuer einen zweiten Tipp.
+    //
+    // AM 21.08.2026 UM DIE 110 ERWEITERT: Bis dahin verlangte diese Zeile
+    // ausschliesslich die 112. Das ging gut, solange jeder Notruf-Tipp ein
+    // medizinischer war. Beim Einbruchs-Tipp ist die richtige Nummer aber die
+    // 110 -- wer bei einem Einbruch die 112 waehlt, landet bei der Feuerwehr.
+    // Die Regel gilt unveraendert scharf: Wer zum Notruf auffordert, MUSS eine
+    // Nummer nennen; erlaubt sind jetzt beide, die es wirklich gibt.
     @Test
     fun jederNotrufHinweisNenntDieNummer() {
         for (tip in paket().tips) {
             if (!tip.body.contains("Notruf")) continue
             assertTrue(
-                tip.body.contains("112"),
+                tip.body.contains("112") || tip.body.contains("110"),
                 "${tip.id} fordert den Notruf, nennt aber die Nummer nicht",
             )
         }
