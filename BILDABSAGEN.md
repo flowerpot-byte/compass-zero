@@ -177,6 +177,50 @@ Nachbarabbildung "Removing Mushroomed End From Machinists' Chisels"
 existiert, oder eine gleichwertige Vorher/Nachher-Zeichnung ohne eingebaute
 Legenden.
 
+**werkzeug-griff-hammer-meissel-feile** ("Feile: nie ohne Griff benutzen")
+-- TM 9-867, Seite 44, Figur "FILES AND RASPS: Handle/Tang/Ferrule/Heel/
+Edge/Face/Point" (RA PD 87268): die einzige Anatomietafel der Quelle, die
+die Zwinge (FERRULE) benennt, und inhaltlich die treffendste Abbildung fuer
+genau dieses Bauteil gewesen. Die Feile liegt diagonal im Bild, und JEDE
+der acht englischen Bildlegenden (HANDLE, TANG, FERRULE, HEEL, EDGE, FACE,
+FLAT, POINT plus ROUND/TAPER/HALF ROUND fuer drei weitere Feilenspitzen)
+sitzt als Pfeil unmittelbar am Umriss der Zeichnung -- TANG von links und
+FERRULE von rechts zeigen sogar auf denselben schmalen Zwingenring, mit nur
+wenigen Pixeln Abstand zur Linie. Ein rechteckiger Zuschnitt kann keine
+einzige Legende wegschneiden, ohne entweder Text stehenzulassen oder in die
+Zeichnung zu schneiden -- gleiche Konstellation wie die oben dokumentierte
+MUSHROOMED-HEAD-Figur (Seite 35). Ersatzweise wurde fuer diesen Schritt
+RA PD 87269 (Seite 44, "Wet tang of file and insert it in handle...")
+verwendet: unbeschriftete aktionsbildliche Darstellung, auf der die Zwinge
+als schmales helles Band zwischen Feilenblatt und Griff trotzdem deutlich
+zu erkennen und beschriftbar ist.
+*Brauchbar waere:* dieselbe Anatomietafel, falls irgendwo eine textfreie
+Fassung existiert.
+
+**werkzeug-griff-hammer-meissel-feile** ("Hammer, Klöppel, Vorschlaghammer:
+den Griff wechseln") -- gesucht wurde eine WRONG/RIGHT-Gegenüberstellung
+von richtig und falsch eingesetztem Hammerstiel. In den für diesen Eintrag
+zitierten Abschnitten von TM 9-867 (VIII, XI, XII) kommt kein einziges
+WRONG/RIGHT-Bildpaar zum Hammerstiel vor (Volltext durchsucht: alle
+WRONG/RIGHT-Fundstellen des Heftes liegen in anderen, hier nicht zitierten
+Abschnitten). Section XII enthält nur die Schritt-für-Schritt-Folge zum
+Griffwechsel (RA PD 87277–87281) und einen Fließtext-Absatz "Common
+Misuses" (Warnung vor Schlägen auf gehärteten Stahl) ohne eigene
+Abbildung.
+*Brauchbar waere:* eine Vorher/Nachher- oder Falsch/Richtig-Zeichnung zum
+Sitz des Hammerstiels, in einer anderen Quelle als TM 9-867 -- innerhalb
+dieses Eintrags aber nicht zulässig, weil die zitierten Abschnitte keine
+liefern.
+
+**werkzeug-griff-hammer-meissel-feile** ("Meißel: Griff wechseln", Abschnitt
+zur Dülle des Tischlermeißels) -- der Abschnitt "REPLACING HANDLE
+(Woodworkers' Chisel)" in TM 9-867, Section VIII, Seite 35/36, besteht
+ausschließlich aus Fließtext (3 Sätze) zwischen der Mushroomed-Head-
+Reparatur (RA PD 87252/87253) und der nächsten Figur (RA PD 87254,
+Blacksmiths' Chisel Grinding) -- keine eigene Abbildung vorhanden.
+*Brauchbar waere:* eine Zeichnung der Meißel-Dülle beim Aufstecken des
+Griffs; die Quelle liefert keine.
+
 **werkzeug-leiter-anlegen** -- OSHA FS-3661, Figur 1 ("Single-Cleat Ladder"):
 untrennbar eingebaute englische Masse ("24 ft.", "16 in. minimum"). Zeigt
 ausserdem den Leiter**bau**, nicht das Anlegen.
@@ -284,3 +328,103 @@ Rechten.
 eingeschlagenen Wurzeln (Stroh- und Erdschichten, tapering pile wie im Text
 beschrieben) aus einer bebilderten Quelle -- diese hier liefert ausser Text
 nichts.
+
+**agrikultur-fruehfrost** ("Wenn der Frost zu früh kommt: Beet schützen,
+Ernte retten") -- beide zugewiesenen Quellen vollstaendig durchsucht (Figuren
+einzeln aufgelistet und, soweit inhaltlich in Frage kommend, als Bild
+angesehen), keine passt:
+- USDA Farmers' Bulletin 1588, "Frost and the Prevention of Frost Damage"
+  (Floyd D. Young, Fassung 1940, archive.org `CAT10305749`, Volltext und
+  Seitenbilder geprueft). 29 Figuren insgesamt. Figuren 7-28 betreffen fast
+  alle Obstplantagen mit Oelheizern/Windmaschinen -- vom Eintrag selbst
+  ausdruecklich ausgeschlossen ("Verfahren, die eine ganze Plantage
+  voraussetzen ... sind hier nicht uebernommen"). Figuren 2/3 sind
+  US-Klimakarten (Frost-Durchschnittsdaten je Bundesstaat), ohne UEbertragwert.
+  Figur 1 ist ein Temperaturkurven-Diagramm mit eingedruckten englischen
+  Achsbeschriftungen -- keine Masszahl, sondern Fliesstext im Bild, faellt
+  unter die Fremdsprachen-Regel.
+  Die drei inhaltlich naechsten Figuren wurden als Bild angesehen und
+  verworfen: Figur 4 ("Translucent paper caps ... used to protect winter
+  vegetable crops") und Figur 5 ("Arrowweed tepees") zeigen ein AUFWENDIGES
+  Gewaechshausersatz-System (Drahtboegen, Papierkappen, Buschzweig-Tipis) fuer
+  den kommerziellen Gemueseanbau im Imperial Valley -- nicht die im
+  Eintragstext beschriebene einfache Stoff-/Jutedecke direkt auf der Pflanze
+  ("ohne jede Ausruestung"). Die Textstelle zur Jutedecke ueber Erdbeeren
+  (Seite 10/11, die Quelle fuer die im Eintrag genannten 3,2 Grad Celsius und
+  -2,9 Grad Celsius) hat selbst KEINE eigene Figur. Figur 6 (Seite 15,
+  "Orange tree which was used to determine whether the limbs could carry the
+  weight of ice formed when an overhead sprinkler was operated") zeigt einen
+  abgebrochenen Orangenbaum-Ast -- das ist ein ANDERES Risiko (Astbruch durch
+  Eisgewicht bei Baeumen) als das im Eintrag beschriebene (Schaden durch
+  Abbrechen der Beregnung bei NIEDRIGEN Pflanzen); ausserdem wieder
+  Obstplantagen-Massstab.
+- Bulletin 1099, "Frost Injury to Tomatoes" (Harvey/Wright, 1922, archive.org
+  `frostinjurytotom1099harv`, nur 606 Zeilen Volltext, komplett gelesen).
+  Genau eine Abbildung (Figur 1): ein mehrkurviges Temperaturdiagramm mit
+  englischen Achsbeschriftungen ("FAHRENHEIT", "FRUIT INSIDE" usw.) zur
+  Unterkuehlungsmessung -- selbe Fremdsprachen-Falle wie oben, ausserdem ein
+  Messdiagramm und kein Stich, der einen Handgriff oder Gegenstand zeigt.
+*Brauchbar waere:* eine Zeichnung oder ein firmen-/fotografenfreies Foto einer
+einfachen Stoffabdeckung direkt ueber niedrigen Beetpflanzen (idealerweise im
+Schnitt, mit der Erdwaerme darunter erkennbar) -- keine der beiden Quellen
+zeigt das, weil beide fuer den kommerziellen bzw. wissenschaftlichen Kontext
+geschrieben sind, in dem entweder aufwendige Anlagen fotografiert oder
+Messkurven gezeichnet wurden, nicht der einfache Hausgarten-Handgriff.
+
+**unterkunft-fenster-tuer-abdichten** ("Fenster und Türen gegen Kälte
+abdichten") -- alle vier belegten Quellen geprueft, keine traegt eine
+brauchbare Abbildung:
+- CDC, "Extreme Cold" (2005), Abschnitt "Conserve Heat" (Seite 6 des PDF):
+  nur handgezeichnete Cartoon-Cliparts (Becher, Wasserhahn, Schneemaenner) im
+  Stil der ganzen Broschuere, kein Bezug zu Fenster oder Tuer.
+- DOE, "Weatherstripping" (Internet-Archiv-Fassung 01.01.2024): alle
+  eingebundenen Bilder sind moderne iStock-/Shutterstock-Fotos
+  (`iStock_000013634680Small.jpg`, `shutterstock_748171390.jpg`,
+  `070114-BTO-PH-001.jpg`) -- weder Stich noch technische Zeichnung.
+- DOE, "Air Sealing Your Home" (Internet-Archiv-Fassung 31.12.2023): dieselben
+  Stock-Fotos, dazu eine moderne Flach-Grafik ("Air Sealing Trouble Spots" --
+  Hausschnitt mit 19 nummerierten Problemstellen). Inhaltlich naeher am Thema,
+  aber ein glatter Vektor-/Infografik-Stil ohne jede Feinzeichnung -- derselbe
+  Stilbruch, der schon bei `werkzeug-leiter-anlegen` zur Ablehnung fuehrte.
+- FEMA, "Are You Ready?", Seite 81: die einzige Abbildung der Seite ist eine
+  Landkarte der USA ("Winter Storm Occurrences by State"), ohne jeden Bezug zu
+  Fenstern, Tueren oder Dichttechnik.
+
+Zusaetzlich als zweifelsfrei gemeinfreies US-Bundeswerk geprueft: USDA
+Farmers' Bulletin 1698, "Heating the Farm Home" (Arthur H. Senner, Bureau of
+Agricultural Engineering, 1933, archive.org `CAT87203879`, 18 Seiten,
+vollstaendig gelesen). Der Abschnitt "REDUCING WINDOW AND DOOR LEAKAGE"
+(Seite 14/15) beschreibt Holz-/Filzstreifen, Metall-Wetterstreifen und
+Sturmfenster ausfuehrlich in Worten -- aber ohne begleitende Abbildung. Die
+einzige Zeichnung des Heftes (Figur 7, Seite 16) zeigt einen anderen Vorgang
+(den Hohlraum in der Staenderwand zwischen Fundament und Dachboden) und wurde
+deshalb fuer den Eintrag `unterkunft-zugluft-finden` verwendet, nicht fuer
+diesen.
+*Brauchbar waere:* der Schnitt durch einen Fensterrahmen mit eingelegter
+Dichtleiste, oder eine Gegenueberstellung der Dichtungsarten (Holz/Filz
+gegen Metall) -- in keiner der geprueften Quellen vorhanden.
+
+**werkstoffe-toepfern** ("Aufbauen ohne Scheibe: die Wulsttechnik") --
+einzige Quelle ist Charles F. Binns, "The Potter's Craft" (2. Auflage 1922,
+1. Auflage 1910), Kapitel II, IV, V, VIII und XVII. Gesucht wurde eine
+Zeichnung des Wulstaufbaus (Ton wird spiralig aufgesetzt) oder eine
+Daumenschale im Schnitt. Volltext (`work/mappen/toepfern-brennen/
+binns-potters-craft-1910.txt`) systematisch nach "FIG."/"PLATE" durchsucht:
+- Kapitel VIII "Building by Hand" (Seite 68-73) ist genau das Kapitel, aus
+  dem der Wulst-Abschnitt des Eintrags stammt -- und enthaelt VON DER ERSTEN
+  BIS ZUR LETZTEN ZEILE KEINE EINZIGE ABBILDUNG. Der Text beschreibt Wulst-
+  aufbau und Daumentechnik ausfuehrlich in Worten ("the rest is coiled around
+  it in a spiral line", "the clay is taken, pinch by pinch"), zeigt aber
+  nichts davon zeichnerisch.
+- Die anderen drei zugewiesenen Kapitel (II "Pottery", IV "The Nature and
+  Properties of Clay", V "The Preparation of Clay") sind ebenfalls
+  vollstaendig unillustriert -- kein einziger "FIG."-Treffer in allen drei
+  Kapiteln.
+- Die im Buch vorhandenen Bildtafeln (Frontispiece "Stoneware made by the
+  Author", Plates I-XIII "Throwing", Plates XIV ff. "Making Large Pieces")
+  liegen alle in spaeter folgenden, fuer diesen Eintrag NICHT zitierten
+  Kapiteln (IX-XI) und zeigen zudem Drehscheibenarbeit, nicht den
+  scheibenlosen Wulstaufbau, um den es hier geht.
+*Brauchbar waere:* eine Zeichnung des spiraligen Wulstaufbaus oder ein
+Schnitt durch eine mit Daumen und Fingern geformte Schale -- diese Quelle
+liefert zu beidem nichts Bildliches, nur Text.
