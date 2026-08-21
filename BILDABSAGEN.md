@@ -71,31 +71,23 @@ wird.
 eine gleichwertige unsignierte Abbildung, die zeigt, wo die Milben/Läuse
 sitzen oder wie die Arten sich unterscheiden.
 
-## Zurueckgestellt, nicht verworfen
+## Durchschlag von der Rueckseite: erst sichtbar, wenn der Grund stimmt
 
-**werkzeug-waagerecht-senkrecht** ("Der rechte Winkel: das Dreieck mit festem
-Seitenverhaeltnis") -- ERLEDIGT, aber nicht mit einem Stich. Der Ausschnitt aus
-USDA Farmers' Bulletin 1480 (1926), Fig. 1, war rechtlich einwandfrei und
-sauber umgerechnet, zeigte aber zwei dicke Fluchtlinien, drei lose Buchstaben
-und die handgeschriebenen Masze der Quelle durcheinander -- wer das Dreieck
-3-4-5 noch nicht kennt, versteht es dort nicht. Stattdessen als eigenes Schema
-gezeichnet (`tools/skizzen/schema_zeichnen.py dreieck345`). Reine Geometrie
-muss aus keiner Quelle stammen; das Verfahren wird belegt, die Zeichnung ist
-unsere.
-**Merksatz daraus:** Bevor ein Stich gesucht wird, kurz fragen, ob der Inhalt
-ueberhaupt gegenstaendlich ist. Winkel, Abstaende und Verhaeltnisse sind es
-nicht.
+**agrikultur-gerben-ohne-rinde** ("Die Werkzeuge, und woraus sie sein
+koennen") -- ERLEDIGT, aber in drei Schritten, und der mittlere hat den
+dritten erst noetig gemacht. Das Blatt (Schaber und Blackfoot-Flescher nach
+Clark Wissler, "Material Culture of the Blackfoot Indians", 1910, Fig. 32 und
+34a) lag zuerst auf zwei grauen Kaesten. Nach dem Anheben auf den Blattgrund
+stand ploetzlich die Schrift der Buchrueckseite sichtbar im leeren Teil --
+vorher hatte das Grau sie verdeckt.
 
-**werkstoffe-gerben-ohne-rinde** ("Die Werkzeuge, und woraus sie sein
-koennen") -- Schaber und Blackfoot-Flescher nach Clark Wissler, "Material
-Culture of the Blackfoot Indians" (1910), Fig. 32 und 34a. Quelle und Rechte
-sind in Ordnung, die Beschriftung stimmt. Das Blatt lag zunaechst auf zwei
-grauen Kaesten statt auf dem Blattgrund; das ist mit
-`tools/skizzen/grund_angleichen.py` behoben. Dabei kam allerdings zum
-Vorschein, was das Grau verdeckt hatte: Im unteren Ausschnitt schimmert die
-Rueckseite des Scans durch (Geisterschrift, links oben im leeren Teil).
-*Zum Fertigmachen fehlt:* dieses Durchscheinen entfernen -- ueber
-zusammenhaengende Flaechen, ohne eine Linie der Zeichnung anzutasten.
+Getilgt mit `tools/skizzen/durchschlag_tilgen.py`. Das Werkzeug prueft von
+selbst, ob im angegebenen Feld Zeichnung liegt, und bricht sonst ab -- beim
+ersten Versuch tat es genau das, weil die Zuglinie einer Beschriftung durch
+das Feld lief.
+
+**Merksatz:** Wer den Papierton anhebt, muss danach noch einmal hinsehen. Was
+im Grau unsichtbar war, ist es danach nicht mehr.
 
 ## Abgelehnt, weil das Bild nichts zeigt, was der Satz nicht sagt
 
@@ -251,3 +243,21 @@ einraeumt.
 die Haltung und Bewegung beim Schwingen des Dreschflegels zeigt, oder eines,
 das den Wind-/Wurfweg beim Worfeln zeigt (Korn faellt senkrecht, Spreu wird
 seitlich weggetragen).
+
+**agrikultur-butter** ("Butter machen: vom Rahm bis zum Fass") -- einzige
+zugewiesene Quelle ist USDA Farmers' Bulletin No. 241, "Butter Making on the
+Farm" (Edwin H. Webster, 1905). Alle 33 Seiten des Scans einzeln als Bild
+gerendert und angesehen (nicht nur der OCR-Text) -- das Heft enthaelt VON DER
+TITELSEITE BIS ZUR LETZTEN SEITE KEINE EINZIGE ABBILDUNG. Selbst dort, wo der
+Text eine bildliche Darstellung nahelegt, bleibt es bei Worten: Der Abschnitt
+zum Separator beschreibt ausdruecklich einen "cross section through the bowl"
+(Seite 12), zeigt ihn aber nicht; der Abschnitt "THE CHURN" (Seite 24-25)
+erklaert Aufbau und Wirkung des Fasses rein sprachlich. Einzige grafische
+Ausnahme ist das gedruckte USDA-Siegel auf der Titelseite -- ein generisches
+Behoerdenemblem ohne Bezug zum Buttern. Volltextsuche im OCR-Text zusaetzlich
+nach "fig", "plate", "illustrat", "diagram" bestaetigt den Befund: kein
+einziger Treffer, der auf eine Abbildung verweist.
+*Brauchbar waere:* eine Zeichnung oder ein firmen-/fotografenfreies Foto vom
+Schnitt durch ein Butterfass mit den Schlagbrettern/Einbauten, oder von der
+Handhaltung beim Kneten auf dem Butterbrett -- diese Quelle liefert keins von
+beidem.
