@@ -10,6 +10,12 @@ kotlin {
         testRuns["test"].executionTask.configure {
             maxHeapSize = "96m"
             systemProperty("compasszero.repoRoot", rootDir.absolutePath)
+            // Die Tests lesen das echte Inhaltspaket ueber die Eigenschaft
+            // darueber. Gradle kann das nicht sehen und haelt den Task nach
+            // einer reinen Inhaltsaenderung sonst fuer aktuell -- er meldet
+            // dann gruen, ohne einen einzigen Test gestartet zu haben.
+            inputs.dir(rootDir.resolve("content"))
+                .withPathSensitivity(PathSensitivity.RELATIVE)
         }
     }
     androidTarget()
