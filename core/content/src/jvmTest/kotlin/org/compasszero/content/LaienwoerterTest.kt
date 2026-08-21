@@ -660,4 +660,54 @@ class LaienwoerterTest {
         fuehrtAuf(index, "wuergegriff", "taktisch-wuergegriff-anwenden")
         fuehrtAuf(index, "läuse", "medizin-laeuse")
     }
+
+    // Achte Messrunde, 21.08.2026: 89 Alltagswoerter aus Vorrat, Garten, Werkstoff,
+    // Hygiene und Unterwegs -- die Bereiche, die noch nie abgesucht waren.
+    //
+    // Ergebnis: 88 von 89 fanden etwas Passendes. Der eine Ausfall war
+    // "brotbacken" -- ein Wort, das ein Mensch wirklich so tippt, das aber
+    // nirgends als ein Wort im Paket stand. Der Kapiteltitel heisst "Brot backen"
+    // mit Leerzeichen, und ein Leerzeichen trennt fuer die Suche zwei Woerter.
+    // Behoben ueber eine Abschnitts-Ueberschrift, nicht ueber den Titel: Ein Titel
+    // ohne das Wort "backen" haette dem Kapitel eine andere Anfrage genommen.
+    //
+    // NICHT geaendert, obwohl es zuerst falsch aussah: "keller" fuehrt auf
+    // Pilzzucht, abgedichteten Raum und die Regel der zwei Waende, nicht auf den
+    // Erdkeller. Wer im Ernstfall "keller" tippt, sucht meist Schutz und nicht
+    // Vorratshaltung -- die Reihenfolge stimmt also. Kapitel koennen ein Wort
+    // ohnehin nie einem Tipp abnehmen, der es als Schlagwort fuehrt: Ein Schlagwort
+    // trifft genau und bekommt dafuer einen Zuschlag, eine Abschnitts-Ueberschrift
+    // nicht.
+    @Test
+    fun alltagswoerterAusVorratUndWerkstattFuehrenZumRichtigenEintrag() {
+        val index = index()
+        // Der behobene Ausfall, und die Gegenprobe, dass nichts verloren ging.
+        fuehrtAuf(index, "brotbacken", "agrikultur-brot")
+        fuehrtAuf(index, "brot", "agrikultur-brot")
+        fuehrtAuf(index, "backen", "agrikultur-brot")
+        // Vorrat und Haltbarmachen.
+        fuehrtAuf(index, "einwecken", "nahrung-einkochen-botulismus")
+        fuehrtAuf(index, "räuchern", "nahrung-raeucherkammer-bauen")
+        fuehrtAuf(index, "erdmiete", "agrikultur-lagern-ohne-strom")
+        fuehrtAuf(index, "erdkeller", "agrikultur-erdkeller-bauen")
+        fuehrtAuf(index, "kartoffeln lagern", "agrikultur-kartoffel")
+        // Garten und Tiere.
+        fuehrtAuf(index, "kompost", "agrikultur-kompost")
+        fuehrtAuf(index, "fruchtfolge", "agrikultur-fruchtfolge")
+        fuehrtAuf(index, "ziege melken", "agrikultur-ziegenmilch")
+        // Werkstoff und Reparatur.
+        fuehrtAuf(index, "gerben", "agrikultur-gerben")
+        fuehrtAuf(index, "korb flechten", "werkstoffe-koerbe-flechten")
+        fuehrtAuf(index, "seife machen", "hygiene-seife-selbst")
+        fuehrtAuf(index, "schnur machen", "seilwerk-schnur-selbst")
+        // Hygiene und Alltag.
+        fuehrtAuf(index, "klo ohne spülung", "hygiene-ausscheidungen")
+        fuehrtAuf(index, "zähne putzen ohne paste", "medizin-zaehne-ohne-buerste")
+        fuehrtAuf(index, "monatsblutung", "medizin-regelblutung-stark")
+        // Unterwegs.
+        fuehrtAuf(index, "blasen an den füßen", "erste-hilfe-blase-fuss")
+        fuehrtAuf(index, "rucksack packen", "taktisch-notgepaeck")
+        fuehrtAuf(index, "nachts laufen", "orientierung-nachts-gehen")
+        fuehrtAuf(index, "regen auffangen", "wasser-rinne-fass-bauen")
+    }
 }
