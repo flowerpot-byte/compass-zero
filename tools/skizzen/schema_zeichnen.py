@@ -514,7 +514,78 @@ def naehrwerte(ziel):
     return bild.size
 
 
-FIGUREN = {'zielmarken': zielmarken, 'hoehenlinien': hoehenlinien, 'versatz': versatz, 'hindernis': hindernis, 'kreuzpeilung': kreuzpeilung, 'dreieck345': dreieck345, 'naehrwerte': naehrwerte}
+
+
+def wartezeiten(ziel):
+    """Wie lange es dauert, bis ein Gewaechs zum ersten Mal traegt."""
+    bild, z = blatt(1250, 880)
+    klein = schrift(15)
+
+    # Alle Zahlen stehen so im Kapitel "Was im ersten Jahr traegt, und was
+    # erst spaeter kommt". Zwei Zahlen = die Quellen nennen eine Spanne.
+    # Die Birne bekommt bewusst keinen Balken: Die Quelle nennt fuer sie
+    # keine Jahreszahl, und eine geschaetzte waere hier eine Erfindung.
+    posten = [
+        ("Kartoffel, Getreide, Hülsenfrüchte,|Wurzelgemüse, Kohl", 0, 0,
+         "im selben Jahr, wenn Boden und Jahreszeit stimmen"),
+        ("Erdbeere", 1, 1, "im zweiten Frühjahr nach dem Pflanzen"),
+        ("Himbeere", 2, 2, "im zweiten Sommer"),
+        ("Brombeere", 2, 3, "mäßig schon im Jahr davor"),
+        ("Pfirsich", 3, 4, "und das höchste Ausfallrisiko aller Baumfrüchte"),
+        ("Birne", None, None, "früher als der Apfel — die Quelle nennt keine Zahl"),
+        ("Apfel", 6, 8, "im Schnitt"),
+    ]
+    AX, JAHR = 540, 78
+    OBEN, SCHRITT, DICKE = 200, 62, 24
+    unten = OBEN + len(posten) * SCHRITT - 24
+
+    for jahr in range(0, 9):
+        x = AX + jahr * JAHR
+        z.line([(x, OBEN - 14), (x, unten)], fill=HILFE, width=1)
+        z.text((x, unten + 10), str(jahr), font=klein, fill=HILFE, anchor="ma")
+    z.text((AX + 4 * JAHR, unten + 36), "Jahre nach dem Pflanzen",
+           font=schrift(17, True), fill=LEISE, anchor="ma")
+
+    for i, (name, anfang, ende, hinweis) in enumerate(posten):
+        y = OBEN + i * SCHRITT
+        mitte = y + DICKE // 2
+        # Der senkrechte Strich trennt zwei Zeilen -- eine echte
+        # Zeilenschaltung im Quelltext ist beim Schreiben schon zerfallen.
+        if "|" in name:
+            z.multiline_text((60, y - 8), name.replace("|", chr(10)),
+                             font=schrift(18), fill=TINTE, spacing=6)
+        else:
+            z.text((60, mitte), name, font=schrift(18), fill=TINTE, anchor="lm")
+        z.text((60, y + DICKE + 14), hinweis, font=klein, fill=LEISE)
+
+        if anfang is None:
+            z.text((AX + 10, mitte), "?", font=schrift(24, True), fill=HILFE,
+                   anchor="lm")
+            continue
+        if anfang > 0:
+            z.rectangle([(AX, y + 7), (AX + anfang * JAHR, y + DICKE - 7)],
+                        fill=HILFE)
+        x0 = AX + anfang * JAHR
+        x1 = AX + ende * JAHR if ende > anfang else x0 + 18
+        z.rectangle([(x0, y), (x1, y + DICKE)], fill=WEG)
+
+    z.text((625, unten + 84), "Ein Baum, der heute nicht gesetzt wird, trägt in "
+                              "fünf Jahren erst recht nicht.",
+           font=schrift(20, True), fill=TINTE, anchor="ma")
+    z.text((625, unten + 114), "Deshalb gehört er von Anfang an in die Planung, auch "
+                               "wenn er im ersten Jahr nichts einbringt.",
+           font=klein, fill=LEISE, anchor="ma")
+
+    rahmen(z, bild, "Was wann zum ersten Mal trägt",
+           "heller Balken: Wartezeit  ·  dunkler Klotz: die erste nennenswerte Ernte",
+           "Zwei Jahreszahlen heißen: die Quellen nennen eine Spanne",
+           "Wartezeiten nach den Kapiteln dieses Buches und USDA Farmers' Bulletin 1746 "
+           "„Subsistence Farm Gardens“ (Beattie u. a., 1936)")
+    bild.save(ziel)
+    return bild.size
+
+
+FIGUREN = {'zielmarken': zielmarken, 'hoehenlinien': hoehenlinien, 'versatz': versatz, 'hindernis': hindernis, 'kreuzpeilung': kreuzpeilung, 'dreieck345': dreieck345, 'naehrwerte': naehrwerte, 'wartezeiten': wartezeiten}
 
 if __name__ == '__main__':
     if len(sys.argv) < 3 or sys.argv[1] not in FIGUREN:
