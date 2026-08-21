@@ -744,4 +744,45 @@ class LaienwoerterTest {
         fuehrtAuf(index, "zugluft", "unterkunft-zugluft-finden")
         fuehrtAuf(index, "es zieht", "unterkunft-zugluft-finden")
     }
+
+    // Zehnte Messrunde, 21.08.2026: Woerter, die in MEHREREN Titeln stehen und
+    // deshalb um denselben ersten Platz konkurrieren. Bei Gleichstand entscheidet
+    // der Titel alphabetisch -- also der Zufall und nicht die Dringlichkeit.
+    //
+    // 32 solcher Woerter geprueft. Fast alle landen richtig: "atemnot" auf der
+    // Spannung im Brustkorb, "saeugling" auf dem Ersticken, "krampf" auf dem
+    // Krampfanfall, "ofen" auf dem Kohlenmonoxid. Ein Ausfall:
+    //
+    //   "lampe" fuehrte auf das Brunnen-Kapitel und das Fett-Kapitel, nicht auf
+    //           das Licht. Der Licht-Eintrag heisst "Kerzen selbst ziehen" und
+    //           kannte das Wort "Lampe" nirgends -- nicht im Titel, nicht in den
+    //           Schlagwoertern, nicht im Text.
+    //
+    // Bewusst NICHT geaendert: "pilz" fuehrt auf das Schimmelpilzgift, nicht auf
+    // den Knollenblaetterpilz. Das ist kein Fehler -- Aflatoxin IST ein Pilzgift.
+    // Und die Woerter, die ein Mensch nach einer Pilzmahlzeit wirklich tippt,
+    // fuehren richtig: "pilze", "pilz gegessen" und "giftpilz" landen alle beim
+    // Giftpilz oder bei der Vergiftung.
+    @Test
+    fun strittigeTitelwoerterLandenBeimDringlicheren() {
+        val index = index()
+        // Der behobene Ausfall.
+        fuehrtAuf(index, "lampe", "taktisch-licht-kerzen-ziehen")
+        fuehrtAuf(index, "öllampe", "taktisch-licht-kerzen-ziehen")
+        // Gegenprobe: Das allgemeine Wort "licht" gehoert weiter dem Tipp, der
+        // sagt, wie weit ein Lichtschein zu sehen ist.
+        fuehrtAuf(index, "licht", "taktisch-licht-bei-nacht")
+        // Die Wege, bei denen die Dringlichkeit gewinnen muss.
+        fuehrtAuf(index, "atemnot", "erste-hilfe-spannung-brustkorb")
+        fuehrtAuf(index, "säugling", "erste-hilfe-ersticken-saeugling")
+        fuehrtAuf(index, "krampf", "erste-hilfe-krampfanfall")
+        fuehrtAuf(index, "schlaganfall", "erste-hilfe-schlaganfall")
+        fuehrtAuf(index, "ofen", "erste-hilfe-kohlenmonoxid-erkennen")
+        fuehrtAuf(index, "pilz gegessen", "nahrung-knollenblaetterpilz")
+        fuehrtAuf(index, "giftpilz", "nahrung-knollenblaetterpilz")
+        fuehrtAuf(index, "erbrechen", "erste-hilfe-erbrechen-helfen")
+        fuehrtAuf(index, "zahn", "medizin-zahn-abgebrochen")
+        fuehrtAuf(index, "leiter", "werkzeug-leiter-bauen")
+        fuehrtAuf(index, "dach", "unterkunft-dach-decken")
+    }
 }
