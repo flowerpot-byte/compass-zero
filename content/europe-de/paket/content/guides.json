@@ -4971,7 +4971,7 @@
       "id": "werkzeug-loch-ohne-bohrmaschine",
       "title": "Löcher bohren ohne Bohrmaschine: Ahle, Nagelbohrer, Bohrwinde",
       "category": "werkzeug",
-      "summary": "Mehrere Bauanleitungen in diesem Paket verlangen ein gebohrtes Loch, ohne zu sagen, womit: „Einen Axtstiel erneuern“ nennt einen Bohrer zum Ausbohren des alten Keils, „Schubkarre und Handwagen bauen“ einen Bohrer fürs Achsloch, „Räucherkammer bauen“ einen Bohrer für die Luftlöcher, „Pumpe, Widder und Windrad“ Säge UND Bohrer — und „Ein Bett über dem Boden bauen“, „Tür und Fensterladen aus Brettern bauen“ und „Eine Leiter bauen“ brauchen gebohrte Löcher als Arbeitsschritt, ohne je zu sagen, WOMIT man ohne Strom bohrt. Diese Anleitung zeigt vier Werkzeuge von Hand: die AHLE für den ersten Stich, den NAGELBOHRER für kleine Löcher ganz ohne Bohrwinde, den BOHRER MIT BOHRWINDE für alles von sechs Millimetern bis fünf Zentimeter, und den RINGBOHRER für tiefe Löcher in schwerem Holz, wenn gar keine Bohrwinde da ist.",
+      "summary": "Mehrere Bauanleitungen in diesem Paket verlangen ein gebohrtes Loch, ohne zu sagen, womit: „Einen Axtstiel erneuern“ nennt einen Bohrer zum Ausbohren des alten Keils, „Schubkarre und Handwagen bauen: alles bis auf das Rad“ einen Bohrer fürs Achsloch, „Räucherkammer bauen“ einen Bohrer für die Luftlöcher, „Pumpe, Widder und Windrad“ Säge UND Bohrer — und „Ein Bett über dem Boden bauen“, „Tür und Fensterladen aus Brettern bauen“ und „Eine Leiter bauen“ brauchen gebohrte Löcher als Arbeitsschritt, ohne je zu sagen, WOMIT man ohne Strom bohrt. Diese Anleitung zeigt vier Werkzeuge von Hand: die AHLE für den ersten Stich, den NAGELBOHRER für kleine Löcher ganz ohne Bohrwinde, den BOHRER MIT BOHRWINDE für alles von sechs Millimetern bis fünf Zentimeter, und den RINGBOHRER für tiefe Löcher in schwerem Holz, wenn gar keine Bohrwinde da ist.",
       "materials": [],
       "tools": [
         "Ahle (Pfriem) für kleine Vorstichlöcher",
@@ -5184,7 +5184,7 @@
       "id": "werkzeug-verbogen-richten",
       "title": "Werkzeug richten: Verbogenes strecken und ein verschlagenes Ende neu härten",
       "category": "werkzeug",
-      "summary": "Ein Werkzeug muss nicht abgebrochen sein, um lebensgefährlich zu werden — ein verschlagener, pilzförmig ausgefranster Kopf an Meißel oder Durchschlag schickt bei jedem Hammerschlag scharfkantige Stahlsplitter Richtung Auge. Diese Anleitung zeigt zwei getrennte Reparaturen aus derselben Werkstatt-Vorschrift des US-Heeres wie „Griff oder Stiel neu einsetzen“: einen VERBOGENEN Teil kalt wieder gerade klopfen, ohne die Härte zu zerstören — und ein verschlagenes oder abgebrochenes Ende zurückschleifen und im Feuer neu härten. Hier geht es nicht um den Griff, sondern um das Metall selbst.",
+      "summary": "Ein Werkzeug muss nicht abgebrochen sein, um lebensgefährlich zu werden — ein verschlagener, pilzförmig ausgefranster Kopf an Meißel oder Durchschlag schickt bei jedem Hammerschlag scharfkantige Stahlsplitter Richtung Auge. Diese Anleitung zeigt zwei getrennte Reparaturen aus derselben Werkstatt-Vorschrift des US-Heeres wie „Griff oder Stiel neu einsetzen: Hammer, Meißel und Feile“: einen VERBOGENEN Teil kalt wieder gerade klopfen, ohne die Härte zu zerstören — und ein verschlagenes oder abgebrochenes Ende zurückschleifen und im Feuer neu härten. Hier geht es nicht um den Griff, sondern um das Metall selbst.",
       "materials": [
         {
           "item": "Wasser",
@@ -5420,7 +5420,7 @@
       "id": "unterkunft-fenster-tuer-abdichten",
       "title": "Fenster und Türen gegen Kälte abdichten",
       "category": "unterkunft",
-      "summary": "Nicht das ganze Haus warm halten, sondern einen einzigen Raum — das spart Brennstoff, den niemand nachliefert. Diese Anleitung zeigt, wie ein Raum mit einfachen Mitteln gegen Kälte abgedichtet wird: Türspalten stopfen, Fenster abdichten oder ersetzen, einen ungenutzten Kaminabzug sicher verschließen. Wo die Zugluft herkommt, findet „Zugluft finden: wo ein Raum wirklich Wärme verliert“ zuerst.",
+      "summary": "Nicht das ganze Haus warm halten, sondern einen einzigen Raum — das spart Brennstoff, den niemand nachliefert. Diese Anleitung zeigt, wie ein Raum mit einfachen Mitteln gegen Kälte abgedichtet wird: Türspalten stopfen, Fenster abdichten oder ersetzen, einen ungenutzten Kaminabzug sicher verschließen. Wo die Zugluft herkommt, findet „Zugluft finden: wo es im Raum wirklich zieht“ zuerst.",
       "materials": [
         {
           "item": "Alte Handtücher, Lumpen oder zusammengerollte Kleidung",
