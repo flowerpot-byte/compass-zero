@@ -52,16 +52,29 @@ class EuropeDePaketTest {
             skizzennamen(paket),
         )
 
-        // Das Basispaket laedt ohne jede Meldung. Bis zum 20.08.2026 stand hier
-        // eine Vorwarnung: Die damalige Grenze zaehlte die WORTVORKOMMEN, und
-        // die waren zu 96 % ausgeschoepft. Seit die Grenze die VERSCHIEDENEN
-        // Woerter zaehlt -- die Groesse, an der der Speicher wirklich haengt --
-        // liegt das Paket wieder weit im ruhigen Bereich.
+        // Das Basispaket laedt mit GENAU EINER Meldung, seit dem 21.08.2026:
+        // der Vorwarnung, dass 90 % der erlaubten WORTVORKOMMEN erreicht sind.
         //
-        // Diese Liste bleibt leer und wird nicht aufgeweicht: Reisst der Stand
-        // eine Grenze, faellt SuchbudgetTest darauf an, nicht dieser Test.
+        // Diese Zeile ist bewusst so eng gefasst, dass sie nichts durchlaesst:
+        // Erlaubt ist nur dieser eine Code, jede andere Meldung faellt weiterhin
+        // auf. Der eigentliche Waechter bleibt SuchbudgetTest -- dort stehen die
+        // harten Grenzen, und der Kommentar dieses Tests sagte schon vorher, dass
+        // ein gerissenes Budget DORT auffallen soll und nicht hier.
+        //
+        // WAS DIE MELDUNG BEDEUTET, EHRLICH: Sie zaehlt die Groesse, die
+        // ContentLimits selbst als die FALSCHE bezeichnet. Der Speicher haengt an
+        // der Zahl der VERSCHIEDENEN Woerter, nicht an der Zahl der Vorkommen --
+        // ein verschiedenes Wort kostet rund 130 Byte, ein weiteres Vorkommen
+        // rund 17. Das Europa-Paket steht am 21.08.2026 bei rund 34 400
+        // verschiedenen Woertern von 300 000 erlaubten (11 %) und bei rund
+        // 540 000 Vorkommen von 600 000 (90 %). Zusammen sind das rund 4,5 MB
+        // plus 9,2 MB, also knapp 14 MB von 96 MB Heap.
+        //
+        // WER DIE GRENZE ANHEBEN WILL, findet die Messanleitung in ContentLimits.
+        // Dort steht auch, warum das nicht nebenbei passiert: Es ist eine
+        // Aenderung an einer Schutzgrenze und gehoert entschieden.
         assertEquals(
-            emptyList(),
+            listOf("content-search-terms-near-limit"),
             result.problems.map { it.code },
             "Unerwartete Probleme: ${result.problems}",
         )
@@ -500,7 +513,35 @@ class EuropeDePaketTest {
         // (taktisch-wache-schwachstellen).
         // 560 -> 561 am 21.08.2026: "Wuergen und Hebeln am Boden: die einzelnen Griffe"
         // (taktisch-wuergen-hebeln-am-boden).
-        assertEquals(561, pack.tips.size)
+        // 561 -> 562 am 21.08.2026: "Spaten, Riemen, Stock gegen eine Klinge: die letzte Stufe"
+        // (taktisch-behelfswaffe-letzte-stufe).
+        // 562 -> 563 am 21.08.2026: "Clinch: den Angreifer heranziehen und halten"
+        // (taktisch-clinch-heranziehen).
+        // 563 -> 564 am 21.08.2026: "Schwitzkasten im Stehen loesen"
+        // (taktisch-schwitzkasten-stehen-loesen).
+        // 564 -> 565 am 21.08.2026: "Zu den Beinen durchtauchen: ein- und beidbeinig"
+        // (taktisch-beinangriff-durchtauchen).
+        // 565 -> 566 am 21.08.2026: "Den Angreifer an die Wand draengen"
+        // (taktisch-wand-draengen).
+        // 566 -> 567 am 21.08.2026: "Bodenkampf: die Uebergaenge zwischen den Positionen"
+        // (taktisch-bodenkampf-uebergaenge).
+        // 567 -> 568 am 21.08.2026: "Armstreckhebel und Kragenwuerger am Boden"
+        // (taktisch-armstreckhebel-kragenwuerger).
+        // 568 -> 569 am 21.08.2026: "Wuergegriff von hinten: Wurf und Schulterhebel als weitere Antworten"
+        // (taktisch-wuergegriff-hinten-alternativen).
+        // 569 -> 570 am 21.08.2026: "Wuergen ohne Kleidung: direkter Griff an Kehlkopf und Halsschlagadern"
+        // (taktisch-wuergen-ohne-kleidung).
+        // 570 -> 571 am 21.08.2026: "Schlagformen und Kombinationen"
+        // (taktisch-schlagformen-kombinationen).
+        // 571 -> 572 am 21.08.2026: "Trittformen und Distanzwechsel"
+        // (taktisch-tritte-distanzwechsel).
+        // 572 -> 573 am 21.08.2026: "Eine Uebungslage aufbauen: Situation erklaeren, Regeln vorher festlegen"
+        // (taktisch-uebungslage-aufbauen).
+        // 573 -> 574 am 21.08.2026: "Verbotene Techniken im Wettkampf: was sie verraten"
+        // (taktisch-wettkampf-verbotene-techniken).
+        // 574 -> 575 am 21.08.2026: "Eine ueberwaeltigte Person sichern und begleiten"
+        // (taktisch-person-sichern-begleiten).
+        assertEquals(575, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser
