@@ -547,7 +547,35 @@ class EuropeDePaketTest {
         // (taktisch-gefesselt-koerper).
         // 583 -> 584 am 21.08.2026: "Eingesperrt: Luft, Hitze und Kaelte in einem geschlossenen Raum"
         // (taktisch-eingesperrt-enger-raum).
-        assertEquals(584, pack.tips.size)
+        // 584 -> 585 am 21.08.2026: "Alkoholvergiftung: bewusstlos, aber noch atmend"
+        // (erste-hilfe-alkoholvergiftung).
+        // 585 -> 586 am 21.08.2026: "Sicher baden in Seen und Fluessen: was vorher zaehlt"
+        // (erste-hilfe-baderegeln-freigewaesser).
+        // 586 -> 587 am 21.08.2026: "Aus dem Clinch zu Boden: vier Takedown-Techniken"
+        // (taktisch-clinch-takedowns).
+        // 587 -> 588 am 21.08.2026: "Die Grundsaetze hinter jeder Nahkampftechnik"
+        // (taktisch-nahkampf-grundsaetze).
+        // 588 -> 589 am 21.08.2026: "Eine Peilung nehmen und halten: der Kompass in der Hand"
+        // (orientierung-kompass-peilung).
+        // 589 -> 590 am 21.08.2026: "Alpines Notsignal: sechsmal in der Minute"
+        // (orientierung-alpines-notsignal).
+        // 590 -> 591 am 21.08.2026: "Eine Kartenkoordinate lesen und angeben"
+        // (orientierung-gitterkoordinate).
+        // 591 -> 592 am 21.08.2026: "Die Notbrunnen der Stadt"
+        // (wasser-notbrunnen-staedte).
+        // 592 -> 593 am 21.08.2026: "Nitrat im eigenen Brunnen: unsichtbar, aber nicht harmlos"
+        // (wasser-nitrat-eigener-brunnen).
+        // 593 -> 594 am 21.08.2026: "Sprossen aus dem Vorrat ziehen: Vitamine ohne Nachschub"
+        // (nahrung-sprossen-aus-vorrat).
+        // 594 -> 595 am 21.08.2026: "Restliche Trefferpunkte: von Schluesselbein bis Achillessehne"
+        // (taktisch-weitere-trefferpunkte).
+        // 595 -> 596 am 21.08.2026: "Die Axt sicher benutzen: tragen, lagern, spalten"
+        // (taktisch-axt-sicher-benutzen).
+        // 596 -> 597 am 21.08.2026: "Notbiwak: Biwaksack und Rettungsfolie richtig einsetzen"
+        // (taktisch-notbiwak-biwaksack).
+        // 597 -> 598 am 21.08.2026: "Trockenmauer ohne Moertel: Anlaufschraege und Fuellung"
+        // (taktisch-trockenmauer-bauen).
+        assertEquals(598, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser

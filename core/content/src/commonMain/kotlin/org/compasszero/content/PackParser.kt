@@ -56,10 +56,11 @@ object PackParser {
         // Vereinheitlichen kann ein Zeichen zu mehreren werden, und genau die
         // stehen im Suchindex.
         fun zaehle(text: String) {
-            val aufbereitet = Tokenizer.suchform(text)
-            zeichen += (aufbereitet?.length ?: text.length).toLong()
-            if (aufbereitet == null) return
-            for (token in Tokenizer.tokensAusSuchform(aufbereitet)) {
+            val formen = Tokenizer.suchformen(text)
+            zeichen += (formen?.mitUmlaut?.length ?: text.length).toLong()
+            if (formen == null) return
+            val erste = Tokenizer.tokensAusSuchform(formen.mitUmlaut)
+            for (token in erste) {
                 if (Tokenizer.enthaeltOhneWortabstand(token)) continue
                 wortvorkommen++
                 if (zuVieleVerschiedene) continue
@@ -67,6 +68,26 @@ object PackParser {
                 if (verschiedene.size > ContentLimits.MAX_SUCHINDEX_VERSCHIEDENE_WOERTER) {
                     zuVieleVerschiedene = true
                     verschiedene.clear()
+                }
+            }
+            // Die Rueckfallebene der Suche (SearchIndex, umlautfreie Schreibweisen)
+            // zaehlt bei den VERSCHIEDENEN Woertern mit, aber nicht bei den
+            // Vorkommen: Sie haelt nur das Wort und einen Verweis, keine eigene
+            // Trefferliste. Gemessen am Europa-Paket vom 21.08.2026 sind das rund
+            // 7 000 Woerter und rund 230 KB.
+            //
+            // WARUM SIE UEBERHAUPT MITZAEHLT, obwohl sie viel billiger ist als ein
+            // Wort im Hauptverzeichnis: Eine Grenze, die einen Teil des Index
+            // einfach nicht sieht, schuetzt genau dann nicht mehr, wenn dieser Teil
+            // waechst. Lieber zu streng als blind.
+            if (zuVieleVerschiedene) return
+            for (token in Tokenizer.nurAbweichende(erste, formen.ohneUmlaut)) {
+                if (Tokenizer.enthaeltOhneWortabstand(token)) continue
+                verschiedene.add(token)
+                if (verschiedene.size > ContentLimits.MAX_SUCHINDEX_VERSCHIEDENE_WOERTER) {
+                    zuVieleVerschiedene = true
+                    verschiedene.clear()
+                    return
                 }
             }
         }

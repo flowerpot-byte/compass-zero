@@ -40,13 +40,22 @@ class SuchbudgetTest {
         val proEintrag = mutableListOf<Pair<String, Long>>()
 
         fun zaehle(text: String): Long {
-            val aufbereitet = Tokenizer.suchform(text)
-            zeichen += (aufbereitet?.length ?: text.length).toLong()
-            if (aufbereitet == null) return 0
+            val formen = Tokenizer.suchformen(text)
+            zeichen += (formen?.mitUmlaut?.length ?: text.length).toLong()
+            if (formen == null) return 0
             var n = 0L
-            for (token in Tokenizer.tokensAusSuchform(aufbereitet)) {
+            val erste = Tokenizer.tokensAusSuchform(formen.mitUmlaut)
+            for (token in erste) {
                 if (Tokenizer.enthaeltOhneWortabstand(token)) continue
                 n++
+                verschiedene.add(token)
+            }
+            // Genau wie PackParser: Die Rueckfallebene der Suche zaehlt beim
+            // Wortschatz mit, aber nicht bei den Vorkommen. Zaehlte dieser
+            // Bericht anders als die Pruefung, waere er wertlos -- er soll ja
+            // vorhersagen, wann die Pruefung anschlaegt.
+            for (token in Tokenizer.nurAbweichende(erste, formen.ohneUmlaut)) {
+                if (Tokenizer.enthaeltOhneWortabstand(token)) continue
                 verschiedene.add(token)
             }
             wortvorkommen += n
