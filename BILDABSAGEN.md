@@ -45,6 +45,20 @@ handgezeichnetes Monogramm unter der Zeichnung.
 
 ## Zurueckgestellt, nicht verworfen
 
+**werkzeug-waagerecht-senkrecht** ("Der rechte Winkel: das Dreieck mit festem
+Seitenverhaeltnis") -- Ausschnitt aus USDA Farmers' Bulletin 1480 (1926),
+Fig. 1, S. 9. Rechte und Beschriftung in Ordnung, Zoll-Masze sauber
+umgerechnet. Trotzdem raus: Der Ausschnitt zeigt zwei dicke Fluchtlinien, drei
+lose Buchstaben und die handgeschriebenen Masze der Quelle durcheinander. Wer
+das Dreieck 3-4-5 noch nicht kennt, versteht es hier nicht -- und wer es kennt,
+braucht kein Bild.
+*Brauchbar waere hier ausnahmsweise kein Stich, sondern ein selbst
+gezeichnetes Schema* (`tools/skizzen/schema_zeichnen.py`): drei Seiten, drei
+Maszahlen, ein rechter Winkel. Reine Geometrie ist nichts, was aus einer
+Quelle stammen muesste.
+
+
+
 **werkstoffe-gerben-ohne-rinde** ("Die Werkzeuge, und woraus sie sein
 koennen") -- Schaber und Blackfoot-Flescher nach Clark Wissler, "Material
 Culture of the Blackfoot Indians" (1910), Fig. 32 und 34a. Quelle und Rechte
@@ -154,6 +168,19 @@ Astschnitt-Blatt durfte bleiben, weil unsere deutsche Beschriftung direkt
 daneben dasselbe sagt.)
 
 ## Abgelehnt, weil es schlicht keine Abbildung gibt
+
+**werkstoffe-faerben-pflanzen** ("Färben: welche Beize welche Farbe macht")
+-- einzige Quelle ist Ethel M. Mairet, "A Book on Vegetable Dyes" (1916,
+archive.org `bookonvegetabled00mairrich`, 182 Seiten). Das Buch enthaelt
+KEINE einzige Abbildung: Volltextsuche nach "Plate", "Frontispiece", "Fig.",
+"woodcut", "illustrated" ergab null Treffer, das Inhaltsverzeichnis fuehrt
+kein "List of Illustrations", und die ersten Buchseiten (Titelblattbereich,
+als Einzelbilder angesehen) sind reiner Schriftsatz. Gepruefte Kandidaten
+Faerbekessel (Schritt Alaun-/Eisenbeize) und Aufhaengen der Straenge --
+Letzteres kommt im Text gar nicht vor, die Wolle wird ausgedrueckt und in
+einem Leinenbeutel gelagert, nicht aufgehaengt.
+*Brauchbar waere:* jede illustrierte Quelle zum Faerbekessel/Beizvorgang;
+diese hier scheidet komplett aus, nicht nur eine Einzelfigur.
 
 **agrikultur-gerben-ohne-rinde**, Abschnitt "Räuchern" (das Gestell "wie ein
 Schwitzhaus", mit Grube und Schwelfeuer darunter) -- keine der beiden Quellen
