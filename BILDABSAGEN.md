@@ -240,7 +240,80 @@ auf Englisch im Bild, ohne deutsche Entsprechung daneben. (Zum Vergleich: das
 Astschnitt-Blatt durfte bleiben, weil unsere deutsche Beschriftung direkt
 daneben dasselbe sagt.)
 
+**agrikultur-boden-saeure** ("Sauren Boden erkennen und mit Kalk
+verbessern") -- beide belegten Quellen vollstaendig geprueft:
+- USDA Farmers' Bulletin No. 77, "The Liming of Soils" (Wheeler, rev.
+  1905, archive.org `CAT31127350`, Volltext gelesen plus vier Seitenbilder
+  als Stichprobe angesehen): enthaelt VON DER ERSTEN BIS ZUR LETZTEN SEITE
+  KEINE EINZIGE ABBILDUNG (Volltextsuche nach "fig", "plate", "illustrat",
+  "photograph" ergab null Treffer; 23 reine Textseiten). Auch die Passage
+  zu den Zeigerpflanzen Sauerampfer und Lupine (der im Auftrag als
+  aussichtsreich genannte Fall) steht dort nur als Fliesstext, ohne
+  Zeichnung.
+- USDA Farmers' Bulletin No. 2124, "Liming Soils -- An Aid to Better
+  Farming" (Whittaker/Anderson/Reitemeier, 1959/1964, archive.org
+  `CAT87207389`, Volltext gelesen, alle 13 Abbildungen einzeln geprueft):
+  Figur 8 traegt explizit "(Courtesy of Highway Equipment Co.)" -- Stufe
+  (b) durchgefallen. Figuren 5-7, 9-12 zeigen moderne Kalk-Streuwagen und
+  -Anhaenger; unser Text beschreibt ausdruecklich das Auftragen OHNE
+  Streumaschine (Haufenmethode nach Bulletin 77), Inhalt passt nicht.
+  Figur 2 (Kalksteinkoernung nach Siebgroesse fuer Streumaschinen) passt
+  ebenfalls nicht zum Essig-Test unseres Textes (rohes Fundmaterial wie
+  Muschelschalen oder Mergel, nicht gemahlener Handelskalk). Figur 4
+  (Balkendiagramm mit ca. 50 englischen Pflanzennamen) ist der Sache nach
+  eine Masstabelle im Bildformat. Am naechsten am Text sind Figur 3 ("The
+  pH scale") und Figur 13 (Naehrstoffverfuegbarkeit nach pH-Wert) --
+  beide ohne jede Signatur oder Courtesy-Zeile (Bildecken und Bereich um
+  die Bildunterschrift herangezoomt geprueft), inhaltlich die beste
+  Naeherung an unseren Text. Beide scheitern aber an der
+  Fremdsprachen-Regel: Figur 3 traegt NEUN englische Gradbegriffe
+  (STRONG, MODERATE, MILD, NEUTRAL, SLIGHT, MEDIUM, VERY STRONG, EXTREME)
+  plus vier Bereichs-Legenden fest in der Zeichnung, Figur 13 zehn
+  englische Elementnamen fest in den Baendern -- beides nicht wegschneidbar,
+  ohne die Zeichnung selbst zu zerschneiden, und zu dicht fuer eine
+  schlanke 1:1-Randbeschriftung wie beim einzigen bisher erfolgreichen
+  Fall dieser Art (`obstbaum-astschnitt.png`, zwei Phrasen mit je einer
+  deutschen Entsprechung direkt daneben). Zusaetzlich nach weiteren
+  zweifelsfrei gemeinfreien US-Bundeswerken gesucht (Titelsuche in der
+  archive.org-Sammlung `usda-farmersbulletin` nach "lime"/"acid soil",
+  dazu zwei gezielte Websuchen nach Zeigerpflanzen- bzw.
+  Vergleichsfotos) -- kein Treffer.
+*Brauchbar waere:* Figur 3 oder Figur 13 aus Bulletin 2124, falls
+irgendwo eine textfreie oder rein numerische Fassung existiert, oder ein
+echtes Zeigerpflanzen- bzw. Vergleichsfoto (gekalkt/ungekalkt) aus einer
+anderen freien Quelle -- keine der beiden zugewiesenen Quellen liefert
+das.
+
 ## Abgelehnt, weil es schlicht keine Abbildung gibt
+
+**agrikultur-wurst-machen** ("Wurst machen: Brät mischen, würzen, abfüllen")
+-- belegte Quelle USDA Farmers' Bulletin No. 1186, "Pork on the Farm, Killing,
+Curing, and Canning" (Ashbrook/Anthony, Ausgabe 1921, archive.org
+`farmbul1186rev1921`), Abschnitt "MAKING SAUSAGE" (Seite 18/19, als Bild
+angesehen, nicht nur OCR). Der Abschnitt enthaelt genau EINE Abbildung: Fig.
+12, "A display of various kinds of sausage" -- ein Foto der FERTIGEN
+Wurstauslage. Genau dieses Bild wurde in derselben Nacht schon einmal zu
+Recht verworfen: Es zeigt das Ergebnis, nicht den Fuellvorgang. Kein
+Fuellhorn, kein Fleischwolf mit Stopfaufsatz, keine Hand am Darm.
+
+Zusaetzlich als zweifelsfrei gemeinfreie US-Bundeswerke geprueft (dieselben
+Verfasser hatten den Wurst-Abschnitt fast wortgleich schon frueher
+veroeffentlicht): USDA Farmers' Bulletin No. 913, "Killing Hogs and Curing
+Pork", Ausgaben 1917 (`CAT87202810`) und 1918 (`CAT31292117`) -- beide
+enthalten im Abschnitt "SAUSAGE" wieder nur dieselbe Auslage-Abbildung, sonst
+nichts zwischen der Lard-Kesselfigur und der Raeucherkammer. USDA Farmers'
+Bulletin No. 183, "Meat on the Farm: Butchering, Curing, and Keeping" von
+Andrew Boss, Ausgabe 1906 (`CAT10416773`), mit echten Stichzeichnungen statt
+Fotos -- der komplette Wurst-/Bologna-Abschnitt liegt zwischen zwei
+Abbildungen und ist selbst durchgehend unbebildert. USDA Farmers' Bulletin
+No. 2265, "Pork Slaughtering, Cutting, Preserving, and Cooking on the Farm"
+(moderne Fassung, Project Gutenberg `62859-h`) zeigt im Wurstabschnitt nur
+"Skinning pork trimmings" und "Wrapping procedures" -- Vorbereitung und
+Verpacken, nicht das Fuellen.
+*Brauchbar waere:* eine Zeichnung oder ein firmenfreies Foto von Fleischwolf
+mit Fuellaufsatz, Darm beim Aufziehen oder Hand beim Fuehren der Masse in die
+Huelle -- keine der vier geprueften US-Bundeswerke (drei Bulletin-Reihen,
+vier Ausgaben, 1906 bis zur modernen Nachfolgeserie) zeigt das.
 
 **werkstoffe-faerben-pflanzen** ("Färben: welche Beize welche Farbe macht")
 -- einzige Quelle ist Ethel M. Mairet, "A Book on Vegetable Dyes" (1916,
@@ -483,3 +556,80 @@ Behörde veröffentlicht; deshalb nicht verwendet.
 sichtbarer Hauung, ein Stampfmörser oder eine Handmühle im Schnitt, aus einem
 Buch-Scan, der (anders als die drei Hefte hier) das Mahlen selbst zeigt --
 keine der geprüften Quellen liefert das.
+
+**agrikultur-brennholz** ("Scheitholz: schlagen, stapeln, ablagern"),
+Abschnitt "Wie gestapelt wird" -- gesucht wurde die Stapelform im Schnitt
+(dichter Stapel auf zwei Unterlagshölzern / Blockhaus-Stapel mit
+Kreuzlagen / die Form dazwischen mit abwechselnden offenen Lagen auf
+Querhölzern), weil genau sie das Trocknen bestimmt. Beide zugewiesenen
+Quellen geprüft:
+- USDA Bulletin No. 753, „The Use of Wood for Fuel" (1919, archive.org
+  `useofwoodforfuel753unit`). Alle fünf Bildtafeln (Plate I-V, zehn Fotos)
+  einzeln als Bild angesehen: ausschließlich Fotos von Verladung,
+  Sägewerksbetrieb und Industrieöfen in Washington D. C., Massachusetts und
+  Tennessee -- keine zeigt eine Stapelform, keine passt zu einem Thema
+  dieses Kapitels. Die einzige echte Zeichnung des Heftes, „Fig. 1.--Plan of
+  a retail wood dealer's plant for sawing and splitting cordwood" (Seite 14,
+  als Bild bestätigt), ist ein Grundriss eines Verkaufsbetriebs mit Sägen,
+  Splitter, Bündlern und Wagen -- KEIN Schnitt durch einen Holzstapel. Der
+  Text direkt daneben beschreibt die drei Stapelformen ausschließlich in
+  Worten, ohne eigene Abbildung.
+- „Heating with Wood", Radioskript des Forest Service vom 23.10.1942.
+  Volltext durchsucht nach „fig", „figure", „plate", „illustrat",
+  „photograph", „drawing": null Treffer -- ein Rundfunkskript hat keine
+  Abbildungen.
+ERLEDIGT, aber nicht mit einem Stich: Abschnitt "Wie gestapelt wird" nennt drei Stapelformen und was sie kosten -- reine Anordnung, kein Gegenstand. Als eigenes Schema gezeichnet (`tools/skizzen/schema_zeichnen.py holzstapel`). Der gesuchte Stapelquerschnitt fehlt in den Quellen zu Recht: Man muss ihn nicht abzeichnen, man kann ihn zeichnen.
+
+Zusätzlich als mögliche weitere gemeinfreie US-Bundeswerke geprüft: Farmers'
+Bulletin 715 „Measuring and Marketing Woodlot Products" (Mattoon/Barrows,
+1916, archive.org `CAT87202498`, zwölf Abbildungen zu Holzmessung, Fällen und
+Sägewerk -- der einzige Satz zur Stapelung, Seite 48, hat keine eigene
+Figur); „Wood-Fuel Items" Nr. 1 des Forest Service vom 15.12.1917 (reiner
+Text-Rundbrief ohne Abbildungen); das Kriegsplakat „Cut Wood for ... Use
+Dead, Diseased, Crooked, and Low Branching Trees" (USDA Forest
+Service/Extension Service, 1942, archive.org `CAT31127035`, ein
+Werbeplakat-Motiv ohne Stapel-Fachzeichnung).
+*Brauchbar wäre:* eine Schnittzeichnung der drei Stapelformen mit sichtbarer
+Luftgasse und einer regenabweisenden obersten Lage, aus einer illustrierten
+Quelle zum Brennholz-Ablagern -- keine der geprüften Quellen liefert das.
+
+**agrikultur-kalk** („Kalk löschen und verwenden: Mörtel, Tünche,
+Stallhygiene") -- Vorbefund zuerst: DER KALKOFEN GEHÖRT NICHT IN DIESES
+KAPITEL. Der Eintragstext sagt selbst ausdrücklich „Wie man Kalk BRENNT,
+steht hier nicht" und „KEIN KALKOFEN"; die Berichtigung vom 19.08.2026 im
+selben Kapitel bestätigt, dass der Ofenbauplan bereits in der anderen
+Anleitung „Kalk brennen: aus Stein wird Branntkalk" verwendet ist. Gesucht
+wurde stattdessen das LÖSCHEN IN DER GRUBE (Abschnitt „Löschen: drei Wege")
+sowie ersatzweise der Mörtel-Sandring, der Tünche-Auftrag, die Stallhygiene
+und der Frostschutzanstrich. Beide zugewiesenen Quellen geprüft:
+- William Millar, „Plastering, Plain and Decorative" (1897), Kapitel
+  „Materials", Abschnitte Calcination/Slaking/Mortar (Seiten 38 bis 46, wie
+  in `agriculture.json` zitiert). Das Buch führt sein eigenes „List of
+  Illustrations in the Text": Abbildung Nr. 10 liegt auf Seite 22, Abbildung
+  Nr. 11 erst auf Seite 59 -- zwischen Seite 23 und 58, und damit über den
+  gesamten zitierten Bereich 38-46, liegt KEINE einzige Abbildung. Bestätigt
+  durch direkte Volltextsuche im zitierten Abschnitt selbst: kein
+  „Fig."/„Illustration"/„Plate"-Verweis im Lauftext von Calcination, Slaking
+  oder Mortar. Der Text beschreibt das Besprengverfahren, das Eintauchen in
+  eine mit Brettern, Ziegeln oder Sand ausgekleidete Grube, und den Sandring
+  für Mörtel rein sprachlich.
+- National Lime Association, „Whitewash and Cold Water Paints" (Bulletin
+  304-G, 1955). Volltext durchsucht nach „fig", „figure", „illustrat",
+  „photograph", „diagram", „drawing": keine Abbildungshinweise, nur
+  Rezepttext und eine Ergiebigkeitstabelle in Worten und Zahlen.
+
+Zusätzlich geprüft, obwohl für dieses Kapitel nicht zitiert: USDA Farmers'
+Bulletin 1801 „Making Lime on the Farm" (N. A. Kessler, Bureau of
+Agricultural Engineering, 1938) -- in diesem Projekt bereits als gemeinfrei
+bestätigt und mit acht Abbildungen (Bohren, Kalkofen-Bau, Mergelgrube,
+Streugerät). Das Heft behandelt aber ausschließlich LANDWIRTSCHAFTLICHEN Kalk
+zum Ausbringen auf Feldern -- nichts davon betrifft Mörtel, Tünche,
+Stallhygiene oder Frostschutzanstrich, die Themen dieses Kapitels. Seine
+Kalkofen-Abbildungen sind laut Kapiteltext bereits in der Schwester-Anleitung
+„Kalk brennen: aus Stein wird Branntkalk" verbaut und wären hier ohnehin
+thematisch falsch (siehe Vorbefund oben).
+*Brauchbar wäre:* eine Zeichnung des Besprengverfahrens (Kalk in Schichten,
+Wasser aus der Brause, sofort mit Sand abgedeckt) oder des Sandring-
+Mörtelansatzes, oder eine Abbildung des Tünche-Auftrags mit dem Pinsel -- aus
+einer illustrierten Quelle zu BAU-Kalk (Mörtel/Tünche), nicht zu
+landwirtschaftlichem Streukalk. Keine der geprüften Quellen liefert das.

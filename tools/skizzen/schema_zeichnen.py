@@ -659,7 +659,103 @@ def heustapel(ziel):
     return bild.size
 
 
-FIGUREN = {'zielmarken': zielmarken, 'hoehenlinien': hoehenlinien, 'versatz': versatz, 'hindernis': hindernis, 'kreuzpeilung': kreuzpeilung, 'dreieck345': dreieck345, 'naehrwerte': naehrwerte, 'wartezeiten': wartezeiten, 'heustapel': heustapel}
+
+
+def holzstapel(ziel):
+    """Die drei Stapelformen und was sie kosten: Platz gegen Trockenzeit."""
+    bild, z = blatt(1250, 820)
+    klein = schrift(15)
+    HOLZ = (214, 205, 188)
+    BODEN = 512
+    R, ABSTAND = 12, 26
+
+    def scheitreihe(cx, y, anzahl, weite):
+        """Scheite von vorn -- man sieht die runden Enden."""
+        start = cx - (anzahl - 1) * weite / 2.0
+        for i in range(anzahl):
+            x = start + i * weite
+            z.ellipse([(x - R, y - R), (x + R, y + R)], fill=HOLZ, outline=TINTE,
+                      width=2)
+
+    def querlage(cx, y, halbe):
+        """Scheite quer -- man sieht ihre Laenge als Balken."""
+        z.rectangle([(cx - halbe, y - 11), (cx + halbe, y + 11)], fill=HOLZ,
+                    outline=TINTE, width=2)
+
+    def unterlage(cx):
+        for seite in (-1, 1):
+            z.rectangle([(cx + seite * 60 - 42, BODEN - 10), (cx + seite * 60 + 42, BODEN)],
+                        fill=(196, 186, 168), outline=TINTE, width=2)
+
+    def kopf(cx, name, eigenschaft, farbe):
+        z.text((cx, 148), name, font=schrift(21, True), fill=farbe, anchor="ma")
+        z.text((cx, 178), eigenschaft, font=klein, fill=LEISE, anchor="ma")
+
+    z.line([(70, BODEN), (1180, BODEN)], fill=HILFE, width=2)
+
+    # 1. Dicht gestapelt, auf zwei Unterlagshoelzern.
+    A = 250
+    kopf(A, "Dicht", "die übliche Form", TINTE)
+    unterlage(A)
+    for i, y in enumerate((BODEN - 22, BODEN - 48, BODEN - 74, BODEN - 100, BODEN - 126)):
+        scheitreihe(A, y, 8, ABSTAND)
+    z.text((A, BODEN + 26), "Wenig Platz, wenig Luft.", font=schrift(17), fill=TINTE,
+           anchor="ma")
+    z.text((A, BODEN + 54), "Reicht, wenn das Holz sechs", font=klein, fill=LEISE,
+           anchor="ma")
+    z.text((A, BODEN + 76), "Monate oder länger Zeit hat.", font=klein, fill=LEISE,
+           anchor="ma")
+
+    # 2. Die Form dazwischen -- jede zweite Lage auf je einem Querholz.
+    B = 625
+    kopf(B, "Mit Zwischenlagen", "die Quelle empfiehlt sie", WEG)
+    unterlage(B)
+    y = BODEN - 22
+    for lage in range(4):
+        scheitreihe(B, y, 8, ABSTAND)
+        if lage < 3:
+            for seite in (-1, 1):
+                z.rectangle([(B + seite * 92 - 20, y - R - 12), (B + seite * 92 + 20, y - R)],
+                            fill=(196, 186, 168), outline=TINTE, width=2)
+            y -= 2 * R + 14
+    z.text((B, BODEN + 26), "Luft zieht zwischen den Lagen.", font=schrift(17),
+           fill=WEG, anchor="ma")
+    z.text((B, BODEN + 54), "Fast so schnell wie der Blockhaus-", font=klein, fill=LEISE,
+           anchor="ma")
+    z.text((B, BODEN + 76), "Stapel, braucht weit weniger Platz.", font=klein,
+           fill=LEISE, anchor="ma")
+
+    # 3. Blockhaus -- jede Lage quer zur vorigen.
+    C = 1000
+    kopf(C, "Blockhaus", "über Kreuz geschichtet", TINTE)
+    y = BODEN - 22
+    for lage in range(3):
+        scheitreihe(C, y, 4, 62)
+        y -= R + 13
+        querlage(C, y, 104)
+        y -= R + 15
+    z.text((C, BODEN + 26), "Am meisten Luft.", font=schrift(17), fill=TINTE,
+           anchor="ma")
+    z.text((C, BODEN + 54), "Trocknet am schnellsten, braucht", font=klein, fill=LEISE,
+           anchor="ma")
+    z.text((C, BODEN + 76), "viel Platz für wenig Holz.", font=klein, fill=LEISE,
+           anchor="ma")
+
+    z.text((625, 660), "Entscheidend ist nur eines: dass die Luft durchzieht.",
+           font=schrift(21, True), fill=TINTE, anchor="ma")
+    z.text((625, 690), "Drei Monate gut gestapelt bringen schon rund 90 von hundert "
+                       "des Brennwerts.", font=klein, fill=LEISE, anchor="ma")
+
+    rahmen(z, bild, "Drei Arten, Holz zu stapeln",
+           "die Wahl entscheidet nur, wie schnell es trocken wird",
+           "Die Himmelsrichtung des Stapels spielt kaum eine Rolle",
+           "nach Bulletin 753 „The Use of Wood for Fuel“, Office of Forest "
+           "Investigations, 1919 — Zeichnung neu gesetzt, siehe Werkzeugkommentar")
+    bild.save(ziel)
+    return bild.size
+
+
+FIGUREN = {'zielmarken': zielmarken, 'hoehenlinien': hoehenlinien, 'versatz': versatz, 'hindernis': hindernis, 'kreuzpeilung': kreuzpeilung, 'dreieck345': dreieck345, 'naehrwerte': naehrwerte, 'wartezeiten': wartezeiten, 'heustapel': heustapel, 'holzstapel': holzstapel}
 
 if __name__ == '__main__':
     if len(sys.argv) < 3 or sys.argv[1] not in FIGUREN:
