@@ -531,5 +531,9 @@ class LaienwoerterTest {
         // Und die Gegenprobe: das Schrittzaehlen hat seinen eigenen Eintrag
         // behalten und wurde nicht verdraengt.
         fuehrtAuf(index, "schritte zählen", "orientierung-schritte-zaehlen")
+        // "brandschneise" fuehrte am 21.08.2026 auf den Zaun. Das Wort fehlte
+        // in den Schlagwoertern des Waldbrand-Eintrags, obwohl es genau das
+        // beschreibt, was dort steht.
+        fuehrtAuf(index, "brandschneise", "taktisch-waldbrand-schutzstreifen")
     }
 }
