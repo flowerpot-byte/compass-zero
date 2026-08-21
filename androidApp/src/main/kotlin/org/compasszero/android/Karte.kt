@@ -293,6 +293,30 @@ class Karte(private val gastgeber: Activity, private val gemerkt: Gemerkt) : Ber
         }
         kartenfeld.addView(merkknopf)
 
+        // Der Vollbild-Knopf sitzt UNTEN rechts, weil oben rechts schon der
+        // Merkknopf liegt. Beide auf der Karte statt in der Knopfzeile: Dort
+        // waeren sie der fuenfte und sechste, und ab fuenf Knoepfen schneidet
+        // Android die Beschriftungen ab.
+        val vollbildknopf = Button(gastgeber).apply {
+            text = "Vollbild"
+            maxLines = 1
+            textSize = b.stil.textGroesse * 0.85f
+            typeface = b.stil.textSchrift
+            setTextColor(b.stil.text)
+            val rand = (8 * b.dichte).toInt()
+            layoutParams = android.widget.FrameLayout.LayoutParams(
+                Bausteine.WRAP,
+                Bausteine.WRAP,
+            ).apply {
+                gravity = Gravity.BOTTOM or Gravity.END
+                bottomMargin = rand
+                marginEnd = rand
+            }
+            sparknopf(this, b)
+            setOnClickListener { zeigeVollbild(b, kartenfeld, neuesBlatt) }
+        }
+        kartenfeld.addView(vollbildknopf)
+
         // Die Merkleiste steht NICHT als dritte Zeile da, sondern tritt an die
         // Stelle der Ebenenleiste. Unter der Karte ist Platz fuer genau zwei
         // Knopfzeilen; eine dritte lag beim Ebenen-Einbau schon einmal unter
@@ -1216,6 +1240,89 @@ class Karte(private val gastgeber: Activity, private val gemerkt: Gemerkt) : Ber
             .setNeutralButton("Löschen") { _, _ -> fertig(null, gewaehlt) }
             .setNegativeButton("Abbrechen", null)
             .show()
+    }
+
+    /**
+     * Zeigt die Karte bildschirmfuellend.
+     *
+     * WARUM DAS BLATT UMGEHAENGT UND NICHT NEU GEBAUT WIRD: Ein zweites
+     * Kartenblatt haette wieder bei der ganzen Karte angefangen -- Ausschnitt,
+     * Zoom, Drehung und die Ebenenschalter stecken alle im Blatt, und einen
+     * Teil davon (die Zoomstufe) gibt es von aussen gar nicht zu lesen. Wer im
+     * Vollbild landet, will genau das sehen, was er vorher vor sich hatte.
+     * Dieselbe View umzuhaengen behaelt alles, ohne dass irgendetwas kopiert
+     * werden muss.
+     *
+     * Zum Bedienen braucht es im Vollbild keine Knopfleiste: Das Blatt kennt
+     * Ziehen und Zwei-Finger-Zoom selbst. Ein einziger Knopf reicht, und der
+     * fuehrt zurueck. Die Zurueck-Taste des Geraets tut dasselbe.
+     */
+    private fun zeigeVollbild(
+        b: Bausteine,
+        heimat: android.widget.FrameLayout,
+        blattImVollbild: Kartenblatt,
+    ) {
+        val altesLayout = blattImVollbild.layoutParams
+        heimat.removeView(blattImVollbild)
+
+        val rahmen = android.widget.FrameLayout(gastgeber).apply {
+            setBackgroundColor(b.stil.hintergrund)
+            addView(
+                blattImVollbild,
+                android.widget.FrameLayout.LayoutParams(Bausteine.MATCH, Bausteine.MATCH),
+            )
+        }
+
+        val fenster = android.app.Dialog(gastgeber, android.R.style.Theme_Black_NoTitleBar_Fullscreen)
+        fenster.setContentView(rahmen)
+
+        val zurueck = Button(gastgeber).apply {
+            text = "Schließen"
+            maxLines = 1
+            textSize = b.stil.textGroesse * 0.85f
+            typeface = b.stil.textSchrift
+            setTextColor(b.stil.text)
+            val rand = (12 * b.dichte).toInt()
+            layoutParams = android.widget.FrameLayout.LayoutParams(
+                Bausteine.WRAP,
+                Bausteine.WRAP,
+            ).apply {
+                gravity = Gravity.TOP or Gravity.END
+                topMargin = rand
+                marginEnd = rand
+            }
+            sparknopf(this, b)
+            setOnClickListener { fenster.dismiss() }
+        }
+        rahmen.addView(zurueck)
+
+        // Zwei-Finger-Zoom kann das Blatt selbst, aber darauf allein zu bauen
+        // waere hier falsch: Wer mit klammen oder nassen Fingern arbeitet oder
+        // eine Hand am Verletzten hat, bekommt keine zwei Finger sauber auf
+        // den Bildschirm. Dieselben drei Knoepfe wie unter der kleinen Karte,
+        // unten quer -- oben liegt schon der Schliessen-Knopf.
+        val leisteVollbild = b.reihe().apply {
+            val rand = (12 * b.dichte).toInt()
+            setPadding(rand, rand, rand, rand)
+            layoutParams = android.widget.FrameLayout.LayoutParams(
+                Bausteine.MATCH,
+                Bausteine.WRAP,
+            ).apply { gravity = Gravity.BOTTOM }
+        }
+        leisteVollbild.addView(knopf(b, "−") { blattImVollbild.zoomeUm(-1f) })
+        leisteVollbild.addView(knopf(b, "+") { blattImVollbild.zoomeUm(1f) })
+        leisteVollbild.addView(knopf(b, "Ganz") { blattImVollbild.zeigeAufGanzeKarte() })
+        rahmen.addView(leisteVollbild)
+
+        // ZURUECKHAENGEN IST PFLICHT, nicht Aufraeumen. Bleibt das Blatt im
+        // geschlossenen Fenster haengen, ist der Kartenbereich danach leer --
+        // und zwar ohne Fehlermeldung, weil nichts abgestuerzt ist.
+        fenster.setOnDismissListener {
+            rahmen.removeView(blattImVollbild)
+            blattImVollbild.layoutParams = altesLayout
+            heimat.addView(blattImVollbild, 0)
+        }
+        fenster.show()
     }
 
     private fun knopf(b: Bausteine, beschriftung: String, tut: () -> Unit): Button =
