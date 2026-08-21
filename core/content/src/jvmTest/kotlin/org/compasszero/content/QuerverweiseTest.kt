@@ -441,7 +441,7 @@ class QuerverweiseTest {
         Triple("notunterstand-schnee", "notunterstand-lean-to", "Behelfs-Lean-to aus Naturmaterial"),
         Triple("notunterstand-schnee", "taktisch-gruppe-einteilen", "Eine Gruppe einteilen: Aufgaben, Wache, Buch"),
         Triple("wasser-nach-atomschlag", "wasser-schnee-eis", "Schnee und Eis: erst schmelzen, dann trinken"),
-        Triple("werkzeug-klinge-behelfsmaessig", "seilwerk-grundknoten", "Grundknoten und Lashings fürs Überleben"),
+        Triple("werkzeug-klinge-behelfsmaessig", "seilwerk-grundknoten", "Knoten und Lashings fürs Überleben: die Grundknoten"),
         Triple("nahrung-voegel-fangen", "fallen-stellen", "Fallen stellen"),
         Triple("nahrung-voegel-fangen", "beute-versorgen", "Beute versorgen und haltbar machen"),
         // Die Rangfolge der Tiergefahr fuehrt zu allen vier Einzelfaellen; ohne
@@ -457,8 +457,8 @@ class QuerverweiseTest {
         Triple("nahrung-giftpflanzen-irrtuemer", "nahrung-giftpflanzen-namentlich", "Giftpflanzen mit Namen — und die Verwechslungen"),
         Triple("nahrung-pflanzen-ohne-essen", "erste-hilfe-kontaktgift", "Kontaktgifte auf der Haut"),
         Triple("nahrung-pflanzen-ohne-essen", "erste-hilfe-kohlenmonoxid-erkennen", "Kohlenmonoxid: unsichtbar und geruchlos"),
-        Triple("nahrung-pflanzen-ohne-essen", "seilwerk-grundknoten", "Grundknoten und Lashings fürs Überleben"),
-        Triple("nahrung-pflanzen-ohne-essen", "feuer-ohne-zuendmittel", "Zünden ohne Streichhölzer: sechs Wege"),
+        Triple("nahrung-pflanzen-ohne-essen", "seilwerk-grundknoten", "Knoten und Lashings fürs Überleben: die Grundknoten"),
+        Triple("nahrung-pflanzen-ohne-essen", "feuer-ohne-zuendmittel", "Zünden ohne Streichhölzer: Zunder und sechs Wege"),
         // Heilpflanzen fuehren zurueck auf das, was sie NICHT ersetzen:
         // Blutstillung, Fluessigkeitsersatz und die Bestimmung der Art.
         Triple("medizin-heilpflanzen-grenzen", "erste-hilfe-starke-blutung", "Blutung stillen"),
@@ -473,7 +473,7 @@ class QuerverweiseTest {
         // Die Schnur-Anleitung fuehrt zu den Pflanzen, die Fasern geben, und zu
         // den Bindungen, fuer die die Schnur ueberhaupt gemacht wird.
         Triple("seilwerk-schnur-selbst", "nahrung-pflanzen-ohne-essen", "Schnur, Zunder, Dämmung aus dem, was wächst"),
-        Triple("seilwerk-schnur-selbst", "seilwerk-grundknoten", "Grundknoten und Lashings fürs Überleben"),
+        Triple("seilwerk-schnur-selbst", "seilwerk-grundknoten", "Knoten und Lashings fürs Überleben: die Grundknoten"),
         // Permanganat teilt die Grenze mit allen chemischen Mitteln — der
         // Verweis dorthin ist der sicherheitsrelevante Teil des Tipps.
         Triple("wasser-kaliumpermanganat", "wasser-abkochen", "Wasser abkochen"),

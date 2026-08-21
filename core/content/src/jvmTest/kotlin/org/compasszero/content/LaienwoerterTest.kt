@@ -456,4 +456,46 @@ class LaienwoerterTest {
         // Der erste Titel ("Die ersten Sekunden...") hatte es verdraengt.
         fuehrtAuf(index, "sekunden", "erste-hilfe-lawine-selbst-erfasst")
     }
+
+    // Die vierte Messrunde, 21.08.2026: 104 Alltagswoerter aus den Bereichen
+    // Feuer/Werkzeug, Tierhaltung, Anbau sowie Naehen und Weben. Die Bereiche
+    // standen im SNAPSHOT ausdruecklich als "noch nicht abgesucht".
+    //
+    // Vier echte Fehltreffer, alle mit derselben Ursache: Die Suche vergleicht
+    // WORTANFAENGE. "knoten" passt deshalb nicht auf "Grundknoten", "heu"
+    // nicht auf "Heumachen". Beide Anleitungen waren also fuer ihr eigenes
+    // Hauptwort unsichtbar.
+    //
+    //   "knoten"  fand die Knotenanleitung UEBERHAUPT NICHT (Platz 1 war
+    //             "Abszess eroeffnen" -- gemeint war dort ein Knoten unter
+    //             der Haut).
+    //   "heu"     fand das Heukapitel erst auf Platz 4, hinter Nasenspuelung,
+    //             Kerbtieren und dem Heulton der Sirene.
+    //   "zunder"  fand die Zuendanleitung nicht, obwohl deren erster Schritt
+    //             "Zuerst der Zunder" heisst -- Schritttext wiegt zu wenig.
+    //
+    // Behoben durch Titel und Ueberschrift, nicht durch Umschreiben der
+    // Inhalte. "grundknoten" steht hier mit, weil die erste Fassung der
+    // Berichtigung dieses Wort versehentlich entfernt hatte.
+    @Test
+    fun alltagswoerterFuerFeuerWerkzeugUndTierhaltungFuehrenZumRichtigenEintrag() {
+        val index = index()
+        fuehrtAuf(index, "knoten", "seilwerk-grundknoten")
+        fuehrtAuf(index, "grundknoten", "seilwerk-grundknoten")
+        fuehrtAuf(index, "lashing", "seilwerk-grundknoten")
+        fuehrtAuf(index, "zunder", "feuer-ohne-zuendmittel")
+        fuehrtAuf(index, "streichholz", "feuer-ohne-zuendmittel")
+        fuehrtAuf(index, "heu", "agrikultur-heu")
+        fuehrtAuf(index, "silage", "agrikultur-heu")
+        // Diese waren schon vorher richtig und stehen hier, damit sie es
+        // bleiben -- sie haengen an denselben Titeln.
+        fuehrtAuf(index, "melken", "agrikultur-milch-sauber")
+        fuehrtAuf(index, "klaue", "agrikultur-tiergesundheit")
+        fuehrtAuf(index, "euter", "agrikultur-tiergesundheit")
+        fuehrtAuf(index, "milbe", "agrikultur-milben-laeuse")
+        fuehrtAuf(index, "kompost", "agrikultur-kompost")
+        fuehrtAuf(index, "fruchtfolge", "agrikultur-fruchtfolge")
+        fuehrtAuf(index, "gerben", "agrikultur-gerben")
+        fuehrtAuf(index, "garn", "agrikultur-garn-machen")
+    }
 }
