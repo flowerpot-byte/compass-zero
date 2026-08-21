@@ -30,6 +30,35 @@ internal object Verweiszitate {
         "(siehe|Siehe|Tipp|Tipps|Anleitung|Kapitel|steht in|steht im|steht unter)[^$AUF]{0,30}$",
     )
 
+    // Die enge Fassung oben sieht nur 40 Zeichen zurueck und kennt sieben
+    // Verweiswoerter. Am 21.08.2026 hat sie deshalb einen toten Verweis
+    // durchgelassen: "Vier Punkte kommen deshalb beim Tragen dazu, egal welchen
+    // Griff aus 'Allein tragen: Huckepack, Rucksack- und Guertelgriff' du
+    // nutzt" -- ein Eintrag mit diesem Titel existierte nie, das Ziel heisst
+    // "Einer traegt: ...". Zwischen Verweiswort und Zitat lagen 47 Zeichen,
+    // und "Griff aus" steht in keiner Wortliste.
+    //
+    // Diese zweite, weitere Fassung schaut 120 Zeichen zurueck und kennt mehr
+    // Verben. Damit sie nicht jedes woertliche Zitat einsammelt, greift sie NUR
+    // bei Texten, die wie ein Titel dieses Pakets aussehen (siehe wieEinTitel).
+    private val VERWEISWORT_WEIT = Regex(
+        "(siehe|Siehe|Tipp|Tipps|Anleitung|Kapitel|Eintrag|Abschnitt|steht|stehen|" +
+            "zeigt|nennt|beschreibt|erklaert|findet|finden|dort|dazu|wie in|anders als|" +
+            "vergleiche|gilt)[^$AUF]{0,100}$",
+    )
+
+    // Titel dieses Pakets fangen gross an, hoeren nicht mit einem Satzzeichen
+    // auf und tragen entweder einen Doppelpunkt oder mindestens vier Woerter.
+    // Gemessen am 21.08.2026 ueber alle 1431 Titel: Das trifft auf die
+    // allermeisten zu und siebt gewoehnliche Zitate zuverlaessig aus.
+    private fun wieEinTitel(text: String): Boolean {
+        if (text.isEmpty() || !text[0].isUpperCase()) return false
+        if (text.last() in ".!?") return false
+        val woerter = text.split(' ').filter { it.isNotBlank() }
+        if (':' in text && woerter.size >= 3) return true
+        return woerter.size >= 4
+    }
+
     // "siehe A und B": beim zweiten Zitat steht kein eigenes Verweiswort mehr.
     // Ohne diese Regel blieben 33 der 397 Verweise ungeprueft.
     private val BRUECKE = Regex("^\\s*(und|oder|sowie|,|;)\\s*$")
@@ -47,6 +76,11 @@ internal object Verweiszitate {
             if (zu < 0) break
             val inhalt = text.substring(auf + 1, zu)
             var istVerweis = VERWEISWORT.containsMatchIn(text.substring(maxOf(0, auf - 40), auf))
+            if (!istVerweis && wieEinTitel(inhalt)) {
+                istVerweis = VERWEISWORT_WEIT.containsMatchIn(
+                    text.substring(maxOf(0, auf - 120), auf),
+                )
+            }
             if (!istVerweis && letztesWarVerweis && letztesEnde in 0..auf) {
                 if (BRUECKE.matches(text.substring(letztesEnde, auf))) istVerweis = true
             }

@@ -10843,3 +10843,366 @@ amtliches Werk und damit gemeinfrei.
 - Artikel „Animal glue“, Abschnitte „Hide glue“ und „Production“: Herstellung durch Einweichen und Erhitzen auf rund 70 °C in mehreren Durchgängen, Verarbeitungstemperatur rund 60 °C, kurze offene Zeit von rund einer Minute, Wiederverwendbarkeit nach erneutem Erwärmen, Kühllagerung gegen Verkeimung. Vollständig gelesen, abgerufen am 21.08.2026. CC BY-SA 4.0, Versionsgeschichte als Autorennachweis.
 
   Verwendet für: `nahrung-knochenleim-hautleim`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### Minnesota Department of Health
+
+- „Nitrate in Drinking Water“, health.state.mn.us, Stand 08.01.2025, im Volltext gelesen am 21.08.2026. Daher die Warnung, abgekochtes Wasser sei bei erhöhtem Nitratgehalt keine sichere Alternative.
+
+  Verwendet für: `wasser-nitrat-eigener-brunnen`.
+
+### Landratsamt Straubing-Bogen, Gesundheitsamt
+
+- „Merkblatt Nitrat und Nitrit“, landkreis-straubing-bogen.de, im Volltext gelesen am 21.08.2026: „Durch Abkochen des Wassers kann Nitrat nicht entfernt bzw. reduziert werden.“ Die deutsche Behördenquelle zur selben Aussage.
+
+  Verwendet für: `wasser-nitrat-eigener-brunnen`.
+
+### bergundsteigen (Fachmagazin von DAV, ÖAV, SAC und AVS)
+
+- Peter Plattner, „Die W-Fragen zum Biwaksack“, 10.04.2019, bergundsteigen.com, im Volltext gelesen am 21.08.2026, gegengelesen in der Schwesterfassung auf alpenverein.it vom 16.03.2021. Daher die Tatsache, dass ein nicht dampfdurchlässiger Sack Kondenswasser entstehen lässt und Hersteller deshalb dampfdurchlässige Stoffe und Atemöffnungen verwenden. Die Übertragung auf das Notbiwak ohne Schlafsack ist Einordnung dieses Pakets.
+
+  Verwendet für: `taktisch-notbiwak-biwaksack`.
+
+### Globale Arbeitsgruppe für Cholera-Bekämpfung (GTFCC)
+
+- „Technical Note: Water, Sanitation and Hygiene and Infection Prevention and Control in Cholera Treatment Structures“, gtfcc.org, PDF im Volltext gelesen am 21.08.2026, Tabelle 2 und Anhang 1. Bestätigt unabhängig 2 % für Stuhl und Erbrochenes und für Leichen, 0,2 % für Räume, Behälter und Geschirr, 0,05 % für Hände. Daher auch die Menge im Eimer: rund ein Zentimeter der 2-prozentigen Lösung, geleert spätestens bei einem Drittel Füllung.
+
+  Verwendet für: `hygiene-chlor-flaechen`.
+
+### National Institute on Aging (NIA), Teil der US-Gesundheitsbehörde NIH
+
+- Ratgeberseiten nia.nih.gov, Volltext gelesen am 21.08.2026: „Communicating With Someone Who Has Alzheimer's Disease“, „Alzheimer's Caregiving: Managing Personality and Behavior Changes“, „Coping With Agitation, Aggression, and Sundowning in Alzheimer's Disease“ und „Alzheimer's Caregiving: Coping With Hallucinations, Delusions, and Paranoia“ — behebbare Gründe für Unruhe, fester Tagesablauf, Fragen mit Ja oder Nein, nicht widersprechen, sicherer Abstand bei Angriffen, Armband.
+
+  Verwendet für: `medizin-demenz-krise`.
+
+### Alzheimer's Association (USA)
+
+- Ratgeberseiten alz.org, Volltext gelesen am 21.08.2026: „Wandering“ und „In a Disaster“ — sofort suchen, Laufrichtung folgt meist der dominanten Hand, Fundort meist nahe am Ausgangspunkt, zuerst im Haus und dann Gewässer-, Baum- und Zaunlinien absuchen, nach 15 Minuten Vermisstenmeldung mit Hinweis auf die Erkrankung, Notgepäck mit Armband, Kleidungsetiketten, aktuellem Foto und Medikamentenliste, Person nie allein lassen.
+
+  Verwendet für: `medizin-demenz-krise`.
+
+### US National Library of Medicine (NIH), MedlinePlus
+
+- Patientenanleitung „Indwelling catheter care“, medlineplus.gov/ency/patientinstructions/000140.htm, Volltext gelesen am 21.08.2026 — Haut einmal täglich, Katheter zweimal täglich, Wischrichtung bei Frauen und Männern, Reinigen vom Körper weg, keine Cremes oder Puder, Beutel unterhalb der Taille, geschlossenes System, Zeichen einer Infektion, Gründe für eine Meldung.
+
+  Verwendet für: `medizin-dauerkatheter-pflege`.
+
+- Patientenanleitung „Preventing pressure injuries“, medlineplus.gov/ency/patientinstructions/000147.htm, Volltext gelesen am 21.08.2026 — Takt alle 15 bis 20 Minuten im Rollstuhl gegenüber alle 1 bis 2 Stunden im Bett, tägliche Hautkontrolle von Kopf bis Fuß, Schaumstoff-, Gel- und Schaffellkissen, ausdrückliche Warnung vor Ringkissen, Anheben statt Schleifen beim Umsetzen, Rollstuhlpassform.
+
+  Verwendet für: `medizin-rollstuhl-druckentlastung`.
+
+### Model Systems Knowledge Translation Center (MSKTC), University of Washington
+
+- Merkblattreihe für Menschen mit Querschnittlähmung, msktc.org, Volltext gelesen am 21.08.2026: „Skin Care & Pressure Sores, Part 2: Preventing Pressure Sores“ und „Part 3: Recognizing and Treating Pressure Sores“ sowie „How to Do Pressure Reliefs (Weight Shifts)“ — Entlastung 30 bis 90 Sekunden, Hochdrücken an den Armlehnen nur als letzter Weg wegen der Schulter, Sitzbeinhöcker, Fingerprobe, Hautkontrolle zweimal täglich.
+
+  Verwendet für: `medizin-rollstuhl-druckentlastung`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### Kanclerz, Toto, Grzybowski, Alio u. a., Journal of Ophthalmology 2022 (frei zugänglich, PMC9249474)
+
+- „Results of the Pinhole Test Correlate with Hybrid Contact Lens Visual Acuity in Patients with Visual Impairment due to Corneal Diseases“: Die Lochblende ist eine undurchsichtige Scheibe mit mindestens einem kleinen Loch, üblich sind 1,2 Millimeter. Besserung spricht für Fehlsichtigkeit, Verschlechterung für Linsentrübung oder ein Leiden der Netzhautmitte, gleiche Sehschärfe für Schwachsichtigkeit. Nachteile: weniger Licht, Beugungsunschärfe, enges Gesichtsfeld. Gelesen am 21.08.2026.
+
+  Verwendet für: `medizin-ohne-brille`.
+
+### IQWiG — Institut für Qualität und Wirtschaftlichkeit im Gesundheitswesen (gesundheitsinformation.de)
+
+- „Ohrenschmalz-Pfropf“, Stand 22.05.2024: Aufgabe und Selbstreinigung des Ohrenschmalzes, Beschwerden des Pfropfs samt Verstärkung nach Duschen und Schwimmen, Häufigkeit 5 von 100 Erwachsenen und 10 von 100 Kindern, Wattestäbchen schieben tiefer, sichtbares Schmalz darf aus der Ohrmuschel gewischt werden, keine Tropfen und Spülungen bei Entzündung, Verletzung, Loch im Trommelfell oder Paukenröhrchen. Volltext gelesen am 21.08.2026.
+
+  Verwendet für: `medizin-ohrenschmalz-pfropf`.
+
+- „Was hilft, wenn sich Ohrenschmalz ansammelt?“, Stand 22.05.2024: Wasser, isotonische Salzlösung mit 9 Gramm Kochsalz je Liter sowie Oliven- oder Mandelöl wirken vermutlich ähnlich gut wie gekaufte Ohrentropfen; Anwendung über einige Tage; Ohrmuschel nach oben und hinten ziehen, Strahl auf die obere Wand des Gehörgangs, lauwarmes Wasser gegen Schwindel; Ohrenkerzen sind unwirksam und gefährlich. Gelesen am 21.08.2026.
+
+  Verwendet für: `medizin-ohrenschmalz-pfropf`.
+
+- „Zahnfleischentzündung und Parodontitis“, Stand 23.08.2023, Abschnitte Symptome, Ursachen, Verlauf, Vorbeugung, Behandlung: Bluten beim Putzen meist ohne Schmerz; Zahnbelag als dünner, kaum sichtbarer Bakterienfilm; Entzündung binnen weniger Tage; Taschen mehrere Millimeter bis über einen Zentimeter; Knochenabbau, lange Zähne, wackelnde Zähne; Gingivitis kann von selbst zurückgehen, Parodontitis nicht; Schübe; Risikogruppen. Gelesen am 21.08.2026.
+
+  Verwendet für: `medizin-zahnbett-entzuendung`.
+
+- „Wie wird eine Parodontitis behandelt?“, Stand 23.08.2023: behandlungsbedürftig ab Taschen von vier Millimetern; gute Mundhygiene ist Voraussetzung, dazu Rauchstopp und gut eingestellte Zuckerkrankheit; mindestens zweimal täglich putzen und die Zwischenräume mit Bürstchen oder Zahnseide reinigen; auch nach Verlust von Knochen oder Zähnen hilft gründliche Pflege den restlichen Zähnen; Antibiotika reichen allein nicht. Gelesen am 21.08.2026.
+
+  Verwendet für: `medizin-zahnbett-entzuendung`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### Turkish Journal of Emergency Medicine (Abu-Zidan u. a.)
+
+- „Prehospital management of earthquake crush injuries: A collective review“, 2023, Band 23 Heft 4, Seiten 199-210. Belegt: Ansammlungszeit rund eine Stunde, Kochsalzlösung 1 bis 1,5 Liter je Stunde VOR dem Lösen, Verbot kaliumhaltiger Infusionen, Abbinden nur bei anders nicht stillbarer Blutung, Sprechen beweist keine ausreichende Atmung, Spätzeichen dunkler Urin und nachlassende Urinmenge. Volltext gelesen am 21.08.2026.
+
+  Verwendet für: `erste-hilfe-vor-dem-befreien`.
+
+- „Prehospital management of earthquake crush injuries: A collective review“, 2023, Band 23 Heft 4, Seiten 199-210. Belegt: zugesetzte Atemwege durch Staub als eines der Probleme von Menschen, die unter Trümmern eingeschlossen sind. Volltext gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-bauschutt-staub`.
+
+### Acta Orthopaedica et Traumatologica Turcica (Sever u. a.)
+
+- „Destructive disasters, trauma, crush syndrome, and beyond“, 2023, Band 57 Heft 6, Seiten 306-314. Belegt: Behandlungsbeginn schon vor der Befreiung, Trinken als letzter Weg bei wachen Verletzten ohne Bauchverletzung, Auskühlung unter 35 Grad als schlechtes Zeichen, Sterblichkeit 15 bis 25 von hundert und bis 40 von hundert bei Blutwäschebedarf, brauner Urin nur bei etwa der Hälfte. Volltext gelesen am 21.08.2026.
+
+  Verwendet für: `erste-hilfe-vor-dem-befreien`.
+
+### Oxford Medical Case Reports (Zidouh u. a.)
+
+- „Crush syndrome after the Marrakesh earthquake: a case report and review of the literature“, 2025, Heft 1. Belegt: etwa 20 von hundert erdbebenbedingten Todesfällen treten kurz nach der Bergung ein, durch Herzrhythmusstörungen beim Wiedereinsetzen der Durchblutung. Volltext gelesen am 21.08.2026.
+
+  Verwendet für: `erste-hilfe-vor-dem-befreien`.
+
+### Britische Arbeitsschutzbehörde HSE
+
+- Merkblatt CIS36 „Construction dust“, 3. Fassung 03/2020. Belegt: drei Staubgruppen (Quarz aus Beton, Mörtel und Sandstein; Holz; allgemeiner Staub aus Gips, Kalkstein, Marmor), Krankheitsfolgen Lungenkrebs, Silikose, COPD, Asthma, kleine gefährliche Mengen, über 500 Todesfälle im Jahr durch Quarzstaub, enge Räume und lange Dauer als Verstärker, Wasser nur bei dauerhaftem Einsatz wirksam. Gelesen 21.08.2026.
+
+  Verwendet für: `taktisch-bauschutt-staub`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### Bundeszentrale für gesundheitliche Aufklärung (BZgA)
+
+- kindergesundheit-info.de, „Fieber bei Babys und Kindern“, Abschnitt zum Fieberkrampf, im Volltext gelesen am 21.08.2026; Sicherung unter work/quellen/saeugling/bzga-fieber.txt. Daher: drei bis fünf von hundert Kindern, sechs Monate bis fünf Jahre, drei bis vier Minuten, meist folgenlos, Auslöser schneller Anstieg oder Abfall, das Bild des Anfalls, seitlich lagern, nicht schütteln, nichts essen und trinken, komplizierter Fieberkrampf über 15 Minuten. CC BY-NC-ND 3.0 DE, nur als Beleg.
+
+  Verwendet für: `erste-hilfe-fieberkrampf`.
+
+- kindergesundheit-info.de, „Fieber bei Babys und Kindern“ und „Wann unbedingt ärztliche Hilfe nötig ist“, im Volltext gelesen am 21.08.2026; Sicherung unter work/quellen/saeugling/. Daher: Fiebergrenze 38 Grad in den ersten Lebenswochen, die noch nicht voll ausgebildete Fieberantwort, die vier Zeichen schlapp, teilnahmslos, schwaches Trinken, veränderte Hautfarbe, und die Liste der Blutvergiftungszeichen. CC BY-NC-ND 3.0 DE, nur als Beleg.
+
+  Verwendet für: `medizin-saeugling-alarmzeichen`.
+
+- kindergesundheit-info.de, „Hautprobleme bei Babys“ (Windelausschlag) und „Das Baby richtig wickeln“, im Volltext gelesen am 21.08.2026; Sicherung unter work/quellen/saeugling/. Daher: Ammoniak aus Urin und Stuhl, der Verlauf bis zum Windelsoor, Trocknen in den Hautfalten, kein Öl, Licht und Luft, Zinkcreme dünn, Kamillenbad, Muttermilch auf die wunden Stellen, die Wickelzahlen und die Angaben zu Stoffwindeln samt Kochwäsche ohne Desinfektionsmittel. CC BY-NC-ND 3.0 DE, nur als Beleg.
+
+  Verwendet für: `medizin-windelbereich-wund`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### Berufsfeuerwehr Braunschweig (Stadt Braunschweig)
+
+- „Frostschäden verhüten“, Sicherheitstipps der Feuerwehr, braunschweig.de, Volltext gelesen am 21.08.2026. Beleg für: auch bewohnte, aber unzureichend beheizte Räume (Schlafzimmer, Bad, Toilette, Gästezimmer) auf kleiner Stufe heizen; Dachboden und Keller als Gefahrenstellen, Fenster dort bei Frost geschlossen halten; im Winter nicht gebrauchte Leitungen absperren, vollständig entleeren, Entleerungsventil offen lassen.
+
+  Verwendet für: `taktisch-frostschaden-vorbeugen`.
+
+- „Frostschäden verhüten“, Sicherheitstipps der Feuerwehr, braunschweig.de, Volltext gelesen am 21.08.2026. Beleg für: bei austretendem Wasser sofort Hauptwasserhahn schließen und Strom abstellen, Wertgegenstände sichern, Wasser aufnehmen, Räume gut lüften, notfalls Feuerwehr; Wasserzufuhr vor dem Auftauen abstellen; auftauen nur mit heißem Wasser oder heißen Tüchern; kein Infrarotstrahler, keine Heißluftpistole, keine offene Flamme; im Zweifel Fachfirma.
+
+  Verwendet für: `taktisch-leitung-eingefroren-geplatzt`.
+
+### Wasserwerke der Stadt Bellevue (Washington, USA)
+
+- „Prevent Frozen Pipes“, bellevuewa.gov, Volltext gelesen am 21.08.2026. Beleg für: gefährdete Stellen (Außenhähne, ungeheizter Dachboden, Garage, Kriechkeller, Anschlussleitung); Schläuche abschrauben; Garagentor zu; Schranktüren öffnen und Chemie hochräumen; Hahn tropfen lassen; Tag und Nacht dieselbe Temperatur, nicht unter 55 Grad Fahrenheit (rund 13 Grad Celsius); Ablauf zum Entleeren; Lage des Haupthahns.
+
+  Verwendet für: `taktisch-frostschaden-vorbeugen`.
+
+- „Prevent Frozen Pipes“, bellevuewa.gov, Volltext gelesen am 21.08.2026. Beleg für: nur ein Rinnsal aus dem Hahn als Zeichen eines eingefrorenen Rohrs; wahrscheinliche Stellen an Außenwänden und am Hausanschluss; Auftauen mit Lumpen und heißem Wasser, danach trocken umwickeln; niemals offene Flamme oder elektrisches Gerät; bei Bruch sofort Haupthahn, sonst Absperrung an der Zähleruhr; Installateur, wenn die Stelle unzugänglich ist.
+
+  Verwendet für: `taktisch-leitung-eingefroren-geplatzt`.
+
+### US-Wetterdienst (National Weather Service)
+
+- „Stay Safe in the Extreme Cold“, weather.gov/dlh/extremecold, Dienststelle Duluth, Volltext gelesen am 21.08.2026. Beleg für den Satz, dass Rohre in schlecht gedämmten oder unbeheizten Häusern einfrieren und platzen. Werk der US-Bundesregierung, gemeinfrei.
+
+  Verwendet für: `taktisch-frostschaden-vorbeugen`.
+
+- „Stay Safe in the Extreme Cold“, weather.gov/dlh/extremecold, Dienststelle Duluth, Volltext gelesen am 21.08.2026. Beleg für: bei anstrengender Tätigkeit Baumwolle meiden, weil sie nass lange zum Trocknen braucht und dabei Wärme entzieht; stattdessen Kunstfasern, die Feuchtigkeit wegleiten; lockere Schichten, dicht gewebte und wasserabweisende Oberbekleidung mit Kapuze, Mütze, Fäustlinge. Werk der US-Bundesregierung, gemeinfrei.
+
+  Verwendet für: `taktisch-baumwolle-auf-der-haut`.
+
+### US-Nationalparkbehörde (National Park Service)
+
+- „Dressing for Winter“, nps.gov/teachers/classrooms/dressing-for-winter.htm, Unterrichtsmaterial des Glacier-Nationalparks, Volltext gelesen am 21.08.2026. Beleg für: Aufgaben der äußeren, mittleren und inneren Schicht; alle Schichten sollen schnell trocknen, möglichst allein durch Körperwärme; Baumwolle saugt Wasser in die Fasern und bleibt lange nass; Socken aus Wolle oder Polypropylen halten auch nass warm. Werk der US-Bundesregierung, gemeinfrei.
+
+  Verwendet für: `taktisch-baumwolle-auf-der-haut`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### Bundesamt für Strahlenschutz (BfS)
+
+- „Gebäude schützen im Notfall vor Strahlung“ (Aufenthalt in Gebäuden), Stand 26.11.2025, und „Evakuierung als Schutzmaßnahme in einem radiologischen Notfall“, Stand 26.11.2025. Beide am 21.08.2026 im Volltext von bfs.de gelesen: 24 bis 48 Stunden nach einer Kernwaffenexplosion, Faktor 100 in 48 Stunden, Warnung vor eigenmächtiger Evakuierung, Fahrzeuge als schlechter Schutz, Ausnahmen Feuer und Gasleck, Umgang mit Kindern in Schule und Kita.
+
+  Verwendet für: `strahlung-drinnen-bleiben`.
+
+- „Gebäude schützen im Notfall vor Strahlung“ (Aufenthalt in Gebäuden), Stand 26.11.2025, am 21.08.2026 im Volltext von bfs.de gelesen: Alpha und Beta zu 100 Prozent, Gamma bis 85 Prozent und im Keller mehr, 6 Zentimeter Beton rund 75 Prozent bei radioaktivem Jod, Innenräume ohne Fenster, Lüftung aus, Maske im Haus vernachlässigbar, Ablegen von Kleidung und Schuhen, Waschen vor dem Duschen, Haustiere, Leitungswasser.
+
+  Verwendet für: `strahlung-bester-platz-im-gebaeude`.
+
+- „Radiologische Folgen eines Notfalls für den Menschen“, Stand 12.10.2023, am 21.08.2026 im Volltext von bfs.de gelesen: eine von außen bestrahlte Person ist nicht selbst radioaktiv und für andere keine Belastung; auf der Haut abgelagerte Stoffe lassen sich abduschen; Jod-131 hat 8 Tage Halbwertszeit, Cäsium-137 rund 30 Jahre.
+
+  Verwendet für: `strahlung-bester-platz-im-gebaeude`.
+
+- „Radiologische Folgen eines Notfalls für den Menschen“, Stand 12.10.2023, am 21.08.2026 im Volltext von bfs.de gelesen: akute Strahlenschäden treten ab einer sehr hohen, in kurzer Zeit erhaltenen Dosis auf; eine von außen bestrahlte Person ist nicht selbst radioaktiv und für andere keine Belastung; Kinder reagieren empfindlicher als Erwachsene.
+
+  Verwendet für: `strahlung-strahlenkrankheit`.
+
+- „Einnahme und Wirkung von Jodtabletten“, Stand 11.02.2026, am 21.08.2026 im Volltext von bfs.de gelesen: Schutz ausschließlich vor der Aufnahme von radioaktivem Jod in die Schilddrüse; zu früh eingenommen ist das Jod schon wieder abgebaut; günstigster Zeitpunkt etwa eine Stunde vor dem Kontakt; latente Überfunktion ohne Krankheitszeichen kann bis zum Herz-Kreislauf-Versagen führen.
+
+  Verwendet für: `strahlung-jodtabletten-grenzen`.
+
+### Internationale Atomenergie-Organisation (IAEA)
+
+- „Manual for First Responders to a Radiological Emergency“ (EPR-First Responders 2006), Abschnitt AG.9 (medizinische Erstversorgung), am 21.08.2026 im Volltext gelesen: Haut mit Seife und warmem Wasser reinigen, dabei nicht zu kräftig schrubben; Kleidung in beschriftete Beutel; Hände waschen, bevor gegessen, getrunken oder ins Gesicht gefasst wird.
+
+  Verwendet für: `strahlung-bester-platz-im-gebaeude`.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### Allgemeiner Deutscher Automobil-Club (ADAC)
+
+- Meldung „Autokino: Batterie leer“, adac.de, im Volltext abgerufen am 21.08.2026: Radio allein während einer ganzen Vorstellung verkraftet eine gesunde Batterie in der Regel gut; leer wird sie durch Innenbeleuchtung, Gebläse, Sitzheizung und Handyladen; Rat, die Fahrzeugelektrik bis auf das Radio abzuschalten (Zündung aus). Tatsachen in eigenen Worten wiedergegeben.
+
+  Verwendet für: `taktisch-radio-krisenfall`.
+
+### Federal Emergency Management Agency (FEMA), USA
+
+- „Are You Ready? An In-depth Guide to Citizen Preparedness“ (IS-22), Kapitel Winter Storms (im Fahrzeug eingeschneit) und Kapitel Sheltering: Batteriestrom nicht verschwenden, den Bedarf an Licht, Wärme und Radio gegen den Vorrat abwägen; sich beim Hören abwechseln und rund um die Uhr wachen. Volltext work/quellen/taktisch/fema-are-you-ready-is22.txt, gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-radio-krisenfall`.
+
+### Oberösterreichischer Zivilschutzverband
+
+- „Familien-Notfallplan“, Stand September 2024, Abschnitte „Technische Hilfsmittel“, „Zivilschutztag“ und „Zivilschutz-Sirenensignale“: die Sender des ORF senden auch in Krisensituationen; Notfallradio mit Batterien oder Kurbelantrieb; Funktionstest von Notfallradio und Notbeleuchtung auf der jährlichen Prüfliste. Volltext work/quellen/taktisch/zivilschutz-ooe-familien-notfallplan.txt, gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-radio-krisenfall`.
+
+- „Familien-Notfallplan“, Stand September 2024, Kapitel „Warn- und Alarmsignale“: die drei Zivilschutz-Sirenensignale mit Dauer und Bedeutung; der gemeinsame Merksatz, dass jedes dieser Signale bedeutet, das Radio einzuschalten; Sirenensignale immer mit ORF-Durchsagen gekoppelt. Volltext work/quellen/taktisch/zivilschutz-ooe-familien-notfallplan.txt, gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-sirenensignale-at-ch`.
+
+### Amt der Niederösterreichischen Landesregierung, Katastrophenschutz
+
+- Seite „Warn- und Alarmsignale“, noe.gv.at, im Volltext abgerufen am 21.08.2026: Informationen werden vornehmlich über den ORF kommuniziert; Empfehlung, Radiogeräte auf Hitradio Ö3 einzustellen, weil die Ö3-Nachrichtenredaktion 24 Stunden besetzt ist.
+
+  Verwendet für: `taktisch-radio-krisenfall`.
+
+- Seite „Warn- und Alarmsignale“, noe.gv.at, im Volltext abgerufen am 21.08.2026: AT-Alert wird beim österreichweiten Zivilschutz-Probealarm mit ausgelöst; bei der höchsten Alarmierungsstufe lässt sich die Meldung am Mobiltelefon nicht stummschalten, wer sie nicht erhalten wollte, musste das Gerät in den Flugmodus versetzen oder ausschalten.
+
+  Verwendet für: `taktisch-handywarnung-cell-broadcast`.
+
+- Seite „Warn- und Alarmsignale“, noe.gv.at, im Volltext abgerufen am 21.08.2026: Programmfolge Probe, Warnung, Alarm, Entwarnung zwischen 12 und 13 Uhr; wöchentliche Sirenenprobe samstags um die Mittagszeit als Dauerton von 15 Sekunden; Informationen vornehmlich über den ORF.
+
+  Verwendet für: `taktisch-sirenensignale-at-ch`.
+
+### Bundesamt für Bevölkerungsschutz BABS (Schweiz), Alertswiss
+
+- Seite „Bei Gefahr richtig reagieren“, alert.swiss, im Volltext abgerufen am 21.08.2026: Nach dem Allgemeinen Alarm erfolgt immer eine Information via Radio und Alertswiss; Empfehlung, stets ein Transistorradio inklusive Reservebatterien bereitzuhalten; weitere Hinweise auf Teletext Seite 680.
+
+  Verwendet für: `taktisch-radio-krisenfall`.
+
+- Seite „Bei Gefahr richtig reagieren“, alert.swiss, im Volltext abgerufen am 21.08.2026: Alertswiss verbreitet ergänzend zu Sirenen und Radio Alarme, Warnungen und Informationen per Push-Nachricht; nach einem Alarm Telefon- und andere Kommunikationsnetze nur für wichtige und dringende Bedürfnisse nutzen (Gefahr der Netzüberlastung).
+
+  Verwendet für: `taktisch-handywarnung-cell-broadcast`.
+
+- Seiten „Bei Gefahr richtig reagieren“ und „Der jährliche Sirenentest“, alert.swiss, im Volltext abgerufen am 21.08.2026: Allgemeiner Alarm = regelmäßig auf- und absteigender Heulton von einer Minute, dann Radio hören, Anweisungen befolgen, Nachbarn informieren; Wasseralarm = zwölf tiefe Dauertöne von je 20 Sekunden im Abstand von 10 Sekunden, nur unterhalb von Stauanlagen, Gebiet sofort verlassen; Test am ersten Mittwoch im Februar.
+
+  Verwendet für: `taktisch-sirenensignale-at-ch`.
+
+- Seite „Bei Gefahr richtig reagieren“, Abschnitt „Allgemeine Verhaltensanweisungen“, alert.swiss, im Volltext abgerufen am 21.08.2026: Telefon- und andere Kommunikationsnetze nur für wichtige und dringende Bedürfnisse nutzen, weil sonst Netzüberlastung droht; Notfalldienste nur im Notfall anrufen.
+
+  Verwendet für: `taktisch-akku-strecken`.
+
+### Bundesministerium für Inneres (BMI), Österreich
+
+- Merkblatt „Warn- und Alarmsignale im Katastrophenfall“ (020_warn_und_alarmsignale.pdf), bmi.gv.at, im Volltext abgerufen am 21.08.2026: Warnung = 3 Minuten gleichbleibender Dauerton, herannahende Gefahr, Radio oder ORF einschalten; Alarm = 1 Minute auf- und abschwellender Heulton, schützende Bereiche aufsuchen; Entwarnung = 1 Minute gleichbleibender Dauerton.
+
+  Verwendet für: `taktisch-sirenensignale-at-ch`.
+
+- Informationsblatt „Zivilschutz-Probealarm für Ihre Sicherheit“ (bmi_documents/5346.pdf), bmi.gv.at, im Volltext abgerufen am 21.08.2026: rund 8.000 Sirenen; Sirenenprobe 15 Sekunden; jährlicher Probealarm am ersten Samstag im Oktober zwischen 12:00 und 12:45 Uhr; begleitend wird AT-Alert bundesweit ausgesendet.
+
+  Verwendet für: `taktisch-sirenensignale-at-ch`.
+
+### Apple
+
+- Seite „Batterien – Maximale Leistung“ (apple.com/de/batteries/maximizing-performance/), im Volltext abgerufen am 21.08.2026: Helligkeit dimmen und WLAN statt Mobilfunk als die zwei einfachsten Wege; Umfang des Stromsparmodus; bei fehlendem oder schwachem Empfang sucht das Gerät dauernd und die Laufzeit leidet, der Flugmodus verlängert sie, Telefonieren ist dann nicht möglich; sehr kalte Umgebung senkt die Laufzeit vorübergehend, über 35 Grad kann die Kapazität dauerhaft leiden.
+
+  Verwendet für: `taktisch-akku-strecken`.
+
+### Google, Android-Hilfe
+
+- Seite „Akkulaufzeit von Android-Geräten optimieren“ (support.google.com/android), im Volltext abgerufen am 21.08.2026: Displayhelligkeit senken, Display früher abschalten, Tastaturtöne und Vibration aus, dunkles Design; Energiesparmodus schränkt Hintergrundaktivitäten ein; Flugmodus, wenn das Mobilfunknetz nicht gebraucht wird; heißer Akku entlädt sich deutlich schneller und nimmt Schaden; ein volles Entladen und Aufladen ist für die Kapazitätsanzeige nicht nötig.
+
+  Verwendet für: `taktisch-akku-strecken`.

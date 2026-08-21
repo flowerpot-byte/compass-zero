@@ -616,14 +616,60 @@ class QuerverweiseTest {
     //
     // Diese Pruefung braucht keine Pflege: Sie sammelt jeden ausgeschriebenen
     // Verweis selbst ein.
+    // Ein Kapitel verweist auch auf SEINE EIGENEN Abschnitte ("wie im Abschnitt
+    // ... beschrieben"). Die tragen keinen eigenen Eintrag, sind fuer den Leser
+    // aber genauso ein Sprungziel. Deshalb zaehlen hier zusaetzlich alle
+    // Abschnitts-Ueberschriften mit -- sonst meldet der Waechter fuenf
+    // einwandfreie Verweise als tot (gemessen am 21.08.2026).
+    //
+    // Verglichen wird ohne Ruecksicht auf Gross- und Kleinschreibung: In einem
+    // Absatz, der ganz in Grossbuchstaben steht, wird der zitierte Titel
+    // mitgeschrien. Fuer die Suche ist das folgenlos, denn die zerlegt ohnehin
+    // in Kleinbuchstaben.
+    private fun alleSprungziele(pack: LoadedPack): Set<String> {
+        val out = HashSet<String>()
+        for (tip in pack.tips) out.add(tip.title.lowercase())
+        for (guide in pack.guides) out.add(guide.title.lowercase())
+        for (kapitel in pack.agriculture) {
+            out.add(kapitel.title.lowercase())
+            for (abschnitt in kapitel.sections) out.add(abschnitt.heading.lowercase())
+        }
+        return out
+    }
+
+    // Was in Anfuehrungszeichen steht und trotzdem kein Verweis ist. Die weite
+    // Fassung in Verweiszitate greift auch bei Saetzen wie "die Quelle nennt
+    // ..." -- gewollt, denn so wurde ein toter Verweis auf einen Titel
+    // gefunden, den es nie gab. Der Preis sind diese neun Stellen, jede einzeln
+    // nachgesehen und als echtes Zitat bestaetigt.
+    private val keineVerweise = setOf(
+        // Woertliche Rede aus einem Beispiel.
+        "Halt einfach ein bisschen Ausschau",
+        // Wortlaut aus dem Waffengesetz, keine Ueberschrift dieses Pakets.
+        "Waffenerwerb, Waffenbesitz und Waffentragen",
+        "Stahlruten, Totschläger oder Schlagringe",
+        // Posten aus einer Materialliste, kein Sprungziel.
+        "Holzleim oder Harz (optional)",
+        // Platzhalter in einem Satz ueber Flaechenangaben.
+        "X Quadratmeter pro Person",
+        // Titel und Bezeichnungen aus den englischsprachigen Quellen.
+        "Scotch one-horse coup cart",
+        "Wood Fuel in Wartime",
+        "Wheat Production in the Eastern United States",
+        "Cost of Using Horses on Corn-Belt Farms",
+        "Sieben und ähnliche Geräte, oder Worfeln",
+    )
+
     @Test
     fun jedesVerweisZitatNenntEinenVorhandenenEintrag() {
         val pack = paketLaden()
         val titel = Verweiszitate.titelZuKennung(pack)
+        val ziele = alleSprungziele(pack)
         val tote = ArrayList<String>()
         for ((kennung, text) in Verweiszitate.texteJeEintrag(pack)) {
             for ((_, zitiert) in Verweiszitate.finde(text)) {
-                if (zitiert in titel) continue
+                if (zitiert.lowercase() in ziele) continue
+                if (zitiert in keineVerweise) continue
                 // Beinahe-Treffer nennen: fast immer wurde das Ziel umbenannt.
                 val naheliegend = titel.keys.filter {
                     it.startsWith(zitiert.take(20)) || zitiert.startsWith(it.take(20))

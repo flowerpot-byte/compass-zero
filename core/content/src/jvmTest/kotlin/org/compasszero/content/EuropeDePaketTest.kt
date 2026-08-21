@@ -589,7 +589,61 @@ class EuropeDePaketTest {
         // (nahrung-knochenleim-hautleim).
         // 604 -> 605 am 21.08.2026: "Eine Sense dengeln statt nur schleifen"
         // (taktisch-sense-dengeln).
-        assertEquals(605, pack.tips.size)
+        // 605 -> 606 am 21.08.2026: "Demenz in der Krise: was jetzt noch Halt gibt"
+        // (medizin-demenz-krise).
+        // 606 -> 607 am 21.08.2026: "Dauerkatheter ohne Nachschub: sauber halten, Blockade erkennen"
+        // (medizin-dauerkatheter-pflege).
+        // 607 -> 608 am 21.08.2026: "Rollstuhl: alle 15 bis 20 Minuten entlasten"
+        // (medizin-rollstuhl-druckentlastung).
+        // 608 -> 609 am 21.08.2026: "Brille kaputt oder verloren: die Sehhilfe aus Pappe"
+        // (medizin-ohne-brille).
+        // 609 -> 610 am 21.08.2026: "Ohrenschmalz-Pfropf: aufweichen statt stochern"
+        // (medizin-ohrenschmalz-pfropf).
+        // 610 -> 611 am 21.08.2026: "Trommelfell gerissen: trocken halten, nichts hineintropfen"
+        // (medizin-trommelfell-gerissen).
+        // 611 -> 612 am 21.08.2026: "Zahnbett-Entzuendung: erst blutet es, dann wackelt der Zahn"
+        // (medizin-zahnbett-entzuendung).
+        // 612 -> 613 am 21.08.2026: "Bevor du jemanden unter einem schweren Gewicht hervorziehst"
+        // (erste-hilfe-vor-dem-befreien).
+        // 613 -> 614 am 21.08.2026: "Anheben und unterbauen: einen Balken oder eine Platte von jemandem herunterbekommen"
+        // (erste-hilfe-anheben-unterbauen).
+        // 614 -> 615 am 21.08.2026: "Nach einem Einsturz suchen, ohne den Schutt zum Nachrutschen zu bringen"
+        // (taktisch-einsturz-absuchen).
+        // 615 -> 616 am 21.08.2026: "Staub aus zerstoerten Gebaeuden: was das Einatmen anrichtet"
+        // (taktisch-bauschutt-staub).
+        // 616 -> 617 am 21.08.2026: "Wenn ein Kind bei hoher Temperatur verkrampft"
+        // (erste-hilfe-fieberkrampf).
+        // 617 -> 618 am 21.08.2026: "Wann ein Saeugling sofort Hilfe braucht: die zehn Zeichen"
+        // (medizin-saeugling-alarmzeichen).
+        // 618 -> 619 am 21.08.2026: "Saeuglingsnahrung anruehren: frisch, sauber, ohne Reste"
+        // (medizin-saeuglingsnahrung-zubereiten).
+        // 619 -> 620 am 21.08.2026: "Wunder Po beim Baby: oft wechseln, Luft dranlassen"
+        // (medizin-windelbereich-wund).
+        // 620 -> 621 am 21.08.2026: "Ungeheizte Zimmer: Rohre leer machen oder warm halten"
+        // (taktisch-frostschaden-vorbeugen).
+        // 621 -> 622 am 21.08.2026: "Leitung eingefroren oder geplatzt: erst zudrehen, dann auftauen"
+        // (taktisch-leitung-eingefroren-geplatzt).
+        // 622 -> 623 am 21.08.2026: "Baumwolle als unterste Schicht: warum sie auskuehlt"
+        // (taktisch-baumwolle-auf-der-haut).
+        // 623 -> 624 am 21.08.2026: "Schlafen ohne Heizung: die Schicht unter dir zaehlt"
+        // (taktisch-schlafen-ohne-heizung).
+        // 624 -> 625 am 21.08.2026: "Zuerst drinnen bleiben, dann erst losfahren"
+        // (strahlung-drinnen-bleiben).
+        // 625 -> 626 am 21.08.2026: "Waende, Erde, Keller: der sicherste Platz drinnen"
+        // (strahlung-bester-platz-im-gebaeude).
+        // 626 -> 627 am 21.08.2026: "Strahlenkrankheit: vier Stufen und die truegerische Besserung"
+        // (strahlung-strahlenkrankheit).
+        // 627 -> 628 am 21.08.2026: "Wenn Jodtabletten nichts nuetzen: vier Faelle"
+        // (strahlung-jodtabletten-grenzen).
+        // 628 -> 629 am 21.08.2026: "Radio im Krisenfall: welches Geraet, welcher Sender"
+        // (taktisch-radio-krisenfall).
+        // 629 -> 630 am 21.08.2026: "Cell Broadcast und Warn-App: was aufs Handy noch durchkommt"
+        // (taktisch-handywarnung-cell-broadcast).
+        // 630 -> 631 am 21.08.2026: "Sirenensignale in Oesterreich und der Schweiz: anders als in Deutschland"
+        // (taktisch-sirenensignale-at-ch).
+        // 631 -> 632 am 21.08.2026: "Akku strecken: was wirklich hilft und was es kostet"
+        // (taktisch-akku-strecken).
+        assertEquals(632, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser
