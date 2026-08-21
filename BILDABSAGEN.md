@@ -8,8 +8,10 @@ zweites Mal bezahlt wird.**
 Wer einen Eintrag hier findet, faengt nicht bei null an: Entweder es gibt
 wirklich nichts, oder es steht dabei, was ein brauchbares Blatt haette.
 
-Die Regeln selbst -- Zwei-Stufen-Rechtepruefung, Signaturregel, die drei Faelle
-zu fremdsprachigem Text -- stehen im MERKZETTEL, nicht hier.
+Die Regeln selbst gehoeren nicht hierher -- die Rechtepruefung in zwei Stufen
+(ist das WERK frei? und traegt die EINZELNE Abbildung einen eigenen Nachweis?),
+der Umgang mit Signaturen und der mit fremdsprachigem Text im Bild. Hier steht
+nur, was ihre Anwendung im Einzelfall ergeben hat.
 
 ---
 

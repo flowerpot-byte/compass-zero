@@ -1043,8 +1043,8 @@ Verweis nach dem ersten Schritt stehengeblieben.
 Beide Eintrage haben derzeit **kein** Bild. Ob sie eines bekommen sollen, ist
 eine Gestaltungsentscheidung, die noch aussteht — deshalb nicht nachts
 eingehängt.
-Zum Fertigmachen fehlen nur zwei Schritte: rastern (Chrome headless, siehe
-`SNAPSHOT.md`) nach `content/europe-de/paket/assets/`, dann das Feld `image`
+Zum Fertigmachen fehlen nur zwei Schritte: rastern (Chrome im Kopflos-Betrieb)
+nach `content/europe-de/paket/assets/`, dann das Feld `image`
 im jeweiligen Tipp setzen und `bilder_pruefen.py` nochmal laufen lassen.
 **Das Wortbudget steht dem nicht im Weg** — `image` zählt nicht in den
 Suchindex.
