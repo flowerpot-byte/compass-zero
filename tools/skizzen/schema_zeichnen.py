@@ -431,7 +431,90 @@ def dreieck345(ziel):
     return bild.size
 
 
-FIGUREN = {'zielmarken': zielmarken, 'hoehenlinien': hoehenlinien, 'versatz': versatz, 'hindernis': hindernis, 'kreuzpeilung': kreuzpeilung, 'dreieck345': dreieck345}
+
+
+def beschriften(z, x0, laenge, y, dicke, text, farbe):
+    """Zahl in den Balken, wenn sie hineinpasst -- sonst daneben."""
+    kw = schrift(17, True)
+    breite = z.textlength(text, font=kw)
+    if laenge > breite + 24:
+        z.text((x0 + laenge - 10, y + dicke // 2), text, font=kw, fill=BLATT,
+               anchor="rm")
+    else:
+        z.text((x0 + laenge + 10, y + dicke // 2), text, font=kw, fill=farbe,
+               anchor="lm")
+
+
+def naehrwerte(ziel):
+    """Kalorien und Eiweiss je 100 Gramm -- sechs Lebensmittel im Vergleich."""
+    bild, z = blatt(1250, 820)
+    klein = schrift(16)
+
+    # Die Zahlen stehen so im Kapitel "Kalorien und Eiweiss im Vergleich".
+    # Reihenfolge nach der Aussage des Kapitels: erst was den Teller fuellt,
+    # dann was wirklich traegt.
+    posten = [
+        ("Kohl", 26, 1.3),
+        ("Rübe", 28, 0.9),
+        ("Kartoffel", 67, 1.8),
+        ("Weißes Weizenmehl", 355, 11.5),
+        ("Vollkorn-Weizenmehl", 358, 13.2),
+        ("Getrocknete Bohnen", 345, 22.5),
+    ]
+    LX, RX, BREITE = 300, 760, 300
+    KCAL_MAX, EIWEISS_MAX = 400.0, 25.0
+    OBEN, SCHRITT, DICKE = 205, 58, 26
+
+    z.text((LX, 158), "Kilokalorien je 100 g", font=schrift(18, True), fill=WEG)
+    z.text((RX, 158), "Eiweiß in Gramm je 100 g", font=schrift(18, True), fill=NEBENWEG)
+
+    # Hilfslinien: ohne sie sind Balkenlaengen nicht ablesbar.
+    unten = OBEN + len(posten) * SCHRITT - 12
+    for wert in (100, 200, 300, 400):
+        x = LX + BREITE * wert / KCAL_MAX
+        z.line([(x, OBEN - 8), (x, unten)], fill=HILFE, width=1)
+        z.text((x, unten + 8), str(wert), font=klein, fill=HILFE, anchor="ma")
+    for wert in (5, 10, 15, 20, 25):
+        x = RX + BREITE * wert / EIWEISS_MAX
+        z.line([(x, OBEN - 8), (x, unten)], fill=HILFE, width=1)
+        z.text((x, unten + 8), str(wert), font=klein, fill=HILFE, anchor="ma")
+
+    for i, (name, kcal, eiweiss) in enumerate(posten):
+        y = OBEN + i * SCHRITT
+        z.text((LX - 22, y + DICKE // 2), name, font=schrift(18), fill=TINTE, anchor="rm")
+
+        # Die Zahl steht IM Balken, sobald er lang genug ist. Aussen legte sie
+        # sich bei den langen Balken auf die Hilfslinie und war durchgestrichen.
+        b1 = BREITE * kcal / KCAL_MAX
+        z.rectangle([(LX, y), (LX + b1, y + DICKE)], fill=WEG)
+        beschriften(z, LX, b1, y, DICKE, str(kcal), WEG)
+
+        b2 = BREITE * eiweiss / EIWEISS_MAX
+        z.rectangle([(RX, y), (RX + b2, y + DICKE)], fill=NEBENWEG)
+        beschriften(z, RX, b2, y, DICKE, ("%.1f" % eiweiss).replace(".", ","),
+                    NEBENWEG)
+
+    z.text((625, unten + 46), "Die beiden Maßstäbe sind verschieden — ein Balken links "
+                              "ist mit einem Balken rechts nicht vergleichbar.",
+           font=klein, fill=LEISE, anchor="ma")
+    z.text((625, unten + 78), "Getreide und Hülsenfrüchte tragen, Kohl und Rübe füllen "
+                              "nur den Teller.", font=schrift(19, True), fill=TINTE,
+           anchor="ma")
+    z.text((625, unten + 106), "Wie viel Fläche das braucht, sagt dieses Bild NICHT — "
+                               "Erträge schwanken zu stark.", font=klein, fill=LEISE,
+           anchor="ma")
+
+    rahmen(z, bild, "Was ein Kilo wirklich bringt",
+           "sechs Lebensmittel, je 100 Gramm, roh und unverarbeitet",
+           "Tagesbedarf bei schwerer Handarbeit: 3500 kcal und 100 g Eiweiß",
+           "Werte aus USDA Farmers' Bulletin 1383 „Food Values and Body Needs Shown "
+           "Graphically“ (Winslow, 1923) — Umrechnung von Pfund auf Gramm je 100 g "
+           "ist Rechnung dieses Pakets")
+    bild.save(ziel)
+    return bild.size
+
+
+FIGUREN = {'zielmarken': zielmarken, 'hoehenlinien': hoehenlinien, 'versatz': versatz, 'hindernis': hindernis, 'kreuzpeilung': kreuzpeilung, 'dreieck345': dreieck345, 'naehrwerte': naehrwerte}
 
 if __name__ == '__main__':
     if len(sys.argv) < 3 or sys.argv[1] not in FIGUREN:
