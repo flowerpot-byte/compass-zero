@@ -520,5 +520,16 @@ class LaienwoerterTest {
         fuehrtAuf(index, "senklot", "werkzeug-waagerecht-senkrecht")
         fuehrtAuf(index, "schlauchwaage", "werkzeug-waagerecht-senkrecht")
         fuehrtAuf(index, "rechter winkel", "werkzeug-waagerecht-senkrecht")
+        // Dasselbe fuer den Zollstock: neun Anleitungen setzen ihn oder ein
+        // Massband voraus. "massband" fuehrte am 21.08.2026 auf "Schritte
+        // zaehlen" statt auf die Ersatzanleitung -- deren Titel nannte nur den
+        // Zollstock. Jetzt nennt er beides.
+        fuehrtAuf(index, "zollstock", "werkzeug-laengen-ohne-zollstock")
+        fuehrtAuf(index, "maßband", "werkzeug-laengen-ohne-zollstock")
+        fuehrtAuf(index, "massband", "werkzeug-laengen-ohne-zollstock")
+        fuehrtAuf(index, "elle", "werkzeug-laengen-ohne-zollstock")
+        // Und die Gegenprobe: das Schrittzaehlen hat seinen eigenen Eintrag
+        // behalten und wurde nicht verdraengt.
+        fuehrtAuf(index, "schritte zählen", "orientierung-schritte-zaehlen")
     }
 }
