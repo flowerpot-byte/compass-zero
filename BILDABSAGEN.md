@@ -261,3 +261,26 @@ einziger Treffer, der auf eine Abbildung verweist.
 Schnitt durch ein Butterfass mit den Schlagbrettern/Einbauten, oder von der
 Handhaltung beim Kneten auf dem Butterbrett -- diese Quelle liefert keins von
 beidem.
+
+**agrikultur-saatgut-ueberwintern** ("Möhre, Kohl und Rübe überwintern für
+eigenes Saatgut") -- einzige Quelle ist Charles Johnson, "The Seed Grower: A
+Practical Treatise on Growing Vegetable and Flower Seeds and Bulbs for the
+Market" (Marietta, Pennsylvania, 1906, archive.org
+`seedgrowerpracti00johnrich`, 212 Seiten). Volltext (`_djvu.txt`) durchsucht
+nach "Fig", "illustrat", "plate", "diagram", "sketch", "engrav",
+"photograph", "half-tone", "drawing", "frontispiece" -- die einzigen echten
+Treffer sind "Fig." als Namensteil einer Pfeffersorte ("Pear-Shaped Yellow,
+or Fig.") und "illustration" fuer ein liniertes Karteibuch-Muster (Seite 139,
+Testfuehrung), keiner davon eine Bildunterschrift. Das Inhaltsverzeichnis
+fuehrt kein "List of Illustrations". Gezielt als Bild nachgesehen: die genaue
+Textstelle zur Möhren-/Rübenmiete selbst (Seite 22/23, "Wintering Roots" --
+deckt sich wortgleich mit den in unserem Eintrag uebernommenen Massen 12 Fuss
+lang, 18 Zoll tief, 3 Fuss breit) zeigt reinen, engzeiligen Fliesstext ohne
+jede Grafik. Einzige Bildseite im ganzen Scan ist das Frontispiz (Blatt 7):
+ein Portraetfoto des Autors mit eigenhaendiger Unterschrift "...Johnson" --
+faellt schon als Portraet eines benannten Menschen raus, unabhaengig von den
+Rechten.
+*Brauchbar waere:* eine Schnittzeichnung der Miete/Grube mit den
+eingeschlagenen Wurzeln (Stroh- und Erdschichten, tapering pile wie im Text
+beschrieben) aus einer bebilderten Quelle -- diese hier liefert ausser Text
+nichts.
