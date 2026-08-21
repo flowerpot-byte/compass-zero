@@ -10569,3 +10569,204 @@ Die Schrift der University of Arizona (az1863, 2021) ist **kein** Werk einer
 US-Bundesbehörde. Sie wurde deshalb wie schon beim Tipp „Regen vom Dach: der
 erste Schwall muss weg" nur als geprüfter Beleg herangezogen, ohne
 Wortlautübernahme.
+
+## 21.08.2026 — Kampfstoff, gemessene Lücken und vier neue Themenfelder
+
+Alle Belege dieser Nacht, die vorher noch nirgends in dieser Datei standen.
+Die beiden US-Nahkampf-Handbücher (FM 3-25.150 und FM 21-150) stehen bereits
+weiter oben und sind hier nicht wiederholt — sie tragen den weitaus größten
+Teil der neuen Einträge.
+
+**Lizenzlage:** Nicht jede dieser Quellen ist frei. Wo eine geschützte Quelle
+steht, ist ausschließlich die TATSACHE übernommen und der Text selbst
+geschrieben — Tatsachen, Zahlen und Arbeitsverfahren sind nicht geschützt.
+Die einzige wörtliche Übernahme dieser Nacht ist ein Satz aus der
+ProPK-Broschüre „Sicher wohnen“ und der Wortlaut von § 127 Absatz 1 Satz 1
+StPO; beide sind als Zitat gekennzeichnet, der Gesetzestext ist zudem
+amtliches Werk und damit gemeinfrei.
+
+### Strafprozessordnung (StPO)
+
+- Paragraf 127 Absatz 1 Satz 1 StPO „Vorläufige Festnahme“, Wortlaut wörtlich übernommen von gesetze-im-internet.de, gelesen am 21.08.2026. Amtliches Werk, gemeinfrei nach Paragraf 5 UrhG.
+
+  Verwendet für: `taktisch-person-sichern-begleiten`.
+
+### Deutsche Gesetzliche Unfallversicherung (DGUV)
+
+- DGUV Regel 112-190 „Benutzung von Atemschutzgeräten“, Ausgabe November 2021, Abschnitte 4.5.1.3.12.3 (Bart/Brille/Kontaktlinsen und Dichtsitz), 4.5.1.3.17–4.5.1.3.20 (Partikel- vs. Gasfilter, Tabelle 8 Gasfiltertypen A/B/E/K/AX/SX), 4.5.1.3.21 (Lagerfrist, Gebrauchsdauer, Geruchs-/Geschmacksdurchbruch), publikationen.dguv.de Webcode p112190, im Volltext gelesen am 21.08.2026. © DGUV, urheberrechtlich geschützt, hier nur Tatsachen übernommen, kein Wortlaut.
+
+  Verwendet für: `taktisch-atemschutz-gegen-gas`.
+
+### Internationales Komitee vom Roten Kreuz (IKRK)
+
+- David Lloyd Roberts, „Staying Alive“, IKRK Genf 1999, überarbeitete Fassung 2005 (Ref. 0717/002), Abschnitt „Personal Protective Equipment“, S. 83, am 21.08.2026 im Volltext gelesen: Bart oder mehrtägige Stoppeln unterbrechen die Dichtlinie des Atemschutzgeräts. © IKRK, nur Beleg.
+
+  Verwendet für: `taktisch-atemschutz-gegen-gas`.
+
+### Centers for Disease Control and Prevention (CDC)
+
+- Fact Sheet „Facts About Riot Control Agents“ (Interim document), zuletzt inhaltlich geprüft 22.02.2006, archivierte Fassung cybercemetery.unt.edu/oilspill/20130227084908mp_/http://emergency.cdc.gov/agent/riotcontrol/factsheet.asp, im Volltext gelesen am 21.08.2026. Werk der US-Bundesregierung, gemeinfrei (17 U.S.C. § 105).
+
+  Verwendet für: `erste-hilfe-traenengas-pfefferspray`.
+
+### Tidwell RD, Wills BK (StatPearls / NCBI Bookshelf, NIH)
+
+- „Tear Gas and Pepper Spray Toxicity“, StatPearls [Internet], Treasure Island (FL): StatPearls Publishing, Stand 14.05.2023, ncbi.nlm.nih.gov/books/NBK544263/, Abschnitte Mechanism of Action, Treatment/Management, Complications, im Volltext gelesen am 21.08.2026. Frei zugänglich über NCBI Bookshelf, nur Tatsachen übernommen.
+
+  Verwendet für: `erste-hilfe-traenengas-pfefferspray`.
+
+### Hon KL, Leung KKY, Leung AKC (Hong Kong Med J)
+
+- „Health effects of tear gas exposure in children, infants, and fetuses“, Hong Kong Med J 2020;26:351–352, doi.org/10.12809/hkmj198171, im Volltext gelesen am 21.08.2026 (hkmj.org/system/files/hkmj198171.pdf). © 2020 Hong Kong Academy of Medicine, CC BY-NC-ND 4.0, nur Tatsachen übernommen.
+
+  Verwendet für: `erste-hilfe-traenengas-pfefferspray`.
+
+### Yeung MF, Tang WYM (Hong Kong Med J)
+
+- „Clinicopathological effects of pepper (oleoresin capsicum) spray“, Hong Kong Med J 2015;21(6):542–552, doi.org/10.12809/hkmj154691, Abschnitt „Decontamination“, im Volltext gelesen am 21.08.2026 (hkmj.org/system/files/hkmj154691.pdf). Hong Kong Academy of Medicine, nur Tatsachen übernommen.
+
+  Verwendet für: `erste-hilfe-traenengas-pfefferspray`.
+
+### Tierärztliche Vereinigung für Tierschutz e.V. (TVT)
+
+- Merkblatt Nr. 108 „Verhalten beim Aufeinandertreffen mit einem freilaufenden Hund“, bearbeitet von Dr. H. Jahn (Arbeitskreis 2, Kleintiere), Stand August 2006, tierschutz-tvt.de, im Volltext gelesen am 21.08.2026. Urheberrechtlich geschützt; hier ausschließlich in eigenen Worten sinngemäß wiedergegeben, kein Originalzitat.
+
+  Verwendet für: `erste-hilfe-hund-angriff`.
+
+### Infomed-Verlags-AG
+
+- „pharma-kritik“, Jahrgang 24, Nummer 15 (Artikel PK66) „Bissverletzungen durch Säugetiere“, Redaktionsschluss 6. Februar 2003, Review Blum/Furrer/Hatz/Malinverni/Vogt, infomed.ch, abgerufen am 21.08.2026. Nur die Angaben zu Mundflora, Erregern und Infektionsrate übernommen; die dortige Empfehlung zum primären Wundverschluss NICHT übernommen, siehe „Nähen oder offen lassen: die Entscheidung“.
+
+  Verwendet für: `erste-hilfe-hund-angriff`.
+
+### Programm Polizeiliche Kriminalprävention der Länder und des Bundes (ProPK)
+
+- Broschüre „SICHER WOHNEN – Einbruchschutz – Informationen Ihrer Polizei“, Stand 07/2024, S. 8f. (Frage „... man Einbrecher aufhalten muss?“: Konfrontation vermeiden, Notruf 110) und S. 13 (Notruf-Angaben, Nachbarschaftshilfe). polizei-beratung.de/fileadmin/Medien/001-BR-Sicher-wohnen.pdf, vollständig gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-einbrecher-in-der-wohnung`.
+
+- Faltblatt „Ungebetene Gäste – Einbruchschutz“, Herausgeber-Angabe Stand 12/2017, S. 4–8 (mechanische Sicherung, Türspion/Sperrbügel, Nachbarschaftshilfe, doppelt abschließen). polizei-beratung.de/fileadmin/Medien/010-FB-Ungebetene-Gaeste.pdf, vollständig gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-einbrecher-in-der-wohnung`.
+
+- Hinweise zum Verhalten nach einem Einbruch: Wohnung nicht wieder betreten, nichts verändern, um Spuren zu erhalten. polizei-beratung.de, vollständig gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-absperrung-sperrzone`.
+
+### Netzwerk „Zuhause sicher“ (Polizeibehörden, Kommunen, Handwerksorganisationen, Versicherungswirtschaft)
+
+- „Das richtige Verhalten bei einem Einbruch: Eigenschutz geht vor!“, Interview mit Carolin Hackemack (Geschäftsführerin des Netzwerks), Szenarien 1–3. polizei-dein-partner.de, vollständig gelesen am 21.08.2026; Telefon-am-Bett-Tipp ergänzend zuhause-sicher.de/einbruchschutz/richtiges-verhalten/zuhause/, gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-einbrecher-in-der-wohnung`.
+
+### Deutsche Feuerwehren (Landesausbildungsstellen), Feuerwehr-Dienstvorschrift 500
+
+- FwDV 500 „Einheiten im ABC-Einsatz“, Stand Januar 2022, Ziff. 1.5.3.2 (GAMS-Regel), Ziff. 1.5.3.5 (Gefahren-, Absperr- und Übergangsbereich mit Abstandsangaben) und Anlage 1 (Begriffsbestimmungen). Veröffentlicht u. a. über ibk-heyrothsberge.sachsen-anhalt.de, vollständig gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-absperrung-sperrzone`.
+
+### Bundesministerium der Justiz (Deutschland)
+
+- Anlage 1 Abschnitt 1 Unterabschnitt 2 Nr. 1.1 (Hieb-/Stoßwaffen allgemein), Anlage 2 Abschnitt 1 Nr. 1.3.2 (Stahlruten/Totschläger/Schlagringe), § 42a Abs. 1 Nr. 2, § 52 Abs. 3 Nr. 1 und § 53 Abs. 1 Nr. 21b WaffG im Wortlaut. Gesetze-im-internet.de, tagesaktuelle Fassung, vollständig gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-schlagstock-totschlaeger`.
+
+### Bundesgerichtshof
+
+- Beschluss vom 21.04.2022, Az. 3 StR 81/22 (Antragsschrift des Generalbundesanwalts, vom 3. Strafsenat bestätigt): Teleskopschlagstock ist Waffe nach § 1 Abs. 2 Nr. 2a i.V.m. Anlage 1 WaffG, aber kein Totschläger i.S. Anlage 2 mangels Biegsamkeit. Volltext hrr-strafrecht.de/hrr/3/22/3-81-22.php, vollständig gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-schlagstock-totschlaeger`.
+
+### Bundeskanzleramt der Republik Österreich (RIS)
+
+- § 17 Abs. 1 Z 6 und § 50 Abs. 1 Z 2 Waffengesetz 1996 im Wortlaut. Ris.bka.gv.at, Gesetzesnummer 10006016, tagesaktuelle Fassung, abgerufen am 21.08.2026.
+
+  Verwendet für: `taktisch-schlagstock-totschlaeger`.
+
+### Oberster Gerichtshof (Österreich)
+
+- 14 Os 56/20x, Entscheidung vom 21.07.2020: Definition „Totschläger“/„Stahlrute“ (Biegsamkeit als wesentliches Kriterium), Abgrenzung zu Tonfa/Mehrzweckeinsatzstock, Einzelfallprüfung bei Teleskopschlagstock. Wiedergabe jusguide.at, gelesen am 21.08.2026.
+
+  Verwendet für: `taktisch-schlagstock-totschlaeger`.
+
+### Bundesversammlung der Schweizerischen Eidgenossenschaft (Fedlex)
+
+- Art. 4 Abs. 1 Bst. d und Art. 5 Abs. 2 Bst. b Waffengesetz (WG, SR 514.54) im Wortlaut: Schlagstöcke als namentlich genannte Waffe, ausdrückliche Ausnahme vom Übertragungs-/Erwerbsverbot. Fedlex.admin.ch, Stand 1.9.2023, im Browser gelesen am 21.08.2026 (Seite nur mit JavaScript lesbar).
+
+  Verwendet für: `taktisch-schlagstock-totschlaeger`.
+
+### National Institute of Justice (NIJ), U.S. Department of Justice
+
+- National Law Enforcement Technology Center Bulletin „Positional Asphyxia – Sudden Death“, Juni 1995, Office of Justice Programs, ojp.gov/pdffiles/posasph.pdf, im Volltext gelesen am 21.08.2026: Physiologie der Bauchlage unter Druck, Risikofaktoren, Warnzeichen (Reglosigkeit nach einem Gerangel), Empfehlung Rückenlage statt Bauchlage. Werk der US-Bundesregierung, gemeinfrei.
+
+  Verwendet für: `taktisch-gefesselt-koerper`.
+
+### Europäisches Komitee zur Verhütung von Folter (CPT), Europarat
+
+- „Means of restraint in psychiatric establishments for adults (Revised CPT standards)“, CPT/Inf(2017)6, Straßburg, 21.03.2017, rm.coe.int/16807001c3, im Volltext gelesen am 21.08.2026: Grundsatz 3.3 (Rückenlage mit nach unten positionierten Armen, Gurte dürfen Atmung und Verständigung nicht behindern) und Abschnitt 4 (Dauer). Europarat, nur als Beleg.
+
+  Verwendet für: `taktisch-gefesselt-koerper`.
+
+### Masri BA, Eisen A, Duncan CP, McEwen JA
+
+- „Tourniquet-induced nerve compression injuries are caused by high pressure levels and gradients“, BMC Biomedical Engineering 2, 2020, Artikel 7, doi.org/10.1186/s42490-020-00041-5, im Volltext gelesen am 21.08.2026: Mechanismus (Druck UND Druckgefälle an den Rändern, nach Ochoa et al. 1972), schmale vs. breite Bänder, Radialnerv am empfindlichsten. Beschreibt chirurgische Blutsperren, keine Fesseln – CC-Lizenz, offen zugänglich.
+
+  Verwendet für: `taktisch-gefesselt-koerper`.
+
+### Jano F, MacKenzie K, Bilolikar VK, Goldberger D, Tuluca A
+
+- „Acute Carpal Tunnel Syndrome Secondary to Handcuffs Necessitating Emergency Orthopedic Consultation and Operative Intervention“, JACEP Open 6(1), 2025, 100013, doi.org/10.1016/j.acepjo.2024.100013, im Volltext gelesen am 21.08.2026. Einzelner Fallbericht, von den Autoren selbst als erster dokumentierter Fall dieser Schwere bezeichnet. Open Access, CC BY 4.0.
+
+  Verwendet für: `taktisch-gefesselt-koerper`.
+
+### Deutsche Gesetzliche Unfallversicherung e.V. (DGUV)
+
+- DGUV Regel 113-004 „Behälter, Silos und enge Räume – Teil 1: Arbeiten in Behältern, Silos und engen Räumen“, Ausgabe Februar 2019, publikationen.dguv.de, im Volltext gelesen am 21.08.2026: Begriffsbestimmung enge Räume und Sauerstoffmangel (Abschnitte 2.1 und 2.11), Ursachen im Anhang. Für Arbeitsschutz mit Messtechnik geschrieben, hier nur als Beleg für die Grundgefahr.
+
+  Verwendet für: `taktisch-eingesperrt-enger-raum`.
+
+### McLaren C, Null J, Quinn J
+
+- „Heat Stress From Enclosed Vehicles: Moderate Ambient Temperatures Cause Significant Temperature Rise in Enclosed Vehicles“, Pediatrics 116(1), Juli 2005, e109–e112, doi:10.1542/peds.2004-2368, im Volltext gelesen am 21.08.2026: Messreihe zum Temperaturanstieg im Fahrzeuginnenraum (nicht zur Kinderphysiologie). Für den Schutz zurückgelassener Kinder verfasst; hier nur die Fahrzeugphysik verwendet.
+
+  Verwendet für: `taktisch-eingesperrt-enger-raum`.
+
+### St John Ambulance
+
+- „Alcohol Poisoning Symptoms & First Aid“, sja.org.uk/first-aid-advice/alcohol-poisoning/, abgerufen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-alkoholvergiftung`.
+
+### Deutsche Lebens-Rettungs-Gesellschaft (DLRG)
+
+- „Die Baderegeln“, bundesweite DLRG-Kampagne, hier gelesen auf der Presseseite des DLRG-Landesverbands Nordrhein, nordrhein.dlrg.de, abgerufen am 21.08.2026
+
+  Verwendet für: `erste-hilfe-baderegeln-freigewaesser`.
+
+### Deutscher Alpenverein (DAV)
+
+- Artikel „Notruf und Rettung in den Alpen“, alpenverein.de, Stand 6. Juli 2025: alpines Notsignal als sechsmal in der Minute gegebenes optisches oder akustisches Zeichen, danach eine Minute Pause und Wiederholung; Antwortsignal dreimal in der Minute, ebenfalls mit einer Minute Pause. Abgerufen am 21.08.2026.
+
+  Verwendet für: `orientierung-alpines-notsignal`.
+
+- Max Bolland, „So geht das: Notbiwak am Berg“, DAV Panorama, Ausgabe 4/2020, 13.07.2020 (zuletzt geändert 19.03.2026), alpenverein.de/artikel/notbiwak-am-berg. Nur Tatsachen übernommen, Wortlaut und Gliederung eigen. Vollständig gelesen und abgerufen am 21.08.2026. Urheberrechtlich geschützter Zeitschriftenartikel, keine gemeinfreie Quelle.
+
+  Verwendet für: `taktisch-notbiwak-biwaksack`.
+
+### Bergrettung Salzburg
+
+- Seite „Alpines Notfallsignal“, bergrettung-salzburg.at: dieselbe Definition (sechsmal in der Minute, eine Minute Pause, Antwortsignal dreimal in der Minute) sowie zusätzlich Kamerablitze als mögliches Signalmittel neben Rufen, Pfeifen und Lampenblitzen. Kein Stand auf der Seite angegeben, abgerufen am 21.08.2026.
+
+  Verwendet für: `orientierung-alpines-notsignal`.
+
+### Umweltbundesamt (UBA)
+
+- „FAQs zu Nitrat im Grund- und Trinkwasser“, umweltbundesamt.de, im Volltext gelesen am 21.08.2026. Daher der Grenzwert von 50 Milligramm Nitrat je Liter, die Erklärung zur Säuglingszyanose durch Nitrit-Bildung im weniger sauren Säuglingsmagen mit anschließender Methämoglobin-Bildung, und der Satz, dass die Landwirtschaft für den Großteil der Nitrateinträge ins Grundwasser verantwortlich ist (Jauche, Gülle, Mist, Gärreste, Mineraldünger).
+
+  Verwendet für: `wasser-nitrat-eigener-brunnen`.
+
+### The Stone Trust
+
+- Brian Post, Peter Welch: „How To Build a Sturdy Dry Stone Wall“ (The FIVE Basic Rules Of Dry Stone Walling), The Stone Trust, Dummerston, Vermont, ©2018, thestonetrust.org. Gemeinnützige Organisation zur Erhaltung des Trockenmauer-Handwerks. Vollständig gelesen und abgerufen am 21.08.2026. Urheberrechtlich geschütztes Merkblatt, keine gemeinfreie Quelle; nur Tatsachen übernommen, Wortlaut und Gliederung eigen, keine Abbildung übernommen.
+
+  Verwendet für: `taktisch-trockenmauer-bauen`.
