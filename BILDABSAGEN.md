@@ -322,6 +322,22 @@ eine Zeichnung/ein firmenfreies Foto des Drei-Becken-Systems, auf der sich
 die drei Beckentypen optisch unterscheiden lassen -- keines davon liefert
 diese Quelle.
 
+**agrikultur-huelsenfruechte**, zwei Blaetter aus demselben Lauf abgelehnt,
+obwohl Quelle und Rechte in Ordnung waren:
+
+- "Bohnen zum Nachtrocknen um einen Pfahl gestapelt" (USDA FB 289, 1907/1923,
+  Fig. 5): ein grobgerastertes Fernfoto eines Feldes. Die zwei Zeiger sagen
+  "um einen Pfahl aufgeschichteter Stapel" und "weitere Stapel in einer
+  Reihe" -- beides steht schon im Untertitel. Die einzige brauchbare Angabe
+  (Basis rund 1 m, oben schmaler, einen halben Meter ueber den Pfahl hinaus)
+  stand in der FUSSZEILE, also im Text, nicht im Bild.
+- "Dreschen mit Tieren statt mit der Maschine" (USDA FB 1803, 1938, Fig. 8):
+  ebenfalls ein Fernfoto, dazu durch die Aufbereitung flaeckig geworden. Die
+  Walze ist kaum vom Hintergrund zu trennen, und der Zeiger auf die
+  "ausgebreiteten Erbsen" endet auf einer unbestimmten grauen Flaeche.
+*Brauchbar waere bei beiden:* eine Zeichnung im Schnitt statt einer
+Aufnahme aus der Ferne.
+
 ## Portraetfotos wirklicher Menschen: grundsaetzlich nicht
 
 Das Paket besteht aus Stichzeichnungen von Gegenstaenden und Handgriffen.
@@ -1000,3 +1016,45 @@ als der Kapiteltext. Gebautes Blatt: `mais-kern-im-schnitt.png`.
 *Brauchbar wäre für die ursprünglich gesuchten Mahlgrade selbst:* ein Foto
 oder eine Zeichnung, die grobes/wassergemahlenes und feines/granuliertes
 Maismehl nebeneinander zeigt -- in keiner der geprüften Quellen vorhanden.
+
+**agrikultur-sonnenblumen-anbauen** ("Sonnenblumen anbauen: für die eigene
+Ölsaat") -- gesucht wurde ein Sonnenblumenkopf im Schnitt oder eine
+Abbildung der Reifezeichen (wann geerntet wird). Beide im Eintrag
+zugewiesenen Quellen vollständig geladen und Seite für Seite als Bild
+angesehen, nicht nur der OCR-Text:
+- Harvey W. Wiley, "The Sunflower Plant", USDA Bulletin No. 60, 1901
+  (archive.org `sunflowerplantit60wile`, 40 Seiten). Enthält im GANZEN
+  Heft nur eine Bildtafel und zwei Textabbildungen. Plate I (Frontispiz):
+  Foto einer 3,80-m-Pflanze mit einem Mann als Größenvergleich daneben --
+  der Blütenkopf selbst ragt aus dem Bildausschnitt heraus, nicht zu sehen;
+  außerdem eine erkennbare Person ohne eigenen Erkenntniswert im Bild.
+  Figur 1 ("Akenes (seeds) of sunflower, showing variations in size and
+  form", S. 9): saubere, unsignierte Stichzeichnung von Samenkörnern mit
+  einem Querschnitt -- zeigt aber Sortenunterschiede (kultiviert/wild),
+  nicht Reifezeichen oder Kopf-Anatomie; im Eintragstext kommt weder
+  Samenform noch Sortenvergleich vor, deshalb ohne Textanker verworfen.
+  Figur 2 ("Machine for separating seeds from heads", S. 13): dasselbe
+  Nagelrad, das der Eintragstext selbst schon wegen einer Signatur
+  ("S. P.", untere rechte Ecke, per Zoom bestätigt) ausschließt.
+- H. N. Vinall, "The Sunflower as a Silage Crop", USDA Bulletin No. 1045,
+  1922 (archive.org `sunflowerassilag1045vina`, 38 Seiten, alle acht
+  Abbildungen angesehen). Figuren 1, 2, 7: Feldfotos (Wildwuchs, Sorten-
+  vergleich, Bewässerungsfeld) ohne Reifezeichen am einzelnen Kopf.
+  Figuren 3-6: Maschinen-Ernte für Silage-Großbetrieb (Reihenbinder,
+  Flachwagen, 200-t-Betonsilo) -- passt nicht zum Eintrag, der ausdrücklich
+  Anbau im eigenen Garten ohne Maschinenmaßstab behandelt. Figur 8
+  ("Mammoth Russian sunflowers with the lower leaves killed by rust",
+  S. 30) ist die einzige Krankheitsabbildung (Rost, laut Eintragstext die
+  mit Abstand schädlichste Krankheit) -- als Bild angesehen und verworfen:
+  Bei der vorliegenden Scan-Auflösung ist auf dem weiten Reihenfoto kein
+  Unterschied zwischen befallenen und gesunden Blättern zu erkennen, ein
+  Leser könnte daraus nichts Zusätzliches zum Text entnehmen.
+
+Zusätzlich nach weiteren zweifelsfrei gemeinfreien US-Bundeswerken zum
+Sonnenblumenanbau gesucht (wie es die Regeln erlauben) -- keine spätere
+USDA-Sonnenblumen-Bulletin mit Kopf-Schnitt- oder Reifetafel gefunden.
+*Brauchbar wäre:* eine Zeichnung oder ein scharfes Foto des Sonnenblumen-
+kopfs im Querschnitt mit den heranreifenden Kernen, oder eine
+Gegenüberstellung unreif/reif (grüne gegen braun-trockene Kopfrückseite) --
+keine der beiden zugewiesenen Quellen liefert das, auch keine weitere
+geprüfte Quelle.

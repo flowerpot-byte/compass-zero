@@ -54,8 +54,17 @@ def speichern(blatt, ziel, farben=32):
     return blatt.size
 
 
-def blatt_mit_stich(stichpfad, breite=1100, hoehe=700, rand=290, oben=200):
-    """Legt den Stich mittig auf ein Blatt und laesst links und rechts Rand."""
+def blatt_mit_stich(stichpfad, breite=1100, hoehe=700, rand=290, oben=200,
+                    unten=150):
+    """Legt den Stich mittig auf ein Blatt und laesst ringsum Rand.
+
+    `unten` ist der Platz, der fuer Quellenzeile und Fusszeile freibleiben
+    muss. Frueher wurde nur die BREITE begrenzt: Ein hoher Stich lief still
+    unten aus dem Blatt heraus, wurde am Rand abgeschnitten und ueberlagerte
+    die Fusszeile. Am 21.08.2026 ist das bei der Verdampfpfanne aufgefallen
+    (49 Punkte ueber den Rand hinaus); bei der Nachschau fanden sich sechzehn
+    weitere Blaetter, deren letzte Zeile ohne jeden Rand am Blattende klebte.
+    """
     # Das Weiss des Scans wird auf den Papierton des Blattes gezogen, sonst
     # steht der Stich als heller Kasten auf dem Blatt. Grauwerte bleiben, damit
     # die Punktierung des Stichs nicht verlorengeht.
@@ -68,6 +77,14 @@ def blatt_mit_stich(stichpfad, breite=1100, hoehe=700, rand=290, oben=200):
     if stich.width > hoechstbreite:
         neu = (hoechstbreite, int(stich.height * hoechstbreite / stich.width))
         stich = stich.resize(neu, Image.LANCZOS)
+    # Und jetzt die Hoehe. Passt der Stich nicht zwischen Kopf und Fusszeile,
+    # wird er kleiner gerechnet statt ueber den Rand geschoben.
+    hoechsthoehe = hoehe - oben - unten
+    if hoechsthoehe > 0 and stich.height > hoechsthoehe:
+        neu = (max(1, int(stich.width * hoechsthoehe / stich.height)), hoechsthoehe)
+        print("   Stich passte nicht in die Hoehe, verkleinert auf %dx%d" % neu)
+        stich = stich.resize(neu, Image.LANCZOS)
+
     blatt = Image.new("RGB", (breite, hoehe), BLATT)
     x = (breite - stich.width) // 2
     blatt.paste(stich, (x, oben))
