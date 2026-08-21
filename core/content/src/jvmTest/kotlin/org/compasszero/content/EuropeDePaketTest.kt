@@ -468,7 +468,39 @@ class EuropeDePaketTest {
         // (erste-hilfe-bewusstlosen-tragen-sichern).
         // 544 -> 545 am 20.08.2026: "Trage auf Treppen und am Hang: Kopf oder Fuss voran"
         // (erste-hilfe-trage-treppe-hang).
-        assertEquals(545, pack.tips.size)
+        // 545 -> 546 am 21.08.2026: "Richtig zuschlagen: Faust, Handgelenk, Trefferzeit"
+        // (taktisch-richtig-zuschlagen).
+        // 546 -> 547 am 21.08.2026: "Allein gegen mehrere: stehen bleiben, Ruecken schuetzen"
+        // (taktisch-allein-gegen-mehrere).
+        // 547 -> 548 am 21.08.2026: "Zu mehreren gegen mehrere: gestaffelt statt gleichzeitig"
+        // (taktisch-gruppe-gegen-mehrere).
+        // 548 -> 549 am 21.08.2026: "Schwitzkasten am Boden loesen"
+        // (taktisch-schwitzkasten-boden-loesen).
+        // 549 -> 550 am 21.08.2026: "Knie-Aufsitzer: die fuenfte Position"
+        // (taktisch-knie-aufsitzer).
+        // 550 -> 551 am 21.08.2026: "Guard passieren: geschlossen und offen"
+        // (taktisch-guard-passieren).
+        // 551 -> 552 am 21.08.2026: "Beinhebel: Fussgelenk und Knie"
+        // (taktisch-beinhebel).
+        // 552 -> 553 am 21.08.2026: "Position wechseln, wenn der Gegner sich wehrt"
+        // (taktisch-position-wechseln-boden).
+        // 553 -> 554 am 21.08.2026: "Unbewaffnet gegen eine lange Waffe: sechs Angriffswinkel"
+        // (taktisch-lange-waffe-abwehr-winkel).
+        // 554 -> 555 am 21.08.2026: "Mistgabel, Spaten, Stange: Griff und Stoss mit einer langen Waffe"
+        // (taktisch-lange-waffe-griff-stoss).
+        // 555 -> 556 am 21.08.2026: "Messer gegen Messer: vier Angriffsabfolgen"
+        // (taktisch-messer-gegen-messer-abfolgen).
+        // 556 -> 557 am 21.08.2026: "Eine Bewegung lernen: erst in Einzelschritten, dann im Tempo"
+        // (taktisch-technik-lernschritte).
+        // 557 -> 558 am 21.08.2026: "Zu zweit ueben: die Regeln, damit niemand verletzt wird"
+        // (taktisch-uebungspartner-sicherheit).
+        // 558 -> 559 am 21.08.2026: "Posten ausschalten: Anschleichen und neun Techniken"
+        // (taktisch-posten-ausschalten).
+        // 559 -> 560 am 21.08.2026: "Wache stehen, ohne zum leichten Ziel zu werden"
+        // (taktisch-wache-schwachstellen).
+        // 560 -> 561 am 21.08.2026: "Wuergen und Hebeln am Boden: die einzelnen Griffe"
+        // (taktisch-wuergen-hebeln-am-boden).
+        assertEquals(561, pack.tips.size)
         // Dieselbe Schranke fuer Bauanleitungen und Agrikultur-Kapitel. Sie hat
         // bis zum 10.08.2026 gefehlt, und das war mit 27 Kapiteln noch zu
         // verschmerzen. An diesem Tag sind sechs dazugekommen; ab dieser

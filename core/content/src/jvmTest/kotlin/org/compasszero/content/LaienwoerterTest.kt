@@ -576,4 +576,54 @@ class LaienwoerterTest {
         fuehrtAuf(index, "laubhütte", "notunterstand-laubhuette")
         fuehrtAuf(index, "schnee unterstand", "notunterstand-schnee")
     }
+
+    // Sechste Messrunde, 21.08.2026: sechzig Alltagswoerter zum Nahkampf, nachdem
+    // vierzehn neue Kampf-Eintraege dazugekommen sind. Drei echte Fehler kamen
+    // dabei heraus, alle drei sind behoben:
+    //
+    //   "knoechel"        fuehrte auf den Beinhebel und aufs Zuschlagen, erst an
+    //                     dritter Stelle auf den Unterschenkelbruch. Wer das Wort
+    //                     tippt, hat sich fast immer den Fuss verdreht. Die beiden
+    //                     Kampf-Eintraege haben das Wort abgegeben ("fussgelenk
+    //                     greifen", "fingerknoechel").
+    //   "heugabel"        fand nur die Heuernte. Eine Heugabel IST die Mistgabel
+    //                     aus dem Waffen-Eintrag -- das Wort fehlte dort schlicht.
+    //   "am boden umdrehen" fand Mistbeet und Bienen. Der Eintrag kannte nur
+    //                     "umkehren", nicht "umdrehen".
+    @Test
+    fun alltagswoerterFuerDenNahkampfFuehrenZumRichtigenEintrag() {
+        val index = index()
+        // Die drei behobenen Fehler.
+        fuehrtAuf(index, "knöchel", "erste-hilfe-unterschenkelbruch")
+        fuehrtAuf(index, "heugabel", "taktisch-lange-waffe-griff-stoss")
+        fuehrtAuf(index, "am boden umdrehen", "taktisch-position-wechseln-boden")
+        // Die neuen Eintraege muessen unter ihrem Alltagswort auffindbar bleiben.
+        fuehrtAuf(index, "zuschlagen", "taktisch-richtig-zuschlagen")
+        fuehrtAuf(index, "faust ballen", "taktisch-richtig-zuschlagen")
+        fuehrtAuf(index, "mehrere angreifer", "taktisch-allein-gegen-mehrere")
+        fuehrtAuf(index, "unterzahl", "taktisch-allein-gegen-mehrere")
+        fuehrtAuf(index, "gruppe angegriffen", "taktisch-gruppe-gegen-mehrere")
+        fuehrtAuf(index, "schwitzkasten", "taktisch-schwitzkasten-boden-loesen")
+        fuehrtAuf(index, "kopf eingeklemmt", "taktisch-schwitzkasten-boden-loesen")
+        fuehrtAuf(index, "guard passieren", "taktisch-guard-passieren")
+        fuehrtAuf(index, "beinhebel", "taktisch-beinhebel")
+        fuehrtAuf(index, "kniehebel", "taktisch-beinhebel")
+        fuehrtAuf(index, "aufsitzer", "taktisch-knie-aufsitzer")
+        fuehrtAuf(index, "dreieckwürger", "taktisch-wuergen-hebeln-am-boden")
+        fuehrtAuf(index, "guillotine", "taktisch-wuergen-hebeln-am-boden")
+        fuehrtAuf(index, "mistgabel", "taktisch-lange-waffe-griff-stoss")
+        fuehrtAuf(index, "gegen mistgabel", "taktisch-lange-waffe-abwehr-winkel")
+        fuehrtAuf(index, "messerduell", "taktisch-messer-gegen-messer-abfolgen")
+        fuehrtAuf(index, "technik lernen", "taktisch-technik-lernschritte")
+        fuehrtAuf(index, "übungspartner", "taktisch-uebungspartner-sicherheit")
+        fuehrtAuf(index, "stopp-signal", "taktisch-uebungspartner-sicherheit")
+        fuehrtAuf(index, "würgeschlinge", "taktisch-posten-ausschalten")
+        fuehrtAuf(index, "anschleichen", "taktisch-posten-ausschalten")
+        fuehrtAuf(index, "nachtwache", "taktisch-wache-schwachstellen")
+        // Gegenprobe: die aelteren Kampf-Eintraege haben ihren Treffer behalten.
+        fuehrtAuf(index, "würgegriff", "taktisch-wuergegriff-anwenden")
+        fuehrtAuf(index, "gepackt", "taktisch-griff-loesen")
+        fuehrtAuf(index, "bodenkampf", "taktisch-bodenkampf-grundpositionen")
+        fuehrtAuf(index, "hebel", "taktisch-gelenkhebel")
+    }
 }
