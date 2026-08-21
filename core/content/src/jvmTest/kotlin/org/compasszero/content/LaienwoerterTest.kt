@@ -710,4 +710,38 @@ class LaienwoerterTest {
         fuehrtAuf(index, "nachts laufen", "orientierung-nachts-gehen")
         fuehrtAuf(index, "regen auffangen", "wasser-rinne-fass-bauen")
     }
+
+    // Neunte Messrunde, 21.08.2026: Findet jede der 63 ANLEITUNGEN sich selbst?
+    // Anleitungen haben kein Schlagwortfeld -- Titel (Gewicht 5), Kurzfassung (2)
+    // und Schritte (1) sind alles, was sie haben.
+    //
+    // 58 von 63 fanden sich unter dem tragenden Wort ihres Titels. Von den fuenf
+    // Ausfaellen waren drei nur Messfehler (das laengste Titelwort war "Werkzeug",
+    // "Boden", "wirklich" -- nicht das tragende). Zwei waren echt:
+    //
+    //   "schleifen"            fand die Schaerf-Anleitung UEBERHAUPT NICHT, auch
+    //                          nicht unter den ersten acht. Sie kannte nur
+    //                          "Schleifscheibe", und ein Wortanfang-Treffer
+    //                          braucht das Wort selbst. Die ersten Treffer waren
+    //                          das Schleifen eines Menschen ueber den Boden --
+    //                          sachlich richtig, aber nicht, was ein Mensch
+    //                          meint, der eine Klinge in der Hand hat.
+    //   "messer selber machen" fand nur die Schnur-Anleitung. Die Anleitung zur
+    //                          Behelfsklinge spricht durchgehend von "Klinge",
+    //                          nie vom Messer, das man sich macht.
+    //
+    // Beides ueber die Kurzfassung behoben, nicht ueber den Titel: Ein Titel
+    // traegt die Aussage, kein Suchwortlager.
+    @Test
+    fun anleitungenFindenSichUnterIhremEigenenWort() {
+        val index = index()
+        fuehrtAuf(index, "schleifen", "werkzeug-klinge-schaerfen")
+        fuehrtAuf(index, "messer selber machen", "werkzeug-klinge-behelfsmaessig")
+        // Gegenprobe: Die Wege, die vorher schon stimmten, stimmen weiter.
+        fuehrtAuf(index, "klinge schärfen", "werkzeug-klinge-schaerfen")
+        fuehrtAuf(index, "ziegel brennen", "werkstoffe-ziegel-brennen")
+        fuehrtAuf(index, "bett bauen", "unterkunft-bett-erhoeht")
+        fuehrtAuf(index, "zugluft", "unterkunft-zugluft-finden")
+        fuehrtAuf(index, "es zieht", "unterkunft-zugluft-finden")
+    }
 }

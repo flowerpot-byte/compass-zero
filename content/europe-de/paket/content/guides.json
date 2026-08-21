@@ -762,7 +762,7 @@
       "id": "werkzeug-klinge-behelfsmaessig",
       "title": "Werkzeug: eine Klinge aus dem, was da ist",
       "category": "werkzeug",
-      "summary": "Wer kein Messer mehr hat, sollte zuerst diesen Satz kennen — er spart die meiste Arbeit: DIE MEISTEN BEHELFSKLINGEN KÖNNEN NUR STECHEN. Eine Klinge hat drei Aufgaben — stechen, hacken und schneiden —, und nur METALL kann alle drei. Knochen und gewöhnliches Holz taugen ausschließlich zum Stechen. Mit Stein lässt sich hervorragend stechen und gut hacken, aber er hält KEINE feine Schneide. Wer das vorher weiß, verbringt keinen halben Tag damit, aus einem Knochen ein Küchenmesser zu machen.",
+      "summary": "Wer kein Messer mehr hat, sollte zuerst diesen Satz kennen — er spart die meiste Arbeit: DIE MEISTEN BEHELFSKLINGEN KÖNNEN NUR STECHEN. Eine Klinge hat drei Aufgaben — stechen, hacken und schneiden —, und nur METALL kann alle drei. Knochen und gewöhnliches Holz taugen ausschließlich zum Stechen. Mit Stein lässt sich hervorragend stechen und gut hacken, aber er hält KEINE feine Schneide. Wer das vorher weiß, verbringt keinen halben Tag damit, aus einem Knochen ein Küchenmesser zu machen. Wer sich ein Messer selber machen will, fängt also bei der Frage an, wofür es gebraucht wird.",
       "materials": [
         {
           "item": "Metallstück",
@@ -1358,7 +1358,7 @@
       "id": "werkzeug-klinge-schaerfen",
       "title": "Am Ölstein schärfen: Handgriff, Grat, Steinpflege",
       "category": "werkzeug",
-      "summary": "DER SATZ, DER DIE MEISTEN MESSER RETTET, steht so in der Quelle: Kleine Messer gehören NICHT an eine Schleifscheibe — außer man muss eine gebrochene Klinge neu formen. Sie werden auf dem Stein geschärft. Diese Anleitung beschreibt den Handgriff am Stein, das Abziehen des Grats und die Pflege des Steins selbst, denn ein zugesetzter oder hohl gelaufener Stein schärft nichts mehr. Für Axt und Zugsäge gilt anderes; das steht in „Werkzeug schärfen: Axt und Zugsäge“.",
+      "summary": "DER SATZ, DER DIE MEISTEN MESSER RETTET, steht so in der Quelle: Kleine Messer gehören NICHT an eine Schleifscheibe — außer man muss eine gebrochene Klinge neu formen. Sie werden auf dem Stein geschärft; wer vom Schleifen spricht, meint hier genau das. Diese Anleitung beschreibt den Handgriff am Stein, das Abziehen des Grats und die Pflege des Steins selbst, denn ein zugesetzter oder hohl gelaufener Stein schärft nichts mehr. Für Axt und Zugsäge gilt anderes; das steht in „Werkzeug schärfen: Axt und Zugsäge“.",
       "materials": [
         {
           "item": "Öl",
