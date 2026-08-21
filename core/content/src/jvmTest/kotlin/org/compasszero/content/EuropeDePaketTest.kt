@@ -601,7 +601,7 @@ class EuropeDePaketTest {
         // (medizin-ohrenschmalz-pfropf).
         // 610 -> 611 am 21.08.2026: "Trommelfell gerissen: trocken halten, nichts hineintropfen"
         // (medizin-trommelfell-gerissen).
-        // 611 -> 612 am 21.08.2026: "Zahnbett-Entzuendung: erst blutet es, dann wackelt der Zahn"
+        // 611 -> 612 am 21.08.2026: "Zahnbett-Entzuendung: erst rot und geschwollen, dann wackelt der Zahn"
         // (medizin-zahnbett-entzuendung).
         // 612 -> 613 am 21.08.2026: "Bevor du jemanden unter einem schweren Gewicht hervorziehst"
         // (erste-hilfe-vor-dem-befreien).
@@ -611,13 +611,13 @@ class EuropeDePaketTest {
         // (taktisch-einsturz-absuchen).
         // 615 -> 616 am 21.08.2026: "Staub aus zerstoerten Gebaeuden: was das Einatmen anrichtet"
         // (taktisch-bauschutt-staub).
-        // 616 -> 617 am 21.08.2026: "Wenn ein Kind bei hoher Temperatur verkrampft"
+        // 616 -> 617 am 21.08.2026: "Krampfen bei hoher Temperatur: meist harmloser, als es aussieht"
         // (erste-hilfe-fieberkrampf).
-        // 617 -> 618 am 21.08.2026: "Wann ein Saeugling sofort Hilfe braucht: die zehn Zeichen"
+        // 617 -> 618 am 21.08.2026: "Zehn Zeichen, bei denen es beim Baby dringend wird"
         // (medizin-saeugling-alarmzeichen).
-        // 618 -> 619 am 21.08.2026: "Saeuglingsnahrung anruehren: frisch, sauber, ohne Reste"
+        // 618 -> 619 am 21.08.2026: "Milchpulver anruehren: frisch, sauber, ohne Reste"
         // (medizin-saeuglingsnahrung-zubereiten).
-        // 619 -> 620 am 21.08.2026: "Wunder Po beim Baby: oft wechseln, Luft dranlassen"
+        // 619 -> 620 am 21.08.2026: "Roter Po beim Baby: oft wechseln, Luft dranlassen"
         // (medizin-windelbereich-wund).
         // 620 -> 621 am 21.08.2026: "Ungeheizte Zimmer: Rohre leer machen oder warm halten"
         // (taktisch-frostschaden-vorbeugen).
@@ -625,7 +625,7 @@ class EuropeDePaketTest {
         // (taktisch-leitung-eingefroren-geplatzt).
         // 622 -> 623 am 21.08.2026: "Baumwolle als unterste Schicht: warum sie auskuehlt"
         // (taktisch-baumwolle-auf-der-haut).
-        // 623 -> 624 am 21.08.2026: "Schlafen ohne Heizung: die Schicht unter dir zaehlt"
+        // 623 -> 624 am 21.08.2026: "Schlafen im ungeheizten Zimmer: die Schicht unter dir zaehlt"
         // (taktisch-schlafen-ohne-heizung).
         // 624 -> 625 am 21.08.2026: "Zuerst drinnen bleiben, dann erst losfahren"
         // (strahlung-drinnen-bleiben).
