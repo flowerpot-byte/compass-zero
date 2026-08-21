@@ -138,6 +138,46 @@ Hand (Sprengen, Einwickeln, Rollen) ohne Firmenvermerk -- die Quelle
 beschreibt genau das in Worten (Abschnitt "Hand Starting"), zeigt es aber an
 keiner Stelle bildlich.
 
+**agrikultur-brot** ("Brot backen: Triebmittel selbst machen und den Teig
+führen") -- gesucht: der gut gegen den schlecht geführte Teig nebeneinander,
+die Krume im Schnitt, oder der Backofen im Schnitt. Beide zitierten Quellen
+tragen zusammen genau drei Abbildungen, alle als Bild angesehen (nicht nur
+aus dem OCR-Text geschlossen):
+- Farmers' Bulletin 807, Fig. 1 (Seite 10): Foto beschrifteter
+  Backutensilien (Napf, Sieb, Messbecher, Löffel, Messer, Brett,
+  Backformen). Zeigt Ausrüstung, keinen Teig- oder Krumenzustand.
+- Farmers' Bulletin 807, Fig. 2 (Seite 23): Foto einer Frau, die einen Laib
+  präsentiert, neben einem zweiten Laib auf einem Gestell; Unterschrift
+  "Good bread is a very important part of the diet. Housekeepers should
+  learn to judge and score their bread." Genau der Schmuck-statt-Unterricht-
+  Fall: kein Anschnitt, keine Krume, kein Vergleich gut/schlecht. Die
+  zugehörige Bewertungskarte (Seite 24) ist reiner Text ohne Abbildung.
+- Farmers' Bulletin 565, Fig. 1 (Seite 21): Foto eines Tellers
+  "Corn-meal fish balls" -- ein fertiges Gericht, kein Bezug zu Brot oder
+  Teigführung.
+
+Zusätzlich als zweifelsfrei gemeinfreie US-Bundeswerke außerhalb der
+zitierten Quellen geprüft: USDA Farmers' Bulletin 112, "Bread and the
+Principles of Bread Making" (Helen W. Atwater, Fassung 1906) -- vier
+Abbildungen, alle als Bild angesehen, alle vier reine Kornanatomie
+(Weizenkorn im Schnitt, Protoplasma-Netz und Stärkekörner einer Mehlzelle,
+Maiskorn im Schnitt), keine zeigt Teig, Krume oder Ofen; zwei der vier
+(Fig. 3, Fig. 4) tragen zudem den Vermerk "(After Cobb.)" und schieden
+schon deshalb aus. USDA Farmers' Bulletin 1136 "Baking in the Home"
+(1921/1922): einzige Abbildung ist eine Plätzchentafel. USDA Farmers'
+Bulletin 1450 "Home Baking" (1925/1931) und Nr. 1775 "Homemade Bread, Cake
+and Pastry" (1937): Volltext ohne einen einzigen Treffer für
+"Fig"/"illustrat"/"plate"/"diagram" -- keine Abbildung im ganzen Heft, nur
+Text-Bewertungskarten. TM 10-410 "Army Baker" (War Department, 1941):
+Volltext (über 14.000 Zeilen) ohne einen einzigen "Figure"/"Fig."-Treffer
+trotz ausführlicher Ofen- und Krumentextstellen; als reines
+Großbäckerei-Heft im Divisions-Maßstab ohnehin fachlich weit vom
+Haushaltsthema dieses Kapitels entfernt.
+*Brauchbar wäre:* eine Zeichnung oder ein unsigniertes Foto von gut und
+schlecht geführtem Teig nebeneinander, ein Krumenschnitt (zu dicht, zu grob,
+richtig), oder ein Backofen im Schnitt -- keine der geprüften Quellen zeigt
+das.
+
 ## Portraetfotos wirklicher Menschen: grundsaetzlich nicht
 
 Das Paket besteht aus Stichzeichnungen von Gegenstaenden und Handgriffen.
@@ -314,6 +354,37 @@ Verpacken, nicht das Fuellen.
 mit Fuellaufsatz, Darm beim Aufziehen oder Hand beim Fuehren der Masse in die
 Huelle -- keine der vier geprueften US-Bundeswerke (drei Bulletin-Reihen,
 vier Ausgaben, 1906 bis zur modernen Nachfolgeserie) zeigt das.
+
+**agrikultur-talg-auslassen** ("Talg auslassen: was aus Rinder- und Schaffett
+wird") -- einzige Quelle Lydia Maria Child, "The American Frugal Housewife",
+12. Auflage 1841 (archive.org `americanfrugalh00chilgoog`, 137 Blaetter,
+Status NOT_IN_COPYRIGHT). Volltext (OCR) durchsucht nach "Fig", "Plate",
+"illustrat", "engrav", "woodcut", "diagram", "frontispiece" -- kein einziger
+Treffer, der auf eine Abbildung verweist. Zusaetzlich die Seiten mit dem
+tatsaechlich im Eintrag verwendeten Text als Bild angesehen (nicht nur OCR):
+Seite 15 (Talg-Aufbewahren mit Melasse UND das Auslassen selbst -- "Suet
+keeps good... melt it in water before a moderate fire..."), Seite 16/17
+(Umgebung derselben Stelle) und Seite 122 (Farbprobe "clear white suet"/
+"yellow suet") -- alle vier Seiten reiner, durchgehender Fliesstext ohne
+jede Grafik, auch keine Vignette oder Kopfleiste.
+
+Zusaetzlich als zweifelsfrei gemeinfreie US-Bundeswerke gezielt nach einer
+Kessel-/Ausgelassen-Abbildung fuer Rinder- oder Schaftalg gesucht (wie es die
+Regeln fuer dieses Blatt erlauben): USDA Farmers' Bulletin No. 1415, "Beef on
+the Farm: Slaughtering, Cutting, Curing" (Black, 1924, archive.org
+`CAT87203466`) -- nennt Nierenfett und Netzfett nur beilaeufig als
+"can be rendered", ohne eigenen Abschnitt und ohne Abbildung dazu. USDA
+Farmers' Bulletin No. 1807, "Lamb and Mutton on the Farm" (Warner, 1938,
+archive.org `CAT31108180`) -- behandelt nur Zerlegen und Zubereiten, Talg
+oder Auslassen kommt darin gar nicht vor. Die Lard-Kesselfigur aus den fuer
+"Wurst machen" geprueften Schweine-Bulletins (USDA FB 913/1186, "A
+suitable kettle for rendering lard") gehoert zu einem anderen Kapitel und
+zeigt ausserdem Schweineschmalz, nicht Rinder-/Schaftalg -- fachlich nicht
+dasselbe Bild.
+*Brauchbar waere:* eine Zeichnung oder ein firmenfreies Foto vom Kessel im
+Wasserbad beim Talg-Auslassen oder vom Abpressen der Grieben -- weder die
+belegte Quelle (komplett unbebildert) noch die beiden geprueften
+Rinder-/Schaf-Bundeswerke liefern das.
 
 **werkstoffe-faerben-pflanzen** ("Färben: welche Beize welche Farbe macht")
 -- einzige Quelle ist Ethel M. Mairet, "A Book on Vegetable Dyes" (1916,
@@ -633,3 +704,236 @@ Wasser aus der Brause, sofort mit Sand abgedeckt) oder des Sandring-
 Mörtelansatzes, oder eine Abbildung des Tünche-Auftrags mit dem Pinsel -- aus
 einer illustrierten Quelle zu BAU-Kalk (Mörtel/Tünche), nicht zu
 landwirtschaftlichem Streukalk. Keine der geprüften Quellen liefert das.
+
+## Die einzige Quelle ist kein Bundeswerk: agrikultur-gartenplan
+
+**agrikultur-gartenplan** ("Den Garten planen: erst rechnen, dann säen") --
+die einzige belegte Quelle im Kapitel ist FAO, „A vegetable garden for all"
+(5. Auflage 2014). Schon Stufe (a) scheitert, bevor überhaupt eine
+Abbildung angesehen wurde: Das Impressum (Titelseiten, Volltext geprüft)
+trägt „© FAO, 2014" und erlaubt Vervielfältigung ausdrücklich nur „for
+private study, research and teaching purposes, or for use in
+non-commercial products or services" mit Namensnennung -- keine
+CC-BY-Lizenz, keine Übertragung in die Gemeinfreiheit, und die FAO ist
+keine US-Bundesbehörde. Die für dieses Bild-Paket geltende Regel verlangt
+aber „US-Bundeswerk oder erschienen vor 1930". Die FAO-Quelle fällt unter
+keine der beiden Ausnahmen und scheidet damit für Abbildungen komplett
+aus -- unabhängig davon, ob und was für Bilder darin stehen (Volltext des
+Kapitels „Garden plan" zusätzlich durchsucht: kein einziger Treffer für
+„figure"/„diagram"/„photo"/„image", auch inhaltlich also nichts
+Einschlägiges).
+
+Zusätzlich gesucht, wie es die Projektregeln erlauben, nach einem
+zweifelsfrei gemeinfreien US-Bundeswerk mit einem Gartenplan/Beetplan: USDA
+Farmers' Bulletin 818, „The Small Vegetable Garden" (April 1917, archive.org
+`CAT87202730`, Volltext gelesen) -- in diesem Projekt bereits als gemeinfrei
+bestätigt (kein benannter Verfasser, nur „Prepared under the Direction of
+the Bureau of Plant Industry", siehe `content/europe-de/QUELLEN.md`,
+Abschnitt „Mistbeet und Frühbeet"). Abschnitt „THE GARDEN DIAGRAM" trägt
+genau die Empfehlung unseres Kapitels ("erst planen, dann säen") und zeigt
+dazu Fig. 2, „A typical back-yard garden plan, showing a possible
+arrangement for permanent and annual plants" (Seite 7, als Bild angesehen).
+Rechtlich sauber: keine Signatur, kein Courtesy-Vermerk (Bildecken und
+Bereich um die Bildunterschrift herangezoomt geprüft). Trotzdem verworfen:
+Der Plan trägt an die 25-30 einzelne englische Beschriftungen fest in der
+Zeichnung -- HOUSE, PAVEMENT, GRASS, dreimal WALK, rund zwanzig
+Reihen-Bezeichnungen (SWEET PEAS, PEAS EXTRA EARLY/EARLY/LATE, ONION SETS,
+ONION SEED, TOMATO PLANTS, SPINACH, BEANS, BEETS, CARROTS, 2ND CROP LATE
+CABBAGE, LETTUCE, PARSNIPS, RADISH, 2ND CROP LATE BEANS BETWEEN PARSNIPS,
+ASPARAGUS) und eine dreiteilige Legende (EXPLANATION: STRAWBERRIES, GRAPES,
+CURRANTS). Das ist ein Vielfaches der Textmenge, die im bisher einzigen
+erfolgreichen Fall dieser Art (`obstbaum-astschnitt.png`, zwei kurze
+Phrasen mit je einer direkt danebenstehenden deutschen Zeile) noch mit dem
+Beschriftungswerkzeug sauber einzudeutschen war -- hier bliebe entweder ein
+Grossteil der Wörter unübersetzt oder es entstünde de facto eine zweite,
+komplette Beschriftungsebene über der ganzen Zeichnung. Auch inhaltlich
+zeigt Fig. 2 mehr, als unser Text behauptet: ein sehr konkretes New Yorker
+Hinterhof-Beispiel mit Rasenfläche, Weinreben am Zaun und Pflasterweg,
+während unser Kapitel bewusst abstrakt bleibt (Bedarf, Klima, bekannte
+Pflanzen, Platzbedarf, Frühjahrslücke) und kein Beispielgarten ist.
+
+**Prüfung auf ein selbst gezeichnetes Schema (nicht gebaut, nur beurteilt):**
+Der Kapiteltext selbst enthält so gut wie keine konkreten Zahlen, die ein
+bemasstes Beetplan-Schema tragen könnten. Durchsucht wurden alle fünf
+Abschnitte; gefunden wurden genau zwei Zahlenangaben, und keine davon ist
+eine Abstands- oder Flächenangabe für ein Beet:
+1. Die drei Höhenstufen der FAO-Quelle (bis 1000 Meter, 1000 bis 2000,
+   2000 bis 3000) -- das sind Klimazonen für den tropischen
+   Ursprungskontext, keine europäische Entsprechung wird im Text genannt
+   (statt einer Zahl verweist der Text auf „Frag Nachbarn, die hier schon
+   lange pflanzen"). Für ein Beetplan-Schema ungeeignet, weil es keine
+   Fläche und keinen Abstand beschreibt, sondern eine Standortklasse.
+2. Die Messmethode „Miss ab, wie viel eine Reihe von zehn Metern einer
+   Sorte bei dir tatsächlich bringt" -- das ist eine Anleitung ZUM Messen,
+   keine fertige Abstands- oder Flächenzahl zum Zeichnen.
+Keine Reihenabstände, keine Beetbreiten, keine Pflanzabstände stehen im
+Text. Die einzige textlich belegte Aussage zum Platzbedarf ist rein
+qualitativ: „Viel Platz brauchen Kürbis, Kartoffeln und Bohnen. Wenig Platz
+brauchen Blattgemüse und Möhren." Ein bemasstes Beetplan-Schema wäre an
+dieser Stelle nicht durch den Kapiteltext gedeckt, sondern müsste erfundene
+Zahlen zeigen. Was der Text dagegen hergibt, ohne irgendetwas zu erfinden:
+ein reines Ablauf-/Checklisten-Schema der fünf Schritte in ihrer
+Reihenfolge (Bedarf aufschreiben -- Klima/Frosttermine prüfen -- mit
+bekannten Pflanzen anfangen -- Platzbedarf einschätzen, viel/wenig -- die
+Frühjahrslücke im Blick behalten), ohne Massangaben. Ob ein solches
+Prozess-Schema (statt eines bemassten Beetplans) gewünscht ist, ist eine
+Entscheidung, die hier nicht getroffen wurde -- nur die Zahlenlage ist
+festgehalten.
+*Brauchbar wäre:* ein Gartenplan/Beetplan aus einer anderen gemeinfreien
+US-Bundesquelle mit deutlich weniger eingebautem Fliesstext (im Idealfall
+nur Ziffern statt Pflanzennamen in den Feldern, mit einer separaten
+Legende) -- diese beiden geprüften Quellen liefern das nicht.
+
+## Ersatzquelle statt Fehlanzeige gefunden
+
+**agrikultur-zugpferd**, Abschnitt "Das Kummet entscheidet: warum die
+Passform die Zugkraft macht" -- gesuchtes Motiv: Kummet/Geschirr-Passform,
+welcher Riemen wo sitzt, woran zu enges Geschirr zu erkennen ist. Beide
+zitierten Quellen (Farmers' Bulletin 1419 "Care and Management of Farm Work
+Horses", alle Fassungen 1924/1929/1940, sowie Farmers' Bulletin 1368
+"Breaking and Training Colts" von 1923 und dessen Vorgänger FB 667 von 1915)
+sind komplett fotografisch illustriert -- auch die Kummet-Passform-Figuren
+(FB 1419, Fig. 8/9, Seite 14) sind Fotos einer Hand am Pferdehals. FB 1419s
+einzige Strichzeichnung (Fig. 1, Stallgrundriss) hat keinen Bezug zum
+Geschirr. Gesucht und nicht gefunden: ein eigenes USDA-Bundeswerk zu
+Kummet-/Geschirranpassung (Suchbegriffe u. a. "Farmers' Bulletin harness",
+"collar fitting", "hames"; auch Heeresvorschriften zu Zuggeschirr für
+Artillerie-Gespanne durchsucht -- nichts Einschlägiges als US-Bundeswerk
+gefunden). Ein Merkblatt von 1916 mit denselben Autoren wie FB 1419
+("Sore Shoulders", State College of Washington und USDA gemeinsam) kam in
+Frage, ist aber laut Impressum ein Washington-State-Extension-Heft, kein
+reines USDA-Bundeswerk -- nicht verwendet.
+*Für diesen Abschnitt selbst also Fehlanzeige.* Bebildert wurde stattdessen
+ein anderer Abschnitt desselben Eintrags ("Pflege, an der es hakt: Schulter,
+Hufe und Zähne"), für den der Eintragstext fast wortgleich eine Aussage aus
+FB 1419 übernimmt (Hufwinkel/Sehnenspannung), die dort ebenfalls nur als
+Foto vorliegt, aber in einem anderen USDA Farmers' Bulletin (Nr. 179,
+"Horseshoeing", 1903) als Stich existiert -- siehe Bericht des Laufs b-seil.
+*Brauchbar wäre für Kummet/Geschirr selbst:* eine Strichzeichnung mit
+benannten Riemen (Kummet, Kumtstege, Zugstränge, Bauchgurt) aus einem noch
+nicht gefundenen US-Bundeswerk -- am ehesten in einem Heeres- oder
+Quartiermeister-Handbuch zu Zuggeschirr, falls eines mit Illustrationen
+auftaucht.
+
+**agrikultur-mais-mehl**, Abschnitt "Der Keim entscheidet über die
+Haltbarkeit" -- gesuchtes Motiv laut Auftrag: die Mahlgrade nebeneinander.
+Die einzige zitierte Quelle (Farmers' Bulletin 565, "Corn Meal as a Food
+and Ways of Using It") enthält im GANZEN Heft nur eine einzige Abbildung
+(Fig. 1, Seite 21, Foto eines Tellers "Corn-meal fish balls" -- ein
+fertiges Gericht); der Abschnitt "STRUCTURE OF THE CORN KERNEL" (Seite 5)
+ist reiner Fließtext, als Seite eigens gegengeprüft: kein Diagramm.
+Mahlgrade nebeneinander zeigt diese Quelle nirgends.
+
+Gefunden wurde stattdessen, wie es die Projektregeln erlauben (Abbildung
+aus einem zweifelsfrei gemeinfreien US-Bundeswerk außerhalb der belegten
+Quellen), USDA Farmers' Bulletin 112, "Bread and the Principles of Bread
+Making" (Helen W. Atwater, Fassung 1906, archive.org `CAT31127348`), Seite
+14, Figur 5: "Diagrammatic section of grain of corn" -- eine bemaßungsfreie
+Anatomiezeichnung des Maiskorns (Schale, Häutchen, Keimling, Schildchen,
+Mehlkörper), ohne Signatur oder Fremdvermerk (im Unterschied zu den
+Nachbarfiguren 3/4 desselben Hefts, die "(After Cobb.)" tragen). Das ist
+NICHT die gesuchte Mahlgrade-Gegenüberstellung, zeigt aber genau den
+Mechanismus, den der Abschnitt in Worten erklärt: wo im Korn der fettreiche
+Keimling sitzt, der beim Vermahlen entfernt oder belassen wird und damit
+die Haltbarkeit bestimmt. Bewusst als Ersatz verwendet und in der Fußzeile
+des Blattes offengelegt, dass die Zeichnung aus einem anderen Heft stammt
+als der Kapiteltext. Gebautes Blatt: `mais-kern-im-schnitt.png`.
+*Brauchbar wäre für die ursprünglich gesuchten Mahlgrade selbst:* ein Foto
+oder eine Zeichnung, die grobes/wassergemahlenes und feines/granuliertes
+Maismehl nebeneinander zeigt -- in keiner der geprüften Quellen vorhanden.
+
+## Weitere Fehlanzeigen (Lauf b-zucht, 21.08.2026)
+
+**agrikultur-zucht-ohne-inzucht**, Abschnitt "Die Drei-Linien-Drehung: die
+wirksamste Methode ohne Zuchtbuch" -- gesucht wurde eine Rotations-/
+Gruppenwechsel-Grafik zum Text (Weibchen A x Männchen B -> Töchter AB x
+Männchen C -> Töchter ABC x Männchen A -> von vorn). Alle vier zugewiesenen
+Quellen geprüft:
+- USDA Farmers' Bulletin No. 2166, "Swine Production" (1961, archive.org
+  `CAT87205331`, 32 Seiten). Volltextsuche nach "Fig."/"Figure"/"illustrat"
+  im GANZEN Heft: null Treffer. Die Seiten 6 und 7 (dort steht der Abschnitt
+  "Crossbred Stock" mit genau dieser Drei-Linien-Beschreibung) zusätzlich
+  als Bild angesehen: reiner Fließtext neben einem themenfremden
+  Gebrauchsfoto ("Self-feeders reduce labor costs", Seite 6). Das ganze
+  Heft enthält außer zwei solchen Gebrauchsfotos keine einzige Abbildung.
+- Henry S. Randall, "The Practical Shepherd" (1863), Kapitel XII "Breeding
+  In-And-In" (Seite ca. 117-123, Quelle der Inzucht-Warnung dieses
+  Abschnitts). Das Buch führt ein eigenes "List of Illustrations" mit allen
+  Abbildungen und deren Seitenzahlen; in diesem Seitenbereich steht keine
+  einzige. Volltextsuche im Kapitel selbst nach "Fig."/"Engraving"/"Cut"/
+  "Plate" bestätigt das.
+- USDA FB 920 "Milk Goats" (1918/1927) und FB 1508 "Poultry Keeping in Back
+  Yards" (1923/1941): die Textstellen dieses Kapitels zu diesen beiden
+  Quellen (Bock getrennt halten, Verhältnis Hahn zu Hennen) liegen
+  ebenfalls ohne begleitende Abbildung.
+*Brauchbar wäre:* KEIN Stich, sondern ein selbst gezeichnetes Schema -- der
+Inhalt ist reine Buchstaben-Rotation (Kreislauf A x B -> AB, AB x C -> ABC,
+ABC x A -> von vorn), kein Gegenstand, der einen historischen Stich
+bräuchte. Im Kapiteltext stehen dazu KEINE Zahlen (keine Tierzahlen, keine
+Prozent- oder Jahresangaben) -- nur die drei Buchstaben A/B/C und ihre
+Kombinationen AB/ABC. Ein Schema müsste sich auf diese Buchstabenkette
+beschränken und nichts dazuerfinden.
+
+Für einen ANDEREN Abschnitt desselben Kapitels, "Ein einfaches Gedächtnis
+statt eines Zuchtbuchs", wurde dagegen ein Bild gefunden und gebaut: Fig. 17
+aus FB 920 "Milk Goats", Seite 26 (Methoden der Ohrkennzeichnung),
+`ohrkerbe-ohrmarke-ziege.png` -- Details siehe `bericht-b-zucht.md`.
+
+**agrikultur-jungtier-verwaist** ("Verwaistes Lamm oder Zicklein aufziehen:
+Amme oder Flasche") -- gesucht wurde die Flaschenhaltung (Sauger, Haltung,
+Menge) oder das Unterschieben bei einer Amme (Fell-Trick). Alle drei
+zugewiesenen Quellen vollständig geprüft, keine trägt eine Abbildung dazu:
+- USDA Farmers' Bulletin No. 840, "Farm Sheep Raising for Beginners"
+  (Marshall/Millin, Fassung Oktober 1925, archive.org `CAT31290451`). Der
+  gesamte Abschnitt von "WEAK LAMBS" über "DISOWNED LAMBS" bis "ORPHAN
+  LAMBS" (die Textgrundlage dieses Kapitels: Nasenreiben, Fell-Trick,
+  Flaschenmengen) wurde im Volltext gelesen -- reiner Fließtext ohne jeden
+  Abbildungsverweis. Das ganze Heft trägt nur 5 Figuren insgesamt (Weide,
+  Zuchtwidder, Gebiss-Alter, Jährlingsherde, Sommerweide), alle in anderen
+  Kapiteln.
+- Henry S. Randall, "The Practical Shepherd" (1863), Kapitel XV ("Disowning
+  Lambs -- Foster Lambs", Seite ca. 153-163, Quelle des Fell-/Fruchtwasser-
+  Tricks und der Wiederbelebung). Laut dem eigenen "List of Illustrations"
+  des Buchs liegt in diesem Seitenbereich keine Abbildung (die nächsten
+  sind "Shepherd's Crooks" auf Seite 139 und "Tagging, Illustrated" auf
+  Seite 141, beide davor und ohne Bezug zum Thema).
+- USDA Farmers' Bulletin No. 1943, "Diseases of Sheep and Goats"
+  (Shahan/Huffman, 1943, archive.org `CAT10305308`). Die Amme-Bestätigung
+  ("nursing an orphan lamb on the excess milk") und der Rachitis-Absatz
+  liegen beide weit von den elf Abbildungen des Hefts entfernt (alle elf
+  sind Krankheitsfotos: Fötusleber, Anthrax-Bazillen, Räude,
+  Lungenentzündung, Großkopfkrankheit, Tragekrankheit usw.) -- nach Beginn
+  des Rachitis-Abschnitts steht laut Volltextsuche keine einzige Figur mehr
+  im Heft.
+
+Zusätzlich als zweifelsfrei gemeinfreie US-Bundeswerke außerhalb der drei
+zugewiesenen Quellen geprüft (wie es die Regeln erlauben):
+- USDA Farmers' Bulletin No. 810, "Equipment for Farm Sheep Raising" (1922,
+  archive.org `CAT31290428`) -- FB 840 verweist selbst per Fußnote auf
+  dieses Heft ("These panels are described in Farmers' Bulletin 810").
+  Figur 37, Seite 26 ("Appliances useful to the flockmaster") zeigt unter
+  elf nummerierten Werkzeugen auch Nr. 9, "The graduated nursing bottle ...
+  used ... for raising orphan or disowned lambs" -- inhaltlich ein Treffer.
+  Als Bild angesehen und wieder verworfen: Das Foto ist ein unscharfes
+  Halbtonbild eines Werkzeug-Stilllebens, in dem die Flasche nur als
+  kleiner, dunkler Schemen zwischen dem aufgewickelten Melkschlauch und dem
+  Dockingstuhl-Pfosten steckt. Beim Heranzoomen bleibt sie auch bei voller
+  Auflösung nicht mehr als ein unklarer Umriss, keine erkennbare Flasche
+  mit Sauger, und lässt sich wegen der Überlagerung mit Pfosten und
+  Schlauch nicht sauber freistellen.
+- USDA Farmers' Bulletin No. 2222, "Raising a Small Flock of Sheep"
+  (Fassungen 1966 `CAT10305782` und 1977 `CAT87206120`, je 13 Bildseiten,
+  Volltext beider Fassungen geprüft): die drei Abbildungen (Heuraufe,
+  Lammbucht, Lamm-Creep-Panel) haben keinen Bezug zu verwaisten oder von
+  Hand aufgezogenen Lämmern; der Satz zum Verstoßen ("saves lambs that
+  might be disowned") hat selbst keine eigene Figur.
+- USDA Farmers' Bulletin No. 920, "Milk Goats" (1918/1927): keine der
+  wenigen Textstellen zum Handaufzug von Zicklein liegt in der Nähe einer
+  Abbildung; Fig. 16 (Fütterung eines Zickleins aus einer Schale, nicht aus
+  der Flasche) passt inhaltlich nicht zur in unserem Kapitel ausdrücklich
+  verlangten Flaschen-und-Sauger-Methode.
+*Brauchbar wäre:* ein Foto oder eine Zeichnung, die eine Flasche mit Sauger
+beim Füttern eines Lamms oder Zickleins zeigt, oder eine Zeichnung des
+Fell-Tricks beim Unterschieben bei einer Amme -- in keiner der geprüften
+Quellen in brauchbarer Bildqualität und ohne störende Überlagerung
+vorhanden.
